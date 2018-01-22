@@ -1,0 +1,289 @@
+@media (max-width: 768px) {
+.table-collapse tr { border-bottom: 2px solid #848484; }
+.table-collapse th { left: -9999px; position: absolute; top: -9999px; }
+.table-collapse td { min-height: 36px; padding-left: 50% !important; display: block; position: relative; }
+.table-collapse td:first-child { padding-top: .5em; }
+.table-collapse td:last-child { padding-bottom: .5em; }
+.table-collapse td:before { width: 40%; padding-right: 10px; content: attr(data-label) " ";  display: inline-block; font-weight: bold; left: 7px; overflow: hidden; position: absolute; top: 8px; white-space: nowrap; }
+}
+
+.placeholders.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+
+.placeholders.row > [class*='col-'] {
+	 display: flex;
+	 flex-direction: column;
+}
+
+.nav>li>a {
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+a.addcolor .color {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.navbar-right {
+		margin-right: -6px;
+	}
+
+	a.addcolor:hover .gray {
+		display: none;
+	}
+	a.addcolor:hover .color {
+		display: inline;
+	}
+}
+
+table .btn {
+	margin-right: 5px; margin-bottom: 5px;
+	color: #333;
+	background-color: #aacfea;
+	border-color: #ccc;
+}
+table .btn-AndyMark {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+table .btn-BaneBots {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+table .btn-CTRElectronics {
+    color: #fff;
+    background-color: #96c93d;
+    border-color: #79a232;
+}
+table .btn-MaxBotix {
+    color: #fff;
+    background-color: #5A6929;
+    border-color: #46521E;
+}
+table .btn-REVRobotics {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+table .btn-TheRobotSpace {
+    color: #fff;
+    background-color: #cdb28d;
+    border-color: #a7875c;
+}
+table .btn-WestCoastProducts {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+table .btn-VEXpro, table .btn-VEXEDR {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+@media (min-width:768px) {
+	table .btn:hover {
+		color: #333;
+		background-color: #86b1d0;
+		border-color: #adadad;
+	}
+	table .btn-AndyMark:hover {
+		color: #fff;
+		background-color: #c9302c;
+		border-color: #ac2925;
+	}
+	table .btn-BaneBots:hover {
+		color: #fff;
+		background-color: #286090;
+		border-color: #204d74;
+	}
+	table .btn-CTRElectronics:hover {
+		color: #fff;
+		background-color: #769c32;
+		border-color: #597526;
+	}
+	table .btn-MaxBotix:hover {
+		color: #fff;
+		background-color: #324000;
+		border-color: #3B4E18;
+	}
+	table .btn-REVRobotics:hover {
+		color: #fff;
+		background-color: #ec971f;
+		border-color: #d58512;
+	}
+	table .btn-TheRobotSpace:hover {
+		color: #fff;
+		background-color: #ac916e;
+		border-color: #a7875c;
+	}
+	table .btn-WestCoastProducts:hover {
+		color: #fff;
+		background-color: #31b0d5;
+		border-color: #269abc;
+	}
+	table .btn-VEXpro:hover, .btn-VEXEDR:hover {
+		color: #fff;
+		background-color: #449d44;
+		border-color: #398439;
+	}
+}
+
+.glyphicon-none:before {
+    content: "\e013";
+    color: transparent !important;
+}
+
+a.tag-add:hover, a.tag-remove:hover, a.tag-add:active, a.tag-remove:active, a.tag-add:focus, a.tag-remove:focus {
+	text-decoration: none;
+}
+
+.tag-add .glyphicon-ok, .tag-add .glyphicon-plus, .tag-add .glyphicon-remove {
+	display: none;
+}
+.tag-add .glyphicon-none {
+	display: inline;
+}
+.tag-remove {
+	font-weight: bold;
+}
+.tag-remove .glyphicon-remove, .tag-remove .glyphicon-none, .tag-remove .glyphicon-plus {
+	display: none;
+}
+.tag-remove .glyphicon-ok {
+	display: inline;
+}
+
+@media (min-width: 768px) {
+	.tag-add:hover .glyphicon-plus {
+		display: inline;
+		color: #449d44;
+	}
+	.tag-add:hover .glyphicon-none {
+		display: none;
+	}
+	.tag-remove:hover .glyphicon-ok {
+		display: none;
+	}
+	.tag-remove:hover .glyphicon-remove {
+		display: inline;
+		color: #c9302c;
+	}
+}
+
+.navbar-brand {
+	margin-top: -3px;
+}
+
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+	#sidebar {
+		position: fixed;
+		z-index: 5;
+		padding-bottom: 56px;
+		width: 100%;
+		height: 100%;
+	}
+/*
+	#navbar {
+		position: fixed;
+		top: 56px;
+		height: calc(100% - 56px);
+		max-height: calc(100% - 56px);
+		width: 100%;
+		background-color: #222;
+	}
+*/
+}
+@media (min-width: 768px) {
+	#sidebar.navbar-collapse {
+		width: 25%;
+	}
+}
+@media (min-width: 992px) {
+	#sidebar.navbar-collapse {
+		width: 16.66666667%;
+	}
+}
+
+footer {
+    border-top: 1px solid #888;
+    padding: 10px;
+    color: #aaa;
+}
+
+	#sidebar {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 0px;
+	}
+	
+	#sidebar h2 {
+		font-size: 23px;
+		text-align: center;
+		color: #666;
+	}
+	
+	#sidebar h2 + p {
+		text-align: center;
+	}
+
+	#sidebar h2 + p a {
+		text-decoration: none;
+	}
+	
+	#sidebar h2 + p a span {
+		color: #c9302c;
+	}
+
+	h3.collapsetitle .glyphicon-chevron-right {	display: none; }
+	h3.collapsetitle .glyphicon-chevron-down {  }
+	h3.collapsetitle.collapsed .glyphicon-chevron-right { display: inline; }
+	h3.collapsetitle.collapsed .glyphicon-chevron-down { display: none; }
+	
+	h3.collapsetitle {
+	    font-size: 15px;
+		border-top: 1px solid #bbb;
+		width: 100%;
+		cursor: pointer;
+		padding-left: 35px;
+		padding-top: 10px;
+		margin-top: 5px;
+		text-indent: -10px;
+	}
+	
+	.collapselist .row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.collapselist .col-sm-6 {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+	
+	h3.collapsetitle.collapsed {
+		text-indent: -20px;
+	}
+
+	.collapselist a {
+	    width: 100%;
+	    display: block;
+    	font-size: 16px;
+    	padding: 3px 5px 3px 15px;
+	}
+	
+	.currentcategory {
+    	color: #00a700;
+	}
