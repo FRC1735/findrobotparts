@@ -93,7 +93,7 @@ elif action.isdigit() :
 		</div>
 		<div class="col-xs-12 col-sm-8">
 			<h1 class='page-header'>
-				%s 
+				<span>%s</span> 
 				<a href="%s" class="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="bottom" title="We try our best to include everything we know about as accurately as possible. If you find an error or know something is missing please let us know by updating this spreadsheet">Add / Edit this List</a>
 			</h1>
 			%s

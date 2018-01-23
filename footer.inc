@@ -45,7 +45,7 @@
 
 		$(document).ready(function() {
 			$("a.btn-sm").on("click", function() {
-				folder = $("h1").text().toLowerCase();
+				folder = $("h1 span").text().toLowerCase();
 				ga('send', 'event', 'outbound', folder, $(this).attr("href"), {
 					'transport': 'beacon',
 					'hitCallback': function(){document.location = url;}
