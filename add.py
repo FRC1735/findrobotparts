@@ -17,6 +17,7 @@ action = form.getvalue("action")
 includes.cats = form.getvalue("cats")
 includes.tags = form.getvalue("tags")
 edit = form.getvalue("edit")
+editgroup = form.getvalue("editgroup")
 
 stringlist = re.compile("^[0-9,]+$")
 if includes.cats is None or includes.tags is None or not stringlist.match(includes.cats) or not stringlist.match(includes.tags) :
@@ -50,8 +51,9 @@ if 'HTTP_COOKIE' in os.environ:
 print """\
 <ul>
 	<li><a href="?action=multiple">Multiple</a></li>
-	<li><a href="?action=single">Single</a></li> 
+	<li><a href="?action=single">Single (edit or create)</a></li> 
 	<li><a href="?action=newgroup">New Group</a></li>
+	<li><a href="?action=editgroup">Edit Group</a></li>
 </ul>
 """
 
@@ -69,6 +71,13 @@ if form.getvalue("sqltype") == "newgroup" :
 		#print "<p>%s</p>" % sql
 	conn.commit()
 	print "<p>Successfully created group</p>"
+elif form.getvalue("sqltype") == "editgroup" :
+	sql = "UPDATE groups SET value = %s, description = %s, image = %s, pathname = %s, spreadsheet = %s WHERE groupid = %s" % (conn.literal(form.getvalue("value")),conn.literal(form.getvalue("description")),conn.literal(form.getvalue("folder")),conn.literal(form.getvalue("pathname")),conn.literal(form.getvalue("spreadsheet")), conn.literal(editgroup))
+	#print sql
+	cursor.execute(sql)
+	conn.commit()
+
+	print "<p>%s updated</p>" % form.getvalue("value")
 elif form.getvalue("sqltype") == "multiple" :
 	category = form.getvalue("cats")
 	dryrun = form.getvalue("dryrun")
@@ -387,38 +396,63 @@ elif action == "multiple" :
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
 	"""
-elif action=="newgroup" :
+elif action=="newgroup" or editgroup is not None :
+
+	sqltype = "newgroup"
+	categories = ""
+	row = {'value':'', 'description':'', 'image':'', 'pathname':'', 'spreadsheet':''}
+
+	if editgroup is not None :
+		sqltype = "editgroup"
+		sql = "SELECT * FROM groups WHERE groupid = %s" % conn.literal(editgroup)
+		cursor.execute(sql)
+		row = cursor.fetchone()
+		categories = "does nothing"
+
 	print """\
 	<form method="post" action="/add.py">
-		<input type="hidden" name="sqltype" value="newgroup"/>
+		<input type="hidden" name="editgroup" value="%s"/>
+		<input type="hidden" name="sqltype" value="%s"/>
 		<div class="form-group">
 			<label for="value">Group Name</label>
-			<input type="text" class="form-control" name="value">
+			<input type="text" class="form-control" name="value" value="%s">
 		</div>
 		<div class="form-group">
 			<label for="categories">Categories</label>
-			<input type="text" class="form-control" name="categories">
+			<input type="text" class="form-control" name="categories" value="%s">
 		</div>
 		<div class="form-group">
 			<label for="description">Description</label>
-			<input type="text" class="form-control" name="description">
+			<input type="text" class="form-control" name="description" value="%s">
 		</div>
 		<div class="form-group">
 			<label for="description">Image Filename (singular)</label>
-			<input type="text" class="form-control" name="folder">
+			<input type="text" class="form-control" name="folder" value="%s">
 		</div>
 		<div class="form-group">
 			<label for="description">Image Folder (plural with dashes)</label>
-			<input type="text" class="form-control" name="pathname">
+			<input type="text" class="form-control" name="pathname" value="%s">
 		</div>
 		<div class="form-group">
 			<label for="description">Spreadsheet</label>
-			<input type="text" class="form-control" name="spreadsheet">
+			<input type="text" class="form-control" name="spreadsheet" value="%s">
 		</div>
 
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>	
-	"""
+	""" % (editgroup, sqltype, row["value"], categories, row["description"], row["image"], row["pathname"], row["spreadsheet"])
+elif action=="editgroup" :
+	sql = "SELECT * FROM groups ORDER BY value"
+
+	cursor.execute(sql)
+	rows = cursor.fetchall()
+
+	print '<div class="list-group">'
+
+	for row in rows :
+		print "<a href='?editgroup=%s' class='list-group-item'>%s</a>" % (row["groupid"], row["value"])
+
+	print "</div>"
 
 
 includes.printFoot()
