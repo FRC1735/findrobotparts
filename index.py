@@ -85,7 +85,7 @@ elif action.isdigit() :
 	sql = "SELECT value, description, image, spreadsheet FROM groups WHERE groupid=%s" % action
 	cursor.execute(sql)
 	rows = cursor.fetchall()
-	
+
 	print """\
 	<div class="row" class="margin-bottom: 30px;">
 		<div class="col-xs-12 col-sm-2 hidden-xs">
@@ -107,6 +107,9 @@ elif action.isdigit() :
 		</div>
 	</div>
 	""" % (rows[0]["image"], rows[0]["value"], rows[0]["value"], rows[0]["spreadsheet"], rows[0]["description"])
+
+	sql = "SET @@group_concat_max_len = 2048"
+	cursor.execute(sql)
 
 	sql = """\
 		SELECT prodtable.productid, prodtable.name, prodtable.image, group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, group_concat(prodtable.tagvalue ORDER BY prodtable.priority SEPARATOR '||') AS tags, linklist.vendors, linklist.links
