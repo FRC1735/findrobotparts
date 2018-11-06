@@ -82,6 +82,7 @@
 				<ul class="dropdown-menu">
 					<li><a href="/bumperfabric/">Bumper Fabric</a></li>
 					<li><a href="/bumpernumbers/">Bumper Numbers</a></li>
+					<li><a href="/resources-software/">Software Resources</a></li>
 	 				<li><a href="/vendors/">Vendors</a></li>
 			   	</ul>
 			</li>
