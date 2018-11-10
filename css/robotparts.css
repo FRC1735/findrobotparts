@@ -247,6 +247,10 @@ footer {
 		color: #c9302c;
 	}
 
+	#sidebar .row .col-xs-6 a {
+		white-space: nowrap;
+	}
+
 	h3.collapsetitle .glyphicon-chevron-right {	display: none; }
 	h3.collapsetitle .glyphicon-chevron-down {  }
 	h3.collapsetitle.collapsed .glyphicon-chevron-right { display: inline; }
