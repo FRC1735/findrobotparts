@@ -36,6 +36,7 @@
 					<li><a href="/gamecontrollers/">Game Controllers</a></li>
 					<li><a href="/lights/">Lights</a></li>
 					<li><a href="/motor-controllers/">Motor Controllers</a></li>
+					<li><a href="/mxp-boards/">MXP Boards</a></li>
 					<li><a href="/sensors/">Sensors</a></li>
 					<li><a href="/wireconnectors/">Wire Connectors</a></li>
 					<li><a href="/vendors/categories/32/tags/330,333,334,335,336">Electrical Vendors</a></li>
@@ -82,7 +83,7 @@
 				<ul class="dropdown-menu">
 					<li><a href="/bumperfabric/">Bumper Fabric</a></li>
 					<li><a href="/bumpernumbers/">Bumper Numbers</a></li>
-					<li><a href="/resources-software/">Software Resources</a></li>
+					<li><a href="/resources-programming/">Programming Resources</a></li>
 	 				<li><a href="/vendors/">Vendors</a></li>
 			   	</ul>
 			</li>

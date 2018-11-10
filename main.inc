@@ -71,6 +71,13 @@
 			</a>
 		</div>
 		<div class="col-xs-6 col-md-2 placeholder">
+			<a href="/mxp-boards/" class="addcolor">
+				<img src="/images/categories/mxp-board-gray.jpg" width="150" height="150" class="img-responsive gray" alt="MXP Boards">
+				<img src="/images/categories/mxp-board-color.jpg" width="150" height="150" class="img-responsive color" alt="MXP Boards">
+				<h4>MXP Boards</h4>
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-2 placeholder">
 			<a href="/sensors/" class="addcolor">
 				<img src="/images/categories/sensor-gray.jpg" width="150" height="150" class="img-responsive gray" alt="Sensors">
 				<img src="/images/categories/sensor-color.jpg" width="150" height="150" class="img-responsive color" alt="Sensors">
@@ -257,10 +264,10 @@
 			</a>
 		</div>
 		<div class="col-xs-6 col-md-2 placeholder">
-			<a href="/resources-software/" class="addcolor">
-				<img src="/images/categories/resources-software-gray.jpg" width="150" height="150" class="img-responsive gray" alt="Software Resources">
-				<img src="/images/categories/resources-software-color.jpg" width="150" height="150" class="img-responsive color" alt="Software Resources">
-				<h4>Software Resources</h4>
+			<a href="/resources-programming/" class="addcolor">
+				<img src="/images/categories/resources-programming-gray.jpg" width="150" height="150" class="img-responsive gray" alt="Programming Resources">
+				<img src="/images/categories/resources-programming-color.jpg" width="150" height="150" class="img-responsive color" alt="Programming Resources">
+				<h4>Programming Resources</h4>
 			</a>
 		</div>
 		<div class="col-xs-6 col-md-2 placeholder">
