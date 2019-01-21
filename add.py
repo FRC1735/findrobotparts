@@ -51,7 +51,8 @@ if 'HTTP_COOKIE' in os.environ:
 print """\
 <ul>
 	<li><a href="?action=multiple">Multiple</a></li>
-	<li><a href="?action=single">Single (edit or create)</a></li> 
+	<li><a href="?action=single">Single (edit)</a></li> 
+	<li><a href="?action=new">Single (create)
 	<li><a href="?action=newgroup">New Group</a></li>
 	<li><a href="?action=editgroup">Edit Group</a></li>
 </ul>
@@ -208,11 +209,12 @@ elif form.getvalue("sqltype") == "single":
 		print "UPDATED SUCCESSFULLY"
 
 
-if action == "single" or edit is not None:
-	product = { "name": "", "image":""}
+if action == "single" or action == "new" or edit is not None:
+	product = { "name": "", "image":"", "groupid":""}
 	tags = []
 	links = []
 
+	#get the product information
 	if edit is not None :
 		sql = "SELECT * FROM products WHERE productid = %s" % edit
 		cursor.execute(sql)
@@ -224,6 +226,13 @@ if action == "single" or edit is not None:
 		for tag in tagsrequest :
 			tags.append(tag["tagid"])
 	
+		sql = "SELECT * FROM tags WHERE tagid = %s" % tags[0]
+		cursor.execute(sql)
+
+		sql = "SELECT * FROM categories WHERE categoryid = %s" % cursor.fetchall()[0]["categoryid"]
+		cursor.execute(sql)
+		product["groupid"] = cursor.fetchall()[0]["groupid"]
+
 		sql = "SELECT * FROM links WHERE productid = %s" % edit
 		cursor.execute(sql)
 		links = cursor.fetchall()
@@ -231,129 +240,166 @@ if action == "single" or edit is not None:
 	<div class="panel-group" id="tagaccordion">
 	"""
 
-	sql = """\
-		SELECT groups.value AS groupvalue, products.productid, products.name, categories.groupid
-		FROM `products`
-		LEFT JOIN producttag ON producttag.productid = products.productid
-		LEFT JOIN tags ON producttag.tagid = tags.tagid
-		LEFT JOIN categories ON tags.categoryid = categories.categoryid
-		LEFT JOIN groups ON groups.groupid=categories.groupid
-		GROUP BY products.productid
-		ORDER BY groups.value, categories.groupid, products.name"""
-	cursor.execute(sql)
-	rows = cursor.fetchall()
-	lastgroup = 0
-	for row in rows :
-		if lastgroup != row["groupid"] :
-			if lastgroup != 0 :
-				print "</ul></div></div></div>"
-			print """\
-				<div class="panel panel-default">
-					<div class="panel-heading">
-					<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' href='#tagging%s'>%s</h4>
-					</div>
-					<div id="tagging%s" class="panel-collapse collapse">
-						<div class="panel-body">
-							<ul>
-			""" % (row["groupid"], row["groupvalue"], row["groupid"])
-		print "<li><a href='/add.py?edit=%s#start'>%s</a></li>" % (row["productid"], row["name"])
-		lastgroup = row["groupid"]
-	print "</ul></div></div></div></div>"
-
-	print """\
-
-	<form method="post" action="/add.py" id="start">
-		<input type="hidden" name="sqltype" value="single"/>
-		<div class="form-group">
-			<label for="name">Name</label>
-			<input type="text" id="name" name="name" class="form-control" value='%s'>
-		</div>
-		<div class="form-group">
-			<label for="image">Image</label>
-			<input type="text" id="image" name="image" class="form-control" value="%s">
-		</div>
-	<h4>Links</h4>
-	""" % (product["name"], product["image"])
-
-	if edit is not None:
-		print "<input type='hidden' name='editid' value='%s'/>" % edit
-	else :
-		print "<input type='hidden' name='type' value='new'>"
-
-
-	for i in [0,1,2,3,4,5,6,7,8,9,10,11,12] :
-		if i >= len(links) :
-			vendor = ""
-			link = ""
-			linkid = ""
-		else :
-			vendor = links[i]["Vendor"]
-			link = links[i]["link"]
-			linkid = links[i]["linkid"]
-		print """\
-		<div class="row form-group">
-			<input type="hidden" name="linkid%s" value="%s"/>
-			<div class="col-sm-4">
-				<input type="text" name="vendor%s" class="form-control" placeholder="Company Name" value="%s">
-			</div>
-			<div class="col-sm-8">
-				<input type="text" name="link%s" class="form-control" placeholder="Product Link" value="%s">
-			</div>
-		</div>
-		""" % (i+1, linkid, i+1, vendor, i+1, link)
-
-	print """\
-	<h4>Tags</h4>
-	<div class="panel-group" id="tagaccordion">
-	""" 
-
-	sql = """
-		SELECT groups.value AS groupvalue, categories.groupid, categories.value AS category, tags.tagid, tags.value as tag 
-		FROM `tags` 
-		LEFT JOIN categories ON tags.categoryid = categories.categoryid 
-		LEFT JOIN groups ON categories.groupid = groups.groupid 
-		ORDER BY groups.value, categories.groupid DESC, categories.value, tags.value*1, tags.value"""
-	cursor.execute(sql)
-	rows = cursor.fetchall()
-	lastcat = ""
-	lastgroup = 0
-	for row in rows :
-		if lastcat != row["category"] :
-			if lastcat != "" :
-				print "</div>"
+	# show the existing products by category
+	if edit is None and action != "new" :
+		sql = """\
+			SELECT groups.value AS groupvalue, products.productid, products.name, categories.groupid
+			FROM `products`
+			LEFT JOIN producttag ON producttag.productid = products.productid
+			LEFT JOIN tags ON producttag.tagid = tags.tagid
+			LEFT JOIN categories ON tags.categoryid = categories.categoryid
+			LEFT JOIN groups ON groups.groupid=categories.groupid
+			GROUP BY products.productid
+			ORDER BY groups.value, categories.groupid, products.name"""
+		cursor.execute(sql)
+		rows = cursor.fetchall()
+		lastgroup = 0
+		for row in rows :
 			if lastgroup != row["groupid"] :
 				if lastgroup != 0 :
-					print "</div></div></div>"
+					print "</ul></div></div></div>"
 				print """\
-				<div class="panel panel-default">
-					<div class="panel-heading">
-					<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' href='#ttagging%s'>%s</h4>
-					</div>
-					<div id="ttagging%s" class="panel-collapse collapse">
-						<div class="panel-body">
-					""" % (row["groupid"], row["groupvalue"], row["groupid"])
-			print "<div class='col-sm-2'><label>%s</label>" % row["category"]
-		checked = ""
-		if row["tagid"] in tags :
-			checked = " checked"
-		print """\
-		<div class="checkbox">
-			<label>
-				<input name="tags" type="checkbox" value="%s" %s> %s
-			</label>
-		</div>
-		""" % (row["tagid"], checked, row["tag"])
-		lastcat = row["category"]
-		lastgroup = row["groupid"]
+					<div class="panel panel-default">
+						<div class="panel-heading">
+						<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' href='#tagging%s'>%s</h4>
+						</div>
+						<div id="tagging%s" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul>
+				""" % (row["groupid"], row["groupvalue"], row["groupid"])
+			print "<li><a href='/add.py?edit=%s'>%s</a></li>" % (row["productid"], row["name"])
+			lastgroup = row["groupid"]
+		print "</ul></div></div></div></div>"
 
+	# product info form
+	if edit is not None or action == "new" :
+		print """\
+
+		<form method="post" action="/add.py" id="start">
+			<input type="hidden" name="sqltype" value="single"/>
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" class="form-control" value='%s'>
+			</div>
+			<div class="form-group">
+				<label for="image">Image</label>
+				<input type="text" id="image" name="image" class="form-control" value="%s">
+			</div>
+		<h4>Links</h4>
+		""" % (product["name"], product["image"])
+
+		if edit is not None:
+			print "<input type='hidden' name='editid' value='%s'/>" % edit
+		else :
+			print "<input type='hidden' name='type' value='new'>"
+
+		# urls
+		for i in [0,1,2,3,4,5,6,7,8,9,10,11,12] :
+			if i >= len(links) :
+				vendor = ""
+				link = ""
+				linkid = ""
+			else :
+				vendor = links[i]["Vendor"]
+				link = links[i]["link"]
+				linkid = links[i]["linkid"]
+			print """\
+			<div class="row form-group">
+				<input type="hidden" name="linkid%s" value="%s"/>
+				<div class="col-sm-4">
+					<input type="text" name="vendor%s" class="form-control" placeholder="Company Name" value="%s">
+				</div>
+				<div class="col-sm-8">
+					<input type="text" name="link%s" class="form-control" placeholder="Product Link" value="%s">
+				</div>
+			</div>
+			""" % (i+1, linkid, i+1, vendor, i+1, link)
+
+	print "<h4>Tags</h4>"
+
+	# tags for all groups
+	if edit is None and action == "new":
+		print """\
+			<div class="panel-group" id="tagaccordion">
+		"""
+		sql = """
+			SELECT groups.value AS groupvalue, categories.groupid, categories.value AS category, tags.tagid, tags.value as tag 
+			FROM `tags` 
+			LEFT JOIN categories ON tags.categoryid = categories.categoryid 
+			LEFT JOIN groups ON categories.groupid = groups.groupid 
+			ORDER BY groups.value, categories.groupid DESC, categories.value, tags.value*1, tags.value"""
+		cursor.execute(sql)
+		rows = cursor.fetchall()
+		lastcat = ""
+		lastgroup = 0
+		for row in rows :
+			if lastcat != row["category"] :
+				if lastcat != "" :
+					print "</div>"
+				if lastgroup != row["groupid"] :
+					if lastgroup != 0 :
+						print "</div></div></div>"
+					print """\
+					<div class="panel panel-default">
+						<div class="panel-heading">
+						<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' href='#ttagging%s'>%s</h4>
+						</div>
+						<div id="ttagging%s" class="panel-collapse collapse">
+							<div class="panel-body">
+						""" % (row["groupid"], row["groupvalue"], row["groupid"])
+				print "<div class='col-sm-2'><label>%s</label>" % row["category"]
+			checked = ""
+			if row["tagid"] in tags :
+				checked = " checked"
+			print """\
+			<div class="checkbox">
+				<label>
+					<input name="tags" type="checkbox" value="%s" %s> %s
+				</label>
+			</div>
+			""" % (row["tagid"], checked, row["tag"])
+			lastcat = row["category"]
+			lastgroup = row["groupid"]
+
+
+		print """\
+		</div></div></div>
+		</div>
+		"""
+	# tags for current category
+	elif edit is not None and action != "new" :
+		sql = """
+			SELECT groups.value AS groupvalue, categories.groupid, categories.value AS category, tags.tagid, tags.value as tag 
+			FROM `tags` 
+			LEFT JOIN categories ON tags.categoryid = categories.categoryid 
+			LEFT JOIN groups ON categories.groupid = groups.groupid 
+			WHERE categories.groupid = %s
+			ORDER BY groups.value, categories.groupid DESC, categories.value, tags.value*1, tags.value""" % product["groupid"]
+		cursor.execute(sql)
+		rows = cursor.fetchall()
+		lastcat = ""
+		print "<div class='row'>"
+		for row in rows :
+			if lastcat != row["category"] :
+				if lastcat != "" :
+					print "</div>"
+				print "<div class='col-sm-2'><label>%s</label>" % row["category"]
+			checked = ""
+			if row["tagid"] in tags :
+				checked = " checked"
+			print """\
+			<div class="checkbox">
+				<label>
+					<input name="tags" type="checkbox" value="%s" %s> %s
+				</label>
+			</div>
+			""" % (row["tagid"], checked, row["tag"])
+			lastcat = row["category"]
+		print "</div></div></div>"
 
 	print """\
-	</div></div></div>
-	</div>
 	<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
-
-
 	"""
 elif action == "multiple" :
 	sql = """\
