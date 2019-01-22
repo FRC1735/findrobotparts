@@ -236,12 +236,14 @@ if action == "single" or action == "new" or edit is not None:
 		sql = "SELECT * FROM links WHERE productid = %s" % edit
 		cursor.execute(sql)
 		links = cursor.fetchall()
-	print """\
-	<div class="panel-group" id="tagaccordion">
-	"""
 
 	# show the existing products by category
 	if edit is None and action != "new" :
+		#print """\
+		#<div class="panel-group" id="tagaccordion">
+		#"""
+
+		print "<div class='row'>"
 		sql = """\
 			SELECT groups.value AS groupvalue, products.productid, products.name, categories.groupid
 			FROM `products`
@@ -257,19 +259,17 @@ if action == "single" or action == "new" or edit is not None:
 		for row in rows :
 			if lastgroup != row["groupid"] :
 				if lastgroup != 0 :
-					print "</ul></div></div></div>"
+					print "</ul></div>"
 				print """\
-					<div class="panel panel-default">
-						<div class="panel-heading">
-						<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' href='#tagging%s'>%s</h4>
-						</div>
-						<div id="tagging%s" class="panel-collapse collapse">
-							<div class="panel-body">
-								<ul>
-				""" % (row["groupid"], row["groupvalue"], row["groupid"])
+					<div class="col-md-4">
+						<h4>%s</h4>
+						<ul>
+				""" % (row["groupvalue"])
+
+
 			print "<li><a href='/add.py?edit=%s'>%s</a></li>" % (row["productid"], row["name"])
 			lastgroup = row["groupid"]
-		print "</ul></div></div></div></div>"
+		print "</ul></div></div>"
 
 	# product info form
 	if edit is not None or action == "new" :
