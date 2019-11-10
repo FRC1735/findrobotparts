@@ -88,10 +88,10 @@ elif action.isdigit() :
 
 	print """\
 	<div class="row" class="margin-bottom: 30px;">
-		<div class="col-xs-12 col-sm-2 hidden-xs">
-			<img src="/images/categories/%s-gray.jpg" alt="%s" class="img-circle" width="100%%">
+		<div class="col-12 col-sm-2 hidden-xs">
+			<img src="/images/categories/%s-gray.jpg" alt="%s" class="rounded-circle" width="100%%">
 		</div>
-		<div class="col-xs-12 col-sm-8">
+		<div class="col-12 col-sm-8">
 			<h1 class='page-header'>
 				<span>%s</span> 
 				<a href="%s" class="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="bottom" title="We try our best to include everything we know about as accurately as possible. If you find an error or know something is missing please let us know by updating this spreadsheet">Add / Edit this List</a>
@@ -99,9 +99,9 @@ elif action.isdigit() :
 			%s
 			<p><strong>Important:</strong> It is up to you to verify the part you want to use fits within the rules.</p>
 		</div>
-		<div class="col-xs-12 col-sm-2 hidden-xs">
+		<div class="col-12 col-sm-2 hidden-xs">
 			<a href="http://www.firstnac.org" target="_blank">
-				<img src="/images/nac-log.png" alt="FIRST National Advocacy Group" class="img-responsive center-block">
+				<img src="/images/nac-log.png" alt="FIRST National Advocacy Group" class="img-fluid">
 			</a>
 			<p><small>Your opportunity to make a difference in our future!</small></p>
 		</div>

@@ -45,9 +45,9 @@ def printSidebarLink(action, cursor, tagid, categoryid, cvalue, tvalue) :
 	newCats = getNewCats(tagid, categoryid, cursor)
 	newTags = getNewTags(tagid)
 	if newCats != "" and newTags != "" :
-		return "<a href='/%s/categories/%s/tags/%s' class='%s'><span class='glyphicon glyphicon-none'></span><span class='glyphicon glyphicon-plus'></span><span class='glyphicon glyphicon-ok'></span><span class='glyphicon glyphicon-remove'></span> %s</a>" % (getPathName(action, cursor), newCats, newTags, "tag-remove" if currenttag else "tag-add", tvalue)
+		return "<a href='/%s/categories/%s/tags/%s' class='%s'><span class='fakeicon'></span><span class='fas fa-plus'></span></span><span class='fas fa-check'></span><span class='fas fa-times'></span> %s</a>" % (getPathName(action, cursor), newCats, newTags, "tag-remove" if currenttag else "tag-add", tvalue)
 	else :
-		return "<a href='/%s/' class='%s'><span class='glyphicon glyphicon-none'></span><span class='glyphicon glyphicon-plus'></span><span class='glyphicon glyphicon-ok'></span><span class='glyphicon glyphicon-remove'></span> %s</a>" % (getPathName(action, cursor), "tag-remove" if currenttag else "tag-add", tvalue)				
+		return "<a href='/%s/' class='%s'><span class='fakeicon'></span><span class='fas fa-plus'></span></span><span class='fas fa-check'></span><span class='fas fa-times'></span> %s</a>" % (getPathName(action, cursor), "tag-remove" if currenttag else "tag-add", tvalue)				
 
 
 def printHead(action, cursor):
@@ -92,8 +92,8 @@ def printHead(action, cursor):
 					currentCat = "currentcategory"
 				html += """\
 					<h3 data-toggle="collapse" data-target="#cat%s" class="collapsetitle collapsed %s">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+						<span class="fas fa-chevron-right" aria-hidden="true"></span>
+						<span class="fas fa-chevron-down" aria-hidden="true"></span>
 						%s
 					</h3>
 					<div id="cat%s" class="collapse collapselist">
@@ -103,9 +103,9 @@ def printHead(action, cursor):
 			lastsection = row["cvalue"]
 		if html != "" :
 			html += "</div>"
-			print '<h2><span class="glyphicon glyphicon-filter"></span>Filter</h2>'
+			print '<h2><span class="fas fa-filter"></span> Filter</h2>'
 			if tags :
-				print '<p><a href="/%s"><span class="glyphicon glyphicon-remove"></span> Clear filter(s)</a></p>' % pathName
+				print '<p><a href="/%s"><span class="fas fa-times"></span> Clear filter(s)</a></p>' % pathName
 			print html
 		#print "<div class='row'>%s</div>" % html
 	print open("middle.inc").read()
