@@ -1,4 +1,6 @@
-
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://findrobotparts.com/$1 [R,L]
 
 Redirect 301 /pneumatics/compressors/ http://findrobotparts.com/compressors
 
@@ -18,8 +20,6 @@ RewriteRule ^3d/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/index.py?action
 
 RewriteRule ^([a-z\-]+)/?$									/index.py?actionname=$1
 RewriteRule ^([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/index.py?actionname=$1&cats=$2&tags=$3
-
-
 
 </IfModule>
 

@@ -4,7 +4,7 @@
 
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<a class="navbar-brand" href="/">
-			<img src="http://findrobotparts.com/images/find-robot-parts.png" alt="Find Robot Parts" title="Find Robot Parts" width="220" height="33" class="d-inline-block align-top">
+			<img src="/images/find-robot-parts.png" alt="Find Robot Parts" title="Find Robot Parts" width="220" height="33" class="d-inline-block align-top">
 		</a>
 		<button type="button" class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#sidebar" id="filterbutton">
 			<span class="fas fa-filter"></span>
