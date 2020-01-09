@@ -320,7 +320,7 @@ if action == "single" or action == "new" or edit is not None:
 	# tags for all groups
 	if edit is None and action == "new":
 		print """\
-			<div class="panel-group" id="tagaccordion">
+			<div class="panel-group" id="tabaccordion">
 		"""
 		sql = """
 			SELECT groups.value AS groupvalue, categories.groupid, categories.value AS category, tags.tagid, tags.value as tag 
@@ -338,14 +338,15 @@ if action == "single" or action == "new" or edit is not None:
 					print "</div>"
 				if lastgroup != row["groupid"] :
 					if lastgroup != 0 :
-						print "</div></div></div>"
+						print "</div></div></div></div>"
 					print """\
 					<div class="panel panel-default">
 						<div class="panel-heading">
-						<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' href='#ttagging%s'>%s</h4>
+						<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' data-target='#ttagging%s'>%s</h4>
 						</div>
 						<div id="ttagging%s" class="panel-collapse collapse">
 							<div class="panel-body">
+								<div class="row">
 						""" % (row["groupid"], row["groupvalue"], row["groupid"])
 				print "<div class='col-sm-2'><label>%s</label>" % row["category"]
 			checked = ""
@@ -363,7 +364,7 @@ if action == "single" or action == "new" or edit is not None:
 
 
 		print """\
-		</div></div></div>
+		</div></div></div></div>
 		</div>
 		"""
 	# tags for current category
