@@ -113,6 +113,17 @@ try :
 	cursor.execute(sql)
 	categoryRows = cursor.fetchall()
 
+	categories = []
+	for row in categoryRows :
+		sql = "SELECT tagid, value FROM tags WHERE categoryid = %s ORDER BY value*1, value" % row["categoryid"]
+		cursor.execute(sql)
+		tagRows = cursor.fetchall()
+		categories.append({
+			"categoryid": row["categoryid"],
+			"value": row["value"],
+			"tags": tagRows
+		})
+
 	data = {
 		"productid": productRow["groupid"],
 		"title": productRow["value"],
@@ -120,7 +131,7 @@ try :
 		"description": productRow["description"],
 		"imageslug": productRow["image"],
 		"spreadsheet": productRow["spreadsheet"],
-		"categories": categoryRows,
+		"categories": categories,
 		"products": productRows
 	}
 
