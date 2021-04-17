@@ -70,6 +70,7 @@
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="/accumulators/">Accumulators</a>
 						<a class="dropdown-item" href="/compressors/">Compressors</a>
+						<a class="dropdown-item" href="/pneumaticcomponents/">Pneumatic Components</a>
 						<a class="dropdown-item" href="/pneumaticfittings/">Pneumatic Fittings</a>
 						<a class="dropdown-item" href="/pneumatictubing/">Pneumatic Tubing</a>
 						<a class="dropdown-item" href="/vendors/categories/32/tags/325">Pneumatics Vendors</a>
@@ -81,6 +82,7 @@
 						<a class="dropdown-item" href="/bumperfabric/">Bumper Fabric</a>
 						<a class="dropdown-item" href="/bumpernumbers/">Bumper Numbers</a>
 						<a class="dropdown-item" href="/resources-programming/">Programming Resources</a>
+						<a class="dropdown-item" href="/subsystems/">Subsystems</a>
 						<a class="dropdown-item" href="/vendors/">Vendors</a>
 					</div>
 				</li>

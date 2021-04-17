@@ -232,6 +232,13 @@
 			</a>
 		</div>
 		<div class="col-6 col-sm-4 col-md-3 placeholder">
+			<a href="/pneumaticcomponents/" class="addcolor">
+				<img src="/images/categories/pneumaticcomponent-gray.jpg" width="150" height="150" class="img-responsive gray" alt="Pneumatic Components">
+				<img src="/images/categories/pneumaticcomponent-color.jpg" width="150" height="150" class="img-responsive color" alt="Pneumatic Components">
+				<h4>Pneumatic Components</h4>
+			</a>
+		</div>
+		<div class="col-6 col-sm-4 col-md-3 placeholder">
 			<a href="/pneumaticfittings/" class="addcolor">
 				<img src="/images/categories/pneumaticfittings-gray.jpg" width="150" height="150" class="img-responsive gray" alt="Pneumatic Fittings">
 				<img src="/images/categories/pneumaticfittings-color.jpg" width="150" height="150" class="img-responsive color" alt="Pneumatic Fittings">
@@ -268,6 +275,13 @@
 				<img src="/images/categories/resources-programming-gray.jpg" width="150" height="150" class="img-responsive gray" alt="Programming Resources">
 				<img src="/images/categories/resources-programming-color.jpg" width="150" height="150" class="img-responsive color" alt="Programming Resources">
 				<h4>Programming Resources</h4>
+			</a>
+		</div>
+		<div class="col-6 col-sm-4 col-md-3 placeholder">
+			<a href="/subsystems/" class="addcolor">
+				<img src="/images/categories/subsystem-gray.jpg" width="150" height="150" class="img-responsive gray" alt="Subsystems">
+				<img src="/images/categories/subsystem-color.jpg" width="150" height="150" class="img-responsive color" alt="Subsystems">
+				<h4>Subsystems</h4>
 			</a>
 		</div>
 		<div class="col-6 col-sm-4 col-md-3 placeholder">
