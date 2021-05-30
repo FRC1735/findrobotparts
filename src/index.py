@@ -5,8 +5,6 @@ import sys
 import cgi
 import cgitb
 import re
-import urllib
-import os
 
 import includes
 
@@ -19,7 +17,8 @@ includes.cats = form.getvalue("cats")
 includes.tags = form.getvalue("tags")
 
 stringlist = re.compile("^[0-9,]+$")
-if includes.cats is None or includes.tags is None or not stringlist.match(includes.cats) or not stringlist.match(includes.tags) :
+if includes.cats is None or includes.tags is None or not stringlist.match(includes.cats) or not stringlist.match(
+		includes.tags) :
 	includes.cats = None
 	includes.tags = None
 
@@ -70,7 +69,7 @@ if actionname is not None :
 	else :
 		action = None
 
-includes.printHead(action,cursor) 
+includes.printHead(action, cursor)
 	
 
 if action is None :

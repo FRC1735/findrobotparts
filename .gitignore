@@ -1,4 +1,5 @@
-
 *.pyc
 config.py
 .DS_Store
+node_modules/
+.idea/

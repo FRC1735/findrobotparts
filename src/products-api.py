@@ -6,8 +6,6 @@ import cgi
 import cgitb
 import re
 import traceback
-import urllib
-import os
 import json
 
 import includes

@@ -5,7 +5,6 @@ import sys
 import cgi
 import cgitb
 import re
-import urllib
 import os
 import Cookie
 
@@ -20,7 +19,8 @@ edit = form.getvalue("edit")
 editgroup = form.getvalue("editgroup")
 
 stringlist = re.compile("^[0-9,]+$")
-if includes.cats is None or includes.tags is None or not stringlist.match(includes.cats) or not stringlist.match(includes.tags) :
+if includes.cats is None or includes.tags is None or not stringlist.match(includes.cats) or not stringlist.match(
+		includes.tags) :
 	includes.cats = None
 	includes.tags = None
 	
@@ -34,7 +34,7 @@ except mdb.Error, e:
 	includes.printFoot()
 	sys.exit(1)
 	
-includes.printHead(None,cursor)
+includes.printHead(None, cursor)
 
 if 'HTTP_COOKIE' in os.environ:
 	cookie_string = os.environ.get('HTTP_COOKIE')
