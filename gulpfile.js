@@ -57,7 +57,7 @@ buildtemplate = () => {
 					output += `
 					<div class="col-4 text-center mb-3">
 						<a href="${element.path}">
-							<img src="images/categories/${element.image}-gray.jpg" class="img-thumbnail" alt="${element.name}">
+							<img src="/images/categories/${element.image}-gray.jpg" class="img-thumbnail" alt="${element.name}">
 							${element.name}
 						</a>
 					</div>`
