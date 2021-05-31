@@ -1,0 +1,182 @@
+{
+	"groups": [
+		{
+			"name": "3D Printed Models",
+			"categories": [
+				{
+					"name": "Battery Accessories",
+					"path": "3d/battery-accessories"
+				},
+				{
+					"name": "Motor Adapters",
+					"path": "3d/motor-adapters"
+				},
+				{
+					"name": "Mounts",
+					"path": "3d/mounts"
+				},
+				{
+					"name": "Wheels",
+					"path": "3d/wheels"
+				}
+			]
+		},
+		{
+			"name": "Electrical",
+			"categories": [
+				{
+					"name": "Batteries",
+					"path": "batteries"
+				},
+				{
+					"name": "Battery Chargers",
+					"path": "battery-chargers"
+				},
+				{
+					"name": "Game Controller",
+					"path": "game-controllers"
+				},
+				{
+					"name": "Lights",
+					"path": "lights"
+				},
+				{
+					"name": "Motor Controllers",
+					"path": "motor-controllers"
+				},
+				{
+					"name": "MXP Boards",
+					"path": "mxp-boards"
+				},
+				{
+					"name": "Sensors",
+					"path": "sensors"
+				},
+				{
+					"name": "Wire Connectors",
+					"path": "wire-connectors"
+				}
+			]
+		},
+		{
+			"name": "Hardware",
+			"categories": [
+				{
+					"name": "Bearings",
+					"path": "bearings"
+				},
+				{
+					"name": "Gussets and Mounts",
+					"path": "gussets"
+				},
+				{
+					"name": "Shafts",
+					"path": "shafts"
+				},
+				{
+					"name": "Shaft Collars",
+					"path": "shaft-collars"
+				},
+				{
+					"name": "Structure",
+					"path": "structure"
+				}
+			]
+		},
+		{
+			"name": "Motion",
+			"categories": [
+				{
+					"name": "Belts",
+					"path": "belts"
+				},
+				{
+					"name": "Chain",
+					"path": "chain"
+				},
+				{
+					"name": "Gearboxes",
+					"path": "gearboxes"
+				},
+				{
+					"name": "Gears",
+					"path": "gears"
+				},
+				{
+					"name": "Hubs",
+					"path": "hubs"
+				},
+				{
+					"name": "Linear Actuators",
+					"path": "linear-actuators"
+				},
+				{
+					"name": "Motors",
+					"path": "motors"
+				},
+				{
+					"name": "Pulleys",
+					"path": "pulleys"
+				},
+				{
+					"name": "Servos",
+					"path": "servos"
+				},
+				{
+					"name": "Sprockets",
+					"path": "Wheels"
+				}
+			]
+		},
+		{
+			"name": "Pneumatics",
+			"categories": [
+				{
+					"name": "Accumulators",
+					"path": "accumulators"
+				},
+				{
+					"name": "Compressors",
+					"path": "compressors"
+				},
+				{
+					"name": "Components",
+					"path": "pneumaticcomponents"
+				},
+				{
+					"name": "Fittings",
+					"path": "pneumaticfittings"
+				},
+				{
+					"name": "Tubing",
+					"path": "pneumatictubing"
+				}
+			]
+		},
+		{
+			"name": "Miscellaneous",
+			"categories": [
+				{
+					"name": "Bumper Fabric",
+					"path": "bumperfabric"
+				},
+				{
+					"name": "Bumper Numbers",
+					"path": "bumpernumbers"
+				},
+				{
+					"name": "Programming Resources",
+					"path": "programming-resources"
+				},
+				{
+					"name": "Subsystems",
+					"path": "subsystems"
+				},
+				{
+					"name": "Vendors",
+					"path": "vendors"
+				}
+			]
+		}
+	]
+}
