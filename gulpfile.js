@@ -66,13 +66,32 @@ buildtemplate = () => {
 			});
 			return output;
 		}))
-		.pipe(gulp.dest("./build/content"))
+		.pipe(gulp.dest("./build/content"));
+}
+
+buildhomepage = () => {
+	return gulp.src("./src/content/homepage.html")
+		.pipe(replace("{{categories}}", () => {
+			const categories = JSON.parse(fs.readFileSync('./src/categories.json'));
+			const categoryTemplate = fs.readFileSync('./src/content/homepage-item.html', {encoding:"utf-8"});
+			let output = "";
+			categories.groups.forEach(element => {
+				output += `<h2>${element.name}</h2>\n`;
+				output += `<div class="row">\n`;
+				element.categories.forEach(element => {
+					output += categoryTemplate.replace("{{link}}", element.path).replace("{{image}}", element.image).replace("{{name}}", element.name);
+				});
+				output += `</div>\n`;
+			});
+			return output;
+		}))
+		.pipe(gulp.dest("./build/content"));
 }
 
 clean = () => {
 	return del(['./build/css','./build/js','./build/images','./build/content', './build/sitemap.xml'])
 }
 
-const build = gulp.series(clean, buildsitemap, assets, buildtemplate);
+const build = gulp.series(clean, buildsitemap, assets, buildtemplate, buildhomepage);
 
 exports.default = build;

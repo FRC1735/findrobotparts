@@ -56,6 +56,9 @@ try:
 		else :
 			action = None
 
+	if title != "" :
+		maincontent = open("../content/homepage.html").read()
+
 #	if action is None :
 #		print open("main.inc").read()
 #	#elif action == "faq" :
