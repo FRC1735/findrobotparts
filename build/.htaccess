@@ -9,18 +9,18 @@ ErrorDocument 404 /index.py?action=404err
 RewriteEngine On
 RewriteBase /
 
-RewriteRule ^/?$											/index.py
-RewriteRule ^questions/?$	 								/index.py?action=faq
-RewriteRule ^faq/?$	 										/index.py?action=faq
+RewriteRule ^/?$											/bin/index.py
+RewriteRule ^questions/?$	 								/bin/index.py?action=faq
+RewriteRule ^faq/?$	 										/bin/index.py?action=faq
 
-RewriteRule ^3d/([a-z\-]+)/?$									/index.py?actionname=3d/$1
-RewriteRule ^3d/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/index.py?actionname=3d/$1&cats=$2&tags=$3
+RewriteRule ^3d/([a-z\-]+)/?$									/bin/index.py?actionname=3d/$1
+RewriteRule ^3d/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/bin/index.py?actionname=3d/$1
 
-RewriteRule ^([a-z\-]+)/?$									    /index.py?actionname=$1
-RewriteRule ^([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/index.py?actionname=$1&cats=$2&tags=$3
+RewriteRule ^([a-z\-]+)/?$									    /bin/index.py?actionname=$1
+RewriteRule ^([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/bin/index.py?actionname=$1
 
-RewriteRule ^api/product/([a-z\-]+)/?$                                      /products-api.py?product=$1
-RewriteRule ^api/product/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)/?$  /products-api.py?product=$1&categories=$2&tags=$3
+RewriteRule ^api/product/([a-z\-]+)/?$                                      /bin/products-api.py?product=$1
+RewriteRule ^api/product/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)/?$  /bin/products-api.py?product=$1
 
 </IfModule>
 

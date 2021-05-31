@@ -11,9 +11,9 @@ import json
 import includes
 
 def errorOccurred(message) :
-	print "Content-type: text/html\n\n"
-	print "<h2>An error occured</h2>"
-	print "<p>%s</p>" % message
+	print("Content-type: text/html\n\n")
+	print("<h2>An error occured</h2>")
+	print("<p>%s</p>" % message)
 	sys.exit(1)
 
 try :
@@ -133,9 +133,9 @@ try :
 		"products": productRows
 	}
 
-	print "Content-Type: application/json\n\n"
-	print json.dumps(data)
+	print("Content-Type: application/json\n\n")
+	print(json.dumps(data))
 
 except Exception :
-	print "Content-type: text/html\n\n"
-	print "<pre>%s</pre>" % traceback.format_exc()
+	print("Content-type: text/html\n\n")
+	print("<pre>%s</pre>" % traceback.format_exc())

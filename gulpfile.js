@@ -46,7 +46,7 @@ buildsitemap = () => {
 }
 
 buildtemplate = () => {
-	return gulp.src("./src/template.html")
+	return gulp.src("./src/content/template.html")
 		.pipe(replace("{{offcanvas}}", () => {
 			const categories = JSON.parse(fs.readFileSync('./src/categories.json'));
 			let output = "";
@@ -66,11 +66,11 @@ buildtemplate = () => {
 			});
 			return output;
 		}))
-		.pipe(gulp.dest("./build"))
+		.pipe(gulp.dest("./build/content"))
 }
 
 clean = () => {
-	return del(['./build'])
+	return del(['./build/css','./build/js','./build/images','./build/content', './build/sitemap.xml'])
 }
 
 const build = gulp.series(clean, buildsitemap, assets, buildtemplate);

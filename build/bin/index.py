@@ -41,7 +41,7 @@ try:
 	title = ""
 	maincontent = ""
 	leftsidebar = ""
-	outputhtml = open("template.html").read()
+	outputhtml = open("../content/template.html").read()
 
 	if actionname is not None :
 		sql = "SELECT * FROM groups WHERE pathname=%s" % conn.literal(actionname)
@@ -63,10 +63,8 @@ try:
 	outputhtml = outputhtml.replace("{{title}}", title)
 	outputhtml = outputhtml.replace("{{maincontent}}", maincontent)
 	print("Content-type: text/html\n\n")
-	print outputhtml
+	print(outputhtml)
 
 except Exception :
 	print("Content-type: text/html\n\n")
 	print("<pre>%s</pre>" % traceback.format_exc())
-
-
