@@ -1,0 +1,48 @@
+nav {
+	min-height: 80px;
+}
+
+a {
+	color: #51905a;
+}
+
+a:hover, a.active {
+	color: #62a76c;
+}
+
+a .img-thumbnail {
+	border-color: #dddddd;
+}
+
+a:hover .img-thumbnail {
+	padding: 0rem;
+}
+
+#offcanvas a {
+	text-decoration: none;
+}
+
+#offcanvas .h6 {
+	border-bottom: 1px solid #4d4d4d;
+	color: #4d4d4d;
+}
+
+.bg-dark {
+	background-color: #000 !important;
+}
+
+.bg-light {
+	background-color: #f3f4f5 !important;
+}
+
+@media (min-width: 576px) {
+	.body {
+		min-height: calc(100vh - 80px);
+	}
+}
+
+@media (max-width: 575px) {
+	.navbar .nav {
+		font-size: 0.65rem;
+	}
+}

@@ -5,19 +5,23 @@
 			"categories": [
 				{
 					"name": "Battery Accessories",
-					"path": "3d/battery-accessories"
+					"path": "3d/battery-accessories",
+					"image": "3d-battery-accessory"
 				},
 				{
 					"name": "Motor Adapters",
-					"path": "3d/motor-adapters"
+					"path": "3d/motor-adapters",
+					"image": "3d-motor-adaptor"
 				},
 				{
 					"name": "Mounts",
-					"path": "3d/mounts"
+					"path": "3d/mounts",
+					"image": "3d-mounts"
 				},
 				{
 					"name": "Wheels",
-					"path": "3d/wheels"
+					"path": "3d/wheels",
+					"image": "3d-wheel"
 				}
 			]
 		},
@@ -26,35 +30,43 @@
 			"categories": [
 				{
 					"name": "Batteries",
-					"path": "batteries"
+					"path": "batteries",
+					"image": "battery"
 				},
 				{
 					"name": "Battery Chargers",
-					"path": "battery-chargers"
+					"path": "battery-chargers",
+					"image": "battery-charger"
 				},
 				{
 					"name": "Game Controller",
-					"path": "game-controllers"
+					"path": "gamecontrollers",
+					"image": "gamecontroller"
 				},
 				{
 					"name": "Lights",
-					"path": "lights"
+					"path": "lights",
+					"image": "light"
 				},
 				{
 					"name": "Motor Controllers",
-					"path": "motor-controllers"
+					"path": "motor-controllers",
+					"image": "motor-controller"
 				},
 				{
 					"name": "MXP Boards",
-					"path": "mxp-boards"
+					"path": "mxp-boards",
+					"image": "mxp-board"
 				},
 				{
 					"name": "Sensors",
-					"path": "sensors"
+					"path": "sensors",
+					"image": "sensor"
 				},
 				{
 					"name": "Wire Connectors",
-					"path": "wire-connectors"
+					"path": "wireconnectors",
+					"image": "wireconnector"
 				}
 			]
 		},
@@ -63,23 +75,28 @@
 			"categories": [
 				{
 					"name": "Bearings",
-					"path": "bearings"
+					"path": "bearings",
+					"image": "bearing"
 				},
 				{
 					"name": "Gussets and Mounts",
-					"path": "gussets"
+					"path": "gussets",
+					"image": "gusset"
 				},
 				{
 					"name": "Shafts",
-					"path": "shafts"
+					"path": "shafts",
+					"image": "shaft"
 				},
 				{
 					"name": "Shaft Collars",
-					"path": "shaft-collars"
+					"path": "shaftcollars",
+					"image": "shaftcollar"
 				},
 				{
 					"name": "Structure",
-					"path": "structure"
+					"path": "structure",
+					"image": "structure"
 				}
 			]
 		},
@@ -88,43 +105,53 @@
 			"categories": [
 				{
 					"name": "Belts",
-					"path": "belts"
+					"path": "belts",
+					"image": "belt"
 				},
 				{
 					"name": "Chain",
-					"path": "chain"
+					"path": "chain",
+					"image": "chain"
 				},
 				{
 					"name": "Gearboxes",
-					"path": "gearboxes"
+					"path": "gearboxes",
+					"image": "gears"
 				},
 				{
 					"name": "Gears",
-					"path": "gears"
+					"path": "gears",
+					"image": "gear"
 				},
 				{
 					"name": "Hubs",
-					"path": "hubs"
+					"path": "hubs",
+					"image": "hub"
 				},
 				{
 					"name": "Linear Actuators",
-					"path": "linear-actuators"
+					"path": "linearactuators",
+					"image": "linearactuator"
 				},
 				{
 					"name": "Motors",
-					"path": "motors"
+					"path": "motors",
+					"image": "motor"
 				},
 				{
 					"name": "Pulleys",
-					"path": "pulleys"
+					"path": "pulleys",
+					"image": "pulley"
 				},
 				{
 					"name": "Servos",
-					"path": "servos"
+					"path": "servos",
+					"image": "servo"
 				},
 				{
 					"name": "Sprockets",
-					"path": "Wheels"
+					"path": "sprockets",
+					"image": "sprocket"
 				}
 			]
 		},
@@ -133,23 +160,28 @@
 			"categories": [
 				{
 					"name": "Accumulators",
-					"path": "accumulators"
+					"path": "accumulators",
+					"image": "accumulator"
 				},
 				{
 					"name": "Compressors",
-					"path": "compressors"
+					"path": "compressors",
+					"image": "compressor"
 				},
 				{
 					"name": "Components",
-					"path": "pneumaticcomponents"
+					"path": "pneumatic-components",
+					"image": "pneumatic-component"
 				},
 				{
 					"name": "Fittings",
-					"path": "pneumaticfittings"
+					"path": "pneumaticfittings",
+					"image": "pneumaticfittings"
 				},
 				{
 					"name": "Tubing",
-					"path": "pneumatictubing"
+					"path": "pneumatictubing",
+					"image": "pneumatictubing"
 				}
 			]
 		},
@@ -158,23 +190,28 @@
 			"categories": [
 				{
 					"name": "Bumper Fabric",
-					"path": "bumperfabric"
+					"path": "bumperfabric",
+					"image": "bumperfabric"
 				},
 				{
 					"name": "Bumper Numbers",
-					"path": "bumpernumbers"
+					"path": "bumpernumbers",
+					"image": "bumpernumber"
 				},
 				{
 					"name": "Programming Resources",
-					"path": "programming-resources"
+					"path": "programming-resources",
+					"image": "resources-programming"
 				},
 				{
 					"name": "Subsystems",
-					"path": "subsystems"
+					"path": "subsystems",
+					"image": "subsystem"
 				},
 				{
 					"name": "Vendors",
-					"path": "vendors"
+					"path": "vendors",
+					"image": "vendor"
 				}
 			]
 		}
