@@ -9,8 +9,8 @@
 					"image": "3d-battery-accessory"
 				},
 				{
-					"name": "Motor Adapters",
-					"path": "3d/motor-adapters",
+					"name": "Motor Adaptors",
+					"path": "3d/motor-adaptors",
 					"image": "3d-motor-adaptor"
 				},
 				{
@@ -170,7 +170,7 @@
 				},
 				{
 					"name": "Components",
-					"path": "pneumatic-components",
+					"path": "pneumaticcomponents",
 					"image": "pneumatic-component"
 				},
 				{
@@ -200,7 +200,7 @@
 				},
 				{
 					"name": "Programming Resources",
-					"path": "programming-resources",
+					"path": "resources-programming",
 					"image": "resources-programming"
 				},
 				{
