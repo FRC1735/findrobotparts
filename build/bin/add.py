@@ -8,6 +8,7 @@ import re
 import os
 import Cookie
 
+sys.path.append("../../")
 import includes
 
 cgitb.enable()

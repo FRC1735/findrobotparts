@@ -5,6 +5,7 @@ import sys
 import cgi
 import cgitb
 
+sys.path.append("../../")
 import config
 
 cgitb.enable()
@@ -40,7 +41,7 @@ def createHeader(row) :
 try:
 	title = ""
 	maincontent = ""
-	leftsidebar = ""
+	sidebar = ""
 	outputhtml = open("../content/template.html").read()
 
 	if actionname is not None :
@@ -51,6 +52,7 @@ try:
 			action = str(row["groupid"])
 			title = row["value"] + " -  "
 			maincontent = createHeader(row)
+			sidebar = "sidebar"
 		else :
 			action = None
 
@@ -62,6 +64,11 @@ try:
 #	#	print open("404.inc").read()
 	outputhtml = outputhtml.replace("{{title}}", title)
 	outputhtml = outputhtml.replace("{{maincontent}}", maincontent)
+	outputhtml = outputhtml.replace("{{sidebar}}", sidebar)
+	sidebarview = "block"
+	if (sidebar == "") :
+		sidebarview = "none"
+	outputhtml = outputhtml.replace("{{sidebarview}}", sidebarview)
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
 

@@ -22,7 +22,7 @@
 					height="65" alt="Find Robot Parts">
 			</a>
 			<ul class="nav">
-				<li class="d-block d-sm-none">
+				<li class="d-{{sidebarview}} d-sm-none">
 					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
 						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
 						aria-label="Toggle Filter">
@@ -51,8 +51,8 @@
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-block collapse" id="sidebar">
-				{{leftsidebar}}
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-{{sidebarview}} collapse" id="sidebar">
+				{{sidebar}}
 			</div>
 			<main class="col-12 col-sm-8 col-md-9 py-4 px-4">
 				{{maincontent}}

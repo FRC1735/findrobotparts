@@ -8,7 +8,8 @@ import re
 import traceback
 import json
 
-import includes
+sys.path.append("../../")
+import config
 
 def errorOccurred(message) :
 	print("Content-type: text/html\n\n")
@@ -36,7 +37,7 @@ try :
 
 	#create database connection
 	try:
-		conn = mdb.connect(host=includes.sqlh, db=includes.sqld, passwd=includes.sqlp, user=includes.sqlu)
+		conn = mdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
 		cursor = conn.cursor(mdb.cursors.DictCursor)
 	except mdb.Error, e:
 		errorOccurred("Faild to connect to database<br>%d: %s" % (e.args[0], e.args[1]))
