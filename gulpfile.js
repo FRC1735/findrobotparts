@@ -79,7 +79,7 @@ buildhomepage = () => {
 				output += `<h2>${element.name}</h2>\n`;
 				output += `<div class="row">\n`;
 				element.categories.forEach(element => {
-					output += categoryTemplate.replace("{{link}}", element.path).replace("{{image}}", element.image).replace("{{name}}", element.name);
+					output += categoryTemplate.replaceAll("{{link}}", element.path).replaceAll("{{image}}", element.image).replaceAll("{{name}}", element.name);
 				});
 				output += `</div>\n`;
 			});

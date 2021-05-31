@@ -56,7 +56,7 @@ try:
 		else :
 			action = None
 
-	if title != "" :
+	if title == "" :
 		maincontent = open("../content/homepage.html").read()
 
 #	if action is None :
