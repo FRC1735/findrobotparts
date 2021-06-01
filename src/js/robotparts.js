@@ -35,9 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
 				links.forEach((element, index) => {
 					linkdata.push({'link':element,'vendor':vendors[index]});
 				});
-				let lastchar = product.image.lastIndexOf('/');
-				let image = product.image.substring(0, lastchar) + '/products/' + product.image.substring(lastchar + 1);
-				lastchar = product.image.lastIndexOf('.');
+				let image = product.image.replace('images/', 'images/products/');
+				const lastchar = product.image.lastIndexOf('.');
 				image = product.image.substring(0, lastchar) + '.webp';
 				output += FindRobotParts.templates.productrow({
 					'name': product.name, 
