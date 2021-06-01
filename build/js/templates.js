@@ -46,3 +46,19 @@ this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":fun
     + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"links") : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":2},"end":{"line":12,"column":11}}})) != null ? stack1 : "")
     + "	</td>\n</tr>\n";
 },"useData":true});
+this["FindRobotParts"]["templates"]["productrowheader"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+    return "		<th>"
+    + container.escapeExpression(container.lambda(depth0, depth0))
+    + "</th>\n";
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "<thead>\n	<tr>\n		<th>Product</td>\n"
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"categories") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":2},"end":{"line":6,"column":11}}})) != null ? stack1 : "")
+    + "	</tr>\n</thead>\n";
+},"useData":true});

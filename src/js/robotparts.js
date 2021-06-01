@@ -11,12 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
 	if (producttable) {
 		const productpath = producttable.dataset.path;
 		const request = new XMLHttpRequest();
-		request.open('GET', '/api/product/' + productpath;
+		request.open('GET', '/api/product/' + productpath);
 		request.responseType = 'json';
 		request.send();
 
 		request.onload = () => {
-			let output = '';
+			let output = FindRobotParts.templates.productrowheader({'categories': request.response.products[0].categories.split('||')});
+			output += '<tbody>';
 			request.response.products.forEach(product => {
 				const tags = product.tags.split('||');
 				const categories = product.categories.split('||');
@@ -24,14 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
 				const vendors = product.vendors.split('||');
 				let linkdata = [];
 				let categorydata = [];
-				tags.forEach(element, index => {
-					categorydata.push({'category':element,'tag':tags[index]});
+				categories.forEach((element, index) => {
+					if (element != 'Vendors') {
+						categorydata.push({'category':element,'tag':tags[index]});
+					}
 				});
-				links.forEach(element, index => {
+				links.forEach((element, index) => {
 					linkdata.push({'link':element,'vendor':vendors[index]});
 				});
 				output += FindRobotParts.templates.productrow({'name': product.name, 'image': product.image, 'categories': categorydata, 'links': linkdata});
 			});
+			output += '</tbody>';
 			producttable.innerHTML = output;
 		};
 	}
