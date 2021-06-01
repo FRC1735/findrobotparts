@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
 					linkdata.push({'link':element,'vendor':vendors[index]});
 				});
 				let image = product.image.replace('images/', 'images/products/');
-				const lastchar = product.image.lastIndexOf('.');
-				image = product.image.substring(0, lastchar) + '.webp';
+				const lastchar = image.lastIndexOf('.');
+				image = image.substring(0, lastchar) + '.webp';
 				output += FindRobotParts.templates.productrow({
 					'name': product.name, 
 					'image': image, 
