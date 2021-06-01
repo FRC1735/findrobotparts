@@ -1,14 +1,16 @@
 <tr>
-	<td data-label="Product">
+	<th scope="row" data-label="Product">
 		<strong>{{name}}</strong><br>
 		<img src="{{image}}" width="100" alt="{{name}}">
-	</td>
+	</th>
 	{{#each categories}}
 	<td data-label={{this.category}}>{{this.tag}}</td>
 	{{/each}}
 	<td data-label="Vendors">
-		{{#each links}}
-		<a class="btn btn-sm" href="{{this.link}}" role="button" target="_blank">{{this.vendor}}</a>
-		{{/each}}
+		<div class="list-group">
+			{{#each links}}
+			<a href="{{this.link}}" class="list-group-item list-group-item-action list-group-item-green" target="_blank">{{this.vendor}}</a>
+			{{/each}}
+		</div>
 	</td>
 </tr>
