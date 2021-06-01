@@ -9,6 +9,9 @@ const rename = require("gulp-rename");
 const merge2 = require("merge2");
 const replace = require('gulp-replace');
 const fs = require('fs');
+const flatMap = require('flat-map').default;
+const scaleImages = require('gulp-scale-images');
+const path = require('path');
 
 assets = () => {
 	return merge2(
@@ -25,7 +28,21 @@ assets = () => {
 		gulp.src("./node_modules/bootstrap/dist/js/bootstrap.min.js")
 			.pipe(gulp.dest("./build/js")),
 		gulp.src("./node_modules/handlebars/dist/handlebars.runtime.min.js")
-			.pipe(gulp.dest("./build/js"))
+			.pipe(gulp.dest("./build/js")),
+		gulp.src("./src/images/products/**")
+			.pipe(flatMap((file, cb) => {
+				const webpFile = file.clone();
+				webpFile.scale = {maxWidth: 200, format: 'webp'};
+				cb(null, [webpFile]);
+			}))
+			.pipe(scaleImages((output, scale, cb) => {
+				const fileName = [
+					path.basename(output.path, output.extname),
+					scale.format || output.extname
+				].join('.');
+				cb(null, fileName);
+			}))
+			.pipe(gulp.dest("./build/images/products"))
 	);
 }
 

@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		request.send();
 
 		request.onload = () => {
-			let output = FindRobotParts.templates.productrowheader({'categories': request.response.products[0].categories.split('||')});
+			let output = FindRobotParts.templates.productrowheader({
+				'categories': request.response.products[0].categories.split('||')
+			});
 			output += '<tbody>';
 			request.response.products.forEach(product => {
 				const tags = product.tags.split('||');
@@ -33,7 +35,16 @@ document.addEventListener('DOMContentLoaded', () => {
 				links.forEach((element, index) => {
 					linkdata.push({'link':element,'vendor':vendors[index]});
 				});
-				output += FindRobotParts.templates.productrow({'name': product.name, 'image': product.image, 'categories': categorydata, 'links': linkdata});
+				let lastchar = product.image.lastIndexOf('/');
+				let image = product.image.substring(0, lastchar) + '/products/' + product.image.substring(lastchar + 1);
+				lastchar = product.image.lastIndexOf('.');
+				image = product.image.substring(0, lastchar) + '.webp';
+				output += FindRobotParts.templates.productrow({
+					'name': product.name, 
+					'image': image, 
+					'categories': categorydata, 
+					'links': linkdata
+				});
 			});
 			output += '</tbody>';
 			producttable.innerHTML = output;
