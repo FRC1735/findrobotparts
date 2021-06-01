@@ -1,0 +1,14 @@
+<tr>
+	<td data-label="Product">
+		<strong>{{name}}</strong><br>
+		<img src="{{image}}" width="100" alt="{{name}}">
+	</td>
+	{{#each categories}}
+	<td data-label={{this.category}}>{{this.tag}}</td>
+	{{/each}}
+	<td data-label="Vendors">
+		{{#each links}}
+		<a class="btn btn-sm" href="{{this.link}}" role="button" target="_blank">{{this.vendor}}</a>
+		{{/each}}
+	</td>
+</tr>

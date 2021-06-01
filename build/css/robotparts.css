@@ -4,7 +4,7 @@
 	font-size: 1.2rem;
 }
 
-/*
+
 @media (max-width: 768px) {
 	.table-collapse tr { border-bottom: 2px solid #848484; }
 	.table-collapse th { left: -9999px; position: absolute; top: -9999px; }
@@ -12,10 +12,8 @@
 	.table-collapse td:first-child { padding-top: .5em; }
 	.table-collapse td:last-child { padding-bottom: .5em; }
 	.table-collapse td:before { width: 40%; padding-right: 10px; content: attr(data-label) " ";  display: inline-block; font-weight: bold; left: 7px; overflow: hidden; position: absolute; top: 8px; white-space: nowrap; }
-
-	.fixed-top { max-height: 100vh; overflow: auto;  }
 }
-
+/*
 #filterbutton {
 	margin-right: 5px;
 }

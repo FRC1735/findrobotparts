@@ -36,7 +36,11 @@ def createHeader(row) :
 				{description}
 			</div>
 		</div>
-		""".format(image = row["image"], value = row["value"], spreadsheet = row["spreadsheet"], description = row["description"])
+
+		<table id="productdata" class="table table-striped table-collapse" data-path="{pathname}">
+
+		</table>
+		""".format(image = row["image"], value = row["value"], spreadsheet = row["spreadsheet"], description = row["description"], pathname = row["pathname"])
 
 try:
 	title = ""

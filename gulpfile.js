@@ -18,6 +18,8 @@ assets = () => {
 			.pipe(gulp.dest("./build/images/logo")),
 		gulp.src("./src/css/*")
 			.pipe(gulp.dest("./build/css")),
+		gulp.src("./src/js/*")
+			.pipe(gulp.dest("./build/js")),
 		gulp.src("./node_modules/bootstrap/dist/css/bootstrap.min.css")
 			.pipe(gulp.dest("./build/css")),
 		gulp.src("./node_modules/bootstrap/dist/js/bootstrap.min.js")
@@ -25,6 +27,18 @@ assets = () => {
 		gulp.src("./node_modules/handlebars/dist/handlebars.runtime.min.js")
 			.pipe(gulp.dest("./build/js"))
 	);
+}
+
+buildhandlebars = () => {
+	return gulp.src('./src/templates/*.hbs')
+		.pipe(handlebars())
+		.pipe(wrap('Handlebars.template(<%= contents %>)'))
+		.pipe(declare({
+			namespace: 'FindRobotParts.templates',
+			noRedeclare: true, // Avoid duplicate declarations
+		}))
+		.pipe(concat('templates.js'))
+		.pipe(gulp.dest('./build/js'));
 }
 
 buildsitemap = () => {
@@ -92,6 +106,6 @@ clean = () => {
 	return del(['./build/css','./build/js','./build/images','./build/content', './build/sitemap.xml'])
 }
 
-const build = gulp.series(clean, buildsitemap, assets, buildtemplate, buildhomepage);
+const build = gulp.series(clean, buildhandlebars, buildsitemap, assets, buildtemplate, buildhomepage);
 
 exports.default = build;
