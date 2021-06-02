@@ -1,7 +1,7 @@
 this["FindRobotParts"] = this["FindRobotParts"] || {};
 this["FindRobotParts"]["templates"] = this["FindRobotParts"]["templates"] || {};
 this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+    var stack1, alias1=container.lambda, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
           return parent[propertyName];
         }
@@ -9,9 +9,9 @@ this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":fun
     };
 
   return "	<td data-label="
-    + alias2(alias1((depth0 != null ? lookupProperty(depth0,"category") : depth0), depth0))
+    + container.escapeExpression(alias1((depth0 != null ? lookupProperty(depth0,"category") : depth0), depth0))
     + ">"
-    + alias2(alias1((depth0 != null ? lookupProperty(depth0,"tag") : depth0), depth0))
+    + ((stack1 = alias1((depth0 != null ? lookupProperty(depth0,"tag") : depth0), depth0)) != null ? stack1 : "")
     + "</td>\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -38,8 +38,8 @@ this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":fun
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":10},"end":{"line":3,"column":18}}}) : helper)))
     + "</strong><br>\n		<img src=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"image") || (depth0 != null ? lookupProperty(depth0,"image") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"image","hash":{},"data":data,"loc":{"start":{"line":4,"column":12},"end":{"line":4,"column":21}}}) : helper)))
-    + "\" width=\"100\" alt=\""
-    + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":4,"column":40},"end":{"line":4,"column":48}}}) : helper)))
+    + "\" class=\"\" alt=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":4,"column":37},"end":{"line":4,"column":45}}}) : helper)))
     + "\">\n	</th>\n"
     + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"categories") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":1},"end":{"line":8,"column":10}}})) != null ? stack1 : "")
     + "	<td data-label=\"Vendors\">\n		<div class=\"list-group\">\n"

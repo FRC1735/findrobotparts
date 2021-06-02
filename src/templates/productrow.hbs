@@ -1,10 +1,10 @@
 <tr>
 	<th scope="row" data-label="Product">
 		<strong>{{name}}</strong><br>
-		<img src="{{image}}" width="100" alt="{{name}}">
+		<img src="{{image}}" class="" alt="{{name}}">
 	</th>
 	{{#each categories}}
-	<td data-label={{this.category}}>{{this.tag}}</td>
+	<td data-label={{this.category}}>{{{this.tag}}}</td>
 	{{/each}}
 	<td data-label="Vendors">
 		<div class="list-group">
