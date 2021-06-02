@@ -9,6 +9,7 @@ requestData = () => {
 
 		request.onload = () => {
 			addProducts(request.response, producttable);
+			addTags(request.response);
 		};
 	}
 };
@@ -46,6 +47,19 @@ addProducts = (response, producttable) => {
 	output += '</tbody>';
 	producttable.innerHTML = output;
 };
+
+addTags = (response) => {
+	const sidebar = document.getElementById('sidebar');
+	let output = '';
+	response.categories.forEach(category => {
+		output += FindRobotParts.templates.taggroup({
+			'value': category.value,
+			'categoryid': category.categoryid,
+			'tags': category.tags
+		});
+	});
+	sidebar.innerHTML = output;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
 	requestData();
