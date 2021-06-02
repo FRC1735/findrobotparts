@@ -23,7 +23,7 @@ try :
 
 	product = form.getvalue("product")
 
-	if product is None or not re.compile("^[a-z\-]+").match(product) :
+	if product is None or not re.compile("^(3d/)?[a-z\-]+").match(product) :
 		product = None
 		errorOccurred("Product was not defined")
 
