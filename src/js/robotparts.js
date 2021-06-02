@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				let categorydata = [];
 				categories.forEach((element, index) => {
 					if (element != 'Vendors') {
-						categorydata.push({'category':element,'tag':tags[index],replaceAll(',', '<br>')});
+						categorydata.push({'category':element,'tag':tags[index].replaceAll(',', '<br>')});
 					}
 				});
 				links.forEach((element, index) => {
