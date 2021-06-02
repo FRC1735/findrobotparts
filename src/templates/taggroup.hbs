@@ -1,7 +1,7 @@
 <p>{{value}}</p>
-<div class="btn-group-vertical" role="group" aria-label="{{value}} options">
+<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="{{value}} options">
 {{#each tags}}
-	<input type="checkbox" class="btn-check" name="{{categoryid}}" id="tag{{this.tagid}}" value="{{this.tagid}}" autocomplete="off" checked="">
+	<input type="checkbox" class="btn-check" name="{{@categoryid}}" id="tag{{this.tagid}}" value="{{this.tagid}}" autocomplete="off">
 	<label class="btn btn-outline-success" for="tag{{this.tagid}}">{{this.value}}</label>
 {{/each}}
 </div>

@@ -35,6 +35,37 @@ a:hover .img-thumbnail {
 	background-color: #f3f4f5 !important;
 }
 
+.list-group-item-green {
+	background-color: #51905a;
+	color: #fff;
+}
+.list-group-item-green.list-group-item-action:focus, 
+.list-group-item-green.list-group-item-action:hover {
+	background-color: #62a76c;
+	color: #fff;
+}
+
+.btn-outline-green {
+    color: #3c6b43;
+    border-color: #3c6b43;
+}
+
+.btn-check:active+.btn-outline-green, 
+.btn-check:checked+.btn-outline-green, 
+.btn-outline-green.active, 
+.btn-outline-green.dropdown-toggle.show, 
+.btn-outline-green:active {
+    color: #fff;
+    background-color: #3c6b43;
+    border-color: #3c6b43;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #51905a !important;
+    border-color: #51905a !important;
+}
+
 @media (min-width: 576px) {
 	.body {
 		min-height: calc(100vh - 80px);

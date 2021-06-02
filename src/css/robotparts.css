@@ -4,14 +4,8 @@
 	font-size: 1.2rem;
 }
 
-.list-group-item-green {
-	background-color: #51905a;
-	color: #fff;
-}
-.list-group-item-green.list-group-item-action:focus, 
-.list-group-item-green.list-group-item-action:hover {
-	background-color: #62a76c;
-	color: #fff;
+.full-width {
+	width: 100%;
 }
 
 @media (max-width: 768px) {

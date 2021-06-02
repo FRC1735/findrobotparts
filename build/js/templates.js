@@ -71,12 +71,12 @@ this["FindRobotParts"]["templates"]["taggroup"] = Handlebars.template({"1":funct
     };
 
   return "	<input type=\"checkbox\" class=\"btn-check\" name=\""
-    + alias1(((helper = (helper = lookupProperty(helpers,"categoryid") || (depth0 != null ? lookupProperty(depth0,"categoryid") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"categoryid","hash":{},"data":data,"loc":{"start":{"line":4,"column":48},"end":{"line":4,"column":62}}}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"categoryid") || (data && lookupProperty(data,"categoryid"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"categoryid","hash":{},"data":data,"loc":{"start":{"line":4,"column":48},"end":{"line":4,"column":63}}}) : helper)))
     + "\" id=\"tag"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
     + "\" value=\""
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
-    + "\" autocomplete=\"off\" checked=\"\">\n	<label class=\"btn btn-outline-success\" for=\"tag"
+    + "\" autocomplete=\"off\">\n	<label class=\"btn btn-outline-success\" for=\"tag"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
     + "\">"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"value") : depth0), depth0))
@@ -91,8 +91,8 @@ this["FindRobotParts"]["templates"]["taggroup"] = Handlebars.template({"1":funct
 
   return "<p>"
     + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":1,"column":3},"end":{"line":1,"column":12}}}) : helper)))
-    + "</p>\n<div class=\"btn-group-vertical\" role=\"group\" aria-label=\""
-    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":2,"column":57},"end":{"line":2,"column":66}}}) : helper)))
+    + "</p>\n<div class=\"btn-group-vertical btn-group-sm full-width\" role=\"group\" aria-label=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":2,"column":81},"end":{"line":2,"column":90}}}) : helper)))
     + " options\">\n"
     + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"tags") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":0},"end":{"line":6,"column":9}}})) != null ? stack1 : "")
     + "</div>";
