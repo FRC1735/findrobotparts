@@ -19,8 +19,8 @@ RewriteRule ^3d/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/bin/index.py?ac
 RewriteRule ^([a-z\-]+)/?$									    /bin/index.py?actionname=$1
 RewriteRule ^([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/bin/index.py?actionname=$1
 
-RewriteRule ^api/product/([a-z\-]+)/?$                                      /bin/products-api.py?product=$1
-RewriteRule ^api/product/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)/?$  /bin/products-api.py?product=$1
+RewriteRule ^api/product/((3d/)?[a-z\-]+)/?$                                      /bin/products-api.py?product=$1
+RewriteRule ^api/product/((3d/)?[a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)/?$  /bin/products-api.py?product=$1
 
 </IfModule>
 
