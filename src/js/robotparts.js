@@ -1,12 +1,4 @@
-/*
-setCollapsableTable = () => {
-	document.querySelectorAll('.table-collapse td').forEach((item) => {
-		const th = item.closest('table').querySelectorAll(`thead th:nth-child(${item.cellIndex})`);
-		item.dataset.label = th.innerHTML;
-	});
-}
-*/
-document.addEventListener('DOMContentLoaded', () => {
+requestData = () => {
 	const producttable = document.getElementById('productdata');
 	if (producttable) {
 		const productpath = producttable.dataset.path;
@@ -16,39 +8,47 @@ document.addEventListener('DOMContentLoaded', () => {
 		request.send();
 
 		request.onload = () => {
-			let output = FindRobotParts.templates.productrowheader({
-				'categories': request.response.products[0].categories.split('||')
-			});
-			output += '<tbody>';
-			request.response.products.forEach(product => {
-				const tags = product.tags.split('||');
-				const categories = product.categories.split('||');
-				const links = product.links.split('||');
-				const vendors = product.vendors.split('||');
-				let linkdata = [];
-				let categorydata = [];
-				categories.forEach((element, index) => {
-					if (element != 'Vendors') {
-						categorydata.push({'category':element,'tag':tags[index].replaceAll(',', '<br>')});
-					}
-				});
-				links.forEach((element, index) => {
-					linkdata.push({'link':element,'vendor':vendors[index]});
-				});
-				let image = product.image.replace('images/', 'images/products/');
-				const lastchar = image.lastIndexOf('.');
-				image = image.substring(0, lastchar) + '.webp';
-				output += FindRobotParts.templates.productrow({
-					'name': product.name, 
-					'image': image, 
-					'categories': categorydata, 
-					'links': linkdata
-				});
-			});
-			output += '</tbody>';
-			producttable.innerHTML = output;
+			addProducts(request.response, producttable);
 		};
 	}
+};
+
+addProducts = (response, producttable) => {
+	let output = FindRobotParts.templates.productrowheader({
+		'categories': response.products[0].categories.split('||')
+	});
+	output += '<tbody>';
+	response.products.forEach(product => {
+		const tags = product.tags.split('||');
+		const categories = product.categories.split('||');
+		const links = product.links.split('||');
+		const vendors = product.vendors.split('||');
+		let linkdata = [];
+		let categorydata = [];
+		categories.forEach((element, index) => {
+			if (element != 'Vendors') {
+				categorydata.push({'category':element,'tag':tags[index].replaceAll(',', '<br>')});
+			}
+		});
+		links.forEach((element, index) => {
+			linkdata.push({'link':element,'vendor':vendors[index]});
+		});
+		let image = product.image.replace('images/', 'images/products/');
+		const lastchar = image.lastIndexOf('.');
+		image = image.substring(0, lastchar) + '.webp';
+		output += FindRobotParts.templates.productrow({
+			'name': product.name, 
+			'image': image, 
+			'categories': categorydata, 
+			'links': linkdata
+		});
+	});
+	output += '</tbody>';
+	producttable.innerHTML = output;
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+	requestData();
 });
 
 
