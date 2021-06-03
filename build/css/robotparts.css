@@ -8,7 +8,7 @@
 	width: 100%;
 }
 
-.tags.collapse {
+.tags.collapse:not(.show) {
 	height: 10rem;
 	overflow: hidden;
 	display: block;

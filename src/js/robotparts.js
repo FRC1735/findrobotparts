@@ -67,7 +67,7 @@ addTags = (response) => {
 addShowMore = () => {
 	document.querySelectorAll('.tags.collapse').forEach(element => {
 		if (element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth) {
-			element.nextSibling.classList.remove('d-none');
+			element.nextElementSibling.classList.remove('d-none');
 		}
 	});
 }

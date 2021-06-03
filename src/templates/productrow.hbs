@@ -5,7 +5,7 @@
 	</th>
 	{{#each categories}}
 	<td data-label={{this.category}}>
-		<div class="tags collapse" id="collapse{{@productid}}-{{@index}}">
+		<div class="tags collapse" id="collapse{{../productid}}-{{@index}}">
 			{{{this.tag}}}
 		</div>
 		<a class="d-none" data-bs-toggle="collapse" href="#collapse{{@productid}}-{{@index}}" aria-expanded="false" aria-controls="collapse{{@productid}}-{{@index}}">
