@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 
+	<link rel="icon" type="image/png" href="/images/magnifying-class.png">
+
 	<title>{{title}}Find Robot Parts</title>
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/burncoat.css" rel="stylesheet">
@@ -51,12 +53,12 @@
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-{{sidebarview}} collapse" id="sidebar">
-				{{sidebar}}
-			</div>
-			<main class="col py-4 px-4 overflow-auto">
+			<main class="col py-4 px-4 overflow-auto order-2">
 				{{maincontent}}
 			</main>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-{{sidebarview}} collapse order-1" id="sidebar">
+				{{sidebar}}
+			</div>
 		</div>
 		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
 			<div class="offcanvas-header">

@@ -19,6 +19,8 @@ assets = () => {
 			.pipe(gulp.dest("./build/images/categories")),
 		gulp.src("./src/images/logo/*")
 			.pipe(gulp.dest("./build/images/logo")),
+		gulp.src("./src/images/logo/favicon.ico")
+			.pipe(gulp.dest("./build")),
 		gulp.src("./src/css/*")
 			.pipe(gulp.dest("./build/css")),
 		gulp.src("./src/js/*")
