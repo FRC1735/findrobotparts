@@ -48,6 +48,7 @@ addProducts = (response, producttable) => {
 	});
 	output += '</tbody>';
 	producttable.innerHTML = output;
+	updateNumberShown();
 };
 
 addTags = (response) => {
@@ -71,6 +72,52 @@ addShowMore = () => {
 		}
 	});
 }
+
+updateNumberShown = () => {
+	const total = document.querySelectorAll('#productdata tbody tr:not(.d-none)').length;
+	const shown = document.querySelectorAll('#productdata tbody tr').length;
+	document.getElementById('numShown').innerHTML = shown;
+	document.getElementById('numTotal').innerHTML = total;
+	if (total > shown) {
+		document.getElementById('showall').classList.remove('d-none');
+	} else {
+		document.getElementById('showall').classList.add('d-none');
+	}
+}
+
+document.getElementById('showall').addEventListener('click', (event) => {
+	event.preventDefault();
+	document.querySelectorAll('input:checked').forEach(element => { 
+		element.checked = false; 
+	});
+	document.querySelectorAll('#productdata tbody tr.d-none').forEach(element => {
+		element.classList.remove('d-none');
+	});
+	updateNumberShown();
+});
+
+document.getElementById('sidebar').addEventListener('change', () => {
+	const productrows = document.querySelectorAll('#productdata tbody tr');
+	productrows.forEach(element => {
+		element.classList.remove('d-none');
+	});
+
+	document.querySelectorAll('.btn-group-vertical').forEach(element => {
+		let tags = [];
+		element.querySelectorAll('.btn-check:checked').forEach(element => {
+			tags.push(element.value);
+		});
+		if (tags.length !== 0) {
+			document.querySelectorAll('#productdata tbody tr:not(.d-none)').forEach(element => {
+				const rowtags = element.dataset.tags.split(',');
+				if (!tags.some(i => rowtags.includes(i))) {
+					element.classList.add('d-none');
+				}
+			});
+		}
+	
+	});
+});
 
 document.addEventListener('DOMContentLoaded', () => {
 	requestData();
