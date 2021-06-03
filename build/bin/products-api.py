@@ -61,11 +61,15 @@ try :
 			SELECT prodtable.productid, prodtable.name, prodtable.image, 
 				group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, 
 				group_concat(prodtable.tagvalue ORDER BY prodtable.priority SEPARATOR '||') AS tags, 
-				group_concat(prodtable.tagid ORDER BY prodtable.priority SEPARATOR '||') AS tagids,
+				group_concat(prodtable.tagids ORDER BY prodtable.priority SEPARATOR '||') AS tagids,
 				linklist.vendors, linklist.links
 			FROM (
 				SELECT 
-				products.productid, products.name, products.image, tags.tagid, tags.categoryid, categories.value, categories.priority, group_concat(tags.value ORDER BY tags.value*1, tags.value SEPARATOR ', ') AS tagvalue
+				products.productid, products.name, products.image, 
+				tags.tagid, tags.categoryid, 
+				categories.value, categories.priority, 
+				group_concat(tags.value ORDER BY tags.value*1, tags.value SEPARATOR ', ') AS tagvalue
+				group_concat(tags.tagid ORDER BY tags.value*1, tags.value SEPARATOR ',') AS tagids
 				FROM producttag 
 				LEFT JOIN tags ON producttag.tagid = tags.tagid 
 				LEFT JOIN products ON products.productid = producttag.productid
