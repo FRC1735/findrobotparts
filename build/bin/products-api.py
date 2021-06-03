@@ -68,7 +68,7 @@ try :
 				products.productid, products.name, products.image, 
 				tags.tagid, tags.categoryid, 
 				categories.value, categories.priority, 
-				group_concat(tags.value ORDER BY tags.value*1, tags.value SEPARATOR ', ') AS tagvalue
+				group_concat(tags.value ORDER BY tags.value*1, tags.value SEPARATOR ', ') AS tagvalue,
 				group_concat(tags.tagid ORDER BY tags.value*1, tags.value SEPARATOR ',') AS tagids
 				FROM producttag 
 				LEFT JOIN tags ON producttag.tagid = tags.tagid 
