@@ -25,22 +25,13 @@ except mdb.Error, e:
 	sys.exit(1)
 
 def createHeader(row) :
-	return """\
-		<div class="row mb-2">
-			<div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
-				<img src="/images/categories/{image}-gray.jpg" alt="{value}" class="img-thumbnail" width="100%%">
-			</div>
-			<div class="col-12 col-sm-9 col-lg-10">
-				<h1 class="mb-0">{value}</h1>
-				<p class="small"><em><a href="{spreadsheet}" target="_new">Suggest a change or new item</a></em></p>
-				{description}
-			</div>
-		</div>
-
-		<table id="productdata" class="table table-striped table-collapse" data-path="{pathname}">
-
-		</table>
-		""".format(image = row["image"], value = row["value"], spreadsheet = row["spreadsheet"], description = row["description"], pathname = row["pathname"])
+	producthtml = open("../content/product.html").read()
+	producthtml = producthtml.replace("{{image}}", row["image"])
+	producthtml = producthtml.replace("{{value}}", row["value"])
+	producthtml = producthtml.replace("{{spreadsheet}}", row["spreadsheet"])
+	producthtml = producthtml.replace("{{description}}", row["description"])
+	producthtml = producthtml.replace("{{pathname}}", row["pathname"])
+	return producthtml
 
 try:
 	title = ""
