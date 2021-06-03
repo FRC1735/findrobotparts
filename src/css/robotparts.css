@@ -8,10 +8,31 @@
 	width: 100%;
 }
 
-.tags.collapse:not(.show) {
+.tags.collapse:not(.show), 
+.tags.collapsing {
 	height: 10rem;
-	overflow: hidden;
+	overflow-y: hidden;
 	display: block;
+}
+
+a.showmore {
+	white-space: nowrap;
+}
+
+a.showmore .more {
+	display: none;
+}
+
+a.showmore.collapsed .more {
+	display: inline;
+}
+
+a.showmore .less {
+	display: inline;
+}
+
+a.showmore.collapsed .less {
+	display: none;
 }
 
 @media (max-width: 768px) {
