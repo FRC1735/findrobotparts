@@ -4,6 +4,10 @@
 	font-size: 1.2rem;
 }
 
+#sidebar > p:first-child {
+	margin-top: 0 !important;
+}
+
 .full-width {
 	width: 100%;
 }
