@@ -1,7 +1,7 @@
 this["FindRobotParts"] = this["FindRobotParts"] || {};
 this["FindRobotParts"]["templates"] = this["FindRobotParts"]["templates"] || {};
 this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+    var stack1, helper, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {}), alias4=container.hooks.helperMissing, alias5="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
           return parent[propertyName];
         }
@@ -9,10 +9,22 @@ this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":fun
     };
 
   return "	<td data-label="
-    + container.escapeExpression(alias1((depth0 != null ? lookupProperty(depth0,"category") : depth0), depth0))
-    + ">"
+    + alias2(alias1((depth0 != null ? lookupProperty(depth0,"category") : depth0), depth0))
+    + ">\n		<div class=\"tags collapse\" id=\"collapse"
+    + alias2(((helper = (helper = lookupProperty(helpers,"productid") || (data && lookupProperty(data,"productid"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"productid","hash":{},"data":data,"loc":{"start":{"line":8,"column":41},"end":{"line":8,"column":55}}}) : helper)))
+    + "-"
+    + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":8,"column":56},"end":{"line":8,"column":66}}}) : helper)))
+    + "\">\n			"
     + ((stack1 = alias1((depth0 != null ? lookupProperty(depth0,"tag") : depth0), depth0)) != null ? stack1 : "")
-    + "</td>\n";
+    + "\n		</div>\n		<a class=\"d-none\" data-bs-toggle=\"collapse\" href=\"#collapse"
+    + alias2(((helper = (helper = lookupProperty(helpers,"productid") || (data && lookupProperty(data,"productid"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"productid","hash":{},"data":data,"loc":{"start":{"line":11,"column":61},"end":{"line":11,"column":75}}}) : helper)))
+    + "-"
+    + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":11,"column":76},"end":{"line":11,"column":86}}}) : helper)))
+    + "\" aria-expanded=\"false\" aria-controls=\"collapse"
+    + alias2(((helper = (helper = lookupProperty(helpers,"productid") || (data && lookupProperty(data,"productid"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"productid","hash":{},"data":data,"loc":{"start":{"line":11,"column":133},"end":{"line":11,"column":147}}}) : helper)))
+    + "-"
+    + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":11,"column":148},"end":{"line":11,"column":158}}}) : helper)))
+    + "\">\n			Show more\n		</a>\n	</td>\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -34,16 +46,18 @@ this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":fun
         return undefined
     };
 
-  return "<tr>\n	<th scope=\"row\" data-label=\"Product\">\n		<strong>"
+  return "<tr data-tags=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"tagids") || (depth0 != null ? lookupProperty(depth0,"tagids") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"tagids","hash":{},"data":data,"loc":{"start":{"line":1,"column":15},"end":{"line":1,"column":25}}}) : helper)))
+    + "\">\n	<th scope=\"row\" data-label=\"Product\">\n		<strong>"
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":10},"end":{"line":3,"column":18}}}) : helper)))
     + "</strong><br>\n		<img src=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"image") || (depth0 != null ? lookupProperty(depth0,"image") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"image","hash":{},"data":data,"loc":{"start":{"line":4,"column":12},"end":{"line":4,"column":21}}}) : helper)))
     + "\" class=\"img-thumbnail\" alt=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":4,"column":50},"end":{"line":4,"column":58}}}) : helper)))
     + "\">\n	</th>\n"
-    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"categories") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":1},"end":{"line":8,"column":10}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"categories") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":1},"end":{"line":15,"column":10}}})) != null ? stack1 : "")
     + "	<td data-label=\"Vendors\">\n		<div class=\"list-group\">\n"
-    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"links") : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":3},"end":{"line":13,"column":12}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"links") : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":18,"column":3},"end":{"line":20,"column":12}}})) != null ? stack1 : "")
     + "		</div>\n	</td>\n</tr>\n";
 },"useData":true});
 this["FindRobotParts"]["templates"]["productrowheader"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {

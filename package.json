@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/FRC1735/findrobotparts#readme",
   "devDependencies": {
-    "bootstrap": "5.0.0",
+    "bootstrap": "5.0.1",
     "del": "6.0.0",
     "flat-map": "1.0.0",
     "gulp": "4.0.2",

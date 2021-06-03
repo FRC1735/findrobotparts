@@ -41,7 +41,9 @@ addProducts = (response, producttable) => {
 			'name': product.name, 
 			'image': image, 
 			'categories': categorydata, 
-			'links': linkdata
+			'links': linkdata,
+			'productid': product.productid,
+			'tagids': product.tagids.replaceAll('||', ',')
 		});
 	});
 	output += '</tbody>';
@@ -59,6 +61,15 @@ addTags = (response) => {
 		});
 	});
 	sidebar.innerHTML = output;
+	addShowMore();
+}
+
+addShowMore = () => {
+	document.querySelectorAll('.tags.collapse').forEach(element => {
+		if (element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth) {
+			element.nextSibling.classList.remove('d-none');
+		}
+	});
 }
 
 document.addEventListener('DOMContentLoaded', () => {

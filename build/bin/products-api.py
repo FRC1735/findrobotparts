@@ -58,7 +58,11 @@ try :
 
 	if tags is None or categories is None :
 		sql = """\
-			SELECT prodtable.productid, prodtable.name, prodtable.image, group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, group_concat(prodtable.tagvalue ORDER BY prodtable.priority SEPARATOR '||') AS tags, linklist.vendors, linklist.links
+			SELECT prodtable.productid, prodtable.name, prodtable.image, 
+				group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, 
+				group_concat(prodtable.tagvalue ORDER BY prodtable.priority SEPARATOR '||') AS tags, 
+				group_concat(prodtable.tagid ORDER BY prodtable.priority SEPARATOR '||') AS tagids,
+				linklist.vendors, linklist.links
 			FROM (
 				SELECT 
 				products.productid, products.name, products.image, tags.tagid, tags.categoryid, categories.value, categories.priority, group_concat(tags.value ORDER BY tags.value*1, tags.value SEPARATOR ', ') AS tagvalue
