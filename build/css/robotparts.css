@@ -14,7 +14,7 @@
 
 .tags.collapse:not(.show), 
 .tags.collapsing {
-	height: 10rem;
+	max-height: 10rem;
 	overflow-y: hidden;
 	display: block;
 }

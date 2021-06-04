@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "npm install && gulp",
-    "clean": "rm -r node_modules"
+    "clean": "rm -r node_modules",
+    "images": "gulp images"
   },
   "author": "Green Reapers - FRC 1735",
   "bugs": {

@@ -15,10 +15,6 @@ const path = require('path');
 
 assets = () => {
 	return merge2(
-		gulp.src("./src/images/categories/*")
-			.pipe(gulp.dest("./build/images/categories")),
-		gulp.src("./src/images/logo/*")
-			.pipe(gulp.dest("./build/images/logo")),
 		gulp.src("./src/images/logo/favicon.ico")
 			.pipe(gulp.dest("./build")),
 		gulp.src("./src/css/*")
@@ -32,21 +28,7 @@ assets = () => {
 		gulp.src("./node_modules/handlebars/dist/handlebars.runtime.min.js")
 			.pipe(gulp.dest("./build/js")),
 		gulp.src("./src/content/product.html")
-			.pipe(gulp.dest("./build/content")),
-		gulp.src("./src/images/products/**")
-			.pipe(flatMap((file, cb) => {
-				const webpFile = file.clone();
-				webpFile.scale = {maxWidth: 200, format: 'webp'};
-				cb(null, [webpFile]);
-			}))
-			.pipe(scaleImages((output, scale, cb) => {
-				const fileName = [
-					path.basename(output.path, output.extname),
-					scale.format || output.extname
-				].join('.');
-				cb(null, fileName);
-			}))
-			.pipe(gulp.dest("./build/images/products"))
+			.pipe(gulp.dest("./build/content"))
 	);
 }
 
@@ -92,7 +74,7 @@ buildtemplate = () => {
 					output += `
 					<div class="col-4 text-center mb-3">
 						<a href="/${element.path}">
-							<img src="/images/categories/${element.image}-gray.jpg" class="img-thumbnail" alt="${element.name}">
+							<img src="/images/categories/${element.image}-gray.webp" class="img-thumbnail" alt="${element.name}">
 							${element.name}
 						</a>
 					</div>`
@@ -108,7 +90,7 @@ buildhomepage = () => {
 	return gulp.src("./src/content/homepage.html")
 		.pipe(replace("{{categories}}", () => {
 			const categories = JSON.parse(fs.readFileSync('./src/categories.json'));
-			const categoryTemplate = fs.readFileSync('./src/content/homepage-item.html', {encoding:"utf-8"});
+			const categoryTemplate = fs.readFileSync('./src/content/homepage-item.html', { encoding: "utf-8" });
 			let output = "";
 			categories.groups.forEach(element => {
 				output += `<h2>${element.name}</h2>\n`;
@@ -123,10 +105,54 @@ buildhomepage = () => {
 		.pipe(gulp.dest("./build/content"));
 }
 
-clean = () => {
-	return del(['./build/css','./build/js','./build/images','./build/content', './build/sitemap.xml'])
+processProductImages = () => {
+	return gulp.src("./src/images/products/**")
+		.pipe(flatMap((file, cb) => {
+			const webpFile = file.clone();
+			webpFile.scale = { maxWidth: 200, format: 'webp' };
+			cb(null, [webpFile]);
+		}))
+		.pipe(scaleImages((output, scale, cb) => {
+			const fileName = [
+				path.basename(output.path, output.extname),
+				scale.format || output.extname
+			].join('.');
+			cb(null, fileName);
+		}))
+		.pipe(gulp.dest("./build/images/products"))
 }
 
-const build = gulp.series(clean, buildhandlebars, buildsitemap, assets, buildtemplate, buildhomepage);
+processCategoryImages = () => {
+	return gulp.src("./src/images/categories/*")
+	.pipe(flatMap((file, cb) => {
+		const webpFile = file.clone();
+		webpFile.scale = { maxWidth: 400, format: 'webp' };
+		cb(null, [webpFile]);
+	}))
+	.pipe(scaleImages((output, scale, cb) => {
+		const fileName = [
+			path.basename(output.path, output.extname),
+			scale.format || output.extname
+		].join('.');
+		cb(null, fileName);
+	}))
+	.pipe(gulp.dest("./build/images/categories"))
+}
+
+copyImages = () => {
+	return gulp.src("./src/images/logo/*")
+		.pipe(gulp.dest("./build/images/logo"))
+}
+
+cleanImages = () => {
+	return del(['./build/images']);
+}
+
+clean = () => {
+	return del(['./build/css', './build/js', './build/content', './build/sitemap.xml', './build/favicon.ico'])
+}
+
+const build = gulp.series(clean, gulp.parallel(buildhandlebars, buildsitemap, assets, buildtemplate, buildhomepage));
 
 exports.default = build;
+exports.images = gulp.series(cleanImages, gulp.parallel(processProductImages, processCategoryImages, copyImages));
