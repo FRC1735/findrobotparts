@@ -85,6 +85,30 @@ updateNumberShown = () => {
 	}
 }
 
+updateTagList = () => {
+	const products = document.querySelectorAll("#productdata tbody tr:not(.d-none)");
+	let activetags = [];
+	products.forEach(element => {
+		activetags.push(element.dataset.tags);
+	});
+	const tagset = new Set(activetags.join(',').split(','));
+	document.querySelectorAll('.btn-group-vertical').forEach(element => {
+		if (!element.querySelector(':checked')) {
+			element.querySelectorAll('.btn-check').forEach(element =>  {
+				if (tagset.has(element.value)) {
+					element.disabled = false;
+				} else {
+					element.disabled = true;
+				}
+			});
+		} else {
+			element.querySelectorAll('.btn-check').forEach(element => {
+				element.disabled = false;
+			});
+		}
+	});
+}
+
 document.getElementById('showall').addEventListener('click', (event) => {
 	event.preventDefault();
 	document.querySelectorAll('input:checked').forEach(element => { 
@@ -118,6 +142,7 @@ document.getElementById('sidebar').addEventListener('change', () => {
 	
 	});
 	updateNumberShown();
+	updateTagList();
 });
 
 document.addEventListener('DOMContentLoaded', () => {

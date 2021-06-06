@@ -90,7 +90,7 @@ this["FindRobotParts"]["templates"]["taggroup"] = Handlebars.template({"1":funct
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
     + "\" value=\""
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
-    + "\" autocomplete=\"off\">\n	<label class=\"btn btn-outline-success\" for=\"tag"
+    + "\" autocomplete=\"off\">\n	<label class=\"btn btn-outline-green\" for=\"tag"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
     + "\">"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"value") : depth0), depth0))

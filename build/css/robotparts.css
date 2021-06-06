@@ -39,6 +39,12 @@ a.showmore.collapsed .less {
 	display: none;
 }
 
+.btn-check:disabled+.btn, 
+.btn-check[disabled]+.btn {
+	opacity: 0.35;
+	font-style: italic;
+}
+
 @media (max-width: 768px) {
 	.table-collapse tbody tr { border-bottom: 2px solid #4d4d4d; }
 	.table-collapse thead th { left: -9999px; position: absolute; top: -9999px; }
