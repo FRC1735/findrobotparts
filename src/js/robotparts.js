@@ -118,6 +118,7 @@ document.getElementById('showall').addEventListener('click', (event) => {
 		element.classList.remove('d-none');
 	});
 	updateNumberShown();
+	updateTagList();
 });
 
 document.getElementById('sidebar').addEventListener('change', () => {
