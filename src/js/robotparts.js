@@ -62,10 +62,11 @@ addTags = (response) => {
 		});
 	});
 	sidebar.innerHTML = output;
-	addShowMore();
+	addShowMoreProducts();
+	updateTagList();
 }
 
-addShowMore = () => {
+addShowMoreProducts = () => {
 	document.querySelectorAll('.tags.collapse').forEach(element => {
 		if (element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth) {
 			element.nextElementSibling.classList.remove('d-none');
@@ -100,11 +101,33 @@ updateTagList = () => {
 				} else {
 					element.disabled = true;
 				}
+				element.classList.remove('hidden-button');
 			});
 		} else {
 			element.querySelectorAll('.btn-check').forEach(element => {
 				element.disabled = false;
+				element.classList.remove('hidden-button');
 			});
+		}
+
+		let checkedElements = element.querySelectorAll(':checked').length;
+		element.querySelectorAll('.btn-check').forEach(element => {
+			if (checkedElements > 6 && !element.checked) {
+				element.classList.add('hidden-button');
+			} else {
+				if (element.disabled) {
+					element.classList.add('hidden-button');
+				} else if (!element.checked) {
+                    checkedElements++;
+				}
+			}
+		});
+
+		const numberHidden = element.querySelectorAll('.hidden-button').length;
+		if (numberHidden) {
+			element.querySelector('button').classList.remove('d-none');
+		} else {
+			element.querySelector('button').classList.add('d-none');
 		}
 	});
 }
@@ -144,6 +167,12 @@ document.getElementById('sidebar').addEventListener('change', () => {
 	});
 	updateNumberShown();
 	updateTagList();
+});
+
+document.getElementById('sidebar').addEventListener('click', (event) => {
+	if (event.target.tagName.toLowerCase() == 'button') {
+		event.target.closest('.btn-group-vertical').classList.toggle('show-all');
+	}
 });
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -109,5 +109,5 @@ this["FindRobotParts"]["templates"]["taggroup"] = Handlebars.template({"1":funct
     + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":2,"column":81},"end":{"line":2,"column":90}}}) : helper)))
     + " options\">\n"
     + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"tags") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":0},"end":{"line":6,"column":9}}})) != null ? stack1 : "")
-    + "</div>";
+    + "	<button type=\"button\" class=\"btn btn-outline-green\">Show <span class=\"all\">All</span><span class=\"less\">Less</span></button>\n</div>";
 },"useData":true});

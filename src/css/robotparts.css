@@ -39,11 +39,30 @@ a.showmore.collapsed .less {
 	display: none;
 }
 
-.btn-check:disabled+.btn, 
-.btn-check[disabled]+.btn {
+#sidebar .btn-check:disabled+.btn, 
+#sidebar .btn-check[disabled]+.btn {
 	opacity: 0.35;
 	font-style: italic;
 }
+
+#sidebar .btn-check.hidden-button + .btn {
+	display: none;
+}
+
+#sidebar .show-all .btn-check.hidden-button + .btn {
+	display: block;
+}
+
+#sidebar .btn-group-vertical button {
+	background-color: #ddd;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#sidebar .btn-group-vertical.show-all .all { display: none; }
+#sidebar .btn-group-vertical.show-all .less { display: inline; }
+#sidebar .btn-group-vertical .all { display: inline; }
+#sidebar .btn-group-vertical .less { display: none; }
 
 @media (max-width: 768px) {
 	.table-collapse tbody tr { border-bottom: 2px solid #4d4d4d; }
@@ -51,197 +70,3 @@ a.showmore.collapsed .less {
 	.table-collapse tbody td, .table-collapse tbody th { padding-left: 35% !important; display: block; position: relative; }
 	.table-collapse tbody td:before, .table-collapse tbody th:before { width: 30%; padding-right: 10px; content: attr(data-label) " ";  display: inline-block; font-weight: bold; left: 7px; overflow: hidden; position: absolute; top: 8px; white-space: nowrap; }
 }
-/*
-#filterbutton {
-	margin-right: 5px;
-}
-
-#filterbutton svg {
-	width: 1.5em;
-	height: 1.5em;
-	padding-left: .25em;
-	padding-right: .25em;
-}
-
-@media (min-width: 768px) {
-	.nav-link {
-		padding-right: calc(1.06vw ) !important;
-    	padding-left: 0px !important;
-	}
-
-	.dropdown-menu {
-	    max-height: calc(100vh - 60px);
-	    overflow: auto;
-	}
-
-}
-
-table .btn {
-	margin-right: 5px; margin-bottom: 5px;
-	color: #333;
-	background-color: #aacfea;
-	border-color: #ccc;
-}
-
-@media (min-width:768px) {
-	table .btn:hover {
-		color: #333;
-		background-color: #86b1d0;
-		border-color: #adadad;
-	}
-}
-
-.fakeicon {
-    color: transparent !important;
-    width: 1em !important;
-    display: inline-block;
-}
-
-a.tag-add:hover, a.tag-remove:hover, a.tag-add:active, a.tag-remove:active, a.tag-add:focus, a.tag-remove:focus {
-	text-decoration: none;
-}
-
-a.tag-add svg, a.tag-remove svg {
-	width: 1em !important;
-}
-
-.tag-add .fa-check, .tag-add .fa-plus, .tag-add .fa-times {
-	display: none;
-}
-.tag-add .glyphicon-none {
-	display: inline;
-}
-.tag-remove {
-	font-weight: bold;
-}
-.tag-remove .fa-times, .tag-remove .fakeicon, .tag-remove .fa-plus {
-	display: none;
-}
-.tag-remove .fa-check {
-	display: inline;
-}
-
-@media (min-width: 768px) {
-	.tag-add:hover .fa-plus {
-		display: inline;
-		color: #449d44;
-	}
-	.tag-add:hover .fakeicon {
-		display: none;
-	}
-	.tag-remove:hover .fa-check {
-		display: none;
-	}
-	.tag-remove:hover .fa-times {
-		display: inline;
-		color: #c9302c;
-	}
-}
-
-.navbar-brand {
-	margin-top: -3px;
-}
-
-.navbar-inverse .navbar-toggle .glyphicon {
-	color: #fff;
-}
-
-@media (max-width: 768px) {
-	#sidebar {
-		position: fixed;
-		z-index: 5;
-		padding-bottom: 56px;
-		width: 100%;
-		height: 100%;
-	}
-	.navbar-toggler {
-		padding-right: .2rem;
-		padding-left: .2rem;
-	}
-
-}
-@media (min-width: 768px) {
-	#sidebar.navbar-collapse {
-		width: 25%;
-	}
-}
-@media (min-width: 992px) {
-	#sidebar.navbar-collapse {
-		width: 16.66666667%;
-	}
-}
-
-footer {
-    border-top: 1px solid #888;
-    padding: 10px;
-    color: #aaa;
-}
-
-	#sidebar {
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-top: 0px;
-	}
-	
-	#sidebar h2 {
-		font-size: 23px;
-		text-align: center;
-		color: #666;
-	}
-	
-	#sidebar h2 + p {
-		text-align: center;
-	}
-
-	#sidebar h2 + p a {
-		text-decoration: none;
-	}
-	
-	#sidebar h2 + p a span {
-		color: #c9302c;
-	}
-
-	#sidebar .row .col-xs-6 a {
-		white-space: nowrap;
-	}
-
-	h3.collapsetitle .fa-chevron-right {	display: none; }
-	h3.collapsetitle .fa-chevron-down {  }
-	h3.collapsetitle.collapsed .fa-chevron-right { display: inline; }
-	h3.collapsetitle.collapsed .fa-chevron-down { display: none; }
-	
-	h3.collapsetitle {
-	    font-size: 15px;
-		border-top: 1px solid #bbb;
-		width: 100%;
-		cursor: pointer;
-		padding-left: 10px;
-		padding-top: 10px;
-		margin-top: 5px;
-	}
-
-	h3.collapsetitle svg {
-		width: 1em !important;
-	}
-	
-	.collapselist .row {
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	
-	.collapselist .col-sm-6 {
-	    padding-left: 0px;
-	    padding-right: 0px;
-	}
-
-	.collapselist a {
-	    width: 100%;
-	    display: block;
-    	font-size: 16px;
-    	padding: 3px 5px 3px 15px;
-	}
-	
-	.currentcategory {
-    	color: #00a700;
-	}
-	*/
