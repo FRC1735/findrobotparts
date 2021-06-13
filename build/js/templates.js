@@ -84,13 +84,13 @@ this["FindRobotParts"]["templates"]["taggroup"] = Handlebars.template({"1":funct
         return undefined
     };
 
-  return "	<input type=\"checkbox\" class=\"btn-check\" name=\""
-    + alias1(((helper = (helper = lookupProperty(helpers,"categoryid") || (data && lookupProperty(data,"categoryid"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"categoryid","hash":{},"data":data,"loc":{"start":{"line":4,"column":48},"end":{"line":4,"column":63}}}) : helper)))
+  return "		<input type=\"checkbox\" class=\"btn-check\" name=\""
+    + alias1(((helper = (helper = lookupProperty(helpers,"categoryid") || (data && lookupProperty(data,"categoryid"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"categoryid","hash":{},"data":data,"loc":{"start":{"line":5,"column":49},"end":{"line":5,"column":64}}}) : helper)))
     + "\" id=\"tag"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
     + "\" value=\""
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
-    + "\" autocomplete=\"off\">\n	<label class=\"btn btn-outline-green\" for=\"tag"
+    + "\" autocomplete=\"off\">\n		<label class=\"btn btn-outline-green\" for=\"tag"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"tagid") : depth0), depth0))
     + "\">"
     + alias1(alias2((depth0 != null ? lookupProperty(depth0,"value") : depth0), depth0))
@@ -103,11 +103,11 @@ this["FindRobotParts"]["templates"]["taggroup"] = Handlebars.template({"1":funct
         return undefined
     };
 
-  return "<p class=\"h6 mt-4\">"
-    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":1,"column":19},"end":{"line":1,"column":28}}}) : helper)))
-    + "</p>\n<div class=\"btn-group-vertical btn-group-sm full-width\" role=\"group\" aria-label=\""
-    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":2,"column":81},"end":{"line":2,"column":90}}}) : helper)))
+  return "<div class=\"col-6 col-sm-12\">\n	<p class=\"h6 mt-4\">"
+    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":2,"column":20},"end":{"line":2,"column":29}}}) : helper)))
+    + "</p>\n	<div class=\"btn-group-vertical btn-group-sm full-width\" role=\"group\" aria-label=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":3,"column":82},"end":{"line":3,"column":91}}}) : helper)))
     + " options\">\n"
-    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"tags") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":0},"end":{"line":6,"column":9}}})) != null ? stack1 : "")
-    + "	<button type=\"button\" class=\"btn btn-outline-green\">Show <span class=\"all\">All</span><span class=\"less\">Less</span></button>\n</div>";
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"tags") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":1},"end":{"line":7,"column":10}}})) != null ? stack1 : "")
+    + "		<button type=\"button\" class=\"btn btn-outline-green\">Show <span class=\"all\">All</span><span class=\"less\">Less</span></button>\n	</div>\n</div>";
 },"useData":true});
