@@ -170,8 +170,12 @@ document.getElementById('sidebar').addEventListener('change', () => {
 });
 
 document.getElementById('sidebar').addEventListener('click', (event) => {
-	if (event.target.tagName.toLowerCase() == 'button') {
-		event.target.closest('.btn-group-vertical').classList.toggle('show-all');
+	let target = event.target;
+	while (target.tagName.toLowerCase() !== 'button' && target.id != 'sidebar') {
+		target = target.parentElement;
+	}
+	if (target.tagName.toLowerCase() === 'button') {
+		target.closest('.btn-group-vertical').classList.toggle('show-all');
 	}
 });
 
