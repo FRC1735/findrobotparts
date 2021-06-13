@@ -52,7 +52,7 @@ addProducts = (response, producttable) => {
 };
 
 addTags = (response) => {
-	const sidebar = document.querySelector('#sidebar > row');
+	const sidebar = document.querySelector('#sidebar > .row');
 	let output = '';
 	response.categories.forEach(category => {
 		output += FindRobotParts.templates.taggroup({
