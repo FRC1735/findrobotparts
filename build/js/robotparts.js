@@ -65,8 +65,8 @@ addTags = (response) => {
 				} else {
 					significance = "*".repeat(Math.floor(ratio[0]).toString().length-1) + '.*';
 				}
-				let key = Math.floor(ratio[0]/("1" + "0".repeat(significance.length - 2))) + significance;
-				if (significance === '1:1') {
+				let key = Math.floor(ratio[0]/("1" + "0".repeat(significance.length - 2))) + significance + ':1';
+				if (significance === ':1') {
 					key = '1:1.*'
 				}
 				if (typeof tempTags[key] === 'undefined') {
