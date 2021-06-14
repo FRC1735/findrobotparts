@@ -55,6 +55,31 @@ addTags = (response) => {
 	const sidebar = document.querySelector('#sidebar > .row');
 	let output = '';
 	response.categories.forEach(category => {
+		if (category.categoryid === 1) {
+			let tempTags = {};
+			category.tags.forEach(tag => {
+				const ratio = tag.value.split(':');
+				let significance = '.*';
+				if (ratio[1] > 1) {
+					significance = ':1';
+				} else {
+					significance = "*".repeat(Math.floor(ratio[0]).toString().length-1) + '.*';
+				}
+				let key = Math.floor(ratio[0]/("1" + "0".repeat(significance.length - 2))) + significance;
+				if (significance === '1:1') {
+					key = '1:1.*'
+				}
+				if (typeof tempTags[key] === 'undefined') {
+					tempTags[key] = [];
+				}
+				tempTags[key].push(tag.tagid);
+			});
+			category.tags = [];
+			console.log(tempTags);
+			Object.keys(tempTags).forEach(element => {
+				category.tags.push({ 'tagid': tempTags[element].join(','), 'value': element });
+			});
+		}
 		output += FindRobotParts.templates.taggroup({
 			'value': category.value,
 			'categoryid': category.categoryid,
@@ -96,10 +121,10 @@ updateTagList = () => {
 	document.querySelectorAll('.btn-group-vertical').forEach(element => {
 		if (!element.querySelector(':checked')) {
 			element.querySelectorAll('.btn-check').forEach(element =>  {
-				if (tagset.has(element.value)) {
-					element.disabled = false;
+				if (element.value.includes(',')) {
+					element.disabled = !element.value.split(',').some(element => tagset.has(element));
 				} else {
-					element.disabled = true;
+					element.disabled = !tagset.has(element.value);
 				}
 				element.classList.remove('hidden-button');
 			});
@@ -153,7 +178,11 @@ document.getElementById('sidebar').addEventListener('change', () => {
 	document.querySelectorAll('.btn-group-vertical').forEach(element => {
 		let tags = [];
 		element.querySelectorAll('.btn-check:checked').forEach(element => {
-			tags.push(element.value);
+			if (element.value.includes(',')) {
+				tags = tags.concat(element.value.split(','));
+			} else {
+				tags.push(element.value);
+			}
 		});
 		if (tags.length !== 0) {
 			document.querySelectorAll('#productdata tbody tr:not(.d-none)').forEach(element => {
