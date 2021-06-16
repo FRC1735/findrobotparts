@@ -71,6 +71,10 @@ footer {
 	color: #fff;
 }
 
+footer a {
+	color: #fff !important;
+}
+
 @media (min-width: 576px) {
 	#sidebar {
 		height: calc(100vh - 80px);
