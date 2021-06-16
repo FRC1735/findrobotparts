@@ -66,6 +66,11 @@ a:hover .img-thumbnail {
     border-color: #51905a !important;
 }
 
+footer {
+	background-color: #343a40;
+	color: #fff;
+}
+
 @media (min-width: 576px) {
 	#sidebar {
 		height: calc(100vh - 80px);

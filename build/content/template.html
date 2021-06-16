@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 
-	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
 
 	<title>{{title}}Find Robot Parts</title>
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -53,9 +55,39 @@
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<main class="col py-4 px-4 overflow-auto order-2">
-				{{maincontent}}
-			</main>
+			<div class="col overflow-auto order-2">
+				<main class="p-4">
+					{{maincontent}}
+				</main>
+				<footer class="row p-4 gx-5">
+					<div class="col">
+						<p class="mb-0">Brought to you by:</p>
+						<a href="https://burncoatrobotics.org/" class="d-block mb-5"><img src="/images/logo/burncoat-robotics-white.svg" width="100%" alt="Burncoat Robotics"></a>
+
+						<ul>
+							<li><a href="/about">About FindRobotParts</li>
+						</ul>
+					</div>
+					<div class="col">
+						<p>FindRobotParts was designed to help robotics teams:</p>
+						<ol>
+							<li>Determine which products meet their needs</li>
+							<li>Learn about products and vendors they are not aware of</li>
+						</ol>
+					</div>
+					<div class="col">
+						<p>Learn about our other websites:</p>
+						<ul>
+							<li><a href="https://sneac.info/">SNEAC - Southern New England Advocacy Conference</a></li>
+						</ul>
+						<p>Proudly Supporting:</p>
+						<ul>
+							<li><a href="https://mysasa.org/" target="_blank">SASA - Student Association for STEM Advocacy</a></li>
+							<li><a href="https://mysasa.org/national-advocacy-conference" target="_blank">NAC - National Advocacy Conference</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
 			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-{{sidebarview}} collapse order-1" id="sidebar">
 				<div class="row"></div>
 			</div>
