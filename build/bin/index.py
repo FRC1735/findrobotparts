@@ -50,13 +50,14 @@ try:
 			maincontent = createHeader(row)
 			hasSidebar = True
 		else :
-			action = None
+			title = "404 - Part Not Found"
+			maincontent = open("../content/404.html").read()
 
 	if action == "about" :
 		title = "About"
 		maincontent = open("../content/about.html").read()
-	elif action == "404" :
-		title = "Part Not Found"
+	elif action == "404err" :
+		title = "404 - Part Not Found"
 		maincontent = open("../content/404.html").read()
 	elif title == "" :
 		maincontent = open("../content/homepage.html").read()
