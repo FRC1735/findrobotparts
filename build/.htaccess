@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://findrobotparts.com/$1 [R,L]
 
-ErrorDocument 404 /index.py?action=404err
+ErrorDocument 404 /index.py?action=404
 
 <IfModule mod_rewrite.c>
 
@@ -10,8 +10,9 @@ RewriteEngine On
 RewriteBase /
 
 RewriteRule ^/?$											/bin/index.py
-RewriteRule ^questions/?$	 								/bin/index.py?action=faq
-RewriteRule ^faq/?$	 										/bin/index.py?action=faq
+RewriteRule ^questions/?$	 								/bin/index.py?action=about
+RewriteRule ^faq/?$	 										/bin/index.py?action=about
+RewriteRule ^about/?$	 									/bin/index.py?action=about
 
 RewriteRule ^3d/([a-z\-]+)/?$									/bin/index.py?actionname=3d/$1
 RewriteRule ^3d/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/bin/index.py?actionname=3d/$1

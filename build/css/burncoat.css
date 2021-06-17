@@ -66,6 +66,13 @@ a:hover .img-thumbnail {
     border-color: #51905a !important;
 }
 
+#sidebar {
+	height: calc(100vh - 80px);
+	top: 80px;
+	position: sticky;
+	overflow-y: scroll;
+}
+
 footer {
 	background-color: #343a40;
 	color: #fff;
@@ -76,12 +83,7 @@ footer a {
 }
 
 @media (min-width: 576px) {
-	#sidebar {
-		height: calc(100vh - 80px);
-		top: 80px;
-		position: sticky;
-		overflow-y: scroll;
-	}
+
 }
 
 @media (max-width: 575px) {

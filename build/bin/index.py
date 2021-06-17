@@ -4,6 +4,7 @@ import MySQLdb as mdb
 import sys
 import cgi
 import cgitb
+import traceback
 
 sys.path.append("../../")
 import config
@@ -51,15 +52,15 @@ try:
 		else :
 			action = None
 
-	if title == "" :
+	if action == "about" :
+		title = "About"
+		maincontent = open("../content/about.html").read()
+	elif action == "404" :
+		title = "Part Not Found"
+		maincontent = open("../content/404.html").read()
+	elif title == "" :
 		maincontent = open("../content/homepage.html").read()
 
-#	if action is None :
-#		print open("main.inc").read()
-#	#elif action == "faq" :
-#	#	print open("faq.inc").read()
-#	#elif action == "404err" :
-#	#	print open("404.inc").read()
 	outputhtml = outputhtml.replace("{{title}}", title)
 	outputhtml = outputhtml.replace("{{maincontent}}", maincontent)
 	sidebarview = "block"
