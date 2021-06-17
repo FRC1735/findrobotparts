@@ -28,7 +28,12 @@ assets = () => {
 		gulp.src("./node_modules/handlebars/dist/handlebars.runtime.min.js")
 			.pipe(gulp.dest("./build/js")),
 		gulp.src("./src/content/product.html")
+			.pipe(gulp.dest("./build/content")),
+		gulp.src("./src/content/404.html")
+			.pipe(gulp.dest("./build/content")),
+		gulp.src("./src/content/about.html")
 			.pipe(gulp.dest("./build/content"))
+
 	);
 }
 
