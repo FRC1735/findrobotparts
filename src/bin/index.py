@@ -5,6 +5,8 @@ import sys
 import cgi
 import cgitb
 import traceback
+import os
+import Cookie
 
 sys.path.append("../../")
 import config
@@ -39,8 +41,35 @@ try:
 	maincontent = ""
 	hasSidebar = False
 	outputhtml = open("../content/template.html").read()
+	admin = False
 
-	if actionname is not None :
+	if action == "admin" :
+		if 'HTTP_COOKIE' in os.environ:
+			cookie_string = os.environ.get('HTTP_COOKIE')
+			c = Cookie.SimpleCookie()
+			c.load(cookie_string)
+				
+			try :
+				data = c['frp'].value
+				admin = True
+				title = "Dashboard"
+				maincontent = open("../content/dashboard.html").read()
+				hasSidebar = True
+			except KeyError :
+				title = "403 - Part Denied"
+				maincontent = open("../content/404.html").read()
+		else :
+			title = "403 - Part Denied"
+			maincontent = open("../content/404.html").read()
+	elif action == "about" :
+		title = "About"
+		maincontent = open("../content/about.html").read()
+	elif action == "404err" :
+		title = "404 - Part Not Found"
+		maincontent = open("../content/404.html").read()
+	elif action == "home" :
+		maincontent = open("../content/homepage.html").read()
+	elif actionname is not None :
 		sql = "SELECT * FROM groups WHERE pathname=%s" % conn.literal(actionname)
 		cursor.execute(sql)
 		if cursor.rowcount == 1 :
@@ -52,22 +81,18 @@ try:
 		else :
 			title = "404 - Part Not Found"
 			maincontent = open("../content/404.html").read()
-
-	if action == "about" :
-		title = "About"
-		maincontent = open("../content/about.html").read()
-	elif action == "404err" :
+	else :
 		title = "404 - Part Not Found"
 		maincontent = open("../content/404.html").read()
-	elif title == "" :
-		maincontent = open("../content/homepage.html").read()
 
 	outputhtml = outputhtml.replace("{{title}}", title)
 	outputhtml = outputhtml.replace("{{maincontent}}", maincontent)
 	sidebarview = "block"
-	if (not hasSidebar) :
+	if not hasSidebar :
 		sidebarview = "none"
 	outputhtml = outputhtml.replace("{{sidebarview}}", sidebarview)
+	if admin :
+		outputhtml = outputhtml.replace("robotparts.js", "robotparts-admin.js")
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
 

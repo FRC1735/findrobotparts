@@ -9,19 +9,22 @@ ErrorDocument 404 /index.py?action=404err
 RewriteEngine On
 RewriteBase /
 
-RewriteRule ^/?$											/bin/index.py
-RewriteRule ^questions/?$	 								/bin/index.py?action=about
-RewriteRule ^faq/?$	 										/bin/index.py?action=about
-RewriteRule ^about/?$	 									/bin/index.py?action=about
+RewriteRule ^/?$												/bin/index.py?action=home
+RewriteRule ^questions/?$	 									/bin/index.py?action=about
+RewriteRule ^faq/?$	 											/bin/index.py?action=about
+RewriteRule ^about/?$	 										/bin/index.py?action=about
 
 RewriteRule ^3d/([a-z\-]+)/?$									/bin/index.py?actionname=3d/$1
 RewriteRule ^3d/([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/bin/index.py?actionname=3d/$1
 
-RewriteRule ^([a-z\-]+)/?$									    /bin/index.py?actionname=$1
+RewriteRule ^([a-z\-]+)/?$										/bin/index.py?actionname=$1
 RewriteRule ^([a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)$	/bin/index.py?actionname=$1
 
-RewriteRule ^api/product/((3d/)?[a-z\-]+)/?$                                      /bin/products-api.py?product=$1
-RewriteRule ^api/product/((3d/)?[a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)/?$  /bin/products-api.py?product=$1
+RewriteRule ^api/groups/?$															/bin/products-api.py?type=groups
+RewriteRule ^api/product/((3d/)?[a-z\-]+)/?$										/bin/products-api.py?type=product&product=$1
+RewriteRule ^api/product/((3d/)?[a-z\-]+)/categories/([0-9,]+)/tags/([0-9,]+)/?$	/bin/products-api.py?type=product&product=$1
+
+RewriteRule ^dashboard/?$										/bin/index.py?action=admin
 
 </IfModule>
 

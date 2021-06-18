@@ -15,6 +15,8 @@ const path = require('path');
 
 assets = () => {
 	return merge2(
+		gulp.src("./src/bin/*")
+			.pipe(gulp.dest("./build/bin")),
 		gulp.src("./src/images/logo/favicon.ico")
 			.pipe(gulp.dest("./build")),
 		gulp.src("./src/css/*")
@@ -32,7 +34,11 @@ assets = () => {
 		gulp.src("./src/content/404.html")
 			.pipe(gulp.dest("./build/content")),
 		gulp.src("./src/content/about.html")
-			.pipe(gulp.dest("./build/content"))
+			.pipe(gulp.dest("./build/content")),
+		gulp.src("./src/.htaccess")
+			.pipe(gulp.dest("./build")),
+		gulp.src("./src/robots.txt")
+			.pipe(gulp.dest("./build"))
 
 	);
 }
@@ -154,7 +160,7 @@ cleanImages = () => {
 }
 
 clean = () => {
-	return del(['./build/css', './build/js', './build/content', './build/sitemap.xml', './build/favicon.ico'])
+	return del(['./build/bin', './build/css', './build/js', './build/content', './build/*.*', './build/.htaccess'])
 }
 
 const build = gulp.series(clean, gulp.parallel(buildhandlebars, buildsitemap, assets, buildtemplate, buildhomepage));
