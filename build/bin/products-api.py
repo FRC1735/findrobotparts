@@ -23,11 +23,6 @@ try :
 
 	type = form.getvalue("type")
 	product = form.getvalue("product")
-
-	if product is None or not re.compile("^(3d/)?[a-z\-]+").match(product) :
-		product = None
-		errorOccurred("Product was not defined")
-
 	categories = form.getvalue("categories")
 	tags = form.getvalue("categories")
 
@@ -46,6 +41,10 @@ try :
 	data = {}
 
 	if type == "product" :
+		if product is None or not re.compile("^(3d/)?[a-z\-]+").match(product) :
+			product = None
+			errorOccurred("Product was not defined")
+
 		productId = None
 		sql = "SELECT * FROM groups WHERE pathname=%s" % conn.literal(product)
 		cursor.execute(sql)
