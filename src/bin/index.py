@@ -48,7 +48,7 @@ try:
 			cookie_string = os.environ.get('HTTP_COOKIE')
 			c = Cookie.SimpleCookie()
 			c.load(cookie_string)
-				
+
 			try :
 				data = c['frp'].value
 				admin = True
