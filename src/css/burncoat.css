@@ -82,6 +82,11 @@ footer a {
 	color: #fff !important;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #3c6b43;
+    background-color: #f9fbf9;
+}
+
 @media (min-width: 576px) {
 
 }
