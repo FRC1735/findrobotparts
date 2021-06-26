@@ -3,7 +3,7 @@
 		<select class="form-select" id="{{idPrefix}}ProductGroup">
 			<option selected>Open this select menu</option>
 			{{#each groups}}
-			<option value="{{this.groupid}}">{{this.value}}</option>
+			<option value="{{this.pathname}}">{{this.value}}</option>
 			{{/each}}
 		</select>
 		<label for="{{idPrefix}}ProductGroup">Product Group</label>
@@ -23,12 +23,12 @@
 	{{#each vendorLinks}}
 	<div class="row mb-3">
 		<div class="col form-floating">
-			<input type="text" class="form-control" id="{{idPrefix}}VendorName{{@index}}" value="{{this.name}}">
-			<label for="{{idPrefix}}VendorName{{@index}}">Vendor Name</label>
+			<input type="text" class="form-control" id="{{../idPrefix}}VendorName{{@index}}" value="{{this.name}}">
+			<label for="{{../idPrefix}}VendorName{{@index}}">Vendor Name</label>
 		</div>
 		<div class="col form-floating">
-			<input type="text" class="form-control" id="{{idPrefix}}VendorLink{{@index}}" value="{{this.link}}">
-			<label for="{{idPrefix}}VendorLink{{@index}}">Vendor Link</label>
+			<input type="text" class="form-control" id="{{../idPrefix}}VendorLink{{@index}}" value="{{this.link}}">
+			<label for="{{../idPrefix}}VendorLink{{@index}}">Vendor Link</label>
 		</div>
 	</div>
 	{{/each}}

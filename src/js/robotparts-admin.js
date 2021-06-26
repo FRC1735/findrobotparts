@@ -23,7 +23,27 @@ setupCreateSingle = (groupData) => {
 	document.querySelector('#addSingle .accordion-body').innerHTML = FindRobotParts.templates.dashboardSingle({
 		'idPrefix': 'addSingle',
 		'vendorLinks': [{},{},{},{},{},{},{},{},{},{}],
-		'groups': groupData.groups
+		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
+	});
+
+	document.getElementById('addSingleProductGroup').addEventListener('change', (event) => {
+		const request = new XMLHttpRequest();
+		request.open('GET', '/api/products/' + event.target.value);
+		request.responseType = 'json';
+		request.send();
+
+		request.onload = () => {
+			const sidebar = document.querySelector('#sidebar > .row');
+			let output = '';
+			request.response.categories.forEach(category => {
+				output += FindRobotParts.templates.taggroup({
+					'value': category.value,
+					'categoryid': category.categoryid,
+					'tags': category.tags
+				});
+			});
+			sidebar.innerHTML = output;
+		};
 	});
 
 	document.getElementById('addSingleForm').addEventListener('submit', (event) => {
@@ -45,7 +65,6 @@ setupEditGroup = () => {
 document.addEventListener('DOMContentLoaded', () => {
 	setupEdit();
 	getData('/api/groups', setupCreateSingle);
-	setupCreateSingle();
 	setupCreateMultiple();
 	setupCreateGroup();
 	setupEditGroup();
