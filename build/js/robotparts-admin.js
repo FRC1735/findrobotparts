@@ -28,7 +28,7 @@ setupCreateSingle = (groupData) => {
 
 	document.getElementById('addSingleProductGroup').addEventListener('change', (event) => {
 		const request = new XMLHttpRequest();
-		request.open('GET', '/api/products/' + event.target.value);
+		request.open('GET', '/api/product/' + event.target.value);
 		request.responseType = 'json';
 		request.send();
 
