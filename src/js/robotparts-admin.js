@@ -48,6 +48,23 @@ setupCreateSingle = (groupData) => {
 
 	document.getElementById('addSingleForm').addEventListener('submit', (event) => {
 		event.preventDefault();
+
+		const links = [];
+		
+		document.querySelectorAll('.vendor-links').forEach(element => {
+			const link = element.querySelector('.vendor-link').value;
+			const name = element.querySelector('.vendor-name').value;
+			if (link && name) {
+				links.push({ 'name': name, 'link': link });
+			}
+		});
+
+		const tags = [];
+
+		document.querySelectorAll('#sidebar input:checked').forEach(element => {
+			tags.push(element.value);
+		});
+
 		const request = new XMLHttpRequest();
 		request.open('POST', '/admin');
 		request.setRequestHeader('application/json');
@@ -55,18 +72,8 @@ setupCreateSingle = (groupData) => {
 			'type': 'addSingle',
 			'name': document.getElementById('addSingleProductName').value,
 			'image': document.getElementById('addSingleImagePath').value,
-			'links': document.getElementsByClassName('vendor-links').forEach(element => {
-				const link = element.querySelector('vendor-link').value;
-				const name = element.querySelector('vendor-name').value;
-				if (link && name) {
-					return { 'name': name, 'link': link };
-				} else {
-					return undefined;
-				}
-			}),
-			'tags': document.querySelectorAll('#sidebar input:checked').forEach(element => {
-				return element.value;
-			})
+			'links': links,
+			'tags': tags
 		}));
 	});
 }
