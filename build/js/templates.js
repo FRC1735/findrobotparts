@@ -21,20 +21,20 @@ this["FindRobotParts"]["templates"]["dashboardSingle"] = Handlebars.template({"1
         return undefined
     };
 
-  return "	<div class=\"row mb-3\">\n		<div class=\"col form-floating\">\n			<input type=\"text\" class=\"form-control\" id=\""
+  return "	<div class=\"row mb-3 vendor-links\">\n		<div class=\"col form-floating\">\n			<input type=\"text\" class=\"form-control\" class=\"vendor-name\" id=\""
     + alias2(alias1((depths[1] != null ? lookupProperty(depths[1],"idPrefix") : depths[1]), depth0))
     + "VendorName"
-    + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":26,"column":72},"end":{"line":26,"column":82}}}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":26,"column":92},"end":{"line":26,"column":102}}}) : helper)))
     + "\" value=\""
     + alias2(alias1((depth0 != null ? lookupProperty(depth0,"name") : depth0), depth0))
     + "\">\n			<label for=\""
     + alias2(alias1((depths[1] != null ? lookupProperty(depths[1],"idPrefix") : depths[1]), depth0))
     + "VendorName"
     + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":27,"column":40},"end":{"line":27,"column":50}}}) : helper)))
-    + "\">Vendor Name</label>\n		</div>\n		<div class=\"col form-floating\">\n			<input type=\"text\" class=\"form-control\" id=\""
+    + "\">Vendor Name</label>\n		</div>\n		<div class=\"col form-floating\">\n			<input type=\"text\" class=\"form-control\" class=\"vendor-link\" id=\""
     + alias2(alias1((depths[1] != null ? lookupProperty(depths[1],"idPrefix") : depths[1]), depth0))
     + "VendorLink"
-    + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":30,"column":72},"end":{"line":30,"column":82}}}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":30,"column":92},"end":{"line":30,"column":102}}}) : helper)))
     + "\" value=\""
     + alias2(alias1((depth0 != null ? lookupProperty(depth0,"link") : depth0), depth0))
     + "\">\n			<label for=\""

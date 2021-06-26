@@ -48,7 +48,26 @@ setupCreateSingle = (groupData) => {
 
 	document.getElementById('addSingleForm').addEventListener('submit', (event) => {
 		event.preventDefault();
-		console.log('submit data');
+		const request = new XMLHttpRequest();
+		request.open('POST', '/admin');
+		request.setRequestHeader('application/json');
+		request.send(JSON.stringify({
+			'type': 'addSingle',
+			'name': document.getElementById('addSingleProductName').value,
+			'image': document.getElementById('addSingleImagePath').value,
+			'links': document.getElementsByClassName('vendor-links').forEach(element => {
+				const link = element.querySelector('vendor-link').value;
+				const name = element.querySelector('vendor-name').value;
+				if (link && name) {
+					return { 'name': name, 'link': link };
+				} else {
+					return undefined;
+				}
+			}),
+			'tags': document.querySelectorAll('#sidebar input:checked').forEach(element => {
+				return element.value;
+			})
+		}));
 	});
 }
 
@@ -68,4 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	setupCreateMultiple();
 	setupCreateGroup();
 	setupEditGroup();
+});
+
+document.getElementById('sidebar').addEventListener('click', (event) => {
+	let target = event.target;
+	while (target.tagName.toLowerCase() !== 'button' && target.id != 'sidebar') {
+		target = target.parentElement;
+	}
+	if (target.tagName.toLowerCase() === 'button') {
+		target.closest('.btn-group-vertical').classList.toggle('show-all');
+	}
 });
