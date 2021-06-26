@@ -1,5 +1,60 @@
 this["FindRobotParts"] = this["FindRobotParts"] || {};
 this["FindRobotParts"]["templates"] = this["FindRobotParts"]["templates"] || {};
+this["FindRobotParts"]["templates"]["dashboardSingle"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, alias5=container.lambda, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "		<div class=\"col form-floating\">\n			<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":26,"column":47},"end":{"line":26,"column":59}}}) : helper)))
+    + "VendorName"
+    + alias4(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":26,"column":69},"end":{"line":26,"column":79}}}) : helper)))
+    + "\" value=\""
+    + alias4(alias5((depth0 != null ? lookupProperty(depth0,"name") : depth0), depth0))
+    + "\">\n			<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":27,"column":15},"end":{"line":27,"column":27}}}) : helper)))
+    + "VendorName"
+    + alias4(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":27,"column":37},"end":{"line":27,"column":47}}}) : helper)))
+    + "\">Vendor Name</label>\n		</div>\n		<div class=\"col form-floating\">\n			<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":30,"column":47},"end":{"line":30,"column":59}}}) : helper)))
+    + "VendorLink"
+    + alias4(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":30,"column":69},"end":{"line":30,"column":79}}}) : helper)))
+    + "\" value=\""
+    + alias4(alias5((depth0 != null ? lookupProperty(depth0,"link") : depth0), depth0))
+    + "\">\n			<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":31,"column":15},"end":{"line":31,"column":27}}}) : helper)))
+    + "VendorLink"
+    + alias4(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":31,"column":37},"end":{"line":31,"column":47}}}) : helper)))
+    + "\">Vendor Link</label>\n		</div>\n";
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "<form id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":1,"column":10},"end":{"line":1,"column":22}}}) : helper)))
+    + "Form\">\n	<div class=\"form-floating mb-3\">\n		<select class=\"form-select\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":3,"column":34},"end":{"line":3,"column":46}}}) : helper)))
+    + "ProductGroup\">\n			<option selected>Open this select menu</option>\n			<option value=\"1\">One</option>\n			<option value=\"2\">Two</option>\n			<option value=\"3\">Three</option>\n		</select>\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":9,"column":14},"end":{"line":9,"column":26}}}) : helper)))
+    + "ProductGroup\">Product Group</label>\n	</div>\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":13,"column":46},"end":{"line":13,"column":58}}}) : helper)))
+    + "ProductName\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":14,"column":14},"end":{"line":14,"column":26}}}) : helper)))
+    + "ProductName\">Product Name</label>\n	</div>\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":18,"column":46},"end":{"line":18,"column":58}}}) : helper)))
+    + "ImagePath\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":19,"column":14},"end":{"line":19,"column":26}}}) : helper)))
+    + "ImagePath\">Image Path</label>\n	</div>\n\n	<p class=\"h2\">Vendor Links</p>\n	<div class=\"row mb-3\">\n"
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"vendorLinks") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":24,"column":2},"end":{"line":33,"column":11}}})) != null ? stack1 : "")
+    + "	</div>\n\n	<button type=\"submit\" class=\"btn btn-green\">Submit</button>\n</form>";
+},"useData":true});
 this["FindRobotParts"]["templates"]["productrow"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data,blockParams,depths) {
     var stack1, helper, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {}), alias4=container.hooks.helperMissing, alias5="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
