@@ -2,9 +2,9 @@
 	<div class="form-floating mb-3">
 		<select class="form-select" id="{{idPrefix}}ProductGroup">
 			<option selected>Open this select menu</option>
-			<option value="1">One</option>
-			<option value="2">Two</option>
-			<option value="3">Three</option>
+			{{#each groups}}
+			<option value="{{this.groupid}}">{{this.value}}</option>
+			{{/each}}
 		</select>
 		<label for="{{idPrefix}}ProductGroup">Product Group</label>
 	</div>
@@ -19,9 +19,9 @@
 		<label for="{{idPrefix}}ImagePath">Image Path</label>
 	</div>
 
-	<p class="h2">Vendor Links</p>
+	<p class="h4">Vendor Links</p>
+	{{#each vendorLinks}}
 	<div class="row mb-3">
-		{{#each vendorLinks}}
 		<div class="col form-floating">
 			<input type="text" class="form-control" id="{{idPrefix}}VendorName{{@index}}" value="{{this.name}}">
 			<label for="{{idPrefix}}VendorName{{@index}}">Vendor Name</label>
@@ -30,8 +30,8 @@
 			<input type="text" class="form-control" id="{{idPrefix}}VendorLink{{@index}}" value="{{this.link}}">
 			<label for="{{idPrefix}}VendorLink{{@index}}">Vendor Link</label>
 		</div>
-		{{/each}}
 	</div>
+	{{/each}}
 
 	<button type="submit" class="btn btn-green">Submit</button>
 </form>

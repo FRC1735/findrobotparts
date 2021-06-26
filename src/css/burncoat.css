@@ -45,6 +45,17 @@ a:hover .img-thumbnail {
 	color: #fff;
 }
 
+.btn-green {
+	color: #fff;
+	background-color: #3c6b43;
+}
+
+.btn-green:hover {
+    color: #fff;
+    background-color: #51905a !important;
+    border-color: #51905a !important;
+}
+
 .btn-outline-green {
     color: #3c6b43;
     border-color: #3c6b43;
