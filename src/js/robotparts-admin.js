@@ -78,7 +78,31 @@ setupCreateSingle = (groupData) => {
 	});
 }
 
-setupCreateMultiple = () => {
+setupCreateMultiple = (groupData) => {
+	document.querySelector('#addMultiple .accordion-body').innerHTML = FindRobotParts.templates.dashboardMultiple({
+		'idPrefix': 'addMultiple',
+		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
+	});
+
+	document.getElementById('addMultipleProductGroup').addEventListener('change', (event) => {
+		event.preventDefault();
+		const sidebar = document.querySelector('#sidebar > .row');
+		sidebar.innerHTML = event.target.dataset.categories.split('||').join('<br>');
+	});
+
+	document.getElementById('addMultipleForm').addEventListener('submit', (event) => {
+		event.preventDefault();
+
+		const request = new XMLHttpRequest();
+		request.open('POST', '/frc/1735/admin');
+		request.setRequestHeader('Content-Type', 'application/json');
+		request.send(JSON.stringify({
+			'type': 'addMultiple',
+			'groupid': document.getElementById('addMultipleCategoryProductGroup').value,
+			'data': document.getElementById('addMultipleData').value
+		}));
+	});
+
 }
 
 setupCreateGroup = () => {
@@ -91,7 +115,7 @@ setupEditGroup = () => {
 document.addEventListener('DOMContentLoaded', () => {
 	setupEdit();
 	getData('/api/groups', setupCreateSingle);
-	setupCreateMultiple();
+	getData('/api/groups', setupCreateMultiple);
 	setupCreateGroup();
 	setupEditGroup();
 });

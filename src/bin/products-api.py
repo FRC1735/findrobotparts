@@ -145,7 +145,14 @@ try :
 			"products": productRows
 		}
 	elif type == "groups" :
-		sql = "SELECT groupid, value, pathname, description, image, spreadsheet FROM groups"
+		sql = """\
+			SELECT groups.groupid, groups.value, groups.pathname, groups.description, groups.image, groups.spreadsheet, 
+				group_concat(categories.value ORDER BY categories.value SEPARATOR ' || ') AS categories
+			FROM groups
+			LEFT JOIN categories ON categories.groupid=groups.groupid
+			GROUP BY groups.groupid
+			ORDER BY groups.value, categories.value
+		"""
 		cursor.execute(sql)
 		groupRows = cursor.fetchall()
 		data = {

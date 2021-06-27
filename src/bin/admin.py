@@ -6,6 +6,7 @@ import json
 import cgitb
 import traceback
 import os
+import re
 import Cookie
 
 sys.path.append("../../")
@@ -67,6 +68,63 @@ try:
 			#cursor.execute(sql)
 			#conn.commit()
 			outputhtml += "\n" + sql
+		elif data["type"] == "addMultiple" :
+			tagids = []
+			vendorloc = 0
+			sql = "SELECT * FROM categories WHERE groupid=%s ORDER BY value" % conn.literal(data["groupid"])
+			cursor.execute(sql)
+			rows = cursor.fetchall()
+			for row in rows :
+				tagids.append(row["categoryid"])
+				if row["value"] == "Vendors" :
+					vendorloc = len(tagids)
+
+			tags = {}
+			for categoryid in tagids :
+				sql = "SELECT * FROM tags WHERE categoryid=%s" % conn.literal(categoryid)
+				cursor.execute(sql)
+				rows = cursor.fetchall()
+				if not (categoryid in tags) :
+					tags[categoryid] = {}
+				for row in rows :
+					tags[categoryid][row["value"]] = row["tagid"]
+			
+			products = []
+			for product in re.split("\r?\n", data["data"]) :
+				productList = product.split("\t")
+				for i in range(len(productList)) :
+					if i != 0 and i < len(tagids)+1 :
+						productList[i] = re.split(" ?, ?", productList[i])
+				products.append(productList)
+			
+			for product in products :
+				sql = "INSERT INTO products (name, image) VALUES(%s, %s)" % (conn.literal(product[0]), conn.literal(product[-1]))
+				#cursor.execute(sql)
+				#newid = cursor.lastrowid
+				outputhtml = sql
+				newid = 12345
+
+				vendors = product[vendorloc]
+				for i in range(len(vendors)) :
+					sql = "INSERT INTO links (productid, vendor, link) VALUES (%s, %s, %s)" % (conn.literal(newid), conn.literal(vendors[i]), conn.literal(product[len(tagids)+i+1]))
+					#cursor.execute(sql)
+					outputhtml += "\n" + sql
+
+				for i in range(1,len(tagids)+1) :
+					for tag in product[i] :
+						if tag not in tags[tagids[i-1]] :
+							sql = "INSERT INTO tags (categoryid, value) VALUES (%s, %s)" % (conn.literal(tagids[i-1]), conn.literal(tag))
+							#cursor.execute(sql)
+							#tagvalue = cursor.lastrowid
+							tagvalue = 1735
+							outputhtml += "\n" + sql
+							tags[tagids[i-1]][tag] = tagvalue
+						else :
+							tagvalue = tags[tagids[i-1]][tag]
+						sql = "INSERT INTO producttag (productid, tagid) VALUES (%s, %s)" % (conn.literal(newid), conn.literal(tagvalue))
+						#cursor.execute(sql)
+						outputhtml = "\n" + sql
+			conn.commit()
 
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
