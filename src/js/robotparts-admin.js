@@ -87,7 +87,7 @@ setupCreateMultiple = (groupData) => {
 	document.getElementById('addMultipleProductGroup').addEventListener('change', (event) => {
 		event.preventDefault();
 		const sidebar = document.querySelector('#sidebar > .row');
-		const categories = event.target.selectedOptions[0].dataset.categories.categories.split('||');
+		const categories = event.target.selectedOptions[0].dataset.categories.split('||');
 		sidebar.innerHTML = '<div class="col"><ul><li>Product Name</li><li>' + categories.join('</li><li>') + '</li><li>Link 1</li><li>Link 2</li><li>...</li><li>Image Path</li></ul></div>';
 	});
 
