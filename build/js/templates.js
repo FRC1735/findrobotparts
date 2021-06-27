@@ -33,7 +33,7 @@ this["FindRobotParts"]["templates"]["dashboardMultiple"] = Handlebars.template({
     + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":9,"column":14},"end":{"line":9,"column":26}}}) : helper)))
     + "ProductGroup\">Product Group</label>\n	</div>\n\n	<div class=\"form-floating\">\n		<textarea class=\"form-control\" id=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":13,"column":37},"end":{"line":13,"column":49}}}) : helper)))
-    + "Data\" rows=\"20\"></textarea>\n		<label for=\""
+    + "Data\" style=\"height: 300px\"></textarea>\n		<label for=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":14,"column":14},"end":{"line":14,"column":26}}}) : helper)))
     + "Data\"></label>\n	</div>\n\n	<button type=\"submit\" class=\"btn btn-green\">Submit</button>\n</form>";
 },"useData":true});

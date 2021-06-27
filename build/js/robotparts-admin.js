@@ -87,7 +87,8 @@ setupCreateMultiple = (groupData) => {
 	document.getElementById('addMultipleProductGroup').addEventListener('change', (event) => {
 		event.preventDefault();
 		const sidebar = document.querySelector('#sidebar > .row');
-		sidebar.innerHTML = event.target.dataset.categories.split('||').join('<br>');
+		const categories = event.target.selectedOptions[0].dataset.categories.categories.split('||');
+		sidebar.innerHTML = '<div class="col"><ul><li>Product Name</li><li>' + categories.join('</li><li>') + '</li><li>Link 1</li><li>Link 2</li><li>...</li><li>Image Path</li></ul></div>';
 	});
 
 	document.getElementById('addMultipleForm').addEventListener('submit', (event) => {
@@ -98,7 +99,7 @@ setupCreateMultiple = (groupData) => {
 		request.setRequestHeader('Content-Type', 'application/json');
 		request.send(JSON.stringify({
 			'type': 'addMultiple',
-			'groupid': document.getElementById('addMultipleCategoryProductGroup').value,
+			'groupid': document.getElementById('addMultipleProductGroup').value,
 			'data': document.getElementById('addMultipleData').value
 		}));
 	});

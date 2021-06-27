@@ -123,8 +123,8 @@ try:
 							tagvalue = tags[tagids[i-1]][tag]
 						sql = "INSERT INTO producttag (productid, tagid) VALUES (%s, %s)" % (conn.literal(newid), conn.literal(tagvalue))
 						#cursor.execute(sql)
-						outputhtml = "\n" + sql
-			conn.commit()
+						outputhtml += "\n" + sql
+			#conn.commit()
 
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
