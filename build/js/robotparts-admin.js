@@ -66,8 +66,8 @@ setupCreateSingle = (groupData) => {
 		});
 
 		const request = new XMLHttpRequest();
-		request.open('POST', '/admin');
-		request.setRequestHeader('application/json');
+		request.open('POST', '/frc/1735/admin');
+		request.setRequestHeader('Content-Type', 'application/json');
 		request.send(JSON.stringify({
 			'type': 'addSingle',
 			'name': document.getElementById('addSingleProductName').value,

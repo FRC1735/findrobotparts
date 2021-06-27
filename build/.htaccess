@@ -11,6 +11,8 @@ RewriteBase /
 
 RewriteRule ^dashboard/?$										/bin/index.py?action=admin
 
+RewriteRule ^frc/1735/admin/?$									/bin/admin.py
+
 RewriteRule ^/?$												/bin/index.py?action=home
 RewriteRule ^questions/?$	 									/bin/index.py?action=about
 RewriteRule ^faq/?$	 											/bin/index.py?action=about
