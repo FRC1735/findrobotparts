@@ -40,8 +40,8 @@ try:
 		outputhtml = open("../content/404.html").read()
 
 	if admin :
-		data = json.load(sys.stdin.read(int(os.environ.get('CONTENT_LENGTH', 0))))
-		if data.type == "addSingle" :
+		data = json.load(sys.stdin)
+		if data["type"] == "addSingle" :
 			sql = "INSERT INTO products (name, image) VALUES(%s, %s)" % (conn.literal(data["name"]), conn.literal(data["image"]))
 			outputhtml = sql
 			#cursor.execute(sql)
