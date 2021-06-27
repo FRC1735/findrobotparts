@@ -3,7 +3,6 @@
 import MySQLdb as mdb
 import sys
 import json
-import cgi
 import cgitb
 import traceback
 import os
@@ -13,7 +12,6 @@ sys.path.append("../../")
 import config
 
 cgitb.enable()
-form = cgi.FieldStorage()
 
 #create database connection
 try:
@@ -42,7 +40,33 @@ try:
 		outputhtml = open("../content/404.html").read()
 
 	if admin :
-		outputhtml = json.load(sys.stdin)
+		data = json.load(sys.stdin.read(int(os.environ.get('CONTENT_LENGTH', 0))))
+		if data.type == "addSingle" :
+			sql = "INSERT INTO products (name, image) VALUES(%s, %s)" % (conn.literal(data["name"]), conn.literal(data["image"]))
+			outputhtml = sql
+			#cursor.execute(sql)
+			#newid = cursor.lastrowid
+			newid = "12345"
+
+			#cursor.execute(sql)
+			sql = ""
+			for link in data["links"] :
+				if sql != "" :
+					sql += ","
+				sql += "(%s, %s, %s)" % (conn.literal(newid), conn.literal(link["name"]), conn.literal(link["link"]))
+			sql = "INSERT INTO links (productid, vendor, link) VALUES %s" % sql
+			#cursor.execute(sql)
+			outputhtml += "\n" + sql
+
+			sql = ""
+			for tag in data["tags"] :
+				if sql != "" :
+					sql += ","
+				sql += "(%s, %s)" % (conn.literal(newid), conn.literal(tag))
+			sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
+			#cursor.execute(sql)
+			#conn.commit()
+			outputhtml += "\n" + sql
 
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
