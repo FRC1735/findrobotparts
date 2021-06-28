@@ -1,5 +1,41 @@
 this["FindRobotParts"] = this["FindRobotParts"] || {};
 this["FindRobotParts"]["templates"] = this["FindRobotParts"]["templates"] || {};
+this["FindRobotParts"]["templates"]["dashboardGroup"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "<form id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":1,"column":10},"end":{"line":1,"column":22}}}) : helper)))
+    + "Form\">\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":4,"column":46},"end":{"line":4,"column":58}}}) : helper)))
+    + "GroupName\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":5,"column":14},"end":{"line":5,"column":26}}}) : helper)))
+    + "GroupName\">Group Name</label>\n	</div>\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":9,"column":46},"end":{"line":9,"column":58}}}) : helper)))
+    + "Categories\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":10,"column":14},"end":{"line":10,"column":26}}}) : helper)))
+    + "Categories\">Categories (tab deliminated)</label>\n	</div>\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":14,"column":46},"end":{"line":14,"column":58}}}) : helper)))
+    + "Description\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":15,"column":14},"end":{"line":15,"column":26}}}) : helper)))
+    + "Description\">Description</label>\n	</div>\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":19,"column":46},"end":{"line":19,"column":58}}}) : helper)))
+    + "ImageFilename\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":20,"column":14},"end":{"line":20,"column":26}}}) : helper)))
+    + "ImageFilename\">Image Filename (singular)</label>\n	</div>\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":24,"column":46},"end":{"line":24,"column":58}}}) : helper)))
+    + "ImageFolder\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":25,"column":14},"end":{"line":25,"column":26}}}) : helper)))
+    + "ImageFolder\">Image Folder (plural with dashes)</label>\n	</div>\n\n	<div class=\"form-floating mb-3\">\n		<input type=\"text\" class=\"form-control\" id=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":29,"column":46},"end":{"line":29,"column":58}}}) : helper)))
+    + "Spreadsheet\">\n		<label for=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":30,"column":14},"end":{"line":30,"column":26}}}) : helper)))
+    + "Spreadsheet\">Spreadsheet</label>\n	</div>\n\n	<button type=\"submit\" class=\"btn btn-green\">Submit</button>\n</form>";
+},"useData":true});
 this["FindRobotParts"]["templates"]["dashboardMultiple"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {

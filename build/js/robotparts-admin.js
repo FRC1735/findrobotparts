@@ -107,6 +107,24 @@ setupCreateMultiple = (groupData) => {
 }
 
 setupCreateGroup = () => {
+	document.querySelector('#newGroup .accordion-body').innerHTML = FindRobotParts.templates.dashboardGroup({
+		'idPrefix': 'newGroup'
+	});
+
+	document.getElementById('newGroupForm').addEventListener('submit', (event) => {
+		const request = new XMLHttpRequest();
+		request.open('POST', '/frc/1735/admin');
+		request.setRequestHeader('Content-Type', 'application/json');
+		request.send(JSON.stringify({
+			'type': 'newGroup',
+			'name': document.getElementById('newGroupGroupName').value,
+			'categories': document.getElementById('newGroupCategories').value,
+			'description': document.getElementById('newGroupDescription').value,
+			'imageFilename': document.getElementById('newGroupImageFilename').value,
+			'imageFolder': document.getElementById('newGroupImageFolder').value,
+			'spreadsheet': document.getElementById('newGroupSpreadsheet').value
+		}));
+	});
 }
 
 setupEditGroup = () => {

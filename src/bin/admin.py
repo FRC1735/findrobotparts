@@ -125,6 +125,20 @@ try:
 						#cursor.execute(sql)
 						outputhtml += "\n" + sql
 			#conn.commit()
+		elif data["type"] == "newGroup" :
+			sql = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES(%s, %s, %s, %s, %s)" % (conn.literal(data["name"]),conn.literal(data["description"]),conn.literal(data["imageFolder"]),conn.literal(data["imageFilename"]),conn.literal(data["spreadsheet"]))
+			#cursor.execute(sql)
+			#newid = cursor.lastrowid
+			outputhtml = sql
+			newid = 12345
+
+			categories = re.split(" ?\t ?", data["categories"])
+			for index, category in enumerate(categories) :
+				sql = "INSERT INTO categories (groupid, value, priority) VALUES(%s, %s, %s)" % (conn.literal(newid), conn.literal(category), index+1)
+				#cursor.execute(sql)
+				outputhtml += "\n" + sql
+
+			#conn.commit()
 
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
