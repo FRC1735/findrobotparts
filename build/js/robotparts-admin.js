@@ -71,7 +71,7 @@ setupEdit = (groupData) => {
 		const vendors = product.vendors.split('||');
 		const linkdata = [];
 		links.forEach((element, index) => {
-			linkdata.push({'link':element,'vendor':vendors[index]});
+			linkdata.push({'link': element, 'name': vendors[index]});
 		});
 		linkdata.push()
 
