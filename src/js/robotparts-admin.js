@@ -22,7 +22,7 @@ setupEdit = (groupData) => {
 		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
 	});
 
-	document.querySelector('#edit .editOption').forEach(element => {
+	document.querySelectorAll('#edit .editOption').forEach(element => {
 		element.style.display = 'none';
 	});
 
@@ -34,7 +34,7 @@ setupEdit = (groupData) => {
 
 		request.onload = () => {
 			dataCache['/api/product/' + event.target.value] = request.response; 
-			document.querySelector('#edit .editOption').forEach(element => {
+			document.querySelectorAll('#edit .editOption').forEach(element => {
 				element.style.display = 'none';
 			});
 			document.getElementById('editProduct').innerHTML = FindRobotParts.templates.dashboardProductOption({
@@ -76,7 +76,7 @@ setupEdit = (groupData) => {
 
 		document.getElementById('editVendorLinks').innerHTML = FindRobotParts.templates.dashboardVendorLinks({'vendorLinks': linkdata.concat([{},{},{}])});
 	
-		document.querySelector('#edit .editOption').forEach(element => {
+		document.querySelectorAll('#edit .editOption').forEach(element => {
 			element.style.display = 'block';
 		});
 	});
