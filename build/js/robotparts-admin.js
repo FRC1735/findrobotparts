@@ -40,7 +40,7 @@ setupEdit = (groupData) => {
 			document.getElementById('editProduct').innerHTML = FindRobotParts.templates.dashboardProductOption({
 				'products': request.response.products
 			});
-			document.getElementsByClassName('productSelection')[0].style.display = 'block';
+			ddocument.querySelector('#edit .productSelection').style.display = 'flex';
 		};
 	});
 
@@ -78,7 +78,7 @@ setupEdit = (groupData) => {
 		document.getElementById('editVendorLinks').innerHTML = FindRobotParts.templates.dashboardVendorLinks({'vendorLinks': linkdata.concat([{},{},{}])});
 	
 		document.querySelectorAll('#edit .editOption').forEach(element => {
-			element.style.display = 'block';
+			element.style.display = 'flex';
 		});
 	});
 }
