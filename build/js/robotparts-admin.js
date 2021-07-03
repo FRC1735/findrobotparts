@@ -17,12 +17,75 @@ getData = (url, callback) => {
 }
 
 setupEdit = () => {
+	document.querySelector('#edit .accordion-body').innerHTML = FindRobotParts.templates.dashboardSingle({
+		'idPrefix': 'addSingle',
+		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
+	});
+
+	document.querySelector('#edit .editOption').forEach(element => {
+		element.style.display = 'none';
+	});
+
+	document.getElementById('editProductGroup').addEventListener('change', (event) => {
+		const request = new XMLHttpRequest();
+		request.open('GET', '/api/product/' + event.target.value);
+		request.responseType = 'json';
+		request.send();
+
+		request.onload = () => {
+			dataCache['/api/product/' + event.target.value] = request.response; 
+			document.querySelector('#edit .editOption').forEach(element => {
+				element.style.display = 'none';
+			});
+			document.getElementById('editProduct').innerHTML = FindRobotParts.templates.dashboardProductOption({
+				'products': request.response.products
+			});
+		};
+	});
+
+	document.getElementById('editProduct').addEventListener('change', (event) => {
+		const responseData = dataCache['/api/product/' + document.getElementById('editProductGroup').value]
+		const product = responseData.products.find(element => element.productid == event.target.value);
+
+		const sidebar = document.querySelector('#sidebar > .row');
+		let output = '';
+		responseData.categories.forEach(category => {
+			output += FindRobotParts.templates.taggroup({
+				'value': category.value,
+				'categoryid': category.categoryid,
+				'tags': category.tags
+			});
+		});
+		sidebar.innerHTML = output;
+
+		const tags = product.tagids.split('||').join(',').split(',');
+		tags.forEach(tag => {
+			document.getElementById('tag'+tag).checked = true;
+		});
+
+		document.getElementById('editProductName').value = product.name;
+		document.getElementById('editImagePath').value = product.image;
+
+		const links = product.links.split('||');
+		const vendors = product.vendors.split('||');
+		const linkdata = [];
+		links.forEach((element, index) => {
+			linkdata.push({'link':element,'vendor':vendors[index]});
+		});
+		linkdata.push()
+
+		document.getElementById('editVendorLinks').innerHTML = FindRobotParts.temlates.dashboardVendorLinks({'vendorLinks': linkdata.concat([{},{},{}])});
+	
+		document.querySelector('#edit .editOption').forEach(element => {
+			element.style.display = 'block';
+		});
+	});
 }
 
 setupCreateSingle = (groupData) => {
 	document.querySelector('#addSingle .accordion-body').innerHTML = FindRobotParts.templates.dashboardSingle({
 		'idPrefix': 'addSingle',
-		'vendorLinks': [{},{},{},{},{},{},{},{},{},{}],
+		'vendorLinks': FindRobotParts.temlates.dashboardVendorLinks({'vendorLinks': [{},{},{},{},{},{},{},{},{},{}]}),
 		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
 	});
 
@@ -112,6 +175,8 @@ setupCreateGroup = () => {
 	});
 
 	document.getElementById('newGroupForm').addEventListener('submit', (event) => {
+		event.preventDefault();
+
 		const request = new XMLHttpRequest();
 		request.open('POST', '/frc/1735/admin');
 		request.setRequestHeader('Content-Type', 'application/json');
@@ -132,7 +197,7 @@ setupEditGroup = () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-	setupEdit();
+	getData('/api/groups', setupEdit);
 	getData('/api/groups', setupCreateSingle);
 	getData('/api/groups', setupCreateMultiple);
 	setupCreateGroup();

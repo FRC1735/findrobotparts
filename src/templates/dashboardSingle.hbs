@@ -9,29 +9,23 @@
 		<label for="{{idPrefix}}ProductGroup">Product Group</label>
 	</div>
 
-	<div class="form-floating mb-3">
+	<div class="form-floating mb-3 editOnly productSelection" style="display:none;">
+		<select class="form-select" id="{{idPrefix}}Product">
+		</select>
+		<label for="{{idPrefix}}Product">Product</label>
+	</div>
+
+	<div class="form-floating mb-3 editOption">
 		<input type="text" class="form-control" id="{{idPrefix}}ProductName">
 		<label for="{{idPrefix}}ProductName">Product Name</label>
 	</div>
 
-	<div class="form-floating mb-3">
+	<div class="form-floating mb-3 editOption">
 		<input type="text" class="form-control" id="{{idPrefix}}ImagePath">
 		<label for="{{idPrefix}}ImagePath">Image Path</label>
 	</div>
 
-	<p class="h4">Vendor Links</p>
-	{{#each vendorLinks}}
-	<div class="row mb-3 vendor-links">
-		<div class="col form-floating">
-			<input type="text" class="form-control vendor-name" id="{{../idPrefix}}VendorName{{@index}}" value="{{this.name}}">
-			<label for="{{../idPrefix}}VendorName{{@index}}">Vendor Name</label>
-		</div>
-		<div class="col form-floating">
-			<input type="text" class="form-control vendor-link" id="{{../idPrefix}}VendorLink{{@index}}" value="{{this.link}}">
-			<label for="{{../idPrefix}}VendorLink{{@index}}">Vendor Link</label>
-		</div>
-	</div>
-	{{/each}}
+	{{vendorLinks}}	
 
-	<button type="submit" class="btn btn-green">Submit</button>
+	<button type="submit" class="btn btn-green editOption">Submit</button>
 </form>
