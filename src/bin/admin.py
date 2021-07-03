@@ -77,6 +77,8 @@ try:
 			sql = "DELETE FROM links WHERE productid=%s" % conn.literal(productid)
 			#cursor.execute(sql)
 			outputhtml += "\n" + sql
+
+			sql = ""
 			for link in data["links"] :
 				if sql != "" :
 					sql += ","
@@ -85,7 +87,7 @@ try:
 			#cursor.execute(sql)
 			outputhtml += "\n" + sql
 
-			sql = "DELETE FROM producttag WHERE productid=%s" % productid
+			sql = "DELETE FROM producttag WHERE productid=%s" % conn.literal(productid)
 			#cursor.execute(sql)
 			outputhtml += "\n" + sql
 
