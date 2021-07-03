@@ -245,7 +245,7 @@ setupEditGroup = (groupData) => {
 		document.getElementById('editGroupImageFolder').value = group.pathname;
 		document.getElementById('editGroupSpreadsheet').value = group.spreadsheet;
 
-		document.querySelectorAll('#editGroup .editOption').forEach(element => {
+		document.querySelectorAll('#editGroup .editOnly').forEach(element => {
 			element.style.display = 'flex';
 		});
 	});
