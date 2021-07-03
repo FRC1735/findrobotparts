@@ -106,6 +106,7 @@ setupEdit = (groupData) => {
 		request.setRequestHeader('Content-Type', 'application/json');
 		request.send(JSON.stringify({
 			'type': 'edit',
+			'dryrun': !document.getElementById('dryrun').checked,
 			'productid': document.getElementById('editProduct').value,
 			'name': document.getElementById('editProductName').value,
 			'image': document.getElementById('editImagePath').value,
@@ -166,6 +167,7 @@ setupCreateSingle = (groupData) => {
 		request.setRequestHeader('Content-Type', 'application/json');
 		request.send(JSON.stringify({
 			'type': 'addSingle',
+			'dryrun': !document.getElementById('dryrun').checked,
 			'name': document.getElementById('addSingleProductName').value,
 			'image': document.getElementById('addSingleImagePath').value,
 			'links': links,
@@ -195,6 +197,7 @@ setupCreateMultiple = (groupData) => {
 		request.setRequestHeader('Content-Type', 'application/json');
 		request.send(JSON.stringify({
 			'type': 'addMultiple',
+			'dryrun': !document.getElementById('dryrun').checked,
 			'groupid': document.getElementById('addMultipleProductGroup').value,
 			'data': document.getElementById('addMultipleData').value
 		}));
@@ -215,6 +218,7 @@ setupCreateGroup = () => {
 		request.setRequestHeader('Content-Type', 'application/json');
 		request.send(JSON.stringify({
 			'type': 'newGroup',
+			'dryrun': !document.getElementById('dryrun').checked,
 			'name': document.getElementById('newGroupGroupName').value,
 			'categories': document.getElementById('newGroupCategories').value,
 			'description': document.getElementById('newGroupDescription').value,
@@ -258,6 +262,7 @@ setupEditGroup = (groupData) => {
 		request.setRequestHeader('Content-Type', 'application/json');
 		request.send(JSON.stringify({
 			'type': 'editGroup',
+			'dryrun': !document.getElementById('dryrun').checked,
 			'groupid': document.getElementById('editGroupProductGroup').value,
 			'name': document.getElementById('editGroupGroupName').value,
 			'categories': document.getElementById('editGroupCategories').value,
