@@ -240,7 +240,7 @@ setupEditGroup = (groupData) => {
 		const group = dataCache['/api/groups'].groups.find(element => element.groupid == event.target.value);
 		document.getElementById('editGroupGroupName').value = group.value;
 		document.getElementById('editGroupCategories').value = group.categories;
-		document.getElementById('editGroupDescription').value = group.descriptikon;
+		document.getElementById('editGroupDescription').value = group.description;
 		document.getElementById('editGroupImageFilename').value = group.image;
 		document.getElementById('editGroupImageFolder').value = group.pathname;
 		document.getElementById('editGroupSpreadsheet').value = group.spreadsheet;
