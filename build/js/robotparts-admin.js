@@ -226,17 +226,18 @@ setupCreateGroup = () => {
 }
 
 setupEditGroup = (groupData) => {
-	document.querySelector('#newGroup .accordion-body').innerHTML = FindRobotParts.templates.dashboardGroup({
+	document.querySelector('#editGroup .accordion-body').innerHTML = FindRobotParts.templates.dashboardGroup({
 		'idPrefix': 'editGroup',
 		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
 	});
 
-	document.querySelectorAll('#editGroup .editOption').forEach(element => {
+	document.querySelector('#editGroup .groupSelection').style.display = 'block';
+	document.querySelectorAll('#editGroup .editOnly').forEach(element => {
 		element.style.display = 'none';
 	});
 
 	document.getElementById('editGroupProductGroup').addEventListener('change', (event) => {
-		const group = data['/api/groups'].groups.find(element => element.groupid == event.target.value);
+		const group = dataCache['/api/groups'].groups.find(element => element.groupid == event.target.value);
 		document.getElementById('editGroupGroupName').value = group.value;
 		document.getElementById('editGroupCategories').value = group.categories;
 		document.getElementById('editGroupDescription').value = group.descriptikon;

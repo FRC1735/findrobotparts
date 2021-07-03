@@ -23,7 +23,7 @@ this["FindRobotParts"]["templates"]["dashboardGroup"] = Handlebars.template({"1"
 
   return "<form id=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":1,"column":10},"end":{"line":1,"column":22}}}) : helper)))
-    + "Form\">\n	<div class=\"form-floating mb-3\" style=\"display:none;\">\n		<select class=\"form-select\" id=\""
+    + "Form\">\n	<div class=\"form-floating mb-3 groupSelection\" style=\"display:none;\">\n		<select class=\"form-select\" id=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":3,"column":34},"end":{"line":3,"column":46}}}) : helper)))
     + "ProductGroup\">\n			<option selected>Select a Group</option>\n"
     + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"groups") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":3},"end":{"line":7,"column":12}}})) != null ? stack1 : "")
