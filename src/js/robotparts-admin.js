@@ -16,7 +16,7 @@ getData = (url, callback) => {
 	}
 }
 
-setupEdit = () => {
+setupEdit = (groupData) => {
 	document.querySelector('#edit .accordion-body').innerHTML = FindRobotParts.templates.dashboardSingle({
 		'idPrefix': 'addSingle',
 		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
@@ -74,7 +74,7 @@ setupEdit = () => {
 		});
 		linkdata.push()
 
-		document.getElementById('editVendorLinks').innerHTML = FindRobotParts.temlates.dashboardVendorLinks({'vendorLinks': linkdata.concat([{},{},{}])});
+		document.getElementById('editVendorLinks').innerHTML = FindRobotParts.templates.dashboardVendorLinks({'vendorLinks': linkdata.concat([{},{},{}])});
 	
 		document.querySelector('#edit .editOption').forEach(element => {
 			element.style.display = 'block';
@@ -85,7 +85,7 @@ setupEdit = () => {
 setupCreateSingle = (groupData) => {
 	document.querySelector('#addSingle .accordion-body').innerHTML = FindRobotParts.templates.dashboardSingle({
 		'idPrefix': 'addSingle',
-		'vendorLinks': FindRobotParts.temlates.dashboardVendorLinks({'vendorLinks': [{},{},{},{},{},{},{},{},{},{}]}),
+		'vendorLinks': FindRobotParts.templates.dashboardVendorLinks({'vendorLinks': [{},{},{},{},{},{},{},{},{},{}]}),
 		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
 	});
 
