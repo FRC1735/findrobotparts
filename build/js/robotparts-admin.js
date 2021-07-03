@@ -18,7 +18,7 @@ getData = (url, callback) => {
 
 setupEdit = (groupData) => {
 	document.querySelector('#edit .accordion-body').innerHTML = FindRobotParts.templates.dashboardSingle({
-		'idPrefix': 'addSingle',
+		'idPrefix': 'edit',
 		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
 	});
 

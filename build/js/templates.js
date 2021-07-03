@@ -139,7 +139,7 @@ this["FindRobotParts"]["templates"]["dashboardSingle"] = Handlebars.template({"1
     + "ImagePath\">\n		<label for=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"idPrefix") || (depth0 != null ? lookupProperty(depth0,"idPrefix") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"idPrefix","hash":{},"data":data,"loc":{"start":{"line":25,"column":14},"end":{"line":25,"column":26}}}) : helper)))
     + "ImagePath\">Image Path</label>\n	</div>\n\n	"
-    + alias4(((helper = (helper = lookupProperty(helpers,"vendorLinks") || (depth0 != null ? lookupProperty(depth0,"vendorLinks") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"vendorLinks","hash":{},"data":data,"loc":{"start":{"line":28,"column":1},"end":{"line":28,"column":16}}}) : helper)))
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"vendorLinks") || (depth0 != null ? lookupProperty(depth0,"vendorLinks") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"vendorLinks","hash":{},"data":data,"loc":{"start":{"line":28,"column":1},"end":{"line":28,"column":18}}}) : helper))) != null ? stack1 : "")
     + "	\n\n	<button type=\"submit\" class=\"btn btn-green editOption\">Submit</button>\n</form>";
 },"useData":true});
 this["FindRobotParts"]["templates"]["dashboardVendorLinks"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data,blockParams,depths) {
