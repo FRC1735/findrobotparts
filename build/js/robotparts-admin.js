@@ -40,6 +40,7 @@ setupEdit = (groupData) => {
 			document.getElementById('editProduct').innerHTML = FindRobotParts.templates.dashboardProductOption({
 				'products': request.response.products
 			});
+			document.getElementsByClassName('productSelection')[0].style.display = 'block';
 		};
 	});
 
