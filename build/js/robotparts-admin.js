@@ -81,6 +81,38 @@ setupEdit = (groupData) => {
 			element.style.display = 'flex';
 		});
 	});
+
+	document.getElementById('editForm').addEventListener('submit', (event) => {
+		event.preventDefault();
+
+		const links = [];
+		
+		document.querySelectorAll('#edit .vendor-links').forEach(element => {
+			const link = element.querySelector('.vendor-link').value;
+			const name = element.querySelector('.vendor-name').value;
+			if (link && name) {
+				links.push({ 'name': name, 'link': link });
+			}
+		});
+
+		const tags = [];
+
+		document.querySelectorAll('#sidebar input:checked').forEach(element => {
+			tags.push(element.value);
+		});
+
+		const request = new XMLHttpRequest();
+		request.open('POST', '/frc/1735/admin');
+		request.setRequestHeader('Content-Type', 'application/json');
+		request.send(JSON.stringify({
+			'type': 'edit',
+			'productid': document.getElementById('editProduct').value,
+			'name': document.getElementById('editProductName').value,
+			'image': document.getElementById('editImagePath').value,
+			'links': links,
+			'tags': tags
+		}));
+	});
 }
 
 setupCreateSingle = (groupData) => {
@@ -115,7 +147,7 @@ setupCreateSingle = (groupData) => {
 
 		const links = [];
 		
-		document.querySelectorAll('.vendor-links').forEach(element => {
+		document.querySelectorAll('#addSingle .vendor-links').forEach(element => {
 			const link = element.querySelector('.vendor-link').value;
 			const name = element.querySelector('.vendor-name').value;
 			if (link && name) {

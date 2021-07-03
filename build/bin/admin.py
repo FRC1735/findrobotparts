@@ -68,6 +68,37 @@ try:
 			#cursor.execute(sql)
 			#conn.commit()
 			outputhtml += "\n" + sql
+		elif data["type"] == "edit" :
+			productid = data["productid"]
+			sql = "UPDATE products SET name=%s, image=%s WHERE productid=%s" % (conn.literal(data["name"]), conn.literal(data["image"]), conn.literal(productid))
+			#cursor.execute(sql)
+			outputhtml = sql
+
+			sql = "DELETE FROM links WHERE productid=%s" % conn.literal(productid)
+			#cursor.execute(sql)
+			outputhtml += "\n" + sql
+			for link in data["links"] :
+				if sql != "" :
+					sql += ","
+				sql += "(%s, %s, %s)" % (conn.literal(productid), conn.literal(link["name"]), conn.literal(link["link"]))
+			sql = "INSERT INTO links (productid, vendor, link) VALUES %s" % sql
+			#cursor.execute(sql)
+			outputhtml += "\n" + sql
+
+			sql = "DELETE FROM producttag WHERE productid=%s" % productid
+			#cursor.execute(sql)
+			outputhtml += "\n" + sql
+
+			sql = ""
+			for tag in data["tags"] :
+				if sql != "" :
+					sql += ","
+				sql += "(%s, %s)" % (conn.literal(productid), conn.literal(tag))
+			sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
+			#cursor.execute(sql)
+			#conn.commit()
+			outputhtml += "\n" + sql
+
 		elif data["type"] == "addMultiple" :
 			tagids = []
 			vendorloc = 0
