@@ -170,11 +170,17 @@ try:
 				sql = "INSERT INTO categories (groupid, value, priority) VALUES(%s, %s, %s)" % (conn.literal(newid), conn.literal(category), index+1)
 				#cursor.execute(sql)
 				outputhtml += "\n" + sql
-
 			#conn.commit()
+		elif data["type"] == "editGroup" :
+			sql = "UPDATE groups SET value = %s, description = %s, image = %s, pathname = %s, spreadsheet = %s WHERE groupid = %s" % (conn.literal(data["value"]),conn.literal(data["description"]),conn.literal(data["imageFolder"]),conn.literal(data["imageFilename"]),conn.literal(data["spreadsheet"]), conn.literal(data["groupid"]))
+			#cursor.execute(sql)
+			#conn.commit()
+			outputhtml = sql
+
 
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
+	conn.close()
 
 except Exception :
 	print("Content-type: text/html\n\n")

@@ -225,7 +225,47 @@ setupCreateGroup = () => {
 	});
 }
 
-setupEditGroup = () => {
+setupEditGroup = (groupData) => {
+	document.querySelector('#newGroup .accordion-body').innerHTML = FindRobotParts.templates.dashboardGroup({
+		'idPrefix': 'editGroup',
+		'groups': groupData.groups.sort((a,b) => (a.value > b.value) ? 1 : -1)
+	});
+
+	document.querySelectorAll('#editGroup .editOption').forEach(element => {
+		element.style.display = 'none';
+	});
+
+	document.getElementById('editGroupProductGroup').addEventListener('change', (event) => {
+		const group = data['/api/groups'].groups.find(element => element.groupid == event.target.value);
+		document.getElementById('editGroupGroupName').value = group.value;
+		document.getElementById('editGroupCategories').value = group.categories;
+		document.getElementById('editGroupDescription').value = group.descriptikon;
+		document.getElementById('editGroupImageFilename').value = group.image;
+		document.getElementById('editGroupImageFolder').value = group.pathname;
+		document.getElementById('editGroupSpreadsheet').value = group.spreadsheet;
+
+		document.querySelectorAll('#editGroup .editOption').forEach(element => {
+			element.style.display = 'flex';
+		});
+	});
+
+	document.getElementById('editGroupForm').addEventListener('submit', (event) => {
+		event.preventDefault();
+
+		const request = new XMLHttpRequest();
+		request.open('POST', '/frc/1735/admin');
+		request.setRequestHeader('Content-Type', 'application/json');
+		request.send(JSON.stringify({
+			'type': 'editGroup',
+			'groupid': document.getElementById('editGroupProductGroup').value,
+			'name': document.getElementById('editGroupGroupName').value,
+			'categories': document.getElementById('editGroupCategories').value,
+			'description': document.getElementById('editGroupDescription').value,
+			'imageFilename': document.getElementById('editGroupImageFilename').value,
+			'imageFolder': document.getElementById('editGroupImageFolder').value,
+			'spreadsheet': document.getElementById('editGroupSpreadsheet').value
+		}));
+	});
 }
 
 
@@ -234,7 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	getData('/api/groups', setupCreateSingle);
 	getData('/api/groups', setupCreateMultiple);
 	setupCreateGroup();
-	setupEditGroup();
+	getData('/api/groups', setupEditGroup);
 });
 
 document.getElementById('sidebar').addEventListener('click', (event) => {
