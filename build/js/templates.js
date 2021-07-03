@@ -9,7 +9,7 @@ this["FindRobotParts"]["templates"]["dashboardGroup"] = Handlebars.template({"1"
     };
 
   return "			<option value=\""
-    + alias2(alias1((depth0 != null ? lookupProperty(depth0,"pathname") : depth0), depth0))
+    + alias2(alias1((depth0 != null ? lookupProperty(depth0,"productid") : depth0), depth0))
     + "\">"
     + alias2(alias1((depth0 != null ? lookupProperty(depth0,"value") : depth0), depth0))
     + "</option>\n";
