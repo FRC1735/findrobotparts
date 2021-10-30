@@ -68,12 +68,12 @@ try:
 					sql += ","
 				sql += "(%s, %s)" % (conn.literal(newid), conn.literal(tag))
 			sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
-			sqlcommands.append(sql)
-			cursor.execute(sql)
+			sqlcommands.append(sql)			
 			if (data['dryrun']) :
-				outputhtml = 'Dry run'
+				outputhtml = sqlcommands
 			else :
-				#conn.commit()
+				cursor.execute(sql)
+				conn.commit()
 				outputhtml = 'Successful'
 		elif data["type"] == "edit" :
 			productid = data["productid"]
@@ -109,14 +109,13 @@ try:
 				sql += "(%s, %s)" % (conn.literal(productid), conn.literal(tag))
 			sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
 			sqlcommands.append(sql)
-			if (not data["dryrun"]) :
-				cursor.execute(sql)
 
 			if (data['dryrun']) :
-				outputhtml = "Dry run"
+				outputhtml = sqlcommands
 			else :
-				#conn.commit()
-				outputhtml = "Success"
+				cursor.execute(sql)
+				conn.commit()
+				outputhtml = 'Successful'
 
 		elif data["type"] == "addMultiple" :
 			tagids = []
@@ -181,9 +180,9 @@ try:
 						if (not data["dryrun"]) :
 							cursor.execute(sql)
 			if (data['dryrun']) :
-				outputhtml = "Dry run"
+				outputhtml = sqlcommands
 			else :
-				#conn.commit()
+				conn.commit()
 				outputhtml = 'Successful'
 		elif data["type"] == "newGroup" :
 			sql = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES(%s, %s, %s, %s, %s)" % (conn.literal(data["name"]),conn.literal(data["description"]),conn.literal(data["imageFolder"]),conn.literal(data["imageFilename"]),conn.literal(data["spreadsheet"]))
@@ -201,20 +200,20 @@ try:
 				if (not data["dryrun"]) :
 					cursor.execute(sql)
 			if (data['dryrun']) :
-				outputhtml = "dry run"
+				outputhtml = sqlcommands
 			else :
-				#conn.commit()
+				conn.commit()
 				outputhtml = 'Successful'
 		elif data["type"] == "editGroup" :
 			sql = "UPDATE groups SET value = %s, description = %s, image = %s, pathname = %s, spreadsheet = %s WHERE groupid = %s" % (conn.literal(data["name"]),conn.literal(data["description"]),conn.literal(data["imageFolder"]),conn.literal(data["imageFilename"]),conn.literal(data["spreadsheet"]), conn.literal(data["groupid"]))
 			sqlcommands.append(sql)
-			cursor.execute(sql)
 			conn.commit()
 			if (data['dryrun'] == False) :
-				#conn.commit()
-				outputhtml = data['dryrun']
+				cursor.execute(sql)
+				conn.commit()
+				outputhtml = "Successful"
 			else :
-				outputhtml = data['dryrun'] + sqlcommands
+				outputhtml = sqlcommands
 
 	print("Content-type: text/html\n\n")
 	print(outputhtml)

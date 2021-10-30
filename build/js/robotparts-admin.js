@@ -113,6 +113,13 @@ setupEdit = (groupData) => {
 			'links': links,
 			'tags': tags
 		}));
+
+		request.onload = () => {
+			const alert = document.querySelector('#edit .alerttext')
+			alert.innerHTML = request.response;
+			alert.classList.add('shown');
+			setTimeout(() => { alert.classList.remove('shown'); }, 3500);
+		}
 	});
 }
 

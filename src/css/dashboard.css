@@ -114,3 +114,10 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+.alert {
+  display: none;
+}
+.alert.shown {
+  display: block;
+}
