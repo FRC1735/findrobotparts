@@ -70,3 +70,13 @@ a.showmore.collapsed .less {
 	.table-collapse tbody td, .table-collapse tbody th { padding-left: 35% !important; display: block; position: relative; }
 	.table-collapse tbody td:before, .table-collapse tbody th:before { width: 30%; padding-right: 10px; content: attr(data-label) " ";  display: inline-block; font-weight: bold; left: 7px; overflow: hidden; position: absolute; top: 8px; white-space: nowrap; }
 }
+
+
+/* Dashboard */
+#dashboard .alert {
+	display: none;
+}
+
+#dashboard .alert.shown {
+	display: block;
+}

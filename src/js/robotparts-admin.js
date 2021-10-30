@@ -115,10 +115,9 @@ setupEdit = (groupData) => {
 		}));
 
 		request.onload = () => {
-			const alert = document.querySelector('#edit .alerttext')
-			alert.innerHTML = request.response;
+			const alert = document.querySelector('#edit .alert');
+			alert.querySelector('.alerttext').innerHTML = request.response;
 			alert.classList.add('shown');
-			setTimeout(() => { alert.classList.remove('shown'); }, 3500);
 		}
 	});
 }
@@ -180,6 +179,12 @@ setupCreateSingle = (groupData) => {
 			'links': links,
 			'tags': tags
 		}));
+
+		request.onload = () => {
+			const alert = document.querySelector('#addSingle .alert');
+			alert.querySelector('.alerttext').innerHTML = request.response;
+			alert.classList.add('shown');
+		}
 	});
 }
 
@@ -208,6 +213,12 @@ setupCreateMultiple = (groupData) => {
 			'groupid': document.getElementById('addMultipleProductGroup').value,
 			'data': document.getElementById('addMultipleData').value
 		}));
+
+		request.onload = () => {
+			const alert = document.querySelector('#addMultipleForm .alert');
+			alert.querySelector('.alerttext').innerHTML = request.response;
+			alert.classList.add('shown');
+		}
 	});
 
 }
@@ -233,6 +244,12 @@ setupCreateGroup = () => {
 			'imageFolder': document.getElementById('newGroupImageFolder').value,
 			'spreadsheet': document.getElementById('newGroupSpreadsheet').value
 		}));
+
+		request.onload = () => {
+			const alert = document.querySelector('#newGroupForm .alert');
+			alert.querySelector('.alerttext').innerHTML = request.response;
+			alert.classList.add('shown');
+		}
 	});
 }
 
@@ -278,6 +295,12 @@ setupEditGroup = (groupData) => {
 			'imageFolder': document.getElementById('editGroupImageFolder').value,
 			'spreadsheet': document.getElementById('editGroupSpreadsheet').value
 		}));
+
+		request.onload = () => {
+			const alert = document.querySelector('#editGroup .alert');
+			alert.querySelector('.alerttext').innerHTML = request.response;
+			alert.classList.add('shown');
+		}
 	});
 }
 
