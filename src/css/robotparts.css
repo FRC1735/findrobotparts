@@ -12,11 +12,18 @@
 	width: 100%;
 }
 
-.tags.collapse:not(.show), 
-.tags.collapsing {
-	max-height: 10rem;
-	overflow-y: hidden;
+.tags.collapse:not(.show) {
 	display: block;
+}
+
+.tags.active.collapse:not(.show) {
+	display: block;
+	height: 10rem;
+	overflow: hidden;
+}
+  
+.tags.active.collapsing {
+	height: 10rem;
 }
 
 a.showmore {

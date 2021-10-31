@@ -94,6 +94,7 @@ addTags = (response) => {
 addShowMoreProducts = () => {
 	document.querySelectorAll('.tags.collapse').forEach(element => {
 		if (element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth) {
+			element.classList.add('active');
 			element.nextElementSibling.classList.remove('d-none');
 		}
 	});
