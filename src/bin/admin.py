@@ -185,7 +185,12 @@ try:
 				conn.commit()
 				outputhtml = 'Successful'
 		elif data["type"] == "newGroup" :
-			sql = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES(%s, %s, %s, %s, %s)" % (conn.literal(data["name"]),conn.literal(data["description"]),conn.literal(data["imageFolder"]),conn.literal(data["imageFilename"]),conn.literal(data["spreadsheet"]))
+			sql = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES({name}, {description}, {imageFilename}, {imageFolder}, {spreadsheet})".format(
+				name=conn.literal(data["name"]),
+				description=conn.literal(data["description"]),
+				imageFolder=conn.literal(data["imageFolder"]),
+				imageFilename=conn.literal(data["imageFilename"]),
+				spreadsheet=conn.literal(data["spreadsheet"]))
 			sqlcommands.append(sql)
 			if (not data["dryrun"]) :
 				cursor.execute(sql)
@@ -205,7 +210,13 @@ try:
 				conn.commit()
 				outputhtml = 'Successful'
 		elif data["type"] == "editGroup" :
-			sql = "UPDATE groups SET value = %s, description = %s, image = %s, pathname = %s, spreadsheet = %s WHERE groupid = %s" % (conn.literal(data["name"]),conn.literal(data["description"]),conn.literal(data["imageFolder"]),conn.literal(data["imageFilename"]),conn.literal(data["spreadsheet"]), conn.literal(data["groupid"]))
+			sql = "UPDATE groups SET value = {name}, description = {description}, image = {imageFilename}, pathname = {imageFolder}, spreadsheet = {spreadsheet} WHERE groupid = {groupid}".format(
+				name=conn.literal(data["name"]), 
+				description=conn.literal(data["description"]), 
+				imageFolder=conn.literal(data["imageFolder"]), 
+				imageFilename=conn.literal(data["imageFilename"]), 
+				spreadsheet=conn.literal(data["spreadsheet"]), 
+				groupid=conn.literal(data["groupid"]))
 			sqlcommands.append(sql)
 			conn.commit()
 			if (data['dryrun'] == False) :
