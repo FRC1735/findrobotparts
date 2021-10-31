@@ -14,10 +14,10 @@
 
 .tags.collapse:not(.show) {
 	display: block;
+	max-height: 10rem;
 }
 
 .tags.active.collapse:not(.show) {
-	display: block;
 	height: 10rem;
 	overflow: hidden;
 }
