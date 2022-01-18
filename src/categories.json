@@ -152,6 +152,11 @@
 					"name": "Sprockets",
 					"path": "sprockets",
 					"image": "sprocket"
+				},
+				{
+					"name": "Wheels",
+					"path": "wheels",
+					"image": "wheel"
 				}
 			]
 		},
