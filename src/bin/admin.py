@@ -18,7 +18,7 @@ cgitb.enable()
 try:
 	conn = MySQLdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
 	cursor = conn.cursor(MySQLdb.cursors.DictCursor)
-except MySQLdb.Error, e:
+except MySQLdb.Error as e:
 	print("Content-type: text/html\n\n")
 	print("<h2>Error</h2>")
 	print("Error %d: %s" % (e.args[0], e.args[1]))

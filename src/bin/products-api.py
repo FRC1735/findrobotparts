@@ -35,7 +35,7 @@ try :
 	try:
 		conn = mdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
 		cursor = conn.cursor(mdb.cursors.DictCursor)
-	except mdb.Error, e:
+	except mdb.Error as e:
 		errorOccurred("Faild to connect to database<br>%d: %s" % (e.args[0], e.args[1]))
 
 	data = {}

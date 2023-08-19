@@ -29,9 +29,9 @@ if includes.cats is None or includes.tags is None or not stringlist.match(includ
 try:
 	conn = mdb.connect(host=includes.sqlh, db=includes.sqld, passwd=includes.sqlp, user=includes.sqlu)
 	cursor = conn.cursor(mdb.cursors.DictCursor)
-except mdb.Error, e:
-	print "<h2>Error</h2>"
-	print "Error %d: %s" % (e.args[0], e.args[1])
+except mdb.Error as e:
+	print("<h2>Error</h2>")
+	print("Error %d: %s" % (e.args[0], e.args[1]))
 	includes.printFoot()
 	sys.exit(1)
 	
@@ -45,11 +45,11 @@ if 'HTTP_COOKIE' in os.environ:
 	try :
 		data = c['frp'].value
 	except KeyError :
-		print "<p>Please log in</p>"
+		print("<p>Please log in</p>")
 		includes.printFoot()
 		sys.exit(1)
 
-print """\
+print("""\
 <ul>
 	<li><a href="?action=multiple">Multiple</a></li>
 	<li><a href="?action=single">Single (edit)</a></li> 
@@ -57,12 +57,12 @@ print """\
 	<li><a href="?action=newgroup">New Group</a></li>
 	<li><a href="?action=editgroup">Edit Group</a></li>
 </ul>
-"""
+""")
 
 
 if form.getvalue("sqltype") == "newgroup" :
 	sql = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES(%s, %s, %s, %s, %s)" % (conn.literal(form.getvalue("value")),conn.literal(form.getvalue("description")),conn.literal(form.getvalue("folder")),conn.literal(form.getvalue("pathname")),conn.literal(form.getvalue("spreadsheet")))
-	#print sql
+	#print(sql)
 	cursor.execute(sql)
 	newid = cursor.lastrowid
 	
@@ -70,22 +70,22 @@ if form.getvalue("sqltype") == "newgroup" :
 	for index, category in enumerate(categories) :
 		sql = "INSERT INTO categories (groupid, value, priority) VALUES(%s, %s, %s)" % (conn.literal(newid), conn.literal(category), index+1)
 		cursor.execute(sql)
-		#print "<p>%s</p>" % sql
+		#print("<p>%s</p>" % sql)
 	conn.commit()
-	print "<p>Successfully created group</p>"
+	print("<p>Successfully created group</p>")
 elif form.getvalue("sqltype") == "editgroup" :
 	sql = "UPDATE groups SET value = %s, description = %s, image = %s, pathname = %s, spreadsheet = %s WHERE groupid = %s" % (conn.literal(form.getvalue("value")),conn.literal(form.getvalue("description")),conn.literal(form.getvalue("folder")),conn.literal(form.getvalue("pathname")),conn.literal(form.getvalue("spreadsheet")), conn.literal(editgroup))
-	#print sql
+	#print(sql)
 	cursor.execute(sql)
 	conn.commit()
 
-	print "<p>%s updated</p>" % form.getvalue("value")
+	print("<p>%s updated</p>" % form.getvalue("value"))
 elif form.getvalue("sqltype") == "multiple" :
 	category = form.getvalue("cats")
 	dryrun = form.getvalue("dryrun")
 	
 	if category is None :
-		print "<p>Select a group</p>"
+		print("<p>Select a group</p>")
 		includes.printFoot()
 		sys.exit(1)
 	
@@ -122,7 +122,7 @@ elif form.getvalue("sqltype") == "multiple" :
 	for product in products :
 		sql = "INSERT INTO products (name, image) VALUES(%s, %s)" % (conn.literal(product[0]), conn.literal(product[-1]))
 		if dryrun :
-			print "<p>%s</p>" % sql
+			print("<p>%s</p>" % sql)
 		cursor.execute(sql)
 		newid = cursor.lastrowid
 		#newid = 18
@@ -131,7 +131,7 @@ elif form.getvalue("sqltype") == "multiple" :
 		for i in range(len(vendors)) :
 			sql = "INSERT INTO links (productid, vendor, link) VALUES (%s, %s, %s)" % (conn.literal(newid), conn.literal(vendors[i]), conn.literal(product[len(tagids)+i+1]))
 			if dryrun :
-				print "<p>%s</p>" % sql
+				print("<p>%s</p>" % sql)
 			cursor.execute(sql)
 
 		for i in range(1,len(tagids)+1) :
@@ -139,7 +139,7 @@ elif form.getvalue("sqltype") == "multiple" :
 				if tag not in tags[tagids[i-1]] :
 					sql = "INSERT INTO tags (categoryid, value) VALUES (%s, %s)" % (conn.literal(tagids[i-1]), conn.literal(tag))
 					if dryrun :
-						print "<p>%s</p>" % sql
+						print("<p>%s</p>" % sql)
 					cursor.execute(sql)
 					tagvalue = cursor.lastrowid
 					#tagvalue = 1735
@@ -148,15 +148,15 @@ elif form.getvalue("sqltype") == "multiple" :
 					tagvalue = tags[tagids[i-1]][tag]
 				sql = "INSERT INTO producttag (productid, tagid) VALUES (%s, %s)" % (conn.literal(newid), conn.literal(tagvalue))
 				if dryrun :
-					print "<p>%s</p>" % sql
+					print("<p>%s</p>" % sql)
 				cursor.execute(sql)
 		if dryrun :
-			print "<hr>"		
+			print("<hr>")
 
 	if not dryrun :
-		print "<p>Not Dry Run</p>"
+		print("<p>Not Dry Run</p>")
 		conn.commit()
-	print "<p>Successfully created products</p>"
+	print("<p>Successfully created products</p>")
 	
 elif form.getvalue("sqltype") == "single":
 	if form.getvalue("type") == "new" :
@@ -185,7 +185,7 @@ elif form.getvalue("sqltype") == "single":
 		sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
 		cursor.execute(sql)
 		conn.commit()
-		print "successfully inserted"
+		print("successfully inserted")
 	elif form.getvalue("editid") is not None :
 		editid = form.getvalue("editid")
 		sql = "UPDATE products SET name=%s, image=%s WHERE productid=%s" % (conn.literal(form.getvalue("name")), conn.literal(form.getvalue("image")), editid)
@@ -207,7 +207,7 @@ elif form.getvalue("sqltype") == "single":
 		sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
 		cursor.execute(sql)
 		conn.commit()
-		print "UPDATED SUCCESSFULLY"
+		print("UPDATED SUCCESSFULLY")
 
 
 if action == "single" or action == "new" or edit is not None:
@@ -244,7 +244,7 @@ if action == "single" or action == "new" or edit is not None:
 		#<div class="panel-group" id="tagaccordion">
 		#"""
 
-		print "<div class='row'>"
+		print("<div class='row'>")
 		sql = """\
 			SELECT groups.value AS groupvalue, products.productid, products.name, categories.groupid
 			FROM `products`
@@ -260,21 +260,21 @@ if action == "single" or action == "new" or edit is not None:
 		for row in rows :
 			if lastgroup != row["groupid"] :
 				if lastgroup != 0 :
-					print "</ul></div>"
-				print """\
+					print("</ul></div>")
+				print("""\
 					<div class="col-md-4">
 						<h4>%s</h4>
 						<ul>
-				""" % (row["groupvalue"])
+				""" % (row["groupvalue"]))
 
 
-			print "<li><a href='/add.py?edit=%s'>%s</a></li>" % (row["productid"], row["name"])
+			print("<li><a href='/add.py?edit=%s'>%s</a></li>" % (row["productid"], row["name"]))
 			lastgroup = row["groupid"]
-		print "</ul></div></div>"
+		print("</ul></div></div>")
 
 	# product info form
 	if edit is not None or action == "new" :
-		print """\
+		print("""\
 
 		<form method="post" action="/add.py" id="start">
 			<input type="hidden" name="sqltype" value="single"/>
@@ -287,12 +287,12 @@ if action == "single" or action == "new" or edit is not None:
 				<input type="text" id="image" name="image" class="form-control" value="%s">
 			</div>
 		<h4>Links</h4>
-		""" % (product["name"], product["image"])
+		""" % (product["name"], product["image"]))
 
 		if edit is not None:
-			print "<input type='hidden' name='editid' value='%s'/>" % edit
+			print("<input type='hidden' name='editid' value='%s'/>" % edit)
 		else :
-			print "<input type='hidden' name='type' value='new'>"
+			print("<input type='hidden' name='type' value='new'>")
 
 		# urls
 		for i in [0,1,2,3,4,5,6,7,8,9,10,11,12] :
@@ -304,7 +304,7 @@ if action == "single" or action == "new" or edit is not None:
 				vendor = links[i]["Vendor"]
 				link = links[i]["link"]
 				linkid = links[i]["linkid"]
-			print """\
+			print("""\
 			<div class="row form-group">
 				<input type="hidden" name="linkid%s" value="%s"/>
 				<div class="col-sm-4">
@@ -314,15 +314,15 @@ if action == "single" or action == "new" or edit is not None:
 					<input type="text" name="link%s" class="form-control" placeholder="Product Link" value="%s">
 				</div>
 			</div>
-			""" % (i+1, linkid, i+1, vendor, i+1, link)
+			""" % (i+1, linkid, i+1, vendor, i+1, link))
 
-	print "<h4>Tags</h4>"
+	print("<h4>Tags</h4>")
 
 	# tags for all groups
 	if edit is None and action == "new":
-		print """\
+		print("""\
 			<div class="panel-group" id="tabaccordion">
-		"""
+		""")
 		sql = """
 			SELECT groups.value AS groupvalue, categories.groupid, categories.value AS category, tags.tagid, tags.value as tag 
 			FROM `tags` 
@@ -336,11 +336,11 @@ if action == "single" or action == "new" or edit is not None:
 		for row in rows :
 			if lastcat != row["category"] :
 				if lastcat != "" :
-					print "</div>"
+					print("</div>")
 				if lastgroup != row["groupid"] :
 					if lastgroup != 0 :
-						print "</div></div></div></div>"
-					print """\
+						print("</div></div></div></div>")
+					print("""\
 					<div class="panel panel-default">
 						<div class="panel-heading">
 						<h4 class='panel-title' data-toggle='collapse' data-parent='#tabaccordion' data-target='#ttagging%s'>%s</h4>
@@ -348,26 +348,26 @@ if action == "single" or action == "new" or edit is not None:
 						<div id="ttagging%s" class="panel-collapse collapse">
 							<div class="panel-body">
 								<div class="row">
-						""" % (row["groupid"], row["groupvalue"], row["groupid"])
-				print "<div class='col-sm-2'><label>%s</label>" % row["category"]
+						""" % (row["groupid"], row["groupvalue"], row["groupid"]))
+				print("<div class='col-sm-2'><label>%s</label>" % row["category"])
 			checked = ""
 			if row["tagid"] in tags :
 				checked = " checked"
-			print """\
+			print("""\
 			<div class="checkbox">
 				<label>
 					<input name="tags" type="checkbox" value="%s" %s> %s
 				</label>
 			</div>
-			""" % (row["tagid"], checked, row["tag"])
+			""" % (row["tagid"], checked, row["tag"]))
 			lastcat = row["category"]
 			lastgroup = row["groupid"]
 
 
-		print """\
+		print("""\
 		</div></div></div></div>
 		</div>
-		"""
+		""")
 	# tags for current category
 	elif edit is not None and action != "new" :
 		sql = """
@@ -380,29 +380,29 @@ if action == "single" or action == "new" or edit is not None:
 		cursor.execute(sql)
 		rows = cursor.fetchall()
 		lastcat = ""
-		print "<div class='row'>"
+		print("<div class='row'>")
 		for row in rows :
 			if lastcat != row["category"] :
 				if lastcat != "" :
-					print "</div>"
-				print "<div class='col-sm-2'><label>%s</label>" % row["category"]
+					print("</div>")
+				print("<div class='col-sm-2'><label>%s</label>" % row["category"])
 			checked = ""
 			if row["tagid"] in tags :
 				checked = " checked"
-			print """\
+			print("""\
 			<div class="checkbox">
 				<label>
 					<input name="tags" type="checkbox" value="%s" %s> %s
 				</label>
 			</div>
-			""" % (row["tagid"], checked, row["tag"])
+			""" % (row["tagid"], checked, row["tag"]))
 			lastcat = row["category"]
-		print "</div></div></div>"
+		print("</div></div></div>")
 
-	print """\
+	print("""\
 	<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
-	"""
+	""")
 elif action == "multiple" :
 	sql = """\
 		SELECT groups.groupid, groups.value AS groupname, group_concat(categories.value ORDER BY categories.value SEPARATOR ' || ') AS categories
@@ -415,7 +415,7 @@ elif action == "multiple" :
 	rows = cursor.fetchall()
 	lastgroup = 0
 
-	print """\
+	print("""\
 	<form method="post" action="/add.py">
 		<input type="hidden" name="sqltype" value="multiple"/>
 		<div class="checkbox">
@@ -424,26 +424,26 @@ elif action == "multiple" :
 			</label>
 		</div>
 
-	"""
+	""")
 
 	for row in rows :
 		if lastgroup != row["groupid"] :
-			print """\
+			print("""\
 			<div class="radio">
 				<label>
 					<input name="cats" type="radio" value="%s"> %s  -- <small>Product Name || %s || Link 1 || Link 2 || ... || Image URL</small>
 				</label>
 			</div>
-			""" % (row["groupid"], row["groupname"], row["categories"])
+			""" % (row["groupid"], row["groupname"], row["categories"]))
 	
-	print """\
+	print("""\
 		<div class="form-group">
 			<label for="name">Name</label>
 			<textarea name="data" class="form-control" rows="20"></textarea>
 		</div>
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
-	"""
+	""")
 elif action=="newgroup" or editgroup is not None :
 
 	sqltype = "newgroup"
@@ -457,7 +457,7 @@ elif action=="newgroup" or editgroup is not None :
 		row = cursor.fetchone()
 		categories = "does nothing"
 
-	print """\
+	print("""\
 	<form method="post" action="/add.py">
 		<input type="hidden" name="editgroup" value="%s"/>
 		<input type="hidden" name="sqltype" value="%s"/>
@@ -488,19 +488,19 @@ elif action=="newgroup" or editgroup is not None :
 
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>	
-	""" % (editgroup, sqltype, row["value"], categories, row["description"], row["image"], row["pathname"], row["spreadsheet"])
+	""" % (editgroup, sqltype, row["value"], categories, row["description"], row["image"], row["pathname"], row["spreadsheet"]))
 elif action=="editgroup" :
 	sql = "SELECT * FROM groups ORDER BY value"
 
 	cursor.execute(sql)
 	rows = cursor.fetchall()
 
-	print '<div class="list-group">'
+	print('<div class="list-group">')
 
 	for row in rows :
-		print "<a href='?editgroup=%s' class='list-group-item'>%s</a>" % (row["groupid"], row["value"])
+		print("<a href='?editgroup=%s' class='list-group-item'>%s</a>" % (row["groupid"], row["value"]))
 
-	print "</div>"
+	print("</div>")
 
 
 includes.printFoot()

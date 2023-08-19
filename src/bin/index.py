@@ -6,7 +6,7 @@ import cgi
 import cgitb
 import traceback
 import os
-import Cookie
+#import Cookie
 
 sys.path.append("../../")
 import config
@@ -21,7 +21,7 @@ actionname = form.getvalue("actionname")
 try:
 	conn = mdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
 	cursor = conn.cursor(mdb.cursors.DictCursor)
-except mdb.Error, e:
+except mdb.Error as e:
 	print("Content-type: text/html\n\n")
 	print("<h2>Error</h2>")
 	print("Error %d: %s" % (e.args[0], e.args[1]))
@@ -46,18 +46,18 @@ try:
 	if action == "admin" :
 		if 'HTTP_COOKIE' in os.environ:
 			cookie_string = os.environ.get('HTTP_COOKIE')
-			c = Cookie.SimpleCookie()
-			c.load(cookie_string)
+			#c = Cookie.SimpleCookie()
+			#c.load(cookie_string)
 
-			try :
-				data = c['frp'].value
-				admin = True
-				title = "Dashboard"
-				maincontent = open("../content/dashboard.html").read()
-				hasSidebar = True
-			except KeyError :
-				title = "403 - Part Denied"
-				maincontent = open("../content/404.html").read()
+			#try :
+				#data = c['frp'].value
+				#admin = True
+				#title = "Dashboard"
+				#maincontent = open("../content/dashboard.html").read()
+				#hasSidebar = True
+			#except KeyError :
+			title = "403 - Part Denied"
+			maincontent = open("../content/404.html").read()
 		else :
 			title = "403 - Part Denied"
 			maincontent = open("../content/404.html").read()
