@@ -46,8 +46,7 @@ try :
 			errorOccurred("Product was not defined")
 
 		productId = None
-		sql = "SELECT * FROM groups WHERE pathname=%s" % conn.literal(product)
-		cursor.execute(sql)
+		cursor.execute("SELECT * FROM groups WHERE pathname=%(product)s", {'product': product})
 		if cursor.rowcount == 1 :
 			productRow = cursor.fetchone()
 			if not productRow["groupid"] :
@@ -60,7 +59,7 @@ try :
 		cursor.execute(sql)
 
 		if tags is None or categories is None :
-			sql = """\
+			cursor.execute("""\
 				SELECT prodtable.productid, prodtable.name, prodtable.image, 
 					group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, 
 					group_concat(prodtable.tagvalue ORDER BY prodtable.priority SEPARATOR '||') AS tags, 
@@ -77,7 +76,7 @@ try :
 					LEFT JOIN tags ON producttag.tagid = tags.tagid 
 					LEFT JOIN products ON products.productid = producttag.productid
 					LEFT JOIN categories ON categories.categoryid = tags.categoryid
-					WHERE categories.groupid=%s
+					WHERE categories.groupid=%(productid)s
 					GROUP BY products.productid, tags.categoryid
 				) AS prodtable
 				LEFT JOIN (
@@ -88,9 +87,9 @@ try :
 				) AS linklist ON prodtable.productid = linklist.productid
 				GROUP BY productid
 				ORDER BY prodtable.name
-			""" % productId
+			""", {'productid': productId})
 		else :
-			sql = """\
+			cursor.execute("""\
 				SELECT prodtable.productid, prodtable.name, prodtable.image, group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, group_concat(prodtable.tagvalue ORDER BY prodtable.priority SEPARATOR '||') AS tags, linklist.vendors, linklist.links
 				FROM (
 					SELECT 
@@ -100,33 +99,30 @@ try :
 							SELECT productid
 							FROM producttag
 							LEFT JOIN tags ON producttag.tagid = tags.tagid
-							WHERE producttag.tagid IN (%s)
+							WHERE producttag.tagid IN (%{tags}s)
 							GROUP BY producttag.productid, tags.categoryid) AS a
 						GROUP BY productid
-						HAVING COUNT(productid) = %s) AS productids
+						HAVING COUNT(productid) = %(productid)s) AS productids
 					LEFT JOIN products ON productids.productid = products.productid
 					LEFT JOIN producttag ON products.productid = producttag.productid
 					LEFT JOIN tags ON producttag.tagid = tags.tagid 
 					LEFT JOIN categories ON categories.categoryid = tags.categoryid
-					WHERE categories.groupid=%s
+					WHERE categories.groupid=%(groupdid)s
 					GROUP BY products.productid, tags.categoryid
 				) AS prodtable
 				LEFT JOIN (SELECT productid, group_concat(Vendor ORDER BY Vendor SEPARATOR '||') AS vendors, group_concat(link ORDER BY Vendor SEPARATOR '||') AS links FROM links GROUP BY productid) AS linklist ON prodtable.productid = linklist.productid
 				GROUP BY productid
 				ORDER BY prodtable.name
-			""" % (tags, len(categories.split(",")), productId)
+			""", {'tags': tags, 'productid': len(categories.split(",")), 'groupid': productId})
 
-		cursor.execute(sql)
 		productRows = cursor.fetchall()
 
-		sql = "SELECT categoryid, value FROM categories WHERE groupid=%s ORDER BY priority" % productId
-		cursor.execute(sql)
+		cursor.execute("SELECT categoryid, value FROM categories WHERE groupid=%(productid)s ORDER BY priority", {'productid': productId})
 		categoryRows = cursor.fetchall()
 
 		categories = []
 		for row in categoryRows :
-			sql = "SELECT tagid, value FROM tags WHERE categoryid = %s ORDER BY value*1, value" % row["categoryid"]
-			cursor.execute(sql)
+			cursor.execute("SELECT tagid, value FROM tags WHERE categoryid = %(catid)s ORDER BY value*1, value", {'catid': row["categoryid"]})
 			tagRows = cursor.fetchall()
 			categories.append({
 				"categoryid": row["categoryid"],

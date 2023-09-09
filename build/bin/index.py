@@ -70,8 +70,7 @@ try:
 	elif action == "home" :
 		maincontent = open("../content/homepage.html").read()
 	elif actionname is not None :
-		sql = "SELECT * FROM groups WHERE pathname=%s" % conn.literal(actionname)
-		cursor.execute(sql)
+		cursor.execute("SELECT * FROM groups WHERE pathname=%(actionname)s", {'actionname': actionname})
 		if cursor.rowcount == 1 :
 			row = cursor.fetchone()
 			action = str(row["groupid"])
@@ -98,4 +97,4 @@ try:
 
 except Exception :
 	print("Content-type: text/html\n\n")
-	print("<pre>%s</pre>" % traceback.format_exc())
+	print("<pre>%s</pre>" % actionname)#traceback.format_exc())
