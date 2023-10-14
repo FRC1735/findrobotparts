@@ -1,6 +1,6 @@
 const gulp = require("gulp");
 const handlebars = require('gulp-handlebars');
-const wrap = require('gulp-wrap');
+const wrap = require("gulp-wrap");
 const declare = require('gulp-declare');
 const concat = require('gulp-concat');
 const del = require("del");

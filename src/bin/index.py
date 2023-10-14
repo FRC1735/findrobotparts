@@ -6,7 +6,6 @@ import cgi
 import cgitb
 import traceback
 import os
-#import Cookie
 
 sys.path.append("../../")
 import config
@@ -17,7 +16,7 @@ form = cgi.FieldStorage()
 action = form.getvalue("action")
 actionname = form.getvalue("actionname")
 
-#create database connection
+# create database connection
 try:
 	conn = mdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
 	cursor = conn.cursor(mdb.cursors.DictCursor)
@@ -27,7 +26,8 @@ except mdb.Error as e:
 	print("Error %d: %s" % (e.args[0], e.args[1]))
 	sys.exit(1)
 
-def createHeader(row) :
+
+def createHeader(row):
 	producthtml = open("../content/product.html").read()
 	producthtml = producthtml.replace("{{image}}", row["image"])
 	producthtml = producthtml.replace("{{value}}", row["value"])
@@ -36,6 +36,7 @@ def createHeader(row) :
 	producthtml = producthtml.replace("{{pathname}}", row["pathname"])
 	return producthtml
 
+
 try:
 	title = ""
 	maincontent = ""
@@ -43,58 +44,63 @@ try:
 	outputhtml = open("../content/template.html").read()
 	admin = False
 
-	if action == "admin" :
-		if 'HTTP_COOKIE' in os.environ:
-			cookie_string = os.environ.get('HTTP_COOKIE')
-			#c = Cookie.SimpleCookie()
-			#c.load(cookie_string)
-
-			#try :
-				#data = c['frp'].value
-				#admin = True
-				#title = "Dashboard"
-				#maincontent = open("../content/dashboard.html").read()
-				#hasSidebar = True
-			#except KeyError :
+	if action == "admin":
+		if "HTTP_COOKIE" in os.environ:
+			cookies = os.environ["HTTP_COOKIE"]
+			cookies = cookies.split("; ")
+			isLoggedIn = False
+			loggedInValue = ""
+			for cookie in cookies:
+				cookie = cookie.split("=")
+				if cookie[0] == "frp":
+					isLoggedIn = True
+					loggedInValue = cookie[1]
+			if isLoggedIn:
+				data = loggedInValue
+				admin = True
+				title = "Dashboard"
+				maincontent = open("../content/dashboard.html").read()
+				hasSidebar = True
+			else:
+				title = "403 - Part Denied"
+				maincontent = open("../content/404.html").read()
+		else:
 			title = "403 - Part Denied"
 			maincontent = open("../content/404.html").read()
-		else :
-			title = "403 - Part Denied"
-			maincontent = open("../content/404.html").read()
-	elif action == "about" :
+	elif action == "about":
 		title = "About"
 		maincontent = open("../content/about.html").read()
-	elif action == "404err" :
+	elif action == "404err":
 		title = "404 - Part Not Found"
 		maincontent = open("../content/404.html").read()
-	elif action == "home" :
+	elif action == "home":
 		maincontent = open("../content/homepage.html").read()
-	elif actionname is not None :
+	elif actionname is not None:
 		cursor.execute("SELECT * FROM groups WHERE pathname=%(actionname)s", {'actionname': actionname})
-		if cursor.rowcount == 1 :
+		if cursor.rowcount == 1:
 			row = cursor.fetchone()
 			action = str(row["groupid"])
 			title = row["value"] + " -  "
 			maincontent = createHeader(row)
 			hasSidebar = True
-		else :
+		else:
 			title = "404 - Part Not Found"
 			maincontent = open("../content/404.html").read()
-	else :
+	else:
 		title = "404 - Part Not Found"
 		maincontent = open("../content/404.html").read()
 
 	outputhtml = outputhtml.replace("{{title}}", title)
 	outputhtml = outputhtml.replace("{{maincontent}}", maincontent)
 	sidebarview = "block"
-	if not hasSidebar :
+	if not hasSidebar:
 		sidebarview = "none"
 	outputhtml = outputhtml.replace("{{sidebarview}}", sidebarview)
-	if admin :
+	if admin:
 		outputhtml = outputhtml.replace("robotparts.js", "robotparts-admin.js")
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
 
-except Exception :
+except Exception:
 	print("Content-type: text/html\n\n")
-	print("<pre>%s</pre>" % actionname)#traceback.format_exc())
+	print("<pre>%s</pre>" % actionname)  # traceback.format_exc())
