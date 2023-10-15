@@ -50,8 +50,8 @@ try:
 		data = json.load(sys.stdin)
 		if data["type"] == "addSingle":
 			sqlStatement = "INSERT INTO products (name, image) VALUES({name}, {image})".format(
-				name=sql.Literal(data["name"]),
-				image=sql.Literal(data["image"])
+				name=sql.quote(data["name"]),
+				image=sql.quote(data["image"])
 			)
 			sqlcommands.append(sqlStatement)
 			if data["dryrun"]:
@@ -64,9 +64,9 @@ try:
 			for link in data["links"]:
 				if sqlStatement != "":
 					sqlStatement += ","
-				sqlStatement += "({newid}, {name}, {link})".format(newid=sql.Literal(newid),
-																   name=sql.Literal(link["name"]),
-																   link=sql.Literal(link["link"]))
+				sqlStatement += "({newid}, {name}, {link})".format(newid=sql.quote(newid),
+																   name=sql.quote(link["name"]),
+																   link=sql.quote(link["link"]))
 			sqlStatement = "INSERT INTO links (productid, vendor, link) VALUES %s" % sqlStatement
 			sqlcommands.append(sqlStatement)
 			if not data["dryrun"]:
@@ -76,7 +76,7 @@ try:
 			for tag in data["tags"]:
 				if sqlStatement != "":
 					sqlStatement += ","
-				sqlStatement += "({newid}, {tag})".format(newid=sql.Literal(newid), tag=sql.Literal(tag))
+				sqlStatement += "({newid}, {tag})".format(newid=sql.quote(newid), tag=sql.quote(tag))
 			sqlStatement = "INSERT INTO producttag (productid, tagid) VALUES %s" % sqlStatement
 			sqlcommands.append(sqlStatement)
 			if data['dryrun']:
@@ -88,14 +88,14 @@ try:
 		elif data["type"] == "edit":
 			productid = data["productid"]
 			sqlStatement = "UPDATE products SET name={name}, image={image} WHERE productid={productid}".format(
-				name=sql.Literal(data["name"]),
-				image=sql.Literal(data["image"]),
-				productid=sql.Literal(productid))
+				name=sql.quote(data["name"]),
+				image=sql.quote(data["image"]),
+				productid=sql.quote(productid))
 			sqlcommands.append(sqlStatement)
 			if not data["dryrun"]:
 				cursor.execute(sqlStatement)
 
-			sqlStatement = "DELETE FROM links WHERE productid={productid}".format(productid=sql.Literal(productid))
+			sqlStatement = "DELETE FROM links WHERE productid={productid}".format(productid=sql.quote(productid))
 			sqlcommands.append(sqlStatement)
 			if not data["dryrun"]:
 				cursor.execute(sqlStatement)
@@ -105,15 +105,15 @@ try:
 				if sqlStatement != "":
 					sqlStatement += ","
 				sqlStatement += "({productid}, {name}, {link})".format(
-					productid=sql.Literal(productid),
-					name=sql.Literal(link["name"]),
-					link=sql.Literal(link["link"]))
+					productid=sql.quote(productid),
+					name=sql.quote(link["name"]),
+					link=sql.quote(link["link"]))
 			sqlStatement = "INSERT INTO links (productid, vendor, link) VALUES %s" % sqlStatement
 			sqlcommands.append(sqlStatement)
 			if not data["dryrun"]:
 				cursor.execute(sqlStatement)
 
-			sqlStatement = "DELETE FROM producttag WHERE productid={productid}".format(productid=sql.Literal(productid))
+			sqlStatement = "DELETE FROM producttag WHERE productid={productid}".format(productid=sql.quote(productid))
 			sqlcommands.append(sqlStatement)
 			if not data["dryrun"]:
 				cursor.execute(sqlStatement)
@@ -122,7 +122,7 @@ try:
 			for tag in data["tags"]:
 				if sqlStatement != "":
 					sqlStatement += ","
-				sqlStatement += "({productid}, {tag})".format(productid=sql.Literal(productid), tag=sql.Literal(tag))
+				sqlStatement += "({productid}, {tag})".format(productid=sql.quote(productid), tag=sql.quote(tag))
 			sqlStatement = "INSERT INTO producttag (productid, tagid) VALUES %s" % sqlStatement
 			sqlcommands.append(sqlStatement)
 
@@ -137,7 +137,7 @@ try:
 			tagids = []
 			vendorloc = 0
 			sqlStatement = "SELECT * FROM categories WHERE groupid={groupid} ORDER BY value".format(
-				groupid=sql.Literal(data["groupid"]))
+				groupid=sql.quote(data["groupid"]))
 			cursor.execute(sqlStatement)
 			rows = cursor.fetchall()
 			for row in rows:
@@ -148,7 +148,7 @@ try:
 			tags = {}
 			for categoryid in tagids:
 				sqlStatement = "SELECT * FROM tags WHERE categoryid={categoryid}".format(
-					categoryid=sql.Literal(categoryid))
+					categoryid=sql.quote(categoryid))
 				cursor.execute(sqlStatement)
 				rows = cursor.fetchall()
 				if not (categoryid in tags):
@@ -166,7 +166,7 @@ try:
 
 			for product in products:
 				sqlStatement = "INSERT INTO products (name, image) VALUES({name}, {image})".format(
-					name=sql.Literal(product[0]), image=sql.Literal(product[-1]))
+					name=sql.quote(product[0]), image=sql.quote(product[-1]))
 				sqlcommands.append(sqlStatement)
 				if not data["dryrun"]:
 					cursor.execute(sqlStatement)
@@ -177,8 +177,8 @@ try:
 				vendors = product[vendorloc]
 				for i in range(len(vendors)):
 					sqlStatement = "INSERT INTO links (productid, vendor, link) VALUES ({newid}, {vendor}, {link})".format(
-						newid=sql.Literal(newid), vendor=sql.Literal(vendors[i]),
-						link=sql.Literal(product[len(tagids) + i + 1]))
+						newid=sql.quote(newid), vendor=sql.quote(vendors[i]),
+						link=sql.quote(product[len(tagids) + i + 1]))
 					sqlcommands.append(sqlStatement)
 					if not data["dryrun"]:
 						cursor.execute(sqlStatement)
@@ -187,7 +187,7 @@ try:
 					for tag in product[i]:
 						if tag not in tags[tagids[i - 1]]:
 							sqlStatement = "INSERT INTO tags (categoryid, value) VALUES ({categoryid}, {value})".format(
-								categoryid=sql.Literal(tagids[i - 1]), value=sql.Literal(tag))
+								categoryid=sql.quote(tagids[i - 1]), value=sql.quote(tag))
 							sqlcommands.append(sqlStatement)
 							if not data["dryrun"]:
 								cursor.execute(sqlStatement)
@@ -198,7 +198,7 @@ try:
 						else:
 							tagvalue = tags[tagids[i - 1]][tag]
 						sqlStatement = "INSERT INTO producttag (productid, tagid) VALUES ({productid}, {tagid})".format(
-							productid=sql.Literal(newid), tagid=sql.Literal(tagvalue))
+							productid=sql.quote(newid), tagid=sql.quote(tagvalue))
 						sqlcommands.append(sqlStatement)
 						if not data["dryrun"]:
 							cursor.execute(sqlStatement)
@@ -209,11 +209,11 @@ try:
 				outputhtml = 'Successful'
 		elif data["type"] == "newGroup":
 			sqlStatement = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES({name}, {description}, {imageFilename}, {imageFolder}, {spreadsheet})".format(
-				name=sql.literal(data["name"]),
-				description=sql.literal(data["description"]),
-				imageFolder=sql.literal(data["imageFolder"]),
-				imageFilename=sql.literal(data["imageFilename"]),
-				spreadsheet=sql.literal(data["spreadsheet"]))
+				name=sql.quote(data["name"]),
+				description=sql.quote(data["description"]),
+				imageFolder=sql.quote(data["imageFolder"]),
+				imageFilename=sql.quote(data["imageFilename"]),
+				spreadsheet=sql.quote(data["spreadsheet"]))
 			sqlcommands.append(sqlStatement)
 			if not data["dryrun"]:
 				cursor.execute(sqlStatement)
@@ -224,7 +224,7 @@ try:
 			categories = re.split(" ?\t ?", data["categories"])
 			for index, category in enumerate(categories):
 				sqlStatement = "INSERT INTO categories (groupid, value, priority) VALUES({groupid}, {value}, {priority})".format(
-					groupid=sql.Literal(newid), value=sql.Literal(category), priority=index + 1)
+					groupid=sql.quote(newid), value=sql.quote(category), priority=index + 1)
 				sqlcommands.append(sqlStatement)
 				if not data["dryrun"]:
 					cursor.execute(sqlStatement)
@@ -235,12 +235,12 @@ try:
 				outputhtml = 'Successful'
 		elif data["type"] == "editGroup":
 			sqlStatement = "UPDATE groups SET value = {name}, description = {description}, image = {imageFilename}, pathname = {imageFolder}, spreadsheet = {spreadsheet} WHERE groupid = {groupid}".format(
-				name=sql.literal(data["name"]),
-				description=sql.literal(data["description"]),
-				imageFolder=sql.literal(data["imageFolder"]),
-				imageFilename=sql.literal(data["imageFilename"]),
-				spreadsheet=sql.literal(data["spreadsheet"]),
-				groupid=sql.literal(data["groupid"]))
+				name=sql.quote(data["name"]),
+				description=sql.quote(data["description"]),
+				imageFolder=sql.quote(data["imageFolder"]),
+				imageFilename=sql.quote(data["imageFilename"]),
+				spreadsheet=sql.quote(data["spreadsheet"]),
+				groupid=sql.quote(data["groupid"]))
 			sqlcommands.append(sqlStatement)
 			conn.commit()
 			if not data['dryrun']:
