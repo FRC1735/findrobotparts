@@ -1,24 +1,24 @@
 #!/usr/bin/env python
 
-import MySQLdb
+import MySQLdb as mdb
 import sys
 import json
 import cgitb
 import traceback
 import os
 import re
-import Cookie
+from psycopg import sql
 
 sys.path.append("../../")
 import config
 
 cgitb.enable()
 
-#create database connection
+# create database connection
 try:
-	conn = MySQLdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
-	cursor = conn.cursor(MySQLdb.cursors.DictCursor)
-except MySQLdb.Error as e:
+	conn = mdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
+	cursor = conn.cursor(mdb.cursors.DictCursor)
+except mdb.Error as e:
 	print("Content-type: text/html\n\n")
 	print("<h2>Error</h2>")
 	print("Error %d: %s" % (e.args[0], e.args[1]))
@@ -28,208 +28,232 @@ try:
 	admin = False
 	outputhtml = ""
 	sqlcommands = []
-	if 'HTTP_COOKIE' in os.environ:
-		cookie_string = os.environ.get('HTTP_COOKIE')
-		c = Cookie.SimpleCookie()
-		c.load(cookie_string)
-
-		try :
-			data = c['frp'].value
+	if "HTTP_COOKIE" in os.environ:
+		cookies = os.environ["HTTP_COOKIE"]
+		cookies = cookies.split("; ")
+		isLoggedIn = False
+		loggedInValue = ""
+		for cookie in cookies:
+			cookie = cookie.split("=")
+			if cookie[0] == "frp":
+				isLoggedIn = True
+				loggedInValue = cookie[1]
+		if isLoggedIn:
+			data = loggedInValue
 			admin = True
-		except KeyError :
+		else:
 			outputhtml = open("../content/404.html").read()
-	else :
+	else:
 		outputhtml = open("../content/404.html").read()
 
-	if admin :
+	if admin:
 		data = json.load(sys.stdin)
-		if data["type"] == "addSingle" :
-			sql = "INSERT INTO products (name, image) VALUES(%s, %s)" % (conn.literal(data["name"]), conn.literal(data["image"]))
-			sqlcommands.append(sql)
-			if (data["dryrun"]) :
+		if data["type"] == "addSingle":
+			sqlStatement = "INSERT INTO products (name, image) VALUES({name}, {image})".format(
+				name=sql.Literal(data["name"]),
+				image=sql.Literal(data["image"])
+			)
+			sqlcommands.append(sqlStatement)
+			if data["dryrun"]:
 				newid = "123"
-			else :
-				cursor.execute(sql)
+			else:
+				cursor.execute(sqlStatement)
 				newid = cursor.lastrowid
-			
-			sql = ""
-			for link in data["links"] :
-				if sql != "" :
-					sql += ","
-				sql += "(%s, %s, %s)" % (conn.literal(newid), conn.literal(link["name"]), conn.literal(link["link"]))
-			sql = "INSERT INTO links (productid, vendor, link) VALUES %s" % sql
-			sqlcommands.append(sql)
-			if (not data["dryrun"]) :
-				cursor.execute(sql)
 
-			sql = ""
-			for tag in data["tags"] :
-				if sql != "" :
-					sql += ","
-				sql += "(%s, %s)" % (conn.literal(newid), conn.literal(tag))
-			sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
-			sqlcommands.append(sql)			
-			if (data['dryrun']) :
+			sqlStatement = ""
+			for link in data["links"]:
+				if sqlStatement != "":
+					sqlStatement += ","
+				sqlStatement += "({newid}, {name}, {link})".format(newid=sql.Literal(newid),
+																   name=sql.Literal(link["name"]),
+																   link=sql.Literal(link["link"]))
+			sqlStatement = "INSERT INTO links (productid, vendor, link) VALUES %s" % sqlStatement
+			sqlcommands.append(sqlStatement)
+			if not data["dryrun"]:
+				cursor.execute(sqlStatement)
+
+			sqlStatement = ""
+			for tag in data["tags"]:
+				if sqlStatement != "":
+					sqlStatement += ","
+				sqlStatement += "({newid}, {tag})".format(newid=sql.Literal(newid), tag=sql.Literal(tag))
+			sqlStatement = "INSERT INTO producttag (productid, tagid) VALUES %s" % sqlStatement
+			sqlcommands.append(sqlStatement)
+			if data['dryrun']:
 				outputhtml = sqlcommands
-			else :
-				cursor.execute(sql)
+			else:
+				cursor.execute(sqlStatement)
 				conn.commit()
 				outputhtml = 'Successful'
-		elif data["type"] == "edit" :
+		elif data["type"] == "edit":
 			productid = data["productid"]
-			sql = "UPDATE products SET name=%s, image=%s WHERE productid=%s" % (conn.literal(data["name"]), conn.literal(data["image"]), conn.literal(productid))
-			sqlcommands.append(sql)
-			if (not data["dryrun"]):
-				cursor.execute(sql)
-			
-			sql = "DELETE FROM links WHERE productid=%s" % conn.literal(productid)
-			sqlcommands.append(sql)
-			if (not data["dryrun"]) :
-				cursor.execute(sql)
+			sqlStatement = "UPDATE products SET name={name}, image={image} WHERE productid={productid}".format(
+				name=sql.Literal(data["name"]),
+				image=sql.Literal(data["image"]),
+				productid=sql.Literal(productid))
+			sqlcommands.append(sqlStatement)
+			if not data["dryrun"]:
+				cursor.execute(sqlStatement)
 
-			sql = ""
-			for link in data["links"] :
-				if sql != "" :
-					sql += ","
-				sql += "(%s, %s, %s)" % (conn.literal(productid), conn.literal(link["name"]), conn.literal(link["link"]))
-			sql = "INSERT INTO links (productid, vendor, link) VALUES %s" % sql
-			sqlcommands.append(sql)
-			if (not data["dryrun"]) :
-				cursor.execute(sql)
+			sqlStatement = "DELETE FROM links WHERE productid={productid}".format(productid=sql.Literal(productid))
+			sqlcommands.append(sqlStatement)
+			if not data["dryrun"]:
+				cursor.execute(sqlStatement)
 
-			sql = "DELETE FROM producttag WHERE productid=%s" % conn.literal(productid)
-			sqlcommands.append(sql)
-			if (not data["dryrun"]) :
-				cursor.execute(sql)
+			sqlStatement = ""
+			for link in data["links"]:
+				if sqlStatement != "":
+					sqlStatement += ","
+				sqlStatement += "({productid}, {name}, {link})".format(
+					productid=sql.Literal(productid),
+					name=sql.Literal(link["name"]),
+					link=sql.Literal(link["link"]))
+			sqlStatement = "INSERT INTO links (productid, vendor, link) VALUES %s" % sqlStatement
+			sqlcommands.append(sqlStatement)
+			if not data["dryrun"]:
+				cursor.execute(sqlStatement)
 
-			sql = ""
-			for tag in data["tags"] :
-				if sql != "" :
-					sql += ","
-				sql += "(%s, %s)" % (conn.literal(productid), conn.literal(tag))
-			sql = "INSERT INTO producttag (productid, tagid) VALUES %s" % sql
-			sqlcommands.append(sql)
+			sqlStatement = "DELETE FROM producttag WHERE productid={productid}".format(productid=sql.Literal(productid))
+			sqlcommands.append(sqlStatement)
+			if not data["dryrun"]:
+				cursor.execute(sqlStatement)
 
-			if (data['dryrun']) :
+			sqlStatement = ""
+			for tag in data["tags"]:
+				if sqlStatement != "":
+					sqlStatement += ","
+				sqlStatement += "({productid}, {tag})".format(productid=sql.Literal(productid), tag=sql.Literal(tag))
+			sqlStatement = "INSERT INTO producttag (productid, tagid) VALUES %s" % sqlStatement
+			sqlcommands.append(sqlStatement)
+
+			if data['dryrun']:
 				outputhtml = sqlcommands
-			else :
-				cursor.execute(sql)
+			else:
+				cursor.execute(sqlStatement)
 				conn.commit()
 				outputhtml = 'Successful'
 
-		elif data["type"] == "addMultiple" :
+		elif data["type"] == "addMultiple":
 			tagids = []
 			vendorloc = 0
-			sql = "SELECT * FROM categories WHERE groupid=%s ORDER BY value" % conn.literal(data["groupid"])
-			cursor.execute(sql)
+			sqlStatement = "SELECT * FROM categories WHERE groupid={groupid} ORDER BY value".format(
+				groupid=sql.Literal(data["groupid"]))
+			cursor.execute(sqlStatement)
 			rows = cursor.fetchall()
-			for row in rows :
+			for row in rows:
 				tagids.append(row["categoryid"])
-				if row["value"] == "Vendors" :
+				if row["value"] == "Vendors":
 					vendorloc = len(tagids)
 
 			tags = {}
-			for categoryid in tagids :
-				sql = "SELECT * FROM tags WHERE categoryid=%s" % conn.literal(categoryid)
-				cursor.execute(sql)
+			for categoryid in tagids:
+				sqlStatement = "SELECT * FROM tags WHERE categoryid={categoryid}".format(
+					categoryid=sql.Literal(categoryid))
+				cursor.execute(sqlStatement)
 				rows = cursor.fetchall()
-				if not (categoryid in tags) :
+				if not (categoryid in tags):
 					tags[categoryid] = {}
-				for row in rows :
+				for row in rows:
 					tags[categoryid][row["value"]] = row["tagid"]
-			
+
 			products = []
-			for product in re.split("\r?\n", data["data"]) :
+			for product in re.split("\r?\n", data["data"]):
 				productList = product.split("\t")
-				for i in range(len(productList)) :
-					if i != 0 and i < len(tagids)+1 :
+				for i in range(len(productList)):
+					if i != 0 and i < len(tagids) + 1:
 						productList[i] = re.split(" ?, ?", productList[i])
 				products.append(productList)
-			
-			for product in products :
-				sql = "INSERT INTO products (name, image) VALUES(%s, %s)" % (conn.literal(product[0]), conn.literal(product[-1]))
-				sqlcommands.append(sql)
-				if (not data["dryrun"]) :
-					cursor.execute(sql)
-					newid = cursor.lastrowid
-				else :
-					newid = "1234"
-				
-				vendors = product[vendorloc]
-				for i in range(len(vendors)) :
-					sql = "INSERT INTO links (productid, vendor, link) VALUES (%s, %s, %s)" % (conn.literal(newid), conn.literal(vendors[i]), conn.literal(product[len(tagids)+i+1]))
-					sqlcommands.append(sql)
-					if (not data["dryrun"]) :
-						cursor.execute(sql)
 
-				for i in range(1,len(tagids)+1) :
-					for tag in product[i] :
-						if tag not in tags[tagids[i-1]] :
-							sql = "INSERT INTO tags (categoryid, value) VALUES (%s, %s)" % (conn.literal(tagids[i-1]), conn.literal(tag))
-							sqlcommands.append(sql)
-							if (not data["dryrun"]) :
-								cursor.execute(sql)
+			for product in products:
+				sqlStatement = "INSERT INTO products (name, image) VALUES({name}, {image})".format(
+					name=sql.Literal(product[0]), image=sql.Literal(product[-1]))
+				sqlcommands.append(sqlStatement)
+				if not data["dryrun"]:
+					cursor.execute(sqlStatement)
+					newid = cursor.lastrowid
+				else:
+					newid = "1234"
+
+				vendors = product[vendorloc]
+				for i in range(len(vendors)):
+					sqlStatement = "INSERT INTO links (productid, vendor, link) VALUES ({newid}, {vendor}, {link})".format(
+						newid=sql.Literal(newid), vendor=sql.Literal(vendors[i]),
+						link=sql.Literal(product[len(tagids) + i + 1]))
+					sqlcommands.append(sqlStatement)
+					if not data["dryrun"]:
+						cursor.execute(sqlStatement)
+
+				for i in range(1, len(tagids) + 1):
+					for tag in product[i]:
+						if tag not in tags[tagids[i - 1]]:
+							sqlStatement = "INSERT INTO tags (categoryid, value) VALUES ({categoryid}, {value})".format(
+								categoryid=sql.Literal(tagids[i - 1]), value=sql.Literal(tag))
+							sqlcommands.append(sqlStatement)
+							if not data["dryrun"]:
+								cursor.execute(sqlStatement)
 								tagvalue = cursor.lastrowid
-							else :
+							else:
 								tagvalue = "12345"
-							tags[tagids[i-1]][tag] = tagvalue
-						else :
-							tagvalue = tags[tagids[i-1]][tag]
-						sql = "INSERT INTO producttag (productid, tagid) VALUES (%s, %s)" % (conn.literal(newid), conn.literal(tagvalue))
-						sqlcommands.append(sql)
-						if (not data["dryrun"]) :
-							cursor.execute(sql)
-			if (data['dryrun']) :
+							tags[tagids[i - 1]][tag] = tagvalue
+						else:
+							tagvalue = tags[tagids[i - 1]][tag]
+						sqlStatement = "INSERT INTO producttag (productid, tagid) VALUES ({productid}, {tagid})".format(
+							productid=sql.Literal(newid), tagid=sql.Literal(tagvalue))
+						sqlcommands.append(sqlStatement)
+						if not data["dryrun"]:
+							cursor.execute(sqlStatement)
+			if data['dryrun']:
 				outputhtml = sqlcommands
-			else :
+			else:
 				conn.commit()
 				outputhtml = 'Successful'
-		elif data["type"] == "newGroup" :
-			sql = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES({name}, {description}, {imageFilename}, {imageFolder}, {spreadsheet})".format(
-				name=conn.literal(data["name"]),
-				description=conn.literal(data["description"]),
-				imageFolder=conn.literal(data["imageFolder"]),
-				imageFilename=conn.literal(data["imageFilename"]),
-				spreadsheet=conn.literal(data["spreadsheet"]))
-			sqlcommands.append(sql)
-			if (not data["dryrun"]) :
-				cursor.execute(sql)
+		elif data["type"] == "newGroup":
+			sqlStatement = "INSERT INTO groups (value, description, image, pathname, spreadsheet) VALUES({name}, {description}, {imageFilename}, {imageFolder}, {spreadsheet})".format(
+				name=sql.literal(data["name"]),
+				description=sql.literal(data["description"]),
+				imageFolder=sql.literal(data["imageFolder"]),
+				imageFilename=sql.literal(data["imageFilename"]),
+				spreadsheet=sql.literal(data["spreadsheet"]))
+			sqlcommands.append(sqlStatement)
+			if not data["dryrun"]:
+				cursor.execute(sqlStatement)
 				newid = cursor.lastrowid
-			else :
+			else:
 				newid = "123"
-			
+
 			categories = re.split(" ?\t ?", data["categories"])
-			for index, category in enumerate(categories) :
-				sql = "INSERT INTO categories (groupid, value, priority) VALUES(%s, %s, %s)" % (conn.literal(newid), conn.literal(category), index+1)
-				sqlcommands.append(sql)
-				if (not data["dryrun"]) :
-					cursor.execute(sql)
-			if (data['dryrun']) :
+			for index, category in enumerate(categories):
+				sqlStatement = "INSERT INTO categories (groupid, value, priority) VALUES({groupid}, {value}, {priority})".format(
+					groupid=sql.Literal(newid), value=sql.Literal(category), priority=index + 1)
+				sqlcommands.append(sqlStatement)
+				if not data["dryrun"]:
+					cursor.execute(sqlStatement)
+			if data['dryrun']:
 				outputhtml = sqlcommands
-			else :
+			else:
 				conn.commit()
 				outputhtml = 'Successful'
-		elif data["type"] == "editGroup" :
-			sql = "UPDATE groups SET value = {name}, description = {description}, image = {imageFilename}, pathname = {imageFolder}, spreadsheet = {spreadsheet} WHERE groupid = {groupid}".format(
-				name=conn.literal(data["name"]), 
-				description=conn.literal(data["description"]), 
-				imageFolder=conn.literal(data["imageFolder"]), 
-				imageFilename=conn.literal(data["imageFilename"]), 
-				spreadsheet=conn.literal(data["spreadsheet"]), 
-				groupid=conn.literal(data["groupid"]))
-			sqlcommands.append(sql)
+		elif data["type"] == "editGroup":
+			sqlStatement = "UPDATE groups SET value = {name}, description = {description}, image = {imageFilename}, pathname = {imageFolder}, spreadsheet = {spreadsheet} WHERE groupid = {groupid}".format(
+				name=sql.literal(data["name"]),
+				description=sql.literal(data["description"]),
+				imageFolder=sql.literal(data["imageFolder"]),
+				imageFilename=sql.literal(data["imageFilename"]),
+				spreadsheet=sql.literal(data["spreadsheet"]),
+				groupid=sql.literal(data["groupid"]))
+			sqlcommands.append(sqlStatement)
 			conn.commit()
-			if (data['dryrun'] == False) :
-				cursor.execute(sql)
+			if not data['dryrun']:
+				cursor.execute(sqlStatement)
 				conn.commit()
 				outputhtml = "Successful"
-			else :
+			else:
 				outputhtml = sqlcommands
 
 	print("Content-type: text/html\n\n")
 	print(outputhtml)
 	conn.close()
 
-except Exception :
+except Exception:
 	print("Content-type: text/html\n\n")
 	print("<pre>%s</pre>" % traceback.format_exc())

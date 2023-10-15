@@ -11,13 +11,15 @@ import json
 sys.path.append("../../")
 import config
 
-def errorOccurred(message) :
+
+def errorOccurred(message):
 	print("Content-type: text/html\n\n")
 	print("<h2>An error occured</h2>")
 	print("<p>%s</p>" % message)
 	sys.exit(1)
 
-try :
+
+try:
 	cgitb.enable()
 	form = cgi.FieldStorage()
 
@@ -27,11 +29,11 @@ try :
 	tags = form.getvalue("categories")
 
 	stringlist = re.compile("^[0-9,]+$")
-	if categories is None or tags is None or not stringlist.match(categories) or not stringlist.match(tags) :
+	if categories is None or tags is None or not stringlist.match(categories) or not stringlist.match(tags):
 		categories = None
 		tags = None
 
-	#create database connection
+	# create database connection
 	try:
 		conn = mdb.connect(host=config.sqlh, db=config.sqld, passwd=config.sqlp, user=config.sqlu)
 		cursor = conn.cursor(mdb.cursors.DictCursor)
@@ -40,25 +42,25 @@ try :
 
 	data = {}
 
-	if type == "product" :
-		if product is None or not re.compile("^(3d/)?[a-z\-]+").match(product) :
+	if type == "product":
+		if product is None or not re.compile("^(3d/)?[a-z\-]+").match(product):
 			product = None
 			errorOccurred("Product was not defined")
 
 		productId = None
 		cursor.execute("SELECT * FROM groups WHERE pathname=%(product)s", {'product': product})
-		if cursor.rowcount == 1 :
+		if cursor.rowcount == 1:
 			productRow = cursor.fetchone()
-			if not productRow["groupid"] :
+			if not productRow["groupid"]:
 				errorOccurred("Product does not exist")
 			productId = productRow["groupid"]
-		else :
+		else:
 			errorOccurred("Product does not exist")
 
 		sql = "SET @@group_concat_max_len = 2048"
 		cursor.execute(sql)
 
-		if tags is None or categories is None :
+		if tags is None or categories is None:
 			cursor.execute("""\
 				SELECT prodtable.productid, prodtable.name, prodtable.image, 
 					group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, 
@@ -88,7 +90,7 @@ try :
 				GROUP BY productid
 				ORDER BY prodtable.name
 			""", {'productid': productId})
-		else :
+		else:
 			cursor.execute("""\
 				SELECT prodtable.productid, prodtable.name, prodtable.image, group_concat(prodtable.value ORDER BY prodtable.priority SEPARATOR '||') AS categories, group_concat(prodtable.tagvalue ORDER BY prodtable.priority SEPARATOR '||') AS tags, linklist.vendors, linklist.links
 				FROM (
@@ -117,12 +119,14 @@ try :
 
 		productRows = cursor.fetchall()
 
-		cursor.execute("SELECT categoryid, value FROM categories WHERE groupid=%(productid)s ORDER BY priority", {'productid': productId})
+		cursor.execute("SELECT categoryid, value FROM categories WHERE groupid=%(productid)s ORDER BY priority",
+					   {'productid': productId})
 		categoryRows = cursor.fetchall()
 
 		categories = []
-		for row in categoryRows :
-			cursor.execute("SELECT tagid, value FROM tags WHERE categoryid = %(catid)s ORDER BY value*1, value", {'catid': row["categoryid"]})
+		for row in categoryRows:
+			cursor.execute("SELECT tagid, value FROM tags WHERE categoryid = %(catid)s ORDER BY value*1, value",
+						   {'catid': row["categoryid"]})
 			tagRows = cursor.fetchall()
 			categories.append({
 				"categoryid": row["categoryid"],
@@ -140,7 +144,7 @@ try :
 			"categories": categories,
 			"products": productRows
 		}
-	elif type == "groups" :
+	elif type == "groups":
 		sql = """\
 			SELECT groups.groupid, groups.value, groups.pathname, groups.description, groups.image, groups.spreadsheet, 
 				group_concat(categories.value ORDER BY categories.value SEPARATOR ' || ') AS categories
@@ -158,6 +162,6 @@ try :
 	print("Content-Type: application/json\n\n")
 	print(json.dumps(data))
 
-except Exception :
+except Exception:
 	print("Content-type: text/html\n\n")
 	print("<pre>%s</pre>" % traceback.format_exc())
