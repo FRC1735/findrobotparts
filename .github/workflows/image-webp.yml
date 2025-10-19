@@ -1,5 +1,8 @@
 name: Convert new/modified images to 400px webp
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
