@@ -1,0 +1,96 @@
+name: Convert new/modified images to 400px webp
+
+on:
+  push:
+    paths:
+      - 'images/**'
+  pull_request:
+    paths:
+      - 'images/**'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout full history (needed for git diff)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Work out diff range
+        id: diff
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "base=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_OUTPUT"
+            echo "head=${{ github.event.pull_request.head.sha }}" >> "$GITHUB_OUTPUT"
+          else
+            BEFORE="${{ github.event.before }}"
+            # Handle new branches where BEFORE can be all zeros
+            if [[ -z "$BEFORE" || "$BEFORE" == "0000000000000000000000000000000000000000" ]]; then
+              BEFORE=$(git rev-list --max-parents=0 HEAD)
+            fi
+            echo "base=$BEFORE" >> "$GITHUB_OUTPUT"
+            echo "head=${{ github.sha }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: List added/modified images under /images
+        id: files
+        shell: bash
+        run: |
+          set -eo pipefail
+          # A = Added, M = Modified, R = Renamed, C = Copied
+          CHANGED=$(git diff --name-only --diff-filter=AMRC \
+            "${{ steps.diff.outputs.base }}" "${{ steps.diff.outputs.head }}" -- \
+            'images/**/*.*' | grep -Ei '\.(jpe?g|png|gif|tiff?|bmp|webp)$' || true)
+
+          {
+            echo "list<<EOF"
+            echo "$CHANGED"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Install ImageMagick
+        shell: bash
+        run: |
+          if ! command -v magick >/dev/null 2>&1 && ! command -v convert >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y imagemagick
+          fi
+          # Print version for debugging
+          (magick -version || convert -version) || true
+
+      - name: Convert to 400px-wide .webp in /www/images (overwrite if exists)
+        if: ${{ steps.files.outputs.list != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          convert_one () {
+            src="$1"
+            rel="${src#images/}"
+            dest="www/images/${rel%.*}.webp"
+            mkdir -p "$(dirname "$dest")"
+
+            if command -v magick >/dev/null 2>&1; then
+              magick "$src[0]" -strip -resize 400x -quality 80 "$dest"
+            else
+              convert "$src[0]" -strip -resize 400x -quality 80 "$dest"
+            fi
+
+            echo "Wrote: $dest"
+          }
+
+          # Process each changed file (added/modified/renamed/copied) and always overwrite the derivative
+          while IFS= read -r f; do
+            [[ -z "$f" ]] && continue
+            convert_one "$f"
+          done <<< "${{ steps.files.outputs.list }}"
+
+      - name: Commit generated files back to the branch
+        # On forked PRs this step may not have permission; then it will no-op.
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(images): update 400px webp derivatives for changed images'
+          file_pattern: 'www/images/**/*.webp'
