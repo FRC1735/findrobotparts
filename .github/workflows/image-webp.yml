@@ -91,9 +91,20 @@ jobs:
             convert_one "$f"
           done <<< "${{ steps.files.outputs.list }}"
 
+      - name: Debug git state
+        run: |
+          pwd
+          ls -la www/images || true
+          echo
+          echo "Untracked under www/images:"
+          git ls-files -o -- www/images || true
+          echo
+          echo "Git status:"
+          git status --porcelain
+          
       - name: Commit generated files back to the branch
         # On forked PRs this step may not have permission; then it will no-op.
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(images): update 400px webp derivatives for changed images'
-          file_pattern: 'www/images/**/*.webp'
+          file_pattern: 'www/images'
