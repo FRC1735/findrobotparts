@@ -1,0 +1,622 @@
+{
+	"title": "Wheels",
+	"pathname": "wheels",
+	"description": "<p>Wheels can be used for much more than just a driveline. They can be used for collectors, shooters, and much more. While choosing a wheel make sure that it is able to support the weight you are looking to apply.</p>",
+	"image_slug": "wheel",
+	"filter_groups": ["Style", "Diameter (inch)", "Width (inch)", "Tread", "Hub"],
+	"products": [
+		{
+			"name": "60mm Mecanum",
+			"image": "/images/wheels/60mm-mecanum.jpg",
+			"filters": {
+				"Style": ["Mecanum"],
+				"Diameter (inch)": ["2.36"],
+				"Width (inch)": ["1.26"],
+				"Tread": ["Smooth"],
+				"Hub": ["12mm", "23mm Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "Robot Shop", "link": "http://www.robotshop.com/en/60mm-mecanum-wheel-set-2x-left-2x-right.html" }
+			]
+		}, {
+			"name": "60mm Omni",
+			"image": "/images/wheels/60mm-omni.jpg",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["2.36"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["12mm", "21mm Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "Robot Shop", "link": "http://www.robotshop.com/en/60mm-aluminum-omni-wheel.html" }
+			]
+		}, {
+			"name": "AM Pneumatic",
+			"image": "/images/wheels/am-pneumatic.jpg",
+			"filters": {
+				"Style": ["Pneumatic"],
+				"Diameter (inch)": ["6", "8"],
+				"Width (inch)": ["1.39", "2"],
+				"Tread": ["Ribbed", "Rough"],
+				"Hub": ["0.5\" Hex", "1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/pneumatic-wheels" }
+			]
+		}, {
+			"name": "Brass Wheel",
+			"image": "/images/wheels/brass.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["4"],
+				"Width (inch)": ["0.75"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/collections/flywheels/products/4-inch-brass-flywheel" }
+			]
+		}, {
+			"name": "Colson",
+			"image": "/images/wheels/colson-performa.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["3", "4", "5", "6"],
+				"Width (inch)": ["0.875", "1.5", "2"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/colson-wheels" }
+			]
+		}, {
+			"name": "Compliant",
+			"image": "/images/wheels/compliant.jpg",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["2", "2.25", "3", "4"],
+				"Width (inch)": ["0.5", "1"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.375\" Hex", "0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/compliant-intake/products/compliant-wheels" }
+			]
+		}, {
+			"name": "Compliant Stars",
+			"image": "/images/wheels/am-stars.jpeg",
+			"filters": {
+				"Style": ["Paddle"],
+				"Diameter (inch)": ["5"],
+				"Width (inch)": ["0.4"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex", "0.375\" Hex"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/compliant-stars" }
+			]
+		}, {
+			"name": "Dual Plastic Omni",
+			"image": "/images/wheels/dual-plastic-omni.jpg",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["8"],
+				"Width (inch)": ["2"],
+				"Tread": ["Smooth"],
+				"Hub": ["1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/8-in-dualie-plastic-omni-wheel" }
+			]
+		}, {
+			"name": "DuraOmni",
+			"image": "/images/wheels/duraomni.jpg",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["4", "6"],
+				"Width (inch)": ["2"],
+				"Tread": ["Smooth"],
+				"Hub": ["1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/duraomni-wheel" }
+			]
+		}, {
+			"name": "DuraSoft",
+			"image": "/images/wheels/durasoft.jpg",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["2.5", "4"],
+				"Width (inch)": ["0.9", "1.9"],
+				"Tread": ["Smooth"],
+				"Hub": ["1.125\"", "1.25\""]
+			},
+			"links": [
+				{ "vendor": "Fixtureworks", "link": "https://www.fixtureworks.com/store/pc/durasoft-no-crush-rollers-c6005.htm" },
+				{ "vendor": "Wixroyd", "link": "https://www.wixroyd.com/wx/products/design-elements/anti-vibration-shock-absorbers-rollers/rollers-bumpers/durasoft-rollers/60640/groups/g+m+c+s+a+view" }
+			]
+		}, {
+			"name": "Flap Wheels",
+			"image": "/images/wheels/rev-flapwheel.webp",
+			"filters": {
+				"Style": ["Paddle"],
+				"Diameter (inch)": ["4"],
+				"Width (inch)": ["0.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ion-flap-wheels/" }
+			]
+		}, {
+			"name": "Flex Wheel",
+			"image": "/images/wheels/wcp-flex.jpg",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["1.625", "2"],
+				"Width (inch)": ["0.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/straight-flex-wheels" }
+			]
+		}, {
+			"name": "Flex Wheel",
+			"image": "/images/wheels/flexwheel-1.jpg",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["3", "4"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["1.125\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/straight-flex-wheels" }
+			]
+		}, {
+			"name": "HiGrip",
+			"image": "/images/wheels/higrip.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["4", "6"],
+				"Width (inch)": ["1"],
+				"Tread": ["Rough"],
+				"Hub": ["1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/higrip-wheels" }
+			]
+		}, {
+			"name": "Mecanum",
+			"image": "/images/wheels/mecanum.jpg",
+			"filters": {
+				"Style": ["Mecanum"],
+				"Diameter (inch)": ["2", "4", "6", "8"],
+				"Width (inch)": ["2.2"],
+				"Tread": ["Smooth"],
+				"Hub": ["1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/mecanum-wheels.html" }
+			]
+		}, {
+			"name": "Dualie Omni",
+			"image": "/images/wheels/am-omni.jpg",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["2"],
+				"Width (inch)": ["1.083"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.375\" Hex", "0.5\" Hex", "14mm Hex"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/omni-wheels/products/2-in-dualie-omni-wheel" }
+			]
+		}, {
+			"name": "Omni-Directional",
+			"image": "/images/wheels/omni-directional.png",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["3.25", "4", "6", "8"],
+				"Width (inch)": ["1.3", "1.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/omni-wheels.html" }
+			]
+		}, {
+			"name": "Performance",
+			"image": "/images/wheels/performance.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["4", "6"],
+				"Width (inch)": ["1", "1.5"],
+				"Tread": ["Pebble", "Rough", "Wedge"],
+				"Hub": ["0.5\" Hex", "1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/performance-wheels/products/performance-wheels" }
+			]
+		}, {
+			"name": "Plaction",
+			"image": "/images/wheels/plaction.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["4", "6", "8"],
+				"Width (inch)": ["1"],
+				"Tread": ["Rough", "Wedge"],
+				"Hub": ["1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/plaction-wheels" }
+			]
+		}, {
+			"name": "Pneumatic Wheel with Pulley",
+			"image": "/images/wheels/ab-pneu-pulley.png",
+			"filters": {
+				"Style": ["Pneumatic"],
+				"Diameter (inch)": ["7.5"],
+				"Width (inch)": [],
+				"Tread": ["Wedge"],
+				"Hub": ["10mm"]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/pneumatic-wheel-with-pulley" }
+			]
+		}, {
+			"name": "ION Compliant Wheel Hex",
+			"image": "/images/wheels/rev-compliant.png",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["2"],
+				"Width (inch)": ["0.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Compliant-Wheels/" }
+			]
+		}, {
+			"name": "ION Compliant Wheels MAXSpline",
+			"image": "/images/wheels/rev-ion-compliant.webp",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["3", "4"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["MAXSpline"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Compliant-Wheels/" }
+			]
+		}, {
+			"name": "ION Grip Wheel Hex",
+			"image": "/images/wheels/rev-grip.png",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["1", "2"],
+				"Width (inch)": ["0.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Grip-Wheels/" }
+			]
+		}, {
+			"name": "ION Grip Wheel MAXSpline",
+			"image": "/images/wheels/rev-grip-maxspline.webp",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["3", "4", "5", "6"],
+				"Width (inch)": ["1.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["MAXSpline"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Grip-Wheels/" }
+			]
+		}, {
+			"name": "ION Grip Wheel MAXSpline",
+			"image": "/images/wheels/rev-grip-maxspline.webp",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["2"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["MAXSpline"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Grip-Wheels/" }
+			]
+		}, {
+			"name": "ION Omni Wheels MAXSpline",
+			"image": "/images/wheels/rev-omni.webp",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["3", "4", "5", "6"],
+				"Width (inch)": ["1.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["MAXSpline"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Omni-Wheels/" }
+			]
+		}, {
+			"name": "ION Omni Wheels Hex",
+			"image": "/images/wheels/rev-omni.webp",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["2"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Omni-Wheels/" }
+			]
+		}, {
+			"name": "ION Traction Wheels 1.5\" Wide",
+			"image": "/images/wheels/rev-traction.png",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["3", "4", "5", "6"],
+				"Width (inch)": ["1.5"],
+				"Tread": ["Rough"],
+				"Hub": ["MAXSpline"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Traction-Wheels/" }
+			]
+		}, {
+			"name": "ION Traction Wheels 1\" Wide",
+			"image": "/images/wheels/rev-traction.png",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["2"],
+				"Width (inch)": ["1"],
+				"Tread": ["Rough"],
+				"Hub": ["MAXSpline"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Traction-Wheels/" }
+			]
+		}, {
+			"name": "Rotacaster 125mm",
+			"image": "/images/wheels/rotacaster125.jpg",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["4.9"],
+				"Width (inch)": ["1.7", "2.44", "3.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["19mm Hex"]
+			},
+			"links": [
+				{ "vendor": "Omnia", "link": "https://www.rotacaster.com.au/shop-product/127mm-omni-wheels/127mm-omni-wheel" }
+			]
+		}, {
+			"name": "Rotacaster 35mm",
+			"image": "/images/wheels/rotacaster35.jpg",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["1.37"],
+				"Width (inch)": ["0.75"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.125\" Square", "4.8mm", "6mm", "8mm", "8.2mm"]
+			},
+			"links": [
+				{ "vendor": "Omnia", "link": "https://www.rotacaster.com.au/shop/35mm-omni-wheels/index" }
+			]
+		}, {
+			"name": "Single Plastic Omni",
+			"image": "/images/wheels/single-plastic-omni.jpg",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["8"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["1.125\"", "1.875\" Bolt Circle"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/8-in-plastic-omni-wheel" }
+			]
+		}, {
+			"name": "Skate - Multidirectional",
+			"image": "/images/wheels/skate-multidirectional.png",
+			"filters": {
+				"Style": ["Omni"],
+				"Diameter (inch)": ["1.9", "2", "2.34", "3.156"],
+				"Width (inch)": ["1.3125", "1.5", "2", "2.375"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.3125\""]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/skate-rollers/multidirectional-skate-wheels-5/" }
+			]
+		}, {
+			"name": "Skate - Nylon",
+			"image": "/images/wheels/skate-nylon.png",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["1.9", "2"],
+				"Width (inch)": ["0.625"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.25\""]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/skate-rollers/skate-wheels-5/" }
+			]
+		}, {
+			"name": "Skate - Polyurethane on Steel",
+			"image": "/images/wheels/skate-poly.png",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["2.25"],
+				"Width (inch)": ["0.5625"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.3125\""]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/skate-rollers/skate-wheels-5/" }
+			]
+		}, {
+			"name": "Skate - Rubber on Steel",
+			"image": "/images/wheels/skate-poly.png",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["2.0625"],
+				"Width (inch)": ["0.75"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.25\""]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/skate-rollers/skate-wheels-5/" }
+			]
+		}, {
+			"name": "Stealth",
+			"image": "/images/wheels/stealth.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["2", "3", "4"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.375\" Hex", "0.5\" Hex", "5mm Hex"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/stealth-and-sushi-wheels" }
+			]
+		}, {
+			"name": "Sushi Roller Intake",
+			"image": "/images/wheels/sushi-roller.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["1"],
+				"Width (inch)": ["1"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex", "0.375\" Hex", "5mm Hex"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/stealth-and-sushi-wheels" }
+			]
+		}, {
+			"name": "Swerve Aluminum Billet Wheel",
+			"image": "/images/wheels/ttb-billet.webp",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["3"],
+				"Width (inch)": ["1"],
+				"Tread": ["Rough", "Smooth"],
+				"Hub": ["1.125\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/3-swerve-aluminum-billet-wheel" }
+			]
+		}, {
+			"name": "T40",
+			"image": "/images/wheels/t40.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["1.375", "1.635", "1.875", "2.375", "2.785"],
+				"Width (inch)": ["0.4"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex", "3mm", "4mm", "6mm"]
+			},
+			"links": [
+				{ "vendor": "BaneBots", "link": "https://banebots.com/wheels/t40-wheels-hubs/t40-wheels/" }
+			]
+		}, {
+			"name": "T81",
+			"image": "/images/wheels/t80.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["2.875", "3.875", "4.875"],
+				"Width (inch)": ["0.8"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.125\"", "0.1875\"", "0.25\"", "0.3125\"", "0.375\"", "0.375\" Hex", "0.4375\"", "0.5\"", "0.5\" Hex", "3mm", "4mm", "5mm", "6mm", "7mm", "8mm", "9mm", "10mm", "11mm"]
+			},
+			"links": [
+				{ "vendor": "BaneBots", "link": "https://banebots.com/wheels/t81-wheels-hubs/t81-wheels/" }
+			]
+		}, {
+			"name": "T81 Compliant",
+			"image": "/images/wheels/t81-compliant.jpg",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["3", "4"],
+				"Width (inch)": ["0.8"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.125\"", "0.1875\"", "0.25\"", "0.3125\"", "0.375\"", "0.375\" Hex", "0.4375\"", "0.5\"", "0.5\" Hex", "3mm", "4mm", "5mm", "6mm", "7mm", "8mm", "9mm", "10mm", "11mm"]
+			},
+			"links": [
+				{ "vendor": "BaneBots", "link": "https://banebots.com/wheels/t81-wheels-hubs/t81-wheels/" }
+			]
+		}, {
+			"name": "Thrifty Squish Wheels",
+			"image": "/images/wheels/squish.jpg",
+			"filters": {
+				"Style": ["Conformable"],
+				"Diameter (inch)": ["2", "3", "4"],
+				"Width (inch)": ["0.5"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/collections/wheels-tread" }
+			]
+		}, {
+			"name": "Vectored Intake Wheel",
+			"image": "/images/wheels/thrifty-intake.jpg",
+			"filters": {
+				"Style": ["Mecanum"],
+				"Diameter (inch)": ["2"],
+				"Width (inch)": ["0.875\""],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex", "0.375\" Hex", "5mm Hex", "7mm Hex"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "hhttps://www.thethriftybot.com/products/qty-4-2-inch-vectored-intake-wheel" }
+			]
+		}, {
+			"name": "Vectored Intake Wheel",
+			"image": "/images/wheels/am-vectored-intake.jpg",
+			"filters": {
+				"Style": ["Mecanum"],
+				"Diameter (inch)": ["2.25"],
+				"Width (inch)": ["1.75"],
+				"Tread": ["Smooth"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/2-25-in-hd-mecanum-vectored-intake-wheel" }
+			]
+		}, {
+			"name": "WCP Aluminum Wheel",
+			"image": "/images/wheels/wcp-aluminum.jpg",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["3.25", "4", "6"],
+				"Width (inch)": ["1.5"],
+				"Tread": ["None", "Rough", "Wedge"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/aluminum-wheels" }
+			]
+		}, {
+			"name": "WCP Pneumatic",
+			"image": "/images/wheels/wcp-pneumatic.jpg",
+			"filters": {
+				"Style": ["Pneumatic"],
+				"Diameter (inch)": ["6", "8"],
+				"Width (inch)": ["2"],
+				"Tread": ["Rough", "Wedge"],
+				"Hub": ["0.5\" Hex"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatic-wheels" }
+			]
+		}
+	]
+}

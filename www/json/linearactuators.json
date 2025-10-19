@@ -1,0 +1,157 @@
+{
+	"title": "Linear Actuators",
+	"pathname": "linearactuators",
+	"description": "<p>Linear actuators can be used in place of pneumatic pistons with the added benefit of being able to stop at multiple places.</p>",
+	"image_slug": "linearactuator",
+	"filter_groups": ["Input", "Travel (in)", "No Load Speed (in/s)", "Max Force (N)", "Closed Length (in)"],
+	"products": [
+		{
+			"name": "DART, 12\"",
+			"image": "/images/linearactuators/dart-12.jpg",
+			"filters": {
+				"Input": ["CIM", "Mini CIM"],
+				"Travel (in)": ["12"],
+				"No Load Speed (in/s)": ["5.3", "6.67", "13.3"],
+				"Max Force (N)": ["363", "727", "907"],
+				"Closed Length (in)": ["17.8"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/dart-12-in-actuator-kit" }
+			]
+		}, {
+			"name": "DART, 6\"",
+			"image": "/images/linearactuators/dart-6.jpg",
+			"filters": {
+				"Input": ["CIM", "Mini CIM"],
+				"Travel (in)": ["6"],
+				"No Load Speed (in/s)": ["5.3", "6.67", "13.3"],
+				"Max Force (N)": ["363", "727", "907"],
+				"Closed Length (in)": ["11.8"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/dart-6-in-actuator-kit" }
+			]
+		}, {
+			"name": "L16-R, 100mm, 150:1",
+			"image": "/images/linearactuators/l16r-100.webp",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["3.9"],
+				"No Load Speed (in/s)": ["0.31"],
+				"Max Force (N)": ["200"],
+				"Closed Length (in)": ["6.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 100mm, 35:1",
+			"image": "/images/linearactuators/l16r-100.webp",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["3.9"],
+				"No Load Speed (in/s)": ["1.26"],
+				"Max Force (N)": ["50"],
+				"Closed Length (in)": ["6.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 100mm, 63:1",
+			"image": "/images/linearactuators/l16r-100.webp",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["3.9"],
+				"No Load Speed (in/s)": ["0.79"],
+				"Max Force (N)": ["100"],
+				"Closed Length (in)": ["6.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 140mm, 150:1",
+			"image": "/images/linearactuators/l16r-140.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["5.5"],
+				"No Load Speed (in/s)": ["0.31"],
+				"Max Force (N)": ["200"],
+				"Closed Length (in)": ["8.6"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-140mm-stroke-150-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 140mm, 35:1",
+			"image": "/images/linearactuators/l16r-140.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["5.5"],
+				"No Load Speed (in/s)": ["1.26"],
+				"Max Force (N)": ["50"],
+				"Closed Length (in)": ["8.6"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-140mm-stroke-35-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 140mm, 63:1",
+			"image": "/images/linearactuators/l16r-140.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["5.5"],
+				"No Load Speed (in/s)": ["0.79"],
+				"Max Force (N)": ["100"],
+				"Closed Length (in)": ["8.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 50mm, 150:1",
+			"image": "/images/linearactuators/l16r-50.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["1.97"],
+				"No Load Speed (in/s)": ["0.31"],
+				"Max Force (N)": ["200"],
+				"Closed Length (in)": ["4.7"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-50mm-stroke-150-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 50mm, 35:1",
+			"image": "/images/linearactuators/l16r-50.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["1.97"],
+				"No Load Speed (in/s)": ["1.26"],
+				"Max Force (N)": ["50"],
+				"Closed Length (in)": ["4.7"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-50mm-stroke-35-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 50mm, 63:1",
+			"image": "/images/linearactuators/l16r-50.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["1.97"],
+				"No Load Speed (in/s)": ["0.79"],
+				"Max Force (N)": ["100"],
+				"Closed Length (in)": ["4.7"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}
+	]
+}

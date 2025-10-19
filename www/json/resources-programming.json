@@ -1,0 +1,610 @@
+{
+	"title": "Programming Resources",
+	"pathname": "resources-programming",
+	"description": "<p>You can program your robots using all sorts of languages and tools. They can help you with your algorithms or simplify your programs.</p>",
+	"image_slug": "resources-programming",
+	"filter_groups": ["Type", "Official", "Written In", "Robot Language"],
+	"products": [
+		{
+			"name": "barebonesFRC",
+			"image": "/images/resources-software/barbonesfrc.jpg",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["C++"],
+				"Robot Language": ["C++"]
+			},
+			"links": [
+				{ "vendor": "Evan Pratten", "link": "https://github.com/Ewpratten/barebonesFRC" }
+			]
+		}, {
+			"name": "BobTrajectory",
+			"image": "/images/resources-software/team319.png",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Team319", "link": "https://github.com/Team319/BobTrajectory" }
+			]
+		}, {
+			"name": "Chicken Vision",
+			"image": "/images/resources-software/team3997.png",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "Screaming Chickens", "link": "https://github.com/team3997/ChickenVision" }
+			]
+		}, {
+			"name": "FlashLib",
+			"image": "/images/resources-software/flashlib.jpg",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Flash3388", "link": "https://github.com/Flash3388/FlashLib" }
+			]
+		}, {
+			"name": "FRC-Dozer",
+			"image": "/images/resources-software/github.png",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "FRC-Dozer", "link": "https://github.com/FRC-Dozer/Dozer" }
+			]
+		}, {
+			"name": "FRC-Extension (Visual Studio)",
+			"image": "/images/resources-software/github.png",
+			"filters": {
+				"Type": ["Extension"],
+				"Official": ["No"],
+				"Written In": ["C#"],
+				"Robot Language": ["C#"]
+			},
+			"links": [
+				{ "vendor": "RobotDotNet", "link": "https://github.com/robotdotnet/FRC-Extension" }
+			]
+		}, {
+			"name": "FRCDashboard",
+			"image": "/images/resources-software/frcdashboard.png",
+			"filters": {
+				"Type": ["Dashboard"],
+				"Official": ["No"],
+				"Written In": ["CSS", "HTML", "JS"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "FRCDashboard", "link": "http://frcdashboard.github.io/" }
+			]
+		}, {
+			"name": "FRCGopher",
+			"image": "/images/resources-software/openfrc.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["No"],
+				"Written In": ["Go"],
+				"Robot Language": ["Go"]
+			},
+			"links": [
+				{ "vendor": "OpenFRC Initiative", "link": "https://github.com/OpenFRC/FRCGopher" }
+			]
+		}, {
+			"name": "FRCRedox",
+			"image": "/images/resources-software/openfrc.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["No"],
+				"Written In": ["Rust"],
+				"Robot Language": ["Rust"]
+			},
+			"links": [
+				{ "vendor": "OpenFRC Initiative", "link": "https://github.com/OpenFRC/FRCRedox" }
+			]
+		}, {
+			"name": "GradleRIO",
+			"image": "/images/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Build Management System"],
+				"Official": ["Yes"],
+				"Written In": ["C++", "Java"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/GradleRIO" }
+			]
+		}, {
+			"name": "GRIP",
+			"image": "/images/resources-software/grip.png",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["C++", "Java", "Python"]
+			},
+			"links": [
+				{ "vendor": "WPIRoboticsProjects", "link": "http://wpiroboticsprojects.github.io/GRIP/" }
+			]
+		}, {
+			"name": "GRIP Smartdashboard",
+			"image": "/images/resources-software/grip.png",
+			"filters": {
+				"Type": ["Dashboard Plugin", "Vision"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "WPIRoboticsProjects", "link": "https://github.com/WPIRoboticsProjects/GRIP-SmartDashboard" }
+			]
+		}, {
+			"name": "Limelight Library",
+			"image": "/images/resources-software/granitecitygearheads3244.png",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "GraniteCiyGearheads3244", "link": "https://github.com/GraniteCiyGearheads3244/LimeLight_Library_Example" }
+			]
+		}, {
+			"name": "MP Generator",
+			"image": "/images/resources-software/mpgenerator.png",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "FRC Team 401", "link": "https://github.com/team401/MP-Generator" }
+			]
+		}, {
+			"name": "navx-rs",
+			"image": "/images/resources-software/navx-rs.png",
+			"filters": {
+				"Type": ["Senors"],
+				"Official": ["No"],
+				"Written In": ["Rust"],
+				"Robot Language": ["Rust"]
+			},
+			"links": [
+				{ "vendor": "Eaglestrike", "link": "https://github.com/Eaglestrike/navx-rs" }
+			]
+		}, {
+			"name": "NerdyVision",
+			"image": "/images/resources-software/nerdyvision.png",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Ted Lin", "link": "https://github.com/tedklin/NerdyVision" }
+			]
+		}, {
+			"name": "NetworkTables",
+			"image": "/images/resources-software/github.png",
+			"filters": {
+				"Type": ["Network Tables"],
+				"Official": ["No"],
+				"Written In": ["C#"],
+				"Robot Language": ["C#"]
+			},
+			"links": [
+				{ "vendor": "RobotDotNet", "link": "https://github.com/robotdotnet/NetworkTables" }
+			]
+		}, {
+			"name": "NetworkTablesRedox",
+			"image": "/images/resources-software/openfrc.png",
+			"filters": {
+				"Type": ["Network Tables"],
+				"Official": ["No"],
+				"Written In": ["Rust"],
+				"Robot Language": ["Rust"]
+			},
+			"links": [
+				{ "vendor": "OpenFRC Initiative", "link": "https://github.com/OpenFRC/NetworkTablesRedox" }
+			]
+		}, {
+			"name": "ntgo",
+			"image": "/images/resources-software/ntgo.jpg",
+			"filters": {
+				"Type": ["Network Tables"],
+				"Official": ["No"],
+				"Written In": ["Go"],
+				"Robot Language": ["Go"]
+			},
+			"links": [
+				{ "vendor": "Howard Stark", "link": "https://github.com/HowardStark/ntgo" }
+			]
+		}, {
+			"name": "PathFinder",
+			"image": "/images/resources-software/pathfinder.png",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["No"],
+				"Written In": ["C", "Java", "LabView"],
+				"Robot Language": ["C++", "Java", "LabView"]
+			},
+			"links": [
+				{ "vendor": "Jaci Brunning", "link": "https://github.com/JacisNonsense/Pathfinder" }
+			]
+		}, {
+			"name": "PathFinder V2",
+			"image": "/images/resources-software/pathfinder2.png",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["No"],
+				"Written In": ["C++", "Java"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "GrappleRobotics", "link": "https://github.com/GrappleRobotics/Pathfinder" }
+			]
+		}, {
+			"name": "Pathplanner",
+			"image": "/images/resources-software/pathplanner.jpg",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["C++", "Java", "LabView"]
+			},
+			"links": [
+				{ "vendor": "Jared Tulayan", "link": "https://github.com/Endoman123/motion-profile-generator" }
+			]
+		}, {
+			"name": "PathWeaver",
+			"image": "/images/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/PathWeaver" }
+			]
+		}, {
+			"name": "pi-gen",
+			"image": "/images/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["Yes"],
+				"Written In": ["C++", "Java", "Python"],
+				"Robot Language": ["C++", "Java", "Python"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/FRCVision-pi-gen" }
+			]
+		}, {
+			"name": "Pixy SPI",
+			"image": "/images/resources-software/github.png",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "croadfeldt", "link": "https://github.com/croadfeldt/wpilib_pixy_spi_java" }
+			]
+		}, {
+			"name": "pynetworktables",
+			"image": "/images/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["Network Tables"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/pynetworktables" }
+			]
+		}, {
+			"name": "pynetworktables2js",
+			"image": "/images/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["Network Tables"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["JS"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/pynetworktables2js" }
+			]
+		}, {
+			"name": "pyrobottraining",
+			"image": "/images/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["Training"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/pyrobottraining" }
+			]
+		}, {
+			"name": "QDriverStation",
+			"image": "/images/resources-software/qdriverstation.png",
+			"filters": {
+				"Type": ["Driver Station"],
+				"Official": ["No"],
+				"Written In": ["C++"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "FRC Utilities", "link": "https://frc-utilities.github.io/" }
+			]
+		}, {
+			"name": "RoboEd",
+			"image": "/images/resources-software/roboed.png",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Iowa City Robotics", "link": "https://github.com/icrobotics-team167/RoboED" }
+			]
+		}, {
+			"name": "Robot Vision API",
+			"image": "/images/resources-software/robotvisionapi.jpg",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Kyle Corry", "link": "https://github.com/kylecorry31/Robot-Vision-API" }
+			]
+		}, {
+			"name": "RobotBuilder",
+			"image": "/images/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Code Template GUI"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/RobotBuilder" }
+			]
+		}, {
+			"name": "Robotpy-Rev",
+			"image": "/images/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["Binding"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/robotpy-rev" }
+			]
+		}, {
+			"name": "RobotPy-WPILib",
+			"image": "/images/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/robotpy-wpilib" }
+			]
+		}, {
+			"name": "ROOSTER",
+			"image": "/images/resources-software/rooster.png",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "FRC Team 1540 The Flaming Chickens", "link": "https://github.com/flamingchickens1540/ROOSTER" }
+			]
+		}, {
+			"name": "Sertain",
+			"image": "/images/resources-software/sertain.png",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Kotlin"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Sertain Framework", "link": "https://github.com/sertain/sertain" }
+			]
+		}, {
+			"name": "SharkMacro",
+			"image": "/images/resources-software/sharkmacro.png",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "FIRST FRC 226 Hammerheads", "link": "https://github.com/hammerhead226/SharkMacro" }
+			]
+		}, {
+			"name": "Shuffleboard",
+			"image": "/images/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Dashboard"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/Shuffleboard" }
+			]
+		}, {
+			"name": "SmartDashboard",
+			"image": "/images/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Dashboard"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/SmartDashboard" }
+			]
+		}, {
+			"name": "SmartDashboard.js",
+			"image": "/images/resources-software/smartdashboardjs.png",
+			"filters": {
+				"Type": ["Dashboard"],
+				"Official": ["No"],
+				"Written In": ["CSS", "HTML", "JS"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "Erik Uhlmann", "link": "https://github.com/erikuhlmann/SmartDashboard.js" }
+			]
+		}, {
+			"name": "Snobot Sim",
+			"image": "/images/resources-software/snobotsim.png",
+			"filters": {
+				"Type": ["Simulation"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["C++", "Java", "Python"]
+			},
+			"links": [
+				{ "vendor": "PJ Reiniger", "link": "https://github.com/pjreiniger/SnobotSim" }
+			]
+		}, {
+			"name": "SpikesLib",
+			"image": "/images/resources-software/spikeslib.png",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Spikes #2212", "link": "https://github.com/Spikes-2212-Programming-Guild/SpikesLib" }
+			]
+		}, {
+			"name": "Sprocket",
+			"image": "/images/resources-software/sprocket.jpg",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Montclair Robotics", "link": "https://github.com/MontclairRobotics/Sprocket" }
+			]
+		}, {
+			"name": "Third Coast",
+			"image": "/images/resources-software/thirdcoast.jpg",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Stryke Force FRC 2767", "link": "https://github.com/strykeforce/thirdcoast" }
+			]
+		}, {
+			"name": "WPILib",
+			"image": "/images/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["Yes"],
+				"Written In": ["C++", "Java"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/allwpilib" }
+			]
+		}, {
+			"name": "WPILib C#",
+			"image": "/images/resources-software/github.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["No"],
+				"Written In": ["C#"],
+				"Robot Language": ["C#"]
+			},
+			"links": [
+				{ "vendor": "RobotDotNet", "link": "https://github.com/robotdotnet/WPILib" }
+			]
+		}, {
+			"name": "WPILib for Atom",
+			"image": "/images/resources-software/wpilib-for-atom.jpg",
+			"filters": {
+				"Type": ["Extension"],
+				"Official": ["No"],
+				"Written In": ["JS"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "Elijah Schutz", "link": "https://github.com/eschutz/atom-wpilib" }
+			]
+		}, {
+			"name": "WPILIB Network Tables Client",
+			"image": "/images/resources-software/github.png",
+			"filters": {
+				"Type": ["Network Tables"],
+				"Official": ["No"],
+				"Written In": ["Node.js"],
+				"Robot Language": ["JS"]
+			},
+			"links": [
+				{ "vendor": "Tomas Rakusan", "link": "https://github.com/rakusan2/FRC-NT-Client" }
+			]
+		}, {
+			"name": "wpilib-hal",
+			"image": "/images/resources-software/wpilib-hal.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["No"],
+				"Written In": ["Rust"],
+				"Robot Language": ["Rust"]
+			},
+			"links": [
+				{ "vendor": "Maxwell Duzen", "link": "https://github.com/XavilPergis/wpilib-hal" }
+			]
+		}, {
+			"name": "XBoxController",
+			"image": "/images/resources-software/xboxcontroller.png",
+			"filters": {
+				"Type": ["Class"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Oriole Robotics", "link": "https://github.com/frc2879/XboxController" }
+			]
+		}
+	]
+}

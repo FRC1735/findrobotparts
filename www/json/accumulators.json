@@ -1,0 +1,57 @@
+{
+	"title": "Accumulators",
+	"pathname": "accumulators",
+	"description": "<p>Accumulators can be used to store pressurized air on your robot to be used with cylinders.</p>",
+	"image_slug": "accumulator",
+	"filter_groups": ["Volume", "Diameter", "Length", "Material", "Ports", "Connector", "Working Pressure Rating"],
+	"products": [
+		{
+			"name": "3785 ml Aluminum Air Reservoir",
+			"image": "/images/accumulators/am-gallon.jpeg",
+			"filters": {
+				"Volume": ["3785ml"],
+				"Diameter": ["4\""],
+				"Length": ["16\""],
+				"Material": ["Aluminum"],
+				"Ports": ["3"],
+				"Connector": ["1/4\" NPT female", "3/8\" NPT female"],
+				"Working Pressure Rating": ["170 psi"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3785-ml-aluminum-air-reservoir" }
+			]
+		}, {
+			"name": "Air Tank 590ml with 1/4\" NPT port",
+			"image": "/images/accumulators/am-590.jpg",
+			"filters": {
+				"Volume": ["590ml"],
+				"Diameter": ["2.7\""],
+				"Length": ["12.1\""],
+				"Material": ["Plastic"],
+				"Ports": ["2"],
+				"Connector": ["1/4\" NPT female"],
+				"Working Pressure Rating": ["125 psi"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/air-tank-590-ml-plastic-1-4-in-npt-ports" }
+			]
+		}, {
+			"name": "Clippard Air Tank 574ml with Push Connect Fittings",
+			"image": "/images/accumulators/am-574.jpg",
+			"filters": {
+				"Volume": ["574ml"],
+				"Diameter": ["2.5\""],
+				"Length": ["12.25\""],
+				"Material": ["Plastic"],
+				"Ports": ["2"],
+				"Connector": ["1/4\" Press In"],
+				"Working Pressure Rating": ["125 psi"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/clippard-air-tank-574-ml-plastic-with-push-connect-fittings" },
+				{ "vendor": "Clippard", "link": "http://www.clippard.com/part/AVT-PP-35" },
+				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/clippard-air-tank-574-ml-plastic-with-fittings.html" }
+			]
+		}
+	]
+}

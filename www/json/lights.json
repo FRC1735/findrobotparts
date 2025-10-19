@@ -1,0 +1,153 @@
+{
+	"title": "Lights",
+	"pathname": "lights",
+	"description": "<p>Lights can be used to make an area brighter and easier to find using cameras or other sensors on your robot.</p>",
+	"image_slug": "light",
+	"filter_groups": ["Colors", "Diameter", "Lumens", "Beam Angle", "Voltage"],
+	"products": [
+		{
+			"name": "AndyMark Green Ring Light",
+			"image": "/images/lights/am-ring.jpg",
+			"filters": {
+				"Colors": ["Green", "White"],
+				"Diameter": ["60mm"],
+				"Lumens": ["69", "76"],
+				"Beam Angle": ["n/a"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/lighting" }
+			]
+		}, {
+			"name": "Car Led Headlight 60mm",
+			"image": "/images/lights/amazon-car-light.jpg",
+			"filters": {
+				"Colors": ["Blue", "Green", "Red", "White", "Yellow"],
+				"Diameter": ["60mm"],
+				"Lumens": ["Unknown"],
+				"Beam Angle": ["n/a"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Headlight-18-SMD-Angel-Light-Green/dp/B075R2LKDW/ref=sr_1_7" }
+			]
+		}, {
+			"name": "COB LED Angle Eye Headlinght Accent Lights",
+			"image": "/images/lights/cob.jpg",
+			"filters": {
+				"Colors": ["Amber", "Blue", "Cool White", "Green", "Red"],
+				"Diameter": ["60mm", "70mm", "80mm", "90mm", "100mm", "110mm", "120mm", "140mm", "160mm"],
+				"Lumens": ["25 - 360"],
+				"Beam Angle": ["180"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "Super Bright LEDs", "link": "https://www.superbrightleds.com/led-halo-headlight-accent-lights" }
+			]
+		}, {
+			"name": "LED 3W Light",
+			"image": "/images/lights/sparkfun-3w.jpg",
+			"filters": {
+				"Colors": ["Blue", "Cool White", "Green", "Red", "Warm White"],
+				"Diameter": ["n/a"],
+				"Lumens": ["75 - 240"],
+				"Beam Angle": ["n/a"],
+				"Voltage": ["3"]
+			},
+			"links": [
+				{ "vendor": "sparkfun", "link": "https://www.sparkfun.com/search/results?term=3W+PCB" }
+			]
+		}, {
+			"name": "LED Halo Headlight Accent Lights",
+			"image": "/images/lights/halo-accent-lights.jpg",
+			"filters": {
+				"Colors": ["Amber", "Blue", "Cool White", "Green", "Natural White", "Red", "UV (Blacklight)", "Warm White"],
+				"Diameter": ["60mm", "80mm", "100mm", "120mm"],
+				"Lumens": ["28 - 200"],
+				"Beam Angle": ["120"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "Super Bright LEDs", "link": "https://www.superbrightleds.com/moreinfo/led-accent-lighting/led-angel-eye-headlight-accent-lights/49/" }
+			]
+		}, {
+			"name": "LED Halo Headlight Accent Lights - Black",
+			"image": "/images/lights/halo-accent-lights-black.jpg",
+			"filters": {
+				"Colors": ["Amber", "Blue", "Cool White", "Green", "Natural White", "Red", "UV (Blacklight)", "Warm White"],
+				"Diameter": ["60mm", "80mm"],
+				"Lumens": ["2 - 240"],
+				"Beam Angle": ["120"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "Super Bright LEDs", "link": "https://www.superbrightleds.com/moreinfo/led-headlight-accent-lights/led-angel-eye-headlight-accent-lights-black-circuit-board/1117/" }
+			]
+		}, {
+			"name": "LED Halo Headlight Accent Lights with T3-1/4 Adapter",
+			"image": "/images/lights/halo-accent-lights-t4.jpg",
+			"filters": {
+				"Colors": ["Amber", "Blue", "Natural White", "Pink", "Red"],
+				"Diameter": ["80mm"],
+				"Lumens": ["0.5 - 135"],
+				"Beam Angle": ["120"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "Super Bright LEDs", "link": "https://www.superbrightleds.com/moreinfo/led-headlight-accent-lights/led-angel-eye-headlight-accent-lights-with-t3-14-adapter/878/" }
+			]
+		}, {
+			"name": "RGB LED Light Strip",
+			"image": "/images/lights/am-led-strip.jpg",
+			"filters": {
+				"Colors": ["Blue", "Green", "Red"],
+				"Diameter": ["n/a"],
+				"Lumens": ["Unknown"],
+				"Beam Angle": ["120"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rgb-led-light-strip" }
+			]
+		}, {
+			"name": "RGB LED Light Strip, Individually Addressable",
+			"image": "/images/lights/am-led-strip-addressable.jpg",
+			"filters": {
+				"Colors": ["Blue", "Green", "Red"],
+				"Diameter": ["n/a"],
+				"Lumens": ["Unknown"],
+				"Beam Angle": ["n/a"],
+				"Voltage": ["5"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rgb-led-light-strip-8-2ft-individually-addressable" }
+			]
+		}, {
+			"name": "RSL ",
+			"image": "/images/lights/rsl.jpg",
+			"filters": {
+				"Colors": ["Amber"],
+				"Diameter": ["45mm"],
+				"Lumens": ["Unknown"],
+				"Beam Angle": ["n/a"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "PLC Center", "link": "http://www.plccenter.com/Buy/Allen%20Bradley/855PBB12ME522" }
+			]
+		}, {
+			"name": "Targeting Light",
+			"image": "/images/lights/am-tarketing.jpg",
+			"filters": {
+				"Colors": ["Cool White", "Dark Blue", "Dark Red", "Green Blue", "Light Green", "Medium Blue", "Red", "Yellow"],
+				"Diameter": ["2.24\""],
+				"Lumens": ["800 - 1200"],
+				"Beam Angle": ["n/a"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/targeting-light-with-color-filters" }
+			]
+		}
+	]
+}

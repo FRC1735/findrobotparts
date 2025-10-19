@@ -1,0 +1,95 @@
+{
+	"title": "Compressors",
+	"pathname": "compressors",
+	"description": "<p>While we do our best to make sure these compressors meet the requirements of FRC please verify they meet the rules and requirements of your application.</p>",
+	"image_slug": "compressor",
+	"filter_groups": ["Duty Cycle @ 100psi", "Flow Rate (cfm at 0psi)"],
+	"products": [
+		{
+			"name": "AndyMark 1.1 Air Compressor",
+			"image": "/images/pneumatics/compressors/am-1.1.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["15%"],
+				"Flow Rate (cfm at 0psi)": ["1.1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-1-pump-12v" }
+			]
+		}, {
+			"name": "CP26",
+			"image": "/images/pneumatics/compressors/cp26.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["40%"],
+				"Flow Rate (cfm at 0psi)": ["0.92"]
+			},
+			"links": [
+				{ "vendor": "Parts to Spray", "link": "https://partstospray.com/cp26forroboticsmax092cfmmax130psi.aspx" }
+			]
+		}, {
+			"name": "Thomas 405ADC38",
+			"image": "/images/pneumatics/compressors/thomas-405adc38.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["100%"],
+				"Flow Rate (cfm at 0psi)": ["0.79"]
+			},
+			"links": [
+				{ "vendor": "Grainger", "link": "https://www.grainger.com/product/THOMAS-1-10-HP-Piston-Air-Compressor-5Z349" },
+				{ "vendor": "Walmart", "link": "http://www.walmart.com/ip/THOMAS-405ADC38-12-Piston-Air-Compressor-1-10HP-12VDCV/40885434" }
+			]
+		}, {
+			"name": "VIAIR 100C",
+			"image": "/images/pneumatics/compressors/viair-100c.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["15%"],
+				"Flow Rate (cfm at 0psi)": ["1"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-10010-100C-Air-Compressor/dp/B000FPXS0Y" }
+			]
+		}, {
+			"name": "VIAIR 250C-IG",
+			"image": "/images/pneumatics/compressors/viair-250c-ig.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["100%"],
+				"Flow Rate (cfm at 0psi)": ["0.88"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/VIAIR-Series-Compressor-Intercooler-Sealed/dp/B00BGHMOO6" }
+			]
+		}, {
+			"name": "VIAIR 330C-IG",
+			"image": "/images/pneumatics/compressors/viair-330c-ig.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["100%"],
+				"Flow Rate (cfm at 0psi)": ["1.06"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/VIAIR-Series-Compressor-Intercooler-Sealed/dp/B004QU7DDC" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/heavy-duty-viair-330c-ig-air-compressor" }
+			]
+		}, {
+			"name": "VIAIR 90C",
+			"image": "/images/pneumatics/compressors/viair-90c.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["9%"],
+				"Flow Rate (cfm at 0psi)": ["0.73"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-90-Compressor-Kit/dp/B002A65JR6/" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/air-compressor-12-volt-0-88-cfm" },
+				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/air-compressor-12-volt-0-88-cfm.html" }
+			]
+		}, {
+			"name": "VIAIR 98C",
+			"image": "/images/pneumatics/compressors/viair-98c.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["10%"],
+				"Flow Rate (cfm at 0psi)": ["1.53"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-98-Compressor-Kit/dp/B002A6RIRA" },
+				{ "vendor": "Walmart", "link": "http://www.walmart.com/ip/98C-Compressor/36932031" }
+			]
+		}
+	]
+}

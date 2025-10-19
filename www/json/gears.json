@@ -1,0 +1,810 @@
+{
+	"title": "Gears",
+	"pathname": "gears",
+	"description": "<p>While many of these gears are usually sold with gearboxes you can also use them to make your own gearboxes.</p>",
+	"image_slug": "gear",
+	"filter_groups": ["Type", "Bore", "Diametral Pitch", "Material", "Teeth"],
+	"products": [
+		{
+			"name": "57 Sport RS-500 Pinion",
+			"image": "/images/gears/am-57sport-500.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.125\""],
+				"Diametral Pitch": ["36.29"],
+				"Material": ["Steel"],
+				"Teeth": ["16"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/57-sport-rs-500-pinion" }
+			]
+		}, {
+			"name": "57 Sport RS-700 Pinion",
+			"image": "/images/gears/am-57sport-700.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["5mm"],
+				"Diametral Pitch": ["36.29"],
+				"Material": ["Steel"],
+				"Teeth": ["16"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/57-sport-rs-700-pinion" }
+			]
+		}, {
+			"name": "AM 1/2\" Bore",
+			"image": "/images/gears/am-500.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" w/ key"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["17", "20", "48"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?diametral_pitch%5B%5D=20&material%5B%5D=Steel&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 1/2\" Hex Bore",
+			"image": "/images/gears/am-500-hex.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["24", "29", "40", "43", "45", "48", "50", "56"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?bore%5B%5D=0.5%22+Hex&diametral_pitch%5B%5D=20&material%5B%5D=Steel&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 1/2\" Hex Bore Aluminum",
+			"image": "/images/gears/am-500-hex-aluminum.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum"],
+				"Teeth": ["45", "48", "50"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?bore%5B%5D=0.5%22+Hex&diametral_pitch%5B%5D=20&material%5B%5D=Aluminum&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 1/8\" Bore 0.6 Module",
+			"image": "/images/gears/am-125-module.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.125\""],
+				"Diametral Pitch": ["42.3"],
+				"Material": ["Steel"],
+				"Teeth": ["11", "17"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?module%5B%5D=0.6&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 10mm Bore",
+			"image": "/images/gears/am-10mm.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["10mm w/ key"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["16", "32"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?bore%5B%5D=10mm&material%5B%5D=Steel&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 10mm Bore Aluminum",
+			"image": "/images/gears/am-10mm-aluminum.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["10mm w/ key"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum"],
+				"Teeth": ["48"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?bore%5B%5D=10mm&material%5B%5D=Aluminum&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 3/8\" Hex 32DP",
+			"image": "/images/gears/am-375-hex-45.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["45"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/45t-32dp-20pa-0-375-in-hex-bore-gear" }
+			]
+		}, {
+			"name": "AM 3/8\" Hex Bore 20dp",
+			"image": "/images/gears/am-375-hex-20dp.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["14", "15", "16", "19", "21", "24", "28", "35", "40", "50"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?bore%5B%5D=0.375%22+Hex&diametral_pitch%5B%5D=20&material%5B%5D=Steel&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 3/8\" Hex Bore 20dp Aluminum",
+			"image": "/images/gears/am-375-hex-20dp-aluminum.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum"],
+				"Teeth": ["50"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/50t-20-dp-0-375-in-hex-bore-aluminum-gear" }
+			]
+		}, {
+			"name": "AM 3/8\" Hex Bore 32dp",
+			"image": "/images/gears/am-375-hex-32dp.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["19", "60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?bore%5B%5D=0.375%22+Hex&diametral_pitch%5B%5D=32&material%5B%5D=Steel&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 3/8\" Hex Bore Bevel",
+			"image": "/images/gears/am-375-hex-bevel.jpg",
+			"filters": {
+				"Type": ["Bevel"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["20.32"],
+				"Material": ["Steel"],
+				"Teeth": ["40"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/40t-1-25-module-0-375-in-hex-bore-steel-bevel-gear" }
+			]
+		}, {
+			"name": "AM 5mm Bore",
+			"image": "/images/gears/am-5mm.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["5mm"],
+				"Diametral Pitch": ["42.3"],
+				"Material": ["Steel"],
+				"Teeth": ["17"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/17t-0-6-module-0-196-in-round-bore-steel-gear" }
+			]
+		}, {
+			"name": "AM 7/8\" Bore",
+			"image": "/images/gears/am-875.jpg",
+			"filters": {
+				"Type": ["Spur w/ Dog Pockets"],
+				"Bore": ["0.875\""],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["28"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/28t-20dp-0-874-in-round-bore-steel-gear" }
+			]
+		}, {
+			"name": "AM 8mm Bore",
+			"image": "/images/gears/am-8mm.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["8mm w/ key"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["12", "15", "17", "20", "35", "40"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?bore%5B%5D=8mm&diametral_pitch%5B%5D=20&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM 8mm Bore 32dp",
+			"image": "/images/gears/am-8mm-32dp.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["8mm"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["15"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/steel-gear-15tooth-32dp-0-312-bore?via=Z2lkOi8vYW5keW1hcmsvV29ya2FyZWE6OkNhdGFsb2c6OkNhdGVnb3J5LzVhZjhhYjQwYmM2ZjZkNWUzNmYyMzM0Ng" }
+			]
+		}, {
+			"name": "AM 8mm Bore Bevel",
+			"image": "/images/gears/am-8mm-bevel.jpg",
+			"filters": {
+				"Type": ["Bevel"],
+				"Bore": ["8mm w/ key"],
+				"Diametral Pitch": ["20.32"],
+				"Material": ["Steel"],
+				"Teeth": ["22"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/20t-1-25-module-8mm-round-bore-with-2mm-keyway-steel-bevel-gear" }
+			]
+		}, {
+			"name": "AM Bolt Circle Bore",
+			"image": "/images/gears/am-bolt-circle.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["1.125\"", "1.875\" bolt circle"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["50"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/50t-20dp-1-124-in-round-bore-steel-geer" }
+			]
+		}, {
+			"name": "AM Dog Gear",
+			"image": "/images/gears/am-dog.jpg",
+			"filters": {
+				"Type": ["Dog"],
+				"Bore": ["1/2\" hex"],
+				"Diametral Pitch": ["N/A"],
+				"Material": ["Stainless Steel"],
+				"Teeth": ["3"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/three-tooth-dog-gear" }
+			]
+		}, {
+			"name": "AM Dog Output",
+			"image": "/images/gears/am-dog-output.jpg",
+			"filters": {
+				"Type": ["Spur w/ Dog Pockets"],
+				"Bore": ["1.125\""],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["28", "35"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/gears?diametral_pitch%5B%5D=20&material%5B%5D=Steel&sort%5B%5D=featured&sort%5B%5D=top_sellers" }
+			]
+		}, {
+			"name": "AM Dog Output Aluminum",
+			"image": "/images/gears/am-dog-output-aluminum.jpg",
+			"filters": {
+				"Type": ["Spur w/ Dog Teeth"],
+				"Bore": ["1.125\""],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum"],
+				"Teeth": ["48"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/48t-20dp-1-125-in-round-bore-steel-gear" }
+			]
+		}, {
+			"name": "AM Worm Gear",
+			"image": "/images/gears/am-worm-gear.jpg",
+			"filters": {
+				"Type": ["Worm Gear"],
+				"Bore": ["0.5\" w/ pin slot"],
+				"Diametral Pitch": ["12"],
+				"Material": ["Plastic"],
+				"Teeth": ["32"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/worm-gear-driven-for-worm-gearbox" }
+			]
+		}, {
+			"name": "CheapGears 1/2\" Hex",
+			"image": "/images/gears/cheapgears-hex.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum"],
+				"Teeth": ["18", "20", "24", "30", "34", "36", "40", "42", "44", "46"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&merchant=A2WD0QLQADML2D" },
+				{ "vendor": "CheapGears", "link": "https://www.cheapgears.com/collections/gears" }
+			]
+		}, {
+			"name": "CheapGears 1/2\" Hex and Bolt Circle",
+			"image": "/images/gears/cheapgears-bolt.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex", "1.875\" bolt circle"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum"],
+				"Teeth": ["48", "50", "54", "60", "64", "66", "70", "72", "76"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&merchant=A2WD0QLQADML2D" },
+				{ "vendor": "CheapGears", "link": "https://www.cheapgears.com/collections/gears" }
+			]
+		}, {
+			"name": "CIM Sport Pinion",
+			"image": "/images/gears/am-cimsport.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["8mm"],
+				"Diametral Pitch": ["36.29"],
+				"Material": ["Steel"],
+				"Teeth": ["16"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/cim-sport-pinion" }
+			]
+		}, {
+			"name": "Falcon 20DP 14t Spline Pinion",
+			"image": "/images/gears/falconpinion.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["14T spline"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["8", "9", "10", "11", "12", "13", "14"]
+			},
+			"links": [
+				{ "vendor": "CTR Electronics", "link": "http://www.ctr-electronics.com/gears/gears.html" },
+				{ "vendor": "The Robot Space", "link": "https://www.therobotspace.com/SearchResults.asp?Search=falcon+gear" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/20dp-motorpinions.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/brushless-motors" }
+			]
+		}, {
+			"name": "FIRST STEAMWORKSâ„  Gear",
+			"image": "/images/gears/steamworks.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["1\""],
+				"Diametral Pitch": ["1"],
+				"Material": ["Plastic"],
+				"Teeth": ["10"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/first-steamworks-gear-qty-1" }
+			]
+		}, {
+			"name": "FlexHub",
+			"image": "/images/gears/flexhub.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex", "0.375\" w/ key", "0.5\" hex", "0.5\" w/ key", "8mm w/ key", "10mm w/ key"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["28", "32", "35", "40", "45", "48", "50", "56"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/flexhub-options" }
+			]
+		}, {
+			"name": "NeveRest Motor Pinion Gear",
+			"image": "/images/gears/am-3mm-helical.jpg",
+			"filters": {
+				"Type": ["Helical"],
+				"Bore": ["3mm"],
+				"Diametral Pitch": ["50.83"],
+				"Material": ["[Not listed]"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/neverest-classic-motor-pinion-gear" }
+			]
+		}, {
+			"name": "Ozzy 775 Pinion",
+			"image": "/images/gears/ozzy-32dp-12t.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["5mm"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "Ozzy Boards", "link": "http://ozzyboards.com/12t-32dp-steel-775-pinion/" }
+			]
+		}, {
+			"name": "PI 12t 775 Pinion",
+			"image": "/images/gears/pi-12t-775-pinion.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["5mm"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/12t-Steel-775-Pinion-32DP/p/127498092/category=32076761" }
+			]
+		}, {
+			"name": "PI 12t CIM Pinion",
+			"image": "/images/gears/pi-12t-cim-pinion.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["8mm"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/12t-Aluminuim-Cim-Pinion-20DP/p/127414318/category=32076761" }
+			]
+		}, {
+			"name": "RedLine Pinion",
+			"image": "/images/gears/am-redline-pinion.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["5mm"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/12-tooth-32-dp-5-mm-bore-steel-pinion-gear" }
+			]
+		}, {
+			"name": "REV 32DP Gears",
+			"image": "/images/gears/rev-32dp.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["5mm hex"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Aluminum"],
+				"Teeth": ["42", "56", "70", "86"]
+			},
+			"links": [
+				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/competition/ftc/motion/rotary-motion/gears/metal-0-8-mod-gears/" }
+			]
+		}, {
+			"name": "Rev ION 20DP Hex Bore Gears",
+			"image": "/images/gears/rev-gears20dp.webp",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["18", "20", "24", "28", "30", "32", "34", "36", "40", "50", "52", "60", "64", "68", "80"]
+			},
+			"links": [
+				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/20DP-Gears/" }
+			]
+		}, {
+			"name": "Rev ION 20DP MAXSpline Gears",
+			"image": "/images/gears/rev-gears20dp.webp",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["MAXSpline"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["32", "36", "40", "48", "52", "54", "56", "58", "60", "64", "68", "80"]
+			},
+			"links": [
+				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/20DP-Gears/" }
+			]
+		}, {
+			"name": "Servo Gear",
+			"image": "/images/gears/servo.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["24T spline"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Brass"],
+				"Teeth": ["12", "32", "50"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?utf8=%E2%9C%93&q=brass+gear+32" }
+			]
+		}, {
+			"name": "VEX 1.125\" Bore with VersaKey",
+			"image": "/images/gears/vex-1125.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["1.125\"", "1.875\" bolt circle"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["48", "54", "60", "64", "66", "70", "72"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/bearing-bore-gears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gears-w-versakeys" }
+			]
+		}, {
+			"name": "VEX 1/2\" Hex Bore",
+			"image": "/images/gears/vex-500-hex.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["18", "20", "24", "30", "34", "36", "40", "42", "44", "50", "54", "60", "64", "72", "84"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/vexpro-gears/1-2-hex-bore.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/belts-chain-gears/products/aluminum-hex-bore-gears" }
+			]
+		}, {
+			"name": "VEX 1/2\" Hex Bore with VersaKey",
+			"image": "/images/gears/vex-500-hex-versakey.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex", "1.875\" bolt circle"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["48", "50", "54", "60", "64", "66", "70", "72", "84"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/1-2-hex-bore.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gears-w-versakeys" }
+			]
+		}, {
+			"name": "VEX 20DP Pinion",
+			"image": "/images/gears/vex-20dp.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.125\"", "4mm", "5mm"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["6", "8"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/20dp-motorpinions.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/20dp-motor-gears" }
+			]
+		}, {
+			"name": "VEX 3/8\" Hex Bore",
+			"image": "/images/gears/vex-375-hex.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["14", "18", "20", "24", "30", "34", "36", "40", "42", "50"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/vexpro-gears/3-8-hex-bore.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/belts-chain-gears/products/aluminum-hex-bore-gears" }
+			]
+		}, {
+			"name": "VEX 3/8\" Hex Bore Steel",
+			"image": "/images/gears/vex-375-hex-steel.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["14"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/vexpro-gears/3-8-hex-bore.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/belts-chain-gears/products/steel-hex-bore-gears" }
+			]
+		}, {
+			"name": "VEX 3/8\" Hex Bore w/ VersaKey",
+			"image": "/images/gears/vex-375-hex-versakey.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex", "1.875\" bolt circle"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["48", "50", "54"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/vexpro-gears/3-8-hex-bore.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gears-w-versakeys" }
+			]
+		}, {
+			"name": "VEX 32DP CIM Pinion",
+			"image": "/images/gears/vex-32dp-cim.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["8mm"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["20"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/32dpgears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/32dp-gears" }
+			]
+		}, {
+			"name": "VEX 32DP Gears",
+			"image": "/images/gears/vex-32dp.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Aluminum", "Steel"],
+				"Teeth": ["20", "40", "60", "80", "100"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/32dpgears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/32dp-gears" }
+			]
+		}, {
+			"name": "VEX 32DP RS775 Pinion",
+			"image": "/images/gears/vex-32dp-775.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["5mm"],
+				"Diametral Pitch": ["32"],
+				"Material": ["Steel"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/32dpgears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/32dp-gears" }
+			]
+		}, {
+			"name": "VEX Ball Shifter",
+			"image": "/images/gears/vex-ball.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.75\""],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["34", "44", "50", "54", "60"]
+			},
+			"links": [
+				{ "vendor": "The Robot Source", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/vexpro-gears/shifter-gears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-shifter-dog-gears" }
+			]
+		}, {
+			"name": "VEX Bevel",
+			"image": "/images/gears/vex-bevel.jpg",
+			"filters": {
+				"Type": ["Bevel"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["12"],
+				"Material": ["Steel"],
+				"Teeth": ["15"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/bevel-gears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/bevel-gears" }
+			]
+		}, {
+			"name": "VEX CIM Motor Gears",
+			"image": "/images/gears/vex-cim-motor.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["8mm w/ key"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["10", "11", "12", "13", "14"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1891" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/20dp-motorpinions.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/20dp-motor-gears" }
+			]
+		}, {
+			"name": "VEX CIM Motor Gears Aluminium",
+			"image": "/images/gears/vex-cim-motor-aluminum.jpg",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["8mm w/ key"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1891" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/20dp-motorpinions.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/20dp-motor-gears" }
+			]
+		}, {
+			"name": "VEX Dog",
+			"image": "/images/gears/vex-dog.jpg",
+			"filters": {
+				"Type": ["Spur w/ Dog Teeth"],
+				"Bore": ["0.75\""],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["40", "44", "50"]
+			},
+			"links": [
+				{ "vendor": "The Robot Source", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/vexpro-gears/shifter-gears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-shifter-dog-gears" }
+			]
+		}, {
+			"name": "VEX Dog w/ Hex Bearing",
+			"image": "/images/gears/vex-dog-hex.jpg",
+			"filters": {
+				"Type": ["Spur w/ Dog Teeth"],
+				"Bore": ["0.75\""],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["60"]
+			},
+			"links": [
+				{ "vendor": "The Robot Source", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1890" },
+				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/vexpro-gears/shifter-gears.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-shifter-dog-gears" }
+			]
+		}, {
+			"name": "WCP 20DP SplineXS",
+			"image": "/images/gears/wcp-splinexs.webp",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["SplineXS"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Steel"],
+				"Teeth": ["10", "11", "12", "13", "14", "15", "16"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/kraken" }
+			]
+		}, {
+			"name": "WCP 32DP Gears",
+			"image": "/images/image-not-available.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.375\" hex"],
+				"Diametral Pitch": ["32"],
+				"Material": ["[Not listed]"],
+				"Teeth": ["20", "40", "60", "80"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/32dp-gears" }
+			]
+		}, {
+			"name": "WCP 32DP Pinion",
+			"image": "/images/image-not-available.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.125\"", "4mm", "5mm"],
+				"Diametral Pitch": ["32"],
+				"Material": ["[Not listed]"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/32dp-gears" }
+			]
+		}, {
+			"name": "WCP Dog Gear",
+			"image": "/images/gears/wcp-dog.jpg",
+			"filters": {
+				"Type": ["Spur w/ Dog Teeth"],
+				"Bore": ["thunderhex bearing"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["30", "34", "40", "44", "50"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-shifter-dog-gears" }
+			]
+		}, {
+			"name": "WCP Pocketed Gears",
+			"image": "/images/gears/wcp-pocketed.png",
+			"filters": {
+				"Type": ["Spur"],
+				"Bore": ["0.5\" hex"],
+				"Diametral Pitch": ["20"],
+				"Material": ["Aluminum w/ Teflon Infused Ceramic Coating"],
+				"Teeth": ["40", "42", "44", "50", "54", "60", "64", "72", "84"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pocketed-gears" }
+			]
+		}
+	]
+}

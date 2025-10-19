@@ -1,0 +1,57 @@
+Options +Includes
+AddOutputFilter INCLUDES .html
+
+ErrorDocument 404 /includes/template.html
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteRule ^$ /includes/template.html [E=SLUG:__ROOT__,L]
+RewriteRule ^about/?$ /includes/template.html [E=SLUG:__ABOUT__,L]
+
+# If a real file/dir exists, serve it normally (don’t remap assets)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+RewriteRule ^3d/([0-9a-z-]+)/?$ /includes/template.html [E=SLUG:3d/$1,L]
+RewriteRule ^([0-9a-z-]+)/?$ /includes/template.html [E=SLUG:$1,L]
+
+# Catch-all: anything not already matched becomes a 404
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^.*$ includes/template.html [E=SLUG:__404__,L,R=404]
+
+
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/json
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilter DEFLATE .shtml
+</IfModule>
+
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 week"
+ExpiresByType image/jpeg "access plus 1 week"
+ExpiresByType image/gif "access plus 1 week"
+ExpiresByType image/png "access plus 1 week"
+ExpiresByType image/webp "access plus 1 week"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType application/javascript "access plus 1 week"
+ExpiresByType application/json "access plus 1 day"
+ExpiresByType text/javascript "access plus 1 week"
+ExpiresByType text/x-javascript "access plus 1 week"
+ExpiresByType image/x-icon "access plus 1 month"

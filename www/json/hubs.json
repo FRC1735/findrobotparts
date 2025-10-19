@@ -1,0 +1,153 @@
+{
+	"title": "Hubs",
+	"pathname": "hubs",
+	"description": "<p>Use these hubs to attach sprockets, wheels, or gears to shafts.</p>",
+	"image_slug": "hub",
+	"filter_groups": ["Attachment Type", "Bore", "Material", "OD"],
+	"products": [
+		{
+			"name": "AM Hubs",
+			"image": "/images/hubs/am-hubs.jpg",
+			"filters": {
+				"Attachment Type": ["1.875\" Bolt Circle"],
+				"Bore": ["0.375\" bearing", "0.375\" hex", "0.375\" w/ key", "0.5\" bearing", "0.5\" hex", "0.5\" w/ 2 keys", "0.5\" w/ key", "0.625\" w/ key", "8mm w/ key", "10mm DD", "10mm w/ key"],
+				"Material": ["Aluminum"],
+				"OD": ["0.96\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/hubs" },
+				{ "vendor": "Studica", "link": "http://www.studica.com/product/search/search/andymark+hub" }
+			]
+		}, {
+			"name": "Colson Dead Hub",
+			"image": "/images/hubs/colson-dead-hub.jpg",
+			"filters": {
+				"Attachment Type": ["Press Fit", "VersaKey", "1.875\" Bolt Circle"],
+				"Bore": ["0.875\""],
+				"Material": ["Aluminum"],
+				"OD": ["1.2\""]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1907" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/colsonhubs-g.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/colson-wheels" }
+			]
+		}, {
+			"name": "Colson Live Hub",
+			"image": "/images/hubs/colson-live-hub.jpg",
+			"filters": {
+				"Attachment Type": ["Press Fit"],
+				"Bore": ["0.5\" hex"],
+				"Material": ["Aluminum"],
+				"OD": ["1.2\""]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1907" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/colsonhubs-g.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/colson-wheels" }
+			]
+		}, {
+			"name": "FTC Wheel Conversion Plate",
+			"image": "/images/hubs/ftc-wheel-conversion-plate.jpg",
+			"filters": {
+				"Attachment Type": ["1.875\" Bolt Circle", "16mm Bolt Circle"],
+				"Bore": ["8.1mm"],
+				"Material": ["Aluminum"],
+				"OD": ["1.95\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/wheel-conversion-plate" }
+			]
+		}, {
+			"name": "MAXHub Aluminum",
+			"image": "/images/hubs/rev-maxhub-aluminum.webp",
+			"filters": {
+				"Attachment Type": ["MAXSpline"],
+				"Bore": ["0.2\"", "0.5\" hex", "1\""],
+				"Material": ["Aluminum"],
+				"OD": ["1.37\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXHubs/" }
+			]
+		}, {
+			"name": "MAXHub Plastic",
+			"image": "/images/hubs/rev-maxhub-plastic.webp",
+			"filters": {
+				"Attachment Type": ["MAXSpline"],
+				"Bore": ["0.5\" hex", "5mm hex"],
+				"Material": ["Plastic"],
+				"OD": ["1.37\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXHubs/" }
+			]
+		}, {
+			"name": "MAXSpline Shaft Endcap",
+			"image": "/images/hubs/rev-maxspline-endcap.webp",
+			"filters": {
+				"Attachment Type": ["MAXSpline"],
+				"Bore": ["0.5\" hex"],
+				"Material": ["Aluminum", "Plastic"],
+				"OD": ["1.37\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2393/" }
+			]
+		}, {
+			"name": "The Thrifty Hub",
+			"image": "/images/hubs/thriftyhub.jpg",
+			"filters": {
+				"Attachment Type": ["1.875\" Bolt Circle"],
+				"Bore": ["0.5\" hex"],
+				"Material": ["Aluminum"],
+				"OD": ["1.125\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-4-The-Thrifty-Hub-Half-Inch-Hex-p151670087" }
+			]
+		}, {
+			"name": "VersaHub Aluminum",
+			"image": "/images/hubs/versahub-aluminum.jpg",
+			"filters": {
+				"Attachment Type": ["VersaKey", "1.875\" Bolt Circle"],
+				"Bore": ["0.25\"", "0.5\" hex", "0.5\" w/ key"],
+				"Material": ["Aluminum"],
+				"OD": ["1.125\""]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1902" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/versahubs.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versahubs" }
+			]
+		}, {
+			"name": "VersaHub for Bearing",
+			"image": "/images/hubs/versahub-for-bearing.jpg",
+			"filters": {
+				"Attachment Type": ["VersaKey", "1.875\" Bolt Circle"],
+				"Bore": ["1.125\""],
+				"Material": ["Plastic"],
+				"OD": ["2.2\""]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1902" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/versahubs.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versahubs" }
+			]
+		}, {
+			"name": "VersaHub Plastic",
+			"image": "/images/hubs/versahub-plastic.jpg",
+			"filters": {
+				"Attachment Type": ["VersaKey", "1.875\" Bolt Circle"],
+				"Bore": ["0.5\" hex"],
+				"Material": ["Plastic"],
+				"OD": ["1.125\""]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1902" },
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/versahubs.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versahubs" }
+			]
+		}
+	]
+}

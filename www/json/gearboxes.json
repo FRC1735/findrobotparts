@@ -1,0 +1,429 @@
+{
+	"title": "Gearboxes",
+	"description": "<p>Gearboxes are great for reducing speeds and increasing torque. Whether used for drivelines, collectors, or shooters you can find the right gearbox for your application on your robot.</p>",
+	"filter_groups": ["Motor Input", "Number of Motors", "Output Shaft", "Speeds", "Style", "Reduction"],
+	"products": [
+		{
+			"name": "180deg Input Kit",
+			"image": "/images/gearboxes/rev-190deg.webp",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Pulley"],
+				"Reduction": ["1:1", "2:1"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-25-2741/" }
+			]
+		}, {
+			"name": "2 Motor Drivetrain Gearbox Through Bore",
+			"image": "/images/gearboxes/rev-2motor-driveline-through.png",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["6.28:1", "6.85:1", "7.54:1", "8.16:1", "8.90:1", "9.79:1", "9.82:1", "10.72:1", "11.79:1"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2190/" }
+			]
+		}, {
+			"name": "2 Motor Gearbox - Through Bore",
+			"image": "/images/gearboxes/rev-2motor-through.png",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "2:1", "3:1", "5:1", "6:1"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2099/" }
+			]
+		}, {
+			"name": "90 Degree Gearbox",
+			"image": "/images/gearboxes/rev-90deg.webp",
+			"filters": {
+				"Motor Input": ["MAXPlanetary"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Bevel"],
+				"Reduction": ["1:1"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2120/" }
+			]
+		}, {
+			"name": "Armabelt Drive",
+			"image": "/images/gearboxes/armabeltdrive.png",
+			"filters": {
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["VersaPlanetary Input"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Pulley"],
+				"Reduction": ["1:1.136", "1:1.882", "1:3"]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/products/armabelt" }
+			]
+		}, {
+			"name": "CIMple Box V2",
+			"image": "/images/gearboxes/cimple-box.jpg",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["1/2\" Round", "1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["4.67:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/cimple-box-v2-single-stage-gearbox" }
+			]
+		}, {
+			"name": "DeCIMate",
+			"image": "/images/gearboxes/decimate.jpg",
+			"filters": {
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["8mm (CIM Style)"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["3.75:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/decimate-unassembled-gearbox" }
+			]
+		}, {
+			"name": "EVO",
+			"image": "/images/gearboxes/evo.png",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Number of Motors": ["2 Motors", "3 Motors"],
+				"Output Shaft": ["1/2\" Hex", "1/2\" Round"],
+				"Speeds": ["2 Speeds"],
+				"Style": ["Spur"],
+				"Reduction": ["4.77:1", "5.45:1", "6:1", "6.86:1", "7.56:1", "8.63:1", "9.54:1", "10.86:1", "12:1", "12.41:1", "15.11:1", "16.37:1", "18.71:1", "21.72:1", "22.67:1", "25.9:1", "32.74:1", "45.33:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/evo-shifter" }
+			]
+		}, {
+			"name": "EVO Slim for RedLine",
+			"image": "/images/gearboxes/evoslim.jpg",
+			"filters": {
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
+				"Number of Motors": ["2 Motors", "3 Motors", "4 Motors"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["13.58:1", "17.71:1", "20.46:1", "28.33:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/evo-slim-2-stage-4-redline-input-20-46-1-ratio-long-hex-output-shaft" }
+			]
+		}, {
+			"name": "Flyer Overdrive Gearbox",
+			"image": "/images/gearboxes/flyer.webp",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:2.89", "1:2.5", "1:1.92", "1:1.33", "1.33:1", "1.92:1", "1.25:1", "2.89:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/single-speed-spur-gearboxes/products/flyer-overdrive-gearbox" }
+			]
+		}, {
+			"name": "HexPG Series",
+			"image": "/images/gearboxes/pg-hex.jpg",
+			"filters": {
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex", "3/8\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Planetary"],
+				"Reduction": ["27:1", "71:1", "188:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hex-pg-series-gearboxes-options" }
+			]
+		}, {
+			"name": "MAXPlanetary",
+			"image": "/images/gearboxes/maxplanetary.png",
+			"filters": {
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X44", "Kraken X60", "Minion", "NEO 550"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Planetary"],
+				"Reduction": ["3:1", "4:1", "5:1", "9:1", "12:1", "15:1", "16:1", "20:1", "25:1", "27:1", "36:1", "45:1", "48:1", "60:1", "64:1", "75:1", "80:1", "100:1", "125:1"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/maxplanetary-system-kit/" }
+			]
+		}, {
+			"name": "NeveRest Orbital Gearmotors",
+			"image": "/images/gearboxes/neverest-orbital-20.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Planetary"],
+				"Reduction": ["1:1", "3.7:1", "19.2:1", "50.9:1", "263.7:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/neverest-orbital-gearmotors" }
+			]
+		}, {
+			"name": "PicoBox Duo",
+			"image": "/images/gearboxes/picobox-duo.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "1:1.28", "1.28:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/picobox-duo" }
+			]
+		}, {
+			"name": "PicoBox GEO",
+			"image": "/images/gearboxes/picobox-geo.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "1:1.28", "1.28:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/picobox-geo" }
+			]
+		}, {
+			"name": "PicoBox LEO",
+			"image": "/images/gearboxes/picobox-leo.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "1:1.28", "1.28:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/picobox-leo" }
+			]
+		}, {
+			"name": "PicoBox MEO",
+			"image": "/images/gearboxes/picobox-meo.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "1:1.28", "1.28:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/picobox-meo" }
+			]
+		}, {
+			"name": "PicoBox Turbo",
+			"image": "/images/gearboxes/picobox-turbo.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "1:1.28", "1.28:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/picobox-turbo" }
+			]
+		}, {
+			"name": "PicoBox Twin Turbo",
+			"image": "/images/gearboxes/picobox-turbo-twin.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "1:1.28", "1.28:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/picobox-twin-turbo" }
+			]
+		}, {
+			"name": "PicoBox Uno",
+			"image": "/images/gearboxes/picobox-uno.jpg",
+			"filters": {
+				"Motor Input": ["NeveRest"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["6mm D"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "1:1.28", "1.28:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/picobox-uno" }
+			]
+		}, {
+			"name": "Right Angle Drive",
+			"image": "/images/gearboxes/ab-rightangle.png",
+			"filters": {
+				"Motor Input": ["VersaPlanetary"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex", "3/8\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Bevel"],
+				"Reduction": ["1:1"]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/right-angle-drive?variant=348748382226" }
+			]
+		}, {
+			"name": "Sport",
+			"image": "/images/gearboxes/57sport.jpg",
+			"filters": {
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X44", "Kraken X60", "Minion", "NeveRest", "NEO 550"],
+				"Number of Motors": ["1 Motor", "2 Motors"],
+				"Output Shaft": ["1/2\" Hex", "1/2\" Hex Socket"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Planetary"],
+				"Reduction": ["4:1", "12:1", "16:1", "20:1", "36:1", "48:1", "64:1", "80:1", "100:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/sport-gearbox" },
+				{ "vendor": "BaneBots", "link": "https://banebots.com/gearboxes/sport/" }
+			]
+		}, {
+			"name": "Thrifty Cycloidal Gearbox Kit",
+			"image": "/images/gearboxes/thrifty-cycloidal.webp",
+			"filters": {
+				"Motor Input": ["Kraken X60", "Kraken X44"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["2.5\" Bolt Circle"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Cycloidal"],
+				"Reduction": ["23:1"]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/right-angle-drive?variant=348748382226" }
+			]
+		}, {
+			"name": "Toughbox Classic",
+			"image": "/images/gearboxes/toughbox.jpg",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["1/2\" Round"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["12.75:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/toughbox-classic-gearbox-12-75-1" }
+			]
+		}, {
+			"name": "Toughbox Micro Classic",
+			"image": "/images/gearboxes/toughbox-micro.jpg",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["12.75:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/toughbox-micro-classic-12-75-1" }
+			]
+		}, {
+			"name": "Toughbox Mini Classic",
+			"image": "/images/gearboxes/toughbox-mini.jpg",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["1/2\" Hex", "1/2\" Round"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["12.75:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/toughbox-mini-options" }
+			]
+		}, {
+			"name": "UltraPlanetary",
+			"image": "/images/gearboxes/ultraplanetary.png",
+			"filters": {
+				"Motor Input": ["NEO 550"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex", "5mm Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Planetary"],
+				"Reduction": ["3:1", "4:1", "5:1", "9:1", "12:1", "15:1", "16:1", "20:1", "25:1", "27:1", "36:1", "45:1", "48:1", "60:1", "64:1", "75:1", "80:1", "100:1", "125:1"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-41-1600/" }
+			]
+		}, {
+			"name": "VersaPlanetary",
+			"image": "/images/gearboxes/versaplanetary.jpg",
+			"filters": {
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex, Cu60)", "NEO 550"],
+				"Number of Motors": ["1 Motor", "2 Motors"],
+				"Output Shaft": ["1/2\" Hex", "3/8\" Hex", "8mm (CIM Style)", "1/2\" Hex Socket"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Planetary"],
+				"Reduction": ["3:1", "4:1", "5:1", "7:1", "9:1", "10:1", "12:1", "15:1", "16:1", "20:1", "21:1", "25:1", "27:1", "28:1", "30:1", "35:1", "36:1", "40:1", "45:1", "49:1", "50:1", "63:1", "70:1", "81:1", "90:1", "100:1"]
+			},
+			"links": [
+				{ "vendor": "VEX", "link": "https://www.vexrobotics.com/versaplanetary.html" }
+			]
+		}, {
+			"name": "VersaPlanetary 90 Degree Drive",
+			"image": "/images/gearboxes/versa-90deg.jpg",
+			"filters": {
+				"Motor Input": ["VersaPlanetary"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["1/2\" Hex", "3/8\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Bevel"],
+				"Reduction": ["1:1"]
+			},
+			"links": [
+				{ "vendor": "VEX", "link": "https://www.vexrobotics.com/217-6293.html" }
+			]
+		}, {
+			"name": "WCP Single Stage",
+			"image": "/images/gearboxes/wcp-single-stage.webp",
+			"filters": {
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Number of Motors": ["2 Motors"],
+				"Output Shaft": ["1/2\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Spur"],
+				"Reduction": ["1:1", "2:1", "3:1", "5:1", "5.45:1", "6:1", "6.88:1", "7.75:1"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/gearboxes/products/wcp-single-stage-gearbox" }
+			]
+		}
+	]
+}

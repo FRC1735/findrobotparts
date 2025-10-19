@@ -1,0 +1,179 @@
+{
+	"title": "Pneumatic Components",
+	"pathname": "pneumaticcomponents",
+	"description": "<p>Pneumatic components can be used to set and check the pressure of different parts of your robot.</p>",
+	"image_slug": "pneumatic-component",
+	"filter_groups": ["Port", "Type"],
+	"products": [
+		{
+			"name": "ASME-Code Fast-Acting Pressure-Relief Valve",
+			"image": "/images/pneumaticcomponents/relief-valve.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Relief valve"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pressure-relief-valve" },
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/48435K714" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/pressure-relief-valve.html" }
+			]
+		}, {
+			"name": "Nason Pressure Switch",
+			"image": "/images/pneumaticcomponents/nason-pressure-switch.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Pressure Switch"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/nason-pressure-switch" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/nason-pressure-switch.html" }
+			]
+		}, {
+			"name": "NITRA PGU14",
+			"image": "/images/pneumaticcomponents/nitra-pgu14.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pgu14" }
+			]
+		}, {
+			"name": "NITRA PMU14A",
+			"image": "/images/pneumaticcomponents/nitra-pmu14a.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Indicator"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pmu14a" }
+			]
+		}, {
+			"name": "NITRA PMU14G",
+			"image": "/images/pneumaticcomponents/nitra-pmu14g.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Indicator"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pmu14g" }
+			]
+		}, {
+			"name": "NITRA PRU14",
+			"image": "/images/pneumaticcomponents/nitra-pru14.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Regulator"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pru14" }
+			]
+		}, {
+			"name": "Norgren Regulator",
+			"image": "/images/pneumaticcomponents/norgren-regulator.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Female"],
+				"Type": ["Regulator"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/norgren-regulator-and-bracket" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/norgren-relief-valve.html" }
+			]
+		}, {
+			"name": "Pisco Inline Pressure Gauge with 1/4\" Press-In Tube Fitting",
+			"image": "/images/pneumaticcomponents/pisco-gauge-inline.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/inline-pressure-gauge-with-1-4-in-press-in-tube-fittings" }
+			]
+		}, {
+			"name": "Pisco Inline Pressure Regulator & Gauge with 1/4\" Press-in Tube Fittings",
+			"image": "/images/pneumaticcomponents/pisco-regulator-gauge.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Gauge", "Regulator"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/inline-pressure-regulator-gauge-with-1-4-in-press-in-tube-fittings" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/inline-pressure-regulator-gauge-with-1-4-in-press-in-tube-fittings/am-4218.html" }
+			]
+		}, {
+			"name": "Pisco Inline Pressure Regulator & Gauge with 1/8\" NPT & 1/4\" Press-in Tube Fittings",
+			"image": "/images/pneumaticcomponents/pisco-regulator-gauge-inline-npt.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in", "1/8\" NPT Male"],
+				"Type": ["Gauge", "Regulator"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/inline-pressure-regulator-gauge-with-1-8-in-npt-1-4-in-press-in-tube-fittings" }
+			]
+		}, {
+			"name": "Pisco Inline Pressure Regulator with 1/4\" Press-in Tube Fittings",
+			"image": "/images/pneumaticcomponents/pisco-regulator-inline.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Regulator"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/inline-pressure-regulator-with-1-4-in-press-in-tube-fittings" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/inline-pressure-regulator-with-1-4-in-press-in-tube-fittings/am-4220.html" }
+			]
+		}, {
+			"name": "Pisco Inline Pressure Regulator with 1/8\" NPT and 1/4\" Tube Fitting",
+			"image": "/images/pneumaticcomponents/pisco-regulator-inline-npt.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in", "1/8\" NPT Male"],
+				"Type": ["Regulator"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-4-in-press-in-tube-and-1-4-in-npt-fitting-with-pressure-regulator" }
+			]
+		}, {
+			"name": "Pisco Panel Mount Pressure Gauge with 1/4\" Press-In Tube Fitting",
+			"image": "/images/pneumaticcomponents/pisco-gauge-panel.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/panel-mount-pressure-gauge-with-1-4-in-press-in-tube-fitting" }
+			]
+		}, {
+			"name": "Pisco Pressure gauge with 1/8\" NPT fitting",
+			"image": "/images/pneumaticcomponents/pisco-gauge-npt.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pressure-gauge-with-1-8-in-npt-fitting" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/pressure-gauge-with-1-8-in-npt-fitting/am-4222.html" }
+			]
+		}, {
+			"name": "Pisco Pressure Gauge with Male 1/4\" Press-in Fitting",
+			"image": "/images/pneumaticcomponents/pisco-gauge-stud.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in Stud"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-4-in-press-in-tube-male-pressure-gauge" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/pressure-gauge-with-male-1-4-in-press-in-fitting/am-4225.html" }
+			]
+		}, {
+			"name": "Pressure Gauge, 1/8\" NPT",
+			"image": "/images/pneumaticcomponents/marshalltown-gauge.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pressure-gauge-1-8-in-npt-0-160-psi" },
+				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/AndyMark-Pneumatics/pressure-guage-1-8-inch-npt-0-160-psi.html" }
+			]
+		}
+	]
+}

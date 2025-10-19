@@ -1,0 +1,176 @@
+{
+	"title": "Game Controllers",
+	"pathname": "gamecontrollers",
+	"description": "<p>Game controllers are used to remote control robots.</p>",
+	"image_slug": "gamecontroller",
+	"filter_groups": ["Type", "Buttons", "Analog Joysticks", "D-Pad", "Throttle Control"],
+	"products": [
+		{
+			"name": "APEM MS Series",
+			"image": "/images/gamecontrollers/ms-series.jpg",
+			"filters": {
+				"Type": ["Joystick"],
+				"Buttons": ["4"],
+				"Analog Joysticks": ["1"],
+				"D-Pad": ["0"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "APEM", "link": "https://www.apem.com/int/ms-series-77.html" }
+			]
+		}, {
+			"name": "Buffalo Classic USB Gamepad for PC",
+			"image": "/images/gamecontrollers/snes.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["8"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Buffalo-Classic-USB-Gamepad-PC/dp/B002B9XB0E" }
+			]
+		}, {
+			"name": "Button Board",
+			"image": "/images/gamecontrollers/button-board.jpg",
+			"filters": {
+				"Type": ["Build your own"],
+				"Buttons": ["10"],
+				"Analog Joysticks": ["1"],
+				"D-Pad": ["0"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/button-board" }
+			]
+		}, {
+			"name": "CH Flightstick Pro",
+			"image": "/images/gamecontrollers/chflightstick.jpg",
+			"filters": {
+				"Type": ["Joystick"],
+				"Buttons": ["4"],
+				"Analog Joysticks": ["1"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/gp/product/B00006B84V/ref=s9_acsd_al_bw_c_x_5_r" },
+				{ "vendor": "Digi Key", "link": "http://www.digikey.com/product-detail/en/ch-products/200-503/1040-1000-ND/2665841" }
+			]
+		}, {
+			"name": "Classic NES Controller",
+			"image": "/images/gamecontrollers/nes.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["4"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Mekela-Controller-Joystick-Raspberry-Emulators/dp/B075ZN1GXK/" }
+			]
+		}, {
+			"name": "Logitech Attack 3",
+			"image": "/images/gamecontrollers/logitechattack.jpg",
+			"filters": {
+				"Type": ["Joystick"],
+				"Buttons": ["11"],
+				"Analog Joysticks": ["1"],
+				"D-Pad": ["0"],
+				"Throttle Control": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Logitech-963291-0403-Attack-3-Joystick/dp/B0000ALFC5" }
+			]
+		}, {
+			"name": "Logitech Extreme 3D Pro",
+			"image": "/images/gamecontrollers/logitechextreme.jpg",
+			"filters": {
+				"Type": ["Joystick"],
+				"Buttons": ["12"],
+				"Analog Joysticks": ["1"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Logitech-963290-0403-Extreme-Joystick-Windows/dp/B00009OY9U" },
+				{ "vendor": "Best Buy", "link": "http://www.bestbuy.com/site/logitech-extreme-3d-pro-joystick-silver-black/5796515.p?skuId=5796515" },
+				{ "vendor": "Logitech", "link": "http://gaming.logitech.com/en-us/product/extreme-3d-pro-joystick" },
+				{ "vendor": "Newegg", "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16826102204" }
+			]
+		}, {
+			"name": "Logitech Gamepad F310",
+			"image": "/images/gamecontrollers/logitechgamepad.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["10"],
+				"Analog Joysticks": ["2"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/dp/B003VAHYQY" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/logitech-gamepad-f310" },
+				{ "vendor": "Best Buy", "link": "http://www.bestbuy.com/site/logitech-f310-gaming-pad-blue-black/1260591.p?skuId=1260591" },
+				{ "vendor": "Newegg", "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16826104402" },
+				{ "vendor": "Staples", "link": "http://www.staples.com/Logitech-Gamepad-Controller-for-PC-F310/product_419738" },
+				{ "vendor": "Target", "link": "http://www.target.com/p/logitech-f310-gamepad/-/A-13670128" },
+				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Logitech-F310-Gaming-Pad/16419686" }
+			]
+		}, {
+			"name": "Mad Catz V.1 Joystick",
+			"image": "/images/gamecontrollers/madcatz.jpg",
+			"filters": {
+				"Type": ["Joystick"],
+				"Buttons": ["8"],
+				"Analog Joysticks": ["1"],
+				"D-Pad": ["0"],
+				"Throttle Control": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "Newegg", "link": "https://www.newegg.com/mad-catz-v-1-joystick/p/N82E16826618025" }
+			]
+		}, {
+			"name": "Retrolink Nintendo 64 Classic",
+			"image": "/images/gamecontrollers/n64.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["10"],
+				"Analog Joysticks": ["1"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/gp/product/B008L3UUPS" }
+			]
+		}, {
+			"name": "SNES Retro USB Controller",
+			"image": "/images/gamecontrollers/snes2.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["6"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/gp/product/B0034ZOAO0" }
+			]
+		}, {
+			"name": "Xbox One Controller",
+			"image": "/images/gamecontrollers/xboxone.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["10"],
+				"Analog Joysticks": ["2"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Hyperkin-X91-Controller-Red-Xbox-Windows/dp/B01NBW24MY/" }
+			]
+		}
+	]
+}

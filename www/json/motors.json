@@ -1,0 +1,224 @@
+{
+	"title": "Motors",
+	"description": "<p>These motors are great for a variety of uses on your robot. Using the numbers below you should be able to generate a motor curve. You can learn how to use a motor curve on the <a href=\"http://motors.vex.com/introduction#curve\" target=\"_blank\">VEX website</a>.</p>",
+	"filter_groups": ["No Load Speed", "Output Type", "Power (W)", "Style", "Integrated Controller"],
+	"products": [
+		{
+			"name": "775 RedLine",
+			"image": "/images/motors/redline.jpg",
+			"filters": {
+				"No Load Speed": ["19649"],
+				"Output Type": ["5mm"],
+				"Power (W)": ["323"],
+				"Style": ["Air Cooled"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/andymark-775-redline-motor" }
+			]
+		}, {
+			"name": "775pro",
+			"image": "/images/motors/775pro.jpg",
+			"filters": {
+				"No Load Speed": ["18700"],
+				"Output Type": ["5mm"],
+				"Power (W)": ["347"],
+				"Style": ["Air Cooled"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/775pro.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/brushed-motors" }
+			]
+		}, {
+			"name": "CIM",
+			"image": "/images/motors/cim.jpg",
+			"filters": {
+				"No Load Speed": ["5310"],
+				"Output Type": ["8mm"],
+				"Power (W)": ["337"],
+				"Style": ["Sealed"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/2-5-in-cim-motor" },
+				{ "vendor": "BaneBots", "link": "https://banebots.com/m4-r0062-12/" },
+				{ "vendor": "Plummer Industries", "link": "https://plummerindustries.com/robotics/shop.html#!/Cim/p/122522371" }
+			]
+		}, {
+			"name": "Cu42",
+			"image": "/images/motors/cu42.webp",
+			"filters": {
+				"No Load Speed": ["9600"],
+				"Output Type": ["SplineXS"],
+				"Power (W)": ["Unknown"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "Redux Robotics", "link": "https://shop.reduxrobotics.com/products/cu42" }
+			]
+		}, {
+			"name": "Cu60",
+			"image": "/images/motors/cu60.png",
+			"filters": {
+				"No Load Speed": ["6780"],
+				"Output Type": ["8mm"],
+				"Power (W)": ["Unknown"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "Redux Robotics", "link": "https://shop.reduxrobotics.com/products/cu60" }
+			]
+		}, {
+			"name": "Dynamo Brushless",
+			"image": "/images/motors/dynamo.jpg",
+			"filters": {
+				"No Load Speed": ["2700"],
+				"Output Type": ["8mm"],
+				"Power (W)": ["88"],
+				"Style": ["Sealed"],
+				"Integrated Controller": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/dynamo-brushless-motor-and-controller" }
+			]
+		}, {
+			"name": "Johnson Electric Motor",
+			"image": "/images/motors/johnson-electric.jpg",
+			"filters": {
+				"No Load Speed": ["410"],
+				"Output Type": ["1/2\" hex"],
+				"Power (W)": ["47"],
+				"Style": ["Sealed"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/johnson-electric-plg-gearmotor-and-output-shaft" }
+			]
+		}, {
+			"name": "Kraken X44",
+			"image": "/images/motors/kraken-x44.webp",
+			"filters": {
+				"No Load Speed": ["7530"],
+				"Output Type": ["SplineXS"],
+				"Power (W)": ["397"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/kraken-x44" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/kraken" }
+			]
+		}, {
+			"name": "Kraken X60",
+			"image": "/images/motors/kraken-x60.webp",
+			"filters": {
+				"No Load Speed": ["6000"],
+				"Output Type": ["SplineXS"],
+				"Power (W)": ["413"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/kraken-x60" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/kraken" }
+			]
+		}, {
+			"name": "Minion",
+			"image": "/images/motors/minion.webp",
+			"filters": {
+				"No Load Speed": ["7200"],
+				"Output Type": ["SplineXS"],
+				"Power (W)": ["383"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/minion-brushless-motor" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/talonfxs-motor-controller-and-motors" }
+			]
+		}, {
+			"name": "NEO 550",
+			"image": "/images/motors/neo550.png",
+			"filters": {
+				"No Load Speed": ["11000"],
+				"Output Type": ["0.125in"],
+				"Power (W)": ["279"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/rev-neo-550-brushless-motor" },
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1651/" }
+			]
+		}, {
+			"name": "NEO",
+			"image": "/images/motors/neo.png",
+			"filters": {
+				"No Load Speed": ["5760"],
+				"Output Type": ["8mm"],
+				"Power (W)": ["380"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/rev-neo-brushless-motor-v1-1" },
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1650/" }
+			]
+		}, {
+			"name": "NEO Vortex",
+			"image": "/images/motors/neo-vortex.webp",
+			"filters": {
+				"No Load Speed": ["6784"],
+				"Output Type": ["1/2\" hex", "7t Pinion", "8mm", "MAXPlanetary", "MAXSwerve", "SplineXS"],
+				"Power (W)": ["375"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["Replaceable"]
+			},
+			"links": [
+				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/rev-21-1652/" }
+			]
+		}, {
+			"name": "NeveRest",
+			"image": "/images/motors/neverest.jpg",
+			"filters": {
+				"No Load Speed": ["6600"],
+				"Output Type": ["3mm"],
+				"Power (W)": ["14"],
+				"Style": ["Sealed"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/neverest-series-motor-only" }
+			]
+		}, {
+			"name": "RS775 18v",
+			"image": "/images/motors/rs775-18v.jpg",
+			"filters": {
+				"No Load Speed": ["19500"],
+				"Output Type": ["5mm"],
+				"Power (W)": ["270"],
+				"Style": ["Air Cooled"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "BaneBots", "link": "https://banebots.com/m7-rs775-18/" }
+			]
+		}, {
+			"name": "Venom",
+			"image": "/images/motors/venom.jpg",
+			"filters": {
+				"No Load Speed": ["5310"],
+				"Output Type": ["8mm"],
+				"Power (W)": ["337"],
+				"Style": ["Sealed"],
+				"Integrated Controller": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "Playing with Fusion", "link": "https://www.playingwithfusion.com/productview.php?pdid=99&catid=1014" }
+			]
+		}
+	]
+}

@@ -1,0 +1,196 @@
+{
+	"title": "Bumper Fabric",
+	"pathname": "bumperfabric",
+	"description": "<p>Various types of fabric can be used to build the bumpers for your robot. Below are some that are designed for this specific purpose or have been recommended by teams</p>",
+	"image_slug": "bumperfabric",
+	"filter_groups": ["Color", "Condition", "Reversible"],
+	"products": [
+		{
+			"name": "1000 Denier Coated Cordura",
+			"image": "/images/bumperfabric/cordura.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "Rockywoods", "link": "http://www.rockywoods.com/1000-Denier-Coated-Cordura-Nylon-Fabric" }
+			]
+		}, {
+			"name": "Balisitic Nylon",
+			"image": "/images/bumperfabric/1680-denier-coated-nylon.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "Rockywoods", "link": "https://www.rockywoods.com/1680D-Coated-Ballistic-Nylon-Fabric-with-Durable-Water-Repellent-Finish" }
+			]
+		}, {
+			"name": "Bumper Skirt",
+			"image": "/images/bumperfabric/bumper-cover.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Assembled"],
+				"Reversible": ["No"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2008.htm" }
+			]
+		}, {
+			"name": "Corner Cover",
+			"image": "/images/bumperfabric/corner-cover.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Assembled"],
+				"Reversible": ["No"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2011.htm" },
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+			]
+		}, {
+			"name": "Dacron Sailcloth",
+			"image": "/images/bumperfabric/dacron-sailcloth.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "Sailmaker's Supply", "link": "https://www.sailmakerssupply.com/product/colored-dacron-sailcloth/sailcloth" }
+			]
+		}, {
+			"name": "Duck Canvas Fabric",
+			"image": "/images/bumperfabric/joann.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "Jo-Ann", "link": "http://www.joann.com/jo-ann-stores-duck-canvas-fabric/prd23683.html#prefn1=refinementColor&prefv1=Reds&start=1" }
+			]
+		}, {
+			"name": "Single Reversible Bumper",
+			"image": "/images/bumperfabric/single-reversible-bumper.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Pre-cut"],
+				"Reversible": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2005.htm" },
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+			]
+		}, {
+			"name": "Slick Blue Material",
+			"image": "/images/bumperfabric/slick-blue.jpg",
+			"filters": {
+				"Color": ["Blue"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/slick-blue-bumper-material-161in-x-19-5in-0-25in" },
+				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/slick-blue-bumper-material-161in-x-19-5in.html" }
+			]
+		}, {
+			"name": "Slick Red Material",
+			"image": "/images/bumperfabric/slick-red.jpg",
+			"filters": {
+				"Color": ["Red"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/slick-red-bumper-material-161in-x-19-5in-0-25in" },
+				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/slick-red-bumper-material-161in-x-19-5in.html" }
+			]
+		}, {
+			"name": "Sports Twill",
+			"image": "/images/image-not-available.png",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "TwillUSA", "link": "https://twillusa.com/product/51-inch-sports-twill/" }
+			]
+		}, {
+			"name": "Standard Blue Material",
+			"image": "/images/bumperfabric/standard-blue.jpg",
+			"filters": {
+				"Color": ["Blue"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/blue-bumper-material-161in-x-19-5in-0-25in" },
+				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/blue-bumper-material-161in-x-19-5in.html" }
+			]
+		}, {
+			"name": "Standard Bumper",
+			"image": "/images/bumperfabric/standard.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Pre-cut"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2001.htm" },
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+			]
+		}, {
+			"name": "Standard Red Material",
+			"image": "/images/bumperfabric/standard-red.jpg",
+			"filters": {
+				"Color": ["Red"],
+				"Condition": ["Fabric"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/red-bumper-material-161in-x-19-5in-0-25in" },
+				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/red-bumper-material-161in-x-19-5in.html" }
+			]
+		}, {
+			"name": "Super Slick",
+			"image": "/images/bumperfabric/super-slick.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Pre-cut"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2002.htm" },
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+			]
+		}, {
+			"name": "Super Slick Reversible Bumper",
+			"image": "/images/bumperfabric/super-slick-reversible.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Pre-cut"],
+				"Reversible": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2015.htm" },
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+			]
+		}, {
+			"name": "Super Tough Bumper Material",
+			"image": "/images/bumperfabric/defensive.jpg",
+			"filters": {
+				"Color": ["Blue", "Red"],
+				"Condition": ["Pre-cut"],
+				"Reversible": ["With Assembly"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2023.htm" },
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+			]
+		}
+	]
+}

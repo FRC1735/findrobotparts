@@ -1,0 +1,571 @@
+{
+	"title": "3D Printed - Mounts",
+	"pathname": "3d/mounts",
+	"description": "<p>Print your own mounts to connect one robot part to another. Make it easy to attach an encoder to a gearbox or a ring light to a camera.</p>",
+	"image_slug": "3d-mounts",
+	"filter_groups": ["Attaches What?", "Attaches What? (detailed)", "User"],
+	"products": [
+		{
+			"name": "5/8 Keyed Rod Mount",
+			"image": "/images/3d/mounts/234752.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Shaft"],
+				"Attaches What? (detailed)": ["Other", "5/8\" Keyed Shaft"],
+				"User": ["1247Robotics"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:234752" }
+			]
+		}, {
+			"name": "60mm LED mount for Axis m1011 camera",
+			"image": "/images/3d/mounts/100557.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Ring Light"],
+				"Attaches What? (detailed)": ["Axis M10 Series", "60mm Ring Light"],
+				"User": ["flytrevor"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:100557" }
+			]
+		}, {
+			"name": "60mm LED Ring Mount for Axis m1011 camera",
+			"image": "/images/3d/mounts/96364.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Ring Light"],
+				"Attaches What? (detailed)": ["Axis M10 Series", "60mm Ring Light"],
+				"User": ["flytrevor"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:96364" }
+			]
+		}, {
+			"name": "80x20 L-Brackets",
+			"image": "/images/3d/mounts/662917.jpg",
+			"filters": {
+				"Attaches What?": ["T-slot Extrusion", "T-slot Extrusion"],
+				"Attaches What? (detailed)": ["80/20", "80/20"],
+				"User": ["Team1418"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:662917" }
+			]
+		}, {
+			"name": "AndyMark CIM Motor Mount",
+			"image": "/images/3d/mounts/438162.jpg",
+			"filters": {
+				"Attaches What?": ["Motor", "Other"],
+				"Attaches What? (detailed)": ["CIM Motor", "Other"],
+				"User": ["AKAxAuto"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:438162" }
+			]
+		}, {
+			"name": "Axis Camera Mount",
+			"image": "/images/3d/mounts/248033.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Other"],
+				"Attaches What? (detailed)": ["Axis M10 Series", "Other"],
+				"User": ["CertifiedNerd"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:248033" }
+			]
+		}, {
+			"name": "Axis Camera Mount",
+			"image": "/images/3d/mounts/755777.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Other"],
+				"Attaches What? (detailed)": ["Axis M10 Series", "Other"],
+				"User": ["portalengineer"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:755777" }
+			]
+		}, {
+			"name": "Battery Mount",
+			"image": "/images/3d/mounts/326904.jpg",
+			"filters": {
+				"Attaches What?": ["Battery", "Other"],
+				"Attaches What? (detailed)": ["Battery Base Mounting Package AM-0477", "Other"],
+				"User": ["Wiifi"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:326904" }
+			]
+		}, {
+			"name": "CIM motor bracket",
+			"image": "/images/3d/mounts/270890.jpg",
+			"filters": {
+				"Attaches What?": ["Motor", "Square Tubing"],
+				"Attaches What? (detailed)": ["CIM Motor", "1\" Square Tubing"],
+				"User": ["frozenrose"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:270890" }
+			]
+		}, {
+			"name": "CIM ple mount",
+			"image": "/images/3d/mounts/238229.jpg",
+			"filters": {
+				"Attaches What?": ["Motor", "Other"],
+				"Attaches What? (detailed)": ["CIM Motor", "Other"],
+				"User": ["qbot2640"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:238229" }
+			]
+		}, {
+			"name": "Clippard Air Tank Bracket",
+			"image": "/images/3d/mounts/688034.jpg",
+			"filters": {
+				"Attaches What?": ["Air Tank", "Other"],
+				"Attaches What? (detailed)": ["Clippard Air Tank", "Other"],
+				"User": ["evanperryg"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:688034" }
+			]
+		}, {
+			"name": "Dual Cim Electronic Mounts",
+			"image": "/images/3d/mounts/292463.jpg",
+			"filters": {
+				"Attaches What?": ["Motor", "Platform"],
+				"Attaches What? (detailed)": ["CIM Motor", "Platform"],
+				"User": ["Amo10"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:292463" }
+			]
+		}, {
+			"name": "Encoder Mount to 80/20",
+			"image": "/images/3d/mounts/47785.jpg",
+			"filters": {
+				"Attaches What?": ["Encoder", "T-slot Extrusion"],
+				"Attaches What? (detailed)": ["Encoder", "80/20"],
+				"User": ["FRC1073"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:47785" }
+			]
+		}, {
+			"name": "Encoder Mounting Bracket",
+			"image": "/images/3d/mounts/655211.jpg",
+			"filters": {
+				"Attaches What?": ["Encoder", "Other"],
+				"Attaches What? (detailed)": ["Encoder", "Other"],
+				"User": ["Team1418"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:655211" }
+			]
+		}, {
+			"name": "FIRST Robotics Power Distribution Top Mount",
+			"image": "/images/3d/mounts/238578.jpg",
+			"filters": {
+				"Attaches What?": ["Motor Controller", "Other", "Power Distribution Board"],
+				"Attaches What? (detailed)": ["Other", "Power Distribution Board", "Talon SR"],
+				"User": ["Wiifi"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:238578" }
+			]
+		}, {
+			"name": "FIRST Robotics RoboRIO Mount",
+			"image": "/images/3d/mounts/641856.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "RoboRio"],
+				"Attaches What? (detailed)": ["Other", "RoboRio"],
+				"User": ["1247Robotics"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:641856" }
+			]
+		}, {
+			"name": "FRC Air Tank Mount",
+			"image": "/images/3d/mounts/685037.jpg",
+			"filters": {
+				"Attaches What?": ["Air Tank", "Other"],
+				"Attaches What? (detailed)": ["Clippard Air Tank", "Other"],
+				"User": ["team375"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:685037" }
+			]
+		}, {
+			"name": "FRC AS5145B Rotary Encoder Mount",
+			"image": "/images/3d/mounts/271187.jpg",
+			"filters": {
+				"Attaches What?": ["Encoder", "Other"],
+				"Attaches What? (detailed)": ["AS514B Rotary Encoder", "Other"],
+				"User": ["bobjr"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:271187" }
+			]
+		}, {
+			"name": "FRC Breaker Mount",
+			"image": "/images/3d/mounts/702562.jpg",
+			"filters": {
+				"Attaches What?": ["Circuit Breaker", "Square Tubing"],
+				"Attaches What? (detailed)": ["1\" Square Tubing", "120amp Circuit Breaker"],
+				"User": ["jschares"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:702562" }
+			]
+		}, {
+			"name": "FRC Light Bracket",
+			"image": "/images/3d/mounts/251398.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Robot Signal Light (RSL)"],
+				"Attaches What? (detailed)": ["Allen Bradley 855PB Panel Mount LED", "Other"],
+				"User": ["team4377"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:251398" }
+			]
+		}, {
+			"name": "FRC Signal Light Mount Team 3646",
+			"image": "/images/3d/mounts/647173.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Robot Signal Light (RSL)"],
+				"Attaches What? (detailed)": ["Allen Bradley 855PB Panel Mount LED", "Other"],
+				"User": ["cemoss17"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:647173" }
+			]
+		}, {
+			"name": "FRC Talon SRX ribbon cable/Breakout board holder",
+			"image": "/images/3d/mounts/660450.jpg",
+			"filters": {
+				"Attaches What?": ["Breakout Board", "Motor Controller"],
+				"Attaches What? (detailed)": ["Talon SRX", "Talon SRX Breakout Board"],
+				"User": ["melchiorvester"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:660450" }
+			]
+		}, {
+			"name": "FRC Talon Stand",
+			"image": "/images/3d/mounts/640102.jpg",
+			"filters": {
+				"Attaches What?": ["Motor Controller", "Other"],
+				"Attaches What? (detailed)": ["Other", "Talon SR"],
+				"User": ["ryanbacon"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:640102" }
+			]
+		}, {
+			"name": "FRC862_Ultrasonic_Sensor_Bracket_Upright",
+			"image": "/images/3d/mounts/270197.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Ultrasonic"],
+				"Attaches What? (detailed)": ["MaxBotix EZ*", "Other"],
+				"User": ["FRC862"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:270197" }
+			]
+		}, {
+			"name": "HC-SR04 Ultrasonic Rangefinder Mounting Bracket",
+			"image": "/images/3d/mounts/936318.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Ultrasonic"],
+				"Attaches What? (detailed)": ["HC-SR04", "Other"],
+				"User": ["Matter153"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:936318" }
+			]
+		}, {
+			"name": "Hoeken's Servo Mount",
+			"image": "/images/3d/mounts/5165.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Servo"],
+				"Attaches What? (detailed)": ["Hobby Servo", "HS-311 Servo", "Other"],
+				"User": ["hoeken"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:5165" }
+			]
+		}, {
+			"name": "Honeywell Infrared Sensor Mounts",
+			"image": "/images/3d/mounts/47786.jpg",
+			"filters": {
+				"Attaches What?": ["Infrared Sensor", "T-slot Extrusion"],
+				"Attaches What? (detailed)": ["Honeywell Infrared Sensor", "80/20"],
+				"User": ["FRC1073"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:47786" }
+			]
+		}, {
+			"name": "Igus J Series Flange Bushing Mount",
+			"image": "/images/3d/mounts/234751.jpg",
+			"filters": {
+				"Attaches What?": ["Bushing", "Shaft"],
+				"Attaches What? (detailed)": ["Igus JFI-1012-08 Flange Bushing", "5/8\" Shaft"],
+				"User": ["1247Robotics"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:234751" }
+			]
+		}, {
+			"name": "Igus J Series Flange Bushing with US Digital E4p-360 Rotary encoder Mount",
+			"image": "/images/3d/mounts/245084.jpg",
+			"filters": {
+				"Attaches What?": ["Bushing", "Encoder"],
+				"Attaches What? (detailed)": ["Igus JFI-1012-08 Flange Bushing", "US Digital E4p-360"],
+				"User": ["1247Robotics"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:245084" }
+			]
+		}, {
+			"name": "Igus Magnetic Rotary Encoder Mount",
+			"image": "/images/3d/mounts/245618.jpg",
+			"filters": {
+				"Attaches What?": ["Bushing", "Encoder"],
+				"Attaches What? (detailed)": ["AS514B Rotary Encoder", "Igus JFI-1012-08 Flange Bushing"],
+				"User": ["1247Robotics"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:245618" }
+			]
+		}, {
+			"name": "Kangaroo Mini with 40mm fan",
+			"image": "/images/3d/mounts/1860093.jpg",
+			"filters": {
+				"Attaches What?": ["CPU", "Fan", "Other"],
+				"Attaches What? (detailed)": ["Kangaroo", "Other", "40mm Fan"],
+				"User": ["cpapplefamily"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1860093" }
+			]
+		}, {
+			"name": "LED ring mount for FRC camera",
+			"image": "/images/3d/mounts/270182.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Ring Light"],
+				"Attaches What? (detailed)": ["Axis M10 Series", "60mm Ring Light"],
+				"User": ["rileytsunoda"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:270182" }
+			]
+		}, {
+			"name": "Mag Encoder Mount",
+			"image": "/images/3d/mounts/mag-encoder.png",
+			"filters": {
+				"Attaches What?": ["Encoder", "Shaft"],
+				"Attaches What? (detailed)": ["Hex Shaft", "Mag Encoder"],
+				"User": ["Samuel Skoglun"]
+			},
+			"links": [
+				{ "vendor": "Google Drive", "link": "https://drive.google.com/drive/folders/0B2gZV0m2wg2Ld24yNU05VmtLcDQ" }
+			]
+		}, {
+			"name": "Micro Sensor Mount to Churro",
+			"image": "/images/3d/mounts/1326602.jpg",
+			"filters": {
+				"Attaches What?": ["Limit Switch", "Shaft"],
+				"Attaches What? (detailed)": ["Churro", "Limit Switch"],
+				"User": ["jturner"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1326602" }
+			]
+		}, {
+			"name": "Microsoft LifeCam HDâ€‘3000 Camera Mount",
+			"image": "/images/3d/mounts/1494829.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Other"],
+				"Attaches What? (detailed)": ["Microsoft LifeCam HDâ€‘3000", "Other"],
+				"User": ["314159td"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1494829" }
+			]
+		}, {
+			"name": "Mount for FRC Axis Camera",
+			"image": "/images/3d/mounts/245091.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Other"],
+				"Attaches What? (detailed)": ["Axis M10 Series", "Other"],
+				"User": ["1247Robotics"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:245091" }
+			]
+		}, {
+			"name": "Optical Encoder to 80/20 Mount",
+			"image": "/images/3d/mounts/47784.jpg",
+			"filters": {
+				"Attaches What?": ["Encoder", "T-slot Extrusion"],
+				"Attaches What? (detailed)": ["Encoder", "80/20"],
+				"User": ["FRC1073"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:47784" }
+			]
+		}, {
+			"name": "Pan/Tilt Mount",
+			"image": "/images/3d/mounts/1343487.jpg",
+			"filters": {
+				"Attaches What?": ["Camera", "Other", "Ring Light", "Servo"],
+				"Attaches What? (detailed)": ["Hobby Servo", "Microsoft LifeCam HD-5000", "Other", "60mm Ring Light"],
+				"User": ["ironspork"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1343487" }
+			]
+		}, {
+			"name": "Pneumatic storage tank brackets",
+			"image": "/images/3d/mounts/254522.jpg",
+			"filters": {
+				"Attaches What?": ["Air Tank", "Other"],
+				"Attaches What? (detailed)": ["Clippard Air Tank", "Other"],
+				"User": ["team2177"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:254522" }
+			]
+		}, {
+			"name": "Pressure Gauge Mount",
+			"image": "/images/3d/mounts/415165.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Pressure Gauge"],
+				"Attaches What? (detailed)": ["Nason SM-2B-115R/443", "Other"],
+				"User": ["CertifiedNerd"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:415165" }
+			]
+		}, {
+			"name": "SEHS RoboRio Mounting Bracket & Cable Alignment",
+			"image": "/images/3d/mounts/656030.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "RoboRio"],
+				"Attaches What? (detailed)": ["Other", "RoboRio"],
+				"User": ["tromano32"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:656030" }
+			]
+		}, {
+			"name": "Servo mounting bracket",
+			"image": "/images/3d/mounts/9915.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Servo"],
+				"Attaches What? (detailed)": ["Hobby Servo", "Other"],
+				"User": ["wsolstice69"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:9915" }
+			]
+		}, {
+			"name": "Toughbox Encoder Mount",
+			"image": "/images/3d/mounts/711523.jpg",
+			"filters": {
+				"Attaches What?": ["Encoder", "Gearbox"],
+				"Attaches What? (detailed)": ["Mag Encoder", "Toughbox"],
+				"User": ["ryanbacon"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:711523" }
+			]
+		}, {
+			"name": "Tube Mount for BAG Motor Transmission",
+			"image": "/images/3d/mounts/243066.jpg",
+			"filters": {
+				"Attaches What?": ["Gearbox", "Pipe"],
+				"Attaches What? (detailed)": ["Hex Shaft", "Schedule 40 PVC"],
+				"User": ["elisfkc"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:243066" }
+			]
+		}, {
+			"name": "Ultrasonic Sensor Housing",
+			"image": "/images/3d/mounts/1170335.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Ultrasonic"],
+				"Attaches What? (detailed)": ["HC-SR04", "Other"],
+				"User": ["Ivanchew"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1170335" }
+			]
+		}, {
+			"name": "Ultrasonic Sensor Mount",
+			"image": "/images/3d/mounts/249558.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Ultrasonic"],
+				"Attaches What? (detailed)": ["MaxBotix EZ*", "Other"],
+				"User": ["elisfkc"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:249558" }
+			]
+		}, {
+			"name": "Universal Servo Mount",
+			"image": "/images/3d/mounts/16700.jpg",
+			"filters": {
+				"Attaches What?": ["Other", "Servo"],
+				"Attaches What? (detailed)": ["Hobby Servo", "Other"],
+				"User": ["chandler"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:16700" }
+			]
+		}, {
+			"name": "VersaPlanetary Gearbox Motor Mount",
+			"image": "/images/3d/mounts/229376.jpg",
+			"filters": {
+				"Attaches What?": ["Gearbox", "Motor"],
+				"Attaches What? (detailed)": ["CIM", "VersaPlanetary"],
+				"User": ["elisfkc"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:229376" }
+			]
+		}, {
+			"name": "Versatile Limit Switch Bracket",
+			"image": "/images/3d/mounts/1661329.jpg",
+			"filters": {
+				"Attaches What?": ["Limit Switch", "Other"],
+				"Attaches What? (detailed)": ["Limit Switch", "Other"],
+				"User": ["Geotek"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1661329" }
+			]
+		}, {
+			"name": "Victor Tower",
+			"image": "/images/3d/mounts/242644.jpg",
+			"filters": {
+				"Attaches What?": ["Motor Controller", "Motor Controller"],
+				"Attaches What? (detailed)": ["Victor 888", "Victor 888"],
+				"User": ["pfreivald"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:242644" }
+			]
+		}, {
+			"name": "Window Motor Mount and Pulley Adapter",
+			"image": "/images/3d/mounts/686172.jpg",
+			"filters": {
+				"Attaches What?": ["Motor", "Other"],
+				"Attaches What? (detailed)": ["Other", "Window Motor (9 spoke)"],
+				"User": ["tromano32"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:686172" }
+			]
+		}
+	]
+}

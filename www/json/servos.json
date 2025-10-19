@@ -1,0 +1,168 @@
+{
+	"title": "Servos",
+	"pathname": "servos",
+	"description": "<p>Servos can be used for various parts of the robot from shifters to motors.</p>",
+	"image_slug": "servo",
+	"filter_groups": ["Stall Torque (oz in)", "Max Rotation", "Output", "Analog/Digital", "Supply Voltage (V)", "No load Speed"],
+	"products": [
+		{
+			"name": "2 Wire Motor 393",
+			"image": "/images/servos/vex-393.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["236.16"],
+				"Max Rotation": ["Continuous"],
+				"Output": ["1/4\" Square Shaft"],
+				"Analog/Digital": ["Digital"],
+				"Supply Voltage (V)": ["7.2"],
+				"No load Speed": ["100 rpm"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1825" },
+				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/motors.html" }
+			]
+		}, {
+			"name": "3 Wire Servo",
+			"image": "/images/servos/vex-3-wire.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["104.00"],
+				"Max Rotation": ["100 Degrees"],
+				"Output": ["1/4\" Square Shaft"],
+				"Analog/Digital": ["Digital"],
+				"Supply Voltage (V)": ["7.2"],
+				"No load Speed": ["0.1sec/60"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1825" },
+				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/motors.html" }
+			]
+		}, {
+			"name": "Futaba Servo, model S148",
+			"image": "/images/servos/s148.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["57"],
+				"Max Rotation": ["180 Degrees"],
+				"Output": ["3F Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.22s/60deg"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/futaba-servo-model-s148" }
+			]
+		}, {
+			"name": "Hi-Tec Deluxe Standard Servo, model HS-422",
+			"image": "/images/servos/hs-422.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["57"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.16 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-deluxe-standard-servo-model-hs-422" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HS-311",
+			"image": "/images/servos/hs-311.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["51"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.15 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hs-311" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HS-485HB",
+			"image": "/images/servos/hs-485hb.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["83"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.18 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hs-485hb" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HS-75BB",
+			"image": "/images/servos/hs-75bb.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["114"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.34 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hs-75bb" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HS-805BB",
+			"image": "/images/servos/hs-805bb.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["343"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["D1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.14 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-hi-tec-hs-805bb" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HS-81",
+			"image": "/images/servos/hs-81.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["42"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.09 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hs-81" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HSR-1425CR",
+			"image": "/images/servos/hsr-1425cr.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["46.8"],
+				"Max Rotation": ["Continuous"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["52 rpm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hsr-1425cr" }
+			]
+		}, {
+			"name": "REV Smart Robot Servo",
+			"image": "/images/servos/rev.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["187.8"],
+				"Max Rotation": ["Continuous", "300 Degrees"],
+				"Output": ["25T Spline"],
+				"Analog/Digital": ["Digital"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.13sec/60", "46 rpm"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/REV-Robotics-REV-41-1079-Smart-Robot/dp/B0177D53XG/" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-smart-robot-servo" },
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/smart-robot-servo/" }
+			]
+		}
+	]
+}

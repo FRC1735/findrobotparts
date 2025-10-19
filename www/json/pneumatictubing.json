@@ -1,0 +1,206 @@
+{
+	"title": "Pneumatic Tubing",
+	"pathname": "pneumatictubing",
+	"description": "<p>Pneumatic tubing is used to connect all the pneumatics in the system to get compressed air from one location to another.</p>",
+	"image_slug": "pneumatictubing",
+	"filter_groups": ["Style", "OD", "ID (inch)", "Color", "Length (feet)", "Material", "Durometer"],
+	"products": [
+		{
+			"name": "Fre-Thane 85A",
+			"image": "/images/pneumatictubing/fre-thane-coiled-85.jpg",
+			"filters": {
+				"Style": ["Coiled"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.125"],
+				"Color": ["Black", "Blue", "Brown", "Gray", "Gree", "Natural", "Neon Green", "Orange", "Purple", "Red", "Transparent Blue", "Transparent Green", "Transparent Orange", "Transparent Purple", "Transparent Red", "Transparent Yellow", "White", "Yellow"],
+				"Length (feet)": ["10"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["85A"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/single-polyurethane-p-1843-l-en.html" }
+			]
+		}, {
+			"name": "Fre-Thane 90A",
+			"image": "/images/pneumatictubing/fre-thane-coiled-90.jpg",
+			"filters": {
+				"Style": ["Coiled"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.159"],
+				"Color": ["Black", "Blue", "Light Gray", "Natural", "Transparent Blue", "Transparet Red", "Yellow"],
+				"Length (feet)": ["10"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["90A"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/single-polyurethane-p-1864-l-en.html" }
+			]
+		}, {
+			"name": "Fre-Thane 90A Polyurethane 3/16\" ID",
+			"image": "/images/pneumatictubing/fre-thane-90.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.188"],
+				"Color": ["Natural"],
+				"Length (feet)": ["100", "500", "1000"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["90A"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/fre-thane-90a-polyurethane-p-242-l-en.html" }
+			]
+		}, {
+			"name": "Fre-Thane 90A Polyurethane 4.3mm ID",
+			"image": "/images/pneumatictubing/fre-thane-90.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.170"],
+				"Color": ["Black", "Natural", "Red"],
+				"Length (feet)": ["100", "500", "1000"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["90A"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/fre-thane-90a-polyurethane-p-82-l-en.html" }
+			]
+		}, {
+			"name": "Fre-Thane 90A Polyurethane 4mm ID",
+			"image": "/images/pneumatictubing/fre-thane-90.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.159"],
+				"Color": ["Black", "Blue", "Light Gray", "Natural", "Transparent Blue", "Transparet Red", "Yellow"],
+				"Length (feet)": ["100", "500", "1000"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["90A"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/fre-thane-90a-polyurethane-p-194-l-en.html" }
+			]
+		}, {
+			"name": "Fre-Thane 95A Polyurethane 0.16\" ID",
+			"image": "/images/pneumatictubing/fre-thane-95.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.160"],
+				"Color": ["Black", "Blue", "Gray", "Green", "Natural", "Neon Green", "Orange", "Purple", "Red", "Transparent Blue", "Transparent Green", "Transparent Red", "Transparent Yellow", "White", "Yellow"],
+				"Length (feet)": ["100", "500", "1000"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["95A"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/fre-thane-95a-polyurethane-p-224-l-en.html" }
+			]
+		}, {
+			"name": "Fre-Thane 95A Polyurethane 1/8\" ID",
+			"image": "/images/pneumatictubing/fre-thane-95.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.125"],
+				"Color": ["Black", "Blue", "Gray", "Green", "Natural", "Orange", "Purple", "Red", "Transparent Blue", "Transparent Green", "Transparent Red", "Transparent Yellow", "White", "Yellow"],
+				"Length (feet)": ["100", "500", "1000"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["95A"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/fre-thane-95a-polyurethane-p-337-l-en.html" }
+			]
+		}, {
+			"name": "NITRA Nylon",
+			"image": "/images/pneumatictubing/nitra-nylon.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.180"],
+				"Color": ["Black", "Blue", "Natural", "Red", "Yellow"],
+				"Length (feet)": ["100", "500"],
+				"Material": ["Nylon"],
+				"Durometer": ["70D"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Flexible_Pneumatic_Tubing_-a-_Hoses/Straight_Nylon_Tubing/1-z-4_inch" }
+			]
+		}, {
+			"name": "NITRA Polyurethane",
+			"image": "/images/pneumatictubing/nitra-poly.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.156"],
+				"Color": ["Black", "Blue", "Clear", "Dark Green", "Red", "Transparent Blue", "Yellow"],
+				"Length (feet)": ["100", "500"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["98A"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Flexible_Pneumatic_Tubing_-a-_Hoses/Straight_Polyurethane_(PUR)_Tubing/1-z-4_inch" }
+			]
+		}, {
+			"name": "NITRA Polyurethane Coiled",
+			"image": "/images/pneumatictubing/nitra-coiled.jpg",
+			"filters": {
+				"Style": ["Coiled"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.156"],
+				"Color": ["Black", "Blue", "Transparent Blue"],
+				"Length (feet)": ["3.2", "5.8", "8.4"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["98A"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Flexible_Pneumatic_Tubing_-a-_Hoses/Coiled_Polyurethane_(PUR)_Tubing" }
+			]
+		}, {
+			"name": "NITRA U-tube",
+			"image": "/images/pneumatictubing/nitra-u-tube.jpg",
+			"filters": {
+				"Style": ["U"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.170"],
+				"Color": ["Clear"],
+				"Length (feet)": ["0.25"],
+				"Material": ["Polyamide"],
+				"Durometer": ["N/A"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Special_Purpose_Push-to-Connect_Pneumatic_Fittings/Accessories_for_Special_Purpose_Pneumatic_Fittings/TU14" }
+			]
+		}, {
+			"name": "Pisco Polyurethane",
+			"image": "/images/pneumatictubing/pisco.jpg",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.163"],
+				"Color": ["Black"],
+				"Length (feet)": ["66"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["[not listed]"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/20-meters-of-pneumatic-tubing-1-4-in-od-polyurethane-black" }
+			]
+		}, {
+			"name": "SMC TIUB",
+			"image": "/images/pneumatictubing/smctiub.gif",
+			"filters": {
+				"Style": ["Straight"],
+				"OD": ["1/4\""],
+				"ID (inch)": ["0.167"],
+				"Color": ["Black", "Blue", "Clear", "Green", "Orange", "Red", "White", "Yellow"],
+				"Length (feet)": ["66", "100", "500", "1000", "1640"],
+				"Material": ["Polyurethane"],
+				"Durometer": ["95A"]
+			},
+			"links": [
+				{ "vendor": "Allied Electronics", "link": "http://www.alliedelec.com/pneumatics/tubing-hoses/?navigation=4294640062" },
+				{ "vendor": "SMCPneumatics.com", "link": "http://www.smcpneumatics.com/TIU-POLYURETHANE-TUBING_c_801.html" }
+			]
+		}
+	]
+}
