@@ -46,32 +46,6 @@
 				{ "vendor": "Plummer Industries", "link": "https://plummerindustries.com/robotics/shop.html#!/Cim/p/122522371" }
 			]
 		}, {
-			"name": "Cu42",
-			"image": "/images/motors/cu42.webp",
-			"filters": {
-				"No Load Speed": ["9600"],
-				"Output Type": ["SplineXS"],
-				"Power (W)": ["Unknown"],
-				"Style": ["Brushless"],
-				"Integrated Controller": ["No"]
-			},
-			"links": [
-				{ "vendor": "Redux Robotics", "link": "https://shop.reduxrobotics.com/products/cu42" }
-			]
-		}, {
-			"name": "Cu60",
-			"image": "/images/motors/cu60.png",
-			"filters": {
-				"No Load Speed": ["6780"],
-				"Output Type": ["8mm"],
-				"Power (W)": ["Unknown"],
-				"Style": ["Brushless"],
-				"Integrated Controller": ["No"]
-			},
-			"links": [
-				{ "vendor": "Redux Robotics", "link": "https://shop.reduxrobotics.com/products/cu60" }
-			]
-		}, {
 			"name": "Dynamo Brushless",
 			"image": "/images/motors/dynamo.jpg",
 			"filters": {
