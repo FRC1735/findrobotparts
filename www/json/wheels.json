@@ -384,6 +384,19 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Traction-Wheels/" }
 			]
 		}, {
+			"name": "MAXSwerve Wheel Plastic",
+			"image": "/images/wheels/maxswerve-plastic.webp",
+			"filters": {
+				"Style": ["Standard"],
+				"Diameter (inch)": ["3"],
+				"Width (inch)": ["1"],
+				"Tread": ["Rough"],
+				"Hub": ["MAXSpline"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-3004/" }
+			]
+		}, {
 			"name": "Rotacaster 125mm",
 			"image": "/images/wheels/rotacaster125.jpg",
 			"filters": {
