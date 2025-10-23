@@ -1,8 +1,6 @@
 {
 	"title": "Accumulators",
-	"pathname": "accumulators",
 	"description": "<p>Accumulators can be used to store pressurized air on your robot to be used with cylinders.</p>",
-	"image_slug": "accumulator",
 	"filter_groups": ["Volume", "Diameter", "Length", "Material", "Ports", "Connector", "Working Pressure Rating"],
 	"products": [
 		{
@@ -49,8 +47,7 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/clippard-air-tank-574-ml-plastic-with-push-connect-fittings" },
-				{ "vendor": "Clippard", "link": "http://www.clippard.com/part/AVT-PP-35" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/clippard-air-tank-574-ml-plastic-with-fittings.html" }
+				{ "vendor": "Clippard", "link": "http://www.clippard.com/part/AVT-PP-35" }
 			]
 		}
 	]
