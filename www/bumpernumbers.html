@@ -1,0 +1,1060 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
+
+	<title>Bumper Numbers - Find Robot Parts</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/burncoat.css" rel="stylesheet">
+	<link href="/css/robotparts.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar align-middle sticky-top navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand py-0" href="/">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-sm-none" width="230" height="34"
+					alt="Find Robot Parts">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-none d-sm-block" width="443"
+					height="65" alt="Find Robot Parts">
+			</a>
+			<ul class="nav">
+				<li class="d-block d-sm-none">
+					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
+						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
+						aria-label="Toggle Filter">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+						</svg>
+						Filter
+					</a>
+				</li>
+				<li>
+					<a href="#offcanvas" class="nav-link text-white px-2 py-1" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false"
+						aria-label="Toggle Menu">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						Categories
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col overflow-auto order-2">
+				<main class="p-4">
+					<div class="row mb-2">
+	<div class="col-4 col-lg-2">
+		<img src="/images/categories/bumpernumbers-gray.webp" alt="bumpernumbers" class="img-thumbnail" style="width:100%" id="category-image">
+	</div>
+	<div class="col-8 col-lg-10">
+		<h1 class="mb-0" id="category-title">false</h1>
+		<div id="category-description"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col">
+		<p class="fw-light fst-italic mb-0">Showing <span id="numShown"></span> of <span id="numTotal"></span></p>
+	</div>
+	<div class="col text-end">
+		<a href="#" id="showall" class="btn btn-outline-green btn-sm">Show All</a>
+	</div>
+</div>
+<table id="productdata" class="table table-striped table-collapse">
+	<thead><tr>
+	<th scope="col">Product</th>
+	<th scope="col">Font</th><th scope="col">Height</th><th scope="col">Stroke</th><th scope="col">Width of #8</th>
+	<th scope="col">Vendors</th>
+</tr></thead>
+	<tbody><tr data-tags="-font-helvetica-neu--modified-,-height-4-,-stroke-0-8-,-width-of--8-2-6-,-vendor-andymark,-vendor-studica">
+	<th scope="row" data-label="Product">
+		<strong>AndyMark Numbers</strong><br>
+		<img src="/images/products/bumpernumbers/andymark.webp" class="img-thumbnail" alt="AndyMark Numbers">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapseandymark-numbers-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-numbers-0" aria-expanded="false" aria-controls="collapseandymark-numbers-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapseandymark-numbers-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-numbers-1" aria-expanded="false" aria-controls="collapseandymark-numbers-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapseandymark-numbers-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-numbers-2" aria-expanded="false" aria-controls="collapseandymark-numbers-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapseandymark-numbers-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-numbers-3" aria-expanded="false" aria-controls="collapseandymark-numbers-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/vinyl-adhesive-numbers-white-4-in-tall-qty-4-options" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a><a href="http://www.studica.com/product/search/search/vinyl+stick-on+number++white" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Studica</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-standard-block,-height-4-,-stroke-0-5-,-width-of--8-1-5-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Corner Bumper Numbers</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-corner.webp" class="img-thumbnail" alt="RoboPromo Corner Bumper Numbers">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-corner-bumper-numbers-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-corner-bumper-numbers-0" aria-expanded="false" aria-controls="collapserobopromo-corner-bumper-numbers-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-corner-bumper-numbers-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-corner-bumper-numbers-1" aria-expanded="false" aria-controls="collapserobopromo-corner-bumper-numbers-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-corner-bumper-numbers-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-corner-bumper-numbers-2" aria-expanded="false" aria-controls="collapserobopromo-corner-bumper-numbers-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-corner-bumper-numbers-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-corner-bumper-numbers-3" aria-expanded="false" aria-controls="collapserobopromo-corner-bumper-numbers-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2010.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-arcade,-height-4-,-stroke-0-8-,-width-of--8-3-25-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Arcade</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-arcade.webp" class="img-thumbnail" alt="RoboPromo Custom - Arcade">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---arcade-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---arcade-0" aria-expanded="false" aria-controls="collapserobopromo-custom---arcade-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---arcade-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---arcade-1" aria-expanded="false" aria-controls="collapserobopromo-custom---arcade-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---arcade-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---arcade-2" aria-expanded="false" aria-controls="collapserobopromo-custom---arcade-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---arcade-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---arcade-3" aria-expanded="false" aria-controls="collapserobopromo-custom---arcade-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-combat,-height-4-,-stroke-1-,-width-of--8-3-5-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Combat</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-combat.webp" class="img-thumbnail" alt="RoboPromo Custom - Combat">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---combat-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---combat-0" aria-expanded="false" aria-controls="collapserobopromo-custom---combat-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---combat-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---combat-1" aria-expanded="false" aria-controls="collapserobopromo-custom---combat-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---combat-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---combat-2" aria-expanded="false" aria-controls="collapserobopromo-custom---combat-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---combat-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---combat-3" aria-expanded="false" aria-controls="collapserobopromo-custom---combat-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-command-prompt,-height-4-,-stroke-0-5-,-width-of--8-3-5-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Command Prompt</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-commandprompt.webp" class="img-thumbnail" alt="RoboPromo Custom - Command Prompt">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---command-prompt-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---command-prompt-0" aria-expanded="false" aria-controls="collapserobopromo-custom---command-prompt-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---command-prompt-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---command-prompt-1" aria-expanded="false" aria-controls="collapserobopromo-custom---command-prompt-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---command-prompt-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---command-prompt-2" aria-expanded="false" aria-controls="collapserobopromo-custom---command-prompt-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---command-prompt-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---command-prompt-3" aria-expanded="false" aria-controls="collapserobopromo-custom---command-prompt-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-custom,-height-4-,-stroke-custom,-width-of--8-custom,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Custom</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-custom.webp" class="img-thumbnail" alt="RoboPromo Custom - Custom">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---custom-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---custom-0" aria-expanded="false" aria-controls="collapserobopromo-custom---custom-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---custom-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---custom-1" aria-expanded="false" aria-controls="collapserobopromo-custom---custom-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---custom-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---custom-2" aria-expanded="false" aria-controls="collapserobopromo-custom---custom-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---custom-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---custom-3" aria-expanded="false" aria-controls="collapserobopromo-custom---custom-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-deep-space,-height-4-,-stroke-1-2-,-width-of--8-3-8-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Deep Space</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-deepspace.webp" class="img-thumbnail" alt="RoboPromo Custom - Deep Space">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---deep-space-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---deep-space-0" aria-expanded="false" aria-controls="collapserobopromo-custom---deep-space-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---deep-space-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---deep-space-1" aria-expanded="false" aria-controls="collapserobopromo-custom---deep-space-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---deep-space-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---deep-space-2" aria-expanded="false" aria-controls="collapserobopromo-custom---deep-space-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---deep-space-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---deep-space-3" aria-expanded="false" aria-controls="collapserobopromo-custom---deep-space-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-digital,-height-4-,-stroke-0-75-,-width-of--8-4-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Digital</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-digital.webp" class="img-thumbnail" alt="RoboPromo Custom - Digital">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---digital-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---digital-0" aria-expanded="false" aria-controls="collapserobopromo-custom---digital-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---digital-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---digital-1" aria-expanded="false" aria-controls="collapserobopromo-custom---digital-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---digital-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---digital-2" aria-expanded="false" aria-controls="collapserobopromo-custom---digital-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---digital-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---digital-3" aria-expanded="false" aria-controls="collapserobopromo-custom---digital-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-mario,-height-4-,-stroke-1-,-width-of--8-3-25-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Mario</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-mario.webp" class="img-thumbnail" alt="RoboPromo Custom - Mario">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---mario-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---mario-0" aria-expanded="false" aria-controls="collapserobopromo-custom---mario-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---mario-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---mario-1" aria-expanded="false" aria-controls="collapserobopromo-custom---mario-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---mario-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---mario-2" aria-expanded="false" aria-controls="collapserobopromo-custom---mario-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---mario-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---mario-3" aria-expanded="false" aria-controls="collapserobopromo-custom---mario-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-marker,-height-4-,-stroke-0-75-,-width-of--8-2-5-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Marker</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-marker.webp" class="img-thumbnail" alt="RoboPromo Custom - Marker">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---marker-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---marker-0" aria-expanded="false" aria-controls="collapserobopromo-custom---marker-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---marker-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---marker-1" aria-expanded="false" aria-controls="collapserobopromo-custom---marker-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---marker-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---marker-2" aria-expanded="false" aria-controls="collapserobopromo-custom---marker-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---marker-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---marker-3" aria-expanded="false" aria-controls="collapserobopromo-custom---marker-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-modern,-height-4-,-stroke-1-125-,-width-of--8-3-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Modern</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-modern.webp" class="img-thumbnail" alt="RoboPromo Custom - Modern">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---modern-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---modern-0" aria-expanded="false" aria-controls="collapserobopromo-custom---modern-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---modern-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---modern-1" aria-expanded="false" aria-controls="collapserobopromo-custom---modern-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---modern-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---modern-2" aria-expanded="false" aria-controls="collapserobopromo-custom---modern-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---modern-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---modern-3" aria-expanded="false" aria-controls="collapserobopromo-custom---modern-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-nasalization,-height-4-,-stroke-0-72-,-width-of--8-3-6-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - NASALIZATION</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-nasalization.webp" class="img-thumbnail" alt="RoboPromo Custom - NASALIZATION">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---nasalization-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---nasalization-0" aria-expanded="false" aria-controls="collapserobopromo-custom---nasalization-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---nasalization-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---nasalization-1" aria-expanded="false" aria-controls="collapserobopromo-custom---nasalization-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---nasalization-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---nasalization-2" aria-expanded="false" aria-controls="collapserobopromo-custom---nasalization-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---nasalization-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---nasalization-3" aria-expanded="false" aria-controls="collapserobopromo-custom---nasalization-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-raceway,-height-4-,-stroke-1-,-width-of--8-4-75-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Raceway</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-raceway.webp" class="img-thumbnail" alt="RoboPromo Custom - Raceway">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---raceway-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---raceway-0" aria-expanded="false" aria-controls="collapserobopromo-custom---raceway-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---raceway-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---raceway-1" aria-expanded="false" aria-controls="collapserobopromo-custom---raceway-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---raceway-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---raceway-2" aria-expanded="false" aria-controls="collapserobopromo-custom---raceway-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---raceway-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---raceway-3" aria-expanded="false" aria-controls="collapserobopromo-custom---raceway-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-robo-clone,-height-4-,-stroke-1-15-,-width-of--8-4-5-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Robo Clone</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-roboclone.webp" class="img-thumbnail" alt="RoboPromo Custom - Robo Clone">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---robo-clone-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---robo-clone-0" aria-expanded="false" aria-controls="collapserobopromo-custom---robo-clone-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---robo-clone-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---robo-clone-1" aria-expanded="false" aria-controls="collapserobopromo-custom---robo-clone-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---robo-clone-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---robo-clone-2" aria-expanded="false" aria-controls="collapserobopromo-custom---robo-clone-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---robo-clone-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---robo-clone-3" aria-expanded="false" aria-controls="collapserobopromo-custom---robo-clone-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-speed,-height-4-,-stroke-0-75-,-width-of--8-3-25-,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Custom - Speed</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo-speed.webp" class="img-thumbnail" alt="RoboPromo Custom - Speed">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-custom---speed-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---speed-0" aria-expanded="false" aria-controls="collapserobopromo-custom---speed-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-custom---speed-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---speed-1" aria-expanded="false" aria-controls="collapserobopromo-custom---speed-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-custom---speed-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---speed-2" aria-expanded="false" aria-controls="collapserobopromo-custom---speed-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-custom---speed-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-custom---speed-3" aria-expanded="false" aria-controls="collapserobopromo-custom---speed-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2014.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-font-standard-block,-height-4-,-stroke-0-875-,-width-of--8-3-,-vendor-robopromo,-vendor-the-robot-space">
+	<th scope="row" data-label="Product">
+		<strong>RoboPromo Numbers</strong><br>
+		<img src="/images/products/bumpernumbers/robopromo.webp" class="img-thumbnail" alt="RoboPromo Numbers">
+	</th>
+	<td data-label="Font">
+	<div class="tags collapse" id="collapserobopromo-numbers-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-numbers-0" aria-expanded="false" aria-controls="collapserobopromo-numbers-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Height">
+	<div class="tags collapse" id="collapserobopromo-numbers-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-numbers-1" aria-expanded="false" aria-controls="collapserobopromo-numbers-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Stroke">
+	<div class="tags collapse" id="collapserobopromo-numbers-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-numbers-2" aria-expanded="false" aria-controls="collapserobopromo-numbers-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width of #8">
+	<div class="tags collapse" id="collapserobopromo-numbers-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserobopromo-numbers-3" aria-expanded="false" aria-controls="collapserobopromo-numbers-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2006.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a><a href="http://www.therobotspace.com/searchresults.asp?cat&#x3D;1927" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Robot Space</a>
+		</div>
+	</td>
+</tr></tbody>
+</table>
+				</main>
+				<footer class="row p-4 gx-5">
+					<div class="col-12 col-md-4">
+						<p>Brought to you by:</p>
+						<a href="https://burncoatrobotics.org/" class="d-block mb-5"><img src="/images/logo/burncoat-robotics-white.svg" width="100%" alt="Burncoat Robotics"></a>
+						<ul>
+							<li><a href="/about">About Find Robot Parts</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Find Robot Parts was designed to help robotics teams:</p>
+						<ol>
+							<li>Determine which products meet their needs</li>
+							<li>Learn about products and vendors they are not aware of</li>
+						</ol>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Learn about our other websites:</p>
+						<ul>
+							<li><a href="https://sneac.info/">SNEAC - Southern New England Advocacy Conference</a></li>
+						</ul>
+						<p>Proudly Supporting:</p>
+						<ul>
+							<li><a href="https://mysasa.org/" target="_blank">SASA - Student Association for STEM Advocacy</a></li>
+							<li><a href="https://mysasa.org/national-advocacy-conference" target="_blank">NAC - National Advocacy Conference</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-block collapse order-1" id="sidebar">
+				<div class="row">
+					<div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Font</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Font options">
+			<input type="checkbox" class="btn-check" name="font" id="tag-font-arcade" value="-font-arcade" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-arcade">Arcade</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-combat" value="-font-combat" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-combat">Combat</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-command-prompt" value="-font-command-prompt" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-command-prompt">Command Prompt</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-custom" value="-font-custom" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-custom">Custom</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-deep-space" value="-font-deep-space" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-deep-space">Deep Space</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-digital" value="-font-digital" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-digital">Digital</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-helvetica-neu--modified-" value="-font-helvetica-neu--modified-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-helvetica-neu--modified-">Helvetica Neu (modified)</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-mario" value="-font-mario" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-mario">Mario</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-marker" value="-font-marker" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-marker">Marker</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-modern" value="-font-modern" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-modern">Modern</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-nasalization" value="-font-nasalization" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-nasalization">NASALIZATION</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-raceway" value="-font-raceway" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-raceway">Raceway</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-robo-clone" value="-font-robo-clone" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-robo-clone">Robo Clone</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-speed" value="-font-speed" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-speed">Speed</label>	<input type="checkbox" class="btn-check" name="font" id="tag-font-standard-block" value="-font-standard-block" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-font-standard-block">Standard Block</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Height</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Height options">
+			<input type="checkbox" class="btn-check" name="height" id="tag-height-4-" value="-height-4-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-height-4-">4&quot;</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Stroke</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Stroke options">
+			<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-0-5-" value="-stroke-0-5-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-0-5-">0.5&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-0-72-" value="-stroke-0-72-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-0-72-">0.72&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-0-75-" value="-stroke-0-75-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-0-75-">0.75&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-0-8-" value="-stroke-0-8-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-0-8-">0.8&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-0-875-" value="-stroke-0-875-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-0-875-">0.875&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-1-" value="-stroke-1-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-1-">1&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-1-125-" value="-stroke-1-125-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-1-125-">1.125&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-1-15-" value="-stroke-1-15-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-1-15-">1.15&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-1-2-" value="-stroke-1-2-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-1-2-">1.2&quot;</label>	<input type="checkbox" class="btn-check" name="stroke" id="tag-stroke-custom" value="-stroke-custom" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-stroke-custom">Custom</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Width of #8</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Width of #8 options">
+			<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-1-5-" value="-width-of--8-1-5-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-1-5-">1.5&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-2-5-" value="-width-of--8-2-5-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-2-5-">2.5&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-2-6-" value="-width-of--8-2-6-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-2-6-">2.6&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-3-" value="-width-of--8-3-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-3-">3&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-3-25-" value="-width-of--8-3-25-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-3-25-">3.25&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-3-5-" value="-width-of--8-3-5-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-3-5-">3.5&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-3-6-" value="-width-of--8-3-6-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-3-6-">3.6&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-3-8-" value="-width-of--8-3-8-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-3-8-">3.8&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-4-" value="-width-of--8-4-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-4-">4&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-4-5-" value="-width-of--8-4-5-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-4-5-">4.5&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-4-75-" value="-width-of--8-4-75-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-4-75-">4.75&quot;</label>	<input type="checkbox" class="btn-check" name="width-of--8" id="tag-width-of--8-custom" value="-width-of--8-custom" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width-of--8-custom">Custom</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Vendors</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Vendors options">
+			<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-andymark" value="-vendor-andymark" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-andymark">AndyMark</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-robopromo" value="-vendor-robopromo" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-robopromo">RoboPromo</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-studica" value="-vendor-studica" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-studica">Studica</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-the-robot-space" value="-vendor-the-robot-space" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-the-robot-space">The Robot Space</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+			<div class="offcanvas-header">
+				<p class="h5 offcanvas-title" id="offcanvasLabel">Menu</p>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<p class="h6">3D Printed Models</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/battery-accessories">
+							<img src="/images/categories/3d/battery-accessories-gray.webp" class="img-thumbnail" alt="Battery Accessories">
+							Battery Accessories
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/motor-adaptors">
+							<img src="/images/categories/3d/motor-adaptors-gray.webp" class="img-thumbnail" alt="Motor Adaptors">
+							Motor Adaptors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/mounts">
+							<img src="/images/categories/3d/mounts-gray.webp" class="img-thumbnail" alt="Mounts">
+							Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/wheels">
+							<img src="/images/categories/3d/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Electrical</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/batteries">
+							<img src="/images/categories/batteries-gray.webp" class="img-thumbnail" alt="Batteries">
+							Batteries
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/battery-chargers">
+							<img src="/images/categories/battery-chargers-gray.webp" class="img-thumbnail" alt="Battery Chargers">
+							Battery Chargers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gamecontrollers">
+							<img src="/images/categories/gamecontrollers-gray.webp" class="img-thumbnail" alt="Game Controller">
+							Game Controller
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/lights">
+							<img src="/images/categories/lights-gray.webp" class="img-thumbnail" alt="Lights">
+							Lights
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motor-controllers">
+							<img src="/images/categories/motor-controllers-gray.webp" class="img-thumbnail" alt="Motor Controllers">
+							Motor Controllers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sensors">
+							<img src="/images/categories/sensors-gray.webp" class="img-thumbnail" alt="Sensors">
+							Sensors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wireconnectors">
+							<img src="/images/categories/wireconnectors-gray.webp" class="img-thumbnail" alt="Wire Connectors">
+							Wire Connectors
+						</a>
+					</div></div>
+<p class="h6">Hardware</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bearings">
+							<img src="/images/categories/bearings-gray.webp" class="img-thumbnail" alt="Bearings">
+							Bearings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gussets">
+							<img src="/images/categories/gussets-gray.webp" class="img-thumbnail" alt="Gussets and Mounts">
+							Gussets and Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shafts">
+							<img src="/images/categories/shafts-gray.webp" class="img-thumbnail" alt="Shafts">
+							Shafts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shaftcollars">
+							<img src="/images/categories/shaftcollars-gray.webp" class="img-thumbnail" alt="Shaft Collars">
+							Shaft Collars
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/structure">
+							<img src="/images/categories/structure-gray.webp" class="img-thumbnail" alt="Structure">
+							Structure
+						</a>
+					</div></div>
+<p class="h6">Motion</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/belts">
+							<img src="/images/categories/belts-gray.webp" class="img-thumbnail" alt="Belts">
+							Belts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/chain">
+							<img src="/images/categories/chain-gray.webp" class="img-thumbnail" alt="Chain">
+							Chain
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gearboxes">
+							<img src="/images/categories/gearboxes-gray.webp" class="img-thumbnail" alt="Gearboxes">
+							Gearboxes
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gears">
+							<img src="/images/categories/gears-gray.webp" class="img-thumbnail" alt="Gears">
+							Gears
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/hubs">
+							<img src="/images/categories/hubs-gray.webp" class="img-thumbnail" alt="Hubs">
+							Hubs
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/linearactuators">
+							<img src="/images/categories/linearactuators-gray.webp" class="img-thumbnail" alt="Linear Actuators">
+							Linear Actuators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motors">
+							<img src="/images/categories/motors-gray.webp" class="img-thumbnail" alt="Motors">
+							Motors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pulleys">
+							<img src="/images/categories/pulleys-gray.webp" class="img-thumbnail" alt="Pulleys">
+							Pulleys
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/servos">
+							<img src="/images/categories/servos-gray.webp" class="img-thumbnail" alt="Servos">
+							Servos
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sprockets">
+							<img src="/images/categories/sprockets-gray.webp" class="img-thumbnail" alt="Sprockets">
+							Sprockets
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wheels">
+							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Pneumatics</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/accumulators">
+							<img src="/images/categories/accumulators-gray.webp" class="img-thumbnail" alt="Accumulators">
+							Accumulators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/compressors">
+							<img src="/images/categories/compressors-gray.webp" class="img-thumbnail" alt="Compressors">
+							Compressors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticcomponents">
+							<img src="/images/categories/pneumatic-components-gray.webp" class="img-thumbnail" alt="Components">
+							Components
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticfittings">
+							<img src="/images/categories/pneumaticfittings-gray.webp" class="img-thumbnail" alt="Fittings">
+							Fittings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumatictubing">
+							<img src="/images/categories/pneumatictubing-gray.webp" class="img-thumbnail" alt="Tubing">
+							Tubing
+						</a>
+					</div></div>
+<p class="h6">Miscellaneous</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bumperfabric">
+							<img src="/images/categories/bumperfabric-gray.webp" class="img-thumbnail" alt="Bumper Fabric">
+							Bumper Fabric
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/bumpernumbers">
+							<img src="/images/categories/bumpernumbers-gray.webp" class="img-thumbnail" alt="Bumper Numbers">
+							Bumper Numbers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/resources-programming">
+							<img src="/images/categories/resources-programming-gray.webp" class="img-thumbnail" alt="Programming Resources">
+							Programming Resources
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/subsystems">
+							<img src="/images/categories/subsystems-gray.webp" class="img-thumbnail" alt="Subsystems">
+							Subsystems
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/vendors">
+							<img src="/images/categories/vendors-gray.webp" class="img-thumbnail" alt="Vendors">
+							Vendors
+						</a>
+					</div></div>
+
+			</div>
+		</div>
+	</div>
+	<script src="/js/robotparts.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

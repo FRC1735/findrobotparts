@@ -1,0 +1,954 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
+
+	<title>Lights - Find Robot Parts</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/burncoat.css" rel="stylesheet">
+	<link href="/css/robotparts.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar align-middle sticky-top navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand py-0" href="/">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-sm-none" width="230" height="34"
+					alt="Find Robot Parts">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-none d-sm-block" width="443"
+					height="65" alt="Find Robot Parts">
+			</a>
+			<ul class="nav">
+				<li class="d-block d-sm-none">
+					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
+						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
+						aria-label="Toggle Filter">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+						</svg>
+						Filter
+					</a>
+				</li>
+				<li>
+					<a href="#offcanvas" class="nav-link text-white px-2 py-1" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false"
+						aria-label="Toggle Menu">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						Categories
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col overflow-auto order-2">
+				<main class="p-4">
+					<div class="row mb-2">
+	<div class="col-4 col-lg-2">
+		<img src="/images/categories/lights-gray.webp" alt="lights" class="img-thumbnail" style="width:100%" id="category-image">
+	</div>
+	<div class="col-8 col-lg-10">
+		<h1 class="mb-0" id="category-title">false</h1>
+		<div id="category-description"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col">
+		<p class="fw-light fst-italic mb-0">Showing <span id="numShown"></span> of <span id="numTotal"></span></p>
+	</div>
+	<div class="col text-end">
+		<a href="#" id="showall" class="btn btn-outline-green btn-sm">Show All</a>
+	</div>
+</div>
+<table id="productdata" class="table table-striped table-collapse">
+	<thead><tr>
+	<th scope="col">Product</th>
+	<th scope="col">Colors</th><th scope="col">Diameter</th><th scope="col">Lumens</th><th scope="col">Beam Angle</th><th scope="col">Voltage</th>
+	<th scope="col">Vendors</th>
+</tr></thead>
+	<tbody><tr data-tags="-colors-green,-colors-white,-diameter-60mm,-lumens-69,-lumens-76,-beam-angle-n-a,-voltage-12,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>AndyMark Green Ring Light</strong><br>
+		<img src="/images/products/lights/am-ring.webp" class="img-thumbnail" alt="AndyMark Green Ring Light">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapseandymark-green-ring-light-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-green-ring-light-0" aria-expanded="false" aria-controls="collapseandymark-green-ring-light-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapseandymark-green-ring-light-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-green-ring-light-1" aria-expanded="false" aria-controls="collapseandymark-green-ring-light-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapseandymark-green-ring-light-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-green-ring-light-2" aria-expanded="false" aria-controls="collapseandymark-green-ring-light-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapseandymark-green-ring-light-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-green-ring-light-3" aria-expanded="false" aria-controls="collapseandymark-green-ring-light-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapseandymark-green-ring-light-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-green-ring-light-4" aria-expanded="false" aria-controls="collapseandymark-green-ring-light-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/categories/lighting" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-blue,-colors-green,-colors-red,-colors-white,-colors-yellow,-diameter-60mm,-lumens-unknown,-beam-angle-n-a,-voltage-12,-vendor-amazon">
+	<th scope="row" data-label="Product">
+		<strong>Car Led Headlight 60mm</strong><br>
+		<img src="/images/products/lights/amazon-car-light.webp" class="img-thumbnail" alt="Car Led Headlight 60mm">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapsecar-led-headlight-60mm-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecar-led-headlight-60mm-0" aria-expanded="false" aria-controls="collapsecar-led-headlight-60mm-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapsecar-led-headlight-60mm-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecar-led-headlight-60mm-1" aria-expanded="false" aria-controls="collapsecar-led-headlight-60mm-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapsecar-led-headlight-60mm-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecar-led-headlight-60mm-2" aria-expanded="false" aria-controls="collapsecar-led-headlight-60mm-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapsecar-led-headlight-60mm-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecar-led-headlight-60mm-3" aria-expanded="false" aria-controls="collapsecar-led-headlight-60mm-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapsecar-led-headlight-60mm-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecar-led-headlight-60mm-4" aria-expanded="false" aria-controls="collapsecar-led-headlight-60mm-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/Headlight-18-SMD-Angel-Light-Green/dp/B075R2LKDW/ref&#x3D;sr_1_7" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-amber,-colors-blue,-colors-cool-white,-colors-green,-colors-red,-diameter-60mm,-diameter-70mm,-diameter-80mm,-diameter-90mm,-diameter-100mm,-diameter-110mm,-diameter-120mm,-diameter-140mm,-diameter-160mm,-lumens-25---360,-beam-angle-180,-voltage-12,-vendor-super-bright-leds">
+	<th scope="row" data-label="Product">
+		<strong>COB LED Angle Eye Headlinght Accent Lights</strong><br>
+		<img src="/images/products/lights/cob.webp" class="img-thumbnail" alt="COB LED Angle Eye Headlinght Accent Lights">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapsecob-led-angle-eye-headlinght-accent-lights-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecob-led-angle-eye-headlinght-accent-lights-0" aria-expanded="false" aria-controls="collapsecob-led-angle-eye-headlinght-accent-lights-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapsecob-led-angle-eye-headlinght-accent-lights-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecob-led-angle-eye-headlinght-accent-lights-1" aria-expanded="false" aria-controls="collapsecob-led-angle-eye-headlinght-accent-lights-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapsecob-led-angle-eye-headlinght-accent-lights-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecob-led-angle-eye-headlinght-accent-lights-2" aria-expanded="false" aria-controls="collapsecob-led-angle-eye-headlinght-accent-lights-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapsecob-led-angle-eye-headlinght-accent-lights-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecob-led-angle-eye-headlinght-accent-lights-3" aria-expanded="false" aria-controls="collapsecob-led-angle-eye-headlinght-accent-lights-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapsecob-led-angle-eye-headlinght-accent-lights-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecob-led-angle-eye-headlinght-accent-lights-4" aria-expanded="false" aria-controls="collapsecob-led-angle-eye-headlinght-accent-lights-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.superbrightleds.com/led-halo-headlight-accent-lights" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Super Bright LEDs</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-blue,-colors-cool-white,-colors-green,-colors-red,-colors-warm-white,-diameter-n-a,-lumens-75---240,-beam-angle-n-a,-voltage-3,-vendor-sparkfun">
+	<th scope="row" data-label="Product">
+		<strong>LED 3W Light</strong><br>
+		<img src="/images/products/lights/sparkfun-3w.webp" class="img-thumbnail" alt="LED 3W Light">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapseled-3w-light-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-3w-light-0" aria-expanded="false" aria-controls="collapseled-3w-light-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapseled-3w-light-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-3w-light-1" aria-expanded="false" aria-controls="collapseled-3w-light-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapseled-3w-light-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-3w-light-2" aria-expanded="false" aria-controls="collapseled-3w-light-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapseled-3w-light-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-3w-light-3" aria-expanded="false" aria-controls="collapseled-3w-light-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapseled-3w-light-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-3w-light-4" aria-expanded="false" aria-controls="collapseled-3w-light-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.sparkfun.com/search/results?term&#x3D;3W+PCB" class="list-group-item list-group-item-action list-group-item-green" target="_blank">sparkfun</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-amber,-colors-blue,-colors-cool-white,-colors-green,-colors-natural-white,-colors-red,-colors-uv--blacklight-,-colors-warm-white,-diameter-60mm,-diameter-80mm,-diameter-100mm,-diameter-120mm,-lumens-28---200,-beam-angle-120,-voltage-12,-vendor-super-bright-leds">
+	<th scope="row" data-label="Product">
+		<strong>LED Halo Headlight Accent Lights</strong><br>
+		<img src="/images/products/lights/halo-accent-lights.webp" class="img-thumbnail" alt="LED Halo Headlight Accent Lights">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-0" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-1" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-2" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-3" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-4" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.superbrightleds.com/moreinfo/led-accent-lighting/led-angel-eye-headlight-accent-lights/49/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Super Bright LEDs</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-amber,-colors-blue,-colors-cool-white,-colors-green,-colors-natural-white,-colors-red,-colors-uv--blacklight-,-colors-warm-white,-diameter-60mm,-diameter-80mm,-lumens-2---240,-beam-angle-120,-voltage-12,-vendor-super-bright-leds">
+	<th scope="row" data-label="Product">
+		<strong>LED Halo Headlight Accent Lights - Black</strong><br>
+		<img src="/images/products/lights/halo-accent-lights-black.webp" class="img-thumbnail" alt="LED Halo Headlight Accent Lights - Black">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights---black-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights---black-0" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights---black-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights---black-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights---black-1" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights---black-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights---black-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights---black-2" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights---black-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights---black-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights---black-3" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights---black-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights---black-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights---black-4" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights---black-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.superbrightleds.com/moreinfo/led-headlight-accent-lights/led-angel-eye-headlight-accent-lights-black-circuit-board/1117/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Super Bright LEDs</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-amber,-colors-blue,-colors-natural-white,-colors-pink,-colors-red,-diameter-80mm,-lumens-0-5---135,-beam-angle-120,-voltage-12,-vendor-super-bright-leds">
+	<th scope="row" data-label="Product">
+		<strong>LED Halo Headlight Accent Lights with T3-1/4 Adapter</strong><br>
+		<img src="/images/products/lights/halo-accent-lights-t4.webp" class="img-thumbnail" alt="LED Halo Headlight Accent Lights with T3-1/4 Adapter">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-0" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-1" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-2" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-3" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-4" aria-expanded="false" aria-controls="collapseled-halo-headlight-accent-lights-with-t3-1-4-adapter-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.superbrightleds.com/moreinfo/led-headlight-accent-lights/led-angel-eye-headlight-accent-lights-with-t3-14-adapter/878/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Super Bright LEDs</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-blue,-colors-green,-colors-red,-diameter-n-a,-lumens-unknown,-beam-angle-120,-voltage-12,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>RGB LED Light Strip</strong><br>
+		<img src="/images/products/lights/am-led-strip.webp" class="img-thumbnail" alt="RGB LED Light Strip">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapsergb-led-light-strip-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip-0" aria-expanded="false" aria-controls="collapsergb-led-light-strip-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapsergb-led-light-strip-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip-1" aria-expanded="false" aria-controls="collapsergb-led-light-strip-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapsergb-led-light-strip-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip-2" aria-expanded="false" aria-controls="collapsergb-led-light-strip-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapsergb-led-light-strip-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip-3" aria-expanded="false" aria-controls="collapsergb-led-light-strip-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapsergb-led-light-strip-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip-4" aria-expanded="false" aria-controls="collapsergb-led-light-strip-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/rgb-led-light-strip" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-blue,-colors-green,-colors-red,-diameter-n-a,-lumens-unknown,-beam-angle-n-a,-voltage-5,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>RGB LED Light Strip, Individually Addressable</strong><br>
+		<img src="/images/products/lights/am-led-strip-addressable.webp" class="img-thumbnail" alt="RGB LED Light Strip, Individually Addressable">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapsergb-led-light-strip--individually-addressable-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip--individually-addressable-0" aria-expanded="false" aria-controls="collapsergb-led-light-strip--individually-addressable-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapsergb-led-light-strip--individually-addressable-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip--individually-addressable-1" aria-expanded="false" aria-controls="collapsergb-led-light-strip--individually-addressable-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapsergb-led-light-strip--individually-addressable-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip--individually-addressable-2" aria-expanded="false" aria-controls="collapsergb-led-light-strip--individually-addressable-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapsergb-led-light-strip--individually-addressable-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip--individually-addressable-3" aria-expanded="false" aria-controls="collapsergb-led-light-strip--individually-addressable-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapsergb-led-light-strip--individually-addressable-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsergb-led-light-strip--individually-addressable-4" aria-expanded="false" aria-controls="collapsergb-led-light-strip--individually-addressable-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/rgb-led-light-strip-8-2ft-individually-addressable" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-amber,-diameter-45mm,-lumens-unknown,-beam-angle-n-a,-voltage-12,-vendor-plc-center">
+	<th scope="row" data-label="Product">
+		<strong>RSL </strong><br>
+		<img src="/images/products/lights/rsl.webp" class="img-thumbnail" alt="RSL ">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapsersl--0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsersl--0" aria-expanded="false" aria-controls="collapsersl--0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapsersl--1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsersl--1" aria-expanded="false" aria-controls="collapsersl--1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapsersl--2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsersl--2" aria-expanded="false" aria-controls="collapsersl--2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapsersl--3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsersl--3" aria-expanded="false" aria-controls="collapsersl--3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapsersl--4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsersl--4" aria-expanded="false" aria-controls="collapsersl--4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.plccenter.com/Buy/Allen%20Bradley/855PBB12ME522" class="list-group-item list-group-item-action list-group-item-green" target="_blank">PLC Center</a>
+		</div>
+	</td>
+</tr><tr data-tags="-colors-cool-white,-colors-dark-blue,-colors-dark-red,-colors-green-blue,-colors-light-green,-colors-medium-blue,-colors-red,-colors-yellow,-diameter-2-24-,-lumens-800---1200,-beam-angle-n-a,-voltage-12,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Targeting Light</strong><br>
+		<img src="/images/products/lights/am-tarketing.webp" class="img-thumbnail" alt="Targeting Light">
+	</th>
+	<td data-label="Colors">
+	<div class="tags collapse" id="collapsetargeting-light-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsetargeting-light-0" aria-expanded="false" aria-controls="collapsetargeting-light-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Diameter">
+	<div class="tags collapse" id="collapsetargeting-light-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsetargeting-light-1" aria-expanded="false" aria-controls="collapsetargeting-light-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Lumens">
+	<div class="tags collapse" id="collapsetargeting-light-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsetargeting-light-2" aria-expanded="false" aria-controls="collapsetargeting-light-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Beam Angle">
+	<div class="tags collapse" id="collapsetargeting-light-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsetargeting-light-3" aria-expanded="false" aria-controls="collapsetargeting-light-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Voltage">
+	<div class="tags collapse" id="collapsetargeting-light-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsetargeting-light-4" aria-expanded="false" aria-controls="collapsetargeting-light-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/targeting-light-with-color-filters" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr></tbody>
+</table>
+				</main>
+				<footer class="row p-4 gx-5">
+					<div class="col-12 col-md-4">
+						<p>Brought to you by:</p>
+						<a href="https://burncoatrobotics.org/" class="d-block mb-5"><img src="/images/logo/burncoat-robotics-white.svg" width="100%" alt="Burncoat Robotics"></a>
+						<ul>
+							<li><a href="/about">About Find Robot Parts</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Find Robot Parts was designed to help robotics teams:</p>
+						<ol>
+							<li>Determine which products meet their needs</li>
+							<li>Learn about products and vendors they are not aware of</li>
+						</ol>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Learn about our other websites:</p>
+						<ul>
+							<li><a href="https://sneac.info/">SNEAC - Southern New England Advocacy Conference</a></li>
+						</ul>
+						<p>Proudly Supporting:</p>
+						<ul>
+							<li><a href="https://mysasa.org/" target="_blank">SASA - Student Association for STEM Advocacy</a></li>
+							<li><a href="https://mysasa.org/national-advocacy-conference" target="_blank">NAC - National Advocacy Conference</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-block collapse order-1" id="sidebar">
+				<div class="row">
+					<div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Colors</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Colors options">
+			<input type="checkbox" class="btn-check" name="colors" id="tag-colors-amber" value="-colors-amber" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-amber">Amber</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-blue" value="-colors-blue" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-blue">Blue</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-cool-white" value="-colors-cool-white" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-cool-white">Cool White</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-dark-blue" value="-colors-dark-blue" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-dark-blue">Dark Blue</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-dark-red" value="-colors-dark-red" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-dark-red">Dark Red</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-green" value="-colors-green" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-green">Green</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-green-blue" value="-colors-green-blue" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-green-blue">Green Blue</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-light-green" value="-colors-light-green" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-light-green">Light Green</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-medium-blue" value="-colors-medium-blue" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-medium-blue">Medium Blue</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-natural-white" value="-colors-natural-white" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-natural-white">Natural White</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-pink" value="-colors-pink" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-pink">Pink</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-red" value="-colors-red" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-red">Red</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-uv--blacklight-" value="-colors-uv--blacklight-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-uv--blacklight-">UV (Blacklight)</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-warm-white" value="-colors-warm-white" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-warm-white">Warm White</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-white" value="-colors-white" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-white">White</label>	<input type="checkbox" class="btn-check" name="colors" id="tag-colors-yellow" value="-colors-yellow" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-colors-yellow">Yellow</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Diameter</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Diameter options">
+			<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-2-24-" value="-diameter-2-24-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-2-24-">2.24&quot;</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-45mm" value="-diameter-45mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-45mm">45mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-60mm" value="-diameter-60mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-60mm">60mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-70mm" value="-diameter-70mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-70mm">70mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-80mm" value="-diameter-80mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-80mm">80mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-90mm" value="-diameter-90mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-90mm">90mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-100mm" value="-diameter-100mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-100mm">100mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-110mm" value="-diameter-110mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-110mm">110mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-120mm" value="-diameter-120mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-120mm">120mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-140mm" value="-diameter-140mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-140mm">140mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-160mm" value="-diameter-160mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-160mm">160mm</label>	<input type="checkbox" class="btn-check" name="diameter" id="tag-diameter-n-a" value="-diameter-n-a" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-diameter-n-a">n/a</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Lumens</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Lumens options">
+			<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-0-5---135" value="-lumens-0-5---135" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-0-5---135">0.5 - 135</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-2---240" value="-lumens-2---240" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-2---240">2 - 240</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-25---360" value="-lumens-25---360" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-25---360">25 - 360</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-28---200" value="-lumens-28---200" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-28---200">28 - 200</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-69" value="-lumens-69" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-69">69</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-75---240" value="-lumens-75---240" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-75---240">75 - 240</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-76" value="-lumens-76" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-76">76</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-800---1200" value="-lumens-800---1200" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-800---1200">800 - 1200</label>	<input type="checkbox" class="btn-check" name="lumens" id="tag-lumens-unknown" value="-lumens-unknown" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-lumens-unknown">Unknown</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Beam Angle</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Beam Angle options">
+			<input type="checkbox" class="btn-check" name="beam-angle" id="tag-beam-angle-120" value="-beam-angle-120" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-beam-angle-120">120</label>	<input type="checkbox" class="btn-check" name="beam-angle" id="tag-beam-angle-180" value="-beam-angle-180" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-beam-angle-180">180</label>	<input type="checkbox" class="btn-check" name="beam-angle" id="tag-beam-angle-n-a" value="-beam-angle-n-a" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-beam-angle-n-a">n/a</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Voltage</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Voltage options">
+			<input type="checkbox" class="btn-check" name="voltage" id="tag-voltage-3" value="-voltage-3" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-voltage-3">3</label>	<input type="checkbox" class="btn-check" name="voltage" id="tag-voltage-5" value="-voltage-5" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-voltage-5">5</label>	<input type="checkbox" class="btn-check" name="voltage" id="tag-voltage-12" value="-voltage-12" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-voltage-12">12</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Vendors</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Vendors options">
+			<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-amazon" value="-vendor-amazon" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-amazon">Amazon</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-andymark" value="-vendor-andymark" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-andymark">AndyMark</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-plc-center" value="-vendor-plc-center" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-plc-center">PLC Center</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-sparkfun" value="-vendor-sparkfun" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-sparkfun">sparkfun</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-super-bright-leds" value="-vendor-super-bright-leds" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-super-bright-leds">Super Bright LEDs</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+			<div class="offcanvas-header">
+				<p class="h5 offcanvas-title" id="offcanvasLabel">Menu</p>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<p class="h6">3D Printed Models</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/battery-accessories">
+							<img src="/images/categories/3d/battery-accessories-gray.webp" class="img-thumbnail" alt="Battery Accessories">
+							Battery Accessories
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/motor-adaptors">
+							<img src="/images/categories/3d/motor-adaptors-gray.webp" class="img-thumbnail" alt="Motor Adaptors">
+							Motor Adaptors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/mounts">
+							<img src="/images/categories/3d/mounts-gray.webp" class="img-thumbnail" alt="Mounts">
+							Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/wheels">
+							<img src="/images/categories/3d/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Electrical</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/batteries">
+							<img src="/images/categories/batteries-gray.webp" class="img-thumbnail" alt="Batteries">
+							Batteries
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/battery-chargers">
+							<img src="/images/categories/battery-chargers-gray.webp" class="img-thumbnail" alt="Battery Chargers">
+							Battery Chargers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gamecontrollers">
+							<img src="/images/categories/gamecontrollers-gray.webp" class="img-thumbnail" alt="Game Controller">
+							Game Controller
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/lights">
+							<img src="/images/categories/lights-gray.webp" class="img-thumbnail" alt="Lights">
+							Lights
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motor-controllers">
+							<img src="/images/categories/motor-controllers-gray.webp" class="img-thumbnail" alt="Motor Controllers">
+							Motor Controllers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sensors">
+							<img src="/images/categories/sensors-gray.webp" class="img-thumbnail" alt="Sensors">
+							Sensors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wireconnectors">
+							<img src="/images/categories/wireconnectors-gray.webp" class="img-thumbnail" alt="Wire Connectors">
+							Wire Connectors
+						</a>
+					</div></div>
+<p class="h6">Hardware</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bearings">
+							<img src="/images/categories/bearings-gray.webp" class="img-thumbnail" alt="Bearings">
+							Bearings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gussets">
+							<img src="/images/categories/gussets-gray.webp" class="img-thumbnail" alt="Gussets and Mounts">
+							Gussets and Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shafts">
+							<img src="/images/categories/shafts-gray.webp" class="img-thumbnail" alt="Shafts">
+							Shafts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shaftcollars">
+							<img src="/images/categories/shaftcollars-gray.webp" class="img-thumbnail" alt="Shaft Collars">
+							Shaft Collars
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/structure">
+							<img src="/images/categories/structure-gray.webp" class="img-thumbnail" alt="Structure">
+							Structure
+						</a>
+					</div></div>
+<p class="h6">Motion</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/belts">
+							<img src="/images/categories/belts-gray.webp" class="img-thumbnail" alt="Belts">
+							Belts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/chain">
+							<img src="/images/categories/chain-gray.webp" class="img-thumbnail" alt="Chain">
+							Chain
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gearboxes">
+							<img src="/images/categories/gearboxes-gray.webp" class="img-thumbnail" alt="Gearboxes">
+							Gearboxes
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gears">
+							<img src="/images/categories/gears-gray.webp" class="img-thumbnail" alt="Gears">
+							Gears
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/hubs">
+							<img src="/images/categories/hubs-gray.webp" class="img-thumbnail" alt="Hubs">
+							Hubs
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/linearactuators">
+							<img src="/images/categories/linearactuators-gray.webp" class="img-thumbnail" alt="Linear Actuators">
+							Linear Actuators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motors">
+							<img src="/images/categories/motors-gray.webp" class="img-thumbnail" alt="Motors">
+							Motors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pulleys">
+							<img src="/images/categories/pulleys-gray.webp" class="img-thumbnail" alt="Pulleys">
+							Pulleys
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/servos">
+							<img src="/images/categories/servos-gray.webp" class="img-thumbnail" alt="Servos">
+							Servos
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sprockets">
+							<img src="/images/categories/sprockets-gray.webp" class="img-thumbnail" alt="Sprockets">
+							Sprockets
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wheels">
+							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Pneumatics</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/accumulators">
+							<img src="/images/categories/accumulators-gray.webp" class="img-thumbnail" alt="Accumulators">
+							Accumulators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/compressors">
+							<img src="/images/categories/compressors-gray.webp" class="img-thumbnail" alt="Compressors">
+							Compressors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticcomponents">
+							<img src="/images/categories/pneumatic-components-gray.webp" class="img-thumbnail" alt="Components">
+							Components
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticfittings">
+							<img src="/images/categories/pneumaticfittings-gray.webp" class="img-thumbnail" alt="Fittings">
+							Fittings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumatictubing">
+							<img src="/images/categories/pneumatictubing-gray.webp" class="img-thumbnail" alt="Tubing">
+							Tubing
+						</a>
+					</div></div>
+<p class="h6">Miscellaneous</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bumperfabric">
+							<img src="/images/categories/bumperfabric-gray.webp" class="img-thumbnail" alt="Bumper Fabric">
+							Bumper Fabric
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/bumpernumbers">
+							<img src="/images/categories/bumpernumbers-gray.webp" class="img-thumbnail" alt="Bumper Numbers">
+							Bumper Numbers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/resources-programming">
+							<img src="/images/categories/resources-programming-gray.webp" class="img-thumbnail" alt="Programming Resources">
+							Programming Resources
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/subsystems">
+							<img src="/images/categories/subsystems-gray.webp" class="img-thumbnail" alt="Subsystems">
+							Subsystems
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/vendors">
+							<img src="/images/categories/vendors-gray.webp" class="img-thumbnail" alt="Vendors">
+							Vendors
+						</a>
+					</div></div>
+
+			</div>
+		</div>
+	</div>
+	<script src="/js/robotparts.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

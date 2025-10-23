@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
+
+	<title>Hubs - Find Robot Parts</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/burncoat.css" rel="stylesheet">
+	<link href="/css/robotparts.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar align-middle sticky-top navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand py-0" href="/">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-sm-none" width="230" height="34"
+					alt="Find Robot Parts">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-none d-sm-block" width="443"
+					height="65" alt="Find Robot Parts">
+			</a>
+			<ul class="nav">
+				<li class="d-block d-sm-none">
+					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
+						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
+						aria-label="Toggle Filter">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+						</svg>
+						Filter
+					</a>
+				</li>
+				<li>
+					<a href="#offcanvas" class="nav-link text-white px-2 py-1" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false"
+						aria-label="Toggle Menu">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						Categories
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col overflow-auto order-2">
+				<main class="p-4">
+					<div class="row mb-2">
+	<div class="col-4 col-lg-2">
+		<img src="/images/categories/hubs-gray.webp" alt="hubs" class="img-thumbnail" style="width:100%" id="category-image">
+	</div>
+	<div class="col-8 col-lg-10">
+		<h1 class="mb-0" id="category-title">false</h1>
+		<div id="category-description"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col">
+		<p class="fw-light fst-italic mb-0">Showing <span id="numShown"></span> of <span id="numTotal"></span></p>
+	</div>
+	<div class="col text-end">
+		<a href="#" id="showall" class="btn btn-outline-green btn-sm">Show All</a>
+	</div>
+</div>
+<table id="productdata" class="table table-striped table-collapse">
+	<thead><tr>
+	<th scope="col">Product</th>
+	<th scope="col">Attachment Type</th><th scope="col">Bore</th><th scope="col">Material</th><th scope="col">OD</th>
+	<th scope="col">Vendors</th>
+</tr></thead>
+	<tbody><tr data-tags="-attachment-type-1-875--bolt-circle,-bore-0-375--bearing,-bore-0-375--hex,-bore-0-375--w--key,-bore-0-5--bearing,-bore-0-5--hex,-bore-0-5--w--2-keys,-bore-0-5--w--key,-bore-0-625--w--key,-bore-8mm-w--key,-bore-10mm-dd,-bore-10mm-w--key,-material-aluminum,-od-0-96-,-vendor-andymark,-vendor-studica">
+	<th scope="row" data-label="Product">
+		<strong>AM Hubs</strong><br>
+		<img src="/images/products/hubs/am-hubs.webp" class="img-thumbnail" alt="AM Hubs">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapseam-hubs-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseam-hubs-0" aria-expanded="false" aria-controls="collapseam-hubs-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapseam-hubs-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseam-hubs-1" aria-expanded="false" aria-controls="collapseam-hubs-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapseam-hubs-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseam-hubs-2" aria-expanded="false" aria-controls="collapseam-hubs-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapseam-hubs-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseam-hubs-3" aria-expanded="false" aria-controls="collapseam-hubs-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/categories/hubs" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a><a href="http://www.studica.com/product/search/search/andymark+hub" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Studica</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-1-875--bolt-circle,-attachment-type-press-fit,-attachment-type-versakey,-bore-0-875-,-material-aluminum,-od-1-2-,-vendor-the-robot-space,-vendor-vexpro,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>Colson Dead Hub</strong><br>
+		<img src="/images/products/hubs/colson-dead-hub.webp" class="img-thumbnail" alt="Colson Dead Hub">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapsecolson-dead-hub-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-dead-hub-0" aria-expanded="false" aria-controls="collapsecolson-dead-hub-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapsecolson-dead-hub-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-dead-hub-1" aria-expanded="false" aria-controls="collapsecolson-dead-hub-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsecolson-dead-hub-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-dead-hub-2" aria-expanded="false" aria-controls="collapsecolson-dead-hub-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapsecolson-dead-hub-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-dead-hub-3" aria-expanded="false" aria-controls="collapsecolson-dead-hub-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.therobotspace.com/SearchResults.asp?Cat&#x3D;1907" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Robot Space</a><a href="https://www.vexrobotics.com/colsonhubs-g.html" class="list-group-item list-group-item-action list-group-item-green" target="_blank">VEXpro</a><a href="https://wcproducts.com/products/colson-wheels" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-press-fit,-bore-0-5--hex,-material-aluminum,-od-1-2-,-vendor-the-robot-space,-vendor-vexpro,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>Colson Live Hub</strong><br>
+		<img src="/images/products/hubs/colson-live-hub.webp" class="img-thumbnail" alt="Colson Live Hub">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapsecolson-live-hub-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-live-hub-0" aria-expanded="false" aria-controls="collapsecolson-live-hub-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapsecolson-live-hub-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-live-hub-1" aria-expanded="false" aria-controls="collapsecolson-live-hub-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsecolson-live-hub-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-live-hub-2" aria-expanded="false" aria-controls="collapsecolson-live-hub-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapsecolson-live-hub-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecolson-live-hub-3" aria-expanded="false" aria-controls="collapsecolson-live-hub-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.therobotspace.com/SearchResults.asp?Cat&#x3D;1907" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Robot Space</a><a href="https://www.vexrobotics.com/colsonhubs-g.html" class="list-group-item list-group-item-action list-group-item-green" target="_blank">VEXpro</a><a href="https://wcproducts.com/products/colson-wheels" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-1-875--bolt-circle,-attachment-type-16mm-bolt-circle,-bore-8-1mm,-material-aluminum,-od-1-95-,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>FTC Wheel Conversion Plate</strong><br>
+		<img src="/images/products/hubs/ftc-wheel-conversion-plate.webp" class="img-thumbnail" alt="FTC Wheel Conversion Plate">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapseftc-wheel-conversion-plate-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseftc-wheel-conversion-plate-0" aria-expanded="false" aria-controls="collapseftc-wheel-conversion-plate-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapseftc-wheel-conversion-plate-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseftc-wheel-conversion-plate-1" aria-expanded="false" aria-controls="collapseftc-wheel-conversion-plate-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapseftc-wheel-conversion-plate-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseftc-wheel-conversion-plate-2" aria-expanded="false" aria-controls="collapseftc-wheel-conversion-plate-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapseftc-wheel-conversion-plate-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseftc-wheel-conversion-plate-3" aria-expanded="false" aria-controls="collapseftc-wheel-conversion-plate-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/wheel-conversion-plate" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-maxspline,-bore-0-2-,-bore-0-5--hex,-bore-1-,-material-aluminum,-od-1-37-,-vendor-rev-robotics">
+	<th scope="row" data-label="Product">
+		<strong>MAXHub Aluminum</strong><br>
+		<img src="/images/products/hubs/rev-maxhub-aluminum.webp" class="img-thumbnail" alt="MAXHub Aluminum">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapsemaxhub-aluminum-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-aluminum-0" aria-expanded="false" aria-controls="collapsemaxhub-aluminum-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapsemaxhub-aluminum-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-aluminum-1" aria-expanded="false" aria-controls="collapsemaxhub-aluminum-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsemaxhub-aluminum-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-aluminum-2" aria-expanded="false" aria-controls="collapsemaxhub-aluminum-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapsemaxhub-aluminum-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-aluminum-3" aria-expanded="false" aria-controls="collapsemaxhub-aluminum-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.revrobotics.com/MAXHubs/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">REV Robotics</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-maxspline,-bore-0-5--hex,-bore-5mm-hex,-material-plastic,-od-1-37-,-vendor-rev-robotics">
+	<th scope="row" data-label="Product">
+		<strong>MAXHub Plastic</strong><br>
+		<img src="/images/products/hubs/rev-maxhub-plastic.webp" class="img-thumbnail" alt="MAXHub Plastic">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapsemaxhub-plastic-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-plastic-0" aria-expanded="false" aria-controls="collapsemaxhub-plastic-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapsemaxhub-plastic-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-plastic-1" aria-expanded="false" aria-controls="collapsemaxhub-plastic-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsemaxhub-plastic-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-plastic-2" aria-expanded="false" aria-controls="collapsemaxhub-plastic-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapsemaxhub-plastic-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxhub-plastic-3" aria-expanded="false" aria-controls="collapsemaxhub-plastic-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.revrobotics.com/MAXHubs/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">REV Robotics</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-maxspline,-bore-0-5--hex,-material-aluminum,-material-plastic,-od-1-37-,-vendor-rev-robotics">
+	<th scope="row" data-label="Product">
+		<strong>MAXSpline Shaft Endcap</strong><br>
+		<img src="/images/products/hubs/rev-maxspline-endcap.webp" class="img-thumbnail" alt="MAXSpline Shaft Endcap">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapsemaxspline-shaft-endcap-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxspline-shaft-endcap-0" aria-expanded="false" aria-controls="collapsemaxspline-shaft-endcap-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapsemaxspline-shaft-endcap-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxspline-shaft-endcap-1" aria-expanded="false" aria-controls="collapsemaxspline-shaft-endcap-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsemaxspline-shaft-endcap-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxspline-shaft-endcap-2" aria-expanded="false" aria-controls="collapsemaxspline-shaft-endcap-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapsemaxspline-shaft-endcap-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemaxspline-shaft-endcap-3" aria-expanded="false" aria-controls="collapsemaxspline-shaft-endcap-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.revrobotics.com/rev-21-2393/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">REV Robotics</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-1-875--bolt-circle,-bore-0-5--hex,-material-aluminum,-od-1-125-,-vendor-the-thrifty-bot">
+	<th scope="row" data-label="Product">
+		<strong>The Thrifty Hub</strong><br>
+		<img src="/images/products/hubs/thriftyhub.webp" class="img-thumbnail" alt="The Thrifty Hub">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapsethe-thrifty-hub-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsethe-thrifty-hub-0" aria-expanded="false" aria-controls="collapsethe-thrifty-hub-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapsethe-thrifty-hub-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsethe-thrifty-hub-1" aria-expanded="false" aria-controls="collapsethe-thrifty-hub-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsethe-thrifty-hub-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsethe-thrifty-hub-2" aria-expanded="false" aria-controls="collapsethe-thrifty-hub-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapsethe-thrifty-hub-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsethe-thrifty-hub-3" aria-expanded="false" aria-controls="collapsethe-thrifty-hub-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.thethriftybot.com/bearings/QTY-4-The-Thrifty-Hub-Half-Inch-Hex-p151670087" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Thrifty Bot</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-1-875--bolt-circle,-attachment-type-versakey,-bore-0-25-,-bore-0-5--hex,-bore-0-5--w--key,-material-aluminum,-od-1-125-,-vendor-the-robot-space,-vendor-vexpro,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>VersaHub Aluminum</strong><br>
+		<img src="/images/products/hubs/versahub-aluminum.webp" class="img-thumbnail" alt="VersaHub Aluminum">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapseversahub-aluminum-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-aluminum-0" aria-expanded="false" aria-controls="collapseversahub-aluminum-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapseversahub-aluminum-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-aluminum-1" aria-expanded="false" aria-controls="collapseversahub-aluminum-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapseversahub-aluminum-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-aluminum-2" aria-expanded="false" aria-controls="collapseversahub-aluminum-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapseversahub-aluminum-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-aluminum-3" aria-expanded="false" aria-controls="collapseversahub-aluminum-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.therobotspace.com/SearchResults.asp?Cat&#x3D;1902" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Robot Space</a><a href="https://www.vexrobotics.com/versahubs.html" class="list-group-item list-group-item-action list-group-item-green" target="_blank">VEXpro</a><a href="https://wcproducts.com/products/versahubs" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-1-875--bolt-circle,-attachment-type-versakey,-bore-1-125-,-material-plastic,-od-2-2-,-vendor-the-robot-space,-vendor-vexpro,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>VersaHub for Bearing</strong><br>
+		<img src="/images/products/hubs/versahub-for-bearing.webp" class="img-thumbnail" alt="VersaHub for Bearing">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapseversahub-for-bearing-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-for-bearing-0" aria-expanded="false" aria-controls="collapseversahub-for-bearing-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapseversahub-for-bearing-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-for-bearing-1" aria-expanded="false" aria-controls="collapseversahub-for-bearing-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapseversahub-for-bearing-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-for-bearing-2" aria-expanded="false" aria-controls="collapseversahub-for-bearing-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapseversahub-for-bearing-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-for-bearing-3" aria-expanded="false" aria-controls="collapseversahub-for-bearing-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.therobotspace.com/SearchResults.asp?Cat&#x3D;1902" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Robot Space</a><a href="https://www.vexrobotics.com/versahubs.html" class="list-group-item list-group-item-action list-group-item-green" target="_blank">VEXpro</a><a href="https://wcproducts.com/products/versahubs" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-attachment-type-1-875--bolt-circle,-attachment-type-versakey,-bore-0-5--hex,-material-plastic,-od-1-125-,-vendor-the-robot-space,-vendor-vexpro,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>VersaHub Plastic</strong><br>
+		<img src="/images/products/hubs/versahub-plastic.webp" class="img-thumbnail" alt="VersaHub Plastic">
+	</th>
+	<td data-label="Attachment Type">
+	<div class="tags collapse" id="collapseversahub-plastic-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-plastic-0" aria-expanded="false" aria-controls="collapseversahub-plastic-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Bore">
+	<div class="tags collapse" id="collapseversahub-plastic-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-plastic-1" aria-expanded="false" aria-controls="collapseversahub-plastic-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapseversahub-plastic-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-plastic-2" aria-expanded="false" aria-controls="collapseversahub-plastic-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="OD">
+	<div class="tags collapse" id="collapseversahub-plastic-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseversahub-plastic-3" aria-expanded="false" aria-controls="collapseversahub-plastic-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.therobotspace.com/SearchResults.asp?Cat&#x3D;1902" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Robot Space</a><a href="https://www.vexrobotics.com/versahubs.html" class="list-group-item list-group-item-action list-group-item-green" target="_blank">VEXpro</a><a href="https://wcproducts.com/products/versahubs" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr></tbody>
+</table>
+				</main>
+				<footer class="row p-4 gx-5">
+					<div class="col-12 col-md-4">
+						<p>Brought to you by:</p>
+						<a href="https://burncoatrobotics.org/" class="d-block mb-5"><img src="/images/logo/burncoat-robotics-white.svg" width="100%" alt="Burncoat Robotics"></a>
+						<ul>
+							<li><a href="/about">About Find Robot Parts</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Find Robot Parts was designed to help robotics teams:</p>
+						<ol>
+							<li>Determine which products meet their needs</li>
+							<li>Learn about products and vendors they are not aware of</li>
+						</ol>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Learn about our other websites:</p>
+						<ul>
+							<li><a href="https://sneac.info/">SNEAC - Southern New England Advocacy Conference</a></li>
+						</ul>
+						<p>Proudly Supporting:</p>
+						<ul>
+							<li><a href="https://mysasa.org/" target="_blank">SASA - Student Association for STEM Advocacy</a></li>
+							<li><a href="https://mysasa.org/national-advocacy-conference" target="_blank">NAC - National Advocacy Conference</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-block collapse order-1" id="sidebar">
+				<div class="row">
+					<div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Attachment Type</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Attachment Type options">
+			<input type="checkbox" class="btn-check" name="attachment-type" id="tag-attachment-type-1-875--bolt-circle" value="-attachment-type-1-875--bolt-circle" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-attachment-type-1-875--bolt-circle">1.875&quot; Bolt Circle</label>	<input type="checkbox" class="btn-check" name="attachment-type" id="tag-attachment-type-16mm-bolt-circle" value="-attachment-type-16mm-bolt-circle" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-attachment-type-16mm-bolt-circle">16mm Bolt Circle</label>	<input type="checkbox" class="btn-check" name="attachment-type" id="tag-attachment-type-maxspline" value="-attachment-type-maxspline" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-attachment-type-maxspline">MAXSpline</label>	<input type="checkbox" class="btn-check" name="attachment-type" id="tag-attachment-type-press-fit" value="-attachment-type-press-fit" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-attachment-type-press-fit">Press Fit</label>	<input type="checkbox" class="btn-check" name="attachment-type" id="tag-attachment-type-versakey" value="-attachment-type-versakey" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-attachment-type-versakey">VersaKey</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Bore</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Bore options">
+			<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-2-" value="-bore-0-2-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-2-">0.2&quot;</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-25-" value="-bore-0-25-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-25-">0.25&quot;</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-375--bearing" value="-bore-0-375--bearing" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-375--bearing">0.375&quot; bearing</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-375--hex" value="-bore-0-375--hex" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-375--hex">0.375&quot; hex</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-375--w--key" value="-bore-0-375--w--key" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-375--w--key">0.375&quot; w/ key</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-5--bearing" value="-bore-0-5--bearing" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-5--bearing">0.5&quot; bearing</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-5--hex" value="-bore-0-5--hex" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-5--hex">0.5&quot; hex</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-5--w--2-keys" value="-bore-0-5--w--2-keys" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-5--w--2-keys">0.5&quot; w/ 2 keys</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-5--w--key" value="-bore-0-5--w--key" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-5--w--key">0.5&quot; w/ key</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-625--w--key" value="-bore-0-625--w--key" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-625--w--key">0.625&quot; w/ key</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-0-875-" value="-bore-0-875-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-0-875-">0.875&quot;</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-1-" value="-bore-1-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-1-">1&quot;</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-1-125-" value="-bore-1-125-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-1-125-">1.125&quot;</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-5mm-hex" value="-bore-5mm-hex" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-5mm-hex">5mm hex</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-8mm-w--key" value="-bore-8mm-w--key" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-8mm-w--key">8mm w/ key</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-8-1mm" value="-bore-8-1mm" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-8-1mm">8.1mm</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-10mm-dd" value="-bore-10mm-dd" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-10mm-dd">10mm DD</label>	<input type="checkbox" class="btn-check" name="bore" id="tag-bore-10mm-w--key" value="-bore-10mm-w--key" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-bore-10mm-w--key">10mm w/ key</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Material</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Material options">
+			<input type="checkbox" class="btn-check" name="material" id="tag-material-aluminum" value="-material-aluminum" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-material-aluminum">Aluminum</label>	<input type="checkbox" class="btn-check" name="material" id="tag-material-plastic" value="-material-plastic" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-material-plastic">Plastic</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">OD</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="OD options">
+			<input type="checkbox" class="btn-check" name="od" id="tag-od-0-96-" value="-od-0-96-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-od-0-96-">0.96&quot;</label>	<input type="checkbox" class="btn-check" name="od" id="tag-od-1-125-" value="-od-1-125-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-od-1-125-">1.125&quot;</label>	<input type="checkbox" class="btn-check" name="od" id="tag-od-1-2-" value="-od-1-2-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-od-1-2-">1.2&quot;</label>	<input type="checkbox" class="btn-check" name="od" id="tag-od-1-37-" value="-od-1-37-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-od-1-37-">1.37&quot;</label>	<input type="checkbox" class="btn-check" name="od" id="tag-od-1-95-" value="-od-1-95-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-od-1-95-">1.95&quot;</label>	<input type="checkbox" class="btn-check" name="od" id="tag-od-2-2-" value="-od-2-2-" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-od-2-2-">2.2&quot;</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Vendors</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Vendors options">
+			<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-andymark" value="-vendor-andymark" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-andymark">AndyMark</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-rev-robotics" value="-vendor-rev-robotics" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-rev-robotics">REV Robotics</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-studica" value="-vendor-studica" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-studica">Studica</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-the-robot-space" value="-vendor-the-robot-space" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-the-robot-space">The Robot Space</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-the-thrifty-bot" value="-vendor-the-thrifty-bot" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-the-thrifty-bot">The Thrifty Bot</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-vexpro" value="-vendor-vexpro" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-vexpro">VEXpro</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-west-coast-products" value="-vendor-west-coast-products" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-west-coast-products">West Coast Products</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+			<div class="offcanvas-header">
+				<p class="h5 offcanvas-title" id="offcanvasLabel">Menu</p>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<p class="h6">3D Printed Models</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/battery-accessories">
+							<img src="/images/categories/3d/battery-accessories-gray.webp" class="img-thumbnail" alt="Battery Accessories">
+							Battery Accessories
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/motor-adaptors">
+							<img src="/images/categories/3d/motor-adaptors-gray.webp" class="img-thumbnail" alt="Motor Adaptors">
+							Motor Adaptors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/mounts">
+							<img src="/images/categories/3d/mounts-gray.webp" class="img-thumbnail" alt="Mounts">
+							Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/wheels">
+							<img src="/images/categories/3d/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Electrical</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/batteries">
+							<img src="/images/categories/batteries-gray.webp" class="img-thumbnail" alt="Batteries">
+							Batteries
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/battery-chargers">
+							<img src="/images/categories/battery-chargers-gray.webp" class="img-thumbnail" alt="Battery Chargers">
+							Battery Chargers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gamecontrollers">
+							<img src="/images/categories/gamecontrollers-gray.webp" class="img-thumbnail" alt="Game Controller">
+							Game Controller
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/lights">
+							<img src="/images/categories/lights-gray.webp" class="img-thumbnail" alt="Lights">
+							Lights
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motor-controllers">
+							<img src="/images/categories/motor-controllers-gray.webp" class="img-thumbnail" alt="Motor Controllers">
+							Motor Controllers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sensors">
+							<img src="/images/categories/sensors-gray.webp" class="img-thumbnail" alt="Sensors">
+							Sensors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wireconnectors">
+							<img src="/images/categories/wireconnectors-gray.webp" class="img-thumbnail" alt="Wire Connectors">
+							Wire Connectors
+						</a>
+					</div></div>
+<p class="h6">Hardware</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bearings">
+							<img src="/images/categories/bearings-gray.webp" class="img-thumbnail" alt="Bearings">
+							Bearings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gussets">
+							<img src="/images/categories/gussets-gray.webp" class="img-thumbnail" alt="Gussets and Mounts">
+							Gussets and Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shafts">
+							<img src="/images/categories/shafts-gray.webp" class="img-thumbnail" alt="Shafts">
+							Shafts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shaftcollars">
+							<img src="/images/categories/shaftcollars-gray.webp" class="img-thumbnail" alt="Shaft Collars">
+							Shaft Collars
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/structure">
+							<img src="/images/categories/structure-gray.webp" class="img-thumbnail" alt="Structure">
+							Structure
+						</a>
+					</div></div>
+<p class="h6">Motion</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/belts">
+							<img src="/images/categories/belts-gray.webp" class="img-thumbnail" alt="Belts">
+							Belts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/chain">
+							<img src="/images/categories/chain-gray.webp" class="img-thumbnail" alt="Chain">
+							Chain
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gearboxes">
+							<img src="/images/categories/gearboxes-gray.webp" class="img-thumbnail" alt="Gearboxes">
+							Gearboxes
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gears">
+							<img src="/images/categories/gears-gray.webp" class="img-thumbnail" alt="Gears">
+							Gears
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/hubs">
+							<img src="/images/categories/hubs-gray.webp" class="img-thumbnail" alt="Hubs">
+							Hubs
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/linearactuators">
+							<img src="/images/categories/linearactuators-gray.webp" class="img-thumbnail" alt="Linear Actuators">
+							Linear Actuators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motors">
+							<img src="/images/categories/motors-gray.webp" class="img-thumbnail" alt="Motors">
+							Motors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pulleys">
+							<img src="/images/categories/pulleys-gray.webp" class="img-thumbnail" alt="Pulleys">
+							Pulleys
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/servos">
+							<img src="/images/categories/servos-gray.webp" class="img-thumbnail" alt="Servos">
+							Servos
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sprockets">
+							<img src="/images/categories/sprockets-gray.webp" class="img-thumbnail" alt="Sprockets">
+							Sprockets
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wheels">
+							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Pneumatics</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/accumulators">
+							<img src="/images/categories/accumulators-gray.webp" class="img-thumbnail" alt="Accumulators">
+							Accumulators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/compressors">
+							<img src="/images/categories/compressors-gray.webp" class="img-thumbnail" alt="Compressors">
+							Compressors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticcomponents">
+							<img src="/images/categories/pneumatic-components-gray.webp" class="img-thumbnail" alt="Components">
+							Components
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticfittings">
+							<img src="/images/categories/pneumaticfittings-gray.webp" class="img-thumbnail" alt="Fittings">
+							Fittings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumatictubing">
+							<img src="/images/categories/pneumatictubing-gray.webp" class="img-thumbnail" alt="Tubing">
+							Tubing
+						</a>
+					</div></div>
+<p class="h6">Miscellaneous</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bumperfabric">
+							<img src="/images/categories/bumperfabric-gray.webp" class="img-thumbnail" alt="Bumper Fabric">
+							Bumper Fabric
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/bumpernumbers">
+							<img src="/images/categories/bumpernumbers-gray.webp" class="img-thumbnail" alt="Bumper Numbers">
+							Bumper Numbers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/resources-programming">
+							<img src="/images/categories/resources-programming-gray.webp" class="img-thumbnail" alt="Programming Resources">
+							Programming Resources
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/subsystems">
+							<img src="/images/categories/subsystems-gray.webp" class="img-thumbnail" alt="Subsystems">
+							Subsystems
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/vendors">
+							<img src="/images/categories/vendors-gray.webp" class="img-thumbnail" alt="Vendors">
+							Vendors
+						</a>
+					</div></div>
+
+			</div>
+		</div>
+	</div>
+	<script src="/js/robotparts.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

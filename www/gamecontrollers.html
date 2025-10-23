@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
+
+	<title>Game Controllers - Find Robot Parts</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/burncoat.css" rel="stylesheet">
+	<link href="/css/robotparts.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar align-middle sticky-top navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand py-0" href="/">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-sm-none" width="230" height="34"
+					alt="Find Robot Parts">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-none d-sm-block" width="443"
+					height="65" alt="Find Robot Parts">
+			</a>
+			<ul class="nav">
+				<li class="d-block d-sm-none">
+					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
+						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
+						aria-label="Toggle Filter">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+						</svg>
+						Filter
+					</a>
+				</li>
+				<li>
+					<a href="#offcanvas" class="nav-link text-white px-2 py-1" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false"
+						aria-label="Toggle Menu">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						Categories
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col overflow-auto order-2">
+				<main class="p-4">
+					<div class="row mb-2">
+	<div class="col-4 col-lg-2">
+		<img src="/images/categories/gamecontrollers-gray.webp" alt="gamecontrollers" class="img-thumbnail" style="width:100%" id="category-image">
+	</div>
+	<div class="col-8 col-lg-10">
+		<h1 class="mb-0" id="category-title">false</h1>
+		<div id="category-description"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col">
+		<p class="fw-light fst-italic mb-0">Showing <span id="numShown"></span> of <span id="numTotal"></span></p>
+	</div>
+	<div class="col text-end">
+		<a href="#" id="showall" class="btn btn-outline-green btn-sm">Show All</a>
+	</div>
+</div>
+<table id="productdata" class="table table-striped table-collapse">
+	<thead><tr>
+	<th scope="col">Product</th>
+	<th scope="col">Type</th><th scope="col">Buttons</th><th scope="col">Analog Joysticks</th><th scope="col">D-Pad</th><th scope="col">Throttle Control</th>
+	<th scope="col">Vendors</th>
+</tr></thead>
+	<tbody><tr data-tags="-type-joystick,-buttons-4,-analog-joysticks-1,-d-pad-0,-throttle-control-no,-vendor-apem">
+	<th scope="row" data-label="Product">
+		<strong>APEM MS Series</strong><br>
+		<img src="/images/products/gamecontrollers/ms-series.webp" class="img-thumbnail" alt="APEM MS Series">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseapem-ms-series-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseapem-ms-series-0" aria-expanded="false" aria-controls="collapseapem-ms-series-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapseapem-ms-series-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseapem-ms-series-1" aria-expanded="false" aria-controls="collapseapem-ms-series-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapseapem-ms-series-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseapem-ms-series-2" aria-expanded="false" aria-controls="collapseapem-ms-series-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapseapem-ms-series-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseapem-ms-series-3" aria-expanded="false" aria-controls="collapseapem-ms-series-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapseapem-ms-series-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseapem-ms-series-4" aria-expanded="false" aria-controls="collapseapem-ms-series-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.apem.com/int/ms-series-77.html" class="list-group-item list-group-item-action list-group-item-green" target="_blank">APEM</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-gamepad,-buttons-8,-analog-joysticks-0,-d-pad-1,-throttle-control-no,-vendor-amazon">
+	<th scope="row" data-label="Product">
+		<strong>Buffalo Classic USB Gamepad for PC</strong><br>
+		<img src="/images/products/gamecontrollers/snes.webp" class="img-thumbnail" alt="Buffalo Classic USB Gamepad for PC">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsebuffalo-classic-usb-gamepad-for-pc-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebuffalo-classic-usb-gamepad-for-pc-0" aria-expanded="false" aria-controls="collapsebuffalo-classic-usb-gamepad-for-pc-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapsebuffalo-classic-usb-gamepad-for-pc-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebuffalo-classic-usb-gamepad-for-pc-1" aria-expanded="false" aria-controls="collapsebuffalo-classic-usb-gamepad-for-pc-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapsebuffalo-classic-usb-gamepad-for-pc-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebuffalo-classic-usb-gamepad-for-pc-2" aria-expanded="false" aria-controls="collapsebuffalo-classic-usb-gamepad-for-pc-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapsebuffalo-classic-usb-gamepad-for-pc-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebuffalo-classic-usb-gamepad-for-pc-3" aria-expanded="false" aria-controls="collapsebuffalo-classic-usb-gamepad-for-pc-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapsebuffalo-classic-usb-gamepad-for-pc-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebuffalo-classic-usb-gamepad-for-pc-4" aria-expanded="false" aria-controls="collapsebuffalo-classic-usb-gamepad-for-pc-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/Buffalo-Classic-USB-Gamepad-PC/dp/B002B9XB0E" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-build-your-own,-buttons-10,-analog-joysticks-1,-d-pad-0,-throttle-control-no,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Button Board</strong><br>
+		<img src="/images/products/gamecontrollers/button-board.webp" class="img-thumbnail" alt="Button Board">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsebutton-board-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebutton-board-0" aria-expanded="false" aria-controls="collapsebutton-board-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapsebutton-board-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebutton-board-1" aria-expanded="false" aria-controls="collapsebutton-board-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapsebutton-board-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebutton-board-2" aria-expanded="false" aria-controls="collapsebutton-board-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapsebutton-board-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebutton-board-3" aria-expanded="false" aria-controls="collapsebutton-board-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapsebutton-board-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebutton-board-4" aria-expanded="false" aria-controls="collapsebutton-board-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/button-board" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-joystick,-buttons-4,-analog-joysticks-1,-d-pad-1,-throttle-control-yes,-vendor-amazon,-vendor-digi-key">
+	<th scope="row" data-label="Product">
+		<strong>CH Flightstick Pro</strong><br>
+		<img src="/images/products/gamecontrollers/chflightstick.webp" class="img-thumbnail" alt="CH Flightstick Pro">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsech-flightstick-pro-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsech-flightstick-pro-0" aria-expanded="false" aria-controls="collapsech-flightstick-pro-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapsech-flightstick-pro-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsech-flightstick-pro-1" aria-expanded="false" aria-controls="collapsech-flightstick-pro-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapsech-flightstick-pro-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsech-flightstick-pro-2" aria-expanded="false" aria-controls="collapsech-flightstick-pro-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapsech-flightstick-pro-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsech-flightstick-pro-3" aria-expanded="false" aria-controls="collapsech-flightstick-pro-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapsech-flightstick-pro-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsech-flightstick-pro-4" aria-expanded="false" aria-controls="collapsech-flightstick-pro-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/gp/product/B00006B84V/ref&#x3D;s9_acsd_al_bw_c_x_5_r" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a><a href="http://www.digikey.com/product-detail/en/ch-products/200-503/1040-1000-ND/2665841" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Digi Key</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-gamepad,-buttons-4,-analog-joysticks-0,-d-pad-1,-throttle-control-no,-vendor-amazon">
+	<th scope="row" data-label="Product">
+		<strong>Classic NES Controller</strong><br>
+		<img src="/images/products/gamecontrollers/nes.webp" class="img-thumbnail" alt="Classic NES Controller">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseclassic-nes-controller-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseclassic-nes-controller-0" aria-expanded="false" aria-controls="collapseclassic-nes-controller-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapseclassic-nes-controller-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseclassic-nes-controller-1" aria-expanded="false" aria-controls="collapseclassic-nes-controller-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapseclassic-nes-controller-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseclassic-nes-controller-2" aria-expanded="false" aria-controls="collapseclassic-nes-controller-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapseclassic-nes-controller-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseclassic-nes-controller-3" aria-expanded="false" aria-controls="collapseclassic-nes-controller-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapseclassic-nes-controller-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseclassic-nes-controller-4" aria-expanded="false" aria-controls="collapseclassic-nes-controller-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/Mekela-Controller-Joystick-Raspberry-Emulators/dp/B075ZN1GXK/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-joystick,-buttons-11,-analog-joysticks-1,-d-pad-0,-throttle-control-yes,-vendor-amazon">
+	<th scope="row" data-label="Product">
+		<strong>Logitech Attack 3</strong><br>
+		<img src="/images/products/gamecontrollers/logitechattack.webp" class="img-thumbnail" alt="Logitech Attack 3">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapselogitech-attack-3-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-attack-3-0" aria-expanded="false" aria-controls="collapselogitech-attack-3-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapselogitech-attack-3-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-attack-3-1" aria-expanded="false" aria-controls="collapselogitech-attack-3-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapselogitech-attack-3-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-attack-3-2" aria-expanded="false" aria-controls="collapselogitech-attack-3-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapselogitech-attack-3-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-attack-3-3" aria-expanded="false" aria-controls="collapselogitech-attack-3-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapselogitech-attack-3-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-attack-3-4" aria-expanded="false" aria-controls="collapselogitech-attack-3-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/Logitech-963291-0403-Attack-3-Joystick/dp/B0000ALFC5" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-joystick,-buttons-12,-analog-joysticks-1,-d-pad-1,-throttle-control-yes,-vendor-amazon,-vendor-best-buy,-vendor-logitech,-vendor-newegg">
+	<th scope="row" data-label="Product">
+		<strong>Logitech Extreme 3D Pro</strong><br>
+		<img src="/images/products/gamecontrollers/logitechextreme.webp" class="img-thumbnail" alt="Logitech Extreme 3D Pro">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapselogitech-extreme-3d-pro-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-extreme-3d-pro-0" aria-expanded="false" aria-controls="collapselogitech-extreme-3d-pro-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapselogitech-extreme-3d-pro-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-extreme-3d-pro-1" aria-expanded="false" aria-controls="collapselogitech-extreme-3d-pro-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapselogitech-extreme-3d-pro-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-extreme-3d-pro-2" aria-expanded="false" aria-controls="collapselogitech-extreme-3d-pro-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapselogitech-extreme-3d-pro-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-extreme-3d-pro-3" aria-expanded="false" aria-controls="collapselogitech-extreme-3d-pro-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapselogitech-extreme-3d-pro-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-extreme-3d-pro-4" aria-expanded="false" aria-controls="collapselogitech-extreme-3d-pro-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/Logitech-963290-0403-Extreme-Joystick-Windows/dp/B00009OY9U" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a><a href="http://www.bestbuy.com/site/logitech-extreme-3d-pro-joystick-silver-black/5796515.p?skuId&#x3D;5796515" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Best Buy</a><a href="http://gaming.logitech.com/en-us/product/extreme-3d-pro-joystick" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Logitech</a><a href="http://www.newegg.com/Product/Product.aspx?Item&#x3D;N82E16826102204" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Newegg</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-gamepad,-buttons-10,-analog-joysticks-2,-d-pad-1,-throttle-control-no,-vendor-amazon,-vendor-andymark,-vendor-best-buy,-vendor-newegg,-vendor-staples,-vendor-target,-vendor-walmart">
+	<th scope="row" data-label="Product">
+		<strong>Logitech Gamepad F310</strong><br>
+		<img src="/images/products/gamecontrollers/logitechgamepad.webp" class="img-thumbnail" alt="Logitech Gamepad F310">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapselogitech-gamepad-f310-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-gamepad-f310-0" aria-expanded="false" aria-controls="collapselogitech-gamepad-f310-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapselogitech-gamepad-f310-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-gamepad-f310-1" aria-expanded="false" aria-controls="collapselogitech-gamepad-f310-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapselogitech-gamepad-f310-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-gamepad-f310-2" aria-expanded="false" aria-controls="collapselogitech-gamepad-f310-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapselogitech-gamepad-f310-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-gamepad-f310-3" aria-expanded="false" aria-controls="collapselogitech-gamepad-f310-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapselogitech-gamepad-f310-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapselogitech-gamepad-f310-4" aria-expanded="false" aria-controls="collapselogitech-gamepad-f310-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/dp/B003VAHYQY" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a><a href="https://www.andymark.com/products/logitech-gamepad-f310" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a><a href="http://www.bestbuy.com/site/logitech-f310-gaming-pad-blue-black/1260591.p?skuId&#x3D;1260591" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Best Buy</a><a href="http://www.newegg.com/Product/Product.aspx?Item&#x3D;N82E16826104402" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Newegg</a><a href="http://www.staples.com/Logitech-Gamepad-Controller-for-PC-F310/product_419738" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Staples</a><a href="http://www.target.com/p/logitech-f310-gamepad/-/A-13670128" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Target</a><a href="https://www.walmart.com/ip/Logitech-F310-Gaming-Pad/16419686" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Walmart</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-joystick,-buttons-8,-analog-joysticks-1,-d-pad-0,-throttle-control-yes,-vendor-newegg">
+	<th scope="row" data-label="Product">
+		<strong>Mad Catz V.1 Joystick</strong><br>
+		<img src="/images/products/gamecontrollers/madcatz.webp" class="img-thumbnail" alt="Mad Catz V.1 Joystick">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsemad-catz-v-1-joystick-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemad-catz-v-1-joystick-0" aria-expanded="false" aria-controls="collapsemad-catz-v-1-joystick-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapsemad-catz-v-1-joystick-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemad-catz-v-1-joystick-1" aria-expanded="false" aria-controls="collapsemad-catz-v-1-joystick-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapsemad-catz-v-1-joystick-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemad-catz-v-1-joystick-2" aria-expanded="false" aria-controls="collapsemad-catz-v-1-joystick-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapsemad-catz-v-1-joystick-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemad-catz-v-1-joystick-3" aria-expanded="false" aria-controls="collapsemad-catz-v-1-joystick-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapsemad-catz-v-1-joystick-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsemad-catz-v-1-joystick-4" aria-expanded="false" aria-controls="collapsemad-catz-v-1-joystick-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.newegg.com/mad-catz-v-1-joystick/p/N82E16826618025" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Newegg</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-gamepad,-buttons-10,-analog-joysticks-1,-d-pad-1,-throttle-control-no,-vendor-amazon">
+	<th scope="row" data-label="Product">
+		<strong>Retrolink Nintendo 64 Classic</strong><br>
+		<img src="/images/products/gamecontrollers/n64.webp" class="img-thumbnail" alt="Retrolink Nintendo 64 Classic">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseretrolink-nintendo-64-classic-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseretrolink-nintendo-64-classic-0" aria-expanded="false" aria-controls="collapseretrolink-nintendo-64-classic-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapseretrolink-nintendo-64-classic-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseretrolink-nintendo-64-classic-1" aria-expanded="false" aria-controls="collapseretrolink-nintendo-64-classic-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapseretrolink-nintendo-64-classic-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseretrolink-nintendo-64-classic-2" aria-expanded="false" aria-controls="collapseretrolink-nintendo-64-classic-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapseretrolink-nintendo-64-classic-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseretrolink-nintendo-64-classic-3" aria-expanded="false" aria-controls="collapseretrolink-nintendo-64-classic-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapseretrolink-nintendo-64-classic-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseretrolink-nintendo-64-classic-4" aria-expanded="false" aria-controls="collapseretrolink-nintendo-64-classic-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/gp/product/B008L3UUPS" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-gamepad,-buttons-6,-analog-joysticks-0,-d-pad-1,-throttle-control-no,-vendor-amazon">
+	<th scope="row" data-label="Product">
+		<strong>SNES Retro USB Controller</strong><br>
+		<img src="/images/products/gamecontrollers/snes2.webp" class="img-thumbnail" alt="SNES Retro USB Controller">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsesnes-retro-usb-controller-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesnes-retro-usb-controller-0" aria-expanded="false" aria-controls="collapsesnes-retro-usb-controller-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapsesnes-retro-usb-controller-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesnes-retro-usb-controller-1" aria-expanded="false" aria-controls="collapsesnes-retro-usb-controller-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapsesnes-retro-usb-controller-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesnes-retro-usb-controller-2" aria-expanded="false" aria-controls="collapsesnes-retro-usb-controller-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapsesnes-retro-usb-controller-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesnes-retro-usb-controller-3" aria-expanded="false" aria-controls="collapsesnes-retro-usb-controller-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapsesnes-retro-usb-controller-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesnes-retro-usb-controller-4" aria-expanded="false" aria-controls="collapsesnes-retro-usb-controller-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/gp/product/B0034ZOAO0" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-gamepad,-buttons-10,-analog-joysticks-2,-d-pad-1,-throttle-control-no,-vendor-amazon">
+	<th scope="row" data-label="Product">
+		<strong>Xbox One Controller</strong><br>
+		<img src="/images/products/gamecontrollers/xboxone.webp" class="img-thumbnail" alt="Xbox One Controller">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsexbox-one-controller-0">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsexbox-one-controller-0" aria-expanded="false" aria-controls="collapsexbox-one-controller-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Buttons">
+	<div class="tags collapse" id="collapsexbox-one-controller-1">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsexbox-one-controller-1" aria-expanded="false" aria-controls="collapsexbox-one-controller-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Analog Joysticks">
+	<div class="tags collapse" id="collapsexbox-one-controller-2">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsexbox-one-controller-2" aria-expanded="false" aria-controls="collapsexbox-one-controller-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="D-Pad">
+	<div class="tags collapse" id="collapsexbox-one-controller-3">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsexbox-one-controller-3" aria-expanded="false" aria-controls="collapsexbox-one-controller-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Throttle Control">
+	<div class="tags collapse" id="collapsexbox-one-controller-4">
+		
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsexbox-one-controller-4" aria-expanded="false" aria-controls="collapsexbox-one-controller-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.amazon.com/Hyperkin-X91-Controller-Red-Xbox-Windows/dp/B01NBW24MY/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Amazon</a>
+		</div>
+	</td>
+</tr></tbody>
+</table>
+				</main>
+				<footer class="row p-4 gx-5">
+					<div class="col-12 col-md-4">
+						<p>Brought to you by:</p>
+						<a href="https://burncoatrobotics.org/" class="d-block mb-5"><img src="/images/logo/burncoat-robotics-white.svg" width="100%" alt="Burncoat Robotics"></a>
+						<ul>
+							<li><a href="/about">About Find Robot Parts</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Find Robot Parts was designed to help robotics teams:</p>
+						<ol>
+							<li>Determine which products meet their needs</li>
+							<li>Learn about products and vendors they are not aware of</li>
+						</ol>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Learn about our other websites:</p>
+						<ul>
+							<li><a href="https://sneac.info/">SNEAC - Southern New England Advocacy Conference</a></li>
+						</ul>
+						<p>Proudly Supporting:</p>
+						<ul>
+							<li><a href="https://mysasa.org/" target="_blank">SASA - Student Association for STEM Advocacy</a></li>
+							<li><a href="https://mysasa.org/national-advocacy-conference" target="_blank">NAC - National Advocacy Conference</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-block collapse order-1" id="sidebar">
+				<div class="row">
+					<div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Type</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Type options">
+			<input type="checkbox" class="btn-check" name="type" id="tag-type-build-your-own" value="-type-build-your-own" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-build-your-own">Build your own</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-gamepad" value="-type-gamepad" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-gamepad">Gamepad</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-joystick" value="-type-joystick" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-joystick">Joystick</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Buttons</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Buttons options">
+			<input type="checkbox" class="btn-check" name="buttons" id="tag-buttons-4" value="-buttons-4" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-buttons-4">4</label>	<input type="checkbox" class="btn-check" name="buttons" id="tag-buttons-6" value="-buttons-6" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-buttons-6">6</label>	<input type="checkbox" class="btn-check" name="buttons" id="tag-buttons-8" value="-buttons-8" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-buttons-8">8</label>	<input type="checkbox" class="btn-check" name="buttons" id="tag-buttons-10" value="-buttons-10" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-buttons-10">10</label>	<input type="checkbox" class="btn-check" name="buttons" id="tag-buttons-11" value="-buttons-11" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-buttons-11">11</label>	<input type="checkbox" class="btn-check" name="buttons" id="tag-buttons-12" value="-buttons-12" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-buttons-12">12</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Analog Joysticks</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Analog Joysticks options">
+			<input type="checkbox" class="btn-check" name="analog-joysticks" id="tag-analog-joysticks-0" value="-analog-joysticks-0" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-analog-joysticks-0">0</label>	<input type="checkbox" class="btn-check" name="analog-joysticks" id="tag-analog-joysticks-1" value="-analog-joysticks-1" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-analog-joysticks-1">1</label>	<input type="checkbox" class="btn-check" name="analog-joysticks" id="tag-analog-joysticks-2" value="-analog-joysticks-2" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-analog-joysticks-2">2</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">D-Pad</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="D-Pad options">
+			<input type="checkbox" class="btn-check" name="d-pad" id="tag-d-pad-0" value="-d-pad-0" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-d-pad-0">0</label>	<input type="checkbox" class="btn-check" name="d-pad" id="tag-d-pad-1" value="-d-pad-1" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-d-pad-1">1</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Throttle Control</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Throttle Control options">
+			<input type="checkbox" class="btn-check" name="throttle-control" id="tag-throttle-control-no" value="-throttle-control-no" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-throttle-control-no">No</label>	<input type="checkbox" class="btn-check" name="throttle-control" id="tag-throttle-control-yes" value="-throttle-control-yes" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-throttle-control-yes">Yes</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Vendors</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Vendors options">
+			<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-amazon" value="-vendor-amazon" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-amazon">Amazon</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-andymark" value="-vendor-andymark" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-andymark">AndyMark</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-apem" value="-vendor-apem" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-apem">APEM</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-best-buy" value="-vendor-best-buy" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-best-buy">Best Buy</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-digi-key" value="-vendor-digi-key" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-digi-key">Digi Key</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-logitech" value="-vendor-logitech" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-logitech">Logitech</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-newegg" value="-vendor-newegg" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-newegg">Newegg</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-staples" value="-vendor-staples" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-staples">Staples</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-target" value="-vendor-target" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-target">Target</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-walmart" value="-vendor-walmart" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-walmart">Walmart</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+			<div class="offcanvas-header">
+				<p class="h5 offcanvas-title" id="offcanvasLabel">Menu</p>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<p class="h6">3D Printed Models</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/battery-accessories">
+							<img src="/images/categories/3d/battery-accessories-gray.webp" class="img-thumbnail" alt="Battery Accessories">
+							Battery Accessories
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/motor-adaptors">
+							<img src="/images/categories/3d/motor-adaptors-gray.webp" class="img-thumbnail" alt="Motor Adaptors">
+							Motor Adaptors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/mounts">
+							<img src="/images/categories/3d/mounts-gray.webp" class="img-thumbnail" alt="Mounts">
+							Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/wheels">
+							<img src="/images/categories/3d/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Electrical</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/batteries">
+							<img src="/images/categories/batteries-gray.webp" class="img-thumbnail" alt="Batteries">
+							Batteries
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/battery-chargers">
+							<img src="/images/categories/battery-chargers-gray.webp" class="img-thumbnail" alt="Battery Chargers">
+							Battery Chargers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gamecontrollers">
+							<img src="/images/categories/gamecontrollers-gray.webp" class="img-thumbnail" alt="Game Controller">
+							Game Controller
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/lights">
+							<img src="/images/categories/lights-gray.webp" class="img-thumbnail" alt="Lights">
+							Lights
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motor-controllers">
+							<img src="/images/categories/motor-controllers-gray.webp" class="img-thumbnail" alt="Motor Controllers">
+							Motor Controllers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sensors">
+							<img src="/images/categories/sensors-gray.webp" class="img-thumbnail" alt="Sensors">
+							Sensors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wireconnectors">
+							<img src="/images/categories/wireconnectors-gray.webp" class="img-thumbnail" alt="Wire Connectors">
+							Wire Connectors
+						</a>
+					</div></div>
+<p class="h6">Hardware</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bearings">
+							<img src="/images/categories/bearings-gray.webp" class="img-thumbnail" alt="Bearings">
+							Bearings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gussets">
+							<img src="/images/categories/gussets-gray.webp" class="img-thumbnail" alt="Gussets and Mounts">
+							Gussets and Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shafts">
+							<img src="/images/categories/shafts-gray.webp" class="img-thumbnail" alt="Shafts">
+							Shafts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shaftcollars">
+							<img src="/images/categories/shaftcollars-gray.webp" class="img-thumbnail" alt="Shaft Collars">
+							Shaft Collars
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/structure">
+							<img src="/images/categories/structure-gray.webp" class="img-thumbnail" alt="Structure">
+							Structure
+						</a>
+					</div></div>
+<p class="h6">Motion</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/belts">
+							<img src="/images/categories/belts-gray.webp" class="img-thumbnail" alt="Belts">
+							Belts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/chain">
+							<img src="/images/categories/chain-gray.webp" class="img-thumbnail" alt="Chain">
+							Chain
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gearboxes">
+							<img src="/images/categories/gearboxes-gray.webp" class="img-thumbnail" alt="Gearboxes">
+							Gearboxes
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gears">
+							<img src="/images/categories/gears-gray.webp" class="img-thumbnail" alt="Gears">
+							Gears
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/hubs">
+							<img src="/images/categories/hubs-gray.webp" class="img-thumbnail" alt="Hubs">
+							Hubs
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/linearactuators">
+							<img src="/images/categories/linearactuators-gray.webp" class="img-thumbnail" alt="Linear Actuators">
+							Linear Actuators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motors">
+							<img src="/images/categories/motors-gray.webp" class="img-thumbnail" alt="Motors">
+							Motors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pulleys">
+							<img src="/images/categories/pulleys-gray.webp" class="img-thumbnail" alt="Pulleys">
+							Pulleys
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/servos">
+							<img src="/images/categories/servos-gray.webp" class="img-thumbnail" alt="Servos">
+							Servos
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sprockets">
+							<img src="/images/categories/sprockets-gray.webp" class="img-thumbnail" alt="Sprockets">
+							Sprockets
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wheels">
+							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div></div>
+<p class="h6">Pneumatics</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/accumulators">
+							<img src="/images/categories/accumulators-gray.webp" class="img-thumbnail" alt="Accumulators">
+							Accumulators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/compressors">
+							<img src="/images/categories/compressors-gray.webp" class="img-thumbnail" alt="Compressors">
+							Compressors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticcomponents">
+							<img src="/images/categories/pneumatic-components-gray.webp" class="img-thumbnail" alt="Components">
+							Components
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticfittings">
+							<img src="/images/categories/pneumaticfittings-gray.webp" class="img-thumbnail" alt="Fittings">
+							Fittings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumatictubing">
+							<img src="/images/categories/pneumatictubing-gray.webp" class="img-thumbnail" alt="Tubing">
+							Tubing
+						</a>
+					</div></div>
+<p class="h6">Miscellaneous</p><div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bumperfabric">
+							<img src="/images/categories/bumperfabric-gray.webp" class="img-thumbnail" alt="Bumper Fabric">
+							Bumper Fabric
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/bumpernumbers">
+							<img src="/images/categories/bumpernumbers-gray.webp" class="img-thumbnail" alt="Bumper Numbers">
+							Bumper Numbers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/resources-programming">
+							<img src="/images/categories/resources-programming-gray.webp" class="img-thumbnail" alt="Programming Resources">
+							Programming Resources
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/subsystems">
+							<img src="/images/categories/subsystems-gray.webp" class="img-thumbnail" alt="Subsystems">
+							Subsystems
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/vendors">
+							<img src="/images/categories/vendors-gray.webp" class="img-thumbnail" alt="Vendors">
+							Vendors
+						</a>
+					</div></div>
+
+			</div>
+		</div>
+	</div>
+	<script src="/js/robotparts.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

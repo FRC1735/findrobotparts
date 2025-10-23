@@ -1,33 +1,4 @@
-Options +Includes
-AddOutputFilter INCLUDES .html
-
-ErrorDocument 404 /includes/template.html
-
-<IfModule mod_rewrite.c>
-
-RewriteEngine On
-
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-RewriteRule ^$ /includes/template.html [E=SLUG:__ROOT__,L]
-RewriteRule ^about/?$ /includes/template.html [E=SLUG:__ABOUT__,L]
-
-# If a real file/dir exists, serve it normally (don’t remap assets)
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
-
-RewriteRule ^3d/([0-9a-z-]+)/?$ /includes/template.html [E=SLUG:3d/$1,L]
-RewriteRule ^([0-9a-z-]+)/?$ /includes/template.html [E=SLUG:$1,L]
-
-# Catch-all: anything not already matched becomes a 404
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule ^.*$ includes/template.html [E=SLUG:__404__,L,R=404]
-
-
-</IfModule>
+ErrorDocument 404 /404.html
 
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/plain

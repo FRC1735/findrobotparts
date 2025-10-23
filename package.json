@@ -1,0 +1,7 @@
+{
+	"type": "module",
+	"scripts": { "build": "node scripts/generate-pages.mjs" },
+	"dependencies": {
+		"handlebars": "^4.7.8"
+	}
+}

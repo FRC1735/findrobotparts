@@ -1,37 +1,15 @@
 <!doctype html>
 <html lang="en">
-<!--#config errmsg="[SSI error] %s" -->
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--#if expr='v("REDIRECT_SLUG") != ""' -->
-		<!--#set var="slug" value="$REDIRECT_SLUG" -->
-	<!--#else -->
-		<!--#set var="slug" value="$SLUG" -->
-	<!--#endif -->
-
-	<!--#set var="sidebar" value="block" -->
-	<!--#set var="title" value='$slug' -->
-	<!--#set var="iscategory" value="false" -->
-	<!--#if expr='v("slug") = "__ROOT__"' -->
-		<!--#set var="sidebar" value="none" -->
-		<!--#set var="title" value="Home" -->
-	<!--#elif expr='v("slug") = "__ABOUT__"' -->
-		<!--#set var="sidebar" value="none" -->
-		<!--#set var="title" value="About" -->
-	<!--#elif expr='v("slug") == "" || v("slug") = "__404__"' -->
-		<!--#set var="sidebar" value="none" -->
-		<!--#set var="title" value="Part Not Found" -->
-	<!--#else -->
-		<!--#set var="iscategory" value="true" -->
-	<!--#endif -->
 
 	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
 	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
 	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
 
-	<title><!--#echo var="title" --> - Find Robot Parts</title>
+	<title>Part Not Found - Find Robot Parts</title>
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/burncoat.css" rel="stylesheet">
 	<link href="/css/robotparts.css" rel="stylesheet">
@@ -47,7 +25,7 @@
 					height="65" alt="Find Robot Parts">
 			</a>
 			<ul class="nav">
-				<li class="d-<!--#echo var='sidebar' --> d-sm-none">
+				<li class="d-none d-sm-none">
 					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
 						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
 						aria-label="Toggle Filter">
@@ -78,15 +56,8 @@
 		<div class="row">
 			<div class="col overflow-auto order-2">
 				<main class="p-4">
-					<!--#if expr="v('slug') = '__ROOT__'" -->
-						<!--#include file="./homepage.html" -->
-					<!--#elif expr="v('slug') = '__ABOUT__'" -->
-						<!--#include file="./about.html" -->
-					<!--#elif expr='v("slug") == "" || v("slug") = "__404__"' -->
-						<!--#include file="./404.html" -->
-					<!--#else -->
-						<!--#include file="./product.html" -->
-					<!--#endif -->
+					<p>Looks like the robot part you were looking for was not found.</p>
+<img src='/images/logo/magnifying-glass.png'>
 				</main>
 				<footer class="row p-4 gx-5">
 					<div class="col-12 col-md-4">
@@ -116,8 +87,10 @@
 					</div>
 				</footer>
 			</div>
-			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-<!--#echo var='sidebar' --> collapse order-1" id="sidebar">
-				<div class="row"></div>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-none collapse order-1" id="sidebar">
+				<div class="row">
+					
+				</div>
 			</div>
 		</div>
 		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
@@ -359,16 +332,8 @@
 			</div>
 		</div>
 	</div>
-	<!--#if expr='v("iscategory") = "true"' -->
-	<script>
-		const data = <!--#include virtual="/json/${slug}.json" -->
-	</script>
 	<script src="/js/robotparts.js"></script>
-
-	<!--#endif -->
-
 	<script src="/js/bootstrap.min.js"></script>
-	<!-- <script src="/js/robotparts.js"></script> -->
 
 </body>
 
