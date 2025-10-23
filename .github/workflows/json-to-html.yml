@@ -40,11 +40,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: generated-html
-          path: www/**/*.html
+          path: 'www'
 
       - name: Commit generated HTML (push)
         if: ${{ github.event_name == 'push' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: rebuild HTML from JSON/template [skip ci]"
-          file_pattern: www/**/*.html
+          file_pattern: 'www'

@@ -1,8 +1,6 @@
 {
 	"title": "Battery Chargers",
-	"pathname": "battery-chargers",
 	"description": "<p>Using the right battery charger will get you the best results in competition.</p>",
-	"image_slug": "battery-charger",
 	"filter_groups": ["Banks", "Amps per Bank"],
 	"products": [
 		{
@@ -13,7 +11,8 @@
 				"Amps per Bank": ["2"]
 			},
 			"links": [
-				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Battery-Tender-10-Bank-Charger-12V-2A/46488440" }
+				{ "vendor": "Grainger", "link": "https://www.grainger.com/product/10W831" },
+				{ "vendor": "Battery Tender", "link": "https://www.batterymart.com/p-battery-tender-12v-2a-battery-charger-10b.html" }
 			]
 		}, {
 			"name": "BUSPRO-660",
@@ -48,16 +47,6 @@
 				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Dual-Pro-Recreation-Series-Single-Output-Charger-1-Bank-6-amp-RS1/20753299" }
 			]
 		}, {
-			"name": "Dual Pro RS1 with SB-50A Connector",
-			"image": "/images/battery-chargers/dual-pro-rs1-connectors.jpg",
-			"filters": {
-				"Banks": ["1"],
-				"Amps per Bank": ["6"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/battery-charger-1-bank-6-amp-dual-pro-rs1-with-sb-50a-connector" }
-			]
-		}, {
 			"name": "Dual Pro RS3",
 			"image": "/images/battery-chargers/dual-pro-rs3.jpg",
 			"filters": {
@@ -69,16 +58,6 @@
 				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Dual-Pro-Recreation-Series-Triple-Output-Charger-3-Bank-6-amp-RS3/20753296" }
 			]
 		}, {
-			"name": "Dual Pro RS3 with SB-50A Connectors",
-			"image": "/images/battery-chargers/dual-pro-rs3-connectors.jpg",
-			"filters": {
-				"Banks": ["3"],
-				"Amps per Bank": ["6"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/battery-charger-3-bank-6-amp-dual-pro-rs3-with-sb-50a-connectors" }
-			]
-		}, {
 			"name": "GENIUS2X4  6V/12V 4-Bank",
 			"image": "/images/battery-chargers/noco-genius.jpg",
 			"filters": {
@@ -87,6 +66,7 @@
 			},
 			"links": [
 				{ "vendor": "Amazon", "link": "https://www.amazon.com/dp/B08FYS6CL8/" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/batteries-chargers/products/frc-battery-charger?variant=44493438058668" },
 				{ "vendor": "NOCO", "link": "https://no.co/genius2x4" }
 			]
 		}, {
