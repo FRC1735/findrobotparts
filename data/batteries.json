@@ -1,8 +1,6 @@
 {
 	"title": "Batteries",
-	"pathname": "batteries",
 	"description": "<p>The batteries can be used to power your robot.</p>",
-	"image_slug": "battery",
 	"filter_groups": ["Weight (lbs)", "Capacity (Ah)", "Height", "Width", "Depth"],
 	"products": [
 		{
@@ -42,9 +40,9 @@
 				"Depth": ["7.12"]
 			},
 			"links": [
-				{ "vendor": "Allied", "link": "http://www.alliedelec.com/enersys-np18-12b/70111506/" },
+				{ "vendor": "Allied", "link": "https://us.rs-online.com/product/enersys/np18-12b/70111506/" },
 				{ "vendor": "Amazon", "link": "https://www.amazon.com/EnerSys-Genesis-NP18-12B-Nut-Bolt-Connector/dp/B00KXFKGHO" },
-				{ "vendor": "Newark", "link": "http://www.newark.com/enersys/np18-12b/lead-acid-battery-12v-17-2ah/dp/91B9919" }
+				{ "vendor": "Newark", "link": "https://www.newark.com/enersys/np18-12b/lead-acid-battery-12v-17-2ah/dp/91B9919" }
 			]
 		}, {
 			"name": "ENERSYS NP18-12BFR",
@@ -57,22 +55,25 @@
 				"Depth": ["7.12"]
 			},
 			"links": [
-				{ "vendor": "Allied", "link": "http://www.alliedelec.com/enersys-np18-12bfr/70111495/" },
+				{ "vendor": "Allied", "link": "https://us.rs-online.com/product/enersys/np18-12bfr/70111495/" },
 				{ "vendor": "Amazon", "link": "https://www.amazon.com/EnerSys-Genesis-NP18-12BFR-Connector-Retardant/dp/B0002ZR68M" },
-				{ "vendor": "Newark", "link": "http://www.newark.com/enersys/np18-12bfr/lead-acid-battery-12v-17-2ah/dp/93B3225" }
+				{ "vendor": "Newark", "link": "https://www.newark.com/enersys/np18-12bfr/lead-acid-battery-12v-17-2ah/dp/93B3225" }
 			]
 		}, {
-			"name": "Power Patrol SLA1116",
-			"image": "/images/batteries/power-patrol-sla1116.jpg",
+			"name": "MK ES17-12 12V SLA",
+			"image": "/images/batteries/mk-es17-12.webp",
 			"filters": {
-				"Weight (lbs)": ["12.5"],
-				"Capacity (Ah)": ["18"],
-				"Height": ["6.58"],
-				"Width": ["3"],
-				"Depth": ["7.1"]
+				"Weight (lbs)": ["12.89"],
+				"Capacity (Ah)": ["17.1"],
+				"Height": ["6.57"],
+				"Width": ["2.99"],
+				"Depth": ["7.13"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/interstate-sla1116-12v-sla-battery-set-of-2" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/mk-es17-12-12v-sla-battery-set-of-2" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/MK-Battery-Maintenance-Free-Rechargeable-Lead-Acid/dp/B00E4Q63H0/" },
+				{ "vendor": "Battery Sharks", "link": "https://batterysharks.com/mk-battery-es17-12-battery-replacement.html" },
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-19-2487/" }
 			]
 		}, {
 			"name": "Power Sonic PS-12180NB",
@@ -85,9 +86,8 @@
 				"Depth": ["7.13"]
 			},
 			"links": [
-				{ "vendor": "Allied Electronics", "link": "http://www.alliedelec.com/power-sonic-ps-12180nb/70115636/" },
-				{ "vendor": "Amazon", "link": "https://www.amazon.com/Powersonic-PS-12180NB-18Ah-Lead-Battery/dp/B0002ILJZU" },
-				{ "vendor": "Mouser", "link": "http://www.mouser.com/ProductDetail/Power-Sonic/PS-12180NB/?qs=pPJkSeCyTQDR2GuAEryQJg%3D%3D" }
+				{ "vendor": "Allied Electronics", "link": "https://us.rs-online.com/product/power-sonic/ps-12180nb/70115636/" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Power-Sonic-Genuine-PS-12180NB-Rechargeable-Battery/dp/B00BMUEN9Q/" }
 			]
 		}, {
 			"name": "Sigma SP12-18",
@@ -114,7 +114,7 @@
 			},
 			"links": [
 				{ "vendor": "1000 Bulbs", "link": "https://www.1000bulbs.com/product/56371/BAT-UB12180T4.html" },
-				{ "vendor": "Amazon", "link": "https://www.amazon.com/Universal-Battery-UB12180-Replacement-Electronics/dp/B004ALC6T8" }
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Universal-Power-Group-Generator-Rechargeable/dp/B00CAY4U0U/" }
 			]
 		}, {
 			"name": "Yuasa NP18-12B",
@@ -127,8 +127,7 @@
 				"Depth": ["7.13"]
 			},
 			"links": [
-				{ "vendor": "Amazon", "link": "https://www.amazon.com/Yuasa-NP18-12B-17-2AH-Battery-Terminal/dp/B00FA61MWE" },
-				{ "vendor": "Tesco", "link": "https://www.tessco.com/products/displayProductInfo.do?sku=572480" },
+				{ "vendor": "Tesco", "link": "https://www.tessco.com/product/12-volt-17-2-ah-battery-572480" },
 				{ "vendor": "The Battery Shop", "link": "http://www.thebatteryshop.co.uk/np18-12b-yuasa-12v-172ah-lead-acid-battery-406-p.asp" }
 			]
 		}
