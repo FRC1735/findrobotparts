@@ -22,7 +22,6 @@
 			},
 			"links": [
 				{ "vendor": "Grainger", "link": "https://www.grainger.com/product/THOMAS-1-10-HP-Piston-Air-Compressor-5Z349" },
-				{ "vendor": "Walmart", "link": "http://www.walmart.com/ip/THOMAS-405ADC38-12-Piston-Air-Compressor-1-10HP-12VDCV/40885434" }
 			]
 		}, {
 			"name": "VIAIR 100C",
@@ -52,7 +51,6 @@
 				"Flow Rate (cfm at 0psi)": ["1.06"]
 			},
 			"links": [
-				{ "vendor": "Amazon", "link": "http://www.amazon.com/VIAIR-Series-Compressor-Intercooler-Sealed/dp/B004QU7DDC" },
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/heavy-duty-viair-330c-ig-air-compressor" }
 			]
 		}, {
@@ -65,7 +63,6 @@
 			"links": [
 				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-90-Compressor-Kit/dp/B002A65JR6/" },
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/air-compressor-12-volt-0-88-cfm" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/air-compressor-12-volt-0-88-cfm.html" }
 			]
 		}, {
 			"name": "VIAIR 98C",
