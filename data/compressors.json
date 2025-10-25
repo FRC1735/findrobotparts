@@ -4,18 +4,8 @@
 	"description": "<p>While we do our best to make sure these compressors meet the requirements of FRC please verify they meet the rules and requirements of your application.</p>",
 	"image_slug": "compressor",
 	"filter_groups": ["Duty Cycle @ 100psi", "Flow Rate (cfm at 0psi)"],
-	"products": [
+	"products": [	
 		{
-			"name": "AndyMark 1.1 Air Compressor",
-			"image": "/images/pneumatics/compressors/am-1.1.jpg",
-			"filters": {
-				"Duty Cycle @ 100psi": ["15%"],
-				"Flow Rate (cfm at 0psi)": ["1.1"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-1-pump-12v" }
-			]
-		}, {
 			"name": "CP26",
 			"image": "/images/pneumatics/compressors/cp26.jpg",
 			"filters": {
