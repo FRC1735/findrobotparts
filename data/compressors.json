@@ -1,8 +1,6 @@
 {
 	"title": "Compressors",
-	"pathname": "compressors",
 	"description": "<p>While we do our best to make sure these compressors meet the requirements of FRC please verify they meet the rules and requirements of your application.</p>",
-	"image_slug": "compressor",
 	"filter_groups": ["Duty Cycle @ 100psi", "Flow Rate (cfm at 0psi)"],
 	"products": [	
 		{
