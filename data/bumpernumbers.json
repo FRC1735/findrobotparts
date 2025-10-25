@@ -3,25 +3,66 @@
 	"pathname": "bumpernumbers",
 	"description": "<p>Use these iron on numbers to display your team number on your bumper.</p>",
 	"image_slug": "bumpernumber",
-	"filter_groups": ["Font", "Height", "Stroke", "Width of #8"],
+	"filter_groups": ["Font", "Material", "Height", "Stroke", "Width of #8"],
 	"products": [
 		{
 			"name": "AndyMark Numbers",
 			"image": "/images/bumpernumbers/andymark.jpg",
 			"filters": {
+				"Material": ["Vinyl"],
 				"Font": ["Helvetica Neu (modified)"],
 				"Height": ["4\""],
 				"Stroke": ["0.8\""],
 				"Width of #8": ["2.6\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/vinyl-adhesive-numbers-white-4-in-tall-qty-4-options" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/product/search/search/vinyl+stick-on+number++white" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/vinyl-adhesive-numbers-white-4-in-tall-qty-4" }
+			]
+		}, {
+			"name": "Jiffy Custom DTF",
+			"image": "/images/bumpernumbers/jiffy-custom.jpg",
+			"filters": {
+				"Material": ["DTF"],
+				"Font": ["Custom"],
+				"Height": ["4\""],
+				"Stroke": ["Custom"],
+				"Width of #8": ["Custom"]
+			},
+			"links": [
+				{ "vendor": "Jiffy", "link": "https://www.jiffy.com/jiffytransfers-DTF001.html?ac=Transfer" },
+				{ "vendor": "Ninja Transfers", "link": "https://ninjatransfers.com/products/dtf-transfers" }
+			]
+		}, {
+			"name": "Jiffy DTF Numbers",
+			"image": "/images/bumpernumbers/jiffy-numbers.png",
+			"filters": {
+				"Material": ["DTF"],
+				"Font": ["Solid", "Outline", "Promesh", "Soccer League", "Octin Sports", "Rueckawarzsalto", "Varsity Team"],
+				"Height": ["4\""],
+				"Stroke": ["Varies"],
+				"Width of #8": ["Varies"]
+			},
+			"links": [
+				{ "vendor": "Jiffy", "link": "https://www.jiffy.com/jiffytransfers-DTFLN1.html?ac=Transfer" }
+			]
+		}, {
+			"name": "Ninja Transfers DTF Numbers",
+			"image": "/images/bumpernumbers/ninja-numbers.png",
+			"filters": {
+				"Material": ["DTF"],
+				"Font": ["Academy", "Alfa Slab One", "Anton", "Athletic", "Bowlby One", "College Font", "Dark College", "Quadrat-Serial", "Quadrat-Serial-ExtraBold"],
+				"Height": ["4\""],
+				"Stroke": ["Varies"],
+				"Width of #8": ["Varies"]
+			},
+			"links": [
+				{ "vendor": "Jiffy", "link": "https://www.jiffy.com/jiffytransfers-DTFLN1.html?ac=Transfer" }
 			]
 		}, {
 			"name": "RoboPromo Corner Bumper Numbers",
 			"image": "/images/bumpernumbers/robopromo-corner.jpg",
 			"filters": {
+				"Material": ["Vinyl"],
 				"Font": ["Standard Block"],
 				"Height": ["4\""],
 				"Stroke": ["0.5\""],
@@ -31,45 +72,10 @@
 				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2010.htm" }
 			]
 		}, {
-			"name": "RoboPromo Custom - Arcade",
-			"image": "/images/bumpernumbers/robopromo-arcade.jpg",
-			"filters": {
-				"Font": ["Arcade"],
-				"Height": ["4\""],
-				"Stroke": ["0.8\""],
-				"Width of #8": ["3.25\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Combat",
-			"image": "/images/bumpernumbers/robopromo-combat.jpg",
-			"filters": {
-				"Font": ["Combat"],
-				"Height": ["4\""],
-				"Stroke": ["1\""],
-				"Width of #8": ["3.5\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Command Prompt",
-			"image": "/images/bumpernumbers/robopromo-commandprompt.jpg",
-			"filters": {
-				"Font": ["Command Prompt"],
-				"Height": ["4\""],
-				"Stroke": ["0.5\""],
-				"Width of #8": ["3.5\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
 			"name": "RoboPromo Custom - Custom",
 			"image": "/images/bumpernumbers/robopromo-custom.jpg",
 			"filters": {
+				"Material": ["Vinyl"],
 				"Font": ["Custom"],
 				"Height": ["4\""],
 				"Stroke": ["Custom"],
@@ -79,117 +85,10 @@
 				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
 			]
 		}, {
-			"name": "RoboPromo Custom - Deep Space",
-			"image": "/images/bumpernumbers/robopromo-deepspace.gif",
-			"filters": {
-				"Font": ["Deep Space"],
-				"Height": ["4\""],
-				"Stroke": ["1.2\""],
-				"Width of #8": ["3.8\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Digital",
-			"image": "/images/bumpernumbers/robopromo-digital.jpg",
-			"filters": {
-				"Font": ["Digital"],
-				"Height": ["4\""],
-				"Stroke": ["0.75\""],
-				"Width of #8": ["4\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Mario",
-			"image": "/images/bumpernumbers/robopromo-mario.jpg",
-			"filters": {
-				"Font": ["Mario"],
-				"Height": ["4\""],
-				"Stroke": ["1\""],
-				"Width of #8": ["3.25\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Marker",
-			"image": "/images/bumpernumbers/robopromo-marker.jpg",
-			"filters": {
-				"Font": ["Marker"],
-				"Height": ["4\""],
-				"Stroke": ["0.75\""],
-				"Width of #8": ["2.5\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Modern",
-			"image": "/images/bumpernumbers/robopromo-modern.jpg",
-			"filters": {
-				"Font": ["Modern"],
-				"Height": ["4\""],
-				"Stroke": ["1.125\""],
-				"Width of #8": ["3\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - NASALIZATION",
-			"image": "/images/bumpernumbers/robopromo-nasalization.gif",
-			"filters": {
-				"Font": ["NASALIZATION"],
-				"Height": ["4\""],
-				"Stroke": ["0.72\""],
-				"Width of #8": ["3.6\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Raceway",
-			"image": "/images/bumpernumbers/robopromo-raceway.jpg",
-			"filters": {
-				"Font": ["Raceway"],
-				"Height": ["4\""],
-				"Stroke": ["1\""],
-				"Width of #8": ["4.75\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Robo Clone",
-			"image": "/images/bumpernumbers/robopromo-roboclone.gif",
-			"filters": {
-				"Font": ["Robo Clone"],
-				"Height": ["4\""],
-				"Stroke": ["1.15\""],
-				"Width of #8": ["4.5\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
-			"name": "RoboPromo Custom - Speed",
-			"image": "/images/bumpernumbers/robopromo-speed.jpg",
-			"filters": {
-				"Font": ["Speed"],
-				"Height": ["4\""],
-				"Stroke": ["0.75\""],
-				"Width of #8": ["3.25\""]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
-			]
-		}, {
 			"name": "RoboPromo Numbers",
 			"image": "/images/bumpernumbers/robopromo.gif",
 			"filters": {
+				"Material": ["Vinyl"],
 				"Font": ["Standard Block"],
 				"Height": ["4\""],
 				"Stroke": ["0.875\""],

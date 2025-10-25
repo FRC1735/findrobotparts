@@ -29,11 +29,7 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/25-half-link-for-roller-chain" },
-				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain-Links?navid=12104966#navid=12104966+4288120767+4288120659" },
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p63&filter=a262:2:.250;a207:2:Offset" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/25-half-link-for-roller-chain.html" },
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" },
-				{ "vendor": "VEX Pro", "link": "https://www.vexrobotics.com/roller-chain.html" }
+				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain-Links?navid=12104966#navid=12104966+4288120767+4288120659" }
 			]
 		}, {
 			"name": "#25 Master Link",
@@ -48,11 +44,7 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/25-connecting-link-for-roller-chain" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#6261K108" },
 				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain-Links?navid=12104966#navid=12104966+4288120767+4288120764" },
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p63&filter=a262:2:.250;a207:2:Spring%20Clip" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/25-connecting-link-for-roller-chain.html" },
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1899" },
-				{ "vendor": "VEX Pro", "link": "https://www.vexrobotics.com/roller-chain.html" },
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-41-1365/" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/roller-chain" }
 			]
 		}, {
@@ -65,8 +57,7 @@
 				"Material": ["Plastic"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#roller-chain/=33owuu3vaiir1dhuws" },
-				{ "vendor": "SDP/SI", "link": "https://shop.sdp-si.com/catalog/?cid=p447&filter=a26:2:0.2500" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/6846K2/" },\
 			]
 		}, {
 			"name": "#25 Roller Chain",
@@ -81,12 +72,7 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/25-single-strand-riveted-roller-chain-10" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#6261K171" },
 				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain?navid=12104967#navid=12104967+4288120767" },
-				{ "vendor": "SDP/SI", "link": "https://shop.sdp-si.com/catalog/?cid=p303&filter=a26:2:0.2500" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/25-single-strand-riveted-roller-chain.html" },
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1899" },
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-25h-chain-10-feet-long" },
-				{ "vendor": "VEX Pro", "link": "https://www.vexrobotics.com/roller-chain.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/roller-chain" }
 			]
 		}, {
@@ -99,7 +85,7 @@
 				"Material": ["Steel"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#ansi-roller-chain/=33owuu3vaiir1clpah" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/products/roller-chain-attachment-links/roller-chain-trade-number~35/" }
 			]
 		}, {
 			"name": "#35 Half Link",
@@ -113,9 +99,7 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/35-half-link-for-roller-chain" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#6261K261" },
-				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain-Links?navid=12104966#navid=12104966+4288120050+4288120659" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/35-half-link-for-roller-chain.html" },
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" }
+				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain-Links?navid=12104966#navid=12104966+4288120050+4288120659" }
 			]
 		}, {
 			"name": "#35 Master Link",
@@ -129,10 +113,7 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/35-connecting-link-for-roller-chain" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#6261K191" },
-				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain-Links?navid=12104966#navid=12104966+4288120050+4288120764" },
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p63&filter=a262:2:0.375;a207:2:Spring%20Clip" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/35-connecting-link-for-roller-chain.html" },
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" }
+				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain-Links?navid=12104966#navid=12104966+4288120050+4288120764" }
 			]
 		}, {
 			"name": "#35 Plastic Roller Chain",
@@ -144,8 +125,7 @@
 				"Material": ["Plastic"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#roller-chain/=33owuu3vaiir1difoq" },
-				{ "vendor": "SDP/SI", "link": "https://shop.sdp-si.com/catalog/?cid=p447&filter=a26:2:0.3750" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/6846K4/" }
 			]
 		}, {
 			"name": "#35 Roller Chain",
@@ -160,12 +140,33 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/35-single-strand-riveted-roller-chain-10" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#6261K172" },
 				{ "vendor": "MSC", "link": "https://www.mscdirect.com/browse/tn/Motion-Control-Fluid-Power/Chains-Belts-Pulleys-Sprockets/Chain-Accessories/Roller-Chain?navid=12104967#navid=12104967+4288120050" },
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/product/?id=A_6Y77-37" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/35-single-strand-riveted-roller-chain.html" },
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1899" },
-				{ "vendor": "VEX Pro", "link": "https://www.vexrobotics.com/roller-chain.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/roller-chain" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-3745/" },
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-35-chain-10-feet-long" },
+				{ "vendor": "West Coast Robotics", "link": "https://wcproducts.com/products/roller-chain" }
+			]
+		}, {
+			"name": "Attachment Plate",
+			"image": "/images/chain/rev-attachment-plate.webp",
+			"filters": {
+				"ANSI Chain Size": ["#25"],
+				"Pitch": ["0.25\""],
+				"Type": ["Attachment"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-3535/" }
+			]
+		}, {
+			"name": "Chain Attachment",
+			"image": "/images/chain/ttb-attachment.webp",
+			"filters": {
+				"ANSI Chain Size": ["#25"],
+				"Pitch": ["0.25\""],
+				"Type": ["Attachment"],
+				"Material": ["Steel"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-25-chain-attachment-part" }
 			]
 		}, {
 			"name": "Chain Tread",
@@ -189,7 +190,20 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "Dave's Motors", "link": "http://www.davesmotors.com/DarkSoul-25-Chain-Breaker-Tool-3466.html" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/chain/products/darksoul-25-chain-break" },
+				{ "vendor": "Dave's Motors", "link": "https://www.ddmracing.com/DarkSoul-25-Chain-Breaker-Tool-3466" }
+			]
+		}, {
+			"name": "Inline Tensioner",
+			"image": "/images/chain/am-turnbuckle.webp",
+			"filters": {
+				"ANSI Chain Size": ["#25"],
+				"Pitch": ["0.25\""],
+				"Type": ["Tensioner"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/chain/products/inline-chain-tensioner" }
 			]
 		}, {
 			"name": "Nitro Attachment Link",
@@ -240,7 +254,7 @@
 				{ "vendor": "RollerChain4Less", "link": "https://www.rollerchain4less.com/standard-single-roller-chain" }
 			]
 		}, {
-			"name": "Rev Chain Tool",
+			"name": "REV Chain Tool",
 			"image": "/images/chain/rev-chainbreak.png",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
@@ -249,10 +263,10 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "http://www.revrobotics.com/rev-42-1442/" }
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-42-1442/" }
 			]
 		}, {
-			"name": "Rev Chain Turnbuckle",
+			"name": "REV Chain Turnbuckle",
 			"image": "/images/chain/rev-turnbuckle.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
@@ -261,7 +275,7 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/rev-21-2617/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2617/" }
 			]
 		}, {
 			"name": "Swyft #25 Chain Break",
@@ -273,7 +287,7 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" }
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/chain-tools" }
 			]
 		}, {
 			"name": "Swyft #35 Chain Break",
@@ -285,31 +299,7 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/chain/" }
-			]
-		}, {
-			"name": "Tank Chain",
-			"image": "/images/chain/tankchain.jpg",
-			"filters": {
-				"ANSI Chain Size": ["#35"],
-				"Pitch": ["0.375\""],
-				"Type": ["Tread"],
-				"Material": ["Steel"]
-			},
-			"links": [
-				{ "vendor": "Tank Chain", "link": "http://www.tankchain.com/shop/tank-chain-foot-kit" }
-			]
-		}, {
-			"name": "Thrifty #25 Chain Breaker",
-			"image": "/images/chain/wcp-25-tensioner.webp",
-			"filters": {
-				"ANSI Chain Size": ["#25"],
-				"Pitch": ["0.25\""],
-				"Type": ["Chain Break"],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/hand-tools" }
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/chain-tools" }
 			]
 		}, {
 			"name": "Thrifty #25 Chain Tensioner",
@@ -324,18 +314,6 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-25-chain-tensioner" }
 			]
 		}, {
-			"name": "Thrifty #25/#35 Combo Chain Breaker",
-			"image": "/images/chain/wcp-25-35-tensioner.webp",
-			"filters": {
-				"ANSI Chain Size": ["#25", "#35"],
-				"Pitch": ["0.25\"", "0.375\""],
-				"Type": ["Chain Break"],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/hand-tools" }
-			]
-		}, {
 			"name": "Thrifty #35 Chain Breaker",
 			"image": "/images/chain/wcp-35-tensioner.webp",
 			"filters": {
@@ -348,31 +326,6 @@
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/hand-tools" }
 			]
 		}, {
-			"name": "Thrifty #35 Chain Tensioner",
-			"image": "/images/chain/ttb-25-tensioner.webp",
-			"filters": {
-				"ANSI Chain Size": ["#35"],
-				"Pitch": ["0.365\""],
-				"Type": ["Tensioner"],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-25-chain-tensioner" }
-			]
-		}, {
-			"name": "VEX Chain Tool",
-			"image": "/images/chain/vex-chainbreak.jpg",
-			"filters": {
-				"ANSI Chain Size": ["#25", "#35"],
-				"Pitch": ["0.25\"", "0.375\""],
-				"Type": ["Chain Break"],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "VEXPro", "link": "https://www.vexrobotics.com/chain-tools.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/belts-chain-gears/products/hand-tools" }
-			]
-		}, {
 			"name": "VEX EDR Chain",
 			"image": "/images/chain/vexedr.jpg",
 			"filters": {
@@ -382,7 +335,6 @@
 				"Material": ["Plastic"]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/ProductDetails.asp?ProductCode=vex-276-2166" },
 				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/sprockets-and-chain.html" }
 			]
 		}, {
@@ -395,12 +347,59 @@
 				"Material": ["Plastic"]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/ProductDetails.asp?ProductCode=vex-276-2252" },
 				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/hs-sprockets-and-chain.html" }
+			]
+		}, {
+			"name": "WCP #25 Chain Breaker",
+			"image": "/images/chain/wcp-25-tensioner.webp",
+			"filters": {
+				"ANSI Chain Size": ["#25"],
+				"Pitch": ["0.25\""],
+				"Type": ["Chain Break"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/hand-tools" }
+			]
+		}, {
+			"name": "WCP #25/#35 Combo Chain Breaker",
+			"image": "/images/chain/wcp-25-35-tensioner.webp",
+			"filters": {
+				"ANSI Chain Size": ["#25", "#35"],
+				"Pitch": ["0.25\"", "0.375\""],
+				"Type": ["Chain Break"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/hand-tools" }
+			]
+		}, {
+			"name": "WCP #35 Chain Tensioner",
+			"image": "/images/chain/ttb-25-tensioner.webp",
+			"filters": {
+				"ANSI Chain Size": ["#35"],
+				"Pitch": ["0.365\""],
+				"Type": ["Tensioner"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-25-chain-tensioner" }
 			]
 		}, {
 			"name": "WCP Chain Tensioner",
 			"image": "/images/chain/wcp-tensioner.png",
+			"filters": {
+				"ANSI Chain Size": ["#25", "#35"],
+				"Pitch": ["0.25\"", "0.375\""],
+				"Type": ["Tensioner"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/roller-chain" }
+			]
+		}, {
+			"name": "WCP Turnbuckle",
+			"image": "/images/chain/wcp-turnbuckle.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.375\""],

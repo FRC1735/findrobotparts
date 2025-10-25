@@ -14,29 +14,8 @@
 				"Reversible": ["With Assembly"]
 			},
 			"links": [
-				{ "vendor": "Rockywoods", "link": "http://www.rockywoods.com/1000-Denier-Coated-Cordura-Nylon-Fabric" }
-			]
-		}, {
-			"name": "Balisitic Nylon",
-			"image": "/images/bumperfabric/1680-denier-coated-nylon.jpg",
-			"filters": {
-				"Color": ["Blue", "Red"],
-				"Condition": ["Fabric"],
-				"Reversible": ["With Assembly"]
-			},
-			"links": [
-				{ "vendor": "Rockywoods", "link": "https://www.rockywoods.com/1680D-Coated-Ballistic-Nylon-Fabric-with-Durable-Water-Repellent-Finish" }
-			]
-		}, {
-			"name": "Bumper Skirt",
-			"image": "/images/bumperfabric/bumper-cover.jpg",
-			"filters": {
-				"Color": ["Blue", "Red"],
-				"Condition": ["Assembled"],
-				"Reversible": ["No"]
-			},
-			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2008.htm" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/bumper-fabrics" },
+				{ "vendor": "Rockywoods", "link": "https://rockywoods.com/products/1000-denier-coated-cordura-nylon-fabric" }
 			]
 		}, {
 			"name": "Corner Cover",
@@ -47,8 +26,7 @@
 				"Reversible": ["No"]
 			},
 			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2011.htm" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2011.htm" }
 			]
 		}, {
 			"name": "Dacron Sailcloth",
@@ -70,7 +48,7 @@
 				"Reversible": ["With Assembly"]
 			},
 			"links": [
-				{ "vendor": "Jo-Ann", "link": "http://www.joann.com/jo-ann-stores-duck-canvas-fabric/prd23683.html#prefn1=refinementColor&prefv1=Reds&start=1" }
+				{ "vendor": "Michaels", "link": "https://www.michaels.com/product/richloom-7-ozcotton-duck-canvas-439897744495689759" }
 			]
 		}, {
 			"name": "Single Reversible Bumper",
@@ -81,55 +59,18 @@
 				"Reversible": ["Yes"]
 			},
 			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2005.htm" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2005.htm" }
 			]
 		}, {
 			"name": "Slick Blue Material",
 			"image": "/images/bumperfabric/slick-blue.jpg",
-			"filters": {
-				"Color": ["Blue"],
-				"Condition": ["Fabric"],
-				"Reversible": ["With Assembly"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/slick-blue-bumper-material-161in-x-19-5in-0-25in" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/slick-blue-bumper-material-161in-x-19-5in.html" }
-			]
-		}, {
-			"name": "Slick Red Material",
-			"image": "/images/bumperfabric/slick-red.jpg",
-			"filters": {
-				"Color": ["Red"],
-				"Condition": ["Fabric"],
-				"Reversible": ["With Assembly"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/slick-red-bumper-material-161in-x-19-5in-0-25in" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/slick-red-bumper-material-161in-x-19-5in.html" }
-			]
-		}, {
-			"name": "Sports Twill",
-			"image": "/images/image-not-available.png",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Fabric"],
 				"Reversible": ["With Assembly"]
 			},
 			"links": [
-				{ "vendor": "TwillUSA", "link": "https://twillusa.com/product/51-inch-sports-twill/" }
-			]
-		}, {
-			"name": "Standard Blue Material",
-			"image": "/images/bumperfabric/standard-blue.jpg",
-			"filters": {
-				"Color": ["Blue"],
-				"Condition": ["Fabric"],
-				"Reversible": ["With Assembly"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/blue-bumper-material-161in-x-19-5in-0-25in" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/blue-bumper-material-161in-x-19-5in.html" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/bumpers-accessories/products/bumper-fabrics" }
 			]
 		}, {
 			"name": "Standard Bumper",
@@ -140,20 +81,7 @@
 				"Reversible": ["With Assembly"]
 			},
 			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2001.htm" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
-			]
-		}, {
-			"name": "Standard Red Material",
-			"image": "/images/bumperfabric/standard-red.jpg",
-			"filters": {
-				"Color": ["Red"],
-				"Condition": ["Fabric"],
-				"Reversible": ["With Assembly"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/red-bumper-material-161in-x-19-5in-0-25in" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/red-bumper-material-161in-x-19-5in.html" }
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2001.htm" }
 			]
 		}, {
 			"name": "Super Slick",
@@ -164,8 +92,7 @@
 				"Reversible": ["With Assembly"]
 			},
 			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2002.htm" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2002.htm" }
 			]
 		}, {
 			"name": "Super Slick Reversible Bumper",
@@ -176,8 +103,7 @@
 				"Reversible": ["Yes"]
 			},
 			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2015.htm" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2015.htm" }
 			]
 		}, {
 			"name": "Super Tough Bumper Material",
@@ -188,8 +114,7 @@
 				"Reversible": ["With Assembly"]
 			},
 			"links": [
-				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2023.htm" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1926" }
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2023.htm" }
 			]
 		}
 	]
