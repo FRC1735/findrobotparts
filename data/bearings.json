@@ -5,20 +5,7 @@
 	"image_slug": "bearing",
 	"filter_groups": ["Type", "ID", "OD", "Shield", "Width"],
 	"products": [
-		{
-			"name": "AM 1 1/4\"",
-			"image": "/images/bearings/am-1125.jpg",
-			"filters": {
-				"Type": ["Radial"],
-				"ID": ["1.25\""],
-				"OD": ["2.25\""],
-				"Shield": ["Double Shielded"],
-				"Width": ["0.5\""]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/bearing-1-1-4-in-id-2-1-4-in-od-1-2-in-thick" }
-			]
-		}, {
+	 {
 			"name": "AM 1/2\" Open",
 			"image": "/images/bearings/am-500-open.jpg",
 			"filters": {
