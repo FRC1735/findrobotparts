@@ -16,7 +16,7 @@
 				"Width": ["0.249\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-bearing-r6" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-round-id-bearing-r8?variant=44497404493996" }
 			]
 		}, {
 			"name": "AM 3/16\"",
@@ -43,7 +43,6 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-1-125-od-ball-bearing-1614zz" },
-				{ "vendor": "Studica", "link": "https://www.studica.com/ca/en/andymark-bearings/3-8-inch-id-1-125-od-ball-bearing-1614zz.html" }
 			]
 		}, {
 			"name": "AM 3/8\", 1/2\", Hex",
@@ -57,7 +56,6 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fr6zzl-3-8-in-hex-bearing" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/bearing-1-2-inch-hex-bore-flanged-fr8zz-hexhd.html" }
 			]
 		}, {
 			"name": "AM 3/8\", Open",
@@ -86,19 +84,6 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/thrust-bearing-needle-roller-5-16-in-id-3-4-in-od-5-64-in-thick" }
 			]
 		}, {
-			"name": "F6804ZZ",
-			"image": "/images/bearings/f6804zz.png",
-			"filters": {
-				"Type": ["Flanged"],
-				"ID": ["20mm"],
-				"OD": ["32mm"],
-				"Shield": ["Double Shielded"],
-				"Width": ["7mm"]
-			},
-			"links": [
-				{ "vendor": "CheapGears", "link": "https://www.cheapgears.com/products/f6804zz" }
-			]
-		}, {
 			"name": "FR6ZZ",
 			"image": "/images/bearings/am-375-flanged-shielded-875.jpg",
 			"filters": {
@@ -110,9 +95,6 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-flanged-shielded-ball-bearing-fr6zz" },
-				{ "vendor": "CheapGears", "link": "https://www.cheapgears.com/products/fr6zz-bearing" },
-				{ "vendor": "Ozzy Boards", "link": "http://ozzyboards.com/3-8-id-x-7-8-od-flanged-bearing-fr6zz/" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/3-8-inch-id-flanged-shielded-ball-bearing-fr6zz.html" }
 			]
 		}, {
 			"name": "FR8ZZ",
@@ -125,7 +107,7 @@
 				"Width": ["0.312\""]
 			},
 			"links": [
-				{ "vendor": "CheapGears", "link": "https://www.cheapgears.com/products/FR8ZZ-bearing" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-round-id-flanged-shielded-bearing-fr8zz" }
 			]
 		}, {
 			"name": "Iglide PRT slewing ring bearing",
@@ -138,33 +120,20 @@
 				"Width": ["24mm", "29mm", "33mm", "33mm", "34mm"]
 			},
 			"links": [
-				{ "vendor": "Igus", "link": "http://www.igus.com/wpck/3738/iglidur_PRT_Bauform_01" }
-			]
-		}, {
-			"name": "Ozzy V-Groove",
-			"image": "/images/bearings/ozzy-vgroove.png",
-			"filters": {
-				"Type": ["V-Groove"],
-				"ID": ["3mm"],
-				"OD": ["12mm"],
-				"Shield": ["Double Shielded"],
-				"Width": ["4mm"]
-			},
-			"links": [
-				{ "vendor": "Ozzy Boards", "link": "http://ozzyboards.com/v-groove-bearings-10-pack/" }
+				{ "vendor": "Igus", "link": "https://www.igus.com/prt/slewing-ring-bearings" }
 			]
 		}, {
 			"name": "PI Hex",
 			"image": "/images/bearings/pi-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
-				"ID": ["0.375\" hex", "0.5\" hex"],
+				"ID": ["0.5\" hex"],
 				"OD": ["1.125\""],
 				"Shield": ["Double Shielded"],
 				"Width": ["0.313\""]
 			},
 			"links": [
-				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/Hardware/c/32076824/offset=0&sort=normal" }
+				{ "vendor": "Plummer Robotics", "link": "https://plummerindustries.com/robotics/shop#!/1-2-Hex-Bearing/p/589724791" }
 			]
 		}, {
 			"name": "R6ZZ",
@@ -178,7 +147,6 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-bearing-shielded-r6zz" },
-				{ "vendor": "CheapGears", "link": "https://www.cheapgears.com/products/r6zz-bearing" }
 			]
 		}, {
 			"name": "R8ZZ",
@@ -192,7 +160,6 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-2-in-id-bearing-shielded-r8zz" },
-				{ "vendor": "CheapGears", "link": "https://www.cheapgears.com/products/R8ZZ-bearing" }
 			]
 		}, {
 			"name": "REV 3/8\" V-Groove",
@@ -257,7 +224,7 @@
 				"Width": ["0.313\""]
 			},
 			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-10-Flanged-1-2-Inch-Hex-Ball-Bearings-p145332373" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-10-flanged-1-2-inch-hex-ball-bearings?_pos=4&_sid=ed7144f70&_ss=r" }
 			]
 		}, {
 			"name": "The Thrifty Bot 13.75mm",
@@ -270,7 +237,7 @@
 				"Width": ["0.314\""]
 			},
 			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-10-Flanged-13-75mm-Round-Ball-Bearings-p163338648" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-10-flanged-13-75mm-round-ball-bearings?_pos=1&_psq=13&_ss=e&_v=1.0" }
 			]
 		}, {
 			"name": "The Thrifty Bot 3.5\" X-Contact",
@@ -283,20 +250,7 @@
 				"Width": ["0.25\""]
 			},
 			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/3-5-OD-x-3-ID-x-25-X-Contact-Bearing-p201940047" }
-			]
-		}, {
-			"name": "The Thrifty Bot 3/8\"",
-			"image": "/images/bearings/tb-375.jpg",
-			"filters": {
-				"Type": ["Flanged"],
-				"ID": ["0.375\""],
-				"OD": ["0.875\""],
-				"Shield": ["Double Shielded"],
-				"Width": ["0.280\""]
-			},
-			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-10-375-OD-x-25-ID-x-125-Wide-Radial-Bearing-p197170776" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/4-od-x-3-5-id-x-25-x-contact-bearing?_pos=2&_sid=59e2b6dbc&_ss=r" }
 			]
 		}, {
 			"name": "The Thrifty Bot 8mm",
@@ -309,25 +263,10 @@
 				"Width": ["5mm"]
 			},
 			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-5-8mm-x-16mm-x-5mm-Flanged-Round-Bearing-p155615798" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-5-8mm-x-16mm-x-5mm-flanged-round-bearing?_pos=1&_sid=1a369a139&_ss=r" }
 			]
 		}, {
-			"name": "ThunderHex",
-			"image": "/images/bearings/vex-round.jpg",
-			"filters": {
-				"Type": ["Flanged", "Radial"],
-				"ID": ["0.5\" ThunderHex"],
-				"OD": ["1.125\""],
-				"Shield": ["Double Shielded"],
-				"Width": ["0.313\""]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
-			]
-		}, {
-			"name": "VEX 1/2\", 1 1/8\" OD",
+			"name": "WCP 1/2\", 1 1/8\" OD",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -337,12 +276,10 @@
 				"Width": ["0.313\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX 1/2\", 7/8\" OD",
+			"name": "WCP 1/2\", 7/8\" OD",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -352,12 +289,10 @@
 				"Width": ["0.281\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX 1/4\", 1/2\" OD",
+			"name": "WCP 1/4\", 1/2\" OD",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -367,12 +302,10 @@
 				"Width": ["0.188\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX 1/4\", 3/8\" OD",
+			"name": "WCP 1/4\", 3/8\" OD",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -382,12 +315,10 @@
 				"Width": ["0.125\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX 15mm",
+			"name": "WCP 15mm",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -397,12 +328,10 @@
 				"Width": ["7mm"]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX 17mm",
+			"name": "WCP 17mm",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -412,12 +341,10 @@
 				"Width": ["5mm"]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX 3/16\"",
+			"name": "WCP 3/16\"",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -427,12 +354,10 @@
 				"Width": ["0.196\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX 3/8\"",
+			"name": "WCP 3/8\"",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
@@ -442,12 +367,10 @@
 				"Width": ["0.281\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX Flanged",
+			"name": "WCP Flanged",
 			"image": "/images/bearings/vex-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
@@ -457,12 +380,10 @@
 				"Width": ["0.313\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX Flanged 3/4\"",
+			"name": "WCP Flanged 3/4\"",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Flanged"],
@@ -472,12 +393,10 @@
 				"Width": ["0.437\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
-			"name": "VEX Flanged 3/8\"",
+			"name": "WCP Flanged 3/8\"",
 			"image": "/images/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Flanged"],
@@ -487,8 +406,6 @@
 				"Width": ["0.28\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1892" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pro-bearings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
 		}, {
