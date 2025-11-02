@@ -8,7 +8,7 @@
 			"image": "/images/pneumaticcomponents/relief-valve.jpg",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
-				"Type": ["Relief valve"]
+				"Type": ["Relief Valve"]
 			},
 			"links": [
 				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/48435K714" }
@@ -94,7 +94,7 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/panel-mount-pressure-gauge-with-1-4-in-press-in-tube-fitting" }
 			]
 		}, {
-			"name": "Pisco Pressure gauge with 1/8\" NPT fitting",
+			"name": "Pisco Pressure Gauge with 1/8\" NPT fitting",
 			"image": "/images/pneumaticcomponents/pisco-gauge-npt.jpg",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
@@ -121,17 +121,17 @@
 				"Type": ["Gauge"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://andymark.com/products/pressure-gauge-0-160-psi" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/pressure-gauge-0-160-psi" }
 			]
 		}, {
 			"name": "Pressure Relief Valve, Soft Seat Safety, 125 psi, 62 SCFM, 1/8 in. Port",
 			"image": "/images/pneumaticcomponents/am-relief-valve.webp",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
-				"Type": ["Relief valve"]
+				"Type": ["Relief Valve"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://andymark.com/products/pressure-relief-valve-soft-seat-safety-125-psi-62-scfm-1-8-in-port" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/pressure-relief-valve-soft-seat-safety-125-psi-62-scfm-1-8-in-port" }
 			]
 		}
 	]

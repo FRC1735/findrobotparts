@@ -3,7 +3,9 @@
 	"version": "3.0",
 	"description": "FindRobotParts is a tool to find parts from dozens of distributors and quickly compare those parts.",
 	"type": "module",
-	"scripts": { "build": "node scripts/generate-pages.mjs" },
+	"scripts": {
+		"build": "node scripts/generate-pages.mjs"
+	},
 	"dependencies": {
 		"handlebars": "^4.7.8"
 	}

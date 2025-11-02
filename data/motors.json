@@ -165,7 +165,7 @@
 				"Integrated Controller": ["Replaceable"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/rev-21-1652/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-1652/" }
 			]
 		}, {
 			"name": "NeveRest",

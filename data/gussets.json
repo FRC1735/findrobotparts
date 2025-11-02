@@ -163,7 +163,7 @@
 			"name": "AM Inside Corner",
 			"image": "/images/gussets/am-corner.webp",
 			"filters": {
-				"Type": ["corner"],
+				"Type": ["Corner"],
 				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
 				"Thickness": ["0.125\""]
@@ -1419,7 +1419,6 @@
 			"links": [
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
-		}, 
-
+		}
 	]
 }

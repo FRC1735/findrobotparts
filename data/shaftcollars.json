@@ -150,10 +150,10 @@
 			"name": "Ruland Round",
 			"image": "/images/shaftcollars/ruland-500.jpg",
 			"filters": {
-				"Bore": ["0.375\" Hex", "0.5\" Hex"],
+				"Bore": ["0.375\"", "0.5\""],
 				"OD": ["0.875\"", "1.125\""],
 				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.343\"" ,"0.406\""],
+				"Width": ["0.343\"", "0.406\""],
 				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
 			},
 			"links": [
@@ -166,11 +166,11 @@
 				"Bore": ["0.375\" Hex", "0.5\" Hex"],
 				"OD": ["0.875\"", "1.125\""],
 				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.343\"" ,"0.406\""],
+				"Width": ["0.343\"", "0.406\""],
 				"Material": ["Aluminum", "Stainless Steel", "Steel"]
 			},
 			"links": [
-				{ "vendor": "Ruland", "link": "https://www.ruland.com/shaft-collars/hex-and-d-bore-shaft-collar.html?bore_b1=3733%2C3738&product_list_limit=24" },
+				{ "vendor": "Ruland", "link": "https://www.ruland.com/shaft-collars/hex-and-d-bore-shaft-collar.html?bore_b1=3733%2C3738&product_list_limit=24" }
 			]
 		}, {
 			"name": "Swyft 1/2\"",

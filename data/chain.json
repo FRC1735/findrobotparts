@@ -55,7 +55,7 @@
 				"Material": ["Plastic"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/6846K2/" },\
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/6846K2/" }
 			]
 		}, {
 			"name": "#25 Roller Chain",
@@ -388,7 +388,7 @@
 			"image": "/images/chain/wcp-tensioner.png",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
-				"Pitch": ["0.25\"", "0.375\""],
+				"Pitch": ["0.25\"", "0.365\""],
 				"Type": ["Tensioner"],
 				"Material": ["Aluminum"]
 			},

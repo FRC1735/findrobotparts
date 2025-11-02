@@ -21,7 +21,7 @@
 				"Flow Rate (cfm at 0psi)": ["0.79"]
 			},
 			"links": [
-				{ "vendor": "Grainger", "link": "https://www.grainger.com/product/THOMAS-1-10-HP-Piston-Air-Compressor-5Z349" },
+				{ "vendor": "Grainger", "link": "https://www.grainger.com/product/THOMAS-1-10-HP-Piston-Air-Compressor-5Z349" }
 			]
 		}, {
 			"name": "VIAIR 100C",
@@ -62,7 +62,7 @@
 			},
 			"links": [
 				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-90-Compressor-Kit/dp/B002A65JR6/" },
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/air-compressor-12-volt-0-88-cfm" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/air-compressor-12-volt-0-88-cfm" }
 			]
 		}, {
 			"name": "VIAIR 98C",
