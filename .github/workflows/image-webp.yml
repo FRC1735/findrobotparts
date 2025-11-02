@@ -46,7 +46,7 @@ jobs:
           # A = Added, M = Modified, R = Renamed, C = Copied
           CHANGED=$(git diff --name-only --diff-filter=AMRC \
             "${{ steps.diff.outputs.base }}" "${{ steps.diff.outputs.head }}" -- \
-            'images/**/*.*' | grep -Ei '\.(jpe?g|png|gif|tiff?|bmp|webp)$' || true)
+            'images/**/*.*' | grep -Ei '\.(jpe?g|png|gif|tiff?|bmp|webp|avif|svg)$' || true)
 
           {
             echo "list<<EOF"

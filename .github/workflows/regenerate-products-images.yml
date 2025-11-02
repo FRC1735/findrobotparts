@@ -1,0 +1,66 @@
+name: Regenerate all webp images
+
+on:
+  workflow_dispatch:   # manual trigger only
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          magick -version || convert -version
+
+      - name: Find all source images
+        id: files
+        shell: bash
+        run: |
+          set -eo pipefail
+          ALL=$(find images/products -type f -iregex '.*\.\(jpe\?g\|png\|gif\|tiff\?\|bmp\|webp\|avif\|svg\)$' | sort)
+          echo "All source images:"
+          echo "$ALL"
+          {
+            echo "list<<EOF"
+            echo "$ALL"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Convert everything to 400px-wide webp in /www/images
+        if: ${{ steps.files.outputs.list != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          convert_one () {
+            src="$1"
+            rel="${src#images/}"
+            dest="www/images/${rel%.*}.webp"
+            mkdir -p "$(dirname "$dest")"
+
+            if command -v magick >/dev/null 2>&1; then
+              magick "$src[0]" -strip -resize 400x> -quality 80 "$dest"
+            else
+              convert "$src[0]" -strip -resize 400x> -quality 80 "$dest"
+            fi
+
+            echo "Wrote: $dest"
+          }
+
+          while IFS= read -r f; do
+            [[ -z "$f" ]] && continue
+            convert_one "$f"
+          done <<< "${{ steps.files.outputs.list }}"
+
+      - name: Commit regenerated webp files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(images): regenerate all 400px webp derivatives'
+          file_pattern: 'www/images'
