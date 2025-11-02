@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /images/*
-Allow: /3d/*/
-Disallow: /3d/*/*/
-Disallow: /*/*/
