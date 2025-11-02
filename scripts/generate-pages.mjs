@@ -157,10 +157,11 @@ const buildPage = (data, relativePath) => {
 
 	if (data.products?.length > 0) {
 		title = `${data.title} - Find Robot Parts`
+		const pageTitle = data.title;
 		const tablehead = hbts['thead']({ categories: data.filter_groups });
 		const tablebody = buildProductRows(data);
-		sidebarHTML = generateSidebar(data);
-		mainHTML = hbts['product']({ slug: relativePath, category: data.title, tablehead: tablehead, tablebody: tablebody });
+		sidebarHTML = generateSidebar(data); 
+		mainHTML = hbts['product']({ slug: relativePath, category: pageTitle, description: data.description, tablehead: tablehead, tablebody: tablebody });
 		sidebarClass = 'block';
 	} else {
 		if (data.title) {
