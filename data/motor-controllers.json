@@ -57,7 +57,8 @@
 				"Embedded Permanant Wires": ["No"]
 			},
 			"links": [
-				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/talon-srx" }
+				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/talon-srx" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/motors-pneumatics/products/ctre-sensors" }
 			]
 		}, {
 			"name": "Talon SRX",

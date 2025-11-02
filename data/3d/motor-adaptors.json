@@ -1,8 +1,6 @@
 {
 	"title": "3D Printed - Motor Adaptors",
-	"pathname": "3d/motor-adaptors",
 	"description": "<p>Print these parts to easily adapt your motors to suit your application on your robot.</p>",
-	"image_slug": "3d-motor-adaptor",
 	"filter_groups": ["Motor", "Output", "User"],
 	"products": [
 		{
@@ -26,17 +24,6 @@
 			},
 			"links": [
 				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1464800" }
-			]
-		}, {
-			"name": "Throttle Motor Adaptor to VersaPlanetary",
-			"image": "/images/3d/motor-adaptors/throttle.png",
-			"filters": {
-				"Motor": ["Throttle Motor"],
-				"Output": ["VersaPlanetary"],
-				"User": ["FRC 1720"]
-			},
-			"links": [
-				{ "vendor": "Grab CAD", "link": "https://workbench.grabcad.com/workbench/projects/gctGF5pT3CRZThJiM_Kp0j_mLIVTtkYxJ58IxMgu1zqxHS#/space/gcTYNrwnBX1qwXL0FSdd1FGKFiu1EjmUVA2S4ziRqRUqyG" }
 			]
 		}, {
 			"name": "Window Motor 2 Hub",

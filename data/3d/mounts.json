@@ -1,8 +1,6 @@
 {
 	"title": "3D Printed - Mounts",
-	"pathname": "3d/mounts",
 	"description": "<p>Print your own mounts to connect one robot part to another. Make it easy to attach an encoder to a gearbox or a ring light to a camera.</p>",
-	"image_slug": "3d-mounts",
 	"filter_groups": ["Attaches What?", "Attaches What? (detailed)", "User"],
 	"products": [
 		{
@@ -356,17 +354,6 @@
 			},
 			"links": [
 				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:270182" }
-			]
-		}, {
-			"name": "Mag Encoder Mount",
-			"image": "/images/3d/mounts/mag-encoder.png",
-			"filters": {
-				"Attaches What?": ["Encoder", "Shaft"],
-				"Attaches What? (detailed)": ["Hex Shaft", "Mag Encoder"],
-				"User": ["Samuel Skoglun"]
-			},
-			"links": [
-				{ "vendor": "Google Drive", "link": "https://drive.google.com/drive/folders/0B2gZV0m2wg2Ld24yNU05VmtLcDQ" }
 			]
 		}, {
 			"name": "Micro Sensor Mount to Churro",

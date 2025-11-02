@@ -144,6 +144,20 @@
 				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/single-speed-spur-gearboxes/products/flyer-overdrive-gearbox" }
 			]
 		}, {
+			"name": "Hex Pass Through Bevel Box",
+			"image": "/images/gearboxes/375-hex-pass-through-bevel.webp",
+			"filters": {
+				"Motor Input": ["NeveRest", "3/8\" Hex"],
+				"Number of Motors": ["1 Motor"],
+				"Output Shaft": ["3/8\" Hex"],
+				"Speeds": ["1 Speed"],
+				"Style": ["Bevel"],
+				"Reduction": ["27:1", "71:1", "188:1"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hex-pg-series-gearboxes-options" }
+			]
+		}, {
 			"name": "HexPG Series",
 			"image": "/images/gearboxes/pg-hex.jpg",
 			"filters": {

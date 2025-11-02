@@ -1,8 +1,6 @@
 {
 	"title": "Pneumatic Fittings",
-	"pathname": "pneumaticfittings",
 	"description": "<p>Fittings can be used to connect all of your pneumatics together on your robot.</p>",
-	"image_slug": "pneumaticfittings",
 	"filter_groups": ["Type", "Input", "Output", "Material"],
 	"products": [
 		{
@@ -53,6 +51,18 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-adapter-1-8-npt-male-1-4-npt-female" },
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFMFR-14N-18N" }
+			]
+		}, {
+			"name": "Ball Valve 1/4 in. Tube Fittings with Colored Handle",
+			"image": "/images/pneumaticfittings/ball-valve-1-4-in-tube-fittings.webp",
+			"filters": {
+				"Type": ["Valve"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/ball-valve-1-4-in-tube-fittings-with-colored-handle" }
 			]
 		}, {
 			"name": "Bulkhead, 1/4\" NPT Female x 1/4\" Press-in",
@@ -115,7 +125,6 @@
 			"links": [
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UX14" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K786" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -177,7 +186,6 @@
 			},
 			"links": [
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVS14-14N" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -192,7 +200,6 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-8-npt-male-to-1-4-tube-elbow-meter-out-flow-valve" },
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVS14-18N" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -221,8 +228,6 @@
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/ME14-14N" },
 				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/male-swivel-elbow-p-5983-l-en.html" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#7880T217" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/pneumatic-fitting-elbow-1-4-inch-tube-press-in-1-8-inch-npt-male.html" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -237,7 +242,6 @@
 			"links": [
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UL14" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K24" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -266,7 +270,6 @@
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/ME14-18N" },
 				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/male-swivel-elbow-p-5983-l-en.html" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#7880T216" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -281,7 +284,6 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/flow-control-in-line-1-4-in-tube-press-in" },
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVU14" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -470,18 +472,6 @@
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFHHP-18N" }
 			]
 		}, {
-			"name": "Plug, 1/8\" NPT Male, Plastic",
-			"image": "/images/pneumaticfittings/plug-1-8-npt-male-plastic.jpg",
-			"filters": {
-				"Type": ["Plug"],
-				"Input": ["1/8\" NPT Male"],
-				"Output": ["N/A"],
-				"Material": ["Plastic"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-8-in-npt-hex-head-plug" }
-			]
-		}, {
 			"name": "Plug-In Through Wall Straight, 1/4\" Press-in x 1/4\" Press-in",
 			"image": "/images/pneumaticfittings/plug-in-through-wall-straight-1-4-press-in-x-1-4-press-in.png",
 			"filters": {
@@ -518,8 +508,6 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pneumatic-fitting-straight-1-4-in-tube-press-in-1-4-in-npt-male" },
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MS14-14N" },
 				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/male-connector-p-5961-l-en.html" },
-				{ "vendor": "Studia", "link": "http://www.studica.com/ca/en/AndyMark/pneumatic-fitting-straight-1-4-inch-tube-press-in-1-8-inch-npt-male.html" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -534,7 +522,6 @@
 			"links": [
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/US14" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K14" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -562,7 +549,6 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pneumatic-fitting-straight-1-4-in-tube-press-in-1-8-in-npt-male" },
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MS14-18N" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K108" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -575,8 +561,7 @@
 				"Material": ["Brass", "Plastic"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/m5-pisco-fitting-for-1-4-in-press-in-tube-poc1-4-m5" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/m5-pisco-fitting-for-1-4-inch-press-in-tube-poc1-4-m5.html" }
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/m5-pisco-fitting-for-1-4-in-press-in-tube-poc1-4-m5" }
 			]
 		}, {
 			"name": "Swivel 45deg bend, 1/8\" NPT Male x 1/4\" Press-in",
@@ -752,7 +737,6 @@
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UT14" },
 				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/union-tee-p-6000-l-en.html" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K34" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {
@@ -780,18 +764,6 @@
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K677" }
 			]
 		}, {
-			"name": "Valve, 1/4\" NPT Male x 1/4\" NPT Female",
-			"image": "/images/pneumaticfittings/valve-1-4-npt-male-x-1-4-npt-female.jpg",
-			"filters": {
-				"Type": ["Valve"],
-				"Input": ["1/4\" NPT Male"],
-				"Output": ["1/4\" NPT Female"],
-				"Material": ["Steel"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/ball-valve-1-4-in-npt-male-x-female-lever-handle-chrome-plated" }
-			]
-		}, {
 			"name": "Valve, 1/4\" Press-in x 1/4\" Press-in",
 			"image": "/images/pneumaticfittings/valve-1-4-press-in-x-1-4-press-in.jpg",
 			"filters": {
@@ -801,19 +773,7 @@
 				"Material": ["Plastic"]
 			},
 			"links": [
-				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/hand_valves" }
-			]
-		}, {
-			"name": "Valve, 1/8\" NPT Male x 1/4\" Press-in",
-			"image": "/images/pneumaticfittings/valve-1-8-npt-male-x-1-4-press-in.jpg",
-			"filters": {
-				"Type": ["Valve"],
-				"Input": ["1/8\" NPT Male"],
-				"Output": ["1/4\" Press-in"],
-				"Material": ["Brass", "Plastic"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/valve-hand-1-8-npt-1-4-push-in-fitting" }
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/fittings/special_purpose/hvu14-2" }
 			]
 		}, {
 			"name": "Wye, 1/4\" NPT Male x 1/4\" Press-in",
@@ -840,7 +800,6 @@
 				{ "vendor": "AndyMark", "link": "http://www.andymark.com/product-p/am-2184.htm" },
 				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UY14" },
 				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K44" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/pneumatic-fittings.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
 			]
 		}, {

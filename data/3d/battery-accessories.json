@@ -1,11 +1,19 @@
 {
 	"title": "3D Printed - Battery Accessories",
-	"pathname": "3d/battery-accessories",
 	"description": "<p>Use these 3D printed parts to make your battery safer, stronger, or more secure on your robot.</p>",
-	"image_slug": "3d-battery-accessory",
 	"filter_groups": ["Type", "User"],
 	"products": [
 		{
+			"name": "Anderson SB50 Handle",
+			"image": "/images/3d/battery-accessories/4055255.webp",
+			"filters": {
+				"Type": ["Battery Handle"],
+				"User": ["sapencil"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "https://www.thingiverse.com/thing:4055255" }
+			]
+		}, {
 			"name": "Battery Caps/Covers",
 			"image": "/images/3d/battery-accessories/675138.jpg",
 			"filters": {

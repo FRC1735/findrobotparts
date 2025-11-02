@@ -1,27 +1,34 @@
 {
 	"title": "Subsystems",
-	"pathname": "subsystems",
 	"description": "<p>Subsystems are kits that can be used to build significant portions of your robot.</p>",
-	"image_slug": "subsystem",
 	"filter_groups": ["Type"],
 	"products": [
 		{
-			"name": "1\" Extrusion Lift Kit",
-			"image": "/images/subsystems/extrusionlift.png",
+			"name": "AndyMark Bumper Kit",
+			"image": "/images/subsystems/am-bumperkit.webp",
 			"filters": {
-				"Type": ["Linear Motion"]
+				"Type": ["Bumpers"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-25-1290/" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/2025-generic-bumper-kits" }
 			]
 		}, {
-			"name": "AM14U4 Frame",
-			"image": "/images/subsystems/am14u4.jpg",
+			"name": "AM14U6 Frame",
+			"image": "/images/subsystems/am14u6.webp",
 			"filters": {
 				"Type": ["Chassis"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/am14u4-kit-of-parts-chassis" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/am14u6-6-wheel-drop-center-robot-drive-base-2025-frc-kit-of-parts-drive-base" }
+			]
+		}, {
+			"name": "Bed Lift Block",
+			"image": "/images/subsystems/bed-lift-block.jpg",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "Wattos", "link": "https://wattos.com.tr/urun/blok-asansor-yatagi/" }
 			]
 		}, {
 			"name": "Bumper Kit",
@@ -60,15 +67,6 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/climber-in-a-box" }
 			]
 		}, {
-			"name": "Compact Elevator Bearing Kits",
-			"image": "/images/subsystems/am-elevator-kit.jpeg",
-			"filters": {
-				"Type": ["Linear Motion"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/elevator-bearing-kits" }
-			]
-		}, {
 			"name": "Corner Bumper Kit",
 			"image": "/images/subsystems/rp-cornerbumper.jpg",
 			"filters": {
@@ -76,6 +74,24 @@
 			},
 			"links": [
 				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2009.htm" }
+			]
+		}, {
+			"name": "Custom Built Bumpers",
+			"image": "/images/subsystems/swyft-custom-bumpers.webp",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/swyft-bumpers" }
+			]
+		}, {
+			"name": "Differential Drivetrain Bumper Bracket Kit",
+			"image": "/images/subsystems/differential-bumpers.webp",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-25-3062/" }
 			]
 		}, {
 			"name": "Drive Rails",
@@ -87,13 +103,13 @@
 				{ "vendor": "Plummer Industries", "link": "http://plummerindustries.com/robotics/shop#!/Drive-Rails/c/32076753/offset=0&sort=normal" }
 			]
 		}, {
-			"name": "Elevator Bearing Kit",
-			"image": "/images/subsystems/bearingkit.png",
+			"name": "Eccentric Vectored Intake Wheel",
+			"image": "/images/subsystems/armabot-eccentric-intake.webp",
 			"filters": {
-				"Type": ["Linear Motion"]
+				"Type": ["Rollers"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-25-2050/" }
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/eccentric-vectored-intake-wheel" }
 			]
 		}, {
 			"name": "Greyt Roller Claw",
@@ -150,15 +166,6 @@
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-turret-5-7" }
 			]
 		}, {
-			"name": "Greyt Universal Elevator V2",
-			"image": "/images/subsystems/greytelevator.jpg",
-			"filters": {
-				"Type": ["Linear Motion"]
-			},
-			"links": [
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-universal-elevator-v2" }
-			]
-		}, {
 			"name": "Intake System",
 			"image": "/images/subsystems/rollerintake.jpg",
 			"filters": {
@@ -166,35 +173,6 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/roller-intake-system-kit" }
-			]
-		}, {
-			"name": "MicroSwerve",
-			"image": "/images/subsystems/microswerve.png",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/microswerve" }
-			]
-		}, {
-			"name": "MK4 Module",
-			"image": "/images/subsystems/mk2.jpg",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/mk4-swerve-modules" },
-				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/products/mk4-swerve-module" }
-			]
-		}, {
-			"name": "MK4i Module",
-			"image": "/images/subsystems/mk4i-swerve.webp",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/mk4i-swerve-modules" },
-				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/products/mk4i-swerve-module" }
 			]
 		}, {
 			"name": "Nano Tube",
@@ -206,6 +184,15 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?q=nano+tube" }
 			]
 		}, {
+			"name": "Plummer Industries Bumper Mounts",
+			"image": "/images/subsystems/pi-bumper-mounts.png",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "Plummer Industries", "link": "https://plummerindustries.com/robotics/shop.html#!/Bumper-Mounting/c/139191066" }
+			]
+		}, {
 			"name": "Raptor Drive",
 			"image": "/images/subsystems/raptortrack.jpg",
 			"filters": {
@@ -215,50 +202,23 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/raptor-track-drive" }
 			]
 		}, {
-			"name": "Red and Blue Bumper Kit for AM14U4",
-			"image": "/images/subsystems/am-bumperkit.jpg",
-			"filters": {
-				"Type": ["Bumpers"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/red-and-blue-bumper-kit-for-2020-am14u4" }
-			]
-		}, {
-			"name": "Rev MAXSwerve",
-			"image": "/images/subsystems/maxswerve.webp",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-3005/" }
-			]
-		}, {
-			"name": "Revolution Pro 2",
-			"image": "/images/subsystems/revolutionpro.jpg",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "Team221", "link": "http://www.team221.com/viewproduct.php?id=147" }
-			]
-		}, {
 			"name": "Rhino Track Module",
 			"image": "/images/subsystems/rhinotrack.jpg",
 			"filters": {
 				"Type": ["Driveline", "Tread"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rhino-track-drive-module" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/rhino-track-drive-module.html" }
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rhino-track-drive-module" }
 			]
 		}, {
-			"name": "S3 Linear Motion",
-			"image": "/images/subsystems/s3.jpg",
+			"name": "SDS Billet Elevator Bearing Block",
+			"image": "/images/subsystems/sds-billet.webp",
 			"filters": {
 				"Type": ["Linear Motion"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/s3-linear-motion-kit" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/sds-billet-elevator-bearing-block-kits" },
+				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/products/billet-elevator-bearing-block" }
 			]
 		}, {
 			"name": "SimpleTube Chassis",
@@ -270,15 +230,6 @@
 				{ "vendor": "Team221", "link": "http://www.team221.com/order.php?cat=15" }
 			]
 		}, {
-			"name": "Single Stage HD Elevator Bearing and Structure Kit",
-			"image": "/images/subsystems/am2x1elevator.jpg",
-			"filters": {
-				"Type": ["Linear Motion"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/2x1-single-stage-hd-elevator-bearing-and-structure-kit" }
-			]
-		}, {
 			"name": "Super Light Chassis",
 			"image": "/images/subsystems/superlight.jpg",
 			"filters": {
@@ -288,22 +239,13 @@
 				{ "vendor": "Team221", "link": "http://www.team221.com/order.php?cat=18" }
 			]
 		}, {
-			"name": "Swerve and Steer Module",
-			"image": "/images/subsystems/swerveandsteer.jpg",
+			"name": "Swyft Ascend",
+			"image": "/images/subsystems/swyft-ascend.webp",
 			"filters": {
-				"Type": ["Driveline", "Swerve"]
+				"Type": ["Linear Motion"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/swerve-and-steer" }
-			]
-		}, {
-			"name": "Swerve X",
-			"image": "/images/subsystems/swervex.webp",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/gearboxes/products/swerve-x" }
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/swyft-ascend-frc-ftc-telescoping-elevator" }
 			]
 		}, {
 			"name": "Telescoping Tube Kit",
@@ -312,7 +254,7 @@
 				"Type": ["Linear Motion"]
 			},
 			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/Round-2-Pre-Order-Thrifty-Telescoping-Tube-Kit-p416413760" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-telescoping-tube-kit" }
 			]
 		}, {
 			"name": "Thrifty Elevator",
@@ -324,15 +266,6 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-elevator-stage-kit" }
 			]
 		}, {
-			"name": "Thrifty Swerve",
-			"image": "/images/subsystems/thrifty-swerve.jpg",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/Thrifty-Swerve-c57883062" }
-			]
-		}, {
 			"name": "Turret",
 			"image": "/images/subsystems/turret240.png",
 			"filters": {
@@ -342,45 +275,13 @@
 				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/turret240" }
 			]
 		}, {
-			"name": "VersaChassis",
-			"image": "/images/subsystems/versachassis.jpg",
+			"name": "Wattos Bumpers",
+			"image": "/images/subsystems/wattos-bumpers.jpg",
 			"filters": {
-				"Type": ["Chassis"]
+				"Type": ["Bumpers"]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1906" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/all/versachassis.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/versachassis" }
-			]
-		}, {
-			"name": "VersaDrop",
-			"image": "/images/subsystems/versadrop.png",
-			"filters": {
-				"Type": ["Driveline"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/ProductDetails.asp?ProductCode=vex-217-4824" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/217-4824.html" }
-			]
-		}, {
-			"name": "VersaFrame Linear Motion",
-			"image": "/images/subsystems/versaframelinearmotion.jpg",
-			"filters": {
-				"Type": ["Linear Motion"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/ProductDetails.asp?ProductCode=vex%2D217%2D4399" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/linear-motion.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
-			]
-		}, {
-			"name": "VersaRollers",
-			"image": "/images/subsystems/versarollers.jpg",
-			"filters": {
-				"Type": ["Rollers"]
-			},
-			"links": [
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/versarollers" }
+				{ "vendor": "Wattos", "link": "https://wattos.com.tr/urun/bumper/" }
 			]
 		}, {
 			"name": "WCP Elevator",
@@ -390,15 +291,6 @@
 			},
 			"links": [
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/elevator-components" }
-			]
-		}, {
-			"name": "Wild Swerve Kit",
-			"image": "/images/subsystems/wildswerve.jpg",
-			"filters": {
-				"Type": ["Driveline", "Swerve"]
-			},
-			"links": [
-				{ "vendor": "Team221", "link": "http://www.team221.com/viewproduct.php?id=51" }
 			]
 		}
 	]

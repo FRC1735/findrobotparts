@@ -1,8 +1,6 @@
 {
 	"title": "Bumper Numbers",
-	"pathname": "bumpernumbers",
 	"description": "<p>Use these iron on numbers to display your team number on your bumper.</p>",
-	"image_slug": "bumpernumber",
 	"filter_groups": ["Font", "Material", "Height", "Stroke", "Width of #8"],
 	"products": [
 		{

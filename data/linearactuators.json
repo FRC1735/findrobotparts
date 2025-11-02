@@ -1,37 +1,9 @@
 {
 	"title": "Linear Actuators",
-	"pathname": "linearactuators",
 	"description": "<p>Linear actuators can be used in place of pneumatic pistons with the added benefit of being able to stop at multiple places.</p>",
-	"image_slug": "linearactuator",
 	"filter_groups": ["Input", "Travel (in)", "No Load Speed (in/s)", "Max Force (N)", "Closed Length (in)"],
 	"products": [
 		{
-			"name": "DART, 12\"",
-			"image": "/images/linearactuators/dart-12.jpg",
-			"filters": {
-				"Input": ["CIM", "Mini CIM"],
-				"Travel (in)": ["12"],
-				"No Load Speed (in/s)": ["5.3", "6.67", "13.3"],
-				"Max Force (N)": ["363", "727", "907"],
-				"Closed Length (in)": ["17.8"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/dart-12-in-actuator-kit" }
-			]
-		}, {
-			"name": "DART, 6\"",
-			"image": "/images/linearactuators/dart-6.jpg",
-			"filters": {
-				"Input": ["CIM", "Mini CIM"],
-				"Travel (in)": ["6"],
-				"No Load Speed (in/s)": ["5.3", "6.67", "13.3"],
-				"Max Force (N)": ["363", "727", "907"],
-				"Closed Length (in)": ["11.8"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/dart-6-in-actuator-kit" }
-			]
-		}, {
 			"name": "L16-R, 100mm, 150:1",
 			"image": "/images/linearactuators/l16r-100.webp",
 			"filters": {
@@ -151,6 +123,19 @@
 			},
 			"links": [
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "REV Linear Actuator",
+			"image": "/images/linearactuators/rev-linear.webp",
+			"filters": {
+				"Input": ["MAX Planetary"],
+				"Travel (in)": ["12"],
+				"No Load Speed (in/s)": ["Varies", "10.6", "42.5"],
+				"Max Force (N)": ["Varies", "377", "1508"],
+				"Closed Length (in)": ["16"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2735/" }
 			]
 		}
 	]

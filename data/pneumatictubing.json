@@ -1,8 +1,6 @@
 {
 	"title": "Pneumatic Tubing",
-	"pathname": "pneumatictubing",
 	"description": "<p>Pneumatic tubing is used to connect all the pneumatics in the system to get compressed air from one location to another.</p>",
-	"image_slug": "pneumatictubing",
 	"filter_groups": ["Style", "OD", "ID (inch)", "Color", "Length (feet)", "Material", "Durometer"],
 	"products": [
 		{
@@ -123,7 +121,7 @@
 				"Durometer": ["70D"]
 			},
 			"links": [
-				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Flexible_Pneumatic_Tubing_-a-_Hoses/Straight_Nylon_Tubing/1-z-4_inch" }
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/flexible_pneumatic_tubing_-a-_hoses/straight_flexible_tubing#Outside_Diameter_ms=%221/4in%22&start=0&Material_ms=%22Nylon%2012%22" }
 			]
 		}, {
 			"name": "NITRA Polyurethane",
@@ -138,7 +136,7 @@
 				"Durometer": ["98A"]
 			},
 			"links": [
-				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Flexible_Pneumatic_Tubing_-a-_Hoses/Straight_Polyurethane_(PUR)_Tubing/1-z-4_inch" }
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/flexible_pneumatic_tubing_-a-_hoses/straight_flexible_tubing#Outside_Diameter_ms=%221/4in%22&start=0&Material_ms=%22Ether-based%20Polyurethane%22" }
 			]
 		}, {
 			"name": "NITRA Polyurethane Coiled",
@@ -153,7 +151,7 @@
 				"Durometer": ["98A"]
 			},
 			"links": [
-				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Flexible_Pneumatic_Tubing_-a-_Hoses/Coiled_Polyurethane_(PUR)_Tubing" }
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/flexible_pneumatic_tubing_-a-_hoses/coiled_flexible_tubing#Outside_Diameter_ms=%221/4in%22&start=0" }
 			]
 		}, {
 			"name": "NITRA U-tube",
@@ -177,7 +175,7 @@
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
 				"ID (inch)": ["0.163"],
-				"Color": ["Black"],
+				"Color": ["Black", "White"],
 				"Length (feet)": ["66"],
 				"Material": ["Polyurethane"],
 				"Durometer": ["[not listed]"]
@@ -198,7 +196,6 @@
 				"Durometer": ["95A"]
 			},
 			"links": [
-				{ "vendor": "Allied Electronics", "link": "http://www.alliedelec.com/pneumatics/tubing-hoses/?navigation=4294640062" },
 				{ "vendor": "SMCPneumatics.com", "link": "http://www.smcpneumatics.com/TIU-POLYURETHANE-TUBING_c_801.html" }
 			]
 		}

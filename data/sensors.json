@@ -1,8 +1,6 @@
 {
 	"title": "Sensors",
-	"pathname": "sensors",
 	"description": "<p>Sensors are able to measure all sorts of things on your robot. While there are hundreds of options out there we have selected those that are most used by teams.</p>",
-	"image_slug": "sensor",
 	"filter_groups": ["Type", "Measures", "Output", "Voltage"],
 	"products": [
 		{
@@ -42,6 +40,18 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/precision-potentiometer-10turn-5kohms" }
 			]
 		}, {
+			"name": "2m Distance Sensor",
+			"image": "/images/sensors/rev-2m-distance.webp",
+			"filters": {
+				"Type": ["IR Rangefinder"],
+				"Measures": ["Distance"],
+				"Output": ["I2C"],
+				"Voltage": ["3.3", "5"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-31-1505/" }
+			]
+		}, {
 			"name": "4M Time of Flight Sensor",
 			"image": "/images/sensors/pwf-timeofflight.jpg",
 			"filters": {
@@ -52,18 +62,6 @@
 			},
 			"links": [
 				{ "vendor": "Playing With Fusion", "link": "https://www.playingwithfusion.com/productview.php?pdid=96&catid=1014" }
-			]
-		}, {
-			"name": "63R Optical Encoder",
-			"image": "/images/sensors/63r.jpg",
-			"filters": {
-				"Type": ["Encoder", "Quadrature Encoder"],
-				"Measures": ["Rotations"],
-				"Output": ["Pulse Train"],
-				"Voltage": ["5.5"]
-			},
-			"links": [
-				{ "vendor": "Digi-Key", "link": "http://www.digikey.com/catalog/en/partgroup/63r/11554" }
 			]
 		}, {
 			"name": "9DOF Gyro, Accelerometor, Magnetometer",
@@ -114,6 +112,18 @@
 				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/analog-pressure-sensor/" }
 			]
 		}, {
+			"name": "ArduCam",
+			"image": "/images/sensors/arducam.webp",
+			"filters": {
+				"Type": ["Camera"],
+				"Measures": ["Brightness", "Distance", "Shapes"],
+				"Output": ["USB"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/arducam-camera" }
+			]
+		}, {
 			"name": "Banner QS18VN6LV",
 			"image": "/images/sensors/banner-qs18vn6lv.jpg",
 			"filters": {
@@ -135,7 +145,33 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/276-2159.html" }
+				{ "vendor": "VEX EDR", "link": "https://www.vexrobotics.com/276-2159.html" }
+			]
+		}, {
+			"name": "CANcoder",
+			"image": "/images/sensors/cancoder.webp",
+			"filters": {
+				"Type": ["Encoder"],
+				"Measures": ["Rotations"],
+				"Output": ["CAN", "CANFD"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "Cross the Road Electronics", "link": "https://store.ctr-electronics.com/products/cancoder" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/motors-pneumatics/products/ctre-sensors" }
+			]
+		}, {
+			"name": "CANrange",
+			"image": "/images/sensors/canrange.webp",
+			"filters": {
+				"Type": ["IR Rangefinder"],
+				"Measures": ["Brightness", "Distance"],
+				"Output": ["CAN", "CANFD"],
+				"Voltage": ["12"]
+			},
+			"links": [
+				{ "vendor": "Cross the Road Electronics", "link": "https://store.ctr-electronics.com/products/canrange" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/motors-pneumatics/products/ctre-sensors" }
 			]
 		}, {
 			"name": "CIMcoder",
@@ -147,8 +183,7 @@
 				"Voltage": ["5.5", "12", "24"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/cimcoder" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/cimcoder.html" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/cimcoder-256-hi-resolution-cim-encoder" }
 			]
 		}, {
 			"name": "Color and Proximity Sensor",
@@ -184,34 +219,31 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/e4t-oem-miniature-optical-encoder-kit.html" },
-				{ "vendor": "US Digital", "link": "http://www.usdigital.com/products/encoders/incremental/rotary/kit/E4T" }
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit" }
 			]
 		}, {
-			"name": "Gadgeteer Pigeon IMU",
-			"image": "/images/sensors/pigeon.png",
-			"filters": {
-				"Type": ["Accelerometer", "Gyro", "Inertial Mesaurement Unit (IMU)", "Magnetometer"],
-				"Measures": ["Orientation"],
-				"Output": ["CAN", "UART"],
-				"Voltage": ["5", "12"]
-			},
-			"links": [
-				{ "vendor": "CTR Electronics", "link": "http://www.ctr-electronics.com/gadgeteer-imu-module-pigeon.html" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/pigeon-imu.html" }
-			]
-		}, {
-			"name": "Genius 120-degree Ultra Wide Angle Full HD",
-			"image": "/images/sensors/genius120.jpg",
+			"name": "ELP Fisheye Lens Camera",
+			"image": "/images/sensors/elp-fisheye-lens-camera.webp",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
 				"Output": ["USB"],
-				"Voltage": ["5"]
+				"Voltage": ["12"]
 			},
 			"links": [
-				{ "vendor": "Amazon", "link": "https://www.amazon.com/Genius-120-degree-Conference-Webcam-WideCam/dp/B0080CE5M4/" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/elp-fisheye-lens-camera" }
+			]
+		}, {
+			"name": "Grapple Robotics LaserCAN",
+			"image": "/images/sensors/lidarcan.webp",
+			"filters": {
+				"Type": ["IR rangfinder"],
+				"Measures": ["Distance"],
+				"Output": ["CAN"],
+				"Voltage": ["5.5", "12"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://docs.thethriftybot.com/lasercan" }
 			]
 		}, {
 			"name": "Hall Effect Sensor",
@@ -224,19 +256,6 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hall-effect-sensor" }
-			]
-		}, {
-			"name": "Hall Effect Two Channel Encoder",
-			"image": "/images/sensors/hall-effect-two-channel.jpg",
-			"filters": {
-				"Type": ["Hall Effect"],
-				"Measures": ["Rotations"],
-				"Output": ["Pulse Train"],
-				"Voltage": ["5.5"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hall-effect-two-channel-encoder" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/hall-effect-two-channel-encoder.html" }
 			]
 		}, {
 			"name": "Heavy Duty MRSÂ® Band Switch",
@@ -260,7 +279,6 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/ultrasonic-proximity-sensor-ez-mb1013-maxbotix" },
 				{ "vendor": "MaxBotix", "link": "http://www.maxbotix.com/Ultrasonic_Sensors/MB1013.htm" }
 			]
 		}, {
@@ -288,18 +306,6 @@
 				{ "vendor": "Jevois Inc", "link": "https://www.jevoisinc.com/products/jevois-a33-smart-machine-vision-camera?variant=36249051018" }
 			]
 		}, {
-			"name": "Lasershark 12ft Laser Rangefinder",
-			"image": "/images/sensors/lasershark.png",
-			"filters": {
-				"Type": ["Beam Break", "LIDAR"],
-				"Measures": ["Distance"],
-				"Output": ["PWM"],
-				"Voltage": ["3.3", "5"]
-			},
-			"links": [
-				{ "vendor": "Copperforge", "link": "https://shop.copperforge.cc/products/2a21" }
-			]
-		}, {
 			"name": "LidarLite",
 			"image": "/images/sensors/lidarlite.png",
 			"filters": {
@@ -323,11 +329,11 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/276-2158.html" }
+				{ "vendor": "VEX EDR", "link": "https://www.vexrobotics.com/276-2158.html" }
 			]
 		}, {
-			"name": "Limelight 2+ Vision Camera",
-			"image": "/images/sensors/limelight.png",
+			"name": "Limelight",
+			"image": "/images/sensors/limelight.webp",
 			"filters": {
 				"Type": ["Smart Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -335,8 +341,8 @@
 				"Voltage": ["12"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/limelight-2-plus" },
-				{ "vendor": "Lime Light", "link": "https://limelightvision.io/products/limelight-2-plus" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/limelight-5" },
+				{ "vendor": "Lime Light", "link": "https://limelightvision.io/collections/products" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/limelight-vision-camera" }
 			]
 		}, {
@@ -361,7 +367,7 @@
 				"Voltage": ["0", "5.5", "12"]
 			},
 			"links": [
-				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/adc/Shopping/Catalog/Sensors_-z-_Encoders/Limit_Switches/Double-Insulated_(PBT)_Limit_Switches_(AAP,_ABP_Series)/Side_Rotary_Adjustable_Lever_with_Polyamide_Roller_Actuator/ABP2H51Z11" }
+				{ "vendor": "Automation Direct", "link": "https://www.vexrobotics.com/276-2174.html" }
 			]
 		}, {
 			"name": "Line Tracker",
@@ -373,7 +379,7 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/276-2154.html" }
+				{ "vendor": "VEX EDR", "link": "https://www.vexrobotics.com/276-2154.html" }
 			]
 		}, {
 			"name": "Logitech C270",
@@ -409,8 +415,7 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/absolute-encoder-with-cable" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/absolute-encoder-with-cable.html" }
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/absolute-encoder-with-cable" }
 			]
 		}, {
 			"name": "Magnetic Limit Switch",
@@ -422,7 +427,7 @@
 				"Voltage": ["3.3", "5"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "http://www.revrobotics.com/REV-31-1462/" }
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/REV-31-1462/" }
 			]
 		}, {
 			"name": "Microsoft Lifecam HD-3000",
@@ -435,13 +440,11 @@
 			},
 			"links": [
 				{ "vendor": "Amazon", "link": "https://www.amazon.com/Microsoft-T3H-00001-LifeCam-HD-3000/dp/B004ETQHDM/" },
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/microsoft-lifecam-hd-3000-camera" },
-				{ "vendor": "newegg", "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16826105551" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/microsoft-lifecam-hd-3000-camera.html" }
+				{ "vendor": "newegg", "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16826105551" }
 			]
 		}, {
-			"name": "navX Micro Robotics Navigation Sensor",
-			"image": "/images/sensors/navx-micro.jpg",
+			"name": "navX 2 MXP Robotics Navigation Sensor",
+			"image": "/images/sensors/navx2.webp",
 			"filters": {
 				"Type": ["Accelerometer", "Gyro", "IMU", "Magnetometer"],
 				"Measures": ["Orientation"],
@@ -449,21 +452,21 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/navx-micro-navigation-sensor" },
-				{ "vendor": "Kauai Labs", "link": "http://www.kauailabs.com/store/index.php?route=product/product&product_id=57" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/navx2-mxp-robotics-navigation-sensor" },
+				{ "vendor": "Kauai Labs", "link": "https://www.studica.ca/en/navx-2-mxp-robotics-navigation-sensor" }
 			]
 		}, {
-			"name": "navX MXP Robotics Navigation Sensor",
-			"image": "/images/sensors/navx.jpg",
+			"name": "Pigeon 2",
+			"image": "/images/sensors/navx2.webp",
 			"filters": {
 				"Type": ["Accelerometer", "Gyro", "IMU", "Magnetometer"],
 				"Measures": ["Orientation"],
-				"Output": ["I2C", "SPI", "TTL UART", "USB"],
-				"Voltage": ["5.5"]
+				"Output": ["CAN", "CANFD"],
+				"Voltage": ["12"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/navx-mxp-robotics-navigation-sensor" },
-				{ "vendor": "Kauai Labs", "link": "http://www.kauailabs.com/store/index.php?route=product/product&product_id=56" }
+				{ "vendor": "Cross the Road Electronics", "link": "https://store.ctr-electronics.com/products/pigeon-2" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/motors-pneumatics/products/ctre-sensors" }
 			]
 		}, {
 			"name": "Pixy, CMUcam5 Smart Vision Sensor Camera",
@@ -475,8 +478,6 @@
 				"Voltage": ["5"]
 			},
 			"links": [
-				{ "vendor": "Adafruit", "link": "https://www.adafruit.com/product/1906" },
-				{ "vendor": "Amazon", "link": "https://www.amazon.com/NGW-1pc-Pixy2-CMUcam5-Vision-Sensor/dp/B07L1VRN9W/" },
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pixy2-smart-vision-camera" }
 			]
 		}, {
@@ -489,8 +490,7 @@
 				"Voltage": ["5"]
 			},
 			"links": [
-				{ "vendor": "Amazon", "link": "https://www.amazon.com/PlayStation-Eye-3/dp/B000VTQ3LU" },
-				{ "vendor": "GameStop", "link": "http://www.gamestop.com/ps3/accessories/ps3-playstation-eye-camera-any-used/68447" }
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/PlayStation-Eye-3/dp/B000VTQ3LU" }
 			]
 		}, {
 			"name": "RPLIDAR",
@@ -502,9 +502,7 @@
 				"Voltage": ["5"]
 			},
 			"links": [
-				{ "vendor": "Al's Robot", "link": "http://www.alsrobot.com.cn/goods-751.html" },
-				{ "vendor": "DF Robot", "link": "https://www.dfrobot.com/index.php?route=product/product&search=rplidar&description=true&product_id=1461" },
-				{ "vendor": "Seeed Studio", "link": "https://www.seeedstudio.com/RPLIDAR-A2-The-Thinest-LIDAR-p-2687.html" }
+				{ "vendor": "DF Robot", "link": "https://www.dfrobot.com/index.php?route=product/product&search=rplidar&description=true&product_id=1461" }
 			]
 		}, {
 			"name": "RS7 Encoder",
@@ -517,18 +515,6 @@
 			},
 			"links": [
 				{ "vendor": "Armabot", "link": "https://www.armabot.com/products/rs7-encoder" }
-			]
-		}, {
-			"name": "S4T Miniature Optical Shaft Encoder",
-			"image": "/images/sensors/s4t.jpg",
-			"filters": {
-				"Type": ["Encoder", "Quadrature Encoder"],
-				"Measures": ["Rotations"],
-				"Output": ["Pulse Train"],
-				"Voltage": ["5.5"]
-			},
-			"links": [
-				{ "vendor": "US Digital", "link": "http://www.usdigital.com/products/encoders/incremental/rotary/shaft/S4T" }
 			]
 		}, {
 			"name": "Sensor6PAK Hall Effect Analog (DRV5053)",
@@ -612,8 +598,7 @@
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "Pololu", "link": "https://www.pololu.com/product/1137" },
-				{ "vendor": "sparkfun", "link": "https://www.sparkfun.com/products/8958" }
+				{ "vendor": "Pololu", "link": "https://www.pololu.com/product/1137" }
 			]
 		}, {
 			"name": "Sharp GP2Y0A21YK",
@@ -641,18 +626,6 @@
 			"links": [
 				{ "vendor": "Pololu", "link": "https://www.pololu.com/product/2464" },
 				{ "vendor": "sparkfun", "link": "https://www.sparkfun.com/products/12728" }
-			]
-		}, {
-			"name": "Sharp GP2Y0A710K0F",
-			"image": "/images/sensors/sharp-gp2y0a710k0f.jpg",
-			"filters": {
-				"Type": ["IR Rangefinder"],
-				"Measures": ["Distance"],
-				"Output": ["Analog"],
-				"Voltage": ["5.5"]
-			},
-			"links": [
-				{ "vendor": "RobotShop", "link": "http://www.robotshop.com/en/sharp-gp2y0a710k0f-ir-range-sensor.html" }
 			]
 		}, {
 			"name": "Solid State (HSC/HSK)",
@@ -690,32 +663,8 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/srx-magnetic-encoder" },
-				{ "vendor": "CTR Electronics", "link": "http://www.ctr-electronics.com/sensors/srx-magnetic-encoder.html" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/217-5049.html" }
-			]
-		}, {
-			"name": "String Potentiometer",
-			"image": "/images/sensors/string-pot.jpg",
-			"filters": {
-				"Type": ["Potentiometer"],
-				"Measures": ["Distance"],
-				"Output": ["Analog"],
-				"Voltage": ["5.5", "12"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/assembled-string-potentiometer-complete-kit" }
-			]
-		}, {
-			"name": "Sweep",
-			"image": "/images/sensors/sweep.png",
-			"filters": {
-				"Type": ["LIDAR"],
-				"Measures": ["Distance"],
-				"Output": ["TTL UART"],
-				"Voltage": ["5"]
-			},
-			"links": [
-				{ "vendor": "Scanse", "link": "http://scanse.io/" }
+				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/srx-mag-encoder" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/motors-pneumatics/products/ctre-sensors" }
 			]
 		}, {
 			"name": "Thrifty Absolute Magnetic Encoder",
@@ -730,6 +679,18 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-absolute-magnetic-encoder" }
 			]
 		}, {
+			"name": "ThriftyCam",
+			"image": "/images/sensors/thriftycam.webp",
+			"filters": {
+				"Type": ["Camera"],
+				"Measures": ["Brightness", "Distance", "Shapes"],
+				"Output": ["USB"],
+				"Voltage": ["5"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thriftycam" }
+			]
+		}, {
 			"name": "Thrifty Hall Effect",
 			"image": "/images/sensors/ttb-hall-effect.webp",
 			"filters": {
@@ -742,41 +703,41 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/hall-effect-sensor" }
 			]
 		}, {
-			"name": "Touchless Encoder",
-			"image": "/images/sensors/touchless-encoder.jpg",
+			"name": "Through Bore Encoder",
+			"image": "/images/sensors/rev-through-bore.webp",
 			"filters": {
-				"Type": ["Encoder"],
+				"Type": ["Absolute Encoder", "Encoder"],
 				"Measures": ["Rotations"],
-				"Output": ["Pulse Train"],
-				"Voltage": ["5"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/touchless-encoder" }
-			]
-		}, {
-			"name": "Ultrasonic Range Finder",
-			"image": "/images/sensors/ultrasonic-range-finder.jpg",
-			"filters": {
-				"Type": ["Ultrasonic"],
-				"Measures": ["Distance"],
 				"Output": ["Analog"],
-				"Voltage": ["5.5"]
+				"Voltage": ["3.3", "5"]
 			},
 			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/276-2155.html" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-11-1271/" }
 			]
 		}, {
-			"name": "VersaPlanetary Integrated Encoder",
-			"image": "/images/sensors/versaplanetary-integrated-encoder.png",
+			"name": "Touch",
+			"image": "/images/sensors/rev-touch.webp",
 			"filters": {
-				"Type": ["Encoder"],
-				"Measures": ["Rotations"],
-				"Output": ["Pulse Train", "PWM"],
+				"Type": ["Limit Switch"],
+				"Measures": ["Touch"],
+				"Output": ["Digital"],
 				"Voltage": ["5.5"]
 			},
 			"links": [
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/217-5046.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaplanetary-accessories" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-31-1425/" }
+			]
+		}, {
+			"name": "WCP Through Bore Encoder",
+			"image": "/images/sensors/wcp-through-bore.webp",
+			"filters": {
+				"Type": ["Absolute Encoder", "Encoder"],
+				"Measures": ["Rotations"],
+				"Output": ["CAN", "CANFD"],
+				"Voltage": ["3.3", "5"]
+			},
+			"links": [
+				{ "vendor": "Cross the Road Electronics", "link": "https://store.ctr-electronics.com/products/wcp-throughbore-encoder" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/motors-pneumatics/products/wcp-sensors" }
 			]
 		}, {
 			"name": "XL-MaxSonar-EZ0",
@@ -792,19 +753,6 @@
 				{ "vendor": "MaxBotix", "link": "http://www.maxbotix.com/Ultrasonic_Sensors/MB1200.htm" }
 			]
 		}, {
-			"name": "Yaw Rate Gyroscope Sensor",
-			"image": "/images/sensors/yaw-rate-gyro.jpg",
-			"filters": {
-				"Type": ["Gyro"],
-				"Measures": ["Orientation"],
-				"Output": ["Analog"],
-				"Voltage": ["5.5"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/ProductDetails.asp?ProductCode=vex%2D276%2D2333" },
-				{ "vendor": "VEX EDR", "link": "https://www.vexrobotics.com/276-2333.html" }
-			]
-		}, {
 			"name": "ZED Stereo Camera",
 			"image": "/images/sensors/zed-stereo.jpg",
 			"filters": {
@@ -814,7 +762,7 @@
 				"Voltage": ["5"]
 			},
 			"links": [
-				{ "vendor": "Stereo Labs", "link": "https://store.stereolabs.com/" }
+				{ "vendor": "Stereo Labs", "link": "https://www.stereolabs.com/store" }
 			]
 		}
 	]

@@ -1,0 +1,188 @@
+{
+	"title": "Swerve Modules",
+	"description": "<p>Swerve modules allow a robot to move in any direction without rotating the robot and without losing performance.</p>",
+	"filter_groups": ["Drive Motor", "Steer Motor", "Wheel Diameter", "Wheel Width"],
+	"products": [
+		{
+			"name": "Differential Swerve",
+			"image": "/images/swerve/armabot-differential.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["CIM Style"],
+				"Wheel Diameter": ["3\"", "4\""],
+				"Wheel Width": ["1.75\""]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/products/differential-swerve-drive?_pos=2&_sid=15476093c&_ss=r&variant=15440902193186" }
+			]
+		}, {
+			"name": "MicroSwerve",
+			"image": "/images/subsystems/microswerve.png",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["775"],
+				"Wheel Diameter": ["2.75\"", "3\""],
+				"Wheel Width": ["4\""]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/products/microswerve" }
+			]
+		}, {
+			"name": "Drive Corner",
+			"image": "/images/swerve/drive-corner.png",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["CIM Style"],
+				"Wheel Diameter": ["2.5\""],
+				"Wheel Width": ["1\""]
+			},
+			"links": [
+				{ "vendor": "Plummer Industries", "link": "https://plummerindustries.com/robotics/shop.html#!/Drive-Corners/c/139191062" }
+			]
+		}, {
+			"name": "Drive Corner Narrow",
+			"image": "/images/swerve/drive-corner-narrow.png",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["CIM Style"],
+				"Wheel Diameter": ["2.5\""],
+				"Wheel Width": ["1\""]
+			},
+			"links": [
+				{ "vendor": "Plummer Industries", "link": "https://plummerindustries.com/robotics/shop.html#!/Drive-Corners/c/139191062" }
+			]
+		}, {
+			"name": "Revolution Pro 2",
+			"image": "/images/subsystems/revolutionpro.jpg",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["775"],
+				"Wheel Diameter": ["3.75\""],
+				"Wheel Width": ["1\""]
+			},
+			"links": [
+				{ "vendor": "Team221", "link": "http://www.team221.com/viewproduct.php?id=147" }
+			]
+		}, {
+			"name": "Wild Swerve Kit",
+			"image": "/images/subsystems/wildswerve.jpg",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["775", "CIM Style"],
+				"Wheel Diameter": ["6\""],
+				"Wheel Width": ["1\""]
+			},
+			"links": [
+				{ "vendor": "Team221", "link": "http://www.team221.com/viewproduct.php?id=51" }
+			]
+		}, {
+			"name": "REV MAXSwerve",
+			"image": "/images/subsystems/maxswerve.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["NEO 550"],
+				"Wheel Diameter": ["3\""],
+				"Wheel Width": ["1\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-3005/" }
+			]
+		}, {
+			"name": "MK5n",
+			"image": "/images/swerve/mk5n.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["Kraken X44"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["2.25\""]
+			},
+			"links": [
+				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/products/mk5n-swerve-module" }
+			]
+		}, {
+			"name": "MK5i",
+			"image": "/images/swerve/mk5i.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["CIM Style"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["2.25\""]
+			},
+			"links": [
+				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/products/mk5i-swerve-module" }
+			]
+		}, {
+			"name": "Swerve X2",
+			"image": "/images/swerve/swerve-x2.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style", "Kraken X44"],
+				"Steer Motor": ["CIM Style", "Kraken X44"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["2\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/swerve-x2" }
+			]
+		}, {
+			"name": "Swerve X2i",
+			"image": "/images/swerve/swerve-x2i.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style", "Kraken X44"],
+				"Steer Motor": ["CIM Style", "Kraken X44"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["2\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/swerve-x2i" }
+			]
+		}, {
+			"name": "Swerve X2s",
+			"image": "/images/swerve/swerve-x2s.webp",
+			"filters": {
+				"Drive Motor": ["550", "775", "CIM Style", "Kraken X44"],
+				"Steer Motor": ["550", "775", "CIM Style", "Kraken X44"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["2\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/swerve-x2-s" }
+			]
+		}, {
+			"name": "Swerve X2t",
+			"image": "/images/swerve/swerve-x2t.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style", "Kraken X44"],
+				"Steer Motor": ["CIM Style", "Kraken X44"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["2\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/swerve-x2t" }
+			]
+		}, {
+			"name": "Thrifty Swerve",
+			"image": "/images/swerve/thrifty-swerve.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["CIM Style"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["1.5\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-swerve" }
+			]
+		}, {
+			"name": "Thrifty Swerve Narrow",
+			"image": "/images/swerve/thrifty-swerve-narrow.webp",
+			"filters": {
+				"Drive Motor": ["CIM Style"],
+				"Steer Motor": ["Kraken X44"],
+				"Wheel Diameter": ["4\""],
+				"Wheel Width": ["1.5\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-swerve-narrow-module" }
+			]
+		}
+	]
+}

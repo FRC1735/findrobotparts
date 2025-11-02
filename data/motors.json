@@ -76,7 +76,7 @@
 			"image": "/images/motors/kraken-x44.webp",
 			"filters": {
 				"No Load Speed": ["7530"],
-				"Output Type": ["SplineXS"],
+				"Output Type": ["15T Spline"],
 				"Power (W)": ["397"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["Yes"]
@@ -90,7 +90,7 @@
 			"image": "/images/motors/kraken-x60.webp",
 			"filters": {
 				"No Load Speed": ["6000"],
-				"Output Type": ["SplineXS"],
+				"Output Type": ["15T Spline"],
 				"Power (W)": ["413"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["Yes"]
@@ -104,7 +104,7 @@
 			"image": "/images/motors/minion.webp",
 			"filters": {
 				"No Load Speed": ["7200"],
-				"Output Type": ["SplineXS"],
+				"Output Type": ["15T Spline"],
 				"Power (W)": ["383"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["No"]
@@ -112,20 +112,6 @@
 			"links": [
 				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/minion-brushless-motor" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/talonfxs-motor-controller-and-motors" }
-			]
-		}, {
-			"name": "NEO 550",
-			"image": "/images/motors/neo550.png",
-			"filters": {
-				"No Load Speed": ["11000"],
-				"Output Type": ["0.125in"],
-				"Power (W)": ["279"],
-				"Style": ["Brushless"],
-				"Integrated Controller": ["No"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://andymark.com/products/rev-neo-550-brushless-motor" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1651/" }
 			]
 		}, {
 			"name": "NEO",
@@ -142,11 +128,38 @@
 				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1650/" }
 			]
 		}, {
+			"name": "NEO 2",
+			"image": "/images/motors/neo2.webp",
+			"filters": {
+				"No Load Speed": ["5676"],
+				"Output Type": ["15T Spline"],
+				"Power (W)": ["540"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-1653/" }
+			]
+		}, {
+			"name": "NEO 550",
+			"image": "/images/motors/neo550.png",
+			"filters": {
+				"No Load Speed": ["11000"],
+				"Output Type": ["0.125in"],
+				"Power (W)": ["279"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/rev-neo-550-brushless-motor" },
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1651/" }
+			]
+		}, {
 			"name": "NEO Vortex",
 			"image": "/images/motors/neo-vortex.webp",
 			"filters": {
 				"No Load Speed": ["6784"],
-				"Output Type": ["1/2\" hex", "7t Pinion", "8mm", "MAXPlanetary", "MAXSwerve", "SplineXS"],
+				"Output Type": ["1/2\" hex", "7t Pinion", "8mm", "MAXPlanetary", "MAXSwerve", "15T Spline"],
 				"Power (W)": ["375"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["Replaceable"]
@@ -166,6 +179,19 @@
 			},
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://andymark.com/products/neverest-series-motor-only" }
+			]
+		}, {
+			"name": "Pulsar 775",
+			"image": "/images/motors/pulsar-775.jpg",
+			"filters": {
+				"No Load Speed": ["7500"],
+				"Output Type": ["15T Spline"],
+				"Power (W)": ["604"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/pulsar-775" }
 			]
 		}, {
 			"name": "RS775 18v",

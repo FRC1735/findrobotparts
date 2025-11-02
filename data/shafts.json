@@ -1,37 +1,9 @@
 {
 	"title": "Shafts",
-	"pathname": "shafts",
 	"description": "<p>Shafts can be used to make things rotate on your rotate. Add sprockets, gears, hubs, or anything else to them.</p>",
-	"image_slug": "shaft",
 	"filter_groups": ["Shape", "Diameter", "Keyway", "ID", "Material"],
 	"products": [
 		{
-			"name": "AM 1/2\"",
-			"image": "/images/shafts/am-500.jpg",
-			"filters": {
-				"Shape": ["Round"],
-				"Diameter": ["0.5\""],
-				"Keyway": ["1/8\""],
-				"ID": ["n/a"],
-				"Material": ["Carbon steel"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-2-in-diameter-steel-shaft-stock-1-8-in-keyway-30-in-long" }
-			]
-		}, {
-			"name": "AM 3/8\"",
-			"image": "/images/shafts/am-375.jpg",
-			"filters": {
-				"Shape": ["Round"],
-				"Diameter": ["0.375\""],
-				"Keyway": ["3/32\""],
-				"ID": ["n/a"],
-				"Material": ["Carbon steel"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-diameter-steel-shaft-stock-3-32-in-keyway-30-in-long" }
-			]
-		}, {
 			"name": "AM 6mm D",
 			"image": "/images/shafts/am-6mm-d.jpg",
 			"filters": {
@@ -55,20 +27,35 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "http://www.andymark.com/Search-s/545.htm?Search=aluminum+hex+shaft+stock&Submit=" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/0-5-in-7075-aluminum-hex-shaft-stock" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-8-in-7075-aluminum-hex-shaft-stock" }
 			]
 		}, {
-			"name": "AM Hex",
+			"name": "AM Steel Hex",
 			"image": "/images/shafts/am-hex.jpg",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
 				"Keyway": ["n/a"],
 				"ID": ["n/a"],
+				"Material": ["Steel"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-steel-hex-shaft-stock" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-8-in-steel-hex-shaft-stock" }
+			]
+		}, {
+			"name": "Churro",
+			"image": "/images/shafts/churro.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.2"],
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/shafts" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shafts/products/1-2-in-churro-different-lengths" }
 			]
 		}, {
 			"name": "MAXSpline Shaft",
@@ -94,7 +81,7 @@
 				"Material": ["Aluminum", "Stainless Steel", "Steel"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#precision-shafts/=33owuu3vaiio48cppz" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
 			]
 		}, {
 			"name": "McMaster 3/8\"",
@@ -107,7 +94,7 @@
 				"Material": ["Aluminum", "Stainless Steel", "Steel"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#precision-shafts/=33owuu3vaiio48czrw" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
 			]
 		}, {
 			"name": "McMaster 5/16\"",
@@ -120,7 +107,7 @@
 				"Material": ["Aluminum", "Steel"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#precision-shafts/=33owuu3vaiio489tk6" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
 			]
 		}, {
 			"name": "McMaster 5/8\"",
@@ -133,59 +120,20 @@
 				"Material": ["Aluminum", "Stainless Steel", "Steel"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#precision-shafts/=33owuu3vaiio48chmd" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
 			]
 		}, {
-			"name": "McMaster Aluminum Hex",
+			"name": "McMaster Hex",
 			"image": "/images/shafts/mcmaster-hex.png",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
 				"Keyway": ["n/a"],
 				"ID": ["n/a"],
-				"Material": ["Aluminum"]
+				"Material": ["Aluminum", "Nylon", "Steel", "Stainless Steel", "Teflon"]
 			},
 			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#aluminum-hex-bars/=33owuu3vaiio48g049" }
-			]
-		}, {
-			"name": "McMaster Plastic Hex",
-			"image": "/images/shafts/mcmaster-hex.png",
-			"filters": {
-				"Shape": ["Hex"],
-				"Diameter": ["0.375\"", "0.5\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Nylon", "Teflon"]
-			},
-			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#plastic-hex-bars/=33owuu3vaiio48m1yx" }
-			]
-		}, {
-			"name": "McMaster Stainless Steel Hex",
-			"image": "/images/shafts/mcmaster-hex.png",
-			"filters": {
-				"Shape": ["Hex"],
-				"Diameter": ["0.375\"", "0.5\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#stainless-steel-hex-bars/=33owuu3vaiio48iflc" }
-			]
-		}, {
-			"name": "McMaster Steel Hex",
-			"image": "/images/shafts/mcmaster-hex.png",
-			"filters": {
-				"Shape": ["Hex"],
-				"Diameter": ["0.375\"", "0.5\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Steel"]
-			},
-			"links": [
-				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#steel-hex-bars/=33owuu3vaiio48hqr9" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/products/bars/?s=hex+bars" }
 			]
 		}, {
 			"name": "Online Metals Aluminum Hex",
@@ -195,39 +143,13 @@
 				"Diameter": ["0.375\"", "0.5\""],
 				"Keyway": ["n/a"],
 				"ID": ["n/a"],
-				"Material": ["Aluminum"]
+				"Material": ["Aluminum", "Steel", "Stainless Steel"]
 			},
 			"links": [
-				{ "vendor": "Online Metals", "link": "http://www.onlinemetals.com/merchant.cfm?id=744&step=2&top_cat=60" }
+				{ "vendor": "Online Metals", "link": "https://www.onlinemetals.com/en/buy/hex-bar" }
 			]
 		}, {
-			"name": "Online Metals Stainless Steel Hex",
-			"image": "/images/shafts/onlinemetals-stainless.jpg",
-			"filters": {
-				"Shape": ["Hex"],
-				"Diameter": ["0.375\"", "0.5\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Online Metals", "link": "http://www.onlinemetals.com/merchant.cfm?id=11&step=2&top_cat=1" }
-			]
-		}, {
-			"name": "Online Metals Steel Hex",
-			"image": "/images/shafts/onlinemetals-stainless.jpg",
-			"filters": {
-				"Shape": ["Hex"],
-				"Diameter": ["0.5\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Steel"]
-			},
-			"links": [
-				{ "vendor": "Online Metals", "link": "http://www.onlinemetals.com/merchant.cfm?pid=22541&step=4&showunits=inches&id=1562&top_cat=197" }
-			]
-		}, {
-			"name": "REV 5mm HEX shaft",
+			"name": "REV 5mm Hex shaft",
 			"image": "/images/shafts/rev-5mmhex.jpg",
 			"filters": {
 				"Shape": ["Hex"],
@@ -240,19 +162,56 @@
 				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1349/" }
 			]
 		}, {
-			"name": "Thunderhex",
-			"image": "/images/shafts/thunderhex.jpg",
+			"name": "REV Rounded Hex",
+			"image": "/images/shafts/rev-rounded-hex.webp",
 			"filters": {
-				"Shape": ["Thunderhex"],
+				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],
 				"Keyway": ["n/a"],
-				"ID": ["0.2\""],
+				"ID": ["0.16\""],
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1895" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/thunderhexstock.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/shaft-stock" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/.5in-Rounded-Hex-Shafts/" }
+			]
+		}, {
+			"name": "TTB Rounded 3/8\" Hex",
+			"image": "/images/shafts/ttb-rounded-375-hex.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.375\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.157\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/copy-of-qty-1-36-inch-long-1-2-rounded-hex-shaft-7075-aluminum" }
+			]
+		}, {
+			"name": "TTB Rounded Hex - Aluminum 7075",
+			"image": "/images/shafts/ttb-rounded-hex-7075.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.157\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/copy-of-qty-1-36-inch-long-1-2-rounded-hex-shaft-7075-aluminum" }
+			]
+		}, {
+			"name": "TTB Rounded Hex - Aluminum 6061",
+			"image": "/images/shafts/ttb-rounded-hex-6061.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.157\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-36-inch-long-1-2-rounded-hex-shaft-6061-aluminum" }
 			]
 		}, {
 			"name": "Ultrahex Shaft",
@@ -265,63 +224,7 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1450/" }
-			]
-		}, {
-			"name": "VEX EDR 1/4\" Square",
-			"image": "/images/shafts/vexedr-250.jpg",
-			"filters": {
-				"Shape": ["Square"],
-				"Diameter": ["0.25\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Steel"]
-			},
-			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/hs-hardware.html" }
-			]
-		}, {
-			"name": "VEX EDR 1/8\" Square",
-			"image": "/images/shafts/vexedr-125.jpg",
-			"filters": {
-				"Shape": ["Square"],
-				"Diameter": ["0.125\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Steel"]
-			},
-			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/shafts-and-hardware.html" }
-			]
-		}, {
-			"name": "VEX Hex",
-			"image": "/images/shafts/vex-hex.jpg",
-			"filters": {
-				"Shape": ["Hex"],
-				"Diameter": ["0.375\"", "0.5\""],
-				"Keyway": ["n/a"],
-				"ID": ["n/a"],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1895" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/shaft-stock.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/shaft-stock" }
-			]
-		}, {
-			"name": "VEX Round",
-			"image": "/images/shafts/vex-round.jpg",
-			"filters": {
-				"Shape": ["Round"],
-				"Diameter": ["0.5\""],
-				"Keyway": ["n/a"],
-				"ID": ["0.25\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1895" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/shaft-stock.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/shaft-stock" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-41-3205/" }
 			]
 		}, {
 			"name": "WCP Hex",

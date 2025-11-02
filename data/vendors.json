@@ -1,21 +1,9 @@
 {
 	"title": "Vendors",
-	"pathname": "vendors",
 	"description": "<p>It is impossible to list every type of product out there. This list of vendors will cover products that this website does not.</p>",
-	"image_slug": "vendor",
 	"filter_groups": ["Product Category", "Location"],
 	"products": [
 		{
-			"name": "16 Hertz",
-			"image": "/images/vendors/16-hertz.png",
-			"filters": {
-				"Product Category": ["Control System", "Electrical"],
-				"Location": ["New York", "United States"]
-			},
-			"links": [
-				{ "vendor": "16 Hertz", "link": "http://www.16hertz.com/" }
-			]
-		}, {
 			"name": "221 Robotics Systems",
 			"image": "/images/vendors/221-robotics-systems.png",
 			"filters": {
@@ -176,16 +164,6 @@
 				{ "vendor": "Coast Pneumatics", "link": "http://www.coastpneumatics.com/" }
 			]
 		}, {
-			"name": "Competition Robot Parts",
-			"image": "/images/image-not-available.png",
-			"filters": {
-				"Product Category": ["Pulleys", "Raw Materials"],
-				"Location": ["Ohio", "United States"]
-			},
-			"links": [
-				{ "vendor": "Competition Robot Parts", "link": "https://www.competitionrobotparts.com/" }
-			]
-		}, {
 			"name": "Copperforge",
 			"image": "/images/vendors/copperforge.png",
 			"filters": {
@@ -224,6 +202,16 @@
 			},
 			"links": [
 				{ "vendor": "DigiKey", "link": "http://www.digikey.com/" }
+			]
+		}, {
+			"name": "EtherParts",
+			"image": "/images/vendors/etherparts.webp",
+			"filters": {
+				"Product Category": ["Sensors"],
+				"Location": ["California", "United States"]
+			},
+			"links": [
+				{ "vendor": "EtherParts", "link": "https://etherparts.store/" }
 			]
 		}, {
 			"name": "Festo",
@@ -346,16 +334,6 @@
 				{ "vendor": "McMaster-Carr", "link": "http://www.mcmaster.com/" }
 			]
 		}, {
-			"name": "mindsensors.com",
-			"image": "/images/vendors/mindsensors.jpg",
-			"filters": {
-				"Product Category": ["Motor Controllers"],
-				"Location": ["United States", "Virginia"]
-			},
-			"links": [
-				{ "vendor": "mindsensors.com", "link": "http://www.mindsensors.com/" }
-			]
-		}, {
 			"name": "Mouser",
 			"image": "/images/vendors/mouser.gif",
 			"filters": {
@@ -404,16 +382,6 @@
 			},
 			"links": [
 				{ "vendor": "Online Metals", "link": "http://www.onlinemetals.com/" }
-			]
-		}, {
-			"name": "Ozzy Boards",
-			"image": "/images/vendors/ozzyboards.jpg",
-			"filters": {
-				"Product Category": ["Sensors"],
-				"Location": ["Australia"]
-			},
-			"links": [
-				{ "vendor": "Ozzy Boards", "link": "http://ozzyboards.com/" }
 			]
 		}, {
 			"name": "Playing With Fusion, Inc",
@@ -486,6 +454,16 @@
 				{ "vendor": "Pure Buttons", "link": "http://www.purebuttons.com/" }
 			]
 		}, {
+			"name": "Refire Solutikons",
+			"image": "/images/vendors/refiresolutions.webp",
+			"filters": {
+				"Product Category": ["Electrical"],
+				"Location": ["Illinois", "United States"]
+			},
+			"links": [
+				{ "vendor": "Refire Solutikons", "link": "https://refiresolutions.com/" }
+			]
+		}, {
 			"name": "REV Robotics",
 			"image": "/images/vendors/rev-robotics.png",
 			"filters": {
@@ -524,16 +502,6 @@
 			},
 			"links": [
 				{ "vendor": "Robot Marketplace", "link": "http://www.robotmarketplace.com/" }
-			]
-		}, {
-			"name": "Robot Mesh",
-			"image": "/images/vendors/robot-mesh.png",
-			"filters": {
-				"Product Category": ["Motors/Servos", "Sensors"],
-				"Location": ["United States", "Washington"]
-			},
-			"links": [
-				{ "vendor": "Robot Mesh", "link": "http://www.robotmesh.com/" }
 			]
 		}, {
 			"name": "RobotShop",
@@ -636,6 +604,16 @@
 				{ "vendor": "Super Bright LEDs", "link": "https://www.superbrightleds.com/" }
 			]
 		}, {
+			"name": "Swerve Drive Specialties",
+			"image": "/images/vendors/swervedrivespecialties.webp",
+			"filters": {
+				"Product Category": ["Gearboxes", "Gears", "Hardware", "Pre-made Driveline Assemblies", "Pulleys", "Wheels"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/" }
+			]
+		}, {
 			"name": "Swyft Robotics",
 			"image": "/images/vendors/swyft.png",
 			"filters": {
@@ -716,6 +694,16 @@
 				{ "vendor": "VEX Robotics", "link": "http://www.vexrobotics.com/" }
 			]
 		}, {
+			"name": "Vivid Hosting",
+			"image": "/images/vendors/vividhosting.png",
+			"filters": {
+				"Product Category": ["Control System"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "Vivid Hosting", "link": "https://vivid-hosting.net/" }
+			]
+		}, {
 			"name": "Vulcan Spring",
 			"image": "/images/vendors/vulcan-spring.jpg",
 			"filters": {
@@ -724,6 +712,16 @@
 			},
 			"links": [
 				{ "vendor": "Vulcan Spring", "link": "http://www.vulcanspring.com/" }
+			]
+		}, {
+			"name": "Wattos",
+			"image": "/images/vendors/wattos.png",
+			"filters": {
+				"Product Category": ["Bumper Accessories", "Wheels"],
+				"Location": ["Turkey"]
+			},
+			"links": [
+				{ "vendor": "Wattos", "link": "https://wattos.com.tr/" }
 			]
 		}, {
 			"name": "West Coast Products",

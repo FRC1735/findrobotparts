@@ -1,8 +1,6 @@
 {
 	"title": "Chain",
-	"pathname": "chain",
 	"description": "<p>Use chain to connect your sprockets.</p>",
-	"image_slug": "chain",
 	"filter_groups": ["ANSI Chain Size", "Pitch", "Type", "Material"],
 	"products": [
 		{

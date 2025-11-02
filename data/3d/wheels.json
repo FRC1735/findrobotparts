@@ -1,8 +1,6 @@
 {
 	"title": "3D Printed - Wheels",
-	"pathname": "3d/wheels",
 	"description": "<p>You can 3D print your own wheels for your robot to save money or to save weight.</p>",
-	"image_slug": "3d-wheel",
 	"filter_groups": ["Style", "Diameter", "Width", "Hub", "User"],
 	"products": [
 		{
@@ -43,6 +41,32 @@
 			},
 			"links": [
 				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:73111" }
+			]
+		}, {
+			"name": "FIRST Robotics Swerve Tread",
+			"image": "/images/3d/wheels/6855509.webp",
+			"filters": {
+				"Style": ["Tread"],
+				"Diameter": ["4\""],
+				"Width": ["1.5\""],
+				"Hub": ["n/a"],
+				"User": ["honeybakedjdog"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:6855509" }
+			]
+		}, {
+			"name": "FRC 4 Inch Tread",
+			"image": "/images/3d/wheels/5345783.png",
+			"filters": {
+				"Style": ["Tread"],
+				"Diameter": ["4\""],
+				"Width": ["1.5\""],
+				"Hub": ["n/a"],
+				"User": ["dgreathouse"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:5345783" }
 			]
 		}, {
 			"name": "Lightweight 4in Diameter Traction Wheel",
