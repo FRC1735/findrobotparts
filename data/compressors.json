@@ -5,7 +5,7 @@
 	"products": [	
 		{
 			"name": "CP26",
-			"image": "/images/products/pneumatics/cp26.jpg",
+			"image": "/images/products/compressors/cp26.jpg",
 			"filters": {
 				"Duty Cycle @ 100psi": ["40%"],
 				"Flow Rate (cfm at 0psi)": ["0.92"]
@@ -15,7 +15,7 @@
 			]
 		}, {
 			"name": "Thomas 405ADC38",
-			"image": "/images/products/pneumatics/thomas-405adc38.jpg",
+			"image": "/images/products/compressors/thomas-405adc38.jpg",
 			"filters": {
 				"Duty Cycle @ 100psi": ["100%"],
 				"Flow Rate (cfm at 0psi)": ["0.79"]
@@ -25,7 +25,7 @@
 			]
 		}, {
 			"name": "VIAIR 100C",
-			"image": "/images/products/pneumatics/viair-100c.jpg",
+			"image": "/images/products/compressors/viair-100c.jpg",
 			"filters": {
 				"Duty Cycle @ 100psi": ["15%"],
 				"Flow Rate (cfm at 0psi)": ["1"]
@@ -35,7 +35,7 @@
 			]
 		}, {
 			"name": "VIAIR 250C-IG",
-			"image": "/images/products/pneumatics/viair-250c-ig.jpg",
+			"image": "/images/products/compressors/viair-250c-ig.jpg",
 			"filters": {
 				"Duty Cycle @ 100psi": ["100%"],
 				"Flow Rate (cfm at 0psi)": ["0.88"]
@@ -45,7 +45,7 @@
 			]
 		}, {
 			"name": "VIAIR 330C-IG",
-			"image": "/images/products/pneumatics/viair-330c-ig.jpg",
+			"image": "/images/products/compressors/viair-330c-ig.jpg",
 			"filters": {
 				"Duty Cycle @ 100psi": ["100%"],
 				"Flow Rate (cfm at 0psi)": ["1.06"]
@@ -55,7 +55,7 @@
 			]
 		}, {
 			"name": "VIAIR 90C",
-			"image": "/images/products/pneumatics/viair-90c.jpg",
+			"image": "/images/products/compressors/viair-90c.jpg",
 			"filters": {
 				"Duty Cycle @ 100psi": ["9%"],
 				"Flow Rate (cfm at 0psi)": ["0.73"]
@@ -66,7 +66,7 @@
 			]
 		}, {
 			"name": "VIAIR 98C",
-			"image": "/images/products/pneumatics/viair-98c.jpg",
+			"image": "/images/products/compressors/viair-98c.jpg",
 			"filters": {
 				"Duty Cycle @ 100psi": ["10%"],
 				"Flow Rate (cfm at 0psi)": ["1.53"]
