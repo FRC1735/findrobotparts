@@ -175,15 +175,6 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/roller-intake-system-kit" }
 			]
 		}, {
-			"name": "Nano Tube",
-			"image": "/images/subsystems/nanotube.jpg",
-			"filters": {
-				"Type": ["Chassis", "Driveline"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?q=nano+tube" }
-			]
-		}, {
 			"name": "Plummer Industries Bumper Mounts",
 			"image": "/images/subsystems/pi-bumper-mounts.png",
 			"filters": {

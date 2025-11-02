@@ -85,7 +85,7 @@
 				"Length (mm)": ["203", "254", "304", "355", "406", "457", "508", "558", "609", "660", "711", "762", "812", "863", "914", "965", "1016", "1066", "1117", "1168", "1219", "1219", "1270", "1320", "1371"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/RT25-Belts-1/2in-Width/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/RT25-Belts-1/2in-Width/" }
 			]
 		}, {
 			"name": "Rhino Track Timing Belt",

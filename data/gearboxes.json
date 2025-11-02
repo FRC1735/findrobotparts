@@ -7,7 +7,7 @@
 			"name": "180deg Input Kit",
 			"image": "/images/gearboxes/rev-190deg.webp",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)"],
 				"Number of Motors": ["1 Motor"],
 				"Output Shaft": ["1/2\" Hex"],
 				"Speeds": ["1 Speed"],
@@ -21,7 +21,7 @@
 			"name": "2 Motor Drivetrain Gearbox Through Bore",
 			"image": "/images/gearboxes/rev-2motor-driveline-through.png",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
 				"Output Shaft": ["1/2\" Hex"],
 				"Speeds": ["1 Speed"],
@@ -35,7 +35,7 @@
 			"name": "2 Motor Gearbox - Through Bore",
 			"image": "/images/gearboxes/rev-2motor-through.png",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)"],
 				"Number of Motors": ["2 Motors"],
 				"Output Shaft": ["1/2\" Hex"],
 				"Speeds": ["1 Speed"],
@@ -77,7 +77,7 @@
 			"name": "CIMple Box V2",
 			"image": "/images/gearboxes/cimple-box.jpg",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
 				"Output Shaft": ["1/2\" Round", "1/2\" Hex"],
 				"Speeds": ["1 Speed"],
@@ -105,7 +105,7 @@
 			"name": "EVO",
 			"image": "/images/gearboxes/evo.png",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors", "3 Motors"],
 				"Output Shaft": ["1/2\" Hex", "1/2\" Round"],
 				"Speeds": ["2 Speeds"],
@@ -133,7 +133,7 @@
 			"name": "Flyer Overdrive Gearbox",
 			"image": "/images/gearboxes/flyer.webp",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)"],
 				"Number of Motors": ["1 Motor"],
 				"Output Shaft": ["1/2\" Hex"],
 				"Speeds": ["1 Speed"],
@@ -175,7 +175,7 @@
 			"name": "MAXPlanetary",
 			"image": "/images/gearboxes/maxplanetary.png",
 			"filters": {
-				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X44", "Kraken X60", "Minion", "NEO 550"],
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex)", "Kraken X44", "Kraken X60", "Minion", "NEO 550"],
 				"Number of Motors": ["1 Motor"],
 				"Output Shaft": ["1/2\" Hex"],
 				"Speeds": ["1 Speed"],
@@ -315,7 +315,7 @@
 			"name": "Sport",
 			"image": "/images/gearboxes/57sport.jpg",
 			"filters": {
-				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X44", "Kraken X60", "Minion", "NeveRest", "NEO 550"],
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex)", "Kraken X44", "Kraken X60", "Minion", "NeveRest", "NEO 550"],
 				"Number of Motors": ["1 Motor", "2 Motors"],
 				"Output Shaft": ["1/2\" Hex", "1/2\" Hex Socket"],
 				"Speeds": ["1 Speed"],
@@ -344,7 +344,7 @@
 			"name": "Toughbox Classic",
 			"image": "/images/gearboxes/toughbox.jpg",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
 				"Output Shaft": ["1/2\" Round"],
 				"Speeds": ["1 Speed"],
@@ -358,7 +358,7 @@
 			"name": "Toughbox Micro Classic",
 			"image": "/images/gearboxes/toughbox-micro.jpg",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["1 Motor"],
 				"Output Shaft": ["1/2\" Hex"],
 				"Speeds": ["1 Speed"],
@@ -372,7 +372,7 @@
 			"name": "Toughbox Mini Classic",
 			"image": "/images/gearboxes/toughbox-mini.jpg",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
 				"Output Shaft": ["1/2\" Hex", "1/2\" Round"],
 				"Speeds": ["1 Speed"],
@@ -400,7 +400,7 @@
 			"name": "VersaPlanetary",
 			"image": "/images/gearboxes/versaplanetary.jpg",
 			"filters": {
-				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex, Cu60)", "NEO 550"],
+				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex)", "NEO 550"],
 				"Number of Motors": ["1 Motor", "2 Motors"],
 				"Output Shaft": ["1/2\" Hex", "3/8\" Hex", "8mm (CIM Style)", "1/2\" Hex Socket"],
 				"Speeds": ["1 Speed"],
@@ -428,7 +428,7 @@
 			"name": "WCP Single Stage",
 			"image": "/images/gearboxes/wcp-single-stage.webp",
 			"filters": {
-				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex, Cu60)", "Kraken X60"],
+				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
 				"Output Shaft": ["1/2\" Hex"],
 				"Speeds": ["1 Speed"],

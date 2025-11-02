@@ -163,7 +163,7 @@
 			]
 		}, {
 			"name": "REV Rounded Hex",
-			"image": "/images/shafts/rev-rounded-hex.webp",
+			"image": "/images/shafts/rev-rounded-hex-7075.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],
@@ -189,7 +189,7 @@
 			]
 		}, {
 			"name": "TTB Rounded Hex - Aluminum 7075",
-			"image": "/images/shafts/ttb-rounded-hex-7075.webp",
+			"image": "/images/shafts/ttb-rounded-hex.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],

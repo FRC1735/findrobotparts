@@ -330,7 +330,7 @@
 			]
 		}, {
 			"name": "TTB #35 1/2\" Hex",
-			"image": "/images/sprockets/am-35-375-hex.webp",
+			"image": "/images/sprockets/ttb-35-500-hex.webp",
 			"filters": {
 				"Bore": ["0.500\" hex"],
 				"Chain Pitch": ["35"],

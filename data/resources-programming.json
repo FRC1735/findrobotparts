@@ -136,7 +136,7 @@
 				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/SmartDashboard" }
 			]
 		}, {
-			"name": "SpikesLib",
+			"name": "SpikesLib2",
 			"image": "/images/resources-software/spikeslib.png",
 			"filters": {
 				"Type": ["Library"],
@@ -145,7 +145,7 @@
 				"Robot Language": ["Java"]
 			},
 			"links": [
-				{ "vendor": "Spikes #2212", "link": "https://github.com/Spikes-2212-Programming-Guild/SpikesLib" }
+				{ "vendor": "Spikes #2212", "link": "https://github.com/Spikes-2212-Programming-Guild/SpikesLib2" }
 			]
 		}, {
 			"name": "Third Coast",

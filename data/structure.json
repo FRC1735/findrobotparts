@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "1\" x 1\" Aluminum Box",
-			"image": "/images/structure/am-2x1.jpg",
+			"image": "/images/structure/am-1x1.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["1\""],
@@ -19,7 +19,7 @@
 			]
 		}, {
 			"name": "1.5\" x 1.5\" Aluminum Box",
-			"image": "/images/structure/am-2x1.jpg",
+			"image": "/images/structure/am-15x15.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["1.5\""],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "2\" x 2\" Aluminum Box",
-			"image": "/images/structure/am-2x1.jpg",
+			"image": "/images/structure/am-2x2.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["2\""],

@@ -103,7 +103,7 @@
 			]
 		}, {
 			"name": "HTD CIM Pulley",
-			"image": "/images/pulleys/8mm-htd-cim.webp.png",
+			"image": "/images/pulleys/8mm-htd-cim.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Anodized Aluminum"],

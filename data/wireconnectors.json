@@ -220,7 +220,7 @@
 			]
 		}, {
 			"name": "ReFire Quick Connect Kraken X60",
-			"image": "/images/wireconnectors/refireconnectkraken.jpg",
+			"image": "/images/wireconnectors/refirekraken.jpg",
 			"filters": {
 				"Type": ["Powerpole", "PWM"],
 				"Gender": ["N/A"],
