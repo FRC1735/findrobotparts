@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "FlashLib",
-			"image": "/images/resources-software/flashlib.jpg",
+			"image": "/images/products/resources-software/flashlib.jpg",
 			"filters": {
 				"Type": ["Library"],
 				"Official": ["No"],
@@ -17,7 +17,7 @@
 			]
 		}, {
 			"name": "GradleRIO",
-			"image": "/images/resources-software/wpilibsuite.png",
+			"image": "/images/products/resources-software/wpilibsuite.png",
 			"filters": {
 				"Type": ["Build Management System"],
 				"Official": ["Yes"],
@@ -29,7 +29,7 @@
 			]
 		}, {
 			"name": "PathWeaver",
-			"image": "/images/resources-software/wpilibsuite.png",
+			"image": "/images/products/resources-software/wpilibsuite.png",
 			"filters": {
 				"Type": ["Navigation"],
 				"Official": ["Yes"],
@@ -41,7 +41,7 @@
 			]
 		}, {
 			"name": "pi-gen",
-			"image": "/images/resources-software/wpilibsuite.png",
+			"image": "/images/products/resources-software/wpilibsuite.png",
 			"filters": {
 				"Type": ["Vision"],
 				"Official": ["Yes"],
@@ -53,7 +53,7 @@
 			]
 		}, {
 			"name": "pynetworktables",
-			"image": "/images/resources-software/robotpy.png",
+			"image": "/images/products/resources-software/robotpy.png",
 			"filters": {
 				"Type": ["Network Tables"],
 				"Official": ["No"],
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "QDriverStation",
-			"image": "/images/resources-software/qdriverstation.png",
+			"image": "/images/products/resources-software/qdriverstation.png",
 			"filters": {
 				"Type": ["Driver Station"],
 				"Official": ["No"],
@@ -77,7 +77,7 @@
 			]
 		}, {
 			"name": "RobotBuilder",
-			"image": "/images/resources-software/wpilibsuite.png",
+			"image": "/images/products/resources-software/wpilibsuite.png",
 			"filters": {
 				"Type": ["Code Template GUI"],
 				"Official": ["Yes"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "Robotpy-Rev",
-			"image": "/images/resources-software/robotpy.png",
+			"image": "/images/products/resources-software/robotpy.png",
 			"filters": {
 				"Type": ["Binding"],
 				"Official": ["No"],
@@ -101,7 +101,7 @@
 			]
 		}, {
 			"name": "RobotPy-WPILib",
-			"image": "/images/resources-software/robotpy.png",
+			"image": "/images/products/resources-software/robotpy.png",
 			"filters": {
 				"Type": ["WPILib"],
 				"Official": ["No"],
@@ -113,7 +113,7 @@
 			]
 		}, {
 			"name": "Shuffleboard",
-			"image": "/images/resources-software/wpilibsuite.png",
+			"image": "/images/products/resources-software/wpilibsuite.png",
 			"filters": {
 				"Type": ["Dashboard"],
 				"Official": ["Yes"],
@@ -125,7 +125,7 @@
 			]
 		}, {
 			"name": "SmartDashboard",
-			"image": "/images/resources-software/wpilibsuite.png",
+			"image": "/images/products/resources-software/wpilibsuite.png",
 			"filters": {
 				"Type": ["Dashboard"],
 				"Official": ["Yes"],
@@ -137,7 +137,7 @@
 			]
 		}, {
 			"name": "SpikesLib2",
-			"image": "/images/resources-software/spikeslib.png",
+			"image": "/images/products/resources-software/spikeslib.png",
 			"filters": {
 				"Type": ["Library"],
 				"Official": ["No"],
@@ -149,7 +149,7 @@
 			]
 		}, {
 			"name": "Third Coast",
-			"image": "/images/resources-software/thirdcoast.jpg",
+			"image": "/images/products/resources-software/thirdcoast.jpg",
 			"filters": {
 				"Type": ["Library"],
 				"Official": ["No"],
@@ -161,7 +161,7 @@
 			]
 		}, {
 			"name": "WPILib",
-			"image": "/images/resources-software/wpilibsuite.png",
+			"image": "/images/products/resources-software/wpilibsuite.png",
 			"filters": {
 				"Type": ["WPILib"],
 				"Official": ["Yes"],
@@ -173,7 +173,7 @@
 			]
 		}, {
 			"name": "WPILib C#",
-			"image": "/images/resources-software/github.png",
+			"image": "/images/products/resources-software/github.png",
 			"filters": {
 				"Type": ["WPILib"],
 				"Official": ["No"],

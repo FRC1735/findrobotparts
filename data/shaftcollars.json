@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "1/2\" Hex 2 Piece Clamp Collar",
-			"image": "/images/shaftcollars/tb-500-hex.jpg",
+			"image": "/images/products/shaftcollars/tb-500-hex.jpg",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
 				"OD": ["1.125\""],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "AM 1/2\"",
-			"image": "/images/shaftcollars/am-500.jpg",
+			"image": "/images/products/shaftcollars/am-500.jpg",
 			"filters": {
 				"Bore": ["0.5\""],
 				"OD": ["1\""],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "AM 1/2\" Hex",
-			"image": "/images/shaftcollars/am-500-hex.jpg",
+			"image": "/images/products/shaftcollars/am-500-hex.jpg",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
 				"OD": ["1\""],
@@ -44,7 +44,7 @@
 			]
 		}, {
 			"name": "AM 3/8\"",
-			"image": "/images/shaftcollars/am-375.jpg",
+			"image": "/images/products/shaftcollars/am-375.jpg",
 			"filters": {
 				"Bore": ["0.375\""],
 				"OD": ["0.875\"", "1\""],
@@ -57,7 +57,7 @@
 			]
 		}, {
 			"name": "AM 3/8\" Hex",
-			"image": "/images/shaftcollars/am-375-hex.jpg",
+			"image": "/images/products/shaftcollars/am-375-hex.jpg",
 			"filters": {
 				"Bore": ["0.375\" Hex"],
 				"OD": ["0.875\"", "1\""],
@@ -70,7 +70,7 @@
 			]
 		}, {
 			"name": "AM 8mm",
-			"image": "/images/shaftcollars/am-8mm.jpg",
+			"image": "/images/products/shaftcollars/am-8mm.jpg",
 			"filters": {
 				"Bore": ["8mm"],
 				"OD": ["0.688\""],
@@ -83,7 +83,7 @@
 			]
 		}, {
 			"name": "McMaster Round",
-			"image": "/images/shaftcollars/mcmaster-round.png",
+			"image": "/images/products/shaftcollars/mcmaster-round.png",
 			"filters": {
 				"Bore": ["0.375\"", "0.5\" Hex"],
 				"OD": ["1.125\""],
@@ -96,7 +96,7 @@
 			]
 		}, {
 			"name": "McMaster Hex",
-			"image": "/images/shaftcollars/mcmaster-hex.png",
+			"image": "/images/products/shaftcollars/mcmaster-hex.png",
 			"filters": {
 				"Bore": ["0.375\"", "0.5\" Hex"],
 				"OD": ["1.25\""],
@@ -109,7 +109,7 @@
 			]
 		}, {
 			"name": "REV Glass Nylon",
-			"image": "/images/shaftcollars/rev-glass-nylon.webp",
+			"image": "/images/products/shaftcollars/rev-glass-nylon.webp",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
 				"OD": ["1.38\""],
@@ -122,7 +122,7 @@
 			]
 		}, {
 			"name": "REV MAXSpline",
-			"image": "/images/shaftcollars/rev-maxspline.webp",
+			"image": "/images/products/shaftcollars/rev-maxspline.webp",
 			"filters": {
 				"Bore": ["MAXSpline"],
 				"OD": ["2.65\""],
@@ -135,7 +135,7 @@
 			]
 		}, {
 			"name": "REV Narrow",
-			"image": "/images/shaftcollars/rev-narrow.jpg",
+			"image": "/images/products/shaftcollars/rev-narrow.jpg",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
 				"OD": ["1.1\""],
@@ -148,7 +148,7 @@
 			]
 		}, {
 			"name": "Ruland Round",
-			"image": "/images/shaftcollars/ruland-500.jpg",
+			"image": "/images/products/shaftcollars/ruland-500.jpg",
 			"filters": {
 				"Bore": ["0.375\"", "0.5\""],
 				"OD": ["0.875\"", "1.125\""],
@@ -161,7 +161,7 @@
 			]
 		}, {
 			"name": "Ruland Hex",
-			"image": "/images/shaftcollars/ruland-500-hex.jpg",
+			"image": "/images/products/shaftcollars/ruland-500-hex.jpg",
 			"filters": {
 				"Bore": ["0.375\" Hex", "0.5\" Hex"],
 				"OD": ["0.875\"", "1.125\""],
@@ -174,7 +174,7 @@
 			]
 		}, {
 			"name": "Swyft 1/2\"",
-			"image": "/images/shaftcollars/swyft-500-hex.jpg",
+			"image": "/images/products/shaftcollars/swyft-500-hex.jpg",
 			"filters": {
 				"Bore": ["0.5\"", "0.5\" Hex", "0.375\" Hex"],
 				"OD": ["1.125\""],
@@ -187,7 +187,7 @@
 			]
 		}, {
 			"name": "WCP 1/2\" Hex",
-			"image": "/images/shaftcollars/wcp-500-hex.webp",
+			"image": "/images/products/shaftcollars/wcp-500-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
 				"OD": ["1\"", "1.125\""],
@@ -200,7 +200,7 @@
 			]
 		}, {
 			"name": "WCP 3/8\" Hex",
-			"image": "/images/shaftcollars/wcp-375-hex.webp",
+			"image": "/images/products/shaftcollars/wcp-375-hex.webp",
 			"filters": {
 				"Bore": ["0.375\" Hex"],
 				"OD": ["0.875\""],
@@ -213,7 +213,7 @@
 			]
 		}, {
 			"name": "WCP Round",
-			"image": "/images/shaftcollars/wcp-round.webp",
+			"image": "/images/products/shaftcollars/wcp-round.webp",
 			"filters": {
 				"Bore": ["0.375\"", "0.5\"", "8mm"],
 				"OD": ["0.708\"", "0.875\"", "1\""],

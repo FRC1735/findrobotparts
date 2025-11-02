@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "775 Connect",
-			"image": "/images/wireconnectors/775trsinline.jpg",
+			"image": "/images/products/wireconnectors/775trsinline.jpg",
 			"filters": {
 				"Type": ["Powerpole"],
 				"Gender": ["N/A"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "Butt Connector",
-			"image": "/images/wireconnectors/butt.jpg",
+			"image": "/images/products/wireconnectors/butt.jpg",
 			"filters": {
 				"Type": ["Butt"],
 				"Gender": ["N/A"],
@@ -39,7 +39,7 @@
 			]
 		}, {
 			"name": "Compression Lug Connector, 6 gauge, 1/4 stud hole",
-			"image": "/images/wireconnectors/compression-lug.jpg",
+			"image": "/images/products/wireconnectors/compression-lug.jpg",
 			"filters": {
 				"Type": ["Lug"],
 				"Gender": ["N/A"],
@@ -53,7 +53,7 @@
 			]
 		}, {
 			"name": "Copper Set Screw Lug Terminal",
-			"image": "/images/wireconnectors/copper-screw-lug.png",
+			"image": "/images/products/wireconnectors/copper-screw-lug.png",
 			"filters": {
 				"Type": ["Lug"],
 				"Gender": ["N/A"],
@@ -66,7 +66,7 @@
 			]
 		}, {
 			"name": "Flag",
-			"image": "/images/wireconnectors/flag.jpg",
+			"image": "/images/products/wireconnectors/flag.jpg",
 			"filters": {
 				"Type": ["Flag"],
 				"Gender": ["Female"],
@@ -79,7 +79,7 @@
 			]
 		}, {
 			"name": "Grasshopper Nut",
-			"image": "/images/wireconnectors/ttb-grasshopper-nuts.webp",
+			"image": "/images/products/wireconnectors/ttb-grasshopper-nuts.webp",
 			"filters": {
 				"Type": ["Battery Terminal"],
 				"Gender": ["N/A"],
@@ -92,7 +92,7 @@
 			]
 		}, {
 			"name": "Powerpole PP45",
-			"image": "/images/wireconnectors/pp45.jpg",
+			"image": "/images/products/wireconnectors/pp45.jpg",
 			"filters": {
 				"Type": ["Powerpole"],
 				"Gender": ["N/A"],
@@ -107,7 +107,7 @@
 			]
 		}, {
 			"name": "PWM Female Connector",
-			"image": "/images/wireconnectors/pwm-female.jpg",
+			"image": "/images/products/wireconnectors/pwm-female.jpg",
 			"filters": {
 				"Type": ["PWM"],
 				"Gender": ["Female"],
@@ -124,7 +124,7 @@
 			]
 		}, {
 			"name": "PWM Housing - 2 Pin",
-			"image": "/images/wireconnectors/pwm-housing-2.jpg",
+			"image": "/images/products/wireconnectors/pwm-housing-2.jpg",
 			"filters": {
 				"Type": ["PWM"],
 				"Gender": ["N/A"],
@@ -141,7 +141,7 @@
 			]
 		}, {
 			"name": "PWM Housing - 3 Pin",
-			"image": "/images/wireconnectors/pwm-housing.jpg",
+			"image": "/images/products/wireconnectors/pwm-housing.jpg",
 			"filters": {
 				"Type": ["PWM"],
 				"Gender": ["N/A"],
@@ -158,7 +158,7 @@
 			]
 		}, {
 			"name": "PWM Male Connector",
-			"image": "/images/wireconnectors/pwm-male.jpg",
+			"image": "/images/products/wireconnectors/pwm-male.jpg",
 			"filters": {
 				"Type": ["PWM"],
 				"Gender": ["Male"],
@@ -175,7 +175,7 @@
 			]
 		}, {
 			"name": "Quick Disconnect Terminal",
-			"image": "/images/wireconnectors/quick-disconnect.jpg",
+			"image": "/images/products/wireconnectors/quick-disconnect.jpg",
 			"filters": {
 				"Type": ["Quick Disconnect"],
 				"Gender": ["Female", "Male"],
@@ -194,7 +194,7 @@
 			]
 		}, {
 			"name": "Quick Splice",
-			"image": "/images/wireconnectors/quick-splice.jpg",
+			"image": "/images/products/wireconnectors/quick-splice.jpg",
 			"filters": {
 				"Type": ["Quick Splice"],
 				"Gender": ["N/A"],
@@ -207,7 +207,7 @@
 			]
 		}, {
 			"name": "ReFire Quick Connect 775",
-			"image": "/images/wireconnectors/refireconnect.jpg",
+			"image": "/images/products/wireconnectors/refireconnect.jpg",
 			"filters": {
 				"Type": ["Powerpole", "XT60"],
 				"Gender": ["N/A"],
@@ -220,7 +220,7 @@
 			]
 		}, {
 			"name": "ReFire Quick Connect Kraken X60",
-			"image": "/images/wireconnectors/refirekraken.jpg",
+			"image": "/images/products/wireconnectors/refirekraken.jpg",
 			"filters": {
 				"Type": ["Powerpole", "PWM"],
 				"Gender": ["N/A"],
@@ -233,7 +233,7 @@
 			]
 		}, {
 			"name": "Ring Terminal",
-			"image": "/images/wireconnectors/ring.jpg",
+			"image": "/images/products/wireconnectors/ring.jpg",
 			"filters": {
 				"Type": ["Ring"],
 				"Gender": ["N/A"],
@@ -255,7 +255,7 @@
 			]
 		}, {
 			"name": "Sauro Female Connector",
-			"image": "/images/wireconnectors/sauro.jpg",
+			"image": "/images/products/wireconnectors/sauro.jpg",
 			"filters": {
 				"Type": ["Cage Clamp"],
 				"Gender": ["Female"],
@@ -268,7 +268,7 @@
 			]
 		}, {
 			"name": "SB-50A",
-			"image": "/images/wireconnectors/sb-50a.jpg",
+			"image": "/images/products/wireconnectors/sb-50a.jpg",
 			"filters": {
 				"Type": ["Multipole"],
 				"Gender": ["N/A"],
@@ -284,7 +284,7 @@
 			]
 		}, {
 			"name": "Spade Terminal",
-			"image": "/images/wireconnectors/spade.jpg",
+			"image": "/images/products/wireconnectors/spade.jpg",
 			"filters": {
 				"Type": ["Spade"],
 				"Gender": ["N/A"],
@@ -305,7 +305,7 @@
 			]
 		}, {
 			"name": "T-Tap",
-			"image": "/images/wireconnectors/ttap.jpg",
+			"image": "/images/products/wireconnectors/ttap.jpg",
 			"filters": {
 				"Type": ["T-Tap"],
 				"Gender": ["N/A"],

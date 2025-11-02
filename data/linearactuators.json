@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "L16-R, 100mm, 150:1",
-			"image": "/images/linearactuators/l16r-100.webp",
+			"image": "/images/products/linearactuators/l16r-100.webp",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["3.9"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "L16-R, 100mm, 35:1",
-			"image": "/images/linearactuators/l16r-100.webp",
+			"image": "/images/products/linearactuators/l16r-100.webp",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["3.9"],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "L16-R, 100mm, 63:1",
-			"image": "/images/linearactuators/l16r-100.webp",
+			"image": "/images/products/linearactuators/l16r-100.webp",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["3.9"],
@@ -44,7 +44,7 @@
 			]
 		}, {
 			"name": "L16-R, 140mm, 150:1",
-			"image": "/images/linearactuators/l16r-140.jpg",
+			"image": "/images/products/linearactuators/l16r-140.jpg",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["5.5"],
@@ -58,7 +58,7 @@
 			]
 		}, {
 			"name": "L16-R, 140mm, 35:1",
-			"image": "/images/linearactuators/l16r-140.jpg",
+			"image": "/images/products/linearactuators/l16r-140.jpg",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["5.5"],
@@ -72,7 +72,7 @@
 			]
 		}, {
 			"name": "L16-R, 140mm, 63:1",
-			"image": "/images/linearactuators/l16r-140.jpg",
+			"image": "/images/products/linearactuators/l16r-140.jpg",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["5.5"],
@@ -85,7 +85,7 @@
 			]
 		}, {
 			"name": "L16-R, 50mm, 150:1",
-			"image": "/images/linearactuators/l16r-50.jpg",
+			"image": "/images/products/linearactuators/l16r-50.jpg",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["1.97"],
@@ -99,7 +99,7 @@
 			]
 		}, {
 			"name": "L16-R, 50mm, 35:1",
-			"image": "/images/linearactuators/l16r-50.jpg",
+			"image": "/images/products/linearactuators/l16r-50.jpg",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["1.97"],
@@ -113,7 +113,7 @@
 			]
 		}, {
 			"name": "L16-R, 50mm, 63:1",
-			"image": "/images/linearactuators/l16r-50.jpg",
+			"image": "/images/products/linearactuators/l16r-50.jpg",
 			"filters": {
 				"Input": ["Included Servo"],
 				"Travel (in)": ["1.97"],
@@ -126,7 +126,7 @@
 			]
 		}, {
 			"name": "REV Linear Actuator",
-			"image": "/images/linearactuators/rev-linear.webp",
+			"image": "/images/products/linearactuators/rev-linear.webp",
 			"filters": {
 				"Input": ["MAX Planetary"],
 				"Travel (in)": ["12"],

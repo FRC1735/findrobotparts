@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "AM 24T HTD Pulley",
-			"image": "/images/pulleys/am-24-htd.jpg",
+			"image": "/images/products/pulleys/am-24-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Polycarbonate"],
@@ -19,7 +19,7 @@
 			]
 		}, {
 			"name": "AM 30T HTD Pulley",
-			"image": "/images/pulleys/am-30-htd.jpg",
+			"image": "/images/products/pulleys/am-30-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -33,7 +33,7 @@
 			]
 		}, {
 			"name": "AM 39T HTD Pulley",
-			"image": "/images/pulleys/am-39-htd.jpg",
+			"image": "/images/products/pulleys/am-39-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Polycarbonate"],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "AM 42T HTD Pulley",
-			"image": "/images/pulleys/am-42-htd.jpg",
+			"image": "/images/products/pulleys/am-42-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Polycarbonate"],
@@ -61,7 +61,7 @@
 			]
 		}, {
 			"name": "AM HV Pulley",
-			"image": "/images/pulleys/am-hv.jpg",
+			"image": "/images/products/pulleys/am-hv.jpg",
 			"filters": {
 				"Type": ["HV"],
 				"Material": ["Black Polycarbonate"],
@@ -75,7 +75,7 @@
 			]
 		}, {
 			"name": "GT2 Pulley",
-			"image": "/images/pulleys/gt2.jpg",
+			"image": "/images/products/pulleys/gt2.jpg",
 			"filters": {
 				"Type": ["GT2"],
 				"Material": ["Black Anodized Aluminum"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "GT2 Pulley",
-			"image": "/images/pulleys/gt2-500hex.jpg",
+			"image": "/images/products/pulleys/gt2-500hex.jpg",
 			"filters": {
 				"Type": ["GT2", "GT3"],
 				"Material": ["Black Anodized Aluminum"],
@@ -103,7 +103,7 @@
 			]
 		}, {
 			"name": "HTD CIM Pulley",
-			"image": "/images/pulleys/8mm-htd-cim.webp",
+			"image": "/images/products/pulleys/8mm-htd-cim.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Anodized Aluminum"],
@@ -117,7 +117,7 @@
 			]
 		}, {
 			"name": "HTD Timing Pulleys",
-			"image": "/images/pulleys/vex-htd.jpg",
+			"image": "/images/products/pulleys/vex-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Anodized Aluminum"],
@@ -131,7 +131,7 @@
 			]
 		}, {
 			"name": "RT25 1/2\" Hex",
-			"image": "/images/pulleys/rt25-hex.webp",
+			"image": "/images/products/pulleys/rt25-hex.webp",
 			"filters": {
 				"Type": ["RT25"],
 				"Material": ["Glass Filled Nylon"],
@@ -145,7 +145,7 @@
 			]
 		}, {
 			"name": "RT25 8mm",
-			"image": "/images/pulleys/rt25-8mm.webp",
+			"image": "/images/products/pulleys/rt25-8mm.webp",
 			"filters": {
 				"Type": ["RT25"],
 				"Material": ["Glass Filled Nylon"],
@@ -159,7 +159,7 @@
 			]
 		}, {
 			"name": "RT25 MAXSpline",
-			"image": "/images/pulleys/rt25-maxspline.webp",
+			"image": "/images/products/pulleys/rt25-maxspline.webp",
 			"filters": {
 				"Type": ["RT25"],
 				"Material": ["Glass Filled Nylon"],
@@ -173,7 +173,7 @@
 			]
 		}, {
 			"name": "Thrifty 11T 8mm Pinion HTD",
-			"image": "/images/pulleys/ttb-htd-pinion.webp",
+			"image": "/images/products/pulleys/ttb-htd-pinion.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -187,7 +187,7 @@
 			]
 		}, {
 			"name": "Thrifty 11T SplineXS Pinion HTD",
-			"image": "/images/pulleys/ttb-11t-splinexs-htd.webp",
+			"image": "/images/products/pulleys/ttb-11t-splinexs-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -201,7 +201,7 @@
 			]
 		}, {
 			"name": "Thrifty 15T HTD",
-			"image": "/images/pulleys/ttb-htd-hex.webp",
+			"image": "/images/products/pulleys/ttb-htd-hex.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -215,7 +215,7 @@
 			]
 		}, {
 			"name": "Thrifty 24T HTD",
-			"image": "/images/pulleys/ttb-24t-htd.webp",
+			"image": "/images/products/pulleys/ttb-24t-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -229,7 +229,7 @@
 			]
 		}, {
 			"name": "Thrifty 36T HTD",
-			"image": "/images/pulleys/ttb-36t-htd.webp",
+			"image": "/images/products/pulleys/ttb-36t-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -243,7 +243,7 @@
 			]
 		}, {
 			"name": "Thrifty 48T HTD",
-			"image": "/images/pulleys/ttb-48t-htd.webp",
+			"image": "/images/products/pulleys/ttb-48t-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -257,7 +257,7 @@
 			]
 		}, {
 			"name": "WCP SplineXS GT2",
-			"image": "/images/pulleys/wcp-splinexs-gt2.webp",
+			"image": "/images/products/pulleys/wcp-splinexs-gt2.webp",
 			"filters": {
 				"Type": ["GT2"],
 				"Material": ["Aluminum"],
@@ -271,7 +271,7 @@
 			]
 		}, {
 			"name": "WCP SplineXS HTD",
-			"image": "/images/pulleys/wcp-splinexs-htd.webp",
+			"image": "/images/products/pulleys/wcp-splinexs-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],

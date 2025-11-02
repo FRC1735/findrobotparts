@@ -53,7 +53,7 @@ const buildProductRows = (data) => {
 			vendorsHTML += hbts['vendor']({ link: link.link, vendor: link.vendor });
 		});
 
-		let image = product.image.replace('images/', 'images/products/');
+		let image = product.image;
 		const lastchar = image.lastIndexOf('.');
 		image = image.substring(0, lastchar) + '.webp';
 

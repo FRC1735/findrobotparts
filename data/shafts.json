@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "AM 6mm D",
-			"image": "/images/shafts/am-6mm-d.jpg",
+			"image": "/images/products/shafts/am-6mm-d.jpg",
 			"filters": {
 				"Shape": ["D"],
 				"Diameter": ["06mm"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "AM Aluminum Hex",
-			"image": "/images/shafts/am-hex-alum.jpg",
+			"image": "/images/products/shafts/am-hex-alum.jpg",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
@@ -32,7 +32,7 @@
 			]
 		}, {
 			"name": "AM Steel Hex",
-			"image": "/images/shafts/am-hex.jpg",
+			"image": "/images/products/shafts/am-hex.jpg",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
@@ -46,7 +46,7 @@
 			]
 		}, {
 			"name": "Churro",
-			"image": "/images/shafts/churro.webp",
+			"image": "/images/products/shafts/churro.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],
@@ -59,7 +59,7 @@
 			]
 		}, {
 			"name": "MAXSpline Shaft",
-			"image": "/images/shafts/maxspline.webp",
+			"image": "/images/products/shafts/maxspline.webp",
 			"filters": {
 				"Shape": ["MAXSpline"],
 				"Diameter": ["1.375\""],
@@ -72,7 +72,7 @@
 			]
 		}, {
 			"name": "McMaster 1/2\"",
-			"image": "/images/shafts/mcmaster-round.png",
+			"image": "/images/products/shafts/mcmaster-round.png",
 			"filters": {
 				"Shape": ["Round"],
 				"Diameter": ["0.5\""],
@@ -85,7 +85,7 @@
 			]
 		}, {
 			"name": "McMaster 3/8\"",
-			"image": "/images/shafts/mcmaster-round.png",
+			"image": "/images/products/shafts/mcmaster-round.png",
 			"filters": {
 				"Shape": ["Round"],
 				"Diameter": ["0.375\""],
@@ -98,7 +98,7 @@
 			]
 		}, {
 			"name": "McMaster 5/16\"",
-			"image": "/images/shafts/mcmaster-round.png",
+			"image": "/images/products/shafts/mcmaster-round.png",
 			"filters": {
 				"Shape": ["Round"],
 				"Diameter": ["5/16\""],
@@ -111,7 +111,7 @@
 			]
 		}, {
 			"name": "McMaster 5/8\"",
-			"image": "/images/shafts/mcmaster-round.png",
+			"image": "/images/products/shafts/mcmaster-round.png",
 			"filters": {
 				"Shape": ["Round"],
 				"Diameter": ["0.625\""],
@@ -124,7 +124,7 @@
 			]
 		}, {
 			"name": "McMaster Hex",
-			"image": "/images/shafts/mcmaster-hex.png",
+			"image": "/images/products/shafts/mcmaster-hex.png",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
@@ -137,7 +137,7 @@
 			]
 		}, {
 			"name": "Online Metals Aluminum Hex",
-			"image": "/images/shafts/onlinemetals-aluminum.jpg",
+			"image": "/images/products/shafts/onlinemetals-aluminum.jpg",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
@@ -150,7 +150,7 @@
 			]
 		}, {
 			"name": "REV 5mm Hex shaft",
-			"image": "/images/shafts/rev-5mmhex.jpg",
+			"image": "/images/products/shafts/rev-5mmhex.jpg",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["05mm"],
@@ -163,7 +163,7 @@
 			]
 		}, {
 			"name": "REV Rounded Hex",
-			"image": "/images/shafts/rev-rounded-hex-7075.webp",
+			"image": "/images/products/shafts/rev-rounded-hex-7075.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],
@@ -176,7 +176,7 @@
 			]
 		}, {
 			"name": "TTB Rounded 3/8\" Hex",
-			"image": "/images/shafts/ttb-rounded-375-hex.webp",
+			"image": "/images/products/shafts/ttb-rounded-375-hex.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\""],
@@ -189,7 +189,7 @@
 			]
 		}, {
 			"name": "TTB Rounded Hex - Aluminum 7075",
-			"image": "/images/shafts/ttb-rounded-hex.webp",
+			"image": "/images/products/shafts/ttb-rounded-hex.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],
@@ -202,7 +202,7 @@
 			]
 		}, {
 			"name": "TTB Rounded Hex - Aluminum 6061",
-			"image": "/images/shafts/ttb-rounded-hex-6061.webp",
+			"image": "/images/products/shafts/ttb-rounded-hex-6061.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],
@@ -215,7 +215,7 @@
 			]
 		}, {
 			"name": "Ultrahex Shaft",
-			"image": "/images/shafts/rev-ultrahex.png",
+			"image": "/images/products/shafts/rev-ultrahex.png",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.5\""],
@@ -228,7 +228,7 @@
 			]
 		}, {
 			"name": "WCP Hex",
-			"image": "/images/shafts/wcp-hex.webp",
+			"image": "/images/products/shafts/wcp-hex.webp",
 			"filters": {
 				"Shape": ["Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
@@ -241,7 +241,7 @@
 			]
 		}, {
 			"name": "WCP Rounded Hex",
-			"image": "/images/shafts/wcp-rounded-hex.webp",
+			"image": "/images/products/shafts/wcp-rounded-hex.webp",
 			"filters": {
 				"Shape": ["Rounded Hex"],
 				"Diameter": ["0.375\"", "0.5\""],
@@ -254,7 +254,7 @@
 			]
 		}, {
 			"name": "WCP SplineXL",
-			"image": "/images/shafts/wcp-splinexs.webp",
+			"image": "/images/products/shafts/wcp-splinexs.webp",
 			"filters": {
 				"Shape": ["SplineXL"],
 				"Diameter": ["1.375\""],

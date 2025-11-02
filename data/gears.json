@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "57 Sport RS-500 Pinion",
-			"image": "/images/gears/am-57sport-500.jpg",
+			"image": "/images/products/gears/am-57sport-500.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.125\""],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "57 Sport RS-700 Pinion",
-			"image": "/images/gears/am-57sport-700.jpg",
+			"image": "/images/products/gears/am-57sport-700.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["5mm"],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "AM 1/2\" Hex Bore",
-			"image": "/images/gears/am-500-hex.jpg",
+			"image": "/images/products/gears/am-500-hex.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.5\" hex"],
@@ -44,7 +44,7 @@
 			]
 		}, {
 			"name": "AM 1/2\" Hex Bore Aluminum",
-			"image": "/images/gears/am-500-hex-aluminum.jpg",
+			"image": "/images/products/gears/am-500-hex-aluminum.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.5\" hex"],
@@ -57,7 +57,7 @@
 			]
 		}, {
 			"name": "AM 3/8\" Hex Bore 20dp",
-			"image": "/images/gears/am-375-hex-20dp.jpg",
+			"image": "/images/products/gears/am-375-hex-20dp.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.375\" hex"],
@@ -70,7 +70,7 @@
 			]
 		}, {
 			"name": "AM 3/8\" Hex Bore 20dp Aluminum",
-			"image": "/images/gears/am-375-hex-20dp-aluminum.jpg",
+			"image": "/images/products/gears/am-375-hex-20dp-aluminum.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.375\" hex"],
@@ -83,7 +83,7 @@
 			]
 		}, {
 			"name": "AM 3/8\" Hex Bore 32dp",
-			"image": "/images/gears/am-375-hex-32dp.jpg",
+			"image": "/images/products/gears/am-375-hex-32dp.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.375\" hex"],
@@ -96,7 +96,7 @@
 			]
 		}, {
 			"name": "AM 3/8\" Hex Bore Bevel",
-			"image": "/images/gears/am-375-hex-bevel.jpg",
+			"image": "/images/products/gears/am-375-hex-bevel.jpg",
 			"filters": {
 				"Type": ["Bevel"],
 				"Bore": ["0.375\" hex"],
@@ -109,7 +109,7 @@
 			]
 		}, {
 			"name": "AM 5mm Bore",
-			"image": "/images/gears/am-5mm.jpg",
+			"image": "/images/products/gears/am-5mm.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["5mm"],
@@ -122,7 +122,7 @@
 			]
 		}, {
 			"name": "AM 8mm Bore 32dp",
-			"image": "/images/gears/am-8mm-32dp.jpg",
+			"image": "/images/products/gears/am-8mm-32dp.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["8mm"],
@@ -135,7 +135,7 @@
 			]
 		}, {
 			"name": "AM 8mm Bore Bevel",
-			"image": "/images/gears/am-8mm-bevel.jpg",
+			"image": "/images/products/gears/am-8mm-bevel.jpg",
 			"filters": {
 				"Type": ["Bevel"],
 				"Bore": ["8mm w/ key"],
@@ -148,7 +148,7 @@
 			]
 		}, {
 			"name": "AM Bolt Circle Bore",
-			"image": "/images/gears/am-bolt-circle.jpg",
+			"image": "/images/products/gears/am-bolt-circle.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["1.125\"", "1.875\" bolt circle"],
@@ -161,7 +161,7 @@
 			]
 		}, {
 			"name": "CIM Sport Pinion",
-			"image": "/images/gears/am-cimsport.jpg",
+			"image": "/images/products/gears/am-cimsport.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["8mm"],
@@ -174,7 +174,7 @@
 			]
 		}, {
 			"name": "FIRST STEAMWORKS",
-			"image": "/images/gears/steamworks.jpg",
+			"image": "/images/products/gears/steamworks.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["1\""],
@@ -187,7 +187,7 @@
 			]
 		}, {
 			"name": "NeveRest Motor Pinion",
-			"image": "/images/gears/am-3mm-helical.jpg",
+			"image": "/images/products/gears/am-3mm-helical.jpg",
 			"filters": {
 				"Type": ["Helical"],
 				"Bore": ["3mm"],
@@ -200,7 +200,7 @@
 			]
 		}, {
 			"name": "PI 12t 775 Pinion",
-			"image": "/images/gears/pi-12t-775-pinion.png",
+			"image": "/images/products/gears/pi-12t-775-pinion.png",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["5mm"],
@@ -213,7 +213,7 @@
 			]
 		}, {
 			"name": "RedLine Pinion",
-			"image": "/images/gears/am-redline-pinion.jpg",
+			"image": "/images/products/gears/am-redline-pinion.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["5mm"],
@@ -226,7 +226,7 @@
 			]
 		}, {
 			"name": "REV ION 20DP Hex Bore",
-			"image": "/images/gears/rev-gears20dp.webp",
+			"image": "/images/products/gears/rev-gears20dp.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.5\" hex"],
@@ -239,7 +239,7 @@
 			]
 		}, {
 			"name": "REV ION 20DP MAXSpline",
-			"image": "/images/gears/rev-gears20dp.webp",
+			"image": "/images/products/gears/rev-gears20dp.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["MAXSpline"],
@@ -252,7 +252,7 @@
 			]
 		}, {
 			"name": "Servo",
-			"image": "/images/gears/servo.jpg",
+			"image": "/images/products/gears/servo.jpg",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["24T spline"],
@@ -265,7 +265,7 @@
 			]
 		}, {
 			"name": "WCP 20DP 3/8\" Hex Aluminum",
-			"image": "/images/gears/wcp-375-hex-aluminum.webp",
+			"image": "/images/products/gears/wcp-375-hex-aluminum.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.375\" hex"],
@@ -278,7 +278,7 @@
 			]
 		}, {
 			"name": "WCP 20DP 3/8\" Hex Steel",
-			"image": "/images/gears/wcp-375-hex-steel.webp",
+			"image": "/images/products/gears/wcp-375-hex-steel.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.375\" hex"],
@@ -291,7 +291,7 @@
 			]
 		}, {
 			"name": "WCP 20DP 1/2\" Hex Aluminum",
-			"image": "/images/gears/wcp-500-hex-aluminum.webp",
+			"image": "/images/products/gears/wcp-500-hex-aluminum.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.5\" hex"],
@@ -304,7 +304,7 @@
 			]
 		}, {
 			"name": "WCP 20DP 1/2\" Hex Steel",
-			"image": "/images/gears/wcp-500-hex-steel.webp",
+			"image": "/images/products/gears/wcp-500-hex-steel.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.5\" hex"],
@@ -317,7 +317,7 @@
 			]
 		}, {
 			"name": "WCP 20DP SplineXS",
-			"image": "/images/gears/wcp-splinexs.webp",
+			"image": "/images/products/gears/wcp-splinexs.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["SplineXS"],
@@ -330,7 +330,7 @@
 			]
 		}, {
 			"name": "WCP 32DP",
-			"image": "/images/gears/wcp-375-32dp.webp",
+			"image": "/images/products/gears/wcp-375-32dp.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.375\" hex"],
@@ -343,7 +343,7 @@
 			]
 		}, {
 			"name": "WCP 32DP Pinion",
-			"image": "/images/gears/wcp-splinexs-32dp.webp",
+			"image": "/images/products/gears/wcp-splinexs-32dp.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["SplineXS"],
@@ -356,7 +356,7 @@
 			]
 		}, {
 			"name": "WCP Pocketed",
-			"image": "/images/gears/wcp-pocketed.png",
+			"image": "/images/products/gears/wcp-pocketed.png",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["0.5\" hex"],
@@ -369,7 +369,7 @@
 			]
 		}, {
 			"name": "WCP SplineXL Aluminum",
-			"image": "/images/gears/wcp-splinexl-aluminum.webp",
+			"image": "/images/products/gears/wcp-splinexl-aluminum.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["SplineXL"],
@@ -382,7 +382,7 @@
 			]
 		}, {
 			"name": "WCP SplineXL Steel",
-			"image": "/images/gears/wcp-splinexl-aluminum.webp",
+			"image": "/images/products/gears/wcp-splinexl-aluminum.webp",
 			"filters": {
 				"Type": ["Spur"],
 				"Bore": ["SplineXL"],

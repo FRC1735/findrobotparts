@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "Robot Signal Light",
-			"image": "/images/lights/am-rsl.webp",
+			"image": "/images/products/lights/am-rsl.webp",
 			"filters": {
 				"Colors": ["Amber"],
 				"Diameter": ["45mm"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "RSL",
-			"image": "/images/lights/rsl.jpg",
+			"image": "/images/products/lights/rsl.jpg",
 			"filters": {
 				"Colors": ["Amber"],
 				"Diameter": ["45mm"],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "Targeting Light",
-			"image": "/images/lights/am-tarketing.jpg",
+			"image": "/images/products/lights/am-tarketing.jpg",
 			"filters": {
 				"Colors": ["Cool White", "Dark Blue", "Dark Red", "Green Blue", "Light Green", "Medium Blue", "Red", "Yellow"],
 				"Diameter": ["2.24\""],

@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "AndyMark #25 Plate",
-			"image": "/images/sprockets/am-25-plate.webp",
+			"image": "/images/products/sprockets/am-25-plate.webp",
 			"filters": {
 				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
 				"Chain Pitch": ["25"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "AndyMark #25 Symmetrical 8mm Hub",
-			"image": "/images/sprockets/am-25-8mm-hub.webp",
+			"image": "/images/products/sprockets/am-25-8mm-hub.webp",
 			"filters": {
 				"Bore": ["8mm"],
 				"Chain Pitch": ["25"],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "AndyMark #25 Symmetrical Hex Hub",
-			"image": "/images/sprockets/am-25-hex-hub.webp",
+			"image": "/images/products/sprockets/am-25-hex-hub.webp",
 			"filters": {
 				"Bore": ["0.375\" hex", "0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -44,7 +44,7 @@
 			]
 		}, {
 			"name": "AndyMark #35 Plate",
-			"image": "/images/sprockets/am-35-plate.webp",
+			"image": "/images/products/sprockets/am-35-plate.webp",
 			"filters": {
 				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
 				"Chain Pitch": ["25"],
@@ -57,7 +57,7 @@
 			]
 		}, {
 			"name": "AndyMark #35 Symmetrical Hex Hub",
-			"image": "/images/sprockets/am-35-hex-hub.webp",
+			"image": "/images/products/sprockets/am-35-hex-hub.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -70,7 +70,7 @@
 			]
 		}, {
 			"name": "Double Sprocket",
-			"image": "/images/sprockets/am-25-double.jpg",
+			"image": "/images/products/sprockets/am-25-double.jpg",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -83,7 +83,7 @@
 			]
 		}, {
 			"name": "McMaster #25 Hub Sprocket 1/2\" bore",
-			"image": "/images/sprockets/mcmaster-hub.png",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
 			"filters": {
 				"Bore": ["0.5\" w/ set screw"],
 				"Chain Pitch": ["25"],
@@ -96,7 +96,7 @@
 			]
 		}, {
 			"name": "McMaster #25 Hub Sprocket 3/8\" bore",
-			"image": "/images/sprockets/mcmaster-hub.png",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
 			"filters": {
 				"Bore": ["0.375\" w/ set screw"],
 				"Chain Pitch": ["25"],
@@ -109,7 +109,7 @@
 			]
 		}, {
 			"name": "McMaster #35 Hub Sprocket 1/2\" bore",
-			"image": "/images/sprockets/mcmaster-hub.png",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
 			"filters": {
 				"Bore": ["0.5\" w/ set screw", "0.5\" w/ 1/8\" keyway"],
 				"Chain Pitch": ["35"],
@@ -122,7 +122,7 @@
 			]
 		}, {
 			"name": "McMaster #35 Hub Sprocket 3/8\" bore",
-			"image": "/images/sprockets/mcmaster-hub.png",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
 			"filters": {
 				"Bore": ["0.375\" w/ set screw", "0.375\" w/ 3/32\" keyway"],
 				"Chain Pitch": ["35"],
@@ -135,7 +135,7 @@
 			]
 		}, {
 			"name": "REV #25 Billet",
-			"image": "/images/sprockets/rev-25-billet.webp",
+			"image": "/images/products/sprockets/rev-25-billet.webp",
 			"filters": {
 				"Bore": ["MAXSpline"],
 				"Chain Pitch": ["25"],
@@ -148,7 +148,7 @@
 			]
 		}, {
 			"name": "REV #25 Double Hub",
-			"image": "/images/sprockets/rev25.webp",
+			"image": "/images/products/sprockets/rev25.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -161,7 +161,7 @@
 			]
 		}, {
 			"name": "REV #25 Hex",
-			"image": "/images/sprockets/rev25.webp",
+			"image": "/images/products/sprockets/rev25.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -174,7 +174,7 @@
 			]
 		}, {
 			"name": "REV #25 MAXSpline",
-			"image": "/images/sprockets/rev25.webp",
+			"image": "/images/products/sprockets/rev25.webp",
 			"filters": {
 				"Bore": ["MAXSpline"],
 				"Chain Pitch": ["25"],
@@ -187,7 +187,7 @@
 			]
 		}, {
 			"name": "REV #35 Billet",
-			"image": "/images/sprockets/rev-35-billet.webp",
+			"image": "/images/products/sprockets/rev-35-billet.webp",
 			"filters": {
 				"Bore": ["MAXSpline"],
 				"Chain Pitch": ["35"],
@@ -200,7 +200,7 @@
 			]
 		}, {
 			"name": "REV #35 Hex",
-			"image": "/images/sprockets/rev-35-hex.webp",
+			"image": "/images/products/sprockets/rev-35-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["35"],
@@ -213,7 +213,7 @@
 			]
 		}, {
 			"name": "REV #35 Plate",
-			"image": "/images/sprockets/rev-35-plate.webp",
+			"image": "/images/products/sprockets/rev-35-plate.webp",
 			"filters": {
 				"Bore": ["MAXSpline"],
 				"Chain Pitch": ["35"],
@@ -226,7 +226,7 @@
 			]
 		}, {
 			"name": "TTB #25 1/2\" hex 22T",
-			"image": "/images/sprockets/ttb-25.webp",
+			"image": "/images/products/sprockets/ttb-25.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -239,7 +239,7 @@
 			]
 		}, {
 			"name": "TTB #25 Billet",
-			"image": "/images/sprockets/ttb-25-billet.webp",
+			"image": "/images/products/sprockets/ttb-25-billet.webp",
 			"filters": {
 				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
 				"Chain Pitch": ["25"],
@@ -252,7 +252,7 @@
 			]
 		}, {
 			"name": "TTB #25 1/2\" Hex",
-			"image": "/images/sprockets/ttb-25-hex.webp",
+			"image": "/images/products/sprockets/ttb-25-hex.webp",
 			"filters": {
 				"Bore": ["0.5 hex"],
 				"Chain Pitch": ["25"],
@@ -265,7 +265,7 @@
 			]
 		}, {
 			"name": "TTB #25 3/8\" Hex",
-			"image": "/images/sprockets/ttb-25-hex.webp",
+			"image": "/images/products/sprockets/ttb-25-hex.webp",
 			"filters": {
 				"Bore": ["0.375 hex"],
 				"Chain Pitch": ["25"],
@@ -278,7 +278,7 @@
 			]
 		}, {
 			"name": "TTB #25 Plate",
-			"image": "/images/sprockets/ttb-25-plate.webp",
+			"image": "/images/products/sprockets/ttb-25-plate.webp",
 			"filters": {
 				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
 				"Chain Pitch": ["25"],
@@ -291,7 +291,7 @@
 			]
 		}, {
 			"name": "TTB #35 Billet",
-			"image": "/images/sprockets/ttb-35-billet.webp",
+			"image": "/images/products/sprockets/ttb-35-billet.webp",
 			"filters": {
 				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
 				"Chain Pitch": ["35"],
@@ -304,7 +304,7 @@
 			]
 		}, {
 			"name": "TTB #35 Plate",
-			"image": "/images/sprockets/ttb-35-plate.webp",
+			"image": "/images/products/sprockets/ttb-35-plate.webp",
 			"filters": {
 				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
 				"Chain Pitch": ["35"],
@@ -317,7 +317,7 @@
 			]
 		}, {
 			"name": "TTB #35 3/8\" Hex",
-			"image": "/images/sprockets/ttb-35-375-hex.webp",
+			"image": "/images/products/sprockets/ttb-35-375-hex.webp",
 			"filters": {
 				"Bore": ["0.375\" hex"],
 				"Chain Pitch": ["35"],
@@ -330,7 +330,7 @@
 			]
 		}, {
 			"name": "TTB #35 1/2\" Hex",
-			"image": "/images/sprockets/ttb-35-500-hex.webp",
+			"image": "/images/products/sprockets/ttb-35-500-hex.webp",
 			"filters": {
 				"Bore": ["0.500\" hex"],
 				"Chain Pitch": ["35"],
@@ -343,7 +343,7 @@
 			]
 		}, {
 			"name": "TTB #35 1/2\" Double Hex",
-			"image": "/images/sprockets/ttb-35-500-dobule-hex.webp",
+			"image": "/images/products/sprockets/ttb-35-500-dobule-hex.webp",
 			"filters": {
 				"Bore": ["0.500\" hex"],
 				"Chain Pitch": ["35"],
@@ -356,7 +356,7 @@
 			]
 		}, {
 			"name": "TTB #35 8mm",
-			"image": "/images/sprockets/ttb-35-8mm.webp",
+			"image": "/images/products/sprockets/ttb-35-8mm.webp",
 			"filters": {
 				"Bore": ["8mm w/ keyway"],
 				"Chain Pitch": ["35"],
@@ -369,7 +369,7 @@
 			]
 		}, {
 			"name": "WCP #25 Double Hex",
-			"image": "/images/sprockets/wcp-25-double-hex.webp",
+			"image": "/images/products/sprockets/wcp-25-double-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -382,7 +382,7 @@
 			]
 		}, {
 			"name": "WCP #25 Aluminum Hex",
-			"image": "/images/sprockets/wcp-25-hex.webp",
+			"image": "/images/products/sprockets/wcp-25-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -395,7 +395,7 @@
 			]
 		}, {
 			"name": "WCP #25 Steel Hex",
-			"image": "/images/sprockets/wcp-25-steel-hex.webp",
+			"image": "/images/products/sprockets/wcp-25-steel-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["25"],
@@ -408,7 +408,7 @@
 			]
 		}, {
 			"name": "WCP #25 SplineXL",
-			"image": "/images/sprockets/wcp-25-splinexl.webp",
+			"image": "/images/products/sprockets/wcp-25-splinexl.webp",
 			"filters": {
 				"Bore": ["SplineXL"],
 				"Chain Pitch": ["25"],
@@ -421,7 +421,7 @@
 			]
 		}, {
 			"name": "WCP #25 SplineXS",
-			"image": "/images/sprockets/wcp-splinexs.webp",
+			"image": "/images/products/sprockets/wcp-splinexs.webp",
 			"filters": {
 				"Bore": ["SplineXS"],
 				"Chain Pitch": ["25"],
@@ -434,7 +434,7 @@
 			]
 		}, {
 			"name": "WCP #35 Aluminum Hex",
-			"image": "/images/sprockets/wcp-35-hex.webp",
+			"image": "/images/products/sprockets/wcp-35-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["35"],
@@ -447,7 +447,7 @@
 			]
 		}, {
 			"name": "WCP #35 Steel Hex",
-			"image": "/images/sprockets/wcp-35-steel-hex.webp",
+			"image": "/images/products/sprockets/wcp-35-steel-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" hex"],
 				"Chain Pitch": ["35"],
@@ -460,7 +460,7 @@
 			]
 		}, {
 			"name": "WCP #35 SplineXL",
-			"image": "/images/sprockets/wcp-35-steel-hex.webp",
+			"image": "/images/products/sprockets/wcp-35-steel-hex.webp",
 			"filters": {
 				"Bore": ["SplineXL"],
 				"Chain Pitch": ["35"],

@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "#25 Add and Connect Link",
-			"image": "/images/chain/25-add.jpg",
+			"image": "/images/products/chain/25-add.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "#25 Half Link",
-			"image": "/images/chain/25-half.jpg",
+			"image": "/images/products/chain/25-half.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "#25 Master Link",
-			"image": "/images/chain/25-master.jpg",
+			"image": "/images/products/chain/25-master.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "#25 Plastic Roller Chain",
-			"image": "/images/chain/25-plastic.jpg",
+			"image": "/images/products/chain/25-plastic.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -59,7 +59,7 @@
 			]
 		}, {
 			"name": "#25 Roller Chain",
-			"image": "/images/chain/25-chain.jpg",
+			"image": "/images/products/chain/25-chain.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -75,7 +75,7 @@
 			]
 		}, {
 			"name": "#35 Attachment Links",
-			"image": "/images/chain/35-attachment.png",
+			"image": "/images/products/chain/35-attachment.png",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -87,7 +87,7 @@
 			]
 		}, {
 			"name": "#35 Half Link",
-			"image": "/images/chain/35-half.jpg",
+			"image": "/images/products/chain/35-half.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -101,7 +101,7 @@
 			]
 		}, {
 			"name": "#35 Master Link",
-			"image": "/images/chain/35-master.jpg",
+			"image": "/images/products/chain/35-master.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -115,7 +115,7 @@
 			]
 		}, {
 			"name": "#35 Plastic Roller Chain",
-			"image": "/images/chain/35-plastic.jpg",
+			"image": "/images/products/chain/35-plastic.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -127,7 +127,7 @@
 			]
 		}, {
 			"name": "#35 Roller Chain",
-			"image": "/images/chain/35-chain.jpg",
+			"image": "/images/products/chain/35-chain.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -144,7 +144,7 @@
 			]
 		}, {
 			"name": "Attachment Plate",
-			"image": "/images/chain/rev-attachment-plate.webp",
+			"image": "/images/products/chain/rev-attachment-plate.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -156,7 +156,7 @@
 			]
 		}, {
 			"name": "Chain Attachment",
-			"image": "/images/chain/ttb-attachment.webp",
+			"image": "/images/products/chain/ttb-attachment.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -168,7 +168,7 @@
 			]
 		}, {
 			"name": "Chain Tread",
-			"image": "/images/chain/armabot-tread.png",
+			"image": "/images/products/chain/armabot-tread.png",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -180,7 +180,7 @@
 			]
 		}, {
 			"name": "DarkSoul Chain Break",
-			"image": "/images/chain/darksoul.jpg",
+			"image": "/images/products/chain/darksoul.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -193,7 +193,7 @@
 			]
 		}, {
 			"name": "Inline Tensioner",
-			"image": "/images/chain/am-turnbuckle.webp",
+			"image": "/images/products/chain/am-turnbuckle.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -205,7 +205,7 @@
 			]
 		}, {
 			"name": "Nitro Attachment Link",
-			"image": "/images/chain/nitro-attachment.jpg",
+			"image": "/images/products/chain/nitro-attachment.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.375\""],
@@ -217,7 +217,7 @@
 			]
 		}, {
 			"name": "Nitro Half Link",
-			"image": "/images/chain/nitro-half.jpg",
+			"image": "/images/products/chain/nitro-half.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.375\""],
@@ -229,7 +229,7 @@
 			]
 		}, {
 			"name": "Nitro Master Link",
-			"image": "/images/chain/nitro-master.jpg",
+			"image": "/images/products/chain/nitro-master.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.375\""],
@@ -241,7 +241,7 @@
 			]
 		}, {
 			"name": "Nitro Roller Chain",
-			"image": "/images/chain/nitro-chain.jpg",
+			"image": "/images/products/chain/nitro-chain.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.375\""],
@@ -253,7 +253,7 @@
 			]
 		}, {
 			"name": "REV Chain Tool",
-			"image": "/images/chain/rev-chainbreak.png",
+			"image": "/images/products/chain/rev-chainbreak.png",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -265,7 +265,7 @@
 			]
 		}, {
 			"name": "REV Chain Turnbuckle",
-			"image": "/images/chain/rev-turnbuckle.webp",
+			"image": "/images/products/chain/rev-turnbuckle.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -277,7 +277,7 @@
 			]
 		}, {
 			"name": "Swyft #25 Chain Break",
-			"image": "/images/chain/swyft-25-break.jpg",
+			"image": "/images/products/chain/swyft-25-break.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -289,7 +289,7 @@
 			]
 		}, {
 			"name": "Swyft #35 Chain Break",
-			"image": "/images/chain/swyft-35-break.jpg",
+			"image": "/images/products/chain/swyft-35-break.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -301,7 +301,7 @@
 			]
 		}, {
 			"name": "Thrifty #25 Chain Tensioner",
-			"image": "/images/chain/ttb-turnbuckle.webp",
+			"image": "/images/products/chain/ttb-turnbuckle.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -313,7 +313,7 @@
 			]
 		}, {
 			"name": "Thrifty #35 Chain Breaker",
-			"image": "/images/chain/wcp-35-tensioner.webp",
+			"image": "/images/products/chain/wcp-35-tensioner.webp",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -325,7 +325,7 @@
 			]
 		}, {
 			"name": "VEX EDR Chain",
-			"image": "/images/chain/vexedr.jpg",
+			"image": "/images/products/chain/vexedr.jpg",
 			"filters": {
 				"ANSI Chain Size": ["N/A"],
 				"Pitch": ["0.1475\""],
@@ -337,7 +337,7 @@
 			]
 		}, {
 			"name": "VEX EDR High Strength Chain",
-			"image": "/images/chain/vexedrhs.jpg",
+			"image": "/images/products/chain/vexedrhs.jpg",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.375\""],
@@ -349,7 +349,7 @@
 			]
 		}, {
 			"name": "WCP #25 Chain Breaker",
-			"image": "/images/chain/wcp-25-tensioner.webp",
+			"image": "/images/products/chain/wcp-25-tensioner.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25"],
 				"Pitch": ["0.25\""],
@@ -361,7 +361,7 @@
 			]
 		}, {
 			"name": "WCP #25/#35 Combo Chain Breaker",
-			"image": "/images/chain/wcp-25-35-tensioner.webp",
+			"image": "/images/products/chain/wcp-25-35-tensioner.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.375\""],
@@ -373,7 +373,7 @@
 			]
 		}, {
 			"name": "WCP #35 Chain Tensioner",
-			"image": "/images/chain/ttb-25-tensioner.webp",
+			"image": "/images/products/chain/ttb-25-tensioner.webp",
 			"filters": {
 				"ANSI Chain Size": ["#35"],
 				"Pitch": ["0.365\""],
@@ -385,7 +385,7 @@
 			]
 		}, {
 			"name": "WCP Chain Tensioner",
-			"image": "/images/chain/wcp-tensioner.png",
+			"image": "/images/products/chain/wcp-tensioner.png",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.365\""],
@@ -397,7 +397,7 @@
 			]
 		}, {
 			"name": "WCP Turnbuckle",
-			"image": "/images/chain/wcp-turnbuckle.webp",
+			"image": "/images/products/chain/wcp-turnbuckle.webp",
 			"filters": {
 				"ANSI Chain Size": ["#25", "#35"],
 				"Pitch": ["0.25\"", "0.375\""],

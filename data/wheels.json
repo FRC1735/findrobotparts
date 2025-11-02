@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "60mm Mecanum",
-			"image": "/images/wheels/60mm-mecanum.jpg",
+			"image": "/images/products/wheels/60mm-mecanum.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter (inch)": ["2.36"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "60mm Omni",
-			"image": "/images/wheels/60mm-omni.jpg",
+			"image": "/images/products/wheels/60mm-omni.jpg",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["2.36"],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "AM Pneumatic",
-			"image": "/images/wheels/am-pneumatic.jpg",
+			"image": "/images/products/wheels/am-pneumatic.jpg",
 			"filters": {
 				"Style": ["Pneumatic"],
 				"Diameter (inch)": ["6", "8"],
@@ -44,7 +44,7 @@
 			]
 		}, {
 			"name": "Brass Flywheel",
-			"image": "/images/wheels/brass.jpg",
+			"image": "/images/products/wheels/brass.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4"],
@@ -57,7 +57,7 @@
 			]
 		}, {
 			"name": "Colson",
-			"image": "/images/wheels/colson-performa.jpg",
+			"image": "/images/products/wheels/colson-performa.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3", "4", "5", "6"],
@@ -70,7 +70,7 @@
 			]
 		}, {
 			"name": "Compliant",
-			"image": "/images/wheels/compliant.jpg",
+			"image": "/images/products/wheels/compliant.jpg",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["2", "2.25", "3", "4"],
@@ -83,7 +83,7 @@
 			]
 		}, {
 			"name": "Compliant Stars",
-			"image": "/images/wheels/am-stars.jpeg",
+			"image": "/images/products/wheels/am-stars.jpeg",
 			"filters": {
 				"Style": ["Paddle"],
 				"Diameter (inch)": ["5"],
@@ -96,7 +96,7 @@
 			]
 		}, {
 			"name": "Dual Plastic Omni",
-			"image": "/images/wheels/dual-plastic-omni.jpg",
+			"image": "/images/products/wheels/dual-plastic-omni.jpg",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["8"],
@@ -109,7 +109,7 @@
 			]
 		}, {
 			"name": "Dualie Omni",
-			"image": "/images/wheels/am-omni.jpg",
+			"image": "/images/products/wheels/am-omni.jpg",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["2"],
@@ -122,7 +122,7 @@
 			]
 		}, {
 			"name": "DuraOmni",
-			"image": "/images/wheels/duraomni.jpg",
+			"image": "/images/products/wheels/duraomni.jpg",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["4", "6"],
@@ -135,7 +135,7 @@
 			]
 		}, {
 			"name": "DuraSoft",
-			"image": "/images/wheels/durasoft.jpg",
+			"image": "/images/products/wheels/durasoft.jpg",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["2.5", "4"],
@@ -149,7 +149,7 @@
 			]
 		}, {
 			"name": "Flap Wheels",
-			"image": "/images/wheels/rev-flapwheel.webp",
+			"image": "/images/products/wheels/rev-flapwheel.webp",
 			"filters": {
 				"Style": ["Paddle"],
 				"Diameter (inch)": ["4"],
@@ -162,7 +162,7 @@
 			]
 		}, {
 			"name": "Flex Wheel",
-			"image": "/images/wheels/wcp-flex.jpg",
+			"image": "/images/products/wheels/wcp-flex.jpg",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["1.625", "2"],
@@ -175,7 +175,7 @@
 			]
 		}, {
 			"name": "Flex Wheel",
-			"image": "/images/wheels/flexwheel-1.jpg",
+			"image": "/images/products/wheels/flexwheel-1.jpg",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["3", "4"],
@@ -188,7 +188,7 @@
 			]
 		}, {
 			"name": "Grip Lock",
-			"image": "/images/wheels/griplock.webp",
+			"image": "/images/products/wheels/griplock.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4"],
@@ -201,7 +201,7 @@
 			]
 		}, {
 			"name": "HiGrip",
-			"image": "/images/wheels/higrip.jpg",
+			"image": "/images/products/wheels/higrip.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4", "6"],
@@ -214,7 +214,7 @@
 			]
 		}, {
 			"name": "ION Compliant Hex",
-			"image": "/images/wheels/rev-compliant.png",
+			"image": "/images/products/wheels/rev-compliant.png",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["2"],
@@ -227,7 +227,7 @@
 			]
 		}, {
 			"name": "ION Compliant MAXSpline",
-			"image": "/images/wheels/rev-ion-compliant.webp",
+			"image": "/images/products/wheels/rev-ion-compliant.webp",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["3", "4"],
@@ -240,7 +240,7 @@
 			]
 		}, {
 			"name": "ION Grip Hex",
-			"image": "/images/wheels/rev-grip.png",
+			"image": "/images/products/wheels/rev-grip.png",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["1", "2"],
@@ -253,7 +253,7 @@
 			]
 		}, {
 			"name": "ION Grip MAXSpline",
-			"image": "/images/wheels/rev-grip-maxspline.webp",
+			"image": "/images/products/wheels/rev-grip-maxspline.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3", "4", "5", "6"],
@@ -266,7 +266,7 @@
 			]
 		}, {
 			"name": "ION Grip MAXSpline",
-			"image": "/images/wheels/rev-grip-maxspline.webp",
+			"image": "/images/products/wheels/rev-grip-maxspline.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["2"],
@@ -279,7 +279,7 @@
 			]
 		}, {
 			"name": "ION Omni Hex",
-			"image": "/images/wheels/rev-omni.webp",
+			"image": "/images/products/wheels/rev-omni.webp",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["2"],
@@ -292,7 +292,7 @@
 			]
 		}, {
 			"name": "ION Omni MAXSpline",
-			"image": "/images/wheels/rev-omni.webp",
+			"image": "/images/products/wheels/rev-omni.webp",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["3", "4", "5", "6"],
@@ -305,7 +305,7 @@
 			]
 		}, {
 			"name": "ION Traction 1\" Wide",
-			"image": "/images/wheels/rev-traction.png",
+			"image": "/images/products/wheels/rev-traction.png",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["2"],
@@ -318,7 +318,7 @@
 			]
 		}, {
 			"name": "ION Traction 1.5\" Wide",
-			"image": "/images/wheels/rev-traction.png",
+			"image": "/images/products/wheels/rev-traction.png",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3", "4", "5", "6"],
@@ -331,7 +331,7 @@
 			]
 		}, {
 			"name": "MAXSwerve Aluminum",
-			"image": "/images/wheels/maxswerve-aluminum.webp",
+			"image": "/images/products/wheels/maxswerve-aluminum.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3"],
@@ -344,7 +344,7 @@
 			]
 		}, {
 			"name": "MAXSwerve Plastic",
-			"image": "/images/wheels/maxswerve-plastic.webp",
+			"image": "/images/products/wheels/maxswerve-plastic.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3"],
@@ -357,7 +357,7 @@
 			]
 		}, {
 			"name": "MAXSwerve Spiky",
-			"image": "/images/wheels/maxswerve-spiky.webp",
+			"image": "/images/products/wheels/maxswerve-spiky.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3"],
@@ -370,7 +370,7 @@
 			]
 		}, {
 			"name": "Mecanum",
-			"image": "/images/wheels/mecanum.jpg",
+			"image": "/images/products/wheels/mecanum.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter (inch)": ["2", "4", "6", "8"],
@@ -383,7 +383,7 @@
 			]
 		}, {
 			"name": "MK4 Billet",
-			"image": "/images/wheels/mk4-billet.webp",
+			"image": "/images/products/wheels/mk4-billet.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4"],
@@ -396,7 +396,7 @@
 			]
 		}, {
 			"name": "MK5 Billet",
-			"image": "/images/wheels/mk5-billet.webp",
+			"image": "/images/products/wheels/mk5-billet.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4"],
@@ -409,7 +409,7 @@
 			]
 		}, {
 			"name": "MK5 Spike Grip",
-			"image": "/images/wheels/mk5-spike-grip.webp",
+			"image": "/images/products/wheels/mk5-spike-grip.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4"],
@@ -422,7 +422,7 @@
 			]
 		}, {
 			"name": "Omni-Directional",
-			"image": "/images/wheels/omni-directional.png",
+			"image": "/images/products/wheels/omni-directional.png",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["3.25", "4", "6", "8"],
@@ -435,7 +435,7 @@
 			]
 		}, {
 			"name": "Omni Intake",
-			"image": "/images/wheels/omni-intake.webp",
+			"image": "/images/products/wheels/omni-intake.webp",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["2"],
@@ -448,7 +448,7 @@
 			]
 		}, {
 			"name": "Performance",
-			"image": "/images/wheels/performance.jpg",
+			"image": "/images/products/wheels/performance.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4", "6"],
@@ -461,7 +461,7 @@
 			]
 		}, {
 			"name": "Plaction",
-			"image": "/images/wheels/plaction.jpg",
+			"image": "/images/products/wheels/plaction.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["4", "6", "8"],
@@ -474,7 +474,7 @@
 			]
 		}, {
 			"name": "Pneumatic with Pulley",
-			"image": "/images/wheels/ab-pneu-pulley.png",
+			"image": "/images/products/wheels/ab-pneu-pulley.png",
 			"filters": {
 				"Style": ["Pneumatic"],
 				"Diameter (inch)": ["7.5"],
@@ -487,7 +487,7 @@
 			]
 		}, {
 			"name": "Plastic Vector Intake",
-			"image": "/images/wheels/wcp-vector.webp",
+			"image": "/images/products/wheels/wcp-vector.webp",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter (inch)": ["2"],
@@ -500,7 +500,7 @@
 			]
 		}, {
 			"name": "Rotacaster 125mm",
-			"image": "/images/wheels/rotacaster125.jpg",
+			"image": "/images/products/wheels/rotacaster125.jpg",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["4.9"],
@@ -513,7 +513,7 @@
 			]
 		}, {
 			"name": "Rotacaster 35mm",
-			"image": "/images/wheels/rotacaster35.jpg",
+			"image": "/images/products/wheels/rotacaster35.jpg",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["1.37"],
@@ -526,7 +526,7 @@
 			]
 		}, {
 			"name": "Skate - Multidirectional",
-			"image": "/images/wheels/skate-multidirectional.png",
+			"image": "/images/products/wheels/skate-multidirectional.png",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["1.9", "2", "2.34", "3.156"],
@@ -539,7 +539,7 @@
 			]
 		}, {
 			"name": "Skate - Nylon",
-			"image": "/images/wheels/skate-nylon.png",
+			"image": "/images/products/wheels/skate-nylon.png",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["1.9", "2"],
@@ -552,7 +552,7 @@
 			]
 		}, {
 			"name": "Skate - Polyurethane on Steel",
-			"image": "/images/wheels/skate-poly.png",
+			"image": "/images/products/wheels/skate-poly.png",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["2.25"],
@@ -565,7 +565,7 @@
 			]
 		}, {
 			"name": "Skate - Rubber on Steel",
-			"image": "/images/wheels/skate-poly.png",
+			"image": "/images/products/wheels/skate-poly.png",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["2.0625"],
@@ -578,7 +578,7 @@
 			]
 		}, {
 			"name": "Single Plastic Omni",
-			"image": "/images/wheels/single-plastic-omni.jpg",
+			"image": "/images/products/wheels/single-plastic-omni.jpg",
 			"filters": {
 				"Style": ["Omni"],
 				"Diameter (inch)": ["8"],
@@ -591,7 +591,7 @@
 			]
 		}, {
 			"name": "Squish Wheels",
-			"image": "/images/wheels/squish.jpg",
+			"image": "/images/products/wheels/squish.jpg",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["2", "3", "4"],
@@ -604,7 +604,7 @@
 			]
 		}, {
 			"name": "Star Flex",
-			"image": "/images/wheels/wcp-star.webp",
+			"image": "/images/products/wheels/wcp-star.webp",
 			"filters": {
 				"Style": ["Paddle"],
 				"Diameter (inch)": ["5"],
@@ -617,7 +617,7 @@
 			]
 		}, {
 			"name": "Stealth",
-			"image": "/images/wheels/stealth.jpg",
+			"image": "/images/products/wheels/stealth.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["2", "3", "4"],
@@ -630,7 +630,7 @@
 			]
 		}, {
 			"name": "Sushi Roller Intake",
-			"image": "/images/wheels/sushi-roller.jpg",
+			"image": "/images/products/wheels/sushi-roller.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["1"],
@@ -643,7 +643,7 @@
 			]
 		}, {
 			"name": "Swerve Aluminum Billet Wheel",
-			"image": "/images/wheels/ttb-billet.webp",
+			"image": "/images/products/wheels/ttb-billet.webp",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3"],
@@ -656,7 +656,7 @@
 			]
 		}, {
 			"name": "T40",
-			"image": "/images/wheels/t40.jpg",
+			"image": "/images/products/wheels/t40.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["1.375", "1.635", "1.875", "2.375", "2.785"],
@@ -669,7 +669,7 @@
 			]
 		}, {
 			"name": "T81",
-			"image": "/images/wheels/t80.jpg",
+			"image": "/images/products/wheels/t80.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["2.875", "3.875", "4.875"],
@@ -682,7 +682,7 @@
 			]
 		}, {
 			"name": "T81 Compliant",
-			"image": "/images/wheels/t81-compliant.jpg",
+			"image": "/images/products/wheels/t81-compliant.jpg",
 			"filters": {
 				"Style": ["Conformable"],
 				"Diameter (inch)": ["3", "4"],
@@ -695,7 +695,7 @@
 			]
 		}, {
 			"name": "Vectored Intake Wheel",
-			"image": "/images/wheels/thrifty-intake.jpg",
+			"image": "/images/products/wheels/thrifty-intake.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter (inch)": ["2"],
@@ -708,7 +708,7 @@
 			]
 		}, {
 			"name": "Vectored Intake Wheel",
-			"image": "/images/wheels/am-vectored-intake.jpg",
+			"image": "/images/products/wheels/am-vectored-intake.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter (inch)": ["2.25"],
@@ -721,7 +721,7 @@
 			]
 		}, {
 			"name": "WCP Aluminum Wheel",
-			"image": "/images/wheels/wcp-aluminum.jpg",
+			"image": "/images/products/wheels/wcp-aluminum.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter (inch)": ["3.25", "4", "6"],
@@ -734,7 +734,7 @@
 			]
 		}, {
 			"name": "WCP Pneumatic",
-			"image": "/images/wheels/wcp-pneumatic.jpg",
+			"image": "/images/products/wheels/wcp-pneumatic.jpg",
 			"filters": {
 				"Style": ["Pneumatic"],
 				"Diameter (inch)": ["6", "8"],

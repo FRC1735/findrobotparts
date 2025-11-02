@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "Battery Mart SLA-12V18",
-			"image": "/images/batteries/battery-mart-sla-12v18.jpg",
+			"image": "/images/products/batteries/battery-mart-sla-12v18.jpg",
 			"filters": {
 				"Weight (lbs)": ["Unknown"],
 				"Capacity (Ah)": ["18"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "Duracell Ultra DURA12-18NB",
-			"image": "/images/batteries/duracell-ultra-dura12-18nb.jpg",
+			"image": "/images/products/batteries/duracell-ultra-dura12-18nb.jpg",
 			"filters": {
 				"Weight (lbs)": ["11.9"],
 				"Capacity (Ah)": ["18"],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "ENERSYS NP18-12B",
-			"image": "/images/batteries/enersys-np18-12b.jpg",
+			"image": "/images/products/batteries/enersys-np18-12b.jpg",
 			"filters": {
 				"Weight (lbs)": ["13.6"],
 				"Capacity (Ah)": ["17.2"],
@@ -46,7 +46,7 @@
 			]
 		}, {
 			"name": "ENERSYS NP18-12BFR",
-			"image": "/images/batteries/enersys-cp18-12bfr.jpg",
+			"image": "/images/products/batteries/enersys-cp18-12bfr.jpg",
 			"filters": {
 				"Weight (lbs)": ["13.6"],
 				"Capacity (Ah)": ["17.2"],
@@ -61,7 +61,7 @@
 			]
 		}, {
 			"name": "MK ES17-12 12V SLA",
-			"image": "/images/batteries/mk-es17-12.webp",
+			"image": "/images/products/batteries/mk-es17-12.webp",
 			"filters": {
 				"Weight (lbs)": ["12.89"],
 				"Capacity (Ah)": ["17.1"],
@@ -77,7 +77,7 @@
 			]
 		}, {
 			"name": "Power Sonic PS-12180NB",
-			"image": "/images/batteries/power-sonic-ps-12180nb.jpg",
+			"image": "/images/products/batteries/power-sonic-ps-12180nb.jpg",
 			"filters": {
 				"Weight (lbs)": ["12.6"],
 				"Capacity (Ah)": ["18"],
@@ -91,7 +91,7 @@
 			]
 		}, {
 			"name": "Sigma SP12-18",
-			"image": "/images/batteries/sigma-sp12-18.jpg",
+			"image": "/images/products/batteries/sigma-sp12-18.jpg",
 			"filters": {
 				"Weight (lbs)": ["12.65"],
 				"Capacity (Ah)": ["18"],
@@ -104,7 +104,7 @@
 			]
 		}, {
 			"name": "Universal Battery UB12180",
-			"image": "/images/batteries/universal-battery-ub12180.jpg",
+			"image": "/images/products/batteries/universal-battery-ub12180.jpg",
 			"filters": {
 				"Weight (lbs)": ["11.7"],
 				"Capacity (Ah)": ["18"],
@@ -118,7 +118,7 @@
 			]
 		}, {
 			"name": "Yuasa NP18-12B",
-			"image": "/images/batteries/yuasa-np18-12b.jpg",
+			"image": "/images/products/batteries/yuasa-np18-12b.jpg",
 			"filters": {
 				"Weight (lbs)": ["13.4"],
 				"Capacity (Ah)": ["17.2"],

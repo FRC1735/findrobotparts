@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "AM Hubs",
-			"image": "/images/hubs/am-hubs.jpg",
+			"image": "/images/products/hubs/am-hubs.jpg",
 			"filters": {
 				"Attachment Type": ["1.875\" Bolt Circle"],
 				"Bore": ["0.375\" hex", "0.375\" w/ key", "0.5\" hex", "8mm w/ key", "bearing", "blank"],
@@ -17,7 +17,7 @@
 			]
 		}, {
 			"name": "Colson Dead Hub",
-			"image": "/images/hubs/colson-dead-hub.jpg",
+			"image": "/images/products/hubs/colson-dead-hub.jpg",
 			"filters": {
 				"Attachment Type": ["Press Fit", "VersaKey", "1.875\" Bolt Circle"],
 				"Bore": ["0.875\""],
@@ -29,7 +29,7 @@
 			]
 		}, {
 			"name": "Colson Live Hub",
-			"image": "/images/hubs/colson-live-hub.jpg",
+			"image": "/images/products/hubs/colson-live-hub.jpg",
 			"filters": {
 				"Attachment Type": ["Press Fit"],
 				"Bore": ["0.5\" hex"],
@@ -41,7 +41,7 @@
 			]
 		}, {
 			"name": "FTC Wheel Conversion Plate",
-			"image": "/images/hubs/ftc-wheel-conversion-plate.jpg",
+			"image": "/images/products/hubs/ftc-wheel-conversion-plate.jpg",
 			"filters": {
 				"Attachment Type": ["1.875\" Bolt Circle", "16mm Bolt Circle"],
 				"Bore": ["8.1mm"],
@@ -53,7 +53,7 @@
 			]
 		}, {
 			"name": "MAXHub Aluminum",
-			"image": "/images/hubs/rev-maxhub-aluminum.webp",
+			"image": "/images/products/hubs/rev-maxhub-aluminum.webp",
 			"filters": {
 				"Attachment Type": ["MAXSpline"],
 				"Bore": ["0.2\"", "0.5\" hex", "1\""],
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "MAXHub Plastic",
-			"image": "/images/hubs/rev-maxhub-plastic.webp",
+			"image": "/images/products/hubs/rev-maxhub-plastic.webp",
 			"filters": {
 				"Attachment Type": ["MAXSpline"],
 				"Bore": ["0.5\" hex", "5mm hex"],
@@ -77,7 +77,7 @@
 			]
 		}, {
 			"name": "MAXSpline Shaft Endcap",
-			"image": "/images/hubs/rev-maxspline-endcap.webp",
+			"image": "/images/products/hubs/rev-maxspline-endcap.webp",
 			"filters": {
 				"Attachment Type": ["MAXSpline"],
 				"Bore": ["0.5\" hex"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "MotionX",
-			"image": "/images/hubs/motionx.webp",
+			"image": "/images/products/hubs/motionx.webp",
 			"filters": {
 				"Attachment Type": ["1.875\" Bolt Circle", "2\" Bolt Circle"],
 				"Bore": ["0.5\" hex"],
@@ -101,7 +101,7 @@
 			]
 		}, {
 			"name": "TTB Hub",
-			"image": "/images/hubs/thriftyhub.jpg",
+			"image": "/images/products/hubs/thriftyhub.jpg",
 			"filters": {
 				"Attachment Type": ["1.875\" Bolt Circle"],
 				"Bore": ["0.375\" hex", "0.5\" hex"],

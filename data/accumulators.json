@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "3785 ml Aluminum Air Reservoir",
-			"image": "/images/accumulators/am-gallon.jpeg",
+			"image": "/images/products/accumulators/am-gallon.jpeg",
 			"filters": {
 				"Volume": ["3785ml"],
 				"Diameter": ["4\""],
@@ -20,7 +20,7 @@
 			]
 		}, {
 			"name": "Air Tank 590ml with 1/4\" NPT port",
-			"image": "/images/accumulators/am-590.jpg",
+			"image": "/images/products/accumulators/am-590.jpg",
 			"filters": {
 				"Volume": ["590ml"],
 				"Diameter": ["2.7\""],
@@ -35,7 +35,7 @@
 			]
 		}, {
 			"name": "Clippard Air Tank 574ml with Push Connect Fittings",
-			"image": "/images/accumulators/am-574.jpg",
+			"image": "/images/products/accumulators/am-574.jpg",
 			"filters": {
 				"Volume": ["574ml"],
 				"Diameter": ["2.5\""],

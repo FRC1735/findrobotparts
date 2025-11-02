@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "ASME-Code Fast-Acting Pressure-Relief Valve",
-			"image": "/images/pneumaticcomponents/relief-valve.jpg",
+			"image": "/images/products/pneumaticcomponents/relief-valve.jpg",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
 				"Type": ["Relief Valve"]
@@ -15,7 +15,7 @@
 			]
 		}, {
 			"name": "Nason Pressure Switch",
-			"image": "/images/pneumaticcomponents/nason-pressure-switch.jpg",
+			"image": "/images/products/pneumaticcomponents/nason-pressure-switch.jpg",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
 				"Type": ["Pressure Switch"]
@@ -25,7 +25,7 @@
 			]
 		}, {
 			"name": "NITRA PGU14",
-			"image": "/images/pneumaticcomponents/nitra-pgu14.jpg",
+			"image": "/images/products/pneumaticcomponents/nitra-pgu14.jpg",
 			"filters": {
 				"Port": ["1/4\" Press-in"],
 				"Type": ["Gauge"]
@@ -35,7 +35,7 @@
 			]
 		}, {
 			"name": "NITRA PMU14A",
-			"image": "/images/pneumaticcomponents/nitra-pmu14a.jpg",
+			"image": "/images/products/pneumaticcomponents/nitra-pmu14a.jpg",
 			"filters": {
 				"Port": ["1/4\" Press-in"],
 				"Type": ["Indicator"]
@@ -45,7 +45,7 @@
 			]
 		}, {
 			"name": "NITRA PMU14G",
-			"image": "/images/pneumaticcomponents/nitra-pmu14g.jpg",
+			"image": "/images/products/pneumaticcomponents/nitra-pmu14g.jpg",
 			"filters": {
 				"Port": ["1/4\" Press-in"],
 				"Type": ["Indicator"]
@@ -55,7 +55,7 @@
 			]
 		}, {
 			"name": "NITRA PRU14",
-			"image": "/images/pneumaticcomponents/nitra-pru14.jpg",
+			"image": "/images/products/pneumaticcomponents/nitra-pru14.jpg",
 			"filters": {
 				"Port": ["1/4\" Press-in"],
 				"Type": ["Regulator"]
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "Norgren Regulator",
-			"image": "/images/pneumaticcomponents/norgren-regulator.jpg",
+			"image": "/images/products/pneumaticcomponents/norgren-regulator.jpg",
 			"filters": {
 				"Port": ["1/8\" NPT Female"],
 				"Type": ["Regulator"]
@@ -75,7 +75,7 @@
 			]
 		}, {
 			"name": "Pisco Inline Pressure Gauge with 1/4\" Press-In Tube Fitting",
-			"image": "/images/pneumaticcomponents/pisco-gauge-inline.jpg",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-inline.jpg",
 			"filters": {
 				"Port": ["1/4\" Press-in"],
 				"Type": ["Gauge"]
@@ -85,7 +85,7 @@
 			]
 		}, {
 			"name": "Pisco Panel Mount Pressure Gauge with 1/4\" Press-In Tube Fitting",
-			"image": "/images/pneumaticcomponents/pisco-gauge-panel.jpg",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-panel.jpg",
 			"filters": {
 				"Port": ["1/4\" Press-in"],
 				"Type": ["Gauge"]
@@ -95,7 +95,7 @@
 			]
 		}, {
 			"name": "Pisco Pressure Gauge with 1/8\" NPT fitting",
-			"image": "/images/pneumaticcomponents/pisco-gauge-npt.jpg",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-npt.jpg",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
 				"Type": ["Gauge"]
@@ -105,7 +105,7 @@
 			]
 		}, {
 			"name": "Pisco Pressure Gauge with Male 1/4\" Press-in Fitting",
-			"image": "/images/pneumaticcomponents/pisco-gauge-stud.jpg",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-stud.jpg",
 			"filters": {
 				"Port": ["1/4\" Press-in Stud"],
 				"Type": ["Gauge"]
@@ -115,7 +115,7 @@
 			]
 		}, {
 			"name": "Pressure Gauge 0-160 psi",
-			"image": "/images/pneumaticcomponents/am-gauge.webp",
+			"image": "/images/products/pneumaticcomponents/am-gauge.webp",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
 				"Type": ["Gauge"]
@@ -125,7 +125,7 @@
 			]
 		}, {
 			"name": "Pressure Relief Valve, Soft Seat Safety, 125 psi, 62 SCFM, 1/8 in. Port",
-			"image": "/images/pneumaticcomponents/am-relief-valve.webp",
+			"image": "/images/products/pneumaticcomponents/am-relief-valve.webp",
 			"filters": {
 				"Port": ["1/8\" NPT Male"],
 				"Type": ["Relief Valve"]

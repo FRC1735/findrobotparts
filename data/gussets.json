@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "AM 3-4-5 Shallow External",
-			"image": "/images/gussets/am-143.webp",
+			"image": "/images/products/gussets/am-143.webp",
 			"filters": {
 				"Type": ["143"],
 				"Hole Size": ["#10"],
@@ -17,7 +17,7 @@
 			]
 		}, {
 			"name": "AM 3-4-5 Shallow Internal",
-			"image": "/images/gussets/am-37.webp",
+			"image": "/images/products/gussets/am-37.webp",
 			"filters": {
 				"Type": ["37"],
 				"Hole Size": ["#10"],
@@ -29,7 +29,7 @@
 			]
 		}, {
 			"name": "AM 3-4-5 Steep External",
-			"image": "/images/gussets/am-127.webp",
+			"image": "/images/products/gussets/am-127.webp",
 			"filters": {
 				"Type": ["127"],
 				"Hole Size": ["#10"],
@@ -41,7 +41,7 @@
 			]
 		}, {
 			"name": "AM 3-4-5 Steep Internal",
-			"image": "/images/gussets/am-53.webp",
+			"image": "/images/products/gussets/am-53.webp",
 			"filters": {
 				"Type": ["53"],
 				"Hole Size": ["#10"],
@@ -53,7 +53,7 @@
 			]
 		}, {
 			"name": "AM 30",
-			"image": "/images/gussets/am-30.webp",
+			"image": "/images/products/gussets/am-30.webp",
 			"filters": {
 				"Type": ["30"],
 				"Hole Size": ["#10"],
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "AM 45",
-			"image": "/images/gussets/am-45.webp",
+			"image": "/images/products/gussets/am-45.webp",
 			"filters": {
 				"Type": ["45"],
 				"Hole Size": ["#10"],
@@ -77,7 +77,7 @@
 			]
 		}, {
 			"name": "AM 60",
-			"image": "/images/gussets/am-60.webp",
+			"image": "/images/products/gussets/am-60.webp",
 			"filters": {
 				"Type": ["60"],
 				"Hole Size": ["#10"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "AM 90",
-			"image": "/images/gussets/am-90.webp",
+			"image": "/images/products/gussets/am-90.webp",
 			"filters": {
 				"Type": ["90"],
 				"Hole Size": ["#10"],
@@ -101,7 +101,7 @@
 			]
 		}, {
 			"name": "AM 120",
-			"image": "/images/gussets/am-120.webp",
+			"image": "/images/products/gussets/am-120.webp",
 			"filters": {
 				"Type": ["120"],
 				"Hole Size": ["#10"],
@@ -113,7 +113,7 @@
 			]
 		}, {
 			"name": "AM 135",
-			"image": "/images/gussets/am-135.webp",
+			"image": "/images/products/gussets/am-135.webp",
 			"filters": {
 				"Type": ["135"],
 				"Hole Size": ["#10"],
@@ -125,7 +125,7 @@
 			]
 		}, {
 			"name": "AM 150",
-			"image": "/images/gussets/am-150.webp",
+			"image": "/images/products/gussets/am-150.webp",
 			"filters": {
 				"Type": ["150"],
 				"Hole Size": ["#10"],
@@ -137,7 +137,7 @@
 			]
 		}, {
 			"name": "AM Joiner 1\"",
-			"image": "/images/gussets/am-joiner.webp",
+			"image": "/images/products/gussets/am-joiner.webp",
 			"filters": {
 				"Type": ["180"],
 				"Hole Size": ["#10"],
@@ -149,7 +149,7 @@
 			]
 		}, {
 			"name": "AM Joiner 2\"",
-			"image": "/images/gussets/am-joiner2.webp",
+			"image": "/images/products/gussets/am-joiner2.webp",
 			"filters": {
 				"Type": ["180"],
 				"Hole Size": ["#10"],
@@ -161,7 +161,7 @@
 			]
 		}, {
 			"name": "AM Inside Corner",
-			"image": "/images/gussets/am-corner.webp",
+			"image": "/images/products/gussets/am-corner.webp",
 			"filters": {
 				"Type": ["Corner"],
 				"Hole Size": ["#10"],
@@ -173,7 +173,7 @@
 			]
 		}, {
 			"name": "AM Quad",
-			"image": "/images/gussets/am-plus.webp",
+			"image": "/images/products/gussets/am-plus.webp",
 			"filters": {
 				"Type": ["Plus"],
 				"Hole Size": ["#10"],
@@ -185,7 +185,7 @@
 			]
 		}, {
 			"name": "AM Tee",
-			"image": "/images/gussets/am-t.webp",
+			"image": "/images/products/gussets/am-t.webp",
 			"filters": {
 				"Type": ["Tee"],
 				"Hole Size": ["#10"],
@@ -197,7 +197,7 @@
 			]
 		}, {
 			"name": "Armabot L",
-			"image": "/images/gussets/armabot-t.png",
+			"image": "/images/products/gussets/armabot-t.png",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -209,7 +209,7 @@
 			]
 		}, {
 			"name": "Armabot T",
-			"image": "/images/gussets/armabot-t.png",
+			"image": "/images/products/gussets/armabot-t.png",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -221,7 +221,7 @@
 			]
 		}, {
 			"name": "PI 90",
-			"image": "/images/gussets/pi-90.jpg",
+			"image": "/images/products/gussets/pi-90.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -233,7 +233,7 @@
 			]
 		}, {
 			"name": "PI 90 Short",
-			"image": "/images/gussets/pi-90-short.jpg",
+			"image": "/images/products/gussets/pi-90-short.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -245,7 +245,7 @@
 			]
 		}, {
 			"name": "PI 90 Short Side",
-			"image": "/images/gussets/pi-90-short-side.jpg",
+			"image": "/images/products/gussets/pi-90-short-side.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -257,7 +257,7 @@
 			]
 		}, {
 			"name": "PI Drive Rail Frame End",
-			"image": "/images/gussets/pi-rail-frame.jpg",
+			"image": "/images/products/gussets/pi-rail-frame.jpg",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -269,7 +269,7 @@
 			]
 		}, {
 			"name": "PI T",
-			"image": "/images/gussets/pi-t.jpg",
+			"image": "/images/products/gussets/pi-t.jpg",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -281,7 +281,7 @@
 			]
 		}, {
 			"name": "REV 135",
-			"image": "/images/gussets/rev-135.png",
+			"image": "/images/products/gussets/rev-135.png",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["#10"],
@@ -293,7 +293,7 @@
 			]
 		}, {
 			"name": "REV 150",
-			"image": "/images/gussets/rev-150.png",
+			"image": "/images/products/gussets/rev-150.png",
 			"filters": {
 				"Type": ["150 Degree"],
 				"Hole Size": ["#10"],
@@ -305,7 +305,7 @@
 			]
 		}, {
 			"name": "REV 15mm 12mm Ball Bearning Mount V2",
-			"image": "/images/gussets/rev-15-v2-bearing.png",
+			"image": "/images/products/gussets/rev-15-v2-bearing.png",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -317,7 +317,7 @@
 			]
 		}, {
 			"name": "REV 15mm 30 V2",
-			"image": "/images/gussets/rev-15-v2-30.png",
+			"image": "/images/products/gussets/rev-15-v2-30.png",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["M3"],
@@ -329,7 +329,7 @@
 			]
 		}, {
 			"name": "REV 15mm 45 V2",
-			"image": "/images/gussets/rev-15-v2-45.png",
+			"image": "/images/products/gussets/rev-15-v2-45.png",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["M3"],
@@ -341,7 +341,7 @@
 			]
 		}, {
 			"name": "REV 15mm 60 V2",
-			"image": "/images/gussets/rev-15-v2-60.png",
+			"image": "/images/products/gussets/rev-15-v2-60.png",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["M3"],
@@ -353,7 +353,7 @@
 			]
 		}, {
 			"name": "REV 15mm 90 V2",
-			"image": "/images/gussets/rev-15-90-2.png",
+			"image": "/images/products/gussets/rev-15-90-2.png",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["M3"],
@@ -365,7 +365,7 @@
 			]
 		}, {
 			"name": "REV 15mm Bent HD Motor V2",
-			"image": "/images/gussets/rev-15-v2-motor-bent-hd.png",
+			"image": "/images/products/gussets/rev-15-v2-motor-bent-hd.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["M3"],
@@ -377,7 +377,7 @@
 			]
 		}, {
 			"name": "REV 15mm Bent Motor V2",
-			"image": "/images/gussets/rev-15-v2-motor-bent.png",
+			"image": "/images/products/gussets/rev-15-v2-motor-bent.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["M3"],
@@ -389,7 +389,7 @@
 			]
 		}, {
 			"name": "REV 15mm Bent Servo V2",
-			"image": "/images/gussets/rev-15-v2-servo.png",
+			"image": "/images/products/gussets/rev-15-v2-servo.png",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -401,7 +401,7 @@
 			]
 		}, {
 			"name": "REV 15mm Cross V2",
-			"image": "/images/gussets/rev-15-v2-plus.png",
+			"image": "/images/products/gussets/rev-15-v2-plus.png",
 			"filters": {
 				"Type": ["Plus"],
 				"Hole Size": ["M3"],
@@ -413,7 +413,7 @@
 			]
 		}, {
 			"name": "REV 15mm Flat HD Motor V2",
-			"image": "/images/gussets/rev-15-v2-motor-flat-hd.png",
+			"image": "/images/products/gussets/rev-15-v2-motor-flat-hd.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["M3"],
@@ -425,7 +425,7 @@
 			]
 		}, {
 			"name": "REV 15mm Flat Servo V2",
-			"image": "/images/gussets/rev-15-v2-servo-flat.png",
+			"image": "/images/products/gussets/rev-15-v2-servo-flat.png",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -437,7 +437,7 @@
 			]
 		}, {
 			"name": "REV 15mm Inside Corner V2",
-			"image": "/images/gussets/rev-15-v2-inside-corner.png",
+			"image": "/images/products/gussets/rev-15-v2-inside-corner.png",
 			"filters": {
 				"Type": ["Corner"],
 				"Hole Size": ["M3"],
@@ -449,7 +449,7 @@
 			]
 		}, {
 			"name": "REV 15mm Offset Servo V2",
-			"image": "/images/gussets/rev-15-v2-servo-offset.png",
+			"image": "/images/products/gussets/rev-15-v2-servo-offset.png",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -461,7 +461,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic 120",
-			"image": "/images/gussets/rev-plastic-15-120.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-120.jpg",
 			"filters": {
 				"Type": ["120 Degree"],
 				"Hole Size": ["M3"],
@@ -473,7 +473,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic 135",
-			"image": "/images/gussets/rev-plastic-15-135.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-135.jpg",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["M3"],
@@ -485,7 +485,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic 150",
-			"image": "/images/gussets/rev-plastic-15-150.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-150.jpg",
 			"filters": {
 				"Type": ["150 Degree"],
 				"Hole Size": ["M3"],
@@ -497,7 +497,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic 30",
-			"image": "/images/gussets/rev-plastic-15-30.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-30.jpg",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["M3"],
@@ -509,7 +509,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic 45",
-			"image": "/images/gussets/rev-plastic-15-45.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-45.jpg",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["M3"],
@@ -521,7 +521,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic 60",
-			"image": "/images/gussets/rev-plastic-15-60.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-60.jpg",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["M3"],
@@ -533,7 +533,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic 90",
-			"image": "/images/gussets/rev-plastic-15-90.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-90.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["M3"],
@@ -545,7 +545,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic Gearbox Motion ",
-			"image": "/images/gussets/rev-plastic-15-motion.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-motion.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -557,7 +557,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic Indexable Motion",
-			"image": "/images/gussets/rev-plastic-15-indexible.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-indexible.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -569,7 +569,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic Inside Corner",
-			"image": "/images/gussets/rev-plastic-15-corner.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-corner.jpg",
 			"filters": {
 				"Type": ["Corner"],
 				"Hole Size": ["M3"],
@@ -581,7 +581,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic Motion",
-			"image": "/images/gussets/rev-plastic-15-motion2.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-motion2.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -593,7 +593,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic Rod End",
-			"image": "/images/gussets/rev-plastic-15-rod.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-rod.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -605,7 +605,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic Servo Mount Support",
-			"image": "/images/gussets/rev-plastic-15-servo.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-servo.jpg",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -617,7 +617,7 @@
 			]
 		}, {
 			"name": "REV 15mm Plastic Variable",
-			"image": "/images/gussets/rev-plastic-15-variable.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-variable.jpg",
 			"filters": {
 				"Type": ["Variable Degree"],
 				"Hole Size": ["M3"],
@@ -629,7 +629,7 @@
 			]
 		}, {
 			"name": "REV 15mm T V2",
-			"image": "/images/gussets/rev-15-v2-t.png",
+			"image": "/images/products/gussets/rev-15-v2-t.png",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["M3"],
@@ -641,7 +641,7 @@
 			]
 		}, {
 			"name": "REV 15mm Variable Angle V2",
-			"image": "/images/gussets/rev-15-v2-variable.png",
+			"image": "/images/products/gussets/rev-15-v2-variable.png",
 			"filters": {
 				"Type": ["Variable Degree"],
 				"Hole Size": ["M3"],
@@ -653,7 +653,7 @@
 			]
 		}, {
 			"name": "REV 30",
-			"image": "/images/gussets/rev-30.jpg",
+			"image": "/images/products/gussets/rev-30.jpg",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["#10"],
@@ -665,7 +665,7 @@
 			]
 		}, {
 			"name": "REV 45",
-			"image": "/images/gussets/rev-45.jpg",
+			"image": "/images/products/gussets/rev-45.jpg",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["#10"],
@@ -677,7 +677,7 @@
 			]
 		}, {
 			"name": "REV 60",
-			"image": "/images/gussets/rev-60.jpg",
+			"image": "/images/products/gussets/rev-60.jpg",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["#10"],
@@ -689,7 +689,7 @@
 			]
 		}, {
 			"name": "REV 90",
-			"image": "/images/gussets/rev-90.jpg",
+			"image": "/images/products/gussets/rev-90.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -701,7 +701,7 @@
 			]
 		}, {
 			"name": "REV Bearing Side Support",
-			"image": "/images/gussets/rev-side-bearing.jpg",
+			"image": "/images/products/gussets/rev-side-bearing.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["#10"],
@@ -713,7 +713,7 @@
 			]
 		}, {
 			"name": "REV Bent Universal Motor",
-			"image": "/images/gussets/rev-bent-universal-motor.png",
+			"image": "/images/products/gussets/rev-bent-universal-motor.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["#10"],
@@ -725,7 +725,7 @@
 			]
 		}, {
 			"name": "REV Cross",
-			"image": "/images/gussets/rev-cross.jpg",
+			"image": "/images/products/gussets/rev-cross.jpg",
 			"filters": {
 				"Type": ["Plus"],
 				"Hole Size": ["#10"],
@@ -737,7 +737,7 @@
 			]
 		}, {
 			"name": "REV End Bearing",
-			"image": "/images/gussets/rev-end-bearing.png",
+			"image": "/images/products/gussets/rev-end-bearing.png",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["#10"],
@@ -749,7 +749,7 @@
 			]
 		}, {
 			"name": "REV Inside Corner",
-			"image": "/images/gussets/rev-corner.png",
+			"image": "/images/products/gussets/rev-corner.png",
 			"filters": {
 				"Type": ["Corner"],
 				"Hole Size": ["#10"],
@@ -761,7 +761,7 @@
 			]
 		}, {
 			"name": "REV ION 120",
-			"image": "/images/gussets/rev-ion-120.webp",
+			"image": "/images/products/gussets/rev-ion-120.webp",
 			"filters": {
 				"Type": ["120 Degree"],
 				"Hole Size": ["#10"],
@@ -773,7 +773,7 @@
 			]
 		}, {
 			"name": "REV ION 135",
-			"image": "/images/gussets/rev-ion-135.webp",
+			"image": "/images/products/gussets/rev-ion-135.webp",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["#10"],
@@ -785,7 +785,7 @@
 			]
 		}, {
 			"name": "REV ION 150",
-			"image": "/images/gussets/rev-ion-150.webp",
+			"image": "/images/products/gussets/rev-ion-150.webp",
 			"filters": {
 				"Type": ["150 Degree"],
 				"Hole Size": ["#10"],
@@ -797,7 +797,7 @@
 			]
 		}, {
 			"name": "REV ION 180",
-			"image": "/images/gussets/rev-ion-180.webp",
+			"image": "/images/products/gussets/rev-ion-180.webp",
 			"filters": {
 				"Type": ["180 Degree"],
 				"Hole Size": ["#10"],
@@ -809,7 +809,7 @@
 			]
 		}, {
 			"name": "REV ION 30",
-			"image": "/images/gussets/rev-ion-30.webp",
+			"image": "/images/products/gussets/rev-ion-30.webp",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["#10"],
@@ -821,7 +821,7 @@
 			]
 		}, {
 			"name": "REV ION 45",
-			"image": "/images/gussets/rev-ion-45.webp",
+			"image": "/images/products/gussets/rev-ion-45.webp",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["#10"],
@@ -833,7 +833,7 @@
 			]
 		}, {
 			"name": "REV ION 60",
-			"image": "/images/gussets/rev-ion-60.webp",
+			"image": "/images/products/gussets/rev-ion-60.webp",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["#10"],
@@ -845,7 +845,7 @@
 			]
 		}, {
 			"name": "REV ION 90",
-			"image": "/images/gussets/rev-ion-90.webp",
+			"image": "/images/products/gussets/rev-ion-90.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -857,7 +857,7 @@
 			]
 		}, {
 			"name": "REV ION 90 Degree Sharp Interior",
-			"image": "/images/gussets/rev-ion-90-sharp.webp",
+			"image": "/images/products/gussets/rev-ion-90-sharp.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -869,7 +869,7 @@
 			]
 		}, {
 			"name": "REV ION External 3-4-5 Shallow",
-			"image": "/images/gussets/rev-ion-143.webp",
+			"image": "/images/products/gussets/rev-ion-143.webp",
 			"filters": {
 				"Type": ["143 Degree"],
 				"Hole Size": ["#10"],
@@ -881,7 +881,7 @@
 			]
 		}, {
 			"name": "REV ION External 3-4-5 Steep",
-			"image": "/images/gussets/rev-ion-127.webp",
+			"image": "/images/products/gussets/rev-ion-127.webp",
 			"filters": {
 				"Type": ["127 Degree"],
 				"Hole Size": ["#10"],
@@ -893,7 +893,7 @@
 			]
 		}, {
 			"name": "REV ION Internal 3-4-5 Shallow",
-			"image": "/images/gussets/rev-ion-37.png",
+			"image": "/images/products/gussets/rev-ion-37.png",
 			"filters": {
 				"Type": ["37 Degree"],
 				"Hole Size": ["#10"],
@@ -905,7 +905,7 @@
 			]
 		}, {
 			"name": "REV ION Internal 3-4-5 Steep",
-			"image": "/images/gussets/rev-ion-53.webp",
+			"image": "/images/products/gussets/rev-ion-53.webp",
 			"filters": {
 				"Type": ["53 Degree"],
 				"Hole Size": ["#10"],
@@ -917,7 +917,7 @@
 			]
 		}, {
 			"name": "REV ION MAXSpline - MAX Pattern T",
-			"image": "/images/gussets/rev-ion-maxspline-t.webp",
+			"image": "/images/products/gussets/rev-ion-maxspline-t.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -929,7 +929,7 @@
 			]
 		}, {
 			"name": "REV ION MAXSpline - Offset Mount",
-			"image": "/images/gussets/rev-maxspline-offset.webp",
+			"image": "/images/products/gussets/rev-maxspline-offset.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -941,7 +941,7 @@
 			]
 		}, {
 			"name": "REV ION MAXSpline - Parallel Top Mount",
-			"image": "/images/gussets/rev-maxspline-parallel-top.webp",
+			"image": "/images/products/gussets/rev-maxspline-parallel-top.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -953,7 +953,7 @@
 			]
 		}, {
 			"name": "REV ION MAXSpline - Stacked",
-			"image": "/images/gussets/rev-maxspline-stacked.webp",
+			"image": "/images/products/gussets/rev-maxspline-stacked.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -965,7 +965,7 @@
 			]
 		}, {
 			"name": "REV ION Ratio Plates (2:1, 3:1, 4:1)",
-			"image": "/images/gussets/rev-ion-ratio-plates.webp",
+			"image": "/images/products/gussets/rev-ion-ratio-plates.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -977,7 +977,7 @@
 			]
 		}, {
 			"name": "REV ION T",
-			"image": "/images/gussets/rev-ion-t.webp",
+			"image": "/images/products/gussets/rev-ion-t.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -989,7 +989,7 @@
 			]
 		}, {
 			"name": "REV ION T Sharp Interior",
-			"image": "/images/gussets/rev-ion-t-sharp.webp",
+			"image": "/images/products/gussets/rev-ion-t-sharp.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1001,7 +1001,7 @@
 			]
 		}, {
 			"name": "REV Joiner Plate",
-			"image": "/images/gussets/rev-joiner.png",
+			"image": "/images/products/gussets/rev-joiner.png",
 			"filters": {
 				"Type": ["Joiner"],
 				"Hole Size": ["#10"],
@@ -1013,7 +1013,7 @@
 			]
 		}, {
 			"name": "REV T-Gusset Plate",
-			"image": "/images/gussets/rev-t.jpg",
+			"image": "/images/products/gussets/rev-t.jpg",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1025,7 +1025,7 @@
 			]
 		}, {
 			"name": "REV Universal Motor",
-			"image": "/images/gussets/rev-universal-motor-flat.png",
+			"image": "/images/products/gussets/rev-universal-motor-flat.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["#10"],
@@ -1037,7 +1037,7 @@
 			]
 		}, {
 			"name": "Swyft T, 1\"",
-			"image": "/images/gussets/swyft-t-1.webp",
+			"image": "/images/products/gussets/swyft-t-1.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1049,7 +1049,7 @@
 			]
 		}, {
 			"name": "Swyft T, 2\"",
-			"image": "/images/gussets/swyft-t-2.webp",
+			"image": "/images/products/gussets/swyft-t-2.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1061,7 +1061,7 @@
 			]
 		}, {
 			"name": "TTB 135 5mm Holes",
-			"image": "/images/gussets/ttb-135-5mm.webp",
+			"image": "/images/products/gussets/ttb-135-5mm.webp",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["#10"],
@@ -1073,7 +1073,7 @@
 			]
 		}, {
 			"name": "TTB 45 5mm Holes",
-			"image": "/images/gussets/ttb-45-5mm.webp",
+			"image": "/images/products/gussets/ttb-45-5mm.webp",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["#10"],
@@ -1085,7 +1085,7 @@
 			]
 		}, {
 			"name": "TTB 90 #8 Holes",
-			"image": "/images/gussets/tb-90.jpg",
+			"image": "/images/products/gussets/tb-90.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#8"],
@@ -1097,7 +1097,7 @@
 			]
 		}, {
 			"name": "TTB Bearing Megaplate 5mm Holes",
-			"image": "/images/gussets/ttb-bearing-megaplate-5mm.webp",
+			"image": "/images/products/gussets/ttb-bearing-megaplate-5mm.webp",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["#10"],
@@ -1109,7 +1109,7 @@
 			]
 		}, {
 			"name": "TTB Joiner 5mm Holes",
-			"image": "/images/gussets/ttb-joiner-5mm.webp",
+			"image": "/images/products/gussets/ttb-joiner-5mm.webp",
 			"filters": {
 				"Type": ["Joiner"],
 				"Hole Size": ["#10"],
@@ -1121,7 +1121,7 @@
 			]
 		}, {
 			"name": "TTB L 5mm Holes",
-			"image": "/images/gussets/ttb-90-5mm.webp",
+			"image": "/images/products/gussets/ttb-90-5mm.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -1133,7 +1133,7 @@
 			]
 		}, {
 			"name": "TTB L Sharp Interior 5mm Holes",
-			"image": "/images/gussets/ttb-90-sharp-5mm.webp",
+			"image": "/images/products/gussets/ttb-90-sharp-5mm.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -1145,7 +1145,7 @@
 			]
 		}, {
 			"name": "TTB Motor Megaplate 5mm Holes",
-			"image": "/images/gussets/ttb-motor-mega-plate-5mm.webp",
+			"image": "/images/products/gussets/ttb-motor-mega-plate-5mm.webp",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["#10"],
@@ -1157,7 +1157,7 @@
 			]
 		}, {
 			"name": "TTB T #8 Holes",
-			"image": "/images/gussets/tb-t.jpg",
+			"image": "/images/products/gussets/tb-t.jpg",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#8"],
@@ -1169,7 +1169,7 @@
 			]
 		}, {
 			"name": "TTB T 5mm Holes",
-			"image": "/images/gussets/ttb-t-5mm.webp",
+			"image": "/images/products/gussets/ttb-t-5mm.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1181,7 +1181,7 @@
 			]
 		}, {
 			"name": "TTB T Sharp Interior 5mm Holes",
-			"image": "/images/gussets/ttb-t-sharp-5mm.webp",
+			"image": "/images/products/gussets/ttb-t-sharp-5mm.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1193,7 +1193,7 @@
 			]
 		}, {
 			"name": "WCP 30",
-			"image": "/images/gussets/wcp-30.webp",
+			"image": "/images/products/gussets/wcp-30.webp",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["#10"],
@@ -1205,7 +1205,7 @@
 			]
 		}, {
 			"name": "WCP 45",
-			"image": "/images/gussets/wcp-45.webp",
+			"image": "/images/products/gussets/wcp-45.webp",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["#10"],
@@ -1217,7 +1217,7 @@
 			]
 		}, {
 			"name": "WCP 60",
-			"image": "/images/gussets/wcp-60.webp",
+			"image": "/images/products/gussets/wcp-60.webp",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["#10"],
@@ -1229,7 +1229,7 @@
 			]
 		}, {
 			"name": "WCP 90",
-			"image": "/images/gussets/wcp-90.webp",
+			"image": "/images/products/gussets/wcp-90.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -1241,7 +1241,7 @@
 			]
 		}, {
 			"name": "WCP 90 Elevator",
-			"image": "/images/gussets/wcp-90-eleveator.webp",
+			"image": "/images/products/gussets/wcp-90-eleveator.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -1253,7 +1253,7 @@
 			]
 		}, {
 			"name": "WCP 90 Sharp",
-			"image": "/images/gussets/wcp-90-sharp.webp",
+			"image": "/images/products/gussets/wcp-90-sharp.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -1265,7 +1265,7 @@
 			]
 		}, {
 			"name": "WCP 120",
-			"image": "/images/gussets/wcp-120.webp",
+			"image": "/images/products/gussets/wcp-120.webp",
 			"filters": {
 				"Type": ["120 Degree"],
 				"Hole Size": ["#10"],
@@ -1277,7 +1277,7 @@
 			]
 		}, {
 			"name": "WCP 135",
-			"image": "/images/gussets/wcp-135.webp",
+			"image": "/images/products/gussets/wcp-135.webp",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["#10"],
@@ -1289,7 +1289,7 @@
 			]
 		}, {
 			"name": "WCP 150",
-			"image": "/images/gussets/wcp-150.webp",
+			"image": "/images/products/gussets/wcp-150.webp",
 			"filters": {
 				"Type": ["150 Degree"],
 				"Hole Size": ["#10"],
@@ -1301,7 +1301,7 @@
 			]
 		}, {
 			"name": "WCP Bearing Plate",
-			"image": "/images/gussets/wcp-bearing.webp",
+			"image": "/images/products/gussets/wcp-bearing.webp",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["#10"],
@@ -1313,7 +1313,7 @@
 			]
 		}, {
 			"name": "WCP External 3-4-5 Shallow",
-			"image": "/images/gussets/wcp-143.webp",
+			"image": "/images/products/gussets/wcp-143.webp",
 			"filters": {
 				"Type": ["143 Degree"],
 				"Hole Size": ["#10"],
@@ -1325,7 +1325,7 @@
 			]
 		}, {
 			"name": "WCP External 3-4-5 Steep",
-			"image": "/images/gussets/wcp-127.webp",
+			"image": "/images/products/gussets/wcp-127.webp",
 			"filters": {
 				"Type": ["127 Degree"],
 				"Hole Size": ["#10"],
@@ -1337,7 +1337,7 @@
 			]
 		}, {
 			"name": "WCP Internal 3-4-5 Shallow",
-			"image": "/images/gussets/wcp-37.webp",
+			"image": "/images/products/gussets/wcp-37.webp",
 			"filters": {
 				"Type": ["37 Degree"],
 				"Hole Size": ["#10"],
@@ -1349,7 +1349,7 @@
 			]
 		}, {
 			"name": "WCP Internal 3-4-5 Steep",
-			"image": "/images/gussets/wcp-53.webp",
+			"image": "/images/products/gussets/wcp-53.webp",
 			"filters": {
 				"Type": ["53 Degree"],
 				"Hole Size": ["#10"],
@@ -1361,7 +1361,7 @@
 			]
 		}, {
 			"name": "WCP Plus",
-			"image": "/images/gussets/wcp-plus.webp",
+			"image": "/images/products/gussets/wcp-plus.webp",
 			"filters": {
 				"Type": ["Plus"],
 				"Hole Size": ["#10"],
@@ -1373,7 +1373,7 @@
 			]
 		}, {
 			"name": "WCP Straight",
-			"image": "/images/gussets/wcp-straight.webp",
+			"image": "/images/products/gussets/wcp-straight.webp",
 			"filters": {
 				"Type": ["180 Degree"],
 				"Hole Size": ["#10"],
@@ -1385,7 +1385,7 @@
 			]
 		}, {
 			"name": "WCP T",
-			"image": "/images/gussets/wcp-t.webp",
+			"image": "/images/products/gussets/wcp-t.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1397,7 +1397,7 @@
 			]
 		}, {
 			"name": "WCP T Sharp",
-			"image": "/images/gussets/wcp-t-sharp.webp",
+			"image": "/images/products/gussets/wcp-t-sharp.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -1409,7 +1409,7 @@
 			]
 		}, {
 			"name": "WCP Universal Motor Plate",
-			"image": "/images/gussets/wcp-motor.webp",
+			"image": "/images/products/gussets/wcp-motor.webp",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["#10"],

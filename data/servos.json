@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "2 Wire Motor 393",
-			"image": "/images/servos/vex-393.jpg",
+			"image": "/images/products/servos/vex-393.jpg",
 			"filters": {
 				"Stall Torque (oz in)": ["236.16"],
 				"Max Rotation": ["Continuous"],
@@ -19,7 +19,7 @@
 			]
 		}, {
 			"name": "3 Wire Servo",
-			"image": "/images/servos/vex-3-wire.jpg",
+			"image": "/images/products/servos/vex-3-wire.jpg",
 			"filters": {
 				"Stall Torque (oz in)": ["104.00"],
 				"Max Rotation": ["100 Degrees"],
@@ -33,7 +33,7 @@
 			]
 		}, {
 			"name": "AndyMark Programmable",
-			"image": "/images/servos/am-programable.webp",
+			"image": "/images/products/servos/am-programable.webp",
 			"filters": {
 				"Stall Torque (oz in)": ["96", "300"],
 				"Max Rotation": ["280 Degrees", "300 Degrees", "1800 Degrees"],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "Hi-Tec Servo, model HS-75BB",
-			"image": "/images/servos/hs-75bb.jpg",
+			"image": "/images/products/servos/hs-75bb.jpg",
 			"filters": {
 				"Stall Torque (oz in)": ["114"],
 				"Max Rotation": ["90 Degrees"],
@@ -61,7 +61,7 @@
 			]
 		}, {
 			"name": "Hi-Tec Servo, model HS-805BB",
-			"image": "/images/servos/hs-805bb.jpg",
+			"image": "/images/products/servos/hs-805bb.jpg",
 			"filters": {
 				"Stall Torque (oz in)": ["343"],
 				"Max Rotation": ["90 Degrees"],
@@ -75,7 +75,7 @@
 			]
 		}, {
 			"name": "Hi-Tec Servo, model HSR-1425CR",
-			"image": "/images/servos/hsr-1425cr.jpg",
+			"image": "/images/products/servos/hsr-1425cr.jpg",
 			"filters": {
 				"Stall Torque (oz in)": ["46.8"],
 				"Max Rotation": ["Continuous"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "Micro Servo SG90",
-			"image": "/images/servos/micro-sg90.webp",
+			"image": "/images/products/servos/micro-sg90.webp",
 			"filters": {
 				"Stall Torque (oz in)": ["17.5"],
 				"Max Rotation": ["180 Degrees"],
@@ -103,7 +103,7 @@
 			]
 		}, {
 			"name": "REV Smart Robot Servo",
-			"image": "/images/servos/rev.jpg",
+			"image": "/images/products/servos/rev.jpg",
 			"filters": {
 				"Stall Torque (oz in)": ["187.8"],
 				"Max Rotation": ["Continuous", "300 Degrees"],
@@ -117,7 +117,7 @@
 			]
 		}, {
 			"name": "SpringRC Continuous Rotation",
-			"image": "/images/servos/springrc.webp",
+			"image": "/images/products/servos/springrc.webp",
 			"filters": {
 				"Stall Torque (oz in)": ["71"],
 				"Max Rotation": ["Continuous"],
@@ -131,7 +131,7 @@
 			]
 		}, {
 			"name": "Swyft Servo",
-			"image": "/images/servos/swyft.webp",
+			"image": "/images/products/servos/swyft.webp",
 			"filters": {
 				"Stall Torque (oz in)": ["465", "379", "263", "194", "141"],
 				"Max Rotation": ["Continuous", "320 Degrees"],

@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "1 turn 10kOhm Potentiometer",
-			"image": "/images/sensors/1turnpot.jpg",
+			"image": "/images/products/sensors/1turnpot.jpg",
 			"filters": {
 				"Type": ["Potentiometer"],
 				"Measures": ["Rotations"],
@@ -17,7 +17,7 @@
 			]
 		}, {
 			"name": "10 turn 10kOhm Potentiometer",
-			"image": "/images/sensors/10turnpot10k.jpg",
+			"image": "/images/products/sensors/10turnpot10k.jpg",
 			"filters": {
 				"Type": ["Potentiometer"],
 				"Measures": ["Rotations"],
@@ -29,7 +29,7 @@
 			]
 		}, {
 			"name": "10 turn 5kOhm Potentiometer",
-			"image": "/images/sensors/10turnpot.jpg",
+			"image": "/images/products/sensors/10turnpot.jpg",
 			"filters": {
 				"Type": ["Potentiometer"],
 				"Measures": ["Rotations"],
@@ -41,7 +41,7 @@
 			]
 		}, {
 			"name": "2m Distance Sensor",
-			"image": "/images/sensors/rev-2m-distance.webp",
+			"image": "/images/products/sensors/rev-2m-distance.webp",
 			"filters": {
 				"Type": ["IR Rangefinder"],
 				"Measures": ["Distance"],
@@ -53,7 +53,7 @@
 			]
 		}, {
 			"name": "4M Time of Flight Sensor",
-			"image": "/images/sensors/pwf-timeofflight.jpg",
+			"image": "/images/products/sensors/pwf-timeofflight.jpg",
 			"filters": {
 				"Type": ["IR Rangefinder"],
 				"Measures": ["Brightness", "Distance"],
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "9DOF Gyro, Accelerometor, Magnetometer",
-			"image": "/images/sensors/pwf-9dof.jpg",
+			"image": "/images/products/sensors/pwf-9dof.jpg",
 			"filters": {
 				"Type": ["Accelerometer", "Gyro", "Magnetometer"],
 				"Measures": ["Acceleration", "Orientation"],
@@ -77,7 +77,7 @@
 			]
 		}, {
 			"name": "ADXRS450",
-			"image": "/images/sensors/adxrs450z.jpg",
+			"image": "/images/products/sensors/adxrs450z.jpg",
 			"filters": {
 				"Type": ["Gyro"],
 				"Measures": ["Orientation"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "Analog Accelerometer",
-			"image": "/images/sensors/analog-accelerometer.jpg",
+			"image": "/images/products/sensors/analog-accelerometer.jpg",
 			"filters": {
 				"Type": ["Accelerometer"],
 				"Measures": ["Acceleration", "Orientation"],
@@ -101,7 +101,7 @@
 			]
 		}, {
 			"name": "Analog Pressure Sensor",
-			"image": "/images/sensors/analog-pressure-sensor.jpg",
+			"image": "/images/products/sensors/analog-pressure-sensor.jpg",
 			"filters": {
 				"Type": ["Pressure"],
 				"Measures": ["Pressure"],
@@ -113,7 +113,7 @@
 			]
 		}, {
 			"name": "ArduCam",
-			"image": "/images/sensors/arducam.webp",
+			"image": "/images/products/sensors/arducam.webp",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -125,7 +125,7 @@
 			]
 		}, {
 			"name": "Banner QS18VN6LV",
-			"image": "/images/sensors/banner-qs18vn6lv.jpg",
+			"image": "/images/products/sensors/banner-qs18vn6lv.jpg",
 			"filters": {
 				"Type": ["Beam Break"],
 				"Measures": ["Presence"],
@@ -137,7 +137,7 @@
 			]
 		}, {
 			"name": "Bumper Switch",
-			"image": "/images/sensors/bumper-switch.jpg",
+			"image": "/images/products/sensors/bumper-switch.jpg",
 			"filters": {
 				"Type": ["Limit Switch"],
 				"Measures": ["Touch"],
@@ -149,7 +149,7 @@
 			]
 		}, {
 			"name": "CANcoder",
-			"image": "/images/sensors/cancoder.webp",
+			"image": "/images/products/sensors/cancoder.webp",
 			"filters": {
 				"Type": ["Encoder"],
 				"Measures": ["Rotations"],
@@ -162,7 +162,7 @@
 			]
 		}, {
 			"name": "CANrange",
-			"image": "/images/sensors/canrange.webp",
+			"image": "/images/products/sensors/canrange.webp",
 			"filters": {
 				"Type": ["IR Rangefinder"],
 				"Measures": ["Brightness", "Distance"],
@@ -175,7 +175,7 @@
 			]
 		}, {
 			"name": "CIMcoder",
-			"image": "/images/sensors/cimcoder.jpg",
+			"image": "/images/products/sensors/cimcoder.jpg",
 			"filters": {
 				"Type": ["Encoder"],
 				"Measures": ["Rotations"],
@@ -187,7 +187,7 @@
 			]
 		}, {
 			"name": "Color and Proximity Sensor",
-			"image": "/images/sensors/pwf-color-proximity.jpeg",
+			"image": "/images/products/sensors/pwf-color-proximity.jpeg",
 			"filters": {
 				"Type": ["Color", "IR Rangefinder"],
 				"Measures": ["Brightness", "Color", "Distance"],
@@ -199,7 +199,7 @@
 			]
 		}, {
 			"name": "CUI Inc. AMT103-V",
-			"image": "/images/sensors/cui.jpg",
+			"image": "/images/products/sensors/cui.jpg",
 			"filters": {
 				"Type": ["Encoder", "Quadrature Encoder"],
 				"Measures": ["Rotations"],
@@ -211,7 +211,7 @@
 			]
 		}, {
 			"name": "E4T OEM Miniature Optical Encoder",
-			"image": "/images/sensors/e4t.jpg",
+			"image": "/images/products/sensors/e4t.jpg",
 			"filters": {
 				"Type": ["Encoder", "Quadrature Encoder"],
 				"Measures": ["Rotations"],
@@ -223,7 +223,7 @@
 			]
 		}, {
 			"name": "ELP Fisheye Lens Camera",
-			"image": "/images/sensors/elp-fisheye-lens-camera.webp",
+			"image": "/images/products/sensors/elp-fisheye-lens-camera.webp",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -235,7 +235,7 @@
 			]
 		}, {
 			"name": "Grapple Robotics LaserCAN",
-			"image": "/images/sensors/lasercan.webp",
+			"image": "/images/products/sensors/lasercan.webp",
 			"filters": {
 				"Type": ["IR rangfinder"],
 				"Measures": ["Distance"],
@@ -247,7 +247,7 @@
 			]
 		}, {
 			"name": "Hall Effect Sensor",
-			"image": "/images/sensors/hall-effect-sensor.jpg",
+			"image": "/images/products/sensors/hall-effect-sensor.jpg",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Rotations"],
@@ -259,7 +259,7 @@
 			]
 		}, {
 			"name": "Heavy Duty MRSÂ® Band Switch",
-			"image": "/images/sensors/mrs-reed.jpg",
+			"image": "/images/products/sensors/mrs-reed.jpg",
 			"filters": {
 				"Type": ["Reed Switch"],
 				"Measures": ["Piston Position"],
@@ -271,7 +271,7 @@
 			]
 		}, {
 			"name": "HRLV-MaxSonar-EZ1",
-			"image": "/images/sensors/hrlv-maxsonar-ez1.jpg",
+			"image": "/images/products/sensors/hrlv-maxsonar-ez1.jpg",
 			"filters": {
 				"Type": ["Ultrasonic"],
 				"Measures": ["Distance"],
@@ -283,7 +283,7 @@
 			]
 		}, {
 			"name": "IR Beam Break",
-			"image": "/images/sensors/irbeambreak.jpg",
+			"image": "/images/products/sensors/irbeambreak.jpg",
 			"filters": {
 				"Type": ["Beam Break"],
 				"Measures": ["Presence"],
@@ -295,7 +295,7 @@
 			]
 		}, {
 			"name": "JeVois",
-			"image": "/images/sensors/jevois.jpg",
+			"image": "/images/products/sensors/jevois.jpg",
 			"filters": {
 				"Type": ["Smart Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -307,7 +307,7 @@
 			]
 		}, {
 			"name": "LidarLite",
-			"image": "/images/sensors/lidarlite.png",
+			"image": "/images/products/sensors/lidarlite.png",
 			"filters": {
 				"Type": ["IR rangfinder"],
 				"Measures": ["Distance"],
@@ -321,7 +321,7 @@
 			]
 		}, {
 			"name": "Light Sensor",
-			"image": "/images/sensors/light-sensor.jpg",
+			"image": "/images/products/sensors/light-sensor.jpg",
 			"filters": {
 				"Type": ["PhotoResistor"],
 				"Measures": ["Brightness"],
@@ -333,7 +333,7 @@
 			]
 		}, {
 			"name": "Limelight",
-			"image": "/images/sensors/limelight.webp",
+			"image": "/images/products/sensors/limelight.webp",
 			"filters": {
 				"Type": ["Smart Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -347,7 +347,7 @@
 			]
 		}, {
 			"name": "Limit Switch",
-			"image": "/images/sensors/limit-switch.jpg",
+			"image": "/images/products/sensors/limit-switch.jpg",
 			"filters": {
 				"Type": ["Limit Switch"],
 				"Measures": ["Touch"],
@@ -359,7 +359,7 @@
 			]
 		}, {
 			"name": "Limit switch, side rotary adjustable lever",
-			"image": "/images/sensors/rotarypot.jpg",
+			"image": "/images/products/sensors/rotarypot.jpg",
 			"filters": {
 				"Type": ["Limit Switch"],
 				"Measures": ["Touch"],
@@ -371,7 +371,7 @@
 			]
 		}, {
 			"name": "Line Tracker",
-			"image": "/images/sensors/line-tracker.jpg",
+			"image": "/images/products/sensors/line-tracker.jpg",
 			"filters": {
 				"Type": ["PhotoResistor"],
 				"Measures": ["Brightness"],
@@ -383,7 +383,7 @@
 			]
 		}, {
 			"name": "Logitech C270",
-			"image": "/images/sensors/logitech-c270.jpg",
+			"image": "/images/products/sensors/logitech-c270.jpg",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -395,7 +395,7 @@
 			]
 		}, {
 			"name": "Logitech C920",
-			"image": "/images/sensors/logitech-c920.jpg",
+			"image": "/images/products/sensors/logitech-c920.jpg",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -407,7 +407,7 @@
 			]
 		}, {
 			"name": "MA3 Absolute Encoder",
-			"image": "/images/sensors/ma3-absolute-encoder.jpg",
+			"image": "/images/products/sensors/ma3-absolute-encoder.jpg",
 			"filters": {
 				"Type": ["Absolute Encoder", "Encoder"],
 				"Measures": ["Rotations"],
@@ -419,7 +419,7 @@
 			]
 		}, {
 			"name": "Magnetic Limit Switch",
-			"image": "/images/sensors/magnetic-limit-switch.png",
+			"image": "/images/products/sensors/magnetic-limit-switch.png",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Presence"],
@@ -431,7 +431,7 @@
 			]
 		}, {
 			"name": "Microsoft Lifecam HD-3000",
-			"image": "/images/sensors/microsoft-lifecam-hd-3000.jpg",
+			"image": "/images/products/sensors/microsoft-lifecam-hd-3000.jpg",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -444,7 +444,7 @@
 			]
 		}, {
 			"name": "navX 2 MXP Robotics Navigation Sensor",
-			"image": "/images/sensors/navx2.webp",
+			"image": "/images/products/sensors/navx2.webp",
 			"filters": {
 				"Type": ["Accelerometer", "Gyro", "IMU", "Magnetometer"],
 				"Measures": ["Orientation"],
@@ -457,7 +457,7 @@
 			]
 		}, {
 			"name": "Pigeon 2",
-			"image": "/images/sensors/navx2.webp",
+			"image": "/images/products/sensors/navx2.webp",
 			"filters": {
 				"Type": ["Accelerometer", "Gyro", "IMU", "Magnetometer"],
 				"Measures": ["Orientation"],
@@ -470,7 +470,7 @@
 			]
 		}, {
 			"name": "Pixy, CMUcam5 Smart Vision Sensor Camera",
-			"image": "/images/sensors/pixy.jpg",
+			"image": "/images/products/sensors/pixy.jpg",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -482,7 +482,7 @@
 			]
 		}, {
 			"name": "PlayStation Eye",
-			"image": "/images/sensors/playstation-eye.jpg",
+			"image": "/images/products/sensors/playstation-eye.jpg",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -494,7 +494,7 @@
 			]
 		}, {
 			"name": "RPLIDAR",
-			"image": "/images/sensors/rplidar.jpg",
+			"image": "/images/products/sensors/rplidar.jpg",
 			"filters": {
 				"Type": ["LIDAR"],
 				"Measures": ["Distance"],
@@ -506,7 +506,7 @@
 			]
 		}, {
 			"name": "RS7 Encoder",
-			"image": "/images/sensors/rs7.jpg",
+			"image": "/images/products/sensors/rs7.jpg",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Rotations"],
@@ -518,7 +518,7 @@
 			]
 		}, {
 			"name": "Sensor6PAK Hall Effect Analog (DRV5053)",
-			"image": "/images/sensors/sensor6pak.jpg",
+			"image": "/images/products/sensors/sensor6pak.jpg",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Rotations"],
@@ -530,7 +530,7 @@
 			]
 		}, {
 			"name": "Sensor6PAK Hall Effect Latch (DRV5013)",
-			"image": "/images/sensors/sensor6pak.jpg",
+			"image": "/images/products/sensors/sensor6pak.jpg",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Rotations"],
@@ -542,7 +542,7 @@
 			]
 		}, {
 			"name": "Sensor6PAK Hall Effect Omni-Polar Switch (DRV5033)",
-			"image": "/images/sensors/sensor6pak.jpg",
+			"image": "/images/products/sensors/sensor6pak.jpg",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Rotations"],
@@ -554,7 +554,7 @@
 			]
 		}, {
 			"name": "Sensor6PAK Hall Effect Uni-Polar Switch (DRV5023)",
-			"image": "/images/sensors/sensor6pak.jpg",
+			"image": "/images/products/sensors/sensor6pak.jpg",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Rotations"],
@@ -566,7 +566,7 @@
 			]
 		}, {
 			"name": "Sensor6PAK Optical Analog (OPT101)",
-			"image": "/images/sensors/sensor6pak.jpg",
+			"image": "/images/products/sensors/sensor6pak.jpg",
 			"filters": {
 				"Type": ["PhotoResistor"],
 				"Measures": ["Brightness"],
@@ -578,7 +578,7 @@
 			]
 		}, {
 			"name": "Sensor6PAK Optical Threshold (OPT101)",
-			"image": "/images/sensors/sensor6pak.jpg",
+			"image": "/images/products/sensors/sensor6pak.jpg",
 			"filters": {
 				"Type": ["PhotoResistor"],
 				"Measures": ["Brightness"],
@@ -590,7 +590,7 @@
 			]
 		}, {
 			"name": "Sharp GP2Y0A02YK0F",
-			"image": "/images/sensors/sharp-gp2y0a02yk0f.jpg",
+			"image": "/images/products/sensors/sharp-gp2y0a02yk0f.jpg",
 			"filters": {
 				"Type": ["IR Rangefinder"],
 				"Measures": ["Distance"],
@@ -602,7 +602,7 @@
 			]
 		}, {
 			"name": "Sharp GP2Y0A21YK",
-			"image": "/images/sensors/sharp-gp2y0a21yk.jpg",
+			"image": "/images/products/sensors/sharp-gp2y0a21yk.jpg",
 			"filters": {
 				"Type": ["IR Rangefinder"],
 				"Measures": ["Distance"],
@@ -616,7 +616,7 @@
 			]
 		}, {
 			"name": "Sharp GP2Y0A41SK0F",
-			"image": "/images/sensors/sharp-gp2y0a41sk0f.jpg",
+			"image": "/images/products/sensors/sharp-gp2y0a41sk0f.jpg",
 			"filters": {
 				"Type": ["IR Rangefinder"],
 				"Measures": ["Distance"],
@@ -629,7 +629,7 @@
 			]
 		}, {
 			"name": "Solid State (HSC/HSK)",
-			"image": "/images/sensors/hsc-reed.jpg",
+			"image": "/images/products/sensors/hsc-reed.jpg",
 			"filters": {
 				"Type": ["Reed Switch"],
 				"Measures": ["Piston Position"],
@@ -641,7 +641,7 @@
 			]
 		}, {
 			"name": "SRF05 Rangefinder",
-			"image": "/images/sensors/srf05.jpg",
+			"image": "/images/products/sensors/srf05.jpg",
 			"filters": {
 				"Type": ["Ultrasonic"],
 				"Measures": ["Distance"],
@@ -654,7 +654,7 @@
 			]
 		}, {
 			"name": "SRX Mag Encoder",
-			"image": "/images/sensors/srx-mag-encoder.png",
+			"image": "/images/products/sensors/srx-mag-encoder.png",
 			"filters": {
 				"Type": ["Encoder"],
 				"Measures": ["Rotations"],
@@ -668,7 +668,7 @@
 			]
 		}, {
 			"name": "Thrifty Absolute Magnetic Encoder",
-			"image": "/images/sensors/ttb-mag-encoder.webp",
+			"image": "/images/products/sensors/ttb-mag-encoder.webp",
 			"filters": {
 				"Type": ["Encoder"],
 				"Measures": ["Rotations"],
@@ -680,7 +680,7 @@
 			]
 		}, {
 			"name": "ThriftyCam",
-			"image": "/images/sensors/thriftycam.webp",
+			"image": "/images/products/sensors/thriftycam.webp",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],
@@ -692,7 +692,7 @@
 			]
 		}, {
 			"name": "Thrifty Hall Effect",
-			"image": "/images/sensors/ttb-hall-effect.webp",
+			"image": "/images/products/sensors/ttb-hall-effect.webp",
 			"filters": {
 				"Type": ["Hall Effect"],
 				"Measures": ["Position"],
@@ -704,7 +704,7 @@
 			]
 		}, {
 			"name": "Through Bore Encoder",
-			"image": "/images/sensors/rev-through-bore.webp",
+			"image": "/images/products/sensors/rev-through-bore.webp",
 			"filters": {
 				"Type": ["Absolute Encoder", "Encoder"],
 				"Measures": ["Rotations"],
@@ -716,7 +716,7 @@
 			]
 		}, {
 			"name": "Touch",
-			"image": "/images/sensors/rev-touch.webp",
+			"image": "/images/products/sensors/rev-touch.webp",
 			"filters": {
 				"Type": ["Limit Switch"],
 				"Measures": ["Touch"],
@@ -728,7 +728,7 @@
 			]
 		}, {
 			"name": "WCP Through Bore Encoder",
-			"image": "/images/sensors/wcp-through-bore.webp",
+			"image": "/images/products/sensors/wcp-through-bore.webp",
 			"filters": {
 				"Type": ["Absolute Encoder", "Encoder"],
 				"Measures": ["Rotations"],
@@ -741,7 +741,7 @@
 			]
 		}, {
 			"name": "XL-MaxSonar-EZ0",
-			"image": "/images/sensors/xl-maxsonar-ez0.jpg",
+			"image": "/images/products/sensors/xl-maxsonar-ez0.jpg",
 			"filters": {
 				"Type": ["Ultrasonic"],
 				"Measures": ["Distance"],
@@ -754,7 +754,7 @@
 			]
 		}, {
 			"name": "ZED Stereo Camera",
-			"image": "/images/sensors/zed-stereo.jpg",
+			"image": "/images/products/sensors/zed-stereo.jpg",
 			"filters": {
 				"Type": ["Camera"],
 				"Measures": ["Brightness", "Distance", "Shapes"],

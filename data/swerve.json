@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "Differential Swerve",
-			"image": "/images/swerve/armabot-differential.webp",
+			"image": "/images/products/swerve/armabot-differential.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["CIM Style"],
@@ -17,7 +17,7 @@
 			]
 		}, {
 			"name": "MicroSwerve",
-			"image": "/images/subsystems/microswerve.png",
+			"image": "/images/products/subsystems/microswerve.png",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["775"],
@@ -29,7 +29,7 @@
 			]
 		}, {
 			"name": "Drive Corner",
-			"image": "/images/swerve/drive-corner.png",
+			"image": "/images/products/swerve/drive-corner.png",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["CIM Style"],
@@ -41,7 +41,7 @@
 			]
 		}, {
 			"name": "Drive Corner Narrow",
-			"image": "/images/swerve/drive-corner-narrow.png",
+			"image": "/images/products/swerve/drive-corner-narrow.png",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["CIM Style"],
@@ -53,7 +53,7 @@
 			]
 		}, {
 			"name": "Revolution Pro 2",
-			"image": "/images/subsystems/revolutionpro.jpg",
+			"image": "/images/products/subsystems/revolutionpro.jpg",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["775"],
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "Wild Swerve Kit",
-			"image": "/images/subsystems/wildswerve.jpg",
+			"image": "/images/products/subsystems/wildswerve.jpg",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["775", "CIM Style"],
@@ -77,7 +77,7 @@
 			]
 		}, {
 			"name": "REV MAXSwerve",
-			"image": "/images/subsystems/maxswerve.webp",
+			"image": "/images/products/subsystems/maxswerve.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["NEO 550"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "MK5n",
-			"image": "/images/swerve/mk5n.webp",
+			"image": "/images/products/swerve/mk5n.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["Kraken X44"],
@@ -101,7 +101,7 @@
 			]
 		}, {
 			"name": "MK5i",
-			"image": "/images/swerve/mk5i.webp",
+			"image": "/images/products/swerve/mk5i.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["CIM Style"],
@@ -113,7 +113,7 @@
 			]
 		}, {
 			"name": "Swerve X2",
-			"image": "/images/swerve/swerve-x2.webp",
+			"image": "/images/products/swerve/swerve-x2.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style", "Kraken X44"],
 				"Steer Motor": ["CIM Style", "Kraken X44"],
@@ -125,7 +125,7 @@
 			]
 		}, {
 			"name": "Swerve X2i",
-			"image": "/images/swerve/swerve-x2i.webp",
+			"image": "/images/products/swerve/swerve-x2i.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style", "Kraken X44"],
 				"Steer Motor": ["CIM Style", "Kraken X44"],
@@ -137,7 +137,7 @@
 			]
 		}, {
 			"name": "Swerve X2s",
-			"image": "/images/swerve/swerve-x2s.webp",
+			"image": "/images/products/swerve/swerve-x2s.webp",
 			"filters": {
 				"Drive Motor": ["550", "775", "CIM Style", "Kraken X44"],
 				"Steer Motor": ["550", "775", "CIM Style", "Kraken X44"],
@@ -149,7 +149,7 @@
 			]
 		}, {
 			"name": "Swerve X2t",
-			"image": "/images/swerve/swerve-x2t.webp",
+			"image": "/images/products/swerve/swerve-x2t.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style", "Kraken X44"],
 				"Steer Motor": ["CIM Style", "Kraken X44"],
@@ -161,7 +161,7 @@
 			]
 		}, {
 			"name": "Thrifty Swerve",
-			"image": "/images/swerve/thrifty-swerve.webp",
+			"image": "/images/products/swerve/thrifty-swerve.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["CIM Style"],
@@ -173,7 +173,7 @@
 			]
 		}, {
 			"name": "Thrifty Swerve Narrow",
-			"image": "/images/swerve/thrifty-swerve-narrow.webp",
+			"image": "/images/products/swerve/thrifty-swerve-narrow.webp",
 			"filters": {
 				"Drive Motor": ["CIM Style"],
 				"Steer Motor": ["Kraken X44"],

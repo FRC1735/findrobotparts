@@ -1,4 +1,3 @@
-// gulpfile.mjs
 import gulp from "gulp";
 import sharp from "sharp";
 import path from "path";
@@ -11,7 +10,6 @@ function sharpResizeWebp({ width = 400 } = {}) {
       try {
         if (file.isNull()) return cb(null, file);
 
-        // If file is a stream, buffer it (gulp.src defaults to buffers)
         if (file.isStream()) {
           const chunks = [];
           file.contents.on("data", (c) => chunks.push(c));
@@ -37,7 +35,6 @@ function sharpResizeWebp({ width = 400 } = {}) {
           return;
         }
 
-        // Buffer case
         const out = await sharp(file.contents)
           .resize({ width, withoutEnlargement: false })
           .webp()

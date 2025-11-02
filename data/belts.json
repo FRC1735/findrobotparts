@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "AndyMark Belts, 9mm Width",
-			"image": "/images/belts/am-9mm-htd.webp",
+			"image": "/images/products/belts/am-9mm-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Kevlar reinforced"],
@@ -19,7 +19,7 @@
 			]
 		}, {
 			"name": "AndyMark Belts, 15mm Width",
-			"image": "/images/belts/am-15mm-htd.webp",
+			"image": "/images/products/belts/am-15mm-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Kevlar reinforced"],
@@ -33,7 +33,7 @@
 			]
 		}, {
 			"name": "Gates Timing Belts, 15mm Width",
-			"image": "/images/belts/gates-15.jpg",
+			"image": "/images/products/belts/gates-15.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Kevlar reinforced"],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "Gates Timing Belts, 9mm Width",
-			"image": "/images/belts/gates-9.jpg",
+			"image": "/images/products/belts/gates-9.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Kevlar reinforced"],
@@ -61,7 +61,7 @@
 			]
 		}, {
 			"name": "GT2 Timing Belts",
-			"image": "/images/belts/gt2.jpg",
+			"image": "/images/products/belts/gt2.jpg",
 			"filters": {
 				"Type": ["GT2"],
 				"Material": ["Neoprene coated fiberglass tensile cord"],
@@ -75,7 +75,7 @@
 			]
 		}, {
 			"name": "REV RT25",
-			"image": "/images/belts/rt25.webp",
+			"image": "/images/products/belts/rt25.webp",
 			"filters": {
 				"Type": ["RT25"],
 				"Material": ["Neoprene coated fiberglass tensile cord"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "Rhino Track Timing Belt",
-			"image": "/images/belts/rhino.jpg",
+			"image": "/images/products/belts/rhino.jpg",
 			"filters": {
 				"Type": ["HV"],
 				"Material": ["Carbox Nitrile", "Steel Cord Reinforced"],

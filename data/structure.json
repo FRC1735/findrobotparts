@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "1\" x 1\" Aluminum Box",
-			"image": "/images/structure/am-1x1.webp",
+			"image": "/images/products/structure/am-1x1.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["1\""],
@@ -19,7 +19,7 @@
 			]
 		}, {
 			"name": "1.5\" x 1.5\" Aluminum Box",
-			"image": "/images/structure/am-15x15.webp",
+			"image": "/images/products/structure/am-15x15.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["1.5\""],
@@ -33,7 +33,7 @@
 			]
 		}, {
 			"name": "2\" x 1\" Aluminum Box",
-			"image": "/images/structure/am-2x1.jpg",
+			"image": "/images/products/structure/am-2x1.jpg",
 			"filters": {
 				"Type": ["Rectangle Tube"],
 				"Width": ["1\"", "2\""],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "2\" x 2\" Aluminum Box",
-			"image": "/images/structure/am-2x2.webp",
+			"image": "/images/products/structure/am-2x2.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["2\""],
@@ -61,7 +61,7 @@
 			]
 		}, {
 			"name": "80/20",
-			"image": "/images/structure/8020.jpg",
+			"image": "/images/products/structure/8020.jpg",
 			"filters": {
 				"Type": ["T-Slot"],
 				"Width": ["1\"", "1.5\"", "20mm", "30mm", "40mm", "45mm"],
@@ -78,7 +78,7 @@
 			]
 		}, {
 			"name": "AM Pre-Drilled Box 1\" x 1\"",
-			"image": "/images/structure/am-grid-1x1.webp",
+			"image": "/images/products/structure/am-grid-1x1.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["1\""],
@@ -92,7 +92,7 @@
 			]
 		}, {
 			"name": "AM Pre-Drilled Box 2\" x 1\"",
-			"image": "/images/structure/am-grid-2x1.webp",
+			"image": "/images/products/structure/am-grid-2x1.webp",
 			"filters": {
 				"Type": ["Rectangle Tube"],
 				"Width": ["1\"", "2\""],
@@ -106,7 +106,7 @@
 			]
 		}, {
 			"name": "Churro",
-			"image": "/images/structure/churro.jpg",
+			"image": "/images/products/structure/churro.jpg",
 			"filters": {
 				"Type": ["Churro"],
 				"Width": ["0.5\""],
@@ -120,7 +120,7 @@
 			]
 		}, {
 			"name": "Churro Lite",
-			"image": "/images/structure/churro-lite.jpg",
+			"image": "/images/products/structure/churro-lite.jpg",
 			"filters": {
 				"Type": ["Churro"],
 				"Width": ["0.375\""],
@@ -134,7 +134,7 @@
 			]
 		}, {
 			"name": "MAX Pattern Plates",
-			"image": "/images/structure/rev-max-pattern-plates.webp",
+			"image": "/images/products/structure/rev-max-pattern-plates.webp",
 			"filters": {
 				"Type": ["Plate"],
 				"Width": ["0.12\"", "2\""],
@@ -148,7 +148,7 @@
 			]
 		}, {
 			"name": "MAXTube 0.5\" x 0.5\"",
-			"image": "/images/structure/maxtube-05x05.png",
+			"image": "/images/products/structure/maxtube-05x05.png",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["0.5\""],
@@ -162,7 +162,7 @@
 			]
 		}, {
 			"name": "MAXTube 1\" x 1\"",
-			"image": "/images/structure/maxtube-1x1.png",
+			"image": "/images/products/structure/maxtube-1x1.png",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["1\""],
@@ -176,7 +176,7 @@
 			]
 		}, {
 			"name": "MAXTube 2\" x 1\"",
-			"image": "/images/structure/maxtube.webp",
+			"image": "/images/products/structure/maxtube.webp",
 			"filters": {
 				"Type": ["Rectangle Tube"],
 				"Width": ["1\"", "2\""],
@@ -190,7 +190,7 @@
 			]
 		}, {
 			"name": "MAXTube 2\" x 2\"",
-			"image": "/images/structure/maxtube-2x2.png",
+			"image": "/images/products/structure/maxtube-2x2.png",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["2\""],
@@ -204,7 +204,7 @@
 			]
 		}, {
 			"name": "MAXTube Angle",
-			"image": "/images/structure/maxtube-angle.png",
+			"image": "/images/products/structure/maxtube-angle.png",
 			"filters": {
 				"Type": ["Angle"],
 				"Width": ["0.75\""],
@@ -218,7 +218,7 @@
 			]
 		}, {
 			"name": "Peanut Extrusion",
-			"image": "/images/structure/peanut.jpg",
+			"image": "/images/products/structure/peanut.jpg",
 			"filters": {
 				"Type": ["Peanut"],
 				"Width": ["1\""],
@@ -232,7 +232,7 @@
 			]
 		}, {
 			"name": "Punch Tube",
-			"image": "/images/structure/punchtube.png",
+			"image": "/images/products/structure/punchtube.png",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["15mm"],
@@ -246,7 +246,7 @@
 			]
 		}, {
 			"name": "REV 1\" Extrusion",
-			"image": "/images/structure/rev-1.jpg",
+			"image": "/images/products/structure/rev-1.jpg",
 			"filters": {
 				"Type": ["REV Extrusion"],
 				"Width": ["1\""],
@@ -260,7 +260,7 @@
 			]
 		}, {
 			"name": "REV 15mm Extrusion",
-			"image": "/images/structure/rev-15mm.jpg",
+			"image": "/images/products/structure/rev-15mm.jpg",
 			"filters": {
 				"Type": ["REV Extrusion"],
 				"Width": ["15mm"],
@@ -274,7 +274,7 @@
 			]
 		}, {
 			"name": "Swyft 2\" x 1\"",
-			"image": "/images/structure/ttb-2x1.webp",
+			"image": "/images/products/structure/ttb-2x1.webp",
 			"filters": {
 				"Type": ["Rectangle Tube"],
 				"Width": ["1\"", "2\""],
@@ -288,7 +288,7 @@
 			]
 		}, {
 			"name": "TTB 2\" x 1\"",
-			"image": "/images/structure/ttb-2x1.webp",
+			"image": "/images/products/structure/ttb-2x1.webp",
 			"filters": {
 				"Type": ["Rectangle Tube"],
 				"Width": ["1\"", "2\""],
@@ -302,7 +302,7 @@
 			]
 		}, {
 			"name": "Walnut Extrusion",
-			"image": "/images/structure/walnut.jpg",
+			"image": "/images/products/structure/walnut.jpg",
 			"filters": {
 				"Type": ["Walnut"],
 				"Width": ["1\"", "2\""],
@@ -316,7 +316,7 @@
 			]
 		}, {
 			"name": "WCP 1\" x 1\"",
-			"image": "/images/structure/wcp-1x1.webp",
+			"image": "/images/products/structure/wcp-1x1.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["1\""],
@@ -330,7 +330,7 @@
 			]
 		}, {
 			"name": "WCP 2\" x 1\"",
-			"image": "/images/structure/wcp-2x1.webp",
+			"image": "/images/products/structure/wcp-2x1.webp",
 			"filters": {
 				"Type": ["Rectangle Tube"],
 				"Width": ["1\"", "2\""],
@@ -344,7 +344,7 @@
 			]
 		}, {
 			"name": "WCP 2\" x 2\"",
-			"image": "/images/structure/wcp-2x2.webp",
+			"image": "/images/products/structure/wcp-2x2.webp",
 			"filters": {
 				"Type": ["Square Tube"],
 				"Width": ["2\""],

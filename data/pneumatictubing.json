@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "Fre-Thane 85A",
-			"image": "/images/pneumatictubing/fre-thane-coiled-85.jpg",
+			"image": "/images/products/pneumatictubing/fre-thane-coiled-85.jpg",
 			"filters": {
 				"Style": ["Coiled"],
 				"OD": ["1/4\""],
@@ -20,7 +20,7 @@
 			]
 		}, {
 			"name": "Fre-Thane 90A",
-			"image": "/images/pneumatictubing/fre-thane-coiled-90.jpg",
+			"image": "/images/products/pneumatictubing/fre-thane-coiled-90.jpg",
 			"filters": {
 				"Style": ["Coiled"],
 				"OD": ["1/4\""],
@@ -35,7 +35,7 @@
 			]
 		}, {
 			"name": "Fre-Thane 90A Polyurethane 3/16\" ID",
-			"image": "/images/pneumatictubing/fre-thane-90.jpg",
+			"image": "/images/products/pneumatictubing/fre-thane-90.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -50,7 +50,7 @@
 			]
 		}, {
 			"name": "Fre-Thane 90A Polyurethane 4.3mm ID",
-			"image": "/images/pneumatictubing/fre-thane-90.jpg",
+			"image": "/images/products/pneumatictubing/fre-thane-90.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "Fre-Thane 90A Polyurethane 4mm ID",
-			"image": "/images/pneumatictubing/fre-thane-90.jpg",
+			"image": "/images/products/pneumatictubing/fre-thane-90.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -80,7 +80,7 @@
 			]
 		}, {
 			"name": "Fre-Thane 95A Polyurethane 0.16\" ID",
-			"image": "/images/pneumatictubing/fre-thane-95.jpg",
+			"image": "/images/products/pneumatictubing/fre-thane-95.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -95,7 +95,7 @@
 			]
 		}, {
 			"name": "Fre-Thane 95A Polyurethane 1/8\" ID",
-			"image": "/images/pneumatictubing/fre-thane-95.jpg",
+			"image": "/images/products/pneumatictubing/fre-thane-95.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -110,7 +110,7 @@
 			]
 		}, {
 			"name": "NITRA Nylon",
-			"image": "/images/pneumatictubing/nitra-nylon.jpg",
+			"image": "/images/products/pneumatictubing/nitra-nylon.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -125,7 +125,7 @@
 			]
 		}, {
 			"name": "NITRA Polyurethane",
-			"image": "/images/pneumatictubing/nitra-poly.jpg",
+			"image": "/images/products/pneumatictubing/nitra-poly.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -140,7 +140,7 @@
 			]
 		}, {
 			"name": "NITRA Polyurethane Coiled",
-			"image": "/images/pneumatictubing/nitra-coiled.jpg",
+			"image": "/images/products/pneumatictubing/nitra-coiled.jpg",
 			"filters": {
 				"Style": ["Coiled"],
 				"OD": ["1/4\""],
@@ -155,7 +155,7 @@
 			]
 		}, {
 			"name": "NITRA U-tube",
-			"image": "/images/pneumatictubing/nitra-u-tube.jpg",
+			"image": "/images/products/pneumatictubing/nitra-u-tube.jpg",
 			"filters": {
 				"Style": ["U"],
 				"OD": ["1/4\""],
@@ -170,7 +170,7 @@
 			]
 		}, {
 			"name": "Pisco Polyurethane",
-			"image": "/images/pneumatictubing/pisco.jpg",
+			"image": "/images/products/pneumatictubing/pisco.jpg",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],
@@ -185,7 +185,7 @@
 			]
 		}, {
 			"name": "SMC TIUB",
-			"image": "/images/pneumatictubing/smctiub.gif",
+			"image": "/images/products/pneumatictubing/smctiub.gif",
 			"filters": {
 				"Style": ["Straight"],
 				"OD": ["1/4\""],

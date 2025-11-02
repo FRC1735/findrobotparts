@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "180deg Input Kit",
-			"image": "/images/gearboxes/rev-190deg.webp",
+			"image": "/images/products/gearboxes/rev-190deg.webp",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)"],
 				"Number of Motors": ["1 Motor"],
@@ -19,7 +19,7 @@
 			]
 		}, {
 			"name": "2 Motor Drivetrain Gearbox Through Bore",
-			"image": "/images/gearboxes/rev-2motor-driveline-through.png",
+			"image": "/images/products/gearboxes/rev-2motor-driveline-through.png",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
@@ -33,7 +33,7 @@
 			]
 		}, {
 			"name": "2 Motor Gearbox - Through Bore",
-			"image": "/images/gearboxes/rev-2motor-through.png",
+			"image": "/images/products/gearboxes/rev-2motor-through.png",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)"],
 				"Number of Motors": ["2 Motors"],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "90 Degree Gearbox",
-			"image": "/images/gearboxes/rev-90deg.webp",
+			"image": "/images/products/gearboxes/rev-90deg.webp",
 			"filters": {
 				"Motor Input": ["MAXPlanetary"],
 				"Number of Motors": ["1 Motor"],
@@ -61,7 +61,7 @@
 			]
 		}, {
 			"name": "Armabelt Drive",
-			"image": "/images/gearboxes/armabeltdrive.png",
+			"image": "/images/products/gearboxes/armabeltdrive.png",
 			"filters": {
 				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
 				"Number of Motors": ["1 Motor"],
@@ -75,7 +75,7 @@
 			]
 		}, {
 			"name": "CIMple Box V2",
-			"image": "/images/gearboxes/cimple-box.jpg",
+			"image": "/images/products/gearboxes/cimple-box.jpg",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
@@ -89,7 +89,7 @@
 			]
 		}, {
 			"name": "DeCIMate",
-			"image": "/images/gearboxes/decimate.jpg",
+			"image": "/images/products/gearboxes/decimate.jpg",
 			"filters": {
 				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
 				"Number of Motors": ["2 Motors"],
@@ -103,7 +103,7 @@
 			]
 		}, {
 			"name": "EVO",
-			"image": "/images/gearboxes/evo.png",
+			"image": "/images/products/gearboxes/evo.png",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors", "3 Motors"],
@@ -117,7 +117,7 @@
 			]
 		}, {
 			"name": "EVO Slim for RedLine",
-			"image": "/images/gearboxes/evoslim.jpg",
+			"image": "/images/products/gearboxes/evoslim.jpg",
 			"filters": {
 				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
 				"Number of Motors": ["2 Motors", "3 Motors", "4 Motors"],
@@ -131,7 +131,7 @@
 			]
 		}, {
 			"name": "Flyer Overdrive Gearbox",
-			"image": "/images/gearboxes/flyer.webp",
+			"image": "/images/products/gearboxes/flyer.webp",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)"],
 				"Number of Motors": ["1 Motor"],
@@ -145,7 +145,7 @@
 			]
 		}, {
 			"name": "Hex Pass Through Bevel Box",
-			"image": "/images/gearboxes/375-hex-pass-through-bevel.webp",
+			"image": "/images/products/gearboxes/375-hex-pass-through-bevel.webp",
 			"filters": {
 				"Motor Input": ["NeveRest", "3/8\" Hex"],
 				"Number of Motors": ["1 Motor"],
@@ -159,7 +159,7 @@
 			]
 		}, {
 			"name": "HexPG Series",
-			"image": "/images/gearboxes/pg-hex.jpg",
+			"image": "/images/products/gearboxes/pg-hex.jpg",
 			"filters": {
 				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)"],
 				"Number of Motors": ["1 Motor"],
@@ -173,7 +173,7 @@
 			]
 		}, {
 			"name": "MAXPlanetary",
-			"image": "/images/gearboxes/maxplanetary.png",
+			"image": "/images/products/gearboxes/maxplanetary.png",
 			"filters": {
 				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex)", "Kraken X44", "Kraken X60", "Minion", "NEO 550"],
 				"Number of Motors": ["1 Motor"],
@@ -187,7 +187,7 @@
 			]
 		}, {
 			"name": "NeveRest Orbital Gearmotors",
-			"image": "/images/gearboxes/neverest-orbital-20.jpg",
+			"image": "/images/products/gearboxes/neverest-orbital-20.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["1 Motor"],
@@ -201,7 +201,7 @@
 			]
 		}, {
 			"name": "PicoBox Duo",
-			"image": "/images/gearboxes/picobox-duo.jpg",
+			"image": "/images/products/gearboxes/picobox-duo.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["2 Motors"],
@@ -215,7 +215,7 @@
 			]
 		}, {
 			"name": "PicoBox GEO",
-			"image": "/images/gearboxes/picobox-geo.jpg",
+			"image": "/images/products/gearboxes/picobox-geo.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["2 Motors"],
@@ -229,7 +229,7 @@
 			]
 		}, {
 			"name": "PicoBox LEO",
-			"image": "/images/gearboxes/picobox-leo.jpg",
+			"image": "/images/products/gearboxes/picobox-leo.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["1 Motor"],
@@ -243,7 +243,7 @@
 			]
 		}, {
 			"name": "PicoBox MEO",
-			"image": "/images/gearboxes/picobox-meo.jpg",
+			"image": "/images/products/gearboxes/picobox-meo.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["1 Motor"],
@@ -257,7 +257,7 @@
 			]
 		}, {
 			"name": "PicoBox Turbo",
-			"image": "/images/gearboxes/picobox-turbo.jpg",
+			"image": "/images/products/gearboxes/picobox-turbo.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["1 Motor"],
@@ -271,7 +271,7 @@
 			]
 		}, {
 			"name": "PicoBox Twin Turbo",
-			"image": "/images/gearboxes/picobox-turbo-twin.jpg",
+			"image": "/images/products/gearboxes/picobox-turbo-twin.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["2 Motors"],
@@ -285,7 +285,7 @@
 			]
 		}, {
 			"name": "PicoBox Uno",
-			"image": "/images/gearboxes/picobox-uno.jpg",
+			"image": "/images/products/gearboxes/picobox-uno.jpg",
 			"filters": {
 				"Motor Input": ["NeveRest"],
 				"Number of Motors": ["1 Motor"],
@@ -299,7 +299,7 @@
 			]
 		}, {
 			"name": "Right Angle Drive",
-			"image": "/images/gearboxes/ab-rightangle.png",
+			"image": "/images/products/gearboxes/ab-rightangle.png",
 			"filters": {
 				"Motor Input": ["VersaPlanetary"],
 				"Number of Motors": ["1 Motor"],
@@ -313,7 +313,7 @@
 			]
 		}, {
 			"name": "Sport",
-			"image": "/images/gearboxes/57sport.jpg",
+			"image": "/images/products/gearboxes/57sport.jpg",
 			"filters": {
 				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex)", "Kraken X44", "Kraken X60", "Minion", "NeveRest", "NEO 550"],
 				"Number of Motors": ["1 Motor", "2 Motors"],
@@ -328,7 +328,7 @@
 			]
 		}, {
 			"name": "Thrifty Cycloidal Gearbox Kit",
-			"image": "/images/gearboxes/thrifty-cycloidal.webp",
+			"image": "/images/products/gearboxes/thrifty-cycloidal.webp",
 			"filters": {
 				"Motor Input": ["Kraken X60", "Kraken X44"],
 				"Number of Motors": ["1 Motor"],
@@ -342,7 +342,7 @@
 			]
 		}, {
 			"name": "Toughbox Classic",
-			"image": "/images/gearboxes/toughbox.jpg",
+			"image": "/images/products/gearboxes/toughbox.jpg",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
@@ -356,7 +356,7 @@
 			]
 		}, {
 			"name": "Toughbox Micro Classic",
-			"image": "/images/gearboxes/toughbox-micro.jpg",
+			"image": "/images/products/gearboxes/toughbox-micro.jpg",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["1 Motor"],
@@ -370,7 +370,7 @@
 			]
 		}, {
 			"name": "Toughbox Mini Classic",
-			"image": "/images/gearboxes/toughbox-mini.jpg",
+			"image": "/images/products/gearboxes/toughbox-mini.jpg",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],
@@ -384,7 +384,7 @@
 			]
 		}, {
 			"name": "UltraPlanetary",
-			"image": "/images/gearboxes/ultraplanetary.png",
+			"image": "/images/products/gearboxes/ultraplanetary.png",
 			"filters": {
 				"Motor Input": ["NEO 550"],
 				"Number of Motors": ["1 Motor"],
@@ -398,7 +398,7 @@
 			]
 		}, {
 			"name": "VersaPlanetary",
-			"image": "/images/gearboxes/versaplanetary.jpg",
+			"image": "/images/products/gearboxes/versaplanetary.jpg",
 			"filters": {
 				"Motor Input": ["775 (RS-775, 775pro, AM RedLine)", "CIM Style (CIM, NEO, NEO Vortex)", "NEO 550"],
 				"Number of Motors": ["1 Motor", "2 Motors"],
@@ -412,7 +412,7 @@
 			]
 		}, {
 			"name": "VersaPlanetary 90 Degree Drive",
-			"image": "/images/gearboxes/versa-90deg.jpg",
+			"image": "/images/products/gearboxes/versa-90deg.jpg",
 			"filters": {
 				"Motor Input": ["VersaPlanetary"],
 				"Number of Motors": ["1 Motor"],
@@ -426,7 +426,7 @@
 			]
 		}, {
 			"name": "WCP Single Stage",
-			"image": "/images/gearboxes/wcp-single-stage.webp",
+			"image": "/images/products/gearboxes/wcp-single-stage.webp",
 			"filters": {
 				"Motor Input": ["CIM Style (CIM, NEO, NEO Vortex)", "Kraken X60"],
 				"Number of Motors": ["2 Motors"],

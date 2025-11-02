@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "8BitDo - Ultimate Wired",
-			"image": "/images/gamecontrollers/8bitdo-ultimate.webp",
+			"image": "/images/products/gamecontrollers/8bitdo-ultimate.webp",
 			"filters": {
 				"Type": ["Gamepad"],
 				"Buttons": ["12"],
@@ -19,7 +19,7 @@
 			]
 		}, {
 			"name": "Button Board Deluxe",
-			"image": "/images/gamecontrollers/buttonboarddeluxe.webp",
+			"image": "/images/products/gamecontrollers/buttonboarddeluxe.webp",
 			"filters": {
 				"Type": ["Button Board"],
 				"Buttons": ["15"],
@@ -32,7 +32,7 @@
 			]
 		}, {
 			"name": "Dualshock 4 Wireless Playstation",
-			"image": "/images/gamecontrollers/dualshock4.webp",
+			"image": "/images/products/gamecontrollers/dualshock4.webp",
 			"filters": {
 				"Type": ["Gamepad"],
 				"Buttons": ["10"],
@@ -48,7 +48,7 @@
 			]
 		}, {
 			"name": "GameSir-G7 SE Xbox Style Wired",
-			"image": "/images/gamecontrollers/gamesir-g7.webp",
+			"image": "/images/products/gamecontrollers/gamesir-g7.webp",
 			"filters": {
 				"Type": ["Gamepad"],
 				"Buttons": ["13"],
@@ -64,7 +64,7 @@
 			]
 		}, {
 			"name": "Logitech Gamepad F310",
-			"image": "/images/gamecontrollers/logitechgamepad.jpg",
+			"image": "/images/products/gamecontrollers/logitechgamepad.jpg",
 			"filters": {
 				"Type": ["Gamepad"],
 				"Buttons": ["10"],
@@ -81,7 +81,7 @@
 			]
 		}, {
 			"name": "Razer Wolverine V3 Pro",
-			"image": "/images/gamecontrollers/logitechgamepad.jpg",
+			"image": "/images/products/gamecontrollers/logitechgamepad.jpg",
 			"filters": {
 				"Type": ["Gamepad"],
 				"Buttons": ["12"],
@@ -95,21 +95,8 @@
 				{ "vendor": "Razer", "link": "https://www.razer.com/console-controllers/razer-wolverine-v3-pro" }
 			]
 		}, {
-			"name": "Retrolink Nintendo 64 Classic",
-			"image": "/images/gamecontrollers/n64.jpg",
-			"filters": {
-				"Type": ["Gamepad"],
-				"Buttons": ["10"],
-				"Analog Joysticks": ["1"],
-				"D-Pad": ["1"],
-				"Throttle Control": ["No"]
-			},
-			"links": [
-				{ "vendor": "Amazon", "link": "https://www.amazon.com/gp/product/B008L3UUPS" }
-			]
-		}, {
 			"name": "SNES Retro USB Controller",
-			"image": "/images/gamecontrollers/snes2.jpg",
+			"image": "/images/products/gamecontrollers/snes2.jpg",
 			"filters": {
 				"Type": ["Gamepad"],
 				"Buttons": ["6"],
@@ -122,7 +109,7 @@
 			]
 		}, {
 			"name": "X-Keys XK-24 USB Keypad",
-			"image": "/images/gamecontrollers/xk-24.jpg",
+			"image": "/images/products/gamecontrollers/xk-24.jpg",
 			"filters": {
 				"Type": ["Button Board"],
 				"Buttons": ["24"],
@@ -137,7 +124,7 @@
 			]
 		}, {
 			"name": "X-Keys XK-80 USB Keyboard",
-			"image": "/images/gamecontrollers/xk-24.jpg",
+			"image": "/images/products/gamecontrollers/xk-80.jpg",
 			"filters": {
 				"Type": ["Button Board"],
 				"Buttons": ["80"],
@@ -152,7 +139,7 @@
 			]
 		}, {
 			"name": "X-Keys XK-128 USB Keyboard",
-			"image": "/images/gamecontrollers/xk-24.jpg",
+			"image": "/images/products/gamecontrollers/xk-128.jpg",
 			"filters": {
 				"Type": ["Button Board"],
 				"Buttons": ["80"],

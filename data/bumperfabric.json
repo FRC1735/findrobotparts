@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "1000 Denier Coated Cordura",
-			"image": "/images/bumperfabric/cordura.jpg",
+			"image": "/images/products/bumperfabric/cordura.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Fabric"],
@@ -17,7 +17,7 @@
 			]
 		}, {
 			"name": "Corner Cover",
-			"image": "/images/bumperfabric/corner-cover.jpg",
+			"image": "/images/products/bumperfabric/corner-cover.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Assembled"],
@@ -28,7 +28,7 @@
 			]
 		}, {
 			"name": "Dacron Sailcloth",
-			"image": "/images/bumperfabric/dacron-sailcloth.jpg",
+			"image": "/images/products/bumperfabric/dacron-sailcloth.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Fabric"],
@@ -39,7 +39,7 @@
 			]
 		}, {
 			"name": "Duck Canvas Fabric",
-			"image": "/images/bumperfabric/joann.jpg",
+			"image": "/images/products/bumperfabric/joann.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Fabric"],
@@ -50,7 +50,7 @@
 			]
 		}, {
 			"name": "Single Reversible Bumper",
-			"image": "/images/bumperfabric/single-reversible-bumper.jpg",
+			"image": "/images/products/bumperfabric/single-reversible-bumper.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Pre-cut"],
@@ -61,7 +61,7 @@
 			]
 		}, {
 			"name": "Slick Blue Material",
-			"image": "/images/bumperfabric/slick-blue.jpg",
+			"image": "/images/products/bumperfabric/slick-blue.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Fabric"],
@@ -72,7 +72,7 @@
 			]
 		}, {
 			"name": "Standard Bumper",
-			"image": "/images/bumperfabric/standard.jpg",
+			"image": "/images/products/bumperfabric/standard.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Pre-cut"],
@@ -83,7 +83,7 @@
 			]
 		}, {
 			"name": "Super Slick",
-			"image": "/images/bumperfabric/super-slick.jpg",
+			"image": "/images/products/bumperfabric/super-slick.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Pre-cut"],
@@ -94,7 +94,7 @@
 			]
 		}, {
 			"name": "Super Slick Reversible Bumper",
-			"image": "/images/bumperfabric/super-slick-reversible.jpg",
+			"image": "/images/products/bumperfabric/super-slick-reversible.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Pre-cut"],
@@ -105,7 +105,7 @@
 			]
 		}, {
 			"name": "Super Tough Bumper Material",
-			"image": "/images/bumperfabric/defensive.jpg",
+			"image": "/images/products/bumperfabric/defensive.jpg",
 			"filters": {
 				"Color": ["Blue", "Red"],
 				"Condition": ["Pre-cut"],
