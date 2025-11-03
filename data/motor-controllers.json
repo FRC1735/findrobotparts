@@ -15,17 +15,6 @@
 				{ "vendor": "AndyMark", "link": "https://andymark.com/products/koors40-brushed-dc-motor-controller" }
 			]
 		}, {
-			"name": "NEO Vortex",
-			"image": "/images/products/motor-controllers/rev-spark-flex.webp",
-			"filters": {
-				"Input Type": ["CAN", "PWM", "USB"],
-				"Sensor Inputs": ["Analog", "Encoders", "Limit Switches"],
-				"Embedded Permanant Wires": ["Yes"]
-			},
-			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-11-2159/" }
-			]
-		}, {
 			"name": "Nitrate",
 			"image": "/images/products/motor-controllers/nitrate.webp",
 			"filters": {
@@ -35,6 +24,17 @@
 			},
 			"links": [
 				{ "vendor": "Redux Robotics", "link": "https://shop.reduxrobotics.com/products/nitrate" }
+			]
+		}, {
+			"name": "Spark Flex",
+			"image": "/images/products/motor-controllers/rev-spark-flex.webp",
+			"filters": {
+				"Input Type": ["CAN", "PWM", "USB"],
+				"Sensor Inputs": ["Analog", "Encoders", "Limit Switches"],
+				"Embedded Permanant Wires": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-11-2159/" }
 			]
 		}, {
 			"name": "Spark Max",
