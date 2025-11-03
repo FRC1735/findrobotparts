@@ -72,7 +72,7 @@ The `filter` object is dynamic and depends on the `filter_groups`. The keys of t
 | `filter_groups[2]` | Array of Strings | List of values that match the third item in the `filter_groups`  |
 | `filter_groups[3]` | Array of Strings | List of values that match the fourth item in the `filter_groups` |
 
-***link* object structure**
+#### `link` object structure
 Link to the product page when possible. Search pages are acceptable if it allows you to combine multiple links into one listing. List each vendor who sells the exact same product. If two vendors each make the same product, they are separate listings. If they both sell the same sourced product, they share one listing.
 | Field    | Type   | Description                              |
 | -------- | ------ | ---------------------------------------- |
