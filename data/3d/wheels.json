@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "\"Mag\" wheel for FRC robot",
-			"image": "/images/3d/wheels/73097.jpg",
+			"image": "/images/products/3d/wheels/73097.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "8\" pneumatic wheel hub for FRC",
-			"image": "/images/3d/wheels/1275569.jpg",
+			"image": "/images/products/3d/wheels/1275569.jpg",
 			"filters": {
 				"Style": ["Pneumatic"],
 				"Diameter": ["8\""],
@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "Faired wheel for FRC robot",
-			"image": "/images/3d/wheels/73111.jpg",
+			"image": "/images/products/3d/wheels/73111.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -44,7 +44,7 @@
 			]
 		}, {
 			"name": "FIRST Robotics Swerve Tread",
-			"image": "/images/3d/wheels/6855509.webp",
+			"image": "/images/products/3d/wheels/6855509.webp",
 			"filters": {
 				"Style": ["Tread"],
 				"Diameter": ["4\""],
@@ -57,7 +57,7 @@
 			]
 		}, {
 			"name": "FRC 4 Inch Tread",
-			"image": "/images/3d/wheels/5345783.png",
+			"image": "/images/products/3d/wheels/5345783.png",
 			"filters": {
 				"Style": ["Tread"],
 				"Diameter": ["4\""],
@@ -70,7 +70,7 @@
 			]
 		}, {
 			"name": "Lightweight 4in Diameter Traction Wheel",
-			"image": "/images/3d/wheels/3598601.jpg",
+			"image": "/images/products/3d/wheels/3598601.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -83,7 +83,7 @@
 			]
 		}, {
 			"name": "Lightweight 6in Diameter Traction Wheel",
-			"image": "/images/3d/wheels/3598616.jpg",
+			"image": "/images/products/3d/wheels/3598616.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["6\""],
@@ -96,7 +96,7 @@
 			]
 		}, {
 			"name": "Mecanum Wheel 14",
-			"image": "/images/3d/wheels/2318.jpg",
+			"image": "/images/products/3d/wheels/2318.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter": ["3\""],
@@ -109,7 +109,7 @@
 			]
 		}, {
 			"name": "Mecanum Wheel MK2",
-			"image": "/images/3d/wheels/2473.jpg",
+			"image": "/images/products/3d/wheels/2473.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter": ["4\""],
@@ -122,7 +122,7 @@
 			]
 		}, {
 			"name": "Spoked wheel for FRC robot",
-			"image": "/images/3d/wheels/73105.jpg",
+			"image": "/images/products/3d/wheels/73105.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -135,7 +135,7 @@
 			]
 		}, {
 			"name": "Ultralightweight 6in Diameter Traction Wheel",
-			"image": "/images/3d/wheels/3598535.jpg",
+			"image": "/images/products/3d/wheels/3598535.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["6\""],
@@ -148,7 +148,7 @@
 			]
 		}, {
 			"name": "Vectored Intake Wheels for FRC",
-			"image": "/images/3d/wheels/118272.webp",
+			"image": "/images/products/3d/wheels/118272.webp",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter": ["2\""],

@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "Anderson SB50 Handle",
-			"image": "/images/3d/battery-accessories/4055255.webp",
+			"image": "/images/products/3d/battery-accessories/4055255.webp",
 			"filters": {
 				"Type": ["Battery Handle"],
 				"User": ["sapencil"]
@@ -15,7 +15,7 @@
 			]
 		}, {
 			"name": "Battery Caps/Covers",
-			"image": "/images/3d/battery-accessories/675138.jpg",
+			"image": "/images/products/3d/battery-accessories/675138.jpg",
 			"filters": {
 				"Type": ["Battery Terminal Cover"],
 				"User": ["Misoguchi"]
@@ -25,7 +25,7 @@
 			]
 		}, {
 			"name": "Battery Plug",
-			"image": "/images/3d/battery-accessories/624106.jpg",
+			"image": "/images/products/3d/battery-accessories/624106.jpg",
 			"filters": {
 				"Type": ["Battery Flag"],
 				"User": ["ryanbacon"]
@@ -35,7 +35,7 @@
 			]
 		}, {
 			"name": "Battery Terminal Cover",
-			"image": "/images/3d/battery-accessories/254203.jpg",
+			"image": "/images/products/3d/battery-accessories/254203.jpg",
 			"filters": {
 				"Type": ["Battery Terminal Cover"],
 				"User": ["RicheyRich3407"]
@@ -45,7 +45,7 @@
 			]
 		}, {
 			"name": "FRC Battery Box",
-			"image": "/images/3d/battery-accessories/688012.jpg",
+			"image": "/images/products/3d/battery-accessories/688012.jpg",
 			"filters": {
 				"Type": ["Battery Bracket"],
 				"User": ["evanperryg"]
@@ -55,7 +55,7 @@
 			]
 		}, {
 			"name": "FRC Battery Handle",
-			"image": "/images/3d/battery-accessories/3428879.jpg",
+			"image": "/images/products/3d/battery-accessories/3428879.jpg",
 			"filters": {
 				"Type": ["Battery Handle"],
 				"User": ["Team3187FRC"]
@@ -65,7 +65,7 @@
 			]
 		}, {
 			"name": "FRC Battery plugs",
-			"image": "/images/3d/battery-accessories/254518.jpg",
+			"image": "/images/products/3d/battery-accessories/254518.jpg",
 			"filters": {
 				"Type": ["Battery Flag"],
 				"User": ["team2177"]

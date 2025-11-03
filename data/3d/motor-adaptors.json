@@ -5,7 +5,7 @@
 	"products": [
 		{
 			"name": "FRC FIRST Window Motor Adapter",
-			"image": "/images/3d/motor-adaptors/190429.jpg",
+			"image": "/images/products/3d/motor-adaptors/190429.jpg",
 			"filters": {
 				"Motor": ["Window (6 point star)"],
 				"Output": ["1.875\" bolt circle"],
@@ -16,7 +16,7 @@
 			]
 		}, {
 			"name": "FRC Window Motor 9 Spoke Hub",
-			"image": "/images/3d/motor-adaptors/1464800.jpg",
+			"image": "/images/products/3d/motor-adaptors/1464800.jpg",
 			"filters": {
 				"Motor": ["Window (9 point star)"],
 				"Output": ["1.875\" bolt circle"],
@@ -27,7 +27,7 @@
 			]
 		}, {
 			"name": "Window Motor 2 Hub",
-			"image": "/images/3d/motor-adaptors/269066.jpg",
+			"image": "/images/products/3d/motor-adaptors/269066.jpg",
 			"filters": {
 				"Motor": ["Window (9 point star)"],
 				"Output": ["1.875\" bolt circle"],
@@ -38,7 +38,7 @@
 			]
 		}, {
 			"name": "Window Motor Hub for FRC",
-			"image": "/images/3d/motor-adaptors/269061.jpg",
+			"image": "/images/products/3d/motor-adaptors/269061.jpg",
 			"filters": {
 				"Motor": ["Window (6 point star)"],
 				"Output": ["1.875\" bolt circle"],
@@ -49,7 +49,7 @@
 			]
 		}, {
 			"name": "Window Motor Hub With Set Screw",
-			"image": "/images/3d/motor-adaptors/1156781.jpg",
+			"image": "/images/products/3d/motor-adaptors/1156781.jpg",
 			"filters": {
 				"Motor": ["Window (6 point star)"],
 				"Output": ["1.875\" bolt circle"],
@@ -60,7 +60,7 @@
 			]
 		}, {
 			"name": "Window Motor Mount and Pulley Adapter",
-			"image": "/images/3d/motor-adaptors/686172.jpg",
+			"image": "/images/products/3d/motor-adaptors/686172.jpg",
 			"filters": {
 				"Motor": ["Window (9 point star)"],
 				"Output": ["HTD Pulley"],
@@ -71,7 +71,7 @@
 			]
 		}, {
 			"name": "Window Motor-Pulley adaptor",
-			"image": "/images/3d/motor-adaptors/47206.jpg",
+			"image": "/images/products/3d/motor-adaptors/47206.jpg",
 			"filters": {
 				"Motor": ["Window (6 point star)"],
 				"Output": ["GT Pulley"],
