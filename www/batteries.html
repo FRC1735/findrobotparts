@@ -62,7 +62,7 @@
 	</div>
 	<div class="col-8 col-lg-10">
 		<h1 class="mb-0" id="category-title">Batteries</h1>
-		<div id="category-description"><p>The batteries can be used to power your robot.</p></div>
+		<div id="category-description"><p>Robot batteries supply all the electrical power needed for motors, controllers, and electronics. High-discharge 12-volt batteries are standard in FRC and must deliver stable performance under heavy loads. Proper maintenance, storage, and testing help maximize both lifespan and match-to-match reliability.</p></div>
 	</div>
 </div>
 
@@ -777,6 +777,12 @@
 						</a>
 					</div>
 					<div class="col-4 text-center mb-3">
+						<a href="/subsystems.html">
+							<img src="/images/categories/swerve-gray.webp" class="img-thumbnail" alt="Swerve">
+							Swerve
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
 						<a href="/wheels.html">
 							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
 							Wheels
@@ -863,6 +869,35 @@
 		gtag('js', new Date());
 
 		gtag('config', 'G-ES4R2JE4YE');
+
+		(function () {
+			const fireVendorClick = (a) => {
+				const row = a.closest('tr');
+				const params = {
+					category: document.querySelector('h1')?.textContent.trim(),
+					product: row?.querySelector('th[data-label="Product"] strong')?.textContent.trim(),
+					vendor: (a.textContent || '').trim(),
+					link_url: a.getAttribute('href')
+				};
+				if (!params.link_url || !isExternal(params.link_url)) return;
+				window.gtag && gtag('event', 'vendor_click', params);
+			};
+
+			// Left click
+			document.addEventListener('click', function (e) {
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+
+			// Middle click
+			document.addEventListener('auxclick', function (e) {
+				if (e.button !== 1) return;
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+		})();
 	</script>
 </body>
 

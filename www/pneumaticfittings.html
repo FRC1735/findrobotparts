@@ -62,7 +62,7 @@
 	</div>
 	<div class="col-8 col-lg-10">
 		<h1 class="mb-0" id="category-title">Pneumatic Fittings</h1>
-		<div id="category-description"><p>Fittings can be used to connect all of your pneumatics together on your robot.</p></div>
+		<div id="category-description"><p>Pneumatic fittings connect tubing to valves, cylinders, and regulators. Push-to-connect fittings are especially convenient for fast setup and leak-free operation. Choosing the right thread type and size ensures efficient airflow and easy maintenance between matches.</p></div>
 	</div>
 </div>
 
@@ -2900,6 +2900,12 @@
 						</a>
 					</div>
 					<div class="col-4 text-center mb-3">
+						<a href="/subsystems.html">
+							<img src="/images/categories/swerve-gray.webp" class="img-thumbnail" alt="Swerve">
+							Swerve
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
 						<a href="/wheels.html">
 							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
 							Wheels
@@ -2986,6 +2992,35 @@
 		gtag('js', new Date());
 
 		gtag('config', 'G-ES4R2JE4YE');
+
+		(function () {
+			const fireVendorClick = (a) => {
+				const row = a.closest('tr');
+				const params = {
+					category: document.querySelector('h1')?.textContent.trim(),
+					product: row?.querySelector('th[data-label="Product"] strong')?.textContent.trim(),
+					vendor: (a.textContent || '').trim(),
+					link_url: a.getAttribute('href')
+				};
+				if (!params.link_url || !isExternal(params.link_url)) return;
+				window.gtag && gtag('event', 'vendor_click', params);
+			};
+
+			// Left click
+			document.addEventListener('click', function (e) {
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+
+			// Middle click
+			document.addEventListener('auxclick', function (e) {
+				if (e.button !== 1) return;
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+		})();
 	</script>
 </body>
 
