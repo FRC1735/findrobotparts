@@ -9,7 +9,7 @@
 			"filters": {
 				"Type": ["Gamepad"],
 				"Buttons": ["12"],
-				"Analog Joysticks": ["0"],
+				"Analog Joysticks": ["2"],
 				"D-Pad": ["1"],
 				"Throttle Control": ["No"]
 			},
