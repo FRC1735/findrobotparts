@@ -1,6 +1,6 @@
 {
 	"title": "3D Printed - Motor Adaptors",
-	"description": "<p>Print these parts to easily adapt your motors to suit your application on your robot.</p>",
+	"description": "<p>Motor adaptors and couplers designed for 3D printing let teams connect motors to shafts or mechanisms that don’t match standard interfaces. They’re ideal for prototyping or adapting unusual components without machining. With printable designs, it’s easy to iterate and refine fit before committing to final parts.</p>",
 	"filter_groups": ["Motor", "Output", "User"],
 	"products": [
 		{

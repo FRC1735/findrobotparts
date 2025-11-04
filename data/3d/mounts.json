@@ -1,6 +1,6 @@
 {
 	"title": "3D Printed - Mounts",
-	"description": "<p>Print your own mounts to connect one robot part to another. Make it easy to attach an encoder to a gearbox or a ring light to a camera.</p>",
+	"description": "<p>Printable mounts simplify the process of attaching sensors, controllers, and small mechanisms. They can be customized to fit your exact geometry, allowing quick changes between iterations. These lightweight parts save fabrication time and help teams refine their designs before building final versions in metal.</p>",
 	"filter_groups": ["Attaches What?", "Attaches What? (detailed)", "User"],
 	"products": [
 		{

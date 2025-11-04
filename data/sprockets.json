@@ -1,6 +1,6 @@
 {
 	"title": "Sprockets",
-	"description": "<p>Use sprockets to power a mechanism on your robot from a distance.</p>",
+	"description": "<p>Sprockets drive and guide chain systems in robotics mechanisms. They’re available in multiple pitches, tooth counts, and bore types to suit various torque needs. Proper alignment and chain tension help prevent slippage and extend drivetrain life.</p>",
 	"filter_groups": ["Bore", "Chain Pitch", "Material", "Style", "Teeth"],
 	"products": [
 		{

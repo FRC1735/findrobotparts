@@ -1,6 +1,6 @@
 {
 	"title": "Wire Connectors",
-	"description": "<p>Wire connectors can be used to connect wires to motors, electronics, and sensors instead of having to solder them.</p>",
+	"description": "<p>Wire connectors simplify building and maintaining a robot’s electrical system. Options like crimp, quick-disconnect, and screw terminals ensure secure, serviceable connections. Good connector choices reduce electrical faults and make debugging faster during events.</p>",
 	"filter_groups": ["Type", "Gender", "Insulated", "Color", "Wire Size"],
 	"products": [
 		{

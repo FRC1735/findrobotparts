@@ -1,6 +1,6 @@
 {
 	"title": "3D Printed - Wheels",
-	"description": "<p>You can 3D print your own wheels for your robot to save money or to save weight.</p>",
+	"description": "<p>3D-printed wheels give teams a fast, low-cost way to test drive configurations or tread patterns. They’re perfect for prototypes or smaller robots where weight and flexibility matter more than long-term wear. Printing your own designs also helps students experiment with hub interfaces and traction surfaces.</p>",
 	"filter_groups": ["Style", "Diameter", "Width", "Hub", "User"],
 	"products": [
 		{

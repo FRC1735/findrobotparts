@@ -1,6 +1,6 @@
 {
 	"title": "Chain",
-	"description": "<p>Use chain to connect your sprockets.</p>",
+	"description": "<p>Chain drives transmit torque between sprockets, commonly used in drivetrains, elevators, and arms. ANSI #25 and #35 roller chains are standard for robotics, balancing strength, weight, and flexibility. Teams favor chain for its reliability, adjustability, and ease of field repairs.</p>",
 	"filter_groups": ["ANSI Chain Size", "Pitch", "Type", "Material"],
 	"products": [
 		{

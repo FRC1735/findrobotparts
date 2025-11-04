@@ -1,6 +1,6 @@
 {
 	"title": "Bumper Numbers",
-	"description": "<p>Use these iron on numbers to display your team number on your bumper.</p>",
+	"description": "<p>Bumper numbers identify your robot to referees and other teams. They must follow FRC visibility standards, often applied using vinyl, fabric panels, or stencil paint. Consistent, legible numbering not only meets rules but also makes your robot stand out in photos and videos.</p>",
 	"filter_groups": ["Font", "Material", "Height", "Stroke", "Width of #8"],
 	"products": [
 		{

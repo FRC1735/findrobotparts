@@ -1,6 +1,6 @@
 {
 	"title": "Vendors",
-	"description": "<p>It is impossible to list every type of product out there. This list of vendors will cover products that this website does not.</p>",
+	"description": "<p>The vendor directory connects teams with suppliers offering reliable robot parts and tools. Comparing prices, lead times, and shipping options helps teams stretch their budgets effectively. Trusted vendors keep essential components available throughout the build and competition season.</p>",
 	"filter_groups": ["Product Category", "Location"],
 	"products": [
 		{

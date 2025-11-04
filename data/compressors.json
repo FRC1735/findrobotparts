@@ -1,6 +1,6 @@
 {
 	"title": "Compressors",
-	"description": "<p>While we do our best to make sure these compressors meet the requirements of FRC please verify they meet the rules and requirements of your application.</p>",
+	"description": "<p>Compressors provide the air pressure needed to power pneumatic actuators. Compact 12-volt models are widely used in FRC and other robotics systems for their reliability and output. Properly sized compressors maintain consistent pressure, improving pneumatic speed and response time.</p>",
 	"filter_groups": ["Duty Cycle @ 100psi", "Flow Rate (cfm at 0psi)"],
 	"products": [	
 		{

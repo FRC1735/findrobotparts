@@ -1,6 +1,6 @@
 {
 	"title": "Sensors",
-	"description": "<p>Sensors are able to measure all sorts of things on your robot. While there are hundreds of options out there we have selected those that are most used by teams.</p>",
+	"description": "<p>Sensors give robots awareness of their position, motion, and surroundings. From encoders and limit switches to vision cameras and gyros, they provide essential feedback for automation. Reliable sensor data enables consistent autonomous behavior and driver assistance features.</p>",
 	"filter_groups": ["Type", "Measures", "Output", "Voltage"],
 	"products": [
 		{

@@ -1,6 +1,6 @@
 {
 	"title": "Game Controllers",
-	"description": "<p>Game controllers are used to remote control robots.</p>",
+	"description": "<p>Game controllers allow human operators to drive and control robots during competition. USB-based models with dual sticks, triggers, and customizable buttons provide a familiar and precise interface. Reliable, responsive controllers help improve driver performance and reaction time.</p>",
 	"filter_groups": ["Type", "Buttons", "Analog Joysticks", "D-Pad", "Throttle Control"],
 	"products": [
 		{

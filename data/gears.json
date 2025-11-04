@@ -1,6 +1,6 @@
 {
 	"title": "Gears",
-	"description": "<p>While many of these gears are usually sold with gearboxes you can also use them to make your own gearboxes.</p>",
+	"description": "<p>Gears transmit power between rotating shafts while adjusting speed or torque. Robotics teams use spur, bevel, and planetary designs for different mechanical needs. Choosing the correct material and pitch helps optimize strength, efficiency, and smooth operation in any subsystem.</p>",
 	"filter_groups": ["Type", "Bore", "Diametral Pitch", "Material", "Teeth"],
 	"products": [
 		{

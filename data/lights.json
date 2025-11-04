@@ -1,6 +1,6 @@
 {
 	"title": "Lights",
-	"description": "<p>Lights can be used to make an area brighter and easier to find using cameras or other sensors on your robot.</p>",
+	"description": "<p>Lights add visibility, feedback, and style to a robot. They can indicate status, signal alignment, or simply make a design stand out. Efficient and lightweight, lighting systems enhance both functionality and presentation during demonstrations and matches.</p>",
 	"filter_groups": ["Colors", "Diameter", "Lumens", "Beam Angle", "Voltage"],
 	"products": [
 		{

@@ -1,6 +1,6 @@
 {
 	"title": "Programming Resources",
-	"description": "<p>You can program your robots using all sorts of languages and tools. They can help you with your algorithms or simplify your programs.</p>",
+	"description": "<p>Programming resources help teams develop robot control systems, automation, and vision processing. They include code libraries, tutorials, and sample projects for popular frameworks like WPILib. Learning from these examples accelerates development and helps students grow their technical skills.</p>",
 	"filter_groups": ["Type", "Official", "Written In", "Robot Language"],
 	"products": [
 		{

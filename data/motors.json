@@ -1,6 +1,6 @@
 {
 	"title": "Motors",
-	"description": "<p>These motors are great for a variety of uses on your robot. Using the numbers below you should be able to generate a motor curve. You can learn how to use a motor curve on the <a href=\"http://motors.vex.com/introduction#curve\" target=\"_blank\">VEX website</a>.</p>",
+	"description": "<p>Motors power every moving part of a robot. Teams choose between brushed and brushless options depending on torque, speed, and control requirements. Understanding motor characteristics and pairing them with the right gearbox is key to building efficient, reliable mechanisms.</p>",
 	"filter_groups": ["No Load Speed", "Output Type", "Power (W)", "Style", "Integrated Controller"],
 	"products": [
 		{

@@ -1,6 +1,6 @@
 {
 	"title": "Gussets and Mounts",
-	"description": "<p>Gussets and mounts can be used with extrusion to form different shapes and functions to be used on your robot.</p>",
+	"description": "<p>Gussets and mounts strengthen joints and attach mechanisms to a robot’s frame. They add rigidity while simplifying construction with standard hole patterns and fasteners. Common in aluminum structures, gussets make it easy to build modular, durable frames that are simple to repair.</p>",
 	"filter_groups": ["Type", "Hole Size", "Hole Spacing", "Thickness"],
 	"products": [
 		{

@@ -1,6 +1,6 @@
 {
 	"title": "Subsystems",
-	"description": "<p>Subsystems are kits that can be used to build significant portions of your robot.</p>",
+	"description": "<p>Subsystems combine structure, motion, and control into complete, ready-to-use robot mechanisms. Whether it’s a drivetrain, shooter, or elevator, these systems give teams a strong foundation to build on and customize. Starting with proven subsystems helps students focus on design strategy, programming, and refinement instead of basic construction.</p>",
 	"filter_groups": ["Type"],
 	"products": [
 		{

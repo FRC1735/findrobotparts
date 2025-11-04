@@ -1,6 +1,6 @@
 {
 	"title": "Accumulators",
-	"description": "<p>Accumulators can be used to store pressurized air on your robot to be used with cylinders.</p>",
+	"description": "<p>Accumulators store compressed air for use in pneumatic systems. They provide consistent pressure and ensure reliable actuation during a match, even under high demand. Choosing the correct capacity and rating helps meet FRC safety requirements while keeping pneumatic subsystems responsive and efficient.</p>",
 	"filter_groups": ["Volume", "Diameter", "Length", "Material", "Ports", "Connector", "Working Pressure Rating"],
 	"products": [
 		{

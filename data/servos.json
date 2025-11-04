@@ -1,6 +1,6 @@
 {
 	"title": "Servos",
-	"description": "<p>Servos can be used for various parts of the robot from shifters to motors.</p>",
+	"description": "<p>Servos provide compact, precise control for lightweight mechanisms like cameras, locks, or gates. They’re easy to program and connect via PWM, making them beginner-friendly yet powerful tools. Adjustable torque and travel settings allow fine-tuned motion in small spaces.</p>",
 	"filter_groups": ["Stall Torque (oz in)", "Max Rotation", "Output", "Analog/Digital", "Supply Voltage (V)", "No load Speed"],
 	"products": [
 		{

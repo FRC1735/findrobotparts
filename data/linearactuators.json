@@ -1,6 +1,6 @@
 {
 	"title": "Linear Actuators",
-	"description": "<p>Linear actuators can be used in place of pneumatic pistons with the added benefit of being able to stop at multiple places.</p>",
+	"description": "<p>Linear actuators translate rotary motion into straight-line movement, ideal for lifts, clamps, and adjusting mechanisms. They provide controlled extension and retraction using screw or motor drive systems. Actuators simplify mechanical design where pneumatics aren’t practical or precise enough.</p>",
 	"filter_groups": ["Input", "Travel (in)", "No Load Speed (in/s)", "Max Force (N)", "Closed Length (in)"],
 	"products": [
 		{

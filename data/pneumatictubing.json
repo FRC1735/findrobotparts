@@ -1,6 +1,6 @@
 {
 	"title": "Pneumatic Tubing",
-	"description": "<p>Pneumatic tubing is used to connect all the pneumatics in the system to get compressed air from one location to another.</p>",
+	"description": "<p>Tubing delivers air through pneumatic systems, connecting compressors, valves, and actuators. Polyurethane and nylon tubing offer flexibility, strength, and consistent sealing under pressure. Proper routing prevents kinks, leaks, and flow restrictions that affect robot performance.</p>",
 	"filter_groups": ["Style", "OD", "ID (inch)", "Color", "Length (feet)", "Material", "Durometer"],
 	"products": [
 		{

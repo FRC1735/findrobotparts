@@ -1,6 +1,6 @@
 {
 	"title": "Motor Controllers",
-	"description": "<p>Use any of the motor controllers below to control your mechanisms.</p>",
+	"description": "<p>Motor controllers regulate power flow between the battery and motors. They manage speed, direction, and braking while protecting hardware from electrical faults. CAN-enabled controllers also provide advanced telemetry for real-time performance monitoring and tuning.</p>",
 	"filter_groups": ["Input Type", "Sensor Inputs", "Embedded Permanant Wires"],
 	"products": [
 		{

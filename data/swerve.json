@@ -1,6 +1,6 @@
 {
 	"title": "Swerve Modules",
-	"description": "<p>Swerve modules allow a robot to move in any direction without rotating the robot and without losing performance.</p>",
+	"description": "<p>Swerve modules allow robots to move in any direction with precise steering and drive control. Each wheel rotates independently for unmatched maneuverability and agility. Mastering swerve systems gives teams an edge in competitive play through smooth, omnidirectional motion.</p>",
 	"filter_groups": ["Drive Motor", "Steer Motor", "Wheel Diameter", "Wheel Width"],
 	"products": [
 		{

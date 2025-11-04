@@ -153,6 +153,7 @@ const buildPage = (data, relativePath) => {
 	let mainHTML = '';
 	let sidebarHTML = '';
 	let sidebarClass = 'none';
+	let productPage = false;
 	let title = 'Find Robot Parts';
 
 	if (data.products?.length > 0) {
@@ -163,6 +164,7 @@ const buildPage = (data, relativePath) => {
 		sidebarHTML = generateSidebar(data); 
 		mainHTML = hbts['product']({ slug: relativePath, category: pageTitle, description: data.description, tablehead: tablehead, tablebody: tablebody });
 		sidebarClass = 'block';
+		productPage = true;
 	} else {
 		if (data.title) {
 			title = `${data.title} - Find Robot Parts`
@@ -170,7 +172,7 @@ const buildPage = (data, relativePath) => {
 		mainHTML = data.description;
 	}
 
-	return hbts['main']({ title: title, sidebar: sidebarHTML, sidebarClass: sidebarClass, maincontent: mainHTML });
+	return hbts['main']({ title: title, sidebar: sidebarHTML, sidebarClass: sidebarClass, productPage: productPage, maincontent: mainHTML });
 }
 
 async function setupTemplates() {

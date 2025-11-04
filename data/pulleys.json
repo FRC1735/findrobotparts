@@ -1,6 +1,6 @@
 {
 	"title": "Pulleys",
-	"description": "<p>Use these pulleys in conjunction with the belts for drivelines or other mechanisms.</p>",
+	"description": "<p>Pulleys and belts provide smooth, low-noise power transfer between shafts. They’re popular in indexing systems, elevators, and shooters where precise, lightweight motion is critical. Using the right pulley ratio can fine-tune speed and torque while minimizing backlash.</p>",
 	"filter_groups": ["Type", "Material", "Belt Width", "Bore", "Pitch", "Teeth"],
 	"products": [
 		{

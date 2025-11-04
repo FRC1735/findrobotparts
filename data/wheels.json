@@ -1,6 +1,6 @@
 {
 	"title": "Wheels",
-	"description": "<p>Wheels can be used for much more than just a driveline. They can be used for collectors, shooters, and much more. While choosing a wheel make sure that it is able to support the weight you are looking to apply.</p>",
+	"description": "<p>Wheels determine a robot’s traction, handling, and mobility. Teams choose between traction, omni, and mecanum styles to fit their drivetrain strategy. The right wheel setup balances grip, speed, and control for smooth driving on any field surface.</p>",
 	"filter_groups": ["Style", "Diameter (inch)", "Width (inch)", "Tread", "Hub"],
 	"products": [
 		{

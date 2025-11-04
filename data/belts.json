@@ -1,6 +1,6 @@
 {
 	"title": "Belts",
-	"description": "<p>Belts can be used for both driving mechanisms or for using them as a tank treads.</p>",
+	"description": "<p>Belts transfer rotational power quietly and efficiently between pulleys. Timing belts are especially popular for drivetrains, elevators, and indexing systems due to their smooth motion and easy tensioning. They’re lighter than chains, require less maintenance, and allow compact designs in tight spaces.</p>",
 	"filter_groups": ["Type", "Material", "Pitch (mm)", "Width (mm)", "Teeth", "Length (mm)"],
 	"products": [
 		{

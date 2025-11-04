@@ -1,6 +1,6 @@
 {
 	"title": "Gearboxes",
-	"description": "<p>Gearboxes are great for reducing speeds and increasing torque. Whether used for drivelines, collectors, or shooters you can find the right gearbox for your application on your robot.</p>",
+	"description": "<p>Gearboxes combine gears into compact assemblies that modify torque and speed. Used in drivetrains, lifts, and arms, they convert motor output into the ideal balance of power and control. Selecting the right gearbox ratio and style can dramatically improve robot performance and reliability.</p>",
 	"filter_groups": ["Motor Input", "Number of Motors", "Output Shaft", "Speeds", "Style", "Reduction"],
 	"products": [
 		{

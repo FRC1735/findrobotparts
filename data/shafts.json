@@ -1,6 +1,6 @@
 {
 	"title": "Shafts",
-	"description": "<p>Shafts can be used to make things rotate on your rotate. Add sprockets, gears, hubs, or anything else to them.</p>",
+	"description": "<p>Shafts carry rotational power between motors and driven components. Common types include hex, round, and keyed shafts, each suited to different hub or bearing interfaces. Strong, precisely cut shafts ensure smooth motion and reduce drivetrain losses.</p>",
 	"filter_groups": ["Shape", "Diameter", "Keyway", "ID", "Material"],
 	"products": [
 		{

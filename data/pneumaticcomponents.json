@@ -1,6 +1,6 @@
 {
 	"title": "Pneumatic Components",
-	"description": "<p>Pneumatic components can be used to set and check the pressure of different parts of your robot.</p>",
+	"description": "<p>Pneumatic components form the backbone of any robot’s air system. They regulate, measure, and protect pressure to keep actuators working reliably through long matches. From fine-tuning performance to maintaining safety, quality components make pneumatic systems consistent, efficient, and easy to service.</p>",
 	"filter_groups": ["Port", "Type"],
 	"products": [
 		{

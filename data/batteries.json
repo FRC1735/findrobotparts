@@ -1,6 +1,6 @@
 {
 	"title": "Batteries",
-	"description": "<p>The batteries can be used to power your robot.</p>",
+	"description": "<p>Robot batteries supply all the electrical power needed for motors, controllers, and electronics. High-discharge 12-volt batteries are standard in FRC and must deliver stable performance under heavy loads. Proper maintenance, storage, and testing help maximize both lifespan and match-to-match reliability.</p>",
 	"filter_groups": ["Weight (lbs)", "Capacity (Ah)", "Height", "Width", "Depth"],
 	"products": [
 		{

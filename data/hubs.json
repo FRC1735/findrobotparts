@@ -1,6 +1,6 @@
 {
 	"title": "Hubs",
-	"description": "<p>Use these hubs to attach sprockets, wheels, or gears to shafts.</p>",
+	"description": "<p>Hubs connect wheels, sprockets, and pulleys to shafts for efficient torque transfer. Clamping and keyed hubs prevent slipping under load while allowing quick part swaps. Reliable hub selection ensures smooth power delivery and easy maintenance throughout the season.</p>",
 	"filter_groups": ["Attachment Type", "Bore", "Material", "OD"],
 	"products": [
 		{
