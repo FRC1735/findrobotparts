@@ -1,11 +1,11 @@
 {
 	"title": "Motor Controllers",
-	"description": "<p>Use any of the motor controllers below to control your mechanisms.</p>",
+	"description": "<p>Motor controllers regulate power flow between the battery and motors. They manage speed, direction, and braking while protecting hardware from electrical faults. CAN-enabled controllers also provide advanced telemetry for real-time performance monitoring and tuning.</p>",
 	"filter_groups": ["Input Type", "Sensor Inputs", "Embedded Permanant Wires"],
 	"products": [
 		{
 			"name": "Koors40",
-			"image": "/images/motor-controllers/koors40.webp",
+			"image": "/images/products/motor-controllers/koors40.webp",
 			"filters": {
 				"Input Type": ["PWM"],
 				"Sensor Inputs": ["N/A"],
@@ -15,19 +15,8 @@
 				{ "vendor": "AndyMark", "link": "https://andymark.com/products/koors40-brushed-dc-motor-controller" }
 			]
 		}, {
-			"name": "NEO Vortex",
-			"image": "/images/motor-controllers/rev-spark-flex.webp",
-			"filters": {
-				"Input Type": ["CAN", "PWM", "USB"],
-				"Sensor Inputs": ["Analog", "Encoders", "Limit Switches"],
-				"Embedded Permanant Wires": ["Yes"]
-			},
-			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-11-2159/" }
-			]
-		}, {
 			"name": "Nitrate",
-			"image": "/images/motor-controllers/nitrate.webp",
+			"image": "/images/products/motor-controllers/nitrate.webp",
 			"filters": {
 				"Input Type": ["CAN", "CANFD"],
 				"Sensor Inputs": ["Encoders"],
@@ -37,8 +26,19 @@
 				{ "vendor": "Redux Robotics", "link": "https://shop.reduxrobotics.com/products/nitrate" }
 			]
 		}, {
+			"name": "Spark Flex",
+			"image": "/images/products/motor-controllers/rev-spark-flex.webp",
+			"filters": {
+				"Input Type": ["CAN", "PWM", "USB"],
+				"Sensor Inputs": ["Analog", "Encoders", "Limit Switches"],
+				"Embedded Permanant Wires": ["Yes"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-11-2159/" }
+			]
+		}, {
 			"name": "Spark Max",
-			"image": "/images/motor-controllers/spark-max.png",
+			"image": "/images/products/motor-controllers/spark-max.png",
 			"filters": {
 				"Input Type": ["CAN", "PWM", "USB"],
 				"Sensor Inputs": ["Analog", "Encoders", "Limit Switches"],
@@ -50,18 +50,19 @@
 			]
 		}, {
 			"name": "Talon FXS",
-			"image": "/images/motor-controllers/talon-fxs.webp",
+			"image": "/images/products/motor-controllers/talon-fxs.webp",
 			"filters": {
 				"Input Type": ["CAN", "CANFD", "PWM"],
 				"Sensor Inputs": ["Encoders"],
 				"Embedded Permanant Wires": ["No"]
 			},
 			"links": [
-				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/talon-srx" }
+				{ "vendor": "CTR Electronics", "link": "https://store.ctr-electronics.com/products/talon-srx" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/motors-pneumatics/products/ctre-sensors" }
 			]
 		}, {
 			"name": "Talon SRX",
-			"image": "/images/motor-controllers/talon-srx.jpg",
+			"image": "/images/products/motor-controllers/talon-srx.jpg",
 			"filters": {
 				"Input Type": ["CAN", "PWM", "SPI", "UART"],
 				"Sensor Inputs": ["Encoders", "Limit Switches"],
@@ -72,7 +73,7 @@
 			]
 		}, {
 			"name": "Thrifty Nova",
-			"image": "/images/motor-controllers/thrifty-nova.jpg",
+			"image": "/images/products/motor-controllers/thrifty-nova.jpg",
 			"filters": {
 				"Input Type": ["CAN", "CANFD", "USB"],
 				"Sensor Inputs": ["Analog", "Encoders", "Limit Switches"],
@@ -83,7 +84,7 @@
 			]
 		}, {
 			"name": "Victor SPX",
-			"image": "/images/motor-controllers/victor-spx.jpg",
+			"image": "/images/products/motor-controllers/victor-spx.jpg",
 			"filters": {
 				"Input Type": ["CAN", "PWM"],
 				"Sensor Inputs": ["N/A"],

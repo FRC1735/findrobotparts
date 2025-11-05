@@ -1,4 +1,4 @@
-addShowMoreProducts = () => {
+const addShowMoreProducts = () => {
 	document.querySelectorAll('.tags.collapse').forEach(element => {
 		if (element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth) {
 			element.classList.add('active');
@@ -7,7 +7,7 @@ addShowMoreProducts = () => {
 	});
 }
 
-updateNumberShown = () => {
+const updateNumberShown = () => {
 	const shown = document.querySelectorAll('#productdata tbody tr:not(.d-none)').length;
 	const total = document.querySelectorAll('#productdata tbody tr').length;
 	document.getElementById('numShown').innerHTML = shown;
@@ -19,7 +19,7 @@ updateNumberShown = () => {
 	}
 }
 
-updateTagList = () => {
+const updateTagList = () => {
 	const products = document.querySelectorAll("#productdata tbody tr:not(.d-none)");
 	let activetags = [];
 	products.forEach(element => {
@@ -120,4 +120,4 @@ document.addEventListener("DOMContentLoaded", function() {
 	addShowMoreProducts();
 	updateTagList();
 	updateNumberShown();
-}
+});

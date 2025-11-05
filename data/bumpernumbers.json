@@ -1,13 +1,11 @@
 {
 	"title": "Bumper Numbers",
-	"pathname": "bumpernumbers",
-	"description": "<p>Use these iron on numbers to display your team number on your bumper.</p>",
-	"image_slug": "bumpernumber",
+	"description": "<p>Bumper numbers identify your robot to referees and other teams. They must follow FRC visibility standards, often applied using vinyl, fabric panels, or stencil paint. Consistent, legible numbering not only meets rules but also makes your robot stand out in photos and videos.</p>",
 	"filter_groups": ["Font", "Material", "Height", "Stroke", "Width of #8"],
 	"products": [
 		{
 			"name": "AndyMark Numbers",
-			"image": "/images/bumpernumbers/andymark.jpg",
+			"image": "/images/products/bumpernumbers/andymark.jpg",
 			"filters": {
 				"Material": ["Vinyl"],
 				"Font": ["Helvetica Neu (modified)"],
@@ -20,7 +18,7 @@
 			]
 		}, {
 			"name": "Jiffy Custom DTF",
-			"image": "/images/bumpernumbers/jiffy-custom.jpg",
+			"image": "/images/products/bumpernumbers/jiffy-custom.jpg",
 			"filters": {
 				"Material": ["DTF"],
 				"Font": ["Custom"],
@@ -34,7 +32,7 @@
 			]
 		}, {
 			"name": "Jiffy DTF Numbers",
-			"image": "/images/bumpernumbers/jiffy-numbers.png",
+			"image": "/images/products/bumpernumbers/jiffy-numbers.png",
 			"filters": {
 				"Material": ["DTF"],
 				"Font": ["Solid", "Outline", "Promesh", "Soccer League", "Octin Sports", "Rueckawarzsalto", "Varsity Team"],
@@ -47,7 +45,7 @@
 			]
 		}, {
 			"name": "Ninja Transfers DTF Numbers",
-			"image": "/images/bumpernumbers/ninja-numbers.png",
+			"image": "/images/products/bumpernumbers/ninja-numbers.png",
 			"filters": {
 				"Material": ["DTF"],
 				"Font": ["Academy", "Alfa Slab One", "Anton", "Athletic", "Bowlby One", "College Font", "Dark College", "Quadrat-Serial", "Quadrat-Serial-ExtraBold"],
@@ -60,7 +58,7 @@
 			]
 		}, {
 			"name": "RoboPromo Corner Bumper Numbers",
-			"image": "/images/bumpernumbers/robopromo-corner.jpg",
+			"image": "/images/products/bumpernumbers/robopromo-corner.jpg",
 			"filters": {
 				"Material": ["Vinyl"],
 				"Font": ["Standard Block"],
@@ -73,7 +71,7 @@
 			]
 		}, {
 			"name": "RoboPromo Custom - Custom",
-			"image": "/images/bumpernumbers/robopromo-custom.jpg",
+			"image": "/images/products/bumpernumbers/robopromo-custom.jpg",
 			"filters": {
 				"Material": ["Vinyl"],
 				"Font": ["Custom"],
@@ -86,7 +84,7 @@
 			]
 		}, {
 			"name": "RoboPromo Numbers",
-			"image": "/images/bumpernumbers/robopromo.gif",
+			"image": "/images/products/bumpernumbers/robopromo.gif",
 			"filters": {
 				"Material": ["Vinyl"],
 				"Font": ["Standard Block"],

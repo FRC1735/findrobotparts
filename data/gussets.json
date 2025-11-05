@@ -1,13 +1,203 @@
 {
 	"title": "Gussets and Mounts",
-	"pathname": "gussets",
-	"description": "<p>Gussets and mounts can be used with extrusion to form different shapes and functions to be used on your robot.</p>",
-	"image_slug": "gusset",
+	"description": "<p>Gussets and mounts strengthen joints and attach mechanisms to a robot’s frame. They add rigidity while simplifying construction with standard hole patterns and fasteners. Common in aluminum structures, gussets make it easy to build modular, durable frames that are simple to repair.</p>",
 	"filter_groups": ["Type", "Hole Size", "Hole Spacing", "Thickness"],
 	"products": [
 		{
-			"name": "Armabot L Gusset",
-			"image": "/images/gussets/armabot-t.png",
+			"name": "AM 3-4-5 Shallow External",
+			"image": "/images/products/gussets/am-143.webp",
+			"filters": {
+				"Type": ["143"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 3-4-5 Shallow Internal",
+			"image": "/images/products/gussets/am-37.webp",
+			"filters": {
+				"Type": ["37"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 3-4-5 Steep External",
+			"image": "/images/products/gussets/am-127.webp",
+			"filters": {
+				"Type": ["127"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 3-4-5 Steep Internal",
+			"image": "/images/products/gussets/am-53.webp",
+			"filters": {
+				"Type": ["53"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 30",
+			"image": "/images/products/gussets/am-30.webp",
+			"filters": {
+				"Type": ["30"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 45",
+			"image": "/images/products/gussets/am-45.webp",
+			"filters": {
+				"Type": ["45"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 60",
+			"image": "/images/products/gussets/am-60.webp",
+			"filters": {
+				"Type": ["60"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 90",
+			"image": "/images/products/gussets/am-90.webp",
+			"filters": {
+				"Type": ["90"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 120",
+			"image": "/images/products/gussets/am-120.webp",
+			"filters": {
+				"Type": ["120"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 135",
+			"image": "/images/products/gussets/am-135.webp",
+			"filters": {
+				"Type": ["135"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM 150",
+			"image": "/images/products/gussets/am-150.webp",
+			"filters": {
+				"Type": ["150"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM Joiner 1\"",
+			"image": "/images/products/gussets/am-joiner.webp",
+			"filters": {
+				"Type": ["180"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM Joiner 2\"",
+			"image": "/images/products/gussets/am-joiner2.webp",
+			"filters": {
+				"Type": ["180"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM Inside Corner",
+			"image": "/images/products/gussets/am-corner.webp",
+			"filters": {
+				"Type": ["Corner"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM Quad",
+			"image": "/images/products/gussets/am-plus.webp",
+			"filters": {
+				"Type": ["Plus"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "AM Tee",
+			"image": "/images/products/gussets/am-t.webp",
+			"filters": {
+				"Type": ["Tee"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.125\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/brackets-plates/products/1-2-in-pitch-gussets" }
+			]
+		}, {
+			"name": "Armabot L",
+			"image": "/images/products/gussets/armabot-t.png",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -18,8 +208,8 @@
 				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/l-and-t-gussets" }
 			]
 		}, {
-			"name": "Armabot T Gusset",
-			"image": "/images/gussets/armabot-t.png",
+			"name": "Armabot T",
+			"image": "/images/products/gussets/armabot-t.png",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -30,8 +220,8 @@
 				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/l-and-t-gussets" }
 			]
 		}, {
-			"name": "PI 90 Degree",
-			"image": "/images/gussets/pi-90.jpg",
+			"name": "PI 90",
+			"image": "/images/products/gussets/pi-90.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -39,11 +229,11 @@
 				"Thickness": ["0.125\""]
 			},
 			"links": [
-				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/90-Degree-Gusset/p/162002260/category=41454018" }
+				{ "vendor": "Plummer Robotics", "link": "https://plummerindustries.com/robotics/shop#!/90-Degree-Gusset/p/162002260" }
 			]
 		}, {
-			"name": "PI 90 Degree Short",
-			"image": "/images/gussets/pi-90-short.jpg",
+			"name": "PI 90 Short",
+			"image": "/images/products/gussets/pi-90-short.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -51,11 +241,11 @@
 				"Thickness": ["0.125\""]
 			},
 			"links": [
-				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/90-Degree-Short-Gusset/p/162011430/category=41454018" }
+				{ "vendor": "Plummer Robotics", "link": "https://plummerindustries.com/robotics/shop#!/90-Degree-Short-Gusset/p/162011430" }
 			]
 		}, {
-			"name": "PI 90 Degree Short Side",
-			"image": "/images/gussets/pi-90-short-side.jpg",
+			"name": "PI 90 Short Side",
+			"image": "/images/products/gussets/pi-90-short-side.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -63,11 +253,11 @@
 				"Thickness": ["0.125\""]
 			},
 			"links": [
-				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/90-Degree-Short-Side-Gusset/p/162011438/category=41454018" }
+				{ "vendor": "Plummer Robotics", "link": "https://plummerindustries.com/robotics/shop#!/90-Degree-Short-Side-Gusset/p/162011438" }
 			]
 		}, {
 			"name": "PI Drive Rail Frame End",
-			"image": "/images/gussets/pi-rail-frame.jpg",
+			"image": "/images/products/gussets/pi-rail-frame.jpg",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -75,11 +265,11 @@
 				"Thickness": ["0.125\""]
 			},
 			"links": [
-				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/Drive-Rail-Frame-End-Gusset/p/114903910/category=41454018" }
+				{ "vendor": "Plummer Robotics", "link": "https://plummerindustries.com/robotics/shop#!/Drive-Rail-Frame-End-Gusset/p/114903910" }
 			]
 		}, {
-			"name": "PI T Gusset",
-			"image": "/images/gussets/pi-t.jpg",
+			"name": "PI T",
+			"image": "/images/products/gussets/pi-t.jpg",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -87,11 +277,11 @@
 				"Thickness": ["0.125\""]
 			},
 			"links": [
-				{ "vendor": "Plummer Robotics", "link": "http://plummerindustries.com/robotics/shop#!/T-Gusset/p/162011440/category=41454018" }
+				{ "vendor": "Plummer Robotics", "link": "https://plummerindustries.com/robotics/shop#!/T-Gusset/p/162011440" }
 			]
 		}, {
-			"name": "REV 135 Degree Bracket",
-			"image": "/images/gussets/rev-135.png",
+			"name": "REV 135",
+			"image": "/images/products/gussets/rev-135.png",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["#10"],
@@ -99,11 +289,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1574/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV 150 Degree Bracket",
-			"image": "/images/gussets/rev-150.png",
+			"name": "REV 150",
+			"image": "/images/products/gussets/rev-150.png",
 			"filters": {
 				"Type": ["150 Degree"],
 				"Hole Size": ["#10"],
@@ -111,11 +301,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1575/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
 			"name": "REV 15mm 12mm Ball Bearning Mount V2",
-			"image": "/images/gussets/rev-15-v2-bearing.png",
+			"image": "/images/products/gussets/rev-15-v2-bearing.png",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -123,11 +313,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1452/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm 30 Degree Bracket V2",
-			"image": "/images/gussets/rev-15-v2-30.png",
+			"name": "REV 15mm 30 V2",
+			"image": "/images/products/gussets/rev-15-v2-30.png",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["M3"],
@@ -135,12 +325,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-15-mm-30-degree-bracket-8-pack" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1476/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm 45 Degree Bracket V2",
-			"image": "/images/gussets/rev-15-v2-45.png",
+			"name": "REV 15mm 45 V2",
+			"image": "/images/products/gussets/rev-15-v2-45.png",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["M3"],
@@ -148,12 +337,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-15-mm-45-degree-bracket-8-pack" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1477/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm 60 Degree Bracket V2",
-			"image": "/images/gussets/rev-15-v2-60.png",
+			"name": "REV 15mm 60 V2",
+			"image": "/images/products/gussets/rev-15-v2-60.png",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["M3"],
@@ -161,12 +349,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-15-mm-60-degree-bracket-8-pack" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1478/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm 90 Degree Bracket V2",
-			"image": "/images/gussets/rev-15-90-2.png",
+			"name": "REV 15mm 90 V2",
+			"image": "/images/products/gussets/rev-15-90-2.png",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["M3"],
@@ -174,12 +361,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-15-mm-90-degree-bracket-8-pack" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1480/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Bent HD Motor Bracket V2",
-			"image": "/images/gussets/rev-15-v2-motor-bent-hd.png",
+			"name": "REV 15mm Bent HD Motor V2",
+			"image": "/images/products/gussets/rev-15-v2-motor-bent-hd.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["M3"],
@@ -187,11 +373,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1487/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Bent Motor Bracket V2",
-			"image": "/images/gussets/rev-15-v2-motor-bent.png",
+			"name": "REV 15mm Bent Motor V2",
+			"image": "/images/products/gussets/rev-15-v2-motor-bent.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["M3"],
@@ -199,11 +385,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1433/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Bent Servo Bracket V2",
-			"image": "/images/gussets/rev-15-v2-servo.png",
+			"name": "REV 15mm Bent Servo V2",
+			"image": "/images/products/gussets/rev-15-v2-servo.png",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -211,11 +397,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1485/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Cross Bracket V2",
-			"image": "/images/gussets/rev-15-v2-plus.png",
+			"name": "REV 15mm Cross V2",
+			"image": "/images/products/gussets/rev-15-v2-plus.png",
 			"filters": {
 				"Type": ["Plus"],
 				"Hole Size": ["M3"],
@@ -223,12 +409,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-15-mm-cross-bracket-8-pack" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1482/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Flat HD Motor Bracket V2",
-			"image": "/images/gussets/rev-15-v2-motor-flat-hd.png",
+			"name": "REV 15mm Flat HD Motor V2",
+			"image": "/images/products/gussets/rev-15-v2-motor-flat-hd.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["M3"],
@@ -236,11 +421,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1486/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Flat Servo Bracket V2",
-			"image": "/images/gussets/rev-15-v2-servo-flat.png",
+			"name": "REV 15mm Flat Servo V2",
+			"image": "/images/products/gussets/rev-15-v2-servo-flat.png",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -248,11 +433,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1484/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Inside Corner Bracket V2",
-			"image": "/images/gussets/rev-15-v2-inside-corner.png",
+			"name": "REV 15mm Inside Corner V2",
+			"image": "/images/products/gussets/rev-15-v2-inside-corner.png",
 			"filters": {
 				"Type": ["Corner"],
 				"Hole Size": ["M3"],
@@ -260,11 +445,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1479/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Offset Servo Bracket V2",
-			"image": "/images/gussets/rev-15-v2-servo-offset.png",
+			"name": "REV 15mm Offset Servo V2",
+			"image": "/images/products/gussets/rev-15-v2-servo-offset.png",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -272,11 +457,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1475/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic 120 Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-120.jpg",
+			"name": "REV 15mm Plastic 120",
+			"image": "/images/products/gussets/rev-plastic-15-120.jpg",
 			"filters": {
 				"Type": ["120 Degree"],
 				"Hole Size": ["M3"],
@@ -284,11 +469,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1311/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic 135 Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-135.jpg",
+			"name": "REV 15mm Plastic 135",
+			"image": "/images/products/gussets/rev-plastic-15-135.jpg",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["M3"],
@@ -296,11 +481,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1310/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic 150 Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-150.jpg",
+			"name": "REV 15mm Plastic 150",
+			"image": "/images/products/gussets/rev-plastic-15-150.jpg",
 			"filters": {
 				"Type": ["150 Degree"],
 				"Hole Size": ["M3"],
@@ -308,11 +493,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1312/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic 30 Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-30.jpg",
+			"name": "REV 15mm Plastic 30",
+			"image": "/images/products/gussets/rev-plastic-15-30.jpg",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["M3"],
@@ -320,11 +505,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1308/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic 45 Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-45.jpg",
+			"name": "REV 15mm Plastic 45",
+			"image": "/images/products/gussets/rev-plastic-15-45.jpg",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["M3"],
@@ -332,11 +517,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1307/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic 60 Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-60.jpg",
+			"name": "REV 15mm Plastic 60",
+			"image": "/images/products/gussets/rev-plastic-15-60.jpg",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["M3"],
@@ -344,11 +529,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1306/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic 90 Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-90.jpg",
+			"name": "REV 15mm Plastic 90",
+			"image": "/images/products/gussets/rev-plastic-15-90.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["M3"],
@@ -356,11 +541,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1305/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic Gearbox Motion Bracket ",
-			"image": "/images/gussets/rev-plastic-15-motion.jpg",
+			"name": "REV 15mm Plastic Gearbox Motion ",
+			"image": "/images/products/gussets/rev-plastic-15-motion.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -368,11 +553,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1315/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic Indexable Motion Bracket",
-			"image": "/images/gussets/rev-plastic-15-indexible.jpg",
+			"name": "REV 15mm Plastic Indexable Motion",
+			"image": "/images/products/gussets/rev-plastic-15-indexible.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -380,11 +565,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1313/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic Inside Corner Bracket",
-			"image": "/images/gussets/rev-plastic-15-corner.jpg",
+			"name": "REV 15mm Plastic Inside Corner",
+			"image": "/images/products/gussets/rev-plastic-15-corner.jpg",
 			"filters": {
 				"Type": ["Corner"],
 				"Hole Size": ["M3"],
@@ -392,11 +577,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1320/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic Motion Bracket",
-			"image": "/images/gussets/rev-plastic-15-motion2.jpg",
+			"name": "REV 15mm Plastic Motion",
+			"image": "/images/products/gussets/rev-plastic-15-motion2.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -404,11 +589,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1303/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic Rod End Bracket",
-			"image": "/images/gussets/rev-plastic-15-rod.jpg",
+			"name": "REV 15mm Plastic Rod End",
+			"image": "/images/products/gussets/rev-plastic-15-rod.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["M3"],
@@ -416,11 +601,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1304/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
 			"name": "REV 15mm Plastic Servo Mount Support",
-			"image": "/images/gussets/rev-plastic-15-servo.jpg",
+			"image": "/images/products/gussets/rev-plastic-15-servo.jpg",
 			"filters": {
 				"Type": ["Servo Mount"],
 				"Hole Size": ["M3"],
@@ -428,11 +613,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1319/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Plastic Variable Degree Bracket",
-			"image": "/images/gussets/rev-plastic-15-variable.jpg",
+			"name": "REV 15mm Plastic Variable",
+			"image": "/images/products/gussets/rev-plastic-15-variable.jpg",
 			"filters": {
 				"Type": ["Variable Degree"],
 				"Hole Size": ["M3"],
@@ -440,11 +625,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1318/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Plastic-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm T Bracket V2",
-			"image": "/images/gussets/rev-15-v2-t.png",
+			"name": "REV 15mm T V2",
+			"image": "/images/products/gussets/rev-15-v2-t.png",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["M3"],
@@ -452,12 +637,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-15-mm-t-bracket-8-pack" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1483/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 15mm Variable Angle Bracket V2",
-			"image": "/images/gussets/rev-15-v2-variable.png",
+			"name": "REV 15mm Variable Angle V2",
+			"image": "/images/products/gussets/rev-15-v2-variable.png",
 			"filters": {
 				"Type": ["Variable Degree"],
 				"Hole Size": ["M3"],
@@ -465,12 +649,11 @@
 				"Thickness": ["3mm"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rev-15-mm-variable-angle-bracket-8-pack" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1481/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-Metal-Brackets/" }
 			]
 		}, {
-			"name": "REV 30 Degree Bracket",
-			"image": "/images/gussets/rev-30.jpg",
+			"name": "REV 30",
+			"image": "/images/products/gussets/rev-30.jpg",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["#10"],
@@ -478,11 +661,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1570/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV 45 Degree Bracket",
-			"image": "/images/gussets/rev-45.jpg",
+			"name": "REV 45",
+			"image": "/images/products/gussets/rev-45.jpg",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["#10"],
@@ -490,11 +673,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1571/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV 60 Degree Bracket",
-			"image": "/images/gussets/rev-60.jpg",
+			"name": "REV 60",
+			"image": "/images/products/gussets/rev-60.jpg",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["#10"],
@@ -502,11 +685,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1572/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV 90 Degree Bracket",
-			"image": "/images/gussets/rev-90.jpg",
+			"name": "REV 90",
+			"image": "/images/products/gussets/rev-90.jpg",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -514,11 +697,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1580/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV Bearing Side Support Bracket",
-			"image": "/images/gussets/rev-side-bearing.jpg",
+			"name": "REV Bearing Side Support",
+			"image": "/images/products/gussets/rev-side-bearing.jpg",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["#10"],
@@ -526,11 +709,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1576/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV Bent Universal Motor Bracket",
-			"image": "/images/gussets/rev-bent-universal-motor.png",
+			"name": "REV Bent Universal Motor",
+			"image": "/images/products/gussets/rev-bent-universal-motor.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["#10"],
@@ -538,11 +721,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1578/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV Cross Bracket",
-			"image": "/images/gussets/rev-cross.jpg",
+			"name": "REV Cross",
+			"image": "/images/products/gussets/rev-cross.jpg",
 			"filters": {
 				"Type": ["Plus"],
 				"Hole Size": ["#10"],
@@ -550,11 +733,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1582/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV End Bearing Mount",
-			"image": "/images/gussets/rev-end-bearing.png",
+			"name": "REV End Bearing",
+			"image": "/images/products/gussets/rev-end-bearing.png",
 			"filters": {
 				"Type": ["Bearing Mount"],
 				"Hole Size": ["#10"],
@@ -562,23 +745,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1577/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV Inline Cylinder Mount",
-			"image": "/images/gussets/rev-inline-cylinder.jpg",
-			"filters": {
-				"Type": ["Cylinder Mount"],
-				"Hole Size": ["#10"],
-				"Hole Spacing": ["1\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/inline-cylinder-mount-bracket" }
-			]
-		}, {
-			"name": "REV Inside Corner Bracket",
-			"image": "/images/gussets/rev-corner.png",
+			"name": "REV Inside Corner",
+			"image": "/images/products/gussets/rev-corner.png",
 			"filters": {
 				"Type": ["Corner"],
 				"Hole Size": ["#10"],
@@ -586,11 +757,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1203/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-1203/" }
 			]
 		}, {
-			"name": "REV ION 120 Degree Gusset",
-			"image": "/images/gussets/rev-ion-120.webp",
+			"name": "REV ION 120",
+			"image": "/images/products/gussets/rev-ion-120.webp",
 			"filters": {
 				"Type": ["120 Degree"],
 				"Hole Size": ["#10"],
@@ -598,11 +769,11 @@
 				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV ION 135 Degree Gusset",
-			"image": "/images/gussets/rev-ion-135.webp",
+			"name": "REV ION 135",
+			"image": "/images/products/gussets/rev-ion-135.webp",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["#10"],
@@ -610,11 +781,11 @@
 				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV ION 150 Degree Gusset",
-			"image": "/images/gussets/rev-ion-150.webp",
+			"name": "REV ION 150",
+			"image": "/images/products/gussets/rev-ion-150.webp",
 			"filters": {
 				"Type": ["150 Degree"],
 				"Hole Size": ["#10"],
@@ -622,11 +793,11 @@
 				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV ION 180 Degree Gusset",
-			"image": "/images/gussets/rev-ion-180.webp",
+			"name": "REV ION 180",
+			"image": "/images/products/gussets/rev-ion-180.webp",
 			"filters": {
 				"Type": ["180 Degree"],
 				"Hole Size": ["#10"],
@@ -634,11 +805,11 @@
 				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV ION 30 Degree Gusset",
-			"image": "/images/gussets/rev-ion-30.webp",
+			"name": "REV ION 30",
+			"image": "/images/products/gussets/rev-ion-30.webp",
 			"filters": {
 				"Type": ["30 Degree"],
 				"Hole Size": ["#10"],
@@ -646,11 +817,11 @@
 				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV ION 45 Degree Gusset",
-			"image": "/images/gussets/rev-ion-45.webp",
+			"name": "REV ION 45",
+			"image": "/images/products/gussets/rev-ion-45.webp",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["#10"],
@@ -658,11 +829,11 @@
 				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV ION 60 Degree Gusset",
-			"image": "/images/gussets/rev-ion-60.webp",
+			"name": "REV ION 60",
+			"image": "/images/products/gussets/rev-ion-60.webp",
 			"filters": {
 				"Type": ["60 Degree"],
 				"Hole Size": ["#10"],
@@ -670,11 +841,23 @@
 				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV ION 90 Degree Gusset",
-			"image": "/images/gussets/rev-ion-90.webp",
+			"name": "REV ION 90",
+			"image": "/images/products/gussets/rev-ion-90.webp",
+			"filters": {
+				"Type": ["90 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
+			]
+		}, {
+			"name": "REV ION 90 Degree Sharp Interior",
+			"image": "/images/products/gussets/rev-ion-90-sharp.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -685,20 +868,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
 			]
 		}, {
-			"name": "REV ION 90 Degree Sharp Interior Gusset",
-			"image": "/images/gussets/rev-ion-90-sharp.webp",
-			"filters": {
-				"Type": ["90 Degree"],
-				"Hole Size": ["#10"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.1\""]
-			},
-			"links": [
-				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
-			]
-		}, {
-			"name": "REV ION External 3-4-5 Shallow Gusset",
-			"image": "/images/gussets/rev-ion-143.webp",
+			"name": "REV ION External 3-4-5 Shallow",
+			"image": "/images/products/gussets/rev-ion-143.webp",
 			"filters": {
 				"Type": ["143 Degree"],
 				"Hole Size": ["#10"],
@@ -709,8 +880,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
 			]
 		}, {
-			"name": "REV ION External 3-4-5 Steep Gusset",
-			"image": "/images/gussets/rev-ion-127.webp",
+			"name": "REV ION External 3-4-5 Steep",
+			"image": "/images/products/gussets/rev-ion-127.webp",
 			"filters": {
 				"Type": ["127 Degree"],
 				"Hole Size": ["#10"],
@@ -721,8 +892,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
 			]
 		}, {
-			"name": "REV ION Internal 3-4-5 Shallow Gusset",
-			"image": "/images/gussets/rev-ion-37.png",
+			"name": "REV ION Internal 3-4-5 Shallow",
+			"image": "/images/products/gussets/rev-ion-37.png",
 			"filters": {
 				"Type": ["37 Degree"],
 				"Hole Size": ["#10"],
@@ -733,8 +904,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
 			]
 		}, {
-			"name": "REV ION Internal 3-4-5 Steep Gusset",
-			"image": "/images/gussets/rev-ion-53.webp",
+			"name": "REV ION Internal 3-4-5 Steep",
+			"image": "/images/products/gussets/rev-ion-53.webp",
 			"filters": {
 				"Type": ["53 Degree"],
 				"Hole Size": ["#10"],
@@ -745,8 +916,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
 			]
 		}, {
-			"name": "REV ION MAXSpline Bracket - MAX Pattern T",
-			"image": "/images/gussets/rev-ion-maxspline-t.webp",
+			"name": "REV ION MAXSpline - MAX Pattern T",
+			"image": "/images/products/gussets/rev-ion-maxspline-t.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -757,8 +928,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXSpline-Brackets/" }
 			]
 		}, {
-			"name": "REV ION MAXSpline Bracket - Offset Mount",
-			"image": "/images/gussets/rev-maxspline-offset.webp",
+			"name": "REV ION MAXSpline - Offset Mount",
+			"image": "/images/products/gussets/rev-maxspline-offset.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -769,8 +940,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXSpline-Brackets/" }
 			]
 		}, {
-			"name": "REV ION MAXSpline Bracket - Parallel Top Mount",
-			"image": "/images/gussets/rev-maxspline-parallel-top.webp",
+			"name": "REV ION MAXSpline - Parallel Top Mount",
+			"image": "/images/products/gussets/rev-maxspline-parallel-top.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -781,8 +952,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXSpline-Brackets/" }
 			]
 		}, {
-			"name": "REV ION MAXSpline Bracket - Stacked",
-			"image": "/images/gussets/rev-maxspline-stacked.webp",
+			"name": "REV ION MAXSpline - Stacked",
+			"image": "/images/products/gussets/rev-maxspline-stacked.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -794,7 +965,7 @@
 			]
 		}, {
 			"name": "REV ION Ratio Plates (2:1, 3:1, 4:1)",
-			"image": "/images/gussets/rev-ion-ratio-plates.webp",
+			"image": "/images/products/gussets/rev-ion-ratio-plates.webp",
 			"filters": {
 				"Type": ["MAXSpline Mount"],
 				"Hole Size": ["#10"],
@@ -805,8 +976,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ratio-plates/" }
 			]
 		}, {
-			"name": "REV ION T Gusset",
-			"image": "/images/gussets/rev-ion-t.webp",
+			"name": "REV ION T",
+			"image": "/images/products/gussets/rev-ion-t.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -817,8 +988,8 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-brackets/" }
 			]
 		}, {
-			"name": "REV ION T Sharp Interior Gusset",
-			"image": "/images/gussets/rev-ion-t-sharp.webp",
+			"name": "REV ION T Sharp Interior",
+			"image": "/images/products/gussets/rev-ion-t-sharp.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -830,7 +1001,7 @@
 			]
 		}, {
 			"name": "REV Joiner Plate",
-			"image": "/images/gussets/rev-joiner.png",
+			"image": "/images/products/gussets/rev-joiner.png",
 			"filters": {
 				"Type": ["Joiner"],
 				"Hole Size": ["#10"],
@@ -838,11 +1009,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1583/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
 			"name": "REV T-Gusset Plate",
-			"image": "/images/gussets/rev-t.jpg",
+			"image": "/images/products/gussets/rev-t.jpg",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -850,23 +1021,11 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1008/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/1in-Brackets/" }
 			]
 		}, {
-			"name": "REV Transverse Cylinder Mount",
-			"image": "/images/gussets/rev-cylinder.jpg",
-			"filters": {
-				"Type": ["Cylinder Mount"],
-				"Hole Size": ["#10"],
-				"Hole Spacing": ["1\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/transverse-cylinder-mount-bracket" }
-			]
-		}, {
-			"name": "REV Universal Motor Bracket",
-			"image": "/images/gussets/rev-universal-motor-flat.png",
+			"name": "REV Universal Motor",
+			"image": "/images/products/gussets/rev-universal-motor-flat.png",
 			"filters": {
 				"Type": ["Motor Mount"],
 				"Hole Size": ["#10"],
@@ -874,35 +1033,35 @@
 				"Thickness": ["0.09\""]
 			},
 			"links": [
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1579/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Motor-Brackets/" }
 			]
 		}, {
-			"name": "The Thrifty Bot 90 Degree",
-			"image": "/images/gussets/tb-90.jpg",
-			"filters": {
-				"Type": ["90 Degree"],
-				"Hole Size": ["#8"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.098\""]
-			},
-			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-8-Aluminum-L-Gussets-p154373087" }
-			]
-		}, {
-			"name": "The Thrifty Bot T",
-			"image": "/images/gussets/tb-t.jpg",
+			"name": "Swyft T, 1\"",
+			"image": "/images/products/gussets/swyft-t-1.webp",
 			"filters": {
 				"Type": ["T"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.098\""]
+				"Thickness": ["0.15\""]
 			},
 			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-8-Aluminum-T-Gussets-p161114625" }
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/swyft-tube-connectors?variant=50935003611430" }
 			]
 		}, {
-			"name": "TTB 135 Gusset 5mm Holes",
-			"image": "/images/gussets/ttb-135-5mm.webp",
+			"name": "Swyft T, 2\"",
+			"image": "/images/products/gussets/swyft-t-2.webp",
+			"filters": {
+				"Type": ["T"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.15\""]
+			},
+			"links": [
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/swyft-tube-connectors?variant=50935003644198" }
+			]
+		}, {
+			"name": "TTB 135 5mm Holes",
+			"image": "/images/products/gussets/ttb-135-5mm.webp",
 			"filters": {
 				"Type": ["135 Degree"],
 				"Hole Size": ["#10"],
@@ -913,8 +1072,8 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-aluminum-135-degree-gussets-5mm-hole-size" }
 			]
 		}, {
-			"name": "TTB 45 Gusset 5mm Holes",
-			"image": "/images/gussets/ttb-45-5mm.webp",
+			"name": "TTB 45 5mm Holes",
+			"image": "/images/products/gussets/ttb-45-5mm.webp",
 			"filters": {
 				"Type": ["45 Degree"],
 				"Hole Size": ["#10"],
@@ -925,8 +1084,32 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-aluminum-45-degree-gussets-5mm-hole-size" }
 			]
 		}, {
-			"name": "TTB Joiner Gusset 5mm Holes",
-			"image": "/images/gussets/ttb-joiner-5mm.webp",
+			"name": "TTB 90 #8 Holes",
+			"image": "/images/products/gussets/tb-90.jpg",
+			"filters": {
+				"Type": ["90 Degree"],
+				"Hole Size": ["#8"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.098\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-8-aluminum-l-gussets" }
+			]
+		}, {
+			"name": "TTB Bearing Megaplate 5mm Holes",
+			"image": "/images/products/gussets/ttb-bearing-megaplate-5mm.webp",
+			"filters": {
+				"Type": ["Bearing Mount"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.25\""],
+				"Thickness": ["0.16\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-thrifty-bearing-megaplate" }
+			]
+		}, {
+			"name": "TTB Joiner 5mm Holes",
+			"image": "/images/products/gussets/ttb-joiner-5mm.webp",
 			"filters": {
 				"Type": ["Joiner"],
 				"Hole Size": ["#10"],
@@ -937,8 +1120,8 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-aluminum-180-degree-gussets-5mm-hole-size" }
 			]
 		}, {
-			"name": "TTB L Gusset 5mm Holes",
-			"image": "/images/gussets/ttb-90-5mm.webp",
+			"name": "TTB L 5mm Holes",
+			"image": "/images/products/gussets/ttb-90-5mm.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -949,8 +1132,8 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-aluminum-big-l-gussets-5mm-hole-size" }
 			]
 		}, {
-			"name": "TTB L Sharp Interior Gusset 5mm Holes",
-			"image": "/images/gussets/ttb-90-sharp-5mm.webp",
+			"name": "TTB L Sharp Interior 5mm Holes",
+			"image": "/images/products/gussets/ttb-90-sharp-5mm.webp",
 			"filters": {
 				"Type": ["90 Degree"],
 				"Hole Size": ["#10"],
@@ -961,8 +1144,32 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-8-aluminum-l-gussets-5mm-hole-size" }
 			]
 		}, {
-			"name": "TTB T Gusset 5mm Holes",
-			"image": "/images/gussets/ttb-t-5mm.webp",
+			"name": "TTB Motor Megaplate 5mm Holes",
+			"image": "/images/products/gussets/ttb-motor-mega-plate-5mm.webp",
+			"filters": {
+				"Type": ["Motor Mount"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.25\""],
+				"Thickness": ["0.16\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-thrifty-motor-megaplate" }
+			]
+		}, {
+			"name": "TTB T #8 Holes",
+			"image": "/images/products/gussets/tb-t.jpg",
+			"filters": {
+				"Type": ["T"],
+				"Hole Size": ["#8"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.098\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-8-aluminum-t-gussets" }
+			]
+		}, {
+			"name": "TTB T 5mm Holes",
+			"image": "/images/products/gussets/ttb-t-5mm.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -973,8 +1180,8 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-aluminum-big-t-gussets-5mm-hole-size" }
 			]
 		}, {
-			"name": "TTB T Sharp Interior Gusset 5mm Holes",
-			"image": "/images/gussets/ttb-t-sharp-5mm.webp",
+			"name": "TTB T Sharp Interior 5mm Holes",
+			"image": "/images/products/gussets/ttb-t-sharp-5mm.webp",
 			"filters": {
 				"Type": ["T"],
 				"Hole Size": ["#10"],
@@ -985,256 +1192,232 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-8-aluminum-t-gussets-5mm-hole-size" }
 			]
 		}, {
-			"name": "VersaChassis Gusset",
-			"image": "/images/gussets/vex-short-t.png",
-			"filters": {
-				"Type": ["T"],
-				"Hole Size": ["#8"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
-			]
-		}, {
-			"name": "VersaFrame 1\" Wide VersaPlanetary Parallel Mount",
-			"image": "/images/gussets/vex-parallel-motor-1.jpg",
-			"filters": {
-				"Type": ["Motor Mount"],
-				"Hole Size": ["#8"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
-			]
-		}, {
-			"name": "VersaFrame 120 Degree Gusset",
-			"image": "/images/gussets/vex-120.jpg",
-			"filters": {
-				"Type": ["120 Degree"],
-				"Hole Size": ["#8"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
-			]
-		}, {
-			"name": "VersaFrame 135 Degree Gusset",
-			"image": "/images/gussets/vex-135.jpg",
-			"filters": {
-				"Type": ["135 Degree"],
-				"Hole Size": ["#8"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
-			]
-		}, {
-			"name": "VersaFrame 150 Degree Gusset",
-			"image": "/images/gussets/vex-150.jpg",
-			"filters": {
-				"Type": ["150 Degree"],
-				"Hole Size": ["#8"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
-			]
-		}, {
-			"name": "VersaFrame 2\" Wide VersaPlanetary Parallel Mount",
-			"image": "/images/gussets/vex-parallel-motor-2.jpg",
-			"filters": {
-				"Type": ["Motor Mount"],
-				"Hole Size": ["#8"],
-				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
-			]
-		}, {
-			"name": "VersaFrame 30 Degree Gusset",
-			"image": "/images/gussets/vex-30.jpg",
+			"name": "WCP 30",
+			"image": "/images/products/gussets/wcp-30.webp",
 			"filters": {
 				"Type": ["30 Degree"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame 45 Degree Gusset",
-			"image": "/images/gussets/vex-45.jpg",
+			"name": "WCP 45",
+			"image": "/images/products/gussets/wcp-45.webp",
 			"filters": {
 				"Type": ["45 Degree"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame 60 Degree Gusset",
-			"image": "/images/gussets/vex-60.jpg",
+			"name": "WCP 60",
+			"image": "/images/products/gussets/wcp-60.webp",
 			"filters": {
 				"Type": ["60 Degree"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame 90 Degree Gusset",
-			"image": "/images/gussets/vex-90.jpg",
+			"name": "WCP 90",
+			"image": "/images/products/gussets/wcp-90.webp",
 			"filters": {
 				"Type": ["90 Degree"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame Corner Gusset",
-			"image": "/images/gussets/vex-corner.jpg",
+			"name": "WCP 90 Elevator",
+			"image": "/images/products/gussets/wcp-90-eleveator.webp",
 			"filters": {
-				"Type": ["Corner", "Motor Mount"],
-				"Hole Size": ["#8"],
+				"Type": ["90 Degree"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame End Bearing Mount",
-			"image": "/images/gussets/vex-end-bearing.jpg",
+			"name": "WCP 90 Sharp",
+			"image": "/images/products/gussets/wcp-90-sharp.webp",
+			"filters": {
+				"Type": ["90 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
+			]
+		}, {
+			"name": "WCP 120",
+			"image": "/images/products/gussets/wcp-120.webp",
+			"filters": {
+				"Type": ["120 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
+			]
+		}, {
+			"name": "WCP 135",
+			"image": "/images/products/gussets/wcp-135.webp",
+			"filters": {
+				"Type": ["135 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
+			]
+		}, {
+			"name": "WCP 150",
+			"image": "/images/products/gussets/wcp-150.webp",
+			"filters": {
+				"Type": ["150 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
+			]
+		}, {
+			"name": "WCP Bearing Plate",
+			"image": "/images/products/gussets/wcp-bearing.webp",
 			"filters": {
 				"Type": ["Bearing Mount"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame Face Bearing Mount",
-			"image": "/images/gussets/vex-face-bearing.jpg",
+			"name": "WCP External 3-4-5 Shallow",
+			"image": "/images/products/gussets/wcp-143.webp",
 			"filters": {
-				"Type": ["Bearing Mount"],
-				"Hole Size": ["#8"],
+				"Type": ["143 Degree"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame Plus Gusset",
-			"image": "/images/gussets/vex-plus.jpg",
+			"name": "WCP External 3-4-5 Steep",
+			"image": "/images/products/gussets/wcp-127.webp",
+			"filters": {
+				"Type": ["127 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
+			]
+		}, {
+			"name": "WCP Internal 3-4-5 Shallow",
+			"image": "/images/products/gussets/wcp-37.webp",
+			"filters": {
+				"Type": ["37 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
+			]
+		}, {
+			"name": "WCP Internal 3-4-5 Steep",
+			"image": "/images/products/gussets/wcp-53.webp",
+			"filters": {
+				"Type": ["53 Degree"],
+				"Hole Size": ["#10"],
+				"Hole Spacing": ["0.5\""],
+				"Thickness": ["0.1\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
+			]
+		}, {
+			"name": "WCP Plus",
+			"image": "/images/products/gussets/wcp-plus.webp",
 			"filters": {
 				"Type": ["Plus"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame Side Bearing Mount",
-			"image": "/images/gussets/vex-side-bearing.jpg",
+			"name": "WCP Straight",
+			"image": "/images/products/gussets/wcp-straight.webp",
 			"filters": {
-				"Type": ["Bearing Mount"],
-				"Hole Size": ["#8"],
+				"Type": ["180 Degree"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame T Gusset",
-			"image": "/images/gussets/vex-t.jpg",
+			"name": "WCP T",
+			"image": "/images/products/gussets/wcp-t.webp",
 			"filters": {
 				"Type": ["T"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame VersaPlanetary Face Mount",
-			"image": "/images/gussets/vex-face-motor.jpg",
+			"name": "WCP T Sharp",
+			"image": "/images/products/gussets/wcp-t-sharp.webp",
 			"filters": {
-				"Type": ["Motor Mount"],
-				"Hole Size": ["#8"],
+				"Type": ["T"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}, {
-			"name": "VersaFrame VersaPlanetary Side Mount",
-			"image": "/images/gussets/vex-side-motor.jpg",
+			"name": "WCP Universal Motor Plate",
+			"image": "/images/products/gussets/wcp-motor.webp",
 			"filters": {
 				"Type": ["Motor Mount"],
-				"Hole Size": ["#8"],
+				"Hole Size": ["#10"],
 				"Hole Spacing": ["0.5\""],
-				"Thickness": ["0.09\""]
+				"Thickness": ["0.1\""]
 			},
 			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1875" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/versaframe/versaframegussetsandmounts.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/versaframe" }
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gussets" }
 			]
 		}
 	]

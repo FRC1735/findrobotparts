@@ -1,13 +1,11 @@
 {
 	"title": "Shaft Collars",
-	"pathname": "shaftcollars",
-	"description": "<p>Use shaft collars to keep a wheel or other mechanism in place on a shaft. </p>",
-	"image_slug": "shaftcollar",
+	"description": "<p>Shaft collars secure components along a shaft, keeping bearings, gears, and pulleys properly spaced. Set-screw and clamping styles prevent unwanted movement and simplify adjustments. They’re inexpensive, versatile parts that help maintain mechanical alignment and reduce wear.</p>",
 	"filter_groups": ["Bore", "OD", "Type", "Width", "Material"],
 	"products": [
 		{
 			"name": "1/2\" Hex 2 Piece Clamp Collar",
-			"image": "/images/shaftcollars/tb-500-hex.jpg",
+			"image": "/images/products/shaftcollars/tb-500-hex.jpg",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
 				"OD": ["1.125\""],
@@ -16,77 +14,63 @@
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/bearings/QTY-5-Aluminum-1-2-Inch-Hex-Bore-Split-Clamping-Collar-p141851806" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-5-aluminum-1-2-inch-hex-bore-split-clamping-collar" }
 			]
 		}, {
 			"name": "AM 1/2\"",
-			"image": "/images/shaftcollars/am-500.jpg",
+			"image": "/images/products/shaftcollars/am-500.jpg",
 			"filters": {
 				"Bore": ["0.5\""],
-				"OD": ["1.125\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.41\""],
+				"OD": ["1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/collar-clamp-1-2-in-bore-aluminum" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-round-collar-clamps" }
 			]
 		}, {
 			"name": "AM 1/2\" Hex",
-			"image": "/images/shaftcollars/am-500-hex.jpg",
+			"image": "/images/products/shaftcollars/am-500-hex.jpg",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
-				"OD": ["1.11\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.37\""],
+				"OD": ["1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/collar-clamp-1-2-in-hex-bore-aluminum" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/collar-clamp-1-2-inch-hex-bore-aluminum.html" }
-			]
-		}, {
-			"name": "AM 1/2\" Thin",
-			"image": "/images/shaftcollars/am-500-thin.jpg",
-			"filters": {
-				"Bore": ["0.5\""],
-				"OD": ["1.0\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.25\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/0-5-in-round-thin-line-collar-clamp" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shaft-collars/products/1-2-in-hex-collar-clamps" }
 			]
 		}, {
 			"name": "AM 3/8\"",
-			"image": "/images/shaftcollars/am-375.jpg",
+			"image": "/images/products/shaftcollars/am-375.jpg",
 			"filters": {
 				"Bore": ["0.375\""],
-				"OD": ["0.938\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.313\""],
+				"OD": ["0.875\"", "1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/collar-clamp-3-8-in-bore-aluminum" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shaft-collars/products/3-8-in-round-collar-clamps" }
 			]
 		}, {
 			"name": "AM 3/8\" Hex",
-			"image": "/images/shaftcollars/am-375-hex.jpg",
+			"image": "/images/products/shaftcollars/am-375-hex.jpg",
 			"filters": {
 				"Bore": ["0.375\" Hex"],
-				"OD": ["0.875\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.3\""],
+				"OD": ["0.875\"", "1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/collar-clamp-3-8-in-hex-bore-aluminum" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shaft-collars/products/3-8-in-hex-collar-clamps" }
 			]
 		}, {
 			"name": "AM 8mm",
-			"image": "/images/shaftcollars/am-8mm.jpg",
+			"image": "/images/products/shaftcollars/am-8mm.jpg",
 			"filters": {
 				"Bore": ["8mm"],
 				"OD": ["0.688\""],
@@ -98,77 +82,47 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/collar-clamp-5-16-in-bore-aluminum" }
 			]
 		}, {
-			"name": "AM Two-Piece",
-			"image": "/images/shaftcollars/am-two-piece.jpg",
+			"name": "McMaster Round",
+			"image": "/images/products/shaftcollars/mcmaster-round.png",
 			"filters": {
-				"Bore": ["Blank", "0.375\"", "0.375\" Hex", "0.5\"", "0.5\" Hex"],
-				"OD": ["0.94\""],
-				"Type": ["Two-Piece"],
-				"Width": ["0.375\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/categories/shaft-collars" }
-			]
-		}, {
-			"name": "McMaster 1/2\"",
-			"image": "/images/shaftcollars/mcmaster-round.png",
-			"filters": {
-				"Bore": ["0.5\""],
+				"Bore": ["0.375\"", "0.5\" Hex"],
 				"OD": ["1.125\""],
 				"Type": ["One-Piece", "Two-Piece"],
 				"Width": ["0.406\""],
 				"Material": ["Aluminum", "Black-Oxide Steel", "Stainless Steel", "Zinc Plated Steel"]
 			},
 			"links": [
-				{ "vendor": "McMaster (one-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128kpll" },
-				{ "vendor": "McMaster (two-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128kr91" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/shaft-collars/shaft-type~round/shaft-collars-1~/" }
 			]
 		}, {
-			"name": "McMaster 1/2\" Hex",
-			"image": "/images/shaftcollars/mcmaster-hex.png",
+			"name": "McMaster Hex",
+			"image": "/images/products/shaftcollars/mcmaster-hex.png",
 			"filters": {
-				"Bore": ["0.5\" Hex"],
+				"Bore": ["0.375\"", "0.5\" Hex"],
 				"OD": ["1.25\""],
 				"Type": ["One-Piece", "Two-Piece"],
 				"Width": ["0.375\""],
 				"Material": ["Black-Oxide Steel", "Stainless Steel"]
 			},
 			"links": [
-				{ "vendor": "McMaster (one-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128ko6r" },
-				{ "vendor": "McMaster (two-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128kqzq" }
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/shaft-collars/shaft-type~hex/" }
 			]
 		}, {
-			"name": "McMaster 3/8\"",
-			"image": "/images/shaftcollars/mcmaster-round.png",
+			"name": "REV Glass Nylon",
+			"image": "/images/products/shaftcollars/rev-glass-nylon.webp",
 			"filters": {
-				"Bore": ["0.375\""],
-				"OD": ["0.875\""],
+				"Bore": ["0.5\" Hex"],
+				"OD": ["1.38\""],
 				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.375\""],
-				"Material": ["Aluminum", "Black-Oxide Steel", "Stainless Steel", "Zinc Plated Steel"]
+				"Width": ["0.5\""],
+				"Material": ["Glass Filled Nylon"]
 			},
 			"links": [
-				{ "vendor": "McMaster (one-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128kpll" },
-				{ "vendor": "McMaster (two-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128kr91" }
-			]
-		}, {
-			"name": "McMaster 3/8\" Hex",
-			"image": "/images/shaftcollars/mcmaster-hex.png",
-			"filters": {
-				"Bore": ["0.375\" Hex"],
-				"OD": ["1.0625\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.3125\""],
-				"Material": ["Black-Oxide Steel", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "McMaster (one-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128ko6r" },
-				{ "vendor": "McMaster (two-piece)", "link": "http://www.mcmaster.com/#shaft-collars/=128kqzq" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/Shaft-Collars-0.5in-Hex-Bore/" }
 			]
 		}, {
 			"name": "REV MAXSpline",
-			"image": "/images/shaftcollars/rev-maxspline.webp",
+			"image": "/images/products/shaftcollars/rev-maxspline.webp",
 			"filters": {
 				"Bore": ["MAXSpline"],
 				"OD": ["2.65\""],
@@ -180,489 +134,91 @@
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2581/" }
 			]
 		}, {
-			"name": "Ruland 1/2\"",
-			"image": "/images/shaftcollars/ruland-500.jpg",
-			"filters": {
-				"Bore": ["0.5\""],
-				"OD": ["1.125\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["1.281\""],
-				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 1/2\" Hex",
-			"image": "/images/shaftcollars/ruland-500-hex.jpg",
+			"name": "REV Narrow",
+			"image": "/images/products/shaftcollars/rev-narrow.jpg",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
-				"OD": ["1.125\""],
+				"OD": ["1.1\""],
+				"Type": ["One-Piece"],
+				"Width": ["0.25\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/Shaft-Collars-0.5in-Hex-Bore/" }
+			]
+		}, {
+			"name": "Ruland Round",
+			"image": "/images/products/shaftcollars/ruland-500.jpg",
+			"filters": {
+				"Bore": ["0.375\"", "0.5\""],
+				"OD": ["0.875\"", "1.125\""],
 				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.406\""],
+				"Width": ["0.343\"", "0.406\""],
+				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
+			},
+			"links": [
+				{ "vendor": "Ruland", "link": "https://www.ruland.com/shaft-collars.html?bore_b1=3733%2C3738&bore_style=14891%2C14892" }
+			]
+		}, {
+			"name": "Ruland Hex",
+			"image": "/images/products/shaftcollars/ruland-500-hex.jpg",
+			"filters": {
+				"Bore": ["0.375\" Hex", "0.5\" Hex"],
+				"OD": ["0.875\"", "1.125\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.343\"", "0.406\""],
 				"Material": ["Aluminum", "Stainless Steel", "Steel"]
 			},
 			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar.html" }
-			]
-		}, {
-			"name": "Ruland 1/2\" Thin",
-			"image": "/images/shaftcollars/ruland-500.jpg",
-			"filters": {
-				"Bore": ["0.5\""],
-				"OD": ["0.984\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.236\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 1/2\" Thin",
-			"image": "/images/shaftcollars/ruland-500.jpg",
-			"filters": {
-				"Bore": ["0.5\""],
-				"OD": ["1.181\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.315\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 1/2\" Thin",
-			"image": "/images/shaftcollars/ruland-500.jpg",
-			"filters": {
-				"Bore": ["0.5\""],
-				"OD": ["1.378\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.315\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 1/4\"",
-			"image": "/images/shaftcollars/ruland-250.jpg",
-			"filters": {
-				"Bore": ["0.25\""],
-				"OD": ["0.625\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.773\""],
-				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 1/4\" Thin",
-			"image": "/images/shaftcollars/ruland-250.jpg",
-			"filters": {
-				"Bore": ["0.25\""],
-				"OD": ["0.787\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.217\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 1/4\" Thin",
-			"image": "/images/shaftcollars/ruland-250.jpg",
-			"filters": {
-				"Bore": ["0.25\""],
-				"OD": ["0.984\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.236\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 1/4\" Thin",
-			"image": "/images/shaftcollars/ruland-250.jpg",
-			"filters": {
-				"Bore": ["0.25\""],
-				"OD": ["1.181\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.315\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 3/4\"",
-			"image": "/images/shaftcollars/ruland-750.jpg",
-			"filters": {
-				"Bore": ["0.75\""],
-				"OD": ["1.5\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["1.808\""],
-				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 3/4\" Thin",
-			"image": "/images/shaftcollars/ruland-750.jpg",
-			"filters": {
-				"Bore": ["0.75\""],
-				"OD": ["1.378\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.315\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 3/8\"",
-			"image": "/images/shaftcollars/ruland-375.jpg",
-			"filters": {
-				"Bore": ["0.375\""],
-				"OD": ["0.875\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["1.027\""],
-				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 3/8\" Hex",
-			"image": "/images/shaftcollars/ruland-375-hex.jpg",
-			"filters": {
-				"Bore": ["0.375\" Hex"],
-				"OD": ["0.875\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.343\""],
-				"Material": ["Aluminum", "Stainless Steel", "Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar.html" }
-			]
-		}, {
-			"name": "Ruland 3/8\" Thin",
-			"image": "/images/shaftcollars/ruland-375.jpg",
-			"filters": {
-				"Bore": ["0.375\""],
-				"OD": ["0.787\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.217\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 3/8\" Thin",
-			"image": "/images/shaftcollars/ruland-375.jpg",
-			"filters": {
-				"Bore": ["0.375\""],
-				"OD": ["0.984\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.236\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 3/8\" Thin",
-			"image": "/images/shaftcollars/ruland-375.jpg",
-			"filters": {
-				"Bore": ["0.375\""],
-				"OD": ["1.181\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.315\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 3mm, 4mm, 5mm, 6mm",
-			"image": "/images/shaftcollars/ruland-mm.jpg",
-			"filters": {
-				"Bore": ["3mm", "4mm", "5mm", "6mm"],
-				"OD": ["16mm"],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["9mm"],
-				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/mcl-metric.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/msp-metric.html" }
-			]
-		}, {
-			"name": "Ruland 5/8\" Thin",
-			"image": "/images/shaftcollars/ruland-500.jpg",
-			"filters": {
-				"Bore": ["0.625\""],
-				"OD": ["1.181\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.315\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 5/8\" Thin",
-			"image": "/images/shaftcollars/ruland-500.jpg",
-			"filters": {
-				"Bore": ["0.625\""],
-				"OD": ["1.378\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.315\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 5/8\" Thin",
-			"image": "/images/shaftcollars/ruland-500.jpg",
-			"filters": {
-				"Bore": ["0.625\""],
-				"OD": ["1.772\""],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["0.394\""],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/cl-inch.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/sp-inch.html" }
-			]
-		}, {
-			"name": "Ruland 5mm Thin",
-			"image": "/images/shaftcollars/ruland-mm.jpg",
-			"filters": {
-				"Bore": ["5mm"],
-				"OD": ["20mm", "25mm"],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["5.5mm", "6mm"],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/mcl-metric.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/msp-metric.html" }
-			]
-		}, {
-			"name": "Ruland 6mm, 8mm, 10mm Thin",
-			"image": "/images/shaftcollars/ruland-mm.jpg",
-			"filters": {
-				"Bore": ["6mm", "8mm", "10mm"],
-				"OD": ["20mm", "25mm", "30mm"],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["5.5mm", "6mm", "8mm"],
-				"Material": ["Aluminum", "Stainless Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/mcl-metric.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/msp-metric.html" }
-			]
-		}, {
-			"name": "Ruland 7mm, 8mm",
-			"image": "/images/shaftcollars/ruland-mm.jpg",
-			"filters": {
-				"Bore": ["7mm", "8mm"],
-				"OD": ["18mm"],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["9mm"],
-				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/mcl-metric.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/msp-metric.html" }
-			]
-		}, {
-			"name": "Ruland 9mm, 10mm",
-			"image": "/images/shaftcollars/ruland-mm.jpg",
-			"filters": {
-				"Bore": ["9mm", "10mm"],
-				"OD": ["24mm"],
-				"Type": ["One-Piece", "Two-Piece"],
-				"Width": ["9mm"],
-				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
-			},
-			"links": [
-				{ "vendor": "Ruland (one-piece)", "link": "https://www.ruland.com/shaft-collars/one-piece-shaft-collar/mcl-metric.html" },
-				{ "vendor": "Ruland (two-piece)", "link": "https://www.ruland.com/shaft-collars/two-piece-shaft-collar/msp-metric.html" }
+				{ "vendor": "Ruland", "link": "https://www.ruland.com/shaft-collars/hex-and-d-bore-shaft-collar.html?bore_b1=3733%2C3738&product_list_limit=24" }
 			]
 		}, {
 			"name": "Swyft 1/2\"",
-			"image": "/images/shaftcollars/swyft-500.jpg",
+			"image": "/images/products/shaftcollars/swyft-500-hex.jpg",
 			"filters": {
-				"Bore": ["0.5\""],
-				"OD": ["1.125\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.4\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/shaft-collars/" }
-			]
-		}, {
-			"name": "Swyft 1/2\" Hex",
-			"image": "/images/shaftcollars/swyft-500-hex.jpg",
-			"filters": {
-				"Bore": ["0.5\" Hex"],
+				"Bore": ["0.5\"", "0.5\" Hex", "0.375\" Hex"],
 				"OD": ["1.125\""],
 				"Type": ["One-Piece", "Two-Piece"],
 				"Width": ["0.4\""],
 				"Material": ["Aluminum"]
 			},
 			"links": [
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/shaft-collars/" }
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/shaft-collars" }
 			]
 		}, {
-			"name": "Swyft 3/8\"",
-			"image": "/images/shaftcollars/swyft-375.jpg",
-			"filters": {
-				"Bore": ["0.375\"", "0.375\" Hex"],
-				"OD": ["0.875\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.335\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/shaft-collars/" }
-			]
-		}, {
-			"name": "VEX 1/2\"",
-			"image": "/images/shaftcollars/vex-500-hex.jpg",
-			"filters": {
-				"Bore": ["0.5\"", "0.5\" Hex"],
-				"OD": ["1.0\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.25\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1894" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/hardware/shaft-collars.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
-			]
-		}, {
-			"name": "VEX 3/8\"",
-			"image": "/images/shaftcollars/vex-375-hex.jpg",
-			"filters": {
-				"Bore": ["0.375\"", "0.375\" Hex"],
-				"OD": ["0.875\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.25\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1894" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/hardware/shaft-collars.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
-			]
-		}, {
-			"name": "VEX 8mm",
-			"image": "/images/shaftcollars/vex-8mm.jpg",
-			"filters": {
-				"Bore": ["8mm"],
-				"OD": ["0.709\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.25\""],
-				"Material": ["Aluminum"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1894" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/hardware/shaft-collars.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
-			]
-		}, {
-			"name": "VEX EDR Clamping 1/4\" Square",
-			"image": "/images/shaftcollars/vexedr-clamping-250.jpg",
-			"filters": {
-				"Bore": ["1/4\" Square"],
-				"OD": ["0.8\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.5\""],
-				"Material": ["Glass-filled Nylon"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1831" },
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/hs-hardware.html" }
-			]
-		}, {
-			"name": "VEX EDR Clamping 1/8\" Square",
-			"image": "/images/shaftcollars/vexedr-clamping.jpg",
-			"filters": {
-				"Bore": ["1/8\" Square"],
-				"OD": ["0.616\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.5\""],
-				"Material": ["Glass-filled Nylon"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1831" },
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/shafts-and-hardware.html" }
-			]
-		}, {
-			"name": "VEX EDR Rubber 1/8\" Square",
-			"image": "/images/shaftcollars/vexedr-rubber.jpg",
-			"filters": {
-				"Bore": ["1/8\" Square"],
-				"OD": ["0.43\""],
-				"Type": ["One-Piece"],
-				"Width": ["0.25\""],
-				"Material": ["Rubber"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1831" },
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/shafts-and-hardware.html" }
-			]
-		}, {
-			"name": "VEX EDR Set Screw 1/8\" Square",
-			"image": "/images/shaftcollars/vexedr-setscrew.jpg",
-			"filters": {
-				"Bore": ["1/8\" Square", "4mm"],
-				"OD": ["0.4331\"", "1mm"],
-				"Type": ["Set Screw"],
-				"Width": ["0.26\""],
-				"Material": ["Steel"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1831" },
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/shafts-and-hardware.html" }
-			]
-		}, {
-			"name": "WCP Two-Piece Hex",
-			"image": "/images/image-not-available.png",
+			"name": "WCP 1/2\" Hex",
+			"image": "/images/products/shaftcollars/wcp-500-hex.webp",
 			"filters": {
 				"Bore": ["0.5\" Hex"],
-				"OD": ["1.125\""],
-				"Type": ["Two-Piece"],
-				"Width": ["0.375\""],
+				"OD": ["1\"", "1.125\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.375\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "WCP", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
+			]
+		}, {
+			"name": "WCP 3/8\" Hex",
+			"image": "/images/products/shaftcollars/wcp-375-hex.webp",
+			"filters": {
+				"Bore": ["0.375\" Hex"],
+				"OD": ["0.875\""],
+				"Type": ["One-Piece"],
+				"Width": ["0.25\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "WCP", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
+			]
+		}, {
+			"name": "WCP Round",
+			"image": "/images/products/shaftcollars/wcp-round.webp",
+			"filters": {
+				"Bore": ["0.375\"", "0.5\"", "8mm"],
+				"OD": ["0.708\"", "0.875\"", "1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\""],
 				"Material": ["Aluminum"]
 			},
 			"links": [

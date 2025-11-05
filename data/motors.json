@@ -1,11 +1,11 @@
 {
 	"title": "Motors",
-	"description": "<p>These motors are great for a variety of uses on your robot. Using the numbers below you should be able to generate a motor curve. You can learn how to use a motor curve on the <a href=\"http://motors.vex.com/introduction#curve\" target=\"_blank\">VEX website</a>.</p>",
+	"description": "<p>Motors power every moving part of a robot. Teams choose between brushed and brushless options depending on torque, speed, and control requirements. Understanding motor characteristics and pairing them with the right gearbox is key to building efficient, reliable mechanisms.</p>",
 	"filter_groups": ["No Load Speed", "Output Type", "Power (W)", "Style", "Integrated Controller"],
 	"products": [
 		{
 			"name": "775 RedLine",
-			"image": "/images/motors/redline.jpg",
+			"image": "/images/products/motors/redline.jpg",
 			"filters": {
 				"No Load Speed": ["19649"],
 				"Output Type": ["5mm"],
@@ -18,7 +18,7 @@
 			]
 		}, {
 			"name": "775pro",
-			"image": "/images/motors/775pro.jpg",
+			"image": "/images/products/motors/775pro.jpg",
 			"filters": {
 				"No Load Speed": ["18700"],
 				"Output Type": ["5mm"],
@@ -32,7 +32,7 @@
 			]
 		}, {
 			"name": "CIM",
-			"image": "/images/motors/cim.jpg",
+			"image": "/images/products/motors/cim.jpg",
 			"filters": {
 				"No Load Speed": ["5310"],
 				"Output Type": ["8mm"],
@@ -47,7 +47,7 @@
 			]
 		}, {
 			"name": "Dynamo Brushless",
-			"image": "/images/motors/dynamo.jpg",
+			"image": "/images/products/motors/dynamo.jpg",
 			"filters": {
 				"No Load Speed": ["2700"],
 				"Output Type": ["8mm"],
@@ -60,7 +60,7 @@
 			]
 		}, {
 			"name": "Johnson Electric Motor",
-			"image": "/images/motors/johnson-electric.jpg",
+			"image": "/images/products/motors/johnson-electric.jpg",
 			"filters": {
 				"No Load Speed": ["410"],
 				"Output Type": ["1/2\" hex"],
@@ -73,10 +73,10 @@
 			]
 		}, {
 			"name": "Kraken X44",
-			"image": "/images/motors/kraken-x44.webp",
+			"image": "/images/products/motors/kraken-x44.webp",
 			"filters": {
 				"No Load Speed": ["7530"],
-				"Output Type": ["SplineXS"],
+				"Output Type": ["15T Spline"],
 				"Power (W)": ["397"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["Yes"]
@@ -87,10 +87,10 @@
 			]
 		}, {
 			"name": "Kraken X60",
-			"image": "/images/motors/kraken-x60.webp",
+			"image": "/images/products/motors/kraken-x60.webp",
 			"filters": {
 				"No Load Speed": ["6000"],
-				"Output Type": ["SplineXS"],
+				"Output Type": ["15T Spline"],
 				"Power (W)": ["413"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["Yes"]
@@ -101,10 +101,10 @@
 			]
 		}, {
 			"name": "Minion",
-			"image": "/images/motors/minion.webp",
+			"image": "/images/products/motors/minion.webp",
 			"filters": {
 				"No Load Speed": ["7200"],
-				"Output Type": ["SplineXS"],
+				"Output Type": ["15T Spline"],
 				"Power (W)": ["383"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["No"]
@@ -114,22 +114,8 @@
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/talonfxs-motor-controller-and-motors" }
 			]
 		}, {
-			"name": "NEO 550",
-			"image": "/images/motors/neo550.png",
-			"filters": {
-				"No Load Speed": ["11000"],
-				"Output Type": ["0.125in"],
-				"Power (W)": ["279"],
-				"Style": ["Brushless"],
-				"Integrated Controller": ["No"]
-			},
-			"links": [
-				{ "vendor": "AndyMark", "link": "https://andymark.com/products/rev-neo-550-brushless-motor" },
-				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1651/" }
-			]
-		}, {
 			"name": "NEO",
-			"image": "/images/motors/neo.png",
+			"image": "/images/products/motors/neo.png",
 			"filters": {
 				"No Load Speed": ["5760"],
 				"Output Type": ["8mm"],
@@ -142,21 +128,48 @@
 				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1650/" }
 			]
 		}, {
+			"name": "NEO 2",
+			"image": "/images/products/motors/neo2.webp",
+			"filters": {
+				"No Load Speed": ["5676"],
+				"Output Type": ["15T Spline"],
+				"Power (W)": ["540"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-1653/" }
+			]
+		}, {
+			"name": "NEO 550",
+			"image": "/images/products/motors/neo550.png",
+			"filters": {
+				"No Load Speed": ["11000"],
+				"Output Type": ["0.125in"],
+				"Power (W)": ["279"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/rev-neo-550-brushless-motor" },
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-21-1651/" }
+			]
+		}, {
 			"name": "NEO Vortex",
-			"image": "/images/motors/neo-vortex.webp",
+			"image": "/images/products/motors/neo-vortex.webp",
 			"filters": {
 				"No Load Speed": ["6784"],
-				"Output Type": ["1/2\" hex", "7t Pinion", "8mm", "MAXPlanetary", "MAXSwerve", "SplineXS"],
+				"Output Type": ["1/2\" hex", "7t Pinion", "8mm", "MAXPlanetary", "MAXSwerve", "15T Spline"],
 				"Power (W)": ["375"],
 				"Style": ["Brushless"],
 				"Integrated Controller": ["Replaceable"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/rev-21-1652/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-1652/" }
 			]
 		}, {
 			"name": "NeveRest",
-			"image": "/images/motors/neverest.jpg",
+			"image": "/images/products/motors/neverest.jpg",
 			"filters": {
 				"No Load Speed": ["6600"],
 				"Output Type": ["3mm"],
@@ -168,8 +181,21 @@
 				{ "vendor": "AndyMark", "link": "https://andymark.com/products/neverest-series-motor-only" }
 			]
 		}, {
+			"name": "Pulsar 775",
+			"image": "/images/products/motors/pulsar-775.jpg",
+			"filters": {
+				"No Load Speed": ["7500"],
+				"Output Type": ["15T Spline"],
+				"Power (W)": ["604"],
+				"Style": ["Brushless"],
+				"Integrated Controller": ["No"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/pulsar-775" }
+			]
+		}, {
 			"name": "RS775 18v",
-			"image": "/images/motors/rs775-18v.jpg",
+			"image": "/images/products/motors/rs775-18v.jpg",
 			"filters": {
 				"No Load Speed": ["19500"],
 				"Output Type": ["5mm"],
@@ -182,7 +208,7 @@
 			]
 		}, {
 			"name": "Venom",
-			"image": "/images/motors/venom.jpg",
+			"image": "/images/products/motors/venom.jpg",
 			"filters": {
 				"No Load Speed": ["5310"],
 				"Output Type": ["8mm"],

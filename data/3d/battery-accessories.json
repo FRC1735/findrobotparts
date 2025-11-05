@@ -1,13 +1,21 @@
 {
 	"title": "3D Printed - Battery Accessories",
-	"pathname": "3d/battery-accessories",
-	"description": "<p>Use these 3D printed parts to make your battery safer, stronger, or more secure on your robot.</p>",
-	"image_slug": "3d-battery-accessory",
+	"description": "<p>3D-printable battery accessories help teams safely mount, organize, and protect their power systems. From strain-relief clips to custom brackets and holders, these parts improve cable management while reducing weight. Printing your own accessories makes it easy to customize fit and function for your robot’s layout.</p>",
 	"filter_groups": ["Type", "User"],
 	"products": [
 		{
+			"name": "Anderson SB50 Handle",
+			"image": "/images/products/3d/battery-accessories/4055255.webp",
+			"filters": {
+				"Type": ["Battery Handle"],
+				"User": ["sapencil"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "https://www.thingiverse.com/thing:4055255" }
+			]
+		}, {
 			"name": "Battery Caps/Covers",
-			"image": "/images/3d/battery-accessories/675138.jpg",
+			"image": "/images/products/3d/battery-accessories/675138.jpg",
 			"filters": {
 				"Type": ["Battery Terminal Cover"],
 				"User": ["Misoguchi"]
@@ -17,7 +25,7 @@
 			]
 		}, {
 			"name": "Battery Plug",
-			"image": "/images/3d/battery-accessories/624106.jpg",
+			"image": "/images/products/3d/battery-accessories/624106.jpg",
 			"filters": {
 				"Type": ["Battery Flag"],
 				"User": ["ryanbacon"]
@@ -27,7 +35,7 @@
 			]
 		}, {
 			"name": "Battery Terminal Cover",
-			"image": "/images/3d/battery-accessories/254203.jpg",
+			"image": "/images/products/3d/battery-accessories/254203.jpg",
 			"filters": {
 				"Type": ["Battery Terminal Cover"],
 				"User": ["RicheyRich3407"]
@@ -37,7 +45,7 @@
 			]
 		}, {
 			"name": "FRC Battery Box",
-			"image": "/images/3d/battery-accessories/688012.jpg",
+			"image": "/images/products/3d/battery-accessories/688012.jpg",
 			"filters": {
 				"Type": ["Battery Bracket"],
 				"User": ["evanperryg"]
@@ -47,7 +55,7 @@
 			]
 		}, {
 			"name": "FRC Battery Handle",
-			"image": "/images/3d/battery-accessories/3428879.jpg",
+			"image": "/images/products/3d/battery-accessories/3428879.jpg",
 			"filters": {
 				"Type": ["Battery Handle"],
 				"User": ["Team3187FRC"]
@@ -57,7 +65,7 @@
 			]
 		}, {
 			"name": "FRC Battery plugs",
-			"image": "/images/3d/battery-accessories/254518.jpg",
+			"image": "/images/products/3d/battery-accessories/254518.jpg",
 			"filters": {
 				"Type": ["Battery Flag"],
 				"User": ["team2177"]

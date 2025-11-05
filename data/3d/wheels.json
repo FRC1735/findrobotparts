@@ -1,13 +1,11 @@
 {
 	"title": "3D Printed - Wheels",
-	"pathname": "3d/wheels",
-	"description": "<p>You can 3D print your own wheels for your robot to save money or to save weight.</p>",
-	"image_slug": "3d-wheel",
+	"description": "<p>3D-printed wheels give teams a fast, low-cost way to test drive configurations or tread patterns. They’re perfect for prototypes or smaller robots where weight and flexibility matter more than long-term wear. Printing your own designs also helps students experiment with hub interfaces and traction surfaces.</p>",
 	"filter_groups": ["Style", "Diameter", "Width", "Hub", "User"],
 	"products": [
 		{
 			"name": "\"Mag\" wheel for FRC robot",
-			"image": "/images/3d/wheels/73097.jpg",
+			"image": "/images/products/3d/wheels/73097.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -20,7 +18,7 @@
 			]
 		}, {
 			"name": "8\" pneumatic wheel hub for FRC",
-			"image": "/images/3d/wheels/1275569.jpg",
+			"image": "/images/products/3d/wheels/1275569.jpg",
 			"filters": {
 				"Style": ["Pneumatic"],
 				"Diameter": ["8\""],
@@ -33,7 +31,7 @@
 			]
 		}, {
 			"name": "Faired wheel for FRC robot",
-			"image": "/images/3d/wheels/73111.jpg",
+			"image": "/images/products/3d/wheels/73111.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -45,8 +43,34 @@
 				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:73111" }
 			]
 		}, {
+			"name": "FIRST Robotics Swerve Tread",
+			"image": "/images/products/3d/wheels/6855509.webp",
+			"filters": {
+				"Style": ["Tread"],
+				"Diameter": ["4\""],
+				"Width": ["1.5\""],
+				"Hub": ["n/a"],
+				"User": ["honeybakedjdog"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:6855509" }
+			]
+		}, {
+			"name": "FRC 4 Inch Tread",
+			"image": "/images/products/3d/wheels/5345783.png",
+			"filters": {
+				"Style": ["Tread"],
+				"Diameter": ["4\""],
+				"Width": ["1.5\""],
+				"Hub": ["n/a"],
+				"User": ["dgreathouse"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:5345783" }
+			]
+		}, {
 			"name": "Lightweight 4in Diameter Traction Wheel",
-			"image": "/images/3d/wheels/3598601.jpg",
+			"image": "/images/products/3d/wheels/3598601.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -59,7 +83,7 @@
 			]
 		}, {
 			"name": "Lightweight 6in Diameter Traction Wheel",
-			"image": "/images/3d/wheels/3598616.jpg",
+			"image": "/images/products/3d/wheels/3598616.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["6\""],
@@ -72,7 +96,7 @@
 			]
 		}, {
 			"name": "Mecanum Wheel 14",
-			"image": "/images/3d/wheels/2318.jpg",
+			"image": "/images/products/3d/wheels/2318.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter": ["3\""],
@@ -85,7 +109,7 @@
 			]
 		}, {
 			"name": "Mecanum Wheel MK2",
-			"image": "/images/3d/wheels/2473.jpg",
+			"image": "/images/products/3d/wheels/2473.jpg",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter": ["4\""],
@@ -98,7 +122,7 @@
 			]
 		}, {
 			"name": "Spoked wheel for FRC robot",
-			"image": "/images/3d/wheels/73105.jpg",
+			"image": "/images/products/3d/wheels/73105.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["4\""],
@@ -111,7 +135,7 @@
 			]
 		}, {
 			"name": "Ultralightweight 6in Diameter Traction Wheel",
-			"image": "/images/3d/wheels/3598535.jpg",
+			"image": "/images/products/3d/wheels/3598535.jpg",
 			"filters": {
 				"Style": ["Standard"],
 				"Diameter": ["6\""],
@@ -124,7 +148,7 @@
 			]
 		}, {
 			"name": "Vectored Intake Wheels for FRC",
-			"image": "/images/3d/wheels/118272.webp",
+			"image": "/images/products/3d/wheels/118272.webp",
 			"filters": {
 				"Style": ["Mecanum"],
 				"Diameter": ["2\""],

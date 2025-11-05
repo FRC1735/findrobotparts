@@ -1,13 +1,11 @@
 {
 	"title": "Pulleys",
-	"pathname": "pulleys",
-	"description": "<p>Use these pulleys in conjunction with the belts for drivelines or other mechanisms.</p>",
-	"image_slug": "pulley",
+	"description": "<p>Pulleys and belts provide smooth, low-noise power transfer between shafts. They’re popular in indexing systems, elevators, and shooters where precise, lightweight motion is critical. Using the right pulley ratio can fine-tune speed and torque while minimizing backlash.</p>",
 	"filter_groups": ["Type", "Material", "Belt Width", "Bore", "Pitch", "Teeth"],
 	"products": [
 		{
 			"name": "AM 24T HTD Pulley",
-			"image": "/images/pulleys/am-24-htd.jpg",
+			"image": "/images/products/pulleys/am-24-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Polycarbonate"],
@@ -17,11 +15,11 @@
 				"Teeth": ["24"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?q=24t+pulley" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/pulleys/products/24t-plastic-htd-pulleys" }
 			]
 		}, {
 			"name": "AM 30T HTD Pulley",
-			"image": "/images/pulleys/am-30-htd.jpg",
+			"image": "/images/products/pulleys/am-30-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -35,36 +33,35 @@
 			]
 		}, {
 			"name": "AM 39T HTD Pulley",
-			"image": "/images/pulleys/am-39-htd.jpg",
+			"image": "/images/products/pulleys/am-39-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Polycarbonate"],
 				"Belt Width": ["15mm"],
-				"Bore": ["0.5\" hex", "0.5\" w/ key", "1.875\" bolt circle"],
+				"Bore": ["1.875\" bolt circle"],
 				"Pitch": ["5mm"],
 				"Teeth": ["39"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?q=39+tooth" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/39-tooth-htd-plastic-pulley-kit" }
 			]
 		}, {
 			"name": "AM 42T HTD Pulley",
-			"image": "/images/pulleys/am-42-htd.jpg",
+			"image": "/images/products/pulleys/am-42-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Polycarbonate"],
 				"Belt Width": ["15mm"],
-				"Bore": ["0.95\"", "1.125\"", "1.875\" bolt circle"],
+				"Bore": ["1.875\" bolt circle"],
 				"Pitch": ["5mm"],
 				"Teeth": ["42"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pulley-42-tooth" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/pulley-42-tooth.html" }
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/42-tooth-5-mm-htd-15-mm-wide-bearing-bore-plastic-pulley" }
 			]
 		}, {
 			"name": "AM HV Pulley",
-			"image": "/images/pulleys/am-hv.jpg",
+			"image": "/images/products/pulleys/am-hv.jpg",
 			"filters": {
 				"Type": ["HV"],
 				"Material": ["Black Polycarbonate"],
@@ -74,29 +71,11 @@
 				"Teeth": ["20"]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/20-tooth-track-drive-pulley" },
-				{ "vendor": "Studica", "link": "http://www.studica.com/ca/en/AndyMark/20-tooth-track-drive-pulley.html" }
-			]
-		}, {
-			"name": "Falcon GT2",
-			"image": "/images/pulleys/falconpinion.png",
-			"filters": {
-				"Type": ["GT2"],
-				"Material": ["Aluminum"],
-				"Belt Width": ["9mm"],
-				"Bore": ["14T Spline"],
-				"Pitch": ["3mm"],
-				"Teeth": ["16"]
-			},
-			"links": [
-				{ "vendor": "CTR Electronics", "link": "http://www.ctr-electronics.com/gears/pulleys.html" },
-				{ "vendor": "The Robot Space", "link": "https://www.therobotspace.com/ProductDetails.asp?ProductCode=vex%2D217%2D6924" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/gt2pulleys.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/brushless-motors" }
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/20-tooth-track-drive-pulley" }
 			]
 		}, {
 			"name": "GT2 Pulley",
-			"image": "/images/pulleys/gt2.jpg",
+			"image": "/images/products/pulleys/gt2.jpg",
 			"filters": {
 				"Type": ["GT2"],
 				"Material": ["Black Anodized Aluminum"],
@@ -110,7 +89,7 @@
 			]
 		}, {
 			"name": "GT2 Pulley",
-			"image": "/images/pulleys/gt2-500hex.jpg",
+			"image": "/images/products/pulleys/gt2-500hex.jpg",
 			"filters": {
 				"Type": ["GT2", "GT3"],
 				"Material": ["Black Anodized Aluminum"],
@@ -124,7 +103,7 @@
 			]
 		}, {
 			"name": "HTD CIM Pulley",
-			"image": "/images/image-not-available.png",
+			"image": "/images/products/pulleys/8mm-htd-cim.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Anodized Aluminum"],
@@ -138,7 +117,7 @@
 			]
 		}, {
 			"name": "HTD Timing Pulleys",
-			"image": "/images/pulleys/vex-htd.jpg",
+			"image": "/images/products/pulleys/vex-htd.jpg",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Black Anodized Aluminum"],
@@ -148,576 +127,11 @@
 				"Teeth": ["18", "24", "30", "36"]
 			},
 			"links": [
-				{ "vendor": "Plummer Industries", "link": "http://plummerindustries.com/robotics/shop#!/Pulleys/c/32076764/offset=0&sort=normal" },
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1879" },
-				{ "vendor": "VEXpro", "link": "http://www.vexrobotics.com/vexpro/motion/belts-and-pulleys/htdpulleys.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/belts-chain-gears/products/htd-timing-pulleys" }
 			]
 		}, {
-			"name": "HTD VersaPulleys",
-			"image": "/images/pulleys/htd-versa.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Glass Filled Nylon"],
-				"Belt Width": ["7mm", "18mm"],
-				"Bore": ["1.125\"", "1.875\" bolt circle"],
-				"Pitch": ["5mm"],
-				"Teeth": ["42", "60"]
-			},
-			"links": [
-				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/SearchResults.asp?Cat=1878" },
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/htdversapulley.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/belts-chain-gears/products/copy-of-htd-timing-pulleys" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulley w/ 2 Flanges, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Aluminum"],
-				"Belt Width": ["9mm", "15mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["12", "13", "14", "15", "16", "17", "18", "19", "20", "22", "24", "25", "26", "28", "30", "32", "34"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p217" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulley w/o Flanges, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Aluminum"],
-				"Belt Width": ["9mm", "15mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["12", "13", "14", "15", "16", "17", "18", "19", "20", "22", "24", "25", "26", "28", "30", "32", "34"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p217" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulley w/o Flanges, 3/8\" Bore",
-			"image": "/images/pulleys/sdpsi.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Aluminum"],
-				"Belt Width": ["9mm", "15mm"],
-				"Bore": ["0.375\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["48", "50", "56", "60", "62", "70", "72"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p217" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulley w/o Flanges, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Aluminum"],
-				"Belt Width": ["9mm", "15mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["36", "38", "40", "44"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p217" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Aluminum insert, 1/2\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.5\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Aluminum insert, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Aluminum insert, 3/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13", "14"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Aluminum insert, 3/8\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.375\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30", "40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Aluminum insert, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30", "40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Fairloc Hub (Alum.), 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["14", "15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Fairloc Hub (Alum.), 3/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & Fairloc Hub (Alum.), 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & No insert, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["15", "16", "17", "18", "19", "20", "22", "25", "28", "29"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & No insert, 3/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13", "14"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & No insert, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["30", "40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & No insert, Set Screw",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Nylon"],
-				"Belt Width": ["15mm"],
-				"Bore": ["0.376\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["50", "56", "62", "64", "72", "79", "80"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & No insert, Set Screw, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Nylon"],
-				"Belt Width": ["15mm"],
-				"Bore": ["0.251\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["12", "14", "15", "16", "18", "19", "20", "22", "24", "28", "30", "32"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange & No insert, Set Screw, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Nylon"],
-				"Belt Width": ["15mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["36", "38", "40", "42", "44", "48"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange &\"T\"-insert, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["14", "15", "16", "17", "18", "19", "20", "22", "24", "25", "28", "29", "30"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange &\"T\"-insert, 3/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 1 Flange &\"T\"-insert, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 1/2\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.5\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Nylon"],
-				"Belt Width": ["15mm"],
-				"Bore": ["0.251\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["12", "14", "15", "18", "19", "20", "22", "24", "28", "30", "32"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 3/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13", "14"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 3/8\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Nylon"],
-				"Belt Width": ["15mm"],
-				"Bore": ["0.376\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["50", "56", "60", "62"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 3/8\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.375\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30", "40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Nylon"],
-				"Belt Width": ["15mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["36", "38", "40", "42", "44", "48"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Aluminum insert, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30", "40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Fairloc Hub (Alum.), 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["13", "14", "15", "16", "17", "18", "19", "20", "22", "25", "28", "29", "30"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Fairloc Hub (Alum.), 3/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & Fairloc Hub (Alum.), 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & No insert, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["15", "16", "17", "18", "19", "20", "22", "25", "28", "29"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & No insert, 3/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13", "14"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges & No insert, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["30", "40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges &\"T\"-insert",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.188\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["11", "12", "13"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges &\"T\"-insert, 1/4\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.25\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["14", "15", "16", "17", "18", "19", "20", "22", "24", "25", "28", "29", "30"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Hubbed Timing Pulleys w/ 2 Flanges &\"T\"-insert, 5/16\" Bore",
-			"image": "/images/pulleys/sdpsi-plastic.jpg",
-			"filters": {
-				"Type": ["HTD"],
-				"Material": ["Polycarbonate"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313\""],
-				"Pitch": ["5mm"],
-				"Teeth": ["40", "50"]
-			},
-			"links": [
-				{ "vendor": "SDP/SI", "link": "http://shop.sdp-si.com/catalog/?cid=p218" }
-			]
-		}, {
-			"name": "Ozzy Boards Pinion GT2",
-			"image": "/images/pulleys/ozzy-gt2-12t.png",
-			"filters": {
-				"Type": ["GT2"],
-				"Material": ["Aluminium"],
-				"Belt Width": ["9mm"],
-				"Bore": ["5mm"],
-				"Pitch": ["3mm"],
-				"Teeth": ["12"]
-			},
-			"links": [
-				{ "vendor": "Ozzy Boards", "link": "http://ozzyboards.com/12t-x-9mm-gt2-3mm-775-pulley/" }
-			]
-		}, {
 			"name": "RT25 1/2\" Hex",
-			"image": "/images/pulleys/rt25-hex.webp",
+			"image": "/images/products/pulleys/rt25-hex.webp",
 			"filters": {
 				"Type": ["RT25"],
 				"Material": ["Glass Filled Nylon"],
@@ -727,11 +141,11 @@
 				"Teeth": ["16"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/RT25-Pulleys/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/RT25-Pulleys/" }
 			]
 		}, {
 			"name": "RT25 8mm",
-			"image": "/images/pulleys/rt25-8mm.webp",
+			"image": "/images/products/pulleys/rt25-8mm.webp",
 			"filters": {
 				"Type": ["RT25"],
 				"Material": ["Glass Filled Nylon"],
@@ -741,11 +155,11 @@
 				"Teeth": ["12"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/RT25-Pulleys/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/RT25-Pulleys/" }
 			]
 		}, {
 			"name": "RT25 MAXSpline",
-			"image": "/images/pulleys/rt25-maxspline.webp",
+			"image": "/images/products/pulleys/rt25-maxspline.webp",
 			"filters": {
 				"Type": ["RT25"],
 				"Material": ["Glass Filled Nylon"],
@@ -755,11 +169,39 @@
 				"Teeth": ["24", "32", "40", "48", "56", "64"]
 			},
 			"links": [
-				{ "vendor": "Rev Robotics", "link": "https://www.revrobotics.com/RT25-Pulleys/" }
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/RT25-Pulleys/" }
 			]
 		}, {
-			"name": "Thrifty HTD",
-			"image": "/images/pulleys/ttb-htd-hex.webp",
+			"name": "Thrifty 11T 8mm Pinion HTD",
+			"image": "/images/products/pulleys/ttb-htd-pinion.webp",
+			"filters": {
+				"Type": ["HTD"],
+				"Material": ["Aluminum"],
+				"Belt Width": ["9mm"],
+				"Bore": ["0.313 w/ key"],
+				"Pitch": ["5mm"],
+				"Teeth": ["11"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-11-tooth-htd-8mm-keyed-motor-output-pulley" }
+			]
+		}, {
+			"name": "Thrifty 11T SplineXS Pinion HTD",
+			"image": "/images/products/pulleys/ttb-11t-splinexs-htd.webp",
+			"filters": {
+				"Type": ["HTD"],
+				"Material": ["Aluminum"],
+				"Belt Width": ["9mm"],
+				"Bore": ["15T Spline"],
+				"Pitch": ["5mm"],
+				"Teeth": ["11"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-11-tooth-htd-kraken-spline-motor-output-pulley" }
+			]
+		}, {
+			"name": "Thrifty 15T HTD",
+			"image": "/images/products/pulleys/ttb-htd-hex.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
@@ -772,57 +214,55 @@
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-aluminum-15-tooth-htd-pulley" }
 			]
 		}, {
-			"name": "Thrifty Pinion HTD",
-			"image": "/images/pulleys/ttb-htd-pinion.webp",
+			"name": "Thrifty 24T HTD",
+			"image": "/images/products/pulleys/ttb-24t-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.313 w/ key", "14T Spline"],
-				"Pitch": ["5mm"],
-				"Teeth": ["11"]
-			},
-			"links": [
-				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/collections/pulleys-1" }
-			]
-		}, {
-			"name": "VEX 1/2\" Hex GT2",
-			"image": "/images/pulleys/vex-gt2.jpg",
-			"filters": {
-				"Type": ["GT2"],
-				"Material": ["Aluminum"],
-				"Belt Width": ["9mm"],
+				"Belt Width": ["15mm"],
 				"Bore": ["0.5\" Hex"],
-				"Pitch": ["3mm"],
-				"Teeth": ["24", "36", "48", "60"]
+				"Pitch": ["5mm"],
+				"Teeth": ["24"]
 			},
 			"links": [
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/gt2pulleys.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gt2-timing-pulleys-belts" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-24-tooth-htd-pulley-1-2-hex-bore" }
 			]
 		}, {
-			"name": "VEXpro Pinion GT2",
-			"image": "/images/pulleys/vex-gt2-pinion.jpg",
+			"name": "Thrifty 36T HTD",
+			"image": "/images/products/pulleys/ttb-36t-htd.webp",
 			"filters": {
-				"Type": ["GT2"],
+				"Type": ["HTD"],
 				"Material": ["Aluminum"],
-				"Belt Width": ["9mm"],
-				"Bore": ["0.125\"", "4mm", "5mm"],
-				"Pitch": ["3mm"],
-				"Teeth": ["12"]
+				"Belt Width": ["15mm"],
+				"Bore": ["0.5\" Hex"],
+				"Pitch": ["5mm"],
+				"Teeth": ["36"]
 			},
 			"links": [
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/gt2pulleys.html" },
-				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gt2-timing-pulleys-belts" }
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-36-tooth-htd-pulley-1-2-hex-bore" }
+			]
+		}, {
+			"name": "Thrifty 48T HTD",
+			"image": "/images/products/pulleys/ttb-48t-htd.webp",
+			"filters": {
+				"Type": ["HTD"],
+				"Material": ["Aluminum"],
+				"Belt Width": ["15mm"],
+				"Bore": ["1.125\""],
+				"Pitch": ["5mm"],
+				"Teeth": ["48"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-48-tooth-htd-pulley-bearing-hub-bore" }
 			]
 		}, {
 			"name": "WCP SplineXS GT2",
-			"image": "/images/pulleys/wcp-splinexs-gt2.webp",
+			"image": "/images/products/pulleys/wcp-splinexs-gt2.webp",
 			"filters": {
 				"Type": ["GT2"],
 				"Material": ["Aluminum"],
 				"Belt Width": ["9mm", "15mm"],
-				"Bore": ["SplineXS"],
+				"Bore": ["15T Spline"],
 				"Pitch": ["3mm"],
 				"Teeth": ["16"]
 			},
@@ -831,14 +271,14 @@
 			]
 		}, {
 			"name": "WCP SplineXS HTD",
-			"image": "/images/pulleys/wcp-splinexs-htd.webp",
+			"image": "/images/products/pulleys/wcp-splinexs-htd.webp",
 			"filters": {
 				"Type": ["HTD"],
 				"Material": ["Aluminum"],
 				"Belt Width": ["9mm", "15mm"],
-				"Bore": ["SplineXS"],
+				"Bore": ["15T Spline"],
 				"Pitch": ["5mm"],
-				"Teeth": ["12"]
+				"Teeth": ["12", "14", "16", "18"]
 			},
 			"links": [
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/kraken" }

@@ -53,7 +53,7 @@ const buildProductRows = (data) => {
 			vendorsHTML += hbts['vendor']({ link: link.link, vendor: link.vendor });
 		});
 
-		let image = product.image.replace('images/', 'images/products/');
+		let image = product.image;
 		const lastchar = image.lastIndexOf('.');
 		image = image.substring(0, lastchar) + '.webp';
 
@@ -153,15 +153,18 @@ const buildPage = (data, relativePath) => {
 	let mainHTML = '';
 	let sidebarHTML = '';
 	let sidebarClass = 'none';
+	let productPage = false;
 	let title = 'Find Robot Parts';
 
 	if (data.products?.length > 0) {
 		title = `${data.title} - Find Robot Parts`
+		const pageTitle = data.title;
 		const tablehead = hbts['thead']({ categories: data.filter_groups });
 		const tablebody = buildProductRows(data);
-		sidebarHTML = generateSidebar(data);
-		mainHTML = hbts['product']({ slug: relativePath, category: data.title, tablehead: tablehead, tablebody: tablebody });
+		sidebarHTML = generateSidebar(data); 
+		mainHTML = hbts['product']({ slug: relativePath, category: pageTitle, description: data.description, tablehead: tablehead, tablebody: tablebody });
 		sidebarClass = 'block';
+		productPage = true;
 	} else {
 		if (data.title) {
 			title = `${data.title} - Find Robot Parts`
@@ -169,7 +172,7 @@ const buildPage = (data, relativePath) => {
 		mainHTML = data.description;
 	}
 
-	return hbts['main']({ title: title, sidebar: sidebarHTML, sidebarClass: sidebarClass, maincontent: mainHTML });
+	return hbts['main']({ title: title, sidebar: sidebarHTML, sidebarClass: sidebarClass, productPage: productPage, maincontent: mainHTML });
 }
 
 async function setupTemplates() {
