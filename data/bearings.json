@@ -1,13 +1,11 @@
 {
 	"title": "Bearings",
-	"pathname": "bearings",
-	"description": "<p>Bearings support rotating shafts and components, reducing friction and improving efficiency. Common styles include flanged, shielded, and needle bearings, each optimized for specific load conditions. In robotics, they’re essential for smooth motion in drivetrains, intakes, and arms where precision matters..</p>",
-	"image_slug": "bearing",
+	"description": "<p>Bearings support rotating shafts and components, reducing friction and improving efficiency. Common styles include flanged, shielded, and needle bearings, each optimized for specific load conditions. In robotics, they’re essential for smooth motion in drivetrains, intakes, and arms where precision matters.</p>",
 	"filter_groups": ["Type", "ID", "OD", "Shield", "Width"],
 	"products": [
 	{
-			"name": "AM 0.192in ID 3/8in OD",
-			"image": "/images/bearings/am-375-radial-shielded.jpg",
+			"name": "AM 0.190 In. ID 3/8 In. OD",
+			"image": "/images/products/bearings/am-375-radial-shielded.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.188\""],
@@ -20,7 +18,7 @@
 			]
 		},{
 			"name": "AM 1/2\" Open",
-			"image": "/images/bearings/am-500-open.jpg",
+			"image": "/images/products/bearings/am-500-open.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -33,7 +31,7 @@
 			]
 		},{
 			"name": "AM 1/2\" Hex ID",
-			"image": "/images/bearings/am-4703.jpg",
+			"image": "/images/products/bearings/am-4703.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -46,7 +44,7 @@
 			]
 		},{
 			"name": "AM 1/2 in ID 1 1/8 in OD ",
-			"image": "/images/bearings/am-375-radial-shielded.jpg",
+			"image": "/images/products/bearings/am-375-radial-shielded.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.500\""],
@@ -59,7 +57,7 @@
 			]
 		},{
 			"name": "AM 1/2 in ID 1 3/8 in OD ",
-			"image": "/images/bearings/am-4466.jpg",
+			"image": "/images/products/bearings/am-4466.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.500\""],
@@ -72,7 +70,7 @@
 			]
 		},{
 			"name": "AM 1/4in ID 5/8in OD ",
-			"image": "/images/bearings/am-4461.jpg",
+			"image": "/images/products/bearings/am-4461.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.250\""],
@@ -85,7 +83,7 @@
 			]
 		},{
 			"name": "AM 10mm ID 26mm OD ",
-			"image": "/images/bearings/am-4461.jpg",
+			"image": "/images/products/bearings/am-4461.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["10mm"],
@@ -98,7 +96,7 @@
 			]
 		},{
 			"name": "AM 12mm ID 28mm OD ",
-			"image": "/images/bearings/am-4461.jpg",
+			"image": "/images/products/bearings/am-4461.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["12mm"],
@@ -111,7 +109,7 @@
 			]
 		},{
 			"name": "AM 3/16\"",
-			"image": "/images/bearings/am-1875.jpg",
+			"image": "/images/products/bearings/am-1875.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.1875\""],
@@ -124,7 +122,7 @@
 			]
 		},{
 			"name": "AM 3/16in ID 1/2in OD ",
-			"image": "/images/bearings/am-4461.jpg",
+			"image": "/images/products/bearings/am-4461.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.188\""],
@@ -137,7 +135,7 @@
 			]
 		},{
 			"name": "AM 3/8\", 1 1/8\" OD",
-			"image": "/images/bearings/am-375-radial-shielded.jpg",
+			"image": "/images/products/bearings/am-375-radial-shielded.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.375\""],
@@ -146,11 +144,11 @@
 				"Width": ["0.375\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-1-125-od-ball-bearing-1614zz" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-1-125-od-ball-bearing-1614zz" }
 			]
 		}, {
 			"name": "AM 3/8\", 1/2\", Hex",
-			"image": "/images/bearings/am-500-hex.jpg",
+			"image": "/images/products/bearings/am-500-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\"", "0.375\" hex", "0.5\"", "0.5\" hex"],
@@ -159,24 +157,24 @@
 				"Width": ["0.312\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fr6zzl-3-8-in-hex-bearing" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fr6zzl-3-8-in-hex-bearing" }
 			]
 		}, {
 			"name": "AM 3/8\", 7/8\", Hex",
-			"image": "/images/bearings/am-500-hex.jpg",
+			"image": "/images/products/bearings/am-500-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\"", "0.375\" hex"],
-				"OD": [".0875\""],
+				"OD": ["0.875\""],
 				"Shield": ["Shielded"],
 				"Width": ["0.280\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-8-0-375-in-hex-id-sealed-bearing-r62rs-hex" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-8-0-375-in-hex-id-sealed-bearing-r62rs-hex" }
 			]
 		}, {
 			"name": "AM 3/8\", Open",
-			"image": "/images/bearings/am-375-open.jpg",
+			"image": "/images/products/bearings/am-375-open.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\""],
@@ -189,7 +187,7 @@
 			]
 		},{
 			"name": "AM 5/8\"",
-			"image": "/images/bearings/am-375-radial-shielded-875.jpg",
+			"image": "/images/products/bearings/am-375-radial-shielded-875.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.325\""],
@@ -202,7 +200,7 @@
 			]
 		},{
 			"name": "AM 5mm ID 11mm OD",
-			"image": "/images/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-6641.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["5mm"],
@@ -215,7 +213,7 @@
 			]
 		},{
 			"name": "AM 5mm ID 13mm OD",
-			"image": "/images/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-6641.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["5mm"],
@@ -228,7 +226,7 @@
 			]
 		},{
 			"name": "AM 6mm ID 17mm OD",
-			"image": "/images/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-6641.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["6mm"],
@@ -241,7 +239,7 @@
 			]
 		},{
 			"name": "AM 8mm ID 19mm OD",
-			"image": "/images/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-6641.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["8mm"],
@@ -254,7 +252,7 @@
 			]
 		},{
 			"name": "AM 8mm ID 22mm OD",
-			"image": "/images/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-6641.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["8mm"],
@@ -267,7 +265,7 @@
 			]
 		},{
 			"name": "AM 8mm Thrust",
-			"image": "/images/bearings/am-thrust.jpg",
+			"image": "/images/products/bearings/am-thrust.jpg",
 			"filters": {
 				"Type": ["Thrust"],
 				"ID": ["8mm"],
@@ -280,7 +278,7 @@
 			]
 		}, {
 			"name": "FR6ZZ",
-			"image": "/images/bearings/am-375-flanged-shielded-875.jpg",
+			"image": "/images/products/bearings/am-375-flanged-shielded-875.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\""],
@@ -289,11 +287,11 @@
 				"Width": ["0.28\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-flanged-shielded-ball-bearing-fr6zz" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-flanged-shielded-ball-bearing-fr6zz" }
 			]
 		}, {
 			"name": "FR8ZZ",
-			"image": "/images/bearings/fr8zz.png",
+			"image": "/images/products/bearings/fr8zz.png",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.5\""],
@@ -306,7 +304,7 @@
 			]
 		}, {
 			"name": "Iglide PRT slewing ring bearing",
-			"image": "/images/bearings/igus-iglide.jpg",
+			"image": "/images/products/bearings/igus-iglide.jpg",
 			"filters": {
 				"Type": ["Thrust"],
 				"ID": ["20mm", "30mm", "40mm", "50mm", "60mm", "100mm"],
@@ -319,7 +317,7 @@
 			]
 		}, {
 			"name": "PI Hex",
-			"image": "/images/bearings/pi-hex.jpg",
+			"image": "/images/products/bearings/pi-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.5\" hex"],
@@ -332,7 +330,7 @@
 			]
 		}, {
 			"name": "R6ZZ",
-			"image": "/images/bearings/am-375-radial-shielded-875.jpg",
+			"image": "/images/products/bearings/am-375-radial-shielded-875.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.375\""],
@@ -341,11 +339,11 @@
 				"Width": ["0.28\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-bearing-shielded-r6zz" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-bearing-shielded-r6zz" }
 			]
 		}, {
 			"name": "R8ZZ",
-			"image": "/images/bearings/am-500-shielded.jpg",
+			"image": "/images/products/bearings/am-500-shielded.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -354,11 +352,11 @@
 				"Width": ["0.312\""]
 			},
 			"links": [
-				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-2-in-id-bearing-shielded-r8zz" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-2-in-id-bearing-shielded-r8zz" }
 			]
 		}, {
 			"name": "REV 1/2\" Hex",
-			"image": "/images/bearings/pi-hex.jpg",
+			"image": "/images/products/bearings/pi-hex.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -371,33 +369,33 @@
 			]
 		}, {
 			"name": "REV 1/2\" Rounded Hex",
-			"image": "/images/bearings/pi-hex.jpg",
+			"image": "/images/products/bearings/pi-hex.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.54\""],
 				"OD": ["1\""],
 				"Shield": ["Shielded"],
-				"Width": ["0..281\""]
+				"Width": ["0.281\""]
 			},
 			"links": [
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Bearings/" }
 			]
 		},{
 			"name": "REV 1/2\" Rounded Hex 1.125in",
-			"image": "/images/bearings/pi-hex.jpg",
+			"image": "/images/products/bearings/pi-hex.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
 				"OD": ["1.125\""],
 				"Shield": ["Shielded"],
-				"Width": ["0..281\""]
+				"Width": ["0.281\""]
 			},
 			"links": [
 				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Bearings/" }
 			]
 		},{
 			"name": "REV 3/8\" V-Groove",
-			"image": "/images/bearings/rev-v-groove-375.jpg",
+			"image": "/images/products/bearings/rev-v-groove-375.jpg",
 			"filters": {
 				"Type": ["V-Groove"],
 				"ID": ["0.375\""],
@@ -410,7 +408,7 @@
 			]
 		}, {
 			"name": "REV Flanged 8mm",
-			"image": "/images/bearings/rev-8mm.png",
+			"image": "/images/products/bearings/rev-8mm.png",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["8mm"],
@@ -423,7 +421,7 @@
 			]
 		}, {
 			"name": "Swyft 1/2\" Hex",
-			"image": "/images/bearings/swyft-500-hex.jpg",
+			"image": "/images/products/bearings/swyft-500-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.5\" hex"],
@@ -432,11 +430,11 @@
 				"Width": ["0.312\""]
 			},
 			"links": [
-				{ "vendor": "Swyft Robotics","https://swyftrobotics.com/products/bearings?_pos=22&_fid=c6ad5ab2c&_ss=c" }
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/bearings?_pos=22&_fid=c6ad5ab2c&_ss=c" }
 			]
 		}, {
 			"name": "Swyft 3/8\"",
-			"image": "/images/bearings/swyft-375.jpg",
+			"image": "/images/products/bearings/swyft-375.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.375\""],
@@ -449,7 +447,7 @@
 			]
 		}, {
 			"name": "The Thrifty Bot 1/2\" Hex",
-			"image": "/images/bearings/tb-500-hex.jpg",
+			"image": "/images/products/bearings/tb-500-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.5\" hex"],
@@ -462,7 +460,7 @@
 			]
 		}, {
 			"name": "The Thrifty Bot 13.75mm",
-			"image": "/images/bearings/tb-1375mm.jpg",
+			"image": "/images/products/bearings/tb-1375mm.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["13.77mm"],
@@ -475,12 +473,12 @@
 			]
 		}, {
 			"name": "The Thrifty Bot 3.5\" X-Contact",
-			"image": "/images/bearings/tb-4000.jpg",
+			"image": "/images/products/bearings/tb-4000.jpg",
 			"filters": {
 				"Type": ["X-Contact"],
 				"ID": ["3.5\""],
 				"OD": ["4\""],
-				"Shield": ["Singl Shielded"],
+				"Shield": ["Single Shielded"],
 				"Width": ["0.25\""]
 			},
 			"links": [
@@ -488,7 +486,7 @@
 			]
 		}, {
 			"name": "The Thrifty Bot 8mm",
-			"image": "/images/bearings/tb-8mm.jpg",
+			"image": "/images/products/bearings/tb-8mm.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["8mm"],
@@ -501,7 +499,7 @@
 			]
 		}, {
 			"name": "WCP 1/2\", 1 1/8\" OD",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -514,7 +512,7 @@
 			]
 		}, {
 			"name": "WCP 1/2\", 7/8\" OD",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -527,7 +525,7 @@
 			]
 		}, {
 			"name": "WCP 1/4\", 1/2\" OD",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.25\""],
@@ -540,7 +538,7 @@
 			]
 		}, {
 			"name": "WCP 1/4\", 3/8\" OD",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.25\""],
@@ -553,7 +551,7 @@
 			]
 		}, {
 			"name": "WCP 15mm",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["15mm"],
@@ -566,7 +564,7 @@
 			]
 		}, {
 			"name": "WCP 17mm",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["17mm"],
@@ -579,7 +577,7 @@
 			]
 		}, {
 			"name": "WCP 3/16\"",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.1875\""],
@@ -592,7 +590,7 @@
 			]
 		}, {
 			"name": "WCP 3/8\"",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.375\""],
@@ -605,7 +603,7 @@
 			]
 		}, {
 			"name": "WCP Flanged",
-			"image": "/images/bearings/vex-hex.jpg",
+			"image": "/images/products/bearings/vex-hex.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\"", "0.375\" hex", "0.5\"", "0.5\" hex"],
@@ -618,7 +616,7 @@
 			]
 		}, {
 			"name": "WCP Flanged 3/4\"",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.75\""],
@@ -631,7 +629,7 @@
 			]
 		}, {
 			"name": "WCP Flanged 3/8\"",
-			"image": "/images/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/vex-round.jpg",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\""],
@@ -713,7 +711,7 @@
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["12mm"],
-				"OD": ["214mm"],
+				"OD": ["24mm"],
 				"Shield": ["Shielded"],
 				"Width": ["5mm"]
 			},
@@ -842,7 +840,7 @@
 			"image": "/images/products/bearings/tb-4000.jpg",
 			"filters": {
 				"Type": ["X-Contact"],
-				"ID": ["1\"""1.5\"", "1.75\""],
+				"ID": ["1\"", "1.5\"", "1.75\""],
 				"OD": ["1.375\"", "1.375\"", "1.875\"", "2.125\"" ],
 				"Shield": ["Shielded"],
 				"Width": ["0.1875\""]
@@ -868,7 +866,7 @@
 			"image": "/images/products/bearings/tb-4000.jpg",
 			"filters": {
 				"Type": ["X-Contact"],
-				"ID": ["2\"""2.5\"", "3\"", "3.5\"", "4\"", "4.5\"", "6\"", "8\"", "10\""],
+				"ID": ["2\"", "2.5\"", "3\"", "3.5\"", "4\"", "4.5\"", "6\"", "8\"", "10\""],
 				"OD": ["2.5\"", "3\"", "3.5\"", "4\"", "4.5\"", "5\"", "6.5\"", "8.5\"", "10.5\"" ],
 				"Shield": ["Shielded"],
 				"Width": ["0.1875\""]
