@@ -197,8 +197,7 @@
 				"Shield": ["Double Shielded"],
 				"Width": ["0.312\""]
 			},
-			"links": [
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/bearings/" }
+			"links": ["https://swyftrobotics.com/products/bearings?_pos=22&_fid=c6ad5ab2c&_ss=c" }
 			]
 		}, {
 			"name": "Swyft 3/8\"",
