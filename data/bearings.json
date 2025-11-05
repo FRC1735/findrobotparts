@@ -1,11 +1,24 @@
 {
 	"title": "Bearings",
 	"pathname": "bearings",
-	"description": "<p>Bearings can be used with shafts and mounts to create subsystems that rotate.</p>",
+	"description": "<p>Bearings support rotating shafts and components, reducing friction and improving efficiency. Common styles include flanged, shielded, and needle bearings, each optimized for specific load conditions. In robotics, they’re essential for smooth motion in drivetrains, intakes, and arms where precision matters..</p>",
 	"image_slug": "bearing",
 	"filter_groups": ["Type", "ID", "OD", "Shield", "Width"],
 	"products": [
-	 {
+	{
+			"name": "AM 0.192in ID 3/8in OD",
+			"image": "/images/bearings/am-375-radial-shielded.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.188\""],
+				"OD": ["0.375\""],
+				"Shield": ["Shielded"],
+				"Width": ["0.156\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/0-190-in-id-3-8-in-od-extended-race-bearing-r166zzee" }
+			]
+		},{
 			"name": "AM 1/2\" Open",
 			"image": "/images/bearings/am-500-open.jpg",
 			"filters": {
@@ -18,7 +31,85 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-round-id-bearing-r8?variant=44497404493996" }
 			]
-		}, {
+		},{
+			"name": "AM 1/2\" Hex ID",
+			"image": "/images/bearings/am-4703.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.5\""],
+				"OD": ["1.125\""],
+				"Shield": ["Open"],
+				"Width": ["0.313\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-hex-id-sealed-bearing-r82rs-hex" }
+			]
+		},{
+			"name": "AM 1/2 in ID 1 1/8 in OD ",
+			"image": "/images/bearings/am-375-radial-shielded.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.500\""],
+				"OD": ["1.125\""],
+				"Shield": ["Shielded"],
+				"Width": ["0.313\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-id-1-1-8-in-od-sealed-flanged-bearing-fr82rs" }
+			]
+		},{
+			"name": "AM 1/2 in ID 1 3/8 in OD ",
+			"image": "/images/bearings/am-4466.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.500\""],
+				"OD": ["1.375\""],
+				"Shield": ["Shielded"],
+				"Width": ["0.438\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-id-1-3-8in-od-shielded-bearing-1621zz" }
+			]
+		},{
+			"name": "AM 1/4in ID 5/8in OD ",
+			"image": "/images/bearings/am-4461.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.250\""],
+				"OD": ["0.625\""],
+				"Shield": ["Shielded"],
+				"Width": ["0.196\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-4-in-id-5-8-in-od-shielded-flanged-bearing-fr4zz" }
+			]
+		},{
+			"name": "AM 10mm ID 26mm OD ",
+			"image": "/images/bearings/am-4461.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["10mm"],
+				"OD": ["26mm"],
+				"Shield": ["Shielded"],
+				"Width": ["8mm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/12-mm-id-28-mm-od-shielded-bearing-6001zz" }
+			]
+		},{
+			"name": "AM 12mm ID 28mm OD ",
+			"image": "/images/bearings/am-4461.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["12mm"],
+				"OD": ["28mm"],
+				"Shield": ["Shielded"],
+				"Width": ["8mm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/12-mm-id-28-mm-od-shielded-bearing-6001zz" }
+			]
+		},{
 			"name": "AM 3/16\"",
 			"image": "/images/bearings/am-1875.jpg",
 			"filters": {
@@ -31,7 +122,20 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-16-in-id-bearing-r3" }
 			]
-		}, {
+		},{
+			"name": "AM 3/16in ID 1/2in OD ",
+			"image": "/images/bearings/am-4461.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.188\""],
+				"OD": ["0.5\""],
+				"Shield": ["Open"],
+				"Width": ["0.195\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-16-in-id-1-2-in-od-shielded-flanged-bearing-fr3zz" }
+			]
+		},{
 			"name": "AM 3/8\", 1 1/8\" OD",
 			"image": "/images/bearings/am-375-radial-shielded.jpg",
 			"filters": {
@@ -58,6 +162,19 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fr6zzl-3-8-in-hex-bearing" },
 			]
 		}, {
+			"name": "AM 3/8\", 7/8\", Hex",
+			"image": "/images/bearings/am-500-hex.jpg",
+			"filters": {
+				"Type": ["Flanged"],
+				"ID": ["0.375\"", "0.375\" hex"],
+				"OD": [".0875\""],
+				"Shield": ["Shielded"],
+				"Width": ["0.280\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-8-0-375-in-hex-id-sealed-bearing-r62rs-hex" },
+			]
+		}, {
 			"name": "AM 3/8\", Open",
 			"image": "/images/bearings/am-375-open.jpg",
 			"filters": {
@@ -70,7 +187,85 @@
 			"links": [
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-id-flanged-bearing-fr6" }
 			]
-		}, {
+		},{
+			"name": "AM 5/8\"",
+			"image": "/images/bearings/am-375-radial-shielded-875.jpg",
+			"filters": {
+				"Type": ["Flanged"],
+				"ID": ["0.325\""],
+				"OD": ["1.375\""],
+				"Shield": ["Shielded"],
+				"Width": ["0.438\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/5-8-in-id-1-3-8-in-od-shielded-bearing-1623zz" }
+			]
+		},{
+			"name": "AM 5mm ID 11mm OD",
+			"image": "/images/bearings/am-6641.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["5mm"],
+				"OD": ["11mm"],
+				"Shield": ["Shielded"],
+				"Width": ["4mm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/5-mm-id-11-mm-od-shielded-flanged-bearing-mf115zz" }
+			]
+		},{
+			"name": "AM 5mm ID 13mm OD",
+			"image": "/images/bearings/am-6641.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["5mm"],
+				"OD": ["13mm"],
+				"Shield": ["Shielded"],
+				"Width": ["4mm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/5-mm-id-13-mm-od-shielded-flanged-bearing-f695zz" }
+			]
+		},{
+			"name": "AM 6mm ID 17mm OD",
+			"image": "/images/bearings/am-6641.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["6mm"],
+				"OD": ["17mm"],
+				"Shield": ["Shielded"],
+				"Width": ["6mm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/6-mm-id-17-mm-od-shielded-flanged-bearing-f606zz" }
+			]
+		},{
+			"name": "AM 8mm ID 19mm OD",
+			"image": "/images/bearings/am-6641.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["8mm"],
+				"OD": ["19mm"],
+				"Shield": ["Shielded"],
+				"Width": ["6mm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/8-mm-round-id-shielded-bearing-r1980zz" }
+			]
+		},{
+			"name": "AM 8mm ID 22mm OD",
+			"image": "/images/bearings/am-6641.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["8mm"],
+				"OD": ["22mm"],
+				"Shield": ["Shielded"],
+				"Width": ["7mm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/8-mm-id-22-mm-od-shielded-flanged-bearing-f608zz" }
+			]
+		},{
 			"name": "AM 8mm Thrust",
 			"image": "/images/bearings/am-thrust.jpg",
 			"filters": {
@@ -162,6 +357,45 @@
 				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-2-in-id-bearing-shielded-r8zz" },
 			]
 		}, {
+			"name": "REV 1/2\" Hex",
+			"image": "/images/bearings/pi-hex.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.5\""],
+				"OD": ["1.125\""],
+				"Shield": ["Shielded"],
+				"Width": ["0.281\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Bearings/" }
+			]
+		}, {
+			"name": "REV 1/2\" Rounded Hex",
+			"image": "/images/bearings/pi-hex.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.54\""],
+				"OD": ["1\""],
+				"Shield": ["Shielded"],
+				"Width": ["0..281\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Bearings/" }
+			]
+		},{
+			"name": "REV 1/2\" Rounded Hex 1.125in",
+			"image": "/images/bearings/pi-hex.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.5\""],
+				"OD": ["1.125\""],
+				"Shield": ["Shielded"],
+				"Width": ["0..281\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-Bearings/" }
+			]
+		},{
 			"name": "REV 3/8\" V-Groove",
 			"image": "/images/bearings/rev-v-groove-375.jpg",
 			"filters": {
@@ -197,7 +431,8 @@
 				"Shield": ["Double Shielded"],
 				"Width": ["0.312\""]
 			},
-			"links": ["https://swyftrobotics.com/products/bearings?_pos=22&_fid=c6ad5ab2c&_ss=c" }
+			"links": [
+				{ "vendor": "Swyft Robotics","https://swyftrobotics.com/products/bearings?_pos=22&_fid=c6ad5ab2c&_ss=c" }
 			]
 		}, {
 			"name": "Swyft 3/8\"",
@@ -210,7 +445,7 @@
 				"Width": ["0.281\""]
 			},
 			"links": [
-				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/product/bearings/" }
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/bearings?_pos=22&_fid=c6ad5ab2c&_ss=c" }
 			]
 		}, {
 			"name": "The Thrifty Bot 1/2\" Hex",
@@ -409,7 +644,7 @@
 			]
 		}, {
 			"name": "WCP 25mm",
-			"image": "/images/image-not-available.png",
+			"image": "/images/products/bearings/wcp-0781.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["25mm"],
@@ -422,7 +657,7 @@
 			]
 		}, {
 			"name": "WCP Round 1/4\", 1/2\" OD",
-			"image": "/images/image-not-available.png",
+			"image": "/images/products/bearings/wcp-0781.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.25\""],
@@ -435,7 +670,7 @@
 			]
 		}, {
 			"name": "WCP Round 1/4\", 5/8\" OD",
-			"image": "/images/image-not-available.png",
+			"image": "/images/products/bearings/wcp-0781.jpg",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.25\""],
@@ -446,6 +681,201 @@
 			"links": [
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
 			]
-		}
+		},{
+			"name": "WCP Round 1/4\", 3/4\" OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["0.25\""],
+				"OD": ["0.750\""],
+				"Shield": ["Double Shielded"],
+				"Width": ["0.282\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		},{
+			"name": "WCP 12mm ID 21mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["12mm"],
+				"OD": ["21mm"],
+				"Shield": ["Shielded"],
+				"Width": ["5mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		},{
+			"name": "WCP 12mm ID 24mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["12mm"],
+				"OD": ["214mm"],
+				"Shield": ["Shielded"],
+				"Width": ["5mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP 15mm ID 24mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["15mm"],
+				"OD": ["24mm"],
+				"Shield": ["Shielded"],
+				"Width": ["5mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		},{
+			"name": "WCP 17mm ID 23mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["17mm"],
+				"OD": ["23mm"],
+				"Shield": ["Shielded"],
+				"Width": ["4mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		},{
+			"name": "WCP 30mm ID 42mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["30mm"],
+				"OD": ["42mm"],
+				"Shield": ["Shielded"],
+				"Width": ["7mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP 35mm ID 47mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["35mm"],
+				"OD": ["47mm"],
+				"Shield": ["Shielded"],
+				"Width": ["7mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP 35mm ID 47mm OD Flanged",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Flanged"],
+				"ID": ["35mm"],
+				"OD": ["47mm"],
+				"Shield": ["Shielded"],
+				"Width": ["7mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP 6mm ID 12mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["6mm"],
+				"OD": ["12mm"],
+				"Shield": ["Shielded"],
+				"Width": ["4mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP 8mm ID 16mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["8mm"],
+				"OD": ["16mm"],
+				"Shield": ["Shielded"],
+				"Width": ["5mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP 8mm ID 16mm OD Flanged",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Flanged"],
+				"ID": ["8mm"],
+				"OD": ["16mm"],
+				"Shield": ["Shielded"],
+				"Width": ["5mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP 80mm ID 100mm OD",
+			"image": "/images/products/bearings/wcp-0781.jpg",
+			"filters": {
+				"Type": ["Radial"],
+				"ID": ["80mm"],
+				"OD": ["100mm"],
+				"Shield": ["Shielded"],
+				"Width": ["10mm"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		}, {
+			"name": "WCP X- Contact 0.1875 Width",
+			"image": "/images/products/bearings/tb-4000.jpg",
+			"filters": {
+				"Type": ["X-Contact"],
+				"ID": ["1\"""1.5\"", "1.75\""],
+				"OD": ["1.375\"", "1.375\"", "1.875\"", "2.125\"" ],
+				"Shield": ["Shielded"],
+				"Width": ["0.1875\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		},{
+			"name": "WCP X- Contact 0.3125 Width",
+			"image": "/images/products/bearings/tb-4000.jpg",
+			"filters": {
+				"Type": ["X-Contact"],
+				"ID": ["2.5\""],
+				"OD": ["3.125\"" ],
+				"Shield": ["Shielded"],
+				"Width": ["0.3125\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		},{
+			"name": "WCP X- Contact 0.25 Width",
+			"image": "/images/products/bearings/tb-4000.jpg",
+			"filters": {
+				"Type": ["X-Contact"],
+				"ID": ["2\"""2.5\"", "3\"", "3.5\"", "4\"", "4.5\"", "6\"", "8\"", "10\""],
+				"OD": ["2.5\"", "3\"", "3.5\"", "4\"", "4.5\"", "5\"", "6.5\"", "8.5\"", "10.5\"" ],
+				"Shield": ["Shielded"],
+				"Width": ["0.1875\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/ball-bearings" }
+			]
+		},
 	]
 }
