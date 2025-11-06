@@ -1,6 +1,6 @@
 {
 	"title": "Structure",
-	"description": "<p>Structural components form the backbone of a robot. Extrusions, tubing, and brackets make it easy to design strong, modular frames that can be adapted over time. Good structural planning improves serviceability, rigidity, and overall performance on the field.</p>",
+	"description": "<p>Structural components form the backbone of a robot. Extrusions and tubing make it easy to design strong, modular frames that can be adapted over time. Good structural planning improves serviceability, rigidity, and overall performance on the field.</p>",
 	"filter_groups": ["Type", "Width", "Length", "Thickness", "Pattern", "Material"],
 	"products": [
 		{

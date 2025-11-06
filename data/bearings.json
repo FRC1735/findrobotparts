@@ -200,7 +200,7 @@
 			]
 		},{
 			"name": "AM 5mm ID 11mm OD",
-			"image": "/images/products/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-5606.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["5mm"],
@@ -213,7 +213,7 @@
 			]
 		},{
 			"name": "AM 5mm ID 13mm OD",
-			"image": "/images/products/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-5469.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["5mm"],
@@ -226,7 +226,7 @@
 			]
 		},{
 			"name": "AM 6mm ID 17mm OD",
-			"image": "/images/products/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-4455.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["6mm"],
@@ -239,7 +239,7 @@
 			]
 		},{
 			"name": "AM 8mm ID 19mm OD",
-			"image": "/images/products/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-2095.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["8mm"],
@@ -252,7 +252,7 @@
 			]
 		},{
 			"name": "AM 8mm ID 22mm OD",
-			"image": "/images/products/bearings/am-6641.jpg",
+			"image": "/images/products/bearings/am-4457.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["8mm"],
@@ -499,7 +499,7 @@
 			]
 		}, {
 			"name": "WCP 1/2\", 1 1/8\" OD",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-500-1125.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -512,7 +512,7 @@
 			]
 		}, {
 			"name": "WCP 1/2\", 7/8\" OD",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-500-875.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.5\""],
@@ -525,7 +525,7 @@
 			]
 		}, {
 			"name": "WCP 1/4\", 1/2\" OD",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-250-500.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.25\""],
@@ -538,7 +538,7 @@
 			]
 		}, {
 			"name": "WCP 1/4\", 3/8\" OD",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-250-375.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.25\""],
@@ -551,7 +551,7 @@
 			]
 		}, {
 			"name": "WCP 15mm",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-15mm-28mm.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["15mm"],
@@ -564,7 +564,7 @@
 			]
 		}, {
 			"name": "WCP 17mm",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-17mm-26mm.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["17mm"],
@@ -577,7 +577,7 @@
 			]
 		}, {
 			"name": "WCP 3/16\"",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-188-500.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.1875\""],
@@ -590,7 +590,7 @@
 			]
 		}, {
 			"name": "WCP 3/8\"",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-radial-375-875.webp",
 			"filters": {
 				"Type": ["Radial"],
 				"ID": ["0.375\""],
@@ -603,7 +603,7 @@
 			]
 		}, {
 			"name": "WCP Flanged",
-			"image": "/images/products/bearings/vex-hex.jpg",
+			"image": "/images/products/bearings/wcp-hex.webp",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\"", "0.375\" hex", "0.5\"", "0.5\" hex"],
@@ -616,7 +616,7 @@
 			]
 		}, {
 			"name": "WCP Flanged 3/4\"",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-flanged-750-1375.webp",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.75\""],
@@ -629,7 +629,7 @@
 			]
 		}, {
 			"name": "WCP Flanged 3/8\"",
-			"image": "/images/products/bearings/vex-round.jpg",
+			"image": "/images/products/bearings/wcp-flanged-375-875.webp",
 			"filters": {
 				"Type": ["Flanged"],
 				"ID": ["0.375\""],
