@@ -15,17 +15,6 @@
 				{ "vendor": "AndyMark", "link": "https://andymark.com/products/koors40-brushed-dc-motor-controller" }
 			]
 		}, {
-			"name": "Nitrate",
-			"image": "/images/products/motor-controllers/nitrate.webp",
-			"filters": {
-				"Input Type": ["CAN", "CANFD"],
-				"Sensor Inputs": ["Encoders"],
-				"Embedded Permanant Wires": ["Yes"]
-			},
-			"links": [
-				{ "vendor": "Redux Robotics", "link": "https://shop.reduxrobotics.com/products/nitrate" }
-			]
-		}, {
 			"name": "Spark Flex",
 			"image": "/images/products/motor-controllers/rev-spark-flex.webp",
 			"filters": {
