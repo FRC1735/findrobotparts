@@ -1,0 +1,142 @@
+{
+	"title": "Linear Actuators",
+	"description": "<p>Linear actuators translate rotary motion into straight-line movement, ideal for lifts, clamps, and adjusting mechanisms. They provide controlled extension and retraction using screw or motor drive systems. Actuators simplify mechanical design where pneumatics aren’t practical or precise enough.</p>",
+	"filter_groups": ["Input", "Travel (in)", "No Load Speed (in/s)", "Max Force (N)", "Closed Length (in)"],
+	"products": [
+		{
+			"name": "L16-R, 100mm, 150:1",
+			"image": "/images/products/linearactuators/l16r-100.webp",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["3.9"],
+				"No Load Speed (in/s)": ["0.31"],
+				"Max Force (N)": ["200"],
+				"Closed Length (in)": ["6.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 100mm, 35:1",
+			"image": "/images/products/linearactuators/l16r-100.webp",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["3.9"],
+				"No Load Speed (in/s)": ["1.26"],
+				"Max Force (N)": ["50"],
+				"Closed Length (in)": ["6.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 100mm, 63:1",
+			"image": "/images/products/linearactuators/l16r-100.webp",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["3.9"],
+				"No Load Speed (in/s)": ["0.79"],
+				"Max Force (N)": ["100"],
+				"Closed Length (in)": ["6.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 140mm, 150:1",
+			"image": "/images/products/linearactuators/l16r-140.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["5.5"],
+				"No Load Speed (in/s)": ["0.31"],
+				"Max Force (N)": ["200"],
+				"Closed Length (in)": ["8.6"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-140mm-stroke-150-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 140mm, 35:1",
+			"image": "/images/products/linearactuators/l16r-140.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["5.5"],
+				"No Load Speed (in/s)": ["1.26"],
+				"Max Force (N)": ["50"],
+				"Closed Length (in)": ["8.6"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-140mm-stroke-35-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 140mm, 63:1",
+			"image": "/images/products/linearactuators/l16r-140.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["5.5"],
+				"No Load Speed (in/s)": ["0.79"],
+				"Max Force (N)": ["100"],
+				"Closed Length (in)": ["8.6"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 50mm, 150:1",
+			"image": "/images/products/linearactuators/l16r-50.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["1.97"],
+				"No Load Speed (in/s)": ["0.31"],
+				"Max Force (N)": ["200"],
+				"Closed Length (in)": ["4.7"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-50mm-stroke-150-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 50mm, 35:1",
+			"image": "/images/products/linearactuators/l16r-50.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["1.97"],
+				"No Load Speed (in/s)": ["1.26"],
+				"Max Force (N)": ["50"],
+				"Closed Length (in)": ["4.7"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/actuator-l16-r-50mm-stroke-35-1-6v" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "L16-R, 50mm, 63:1",
+			"image": "/images/products/linearactuators/l16r-50.jpg",
+			"filters": {
+				"Input": ["Included Servo"],
+				"Travel (in)": ["1.97"],
+				"No Load Speed (in/s)": ["0.79"],
+				"Max Force (N)": ["100"],
+				"Closed Length (in)": ["4.7"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/miniature-linear-servo-actuator" }
+			]
+		}, {
+			"name": "REV Linear Actuator",
+			"image": "/images/products/linearactuators/rev-linear.webp",
+			"filters": {
+				"Input": ["MAX Planetary"],
+				"Travel (in)": ["12"],
+				"No Load Speed (in/s)": ["Varies", "10.6", "42.5"],
+				"Max Force (N)": ["Varies", "377", "1508"],
+				"Closed Length (in)": ["16"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2735/" }
+			]
+		}
+	]
+}

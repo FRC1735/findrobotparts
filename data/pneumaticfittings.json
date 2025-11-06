@@ -1,0 +1,833 @@
+{
+	"title": "Pneumatic Fittings",
+	"description": "<p>Pneumatic fittings connect tubing to valves, cylinders, and regulators. Push-to-connect fittings are especially convenient for fast setup and leak-free operation. Choosing the right thread type and size ensures efficient airflow and easy maintenance between matches.</p>",
+	"filter_groups": ["Type", "Input", "Output", "Material"],
+	"products": [
+		{
+			"name": "45deg bend, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/45deg-1-4-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["45deg bend"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#7880T247" }
+			]
+		}, {
+			"name": "45deg bend, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/45deg-1-4-npt-male-x-1-4-press-in-2.png",
+			"filters": {
+				"Type": ["45deg bend"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K334" }
+			]
+		}, {
+			"name": "45deg bend, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/45deg-1-8-npt-male-1-4-press-in.png",
+			"filters": {
+				"Type": ["45deg bend"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#7880T246" }
+			]
+		}, {
+			"name": "Adapter, 1/4\" NPT Female x 1/8\" NPT Male",
+			"image": "/images/products/pneumaticfittings/adapter-1-4-npt-female-x-1-8-npt-male.jpg",
+			"filters": {
+				"Type": ["Adapter"],
+				"Input": ["1/4\" NPT Female"],
+				"Output": ["1/8\" NPT Male"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-adapter-1-8-npt-male-1-4-npt-female" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFMFR-14N-18N" }
+			]
+		}, {
+			"name": "Ball Valve 1/4 in. Tube Fittings with Colored Handle",
+			"image": "/images/products/pneumaticfittings/ball-valve-1-4-in-tube-fittings.webp",
+			"filters": {
+				"Type": ["Valve"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/ball-valve-1-4-in-tube-fittings-with-colored-handle" }
+			]
+		}, {
+			"name": "Bulkhead, 1/4\" NPT Female x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/bulkhead-1-4-npt-female-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Bulkhead"],
+				"Input": ["1/4\" NPT Female"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Steel"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FB14-14N" }
+			]
+		}, {
+			"name": "Bulkhead, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/bulkhead-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Bulkhead"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Steel"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UB14" }
+			]
+		}, {
+			"name": "Bulkhead, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/bulkhead-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Bulkhead"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Steel"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/female-fitting-1-8-in-npt-1-4-in-tube" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FB14-18N" }
+			]
+		}, {
+			"name": "Cap, 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/cap-1-4-press-in.png",
+			"filters": {
+				"Type": ["Cap"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["N/A"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K473" }
+			]
+		}, {
+			"name": "Cross, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/cross-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Cross"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UX14" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K786" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Cross, 1/8\" NPT Male x 1/8\" NPT Female",
+			"image": "/images/products/pneumaticfittings/cross-1-8-npt-male-x-1-8-npt-female.jpg",
+			"filters": {
+				"Type": ["Cross"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/8\" NPT Female"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-cross-brass-1-8-in-npt-3-f-1-m" }
+			]
+		}, {
+			"name": "Double Wye, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/double-wye-1-4-press-in-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Double Wye"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K266" }
+			]
+		}, {
+			"name": "Elbow w/ meter in, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-w--meter-in-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow w/ meter in"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVR14-14N" }
+			]
+		}, {
+			"name": "Elbow w/ meter in, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-w--meter-in-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow w/ meter in"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVR14-18N" }
+			]
+		}, {
+			"name": "Elbow w/ meter out, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-w--meter-out-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow w/ meter out"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVS14-14N" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Elbow w/ meter out, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-w--meter-out-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow w/ meter out"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-8-npt-male-to-1-4-tube-elbow-meter-out-flow-valve" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVS14-18N" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Elbow, 1/4\" NPT Female x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-1-4-npt-female-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow"],
+				"Input": ["1/4\" NPT Female"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FE14-14N" }
+			]
+		}, {
+			"name": "Elbow, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-pneumatic-elbow-1-4-in-tube-press-in-1-4-in-npt-male" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/ME14-14N" },
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/male-swivel-elbow-p-5983-l-en.html" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#7880T217" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Elbow, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UL14" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K24" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Elbow, 1/8\" NPT Female x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-1-8-npt-female-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow"],
+				"Input": ["1/8\" NPT Female"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FE14-18N" }
+			]
+		}, {
+			"name": "Elbow, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/elbow-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Elbow"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pneumatic-fitting-elbow-1-4-in-tube-press-in-1-8-in-npt-male" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/ME14-18N" },
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/male-swivel-elbow-p-5983-l-en.html" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#7880T216" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Flow Control, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/flow-control-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Flow Control"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/flow-control-in-line-1-4-in-tube-press-in" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FVU14" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Guage, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/guage-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Guage"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/PGU14" }
+			]
+		}, {
+			"name": "Long Elbow, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/long-elbow-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Long Elbow"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MEL14-14N" }
+			]
+		}, {
+			"name": "Long Elbow, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/long-elbow-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Long Elbow"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MEL14-18N" }
+			]
+		}, {
+			"name": "Manifold, 1/4\" Press-in x 1/4\" Press-in, 3 outlet",
+			"image": "/images/products/pneumaticfittings/manifold-1-4-press-in-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Manifold"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K318" }
+			]
+		}, {
+			"name": "Manifold, 1/4\" Press-in x 1/4\" Press-in, 6 outlet",
+			"image": "/images/products/pneumaticfittings/manifold-1-4-press-in-x-1-4-press-in-6.png",
+			"filters": {
+				"Type": ["Manifold"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K782" }
+			]
+		}, {
+			"name": "Nipple, 1/4\" NPT Male x 1/4\" NPT Male, Brass",
+			"image": "/images/products/pneumaticfittings/nipple-1-4-npt-male-x-1-4-npt-male-brass.jpg",
+			"filters": {
+				"Type": ["Nipple"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" NPT Male"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-brass-hex-nipple-1-4-in-npt" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFMC-14N" }
+			]
+		}, {
+			"name": "Nipple, 1/4\" NPT Male x 1/4\" NPT Male, Plastic",
+			"image": "/images/products/pneumaticfittings/nipple-1-4-npt-male-x-1-4-npt-male-plastic.jpg",
+			"filters": {
+				"Type": ["Nipple"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" NPT Male"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-nylon-hex-nipple-1-4-in-npt" }
+			]
+		}, {
+			"name": "Nipple, 1/4\" NPT Male x 1/8\" NPT Male, Brass",
+			"image": "/images/products/pneumaticfittings/nipple-1-4-npt-male-x-1-8-npt-male-brass.jpg",
+			"filters": {
+				"Type": ["Nipple"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/8\" NPT Male"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hex-nipple-1-4-in-1-8-in-npt" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFMC-14N-18N" }
+			]
+		}, {
+			"name": "Nipple, 1/4\" NPT Male x 1/8\" NPT Male, Plastic",
+			"image": "/images/products/pneumaticfittings/nipple-1-4-npt-male-x-1-8-npt-male-plastic.jpg",
+			"filters": {
+				"Type": ["Nipple"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/8\" NPT Male"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/nylon-hex-nipple-1-4-in-1-8-in-npt" }
+			]
+		}, {
+			"name": "Nipple, 1/8\" NPT Male x 1/8\" NPT Male, Brass",
+			"image": "/images/products/pneumaticfittings/nipple-1-8-npt-male-x-1-8-npt-male-brass.jpg",
+			"filters": {
+				"Type": ["Nipple"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/8\" NPT Male"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-brass-hex-nipple-1-8-in-npt" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFMC-18N" }
+			]
+		}, {
+			"name": "Nipple, 1/8\" NPT Male x 1/8\" NPT Male, Plastic",
+			"image": "/images/products/pneumaticfittings/nipple-1-8-npt-male-x-1-8-npt-male-plastic.jpg",
+			"filters": {
+				"Type": ["Nipple"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/8\" NPT Male"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-nylon-hex-nipple-1-8-in-npt" }
+			]
+		}, {
+			"name": "Plug, 1/4\" NPT Male, Brass",
+			"image": "/images/products/pneumaticfittings/plug-1-4-npt-male-brass.jpg",
+			"filters": {
+				"Type": ["Plug"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["N/A"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-4-in-npt-hex-head-plug-1" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFHHP-14N" }
+			]
+		}, {
+			"name": "Plug, 1/4\" NPT Male, Plastic",
+			"image": "/images/products/pneumaticfittings/plug-1-4-npt-male-plastic.jpg",
+			"filters": {
+				"Type": ["Plug"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["N/A"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-4-in-npt-hex-head-plug" }
+			]
+		}, {
+			"name": "Plug, 1/4\" Tube",
+			"image": "/images/products/pneumaticfittings/plug-1-4-tube.jpg",
+			"filters": {
+				"Type": ["Plug"],
+				"Input": ["1/4\" Tube"],
+				"Output": ["N/A"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/PLUG14" }
+			]
+		}, {
+			"name": "Plug, 1/8\" NPT Male, Brass",
+			"image": "/images/products/pneumaticfittings/plug-1-8-npt-male-brass.jpg",
+			"filters": {
+				"Type": ["Plug"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["N/A"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-8-in-npt-hex-head-plug-1" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFHHP-18N" }
+			]
+		}, {
+			"name": "Plug-In Through Wall Straight, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/plug-in-through-wall-straight-1-4-press-in-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Plug-In Through Wall Straight"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K313" }
+			]
+		}, {
+			"name": "Straight, 1/4\" NPT Female x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/straight-1-4-npt-female-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Straight"],
+				"Input": ["1/4\" NPT Female"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FS14-14N" }
+			]
+		}, {
+			"name": "Straight, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/straight-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Straight"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pneumatic-fitting-straight-1-4-in-tube-press-in-1-4-in-npt-male" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MS14-14N" },
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/male-connector-p-5961-l-en.html" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Straight, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/straight-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Straight"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/US14" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K14" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Straight, 1/8\" NPT Female x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/straight-1-8-npt-female-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Straight"],
+				"Input": ["1/8\" NPT Female"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/FS14-18N" }
+			]
+		}, {
+			"name": "Straight, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/straight-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Straight"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pneumatic-fitting-straight-1-4-in-tube-press-in-1-8-in-npt-male" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MS14-18N" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K108" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Straight, M5 x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/straight-m5-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Straight"],
+				"Input": ["M5"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/m5-pisco-fitting-for-1-4-in-press-in-tube-poc1-4-m5" }
+			]
+		}, {
+			"name": "Swivel 45deg bend, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-45deg-bend-1-8-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["45deg bend"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K333" }
+			]
+		}, {
+			"name": "Swivel Elbow, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-elbow-1-4-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Elbow"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K152" }
+			]
+		}, {
+			"name": "Swivel Elbow, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-elbow-1-8-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Elbow"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K151" }
+			]
+		}, {
+			"name": "Swivel Manifold, NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-manifold-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Manifold"],
+				"Input": ["1/4\" NPT Male", "1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#swivel-manifolds/=8wz615zly1iqs5p3xo" }
+			]
+		}, {
+			"name": "Swivel Tee - Branch, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-tee-branch-1-4-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K175" }
+			]
+		}, {
+			"name": "Swivel Tee - Branch, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-tee-branch-1-8-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K204" }
+			]
+		}, {
+			"name": "Swivel Tee - Run, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-tee-run-1-4-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K205" }
+			]
+		}, {
+			"name": "Swivel Wye, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-wye-1-4-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Swivel Wye"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K627" }
+			]
+		}, {
+			"name": "Swivel Wye, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/swivel-wye-1-8-npt-male-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Swivel Wye"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K626" }
+			]
+		}, {
+			"name": "Tee - Branch, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/tee-branch-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MBT14-14N" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5486K362" }
+			]
+		}, {
+			"name": "Tee - Branch, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/tee-branch-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MBT14-18N" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K174" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5486K361" }
+			]
+		}, {
+			"name": "Tee - Run, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/tee-run-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MRT14-14N" }
+			]
+		}, {
+			"name": "Tee - Run, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/tee-run-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MRT14-18N" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5486K371" }
+			]
+		}, {
+			"name": "Tee, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/tee-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Tee"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pneumatic-fitting-union-tee-1-4-in-tube" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UT14" },
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/union-tee-p-6000-l-en.html" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K34" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Through-Wall Elbow, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/through-wall-elbow-1-4-press-in-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Through-Wall Elbow"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K277" }
+			]
+		}, {
+			"name": "Through-Wall Straight, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/through-wall-straight-1-4-press-in-x-1-4-press-in.png",
+			"filters": {
+				"Type": ["Through-Wall Straight"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K677" }
+			]
+		}, {
+			"name": "Valve, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/valve-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Valve"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/fittings/special_purpose/hvu14-2" }
+			]
+		}, {
+			"name": "Wye, 1/4\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/wye-1-4-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Wye"],
+				"Input": ["1/4\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MY14-14N" }
+			]
+		}, {
+			"name": "Wye, 1/4\" Press-in x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/wye-1-4-press-in-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Wye"],
+				"Input": ["1/4\" Press-in"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "http://www.andymark.com/product-p/am-2184.htm" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/UY14" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#5779K44" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/pneumatics" }
+			]
+		}, {
+			"name": "Wye, 1/8\" NPT Male x 1/4\" Press-in",
+			"image": "/images/products/pneumaticfittings/wye-1-8-npt-male-x-1-4-press-in.jpg",
+			"filters": {
+				"Type": ["Wye"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/4\" Press-in"],
+				"Material": ["Brass", "Plastic"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-pneumatic-y-1-4-press-in-two-1-8-in-npt-one" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/MY14-18N" }
+			]
+		}, {
+			"name": "Wye, 1/8\" NPT Male x 1/8\" NPT Female",
+			"image": "/images/products/pneumaticfittings/wye-1-8-npt-male-x-1-8-npt-female.jpg",
+			"filters": {
+				"Type": ["Wye"],
+				"Input": ["1/8\" NPT Male"],
+				"Output": ["1/8\" NPT Female"],
+				"Material": ["Brass"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/fitting-y-brass-1-8-in-npt-2-f-1-m" },
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/pn/BFMT-18N" }
+			]
+		}
+	]
+}

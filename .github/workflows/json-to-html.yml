@@ -1,0 +1,50 @@
+name: Build HTML from JSON
+
+on:
+  push:
+    paths:
+      - 'data/*.json'
+      - 'data/**/*.json'
+      - 'templates/*.hbs'
+      - 'templates/**/*.hbs'
+  pull_request:
+    paths:
+      - 'data/*.json'
+      - 'data/**/*.json'
+      - 'templates/*.hbs'
+      - 'templates/**/*.hbs'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate HTML
+        run: npm run build
+
+      - name: Upload HTML preview (PRs)
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-html
+          path: 'www'
+
+      - name: Commit generated HTML (push)
+        if: ${{ github.event_name == 'push' }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: rebuild HTML from JSON/template [skip ci]"
+          file_pattern: 'www'

@@ -1,0 +1,188 @@
+{
+	"title": "Programming Resources",
+	"description": "<p>Programming resources help teams develop robot control systems, automation, and vision processing. They include code libraries, tutorials, and sample projects for popular frameworks like WPILib. Learning from these examples accelerates development and helps students grow their technical skills.</p>",
+	"filter_groups": ["Type", "Official", "Written In", "Robot Language"],
+	"products": [
+		{
+			"name": "FlashLib",
+			"image": "/images/products/resources-software/flashlib.jpg",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Flash3388", "link": "https://github.com/Flash3388/FlashLib" }
+			]
+		}, {
+			"name": "GradleRIO",
+			"image": "/images/products/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Build Management System"],
+				"Official": ["Yes"],
+				"Written In": ["C++", "Java"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/GradleRIO" }
+			]
+		}, {
+			"name": "PathWeaver",
+			"image": "/images/products/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Navigation"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/PathWeaver" }
+			]
+		}, {
+			"name": "pi-gen",
+			"image": "/images/products/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Vision"],
+				"Official": ["Yes"],
+				"Written In": ["C++", "Java", "Python"],
+				"Robot Language": ["C++", "Java", "Python"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/FRCVision-pi-gen" }
+			]
+		}, {
+			"name": "pynetworktables",
+			"image": "/images/products/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["Network Tables"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/pynetworktables" }
+			]
+		}, {
+			"name": "QDriverStation",
+			"image": "/images/products/resources-software/qdriverstation.png",
+			"filters": {
+				"Type": ["Driver Station"],
+				"Official": ["No"],
+				"Written In": ["C++"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "FRC Utilities", "link": "https://frc-utilities.github.io/" }
+			]
+		}, {
+			"name": "RobotBuilder",
+			"image": "/images/products/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Code Template GUI"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/RobotBuilder" }
+			]
+		}, {
+			"name": "Robotpy-Rev",
+			"image": "/images/products/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["Binding"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/robotpy-rev" }
+			]
+		}, {
+			"name": "RobotPy-WPILib",
+			"image": "/images/products/resources-software/robotpy.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["No"],
+				"Written In": ["Python"],
+				"Robot Language": ["Python"]
+			},
+			"links": [
+				{ "vendor": "Python 3 for the FIRST Robotics Competition", "link": "https://github.com/robotpy/robotpy-wpilib" }
+			]
+		}, {
+			"name": "Shuffleboard",
+			"image": "/images/products/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Dashboard"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/Shuffleboard" }
+			]
+		}, {
+			"name": "SmartDashboard",
+			"image": "/images/products/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["Dashboard"],
+				"Official": ["Yes"],
+				"Written In": ["Java"],
+				"Robot Language": ["Any"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/SmartDashboard" }
+			]
+		}, {
+			"name": "SpikesLib2",
+			"image": "/images/products/resources-software/spikeslib.png",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Spikes #2212", "link": "https://github.com/Spikes-2212-Programming-Guild/SpikesLib2" }
+			]
+		}, {
+			"name": "Third Coast",
+			"image": "/images/products/resources-software/thirdcoast.jpg",
+			"filters": {
+				"Type": ["Library"],
+				"Official": ["No"],
+				"Written In": ["Java"],
+				"Robot Language": ["Java"]
+			},
+			"links": [
+				{ "vendor": "Stryke Force FRC 2767", "link": "https://github.com/strykeforce/thirdcoast" }
+			]
+		}, {
+			"name": "WPILib",
+			"image": "/images/products/resources-software/wpilibsuite.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["Yes"],
+				"Written In": ["C++", "Java"],
+				"Robot Language": ["C++", "Java"]
+			},
+			"links": [
+				{ "vendor": "WPILib Suite", "link": "https://github.com/wpilibsuite/allwpilib" }
+			]
+		}, {
+			"name": "WPILib C#",
+			"image": "/images/products/resources-software/github.png",
+			"filters": {
+				"Type": ["WPILib"],
+				"Official": ["No"],
+				"Written In": ["C#"],
+				"Robot Language": ["C#"]
+			},
+			"links": [
+				{ "vendor": "RobotDotNet", "link": "https://github.com/robotdotnet/WPILib" }
+			]
+		}
+	]
+}

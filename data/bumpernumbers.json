@@ -1,0 +1,101 @@
+{
+	"title": "Bumper Numbers",
+	"description": "<p>Bumper numbers identify your robot to referees and other teams. They must follow FRC visibility standards, often applied using vinyl, fabric panels, or stencil paint. Consistent, legible numbering not only meets rules but also makes your robot stand out in photos and videos.</p>",
+	"filter_groups": ["Font", "Material", "Height", "Stroke", "Width of #8"],
+	"products": [
+		{
+			"name": "AndyMark Numbers",
+			"image": "/images/products/bumpernumbers/andymark.jpg",
+			"filters": {
+				"Material": ["Vinyl"],
+				"Font": ["Helvetica Neu (modified)"],
+				"Height": ["4\""],
+				"Stroke": ["0.8\""],
+				"Width of #8": ["2.6\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/vinyl-adhesive-numbers-white-4-in-tall-qty-4" }
+			]
+		}, {
+			"name": "Jiffy Custom DTF",
+			"image": "/images/products/bumpernumbers/jiffy-custom.jpg",
+			"filters": {
+				"Material": ["DTF"],
+				"Font": ["Custom"],
+				"Height": ["4\""],
+				"Stroke": ["Custom"],
+				"Width of #8": ["Custom"]
+			},
+			"links": [
+				{ "vendor": "Jiffy", "link": "https://www.jiffy.com/jiffytransfers-DTF001.html?ac=Transfer" },
+				{ "vendor": "Ninja Transfers", "link": "https://ninjatransfers.com/products/dtf-transfers" }
+			]
+		}, {
+			"name": "Jiffy DTF Numbers",
+			"image": "/images/products/bumpernumbers/jiffy-numbers.png",
+			"filters": {
+				"Material": ["DTF"],
+				"Font": ["Solid", "Outline", "Promesh", "Soccer League", "Octin Sports", "Rueckawarzsalto", "Varsity Team"],
+				"Height": ["4\""],
+				"Stroke": ["Varies"],
+				"Width of #8": ["Varies"]
+			},
+			"links": [
+				{ "vendor": "Jiffy", "link": "https://www.jiffy.com/jiffytransfers-DTFLN1.html?ac=Transfer" }
+			]
+		}, {
+			"name": "Ninja Transfers DTF Numbers",
+			"image": "/images/products/bumpernumbers/ninja-numbers.png",
+			"filters": {
+				"Material": ["DTF"],
+				"Font": ["Academy", "Alfa Slab One", "Anton", "Athletic", "Bowlby One", "College Font", "Dark College", "Quadrat-Serial", "Quadrat-Serial-ExtraBold"],
+				"Height": ["4\""],
+				"Stroke": ["Varies"],
+				"Width of #8": ["Varies"]
+			},
+			"links": [
+				{ "vendor": "Jiffy", "link": "https://www.jiffy.com/jiffytransfers-DTFLN1.html?ac=Transfer" }
+			]
+		}, {
+			"name": "RoboPromo Corner Bumper Numbers",
+			"image": "/images/products/bumpernumbers/robopromo-corner.jpg",
+			"filters": {
+				"Material": ["Vinyl"],
+				"Font": ["Standard Block"],
+				"Height": ["4\""],
+				"Stroke": ["0.5\""],
+				"Width of #8": ["1.5\""]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2010.htm" }
+			]
+		}, {
+			"name": "RoboPromo Custom - Custom",
+			"image": "/images/products/bumpernumbers/robopromo-custom.jpg",
+			"filters": {
+				"Material": ["Vinyl"],
+				"Font": ["Custom"],
+				"Height": ["4\""],
+				"Stroke": ["Custom"],
+				"Width of #8": ["Custom"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2014.htm" }
+			]
+		}, {
+			"name": "RoboPromo Numbers",
+			"image": "/images/products/bumpernumbers/robopromo.gif",
+			"filters": {
+				"Material": ["Vinyl"],
+				"Font": ["Standard Block"],
+				"Height": ["4\""],
+				"Stroke": ["0.875\""],
+				"Width of #8": ["3\""]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2006.htm" },
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/searchresults.asp?cat=1927" }
+			]
+		}
+	]
+}

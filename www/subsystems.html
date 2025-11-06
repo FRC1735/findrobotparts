@@ -1,0 +1,998 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
+
+	<title>Subsystems - Find Robot Parts</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/burncoat.css" rel="stylesheet">
+	<link href="/css/robotparts.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar align-middle sticky-top navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand py-0" href="/">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-sm-none" width="230" height="34"
+					alt="Find Robot Parts">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-none d-sm-block" width="443"
+					height="65" alt="Find Robot Parts">
+			</a>
+			<ul class="nav">
+				<li class="d-block d-sm-none">
+					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
+						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
+						aria-label="Toggle Filter">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+						</svg>
+						Filter
+					</a>
+				</li>
+				<li>
+					<a href="#offcanvas" class="nav-link text-white px-2 py-1" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false"
+						aria-label="Toggle Menu">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						Categories
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col overflow-auto order-2">
+				<main class="p-4">
+					<div class="row mb-2">
+	<div class="col-4 col-lg-2">
+		<img src="/images/categories/subsystems-gray.webp" alt="Subsystems" class="img-thumbnail" style="width:100%" id="category-image">
+	</div>
+	<div class="col-8 col-lg-10">
+		<a class="btn btn-green float-end" href="https://github.com/FRC1735/findrobotparts" target="_blank" rel="noopener">Add or Update Parts</a>
+		<h1 class="mb-0" id="category-title">Subsystems</h1>
+		<div id="category-description"><p>Subsystems combine structure, motion, and control into complete, ready-to-use robot mechanisms. Whether it’s a drivetrain, shooter, or elevator, these systems give teams a strong foundation to build on and customize. Starting with proven subsystems helps students focus on design strategy, programming, and refinement instead of basic construction.</p></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col">
+		<p class="fw-light fst-italic mb-0">Showing <span id="numShown"></span> of <span id="numTotal"></span></p>
+	</div>
+	<div class="col text-end">
+		<a href="#" id="showall" class="btn btn-outline-green btn-sm">Show All</a>
+	</div>
+</div>
+<table id="productdata" class="table table-striped table-collapse">
+	<thead><tr>
+	<th scope="col">Product</th>
+	<th scope="col">Type</th>
+	<th scope="col">Vendors</th>
+</tr></thead>
+	<tbody><tr data-tags="-type-chassis,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>AM14U6 Frame</strong><br>
+		<img src="/images/products/subsystems/am14u6.webp" class="img-thumbnail" alt="AM14U6 Frame">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseam14u6-frame-0">
+		Chassis
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseam14u6-frame-0" aria-expanded="false" aria-controls="collapseam14u6-frame-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://andymark.com/products/am14u6-6-wheel-drop-center-robot-drive-base-2025-frc-kit-of-parts-drive-base" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>AndyMark Bumper Kit</strong><br>
+		<img src="/images/products/subsystems/am-bumperkit.webp" class="img-thumbnail" alt="AndyMark Bumper Kit">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseandymark-bumper-kit-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-bumper-kit-0" aria-expanded="false" aria-controls="collapseandymark-bumper-kit-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://andymark.com/products/2025-generic-bumper-kits" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-wattos">
+	<th scope="row" data-label="Product">
+		<strong>Bed Lift Block</strong><br>
+		<img src="/images/products/subsystems/bed-lift-block.webp" class="img-thumbnail" alt="Bed Lift Block">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsebed-lift-block-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebed-lift-block-0" aria-expanded="false" aria-controls="collapsebed-lift-block-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wattos.com.tr/urun/blok-asansor-yatagi/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Wattos</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>Bumper Kit</strong><br>
+		<img src="/images/products/subsystems/rp-bumperkit.webp" class="img-thumbnail" alt="Bumper Kit">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsebumper-kit-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebumper-kit-0" aria-expanded="false" aria-controls="collapsebumper-kit-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2012.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Bumper Kit for Rhino Track Drive Module</strong><br>
+		<img src="/images/products/subsystems/rhinobumpers.webp" class="img-thumbnail" alt="Bumper Kit for Rhino Track Drive Module">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsebumper-kit-for-rhino-track-drive-module-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsebumper-kit-for-rhino-track-drive-module-0" aria-expanded="false" aria-controls="collapsebumper-kit-for-rhino-track-drive-module-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.andymark.com/product-p/am-0331.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-chassis,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>C Base Kit</strong><br>
+		<img src="/images/products/subsystems/cbase.webp" class="img-thumbnail" alt="C Base Kit">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsec-base-kit-0">
+		Chassis
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsec-base-kit-0" aria-expanded="false" aria-controls="collapsec-base-kit-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/30-in-c-base-chassis-kit-frame-only" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Climber in a Box</strong><br>
+		<img src="/images/products/subsystems/climberinabox.webp" class="img-thumbnail" alt="Climber in a Box">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseclimber-in-a-box-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseclimber-in-a-box-0" aria-expanded="false" aria-controls="collapseclimber-in-a-box-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/climber-in-a-box" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-robopromo">
+	<th scope="row" data-label="Product">
+		<strong>Corner Bumper Kit</strong><br>
+		<img src="/images/products/subsystems/rp-cornerbumper.webp" class="img-thumbnail" alt="Corner Bumper Kit">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsecorner-bumper-kit-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecorner-bumper-kit-0" aria-expanded="false" aria-controls="collapsecorner-bumper-kit-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.robopromo.com/product_p/rp-2009.htm" class="list-group-item list-group-item-action list-group-item-green" target="_blank">RoboPromo</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-swyft-robotics">
+	<th scope="row" data-label="Product">
+		<strong>Custom Built Bumpers</strong><br>
+		<img src="/images/products/subsystems/swyft-custom-bumpers.webp" class="img-thumbnail" alt="Custom Built Bumpers">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsecustom-built-bumpers-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsecustom-built-bumpers-0" aria-expanded="false" aria-controls="collapsecustom-built-bumpers-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://swyftrobotics.com/products/swyft-bumpers" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Swyft Robotics</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-rev-robotics">
+	<th scope="row" data-label="Product">
+		<strong>Differential Drivetrain Bumper Bracket Kit</strong><br>
+		<img src="/images/products/subsystems/differential-bumpers.webp" class="img-thumbnail" alt="Differential Drivetrain Bumper Bracket Kit">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsedifferential-drivetrain-bumper-bracket-kit-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsedifferential-drivetrain-bumper-bracket-kit-0" aria-expanded="false" aria-controls="collapsedifferential-drivetrain-bumper-bracket-kit-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.revrobotics.com/rev-25-3062/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">REV Robotics</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-chassis,-type-driveline,-vendor-plummer-industries">
+	<th scope="row" data-label="Product">
+		<strong>Drive Rails</strong><br>
+		<img src="/images/products/subsystems/driverail.webp" class="img-thumbnail" alt="Drive Rails">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsedrive-rails-0">
+		Chassis<br>Driveline
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsedrive-rails-0" aria-expanded="false" aria-controls="collapsedrive-rails-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://plummerindustries.com/robotics/shop#!/Drive-Rails/c/32076753/offset&#x3D;0&amp;sort&#x3D;normal" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Plummer Industries</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-rollers,-vendor-armabot">
+	<th scope="row" data-label="Product">
+		<strong>Eccentric Vectored Intake Wheel</strong><br>
+		<img src="/images/products/subsystems/armabot-eccentric-intake.webp" class="img-thumbnail" alt="Eccentric Vectored Intake Wheel">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseeccentric-vectored-intake-wheel-0">
+		Rollers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseeccentric-vectored-intake-wheel-0" aria-expanded="false" aria-controls="collapseeccentric-vectored-intake-wheel-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.armabot.com/collections/frontpage/products/eccentric-vectored-intake-wheel" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Armabot</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-claw,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>Greyt Roller Claw</strong><br>
+		<img src="/images/products/subsystems/greytclaw.webp" class="img-thumbnail" alt="Greyt Roller Claw">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegreyt-roller-claw-0">
+		Claw
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegreyt-roller-claw-0" aria-expanded="false" aria-controls="collapsegreyt-roller-claw-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/collections/systems-structure/products/greyt-roller-claw-v2" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-shooter,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>Greyt Shooter (7&quot;)</strong><br>
+		<img src="/images/products/subsystems/greytshooter.webp" class="img-thumbnail" alt="Greyt Shooter (7&quot;)">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegreyt-shooter--7---0">
+		Shooter
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegreyt-shooter--7---0" aria-expanded="false" aria-controls="collapsegreyt-shooter--7---0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/collections/systems-structure/products/greyt-shooter-7" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-shooter,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>GreyT Shooter (9&quot;)</strong><br>
+		<img src="/images/products/subsystems/wcp-greyt-shooter-95.webp" class="img-thumbnail" alt="GreyT Shooter (9&quot;)">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegreyt-shooter--9---0">
+		Shooter
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegreyt-shooter--9---0" aria-expanded="false" aria-controls="collapsegreyt-shooter--9---0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/collections/systems-structure/products/greyt-shooter-9-5" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>Greyt Telecope</strong><br>
+		<img src="/images/products/subsystems/greyt-telescope.webp" class="img-thumbnail" alt="Greyt Telecope">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegreyt-telecope-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegreyt-telecope-0" aria-expanded="false" aria-controls="collapsegreyt-telecope-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/collections/systems-structure/products/greyt-telescope" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-turret,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>GreyT Turret (11&quot; ID)</strong><br>
+		<img src="/images/products/subsystems/wcp-greyt-turret-11.webp" class="img-thumbnail" alt="GreyT Turret (11&quot; ID)">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegreyt-turret--11--id--0">
+		Turret
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegreyt-turret--11--id--0" aria-expanded="false" aria-controls="collapsegreyt-turret--11--id--0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/collections/systems-structure/products/greyt-turret-11-id" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-turret,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>Greyt Turret (7&quot; ID)</strong><br>
+		<img src="/images/products/subsystems/greytturret.webp" class="img-thumbnail" alt="Greyt Turret (7&quot; ID)">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegreyt-turret--7--id--0">
+		Turret
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegreyt-turret--7--id--0" aria-expanded="false" aria-controls="collapsegreyt-turret--7--id--0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/collections/systems-structure/products/greyt-turret-5-7" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-rollers,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Intake System</strong><br>
+		<img src="/images/products/subsystems/rollerintake.webp" class="img-thumbnail" alt="Intake System">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseintake-system-0">
+		Rollers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseintake-system-0" aria-expanded="false" aria-controls="collapseintake-system-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/roller-intake-system-kit" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-plummer-industries">
+	<th scope="row" data-label="Product">
+		<strong>Plummer Industries Bumper Mounts</strong><br>
+		<img src="/images/products/subsystems/pi-bumper-mounts.webp" class="img-thumbnail" alt="Plummer Industries Bumper Mounts">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseplummer-industries-bumper-mounts-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseplummer-industries-bumper-mounts-0" aria-expanded="false" aria-controls="collapseplummer-industries-bumper-mounts-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://plummerindustries.com/robotics/shop.html#!/Bumper-Mounting/c/139191066" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Plummer Industries</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-driveline,-type-tread,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Raptor Drive</strong><br>
+		<img src="/images/products/subsystems/raptortrack.webp" class="img-thumbnail" alt="Raptor Drive">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseraptor-drive-0">
+		Driveline<br>Tread
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseraptor-drive-0" aria-expanded="false" aria-controls="collapseraptor-drive-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/raptor-track-drive" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-driveline,-type-tread,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Rhino Track Module</strong><br>
+		<img src="/images/products/subsystems/rhinotrack.webp" class="img-thumbnail" alt="Rhino Track Module">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapserhino-track-module-0">
+		Driveline<br>Tread
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserhino-track-module-0" aria-expanded="false" aria-controls="collapserhino-track-module-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/rhino-track-drive-module" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-andymark,-vendor-swerve-drive-specialties">
+	<th scope="row" data-label="Product">
+		<strong>SDS Billet Elevator Bearing Block</strong><br>
+		<img src="/images/products/subsystems/sds-billet.webp" class="img-thumbnail" alt="SDS Billet Elevator Bearing Block">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsesds-billet-elevator-bearing-block-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesds-billet-elevator-bearing-block-0" aria-expanded="false" aria-controls="collapsesds-billet-elevator-bearing-block-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://andymark.com/products/sds-billet-elevator-bearing-block-kits" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a><a href="https://www.swervedrivespecialties.com/products/billet-elevator-bearing-block" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Swerve Drive Specialties</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-chassis,-type-driveline,-vendor-team221">
+	<th scope="row" data-label="Product">
+		<strong>SimpleTube Chassis</strong><br>
+		<img src="/images/products/subsystems/simpletube.webp" class="img-thumbnail" alt="SimpleTube Chassis">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsesimpletube-chassis-0">
+		Chassis<br>Driveline
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesimpletube-chassis-0" aria-expanded="false" aria-controls="collapsesimpletube-chassis-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.team221.com/order.php?cat&#x3D;15" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Team221</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-chassis,-type-driveline,-vendor-team221">
+	<th scope="row" data-label="Product">
+		<strong>Super Light Chassis</strong><br>
+		<img src="/images/products/subsystems/superlight.webp" class="img-thumbnail" alt="Super Light Chassis">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsesuper-light-chassis-0">
+		Chassis<br>Driveline
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsesuper-light-chassis-0" aria-expanded="false" aria-controls="collapsesuper-light-chassis-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="http://www.team221.com/order.php?cat&#x3D;18" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Team221</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-swyft-robotics">
+	<th scope="row" data-label="Product">
+		<strong>Swyft Ascend</strong><br>
+		<img src="/images/products/subsystems/swyft-ascend.webp" class="img-thumbnail" alt="Swyft Ascend">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseswyft-ascend-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseswyft-ascend-0" aria-expanded="false" aria-controls="collapseswyft-ascend-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://swyftrobotics.com/products/swyft-ascend-frc-ftc-telescoping-elevator" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Swyft Robotics</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-the-thrifty-bot">
+	<th scope="row" data-label="Product">
+		<strong>Telescoping Tube Kit</strong><br>
+		<img src="/images/products/subsystems/telescoping-tube-kit.webp" class="img-thumbnail" alt="Telescoping Tube Kit">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsetelescoping-tube-kit-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsetelescoping-tube-kit-0" aria-expanded="false" aria-controls="collapsetelescoping-tube-kit-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.thethriftybot.com/products/thrifty-telescoping-tube-kit" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Thrifty Bot</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-the-thrifty-bot">
+	<th scope="row" data-label="Product">
+		<strong>Thrifty Elevator</strong><br>
+		<img src="/images/products/subsystems/ttb-elevator.webp" class="img-thumbnail" alt="Thrifty Elevator">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsethrifty-elevator-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsethrifty-elevator-0" aria-expanded="false" aria-controls="collapsethrifty-elevator-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.thethriftybot.com/products/thrifty-elevator-stage-kit" class="list-group-item list-group-item-action list-group-item-green" target="_blank">The Thrifty Bot</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-turret,-vendor-armabot">
+	<th scope="row" data-label="Product">
+		<strong>Turret</strong><br>
+		<img src="/images/products/subsystems/turret240.webp" class="img-thumbnail" alt="Turret">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseturret-0">
+		Turret
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseturret-0" aria-expanded="false" aria-controls="collapseturret-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.armabot.com/collections/frontpage/products/turret240" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Armabot</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-bumpers,-vendor-wattos">
+	<th scope="row" data-label="Product">
+		<strong>Wattos Bumpers</strong><br>
+		<img src="/images/products/subsystems/wattos-bumpers.webp" class="img-thumbnail" alt="Wattos Bumpers">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsewattos-bumpers-0">
+		Bumpers
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsewattos-bumpers-0" aria-expanded="false" aria-controls="collapsewattos-bumpers-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wattos.com.tr/urun/bumper/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">Wattos</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-linear-motion,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>WCP Elevator</strong><br>
+		<img src="/images/products/subsystems/wcp-elevator.webp" class="img-thumbnail" alt="WCP Elevator">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsewcp-elevator-0">
+		Linear Motion
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsewcp-elevator-0" aria-expanded="false" aria-controls="collapsewcp-elevator-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/products/elevator-components" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr></tbody>
+</table>
+				</main>
+				<footer class="row p-4 gx-5 justify-content-center">
+					<div class="col-12 col-md-3">
+						<p>Brought to you by:</p>
+						<a href="https://burncoatrobotics.org/" class="d-block" style="max-width:300px">
+							<img src="/images/logo/burncoat-robotics-white.svg" width="100%" alt="Burncoat Robotics">
+						</a>
+					</div>
+					<div class="col-12 col-md-7">
+						<p class="text-md-end">© 2016 - 2025 Burncoat Robotics</p>
+						<p class="text-md-end">
+						   Contribute to the project on <a href="https://github.com/FRC1735/findrobotparts" target="_blank" rel="noopener">GitHub</a>.<br>
+						   <a href="/about.html">About Find Robot Parts.</a>
+						</p>
+					</div>
+				</footer>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-block collapse order-1" id="sidebar">
+				<div class="row">
+					<div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Type</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Type options">
+			<input type="checkbox" class="btn-check" name="type" id="tag-type-bumpers" value="-type-bumpers" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-bumpers">Bumpers</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-chassis" value="-type-chassis" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-chassis">Chassis</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-claw" value="-type-claw" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-claw">Claw</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-driveline" value="-type-driveline" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-driveline">Driveline</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-linear-motion" value="-type-linear-motion" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-linear-motion">Linear Motion</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-rollers" value="-type-rollers" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-rollers">Rollers</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-shooter" value="-type-shooter" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-shooter">Shooter</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-tread" value="-type-tread" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-tread">Tread</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-turret" value="-type-turret" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-turret">Turret</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Vendors</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Vendors options">
+			<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-andymark" value="-vendor-andymark" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-andymark">AndyMark</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-armabot" value="-vendor-armabot" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-armabot">Armabot</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-plummer-industries" value="-vendor-plummer-industries" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-plummer-industries">Plummer Industries</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-rev-robotics" value="-vendor-rev-robotics" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-rev-robotics">REV Robotics</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-robopromo" value="-vendor-robopromo" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-robopromo">RoboPromo</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-swerve-drive-specialties" value="-vendor-swerve-drive-specialties" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-swerve-drive-specialties">Swerve Drive Specialties</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-swyft-robotics" value="-vendor-swyft-robotics" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-swyft-robotics">Swyft Robotics</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-team221" value="-vendor-team221" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-team221">Team221</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-the-thrifty-bot" value="-vendor-the-thrifty-bot" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-the-thrifty-bot">The Thrifty Bot</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-wattos" value="-vendor-wattos" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-wattos">Wattos</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-west-coast-products" value="-vendor-west-coast-products" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-west-coast-products">West Coast Products</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+			<div class="offcanvas-header">
+				<p class="h5 offcanvas-title" id="offcanvasLabel">Menu</p>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<p class="h6">3D Printed Models</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/battery-accessories.html">
+							<img src="/images/categories/3d/battery-accessories-gray.webp" class="img-thumbnail" alt="Battery Accessories">
+							Battery Accessories
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/motor-adaptors.html">
+							<img src="/images/categories/3d/motor-adaptors-gray.webp" class="img-thumbnail" alt="Motor Adaptors">
+							Motor Adaptors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/mounts.html">
+							<img src="/images/categories/3d/mounts-gray.webp" class="img-thumbnail" alt="Mounts">
+							Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/wheels.html">
+							<img src="/images/categories/3d/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div>
+				</div>
+				<p class="h6">Electrical</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/batteries.html">
+							<img src="/images/categories/batteries-gray.webp" class="img-thumbnail" alt="Batteries">
+							Batteries
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/battery-chargers.html">
+							<img src="/images/categories/battery-chargers-gray.webp" class="img-thumbnail" alt="Battery Chargers">
+							Battery Chargers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gamecontrollers.html">
+							<img src="/images/categories/gamecontrollers-gray.webp" class="img-thumbnail" alt="Game Controller">
+							Game Controller
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/lights.html">
+							<img src="/images/categories/lights-gray.webp" class="img-thumbnail" alt="Lights">
+							Lights
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motor-controllers.html">
+							<img src="/images/categories/motor-controllers-gray.webp" class="img-thumbnail" alt="Motor Controllers">
+							Motor Controllers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sensors.html">
+							<img src="/images/categories/sensors-gray.webp" class="img-thumbnail" alt="Sensors">
+							Sensors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wireconnectors.html">
+							<img src="/images/categories/wireconnectors-gray.webp" class="img-thumbnail" alt="Wire Connectors">
+							Wire Connectors
+						</a>
+					</div>
+				</div>
+				<p class="h6">Hardware</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bearings.html">
+							<img src="/images/categories/bearings-gray.webp" class="img-thumbnail" alt="Bearings">
+							Bearings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gussets.html">
+							<img src="/images/categories/gussets-gray.webp" class="img-thumbnail" alt="Gussets and Mounts">
+							Gussets and Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shafts.html">
+							<img src="/images/categories/shafts-gray.webp" class="img-thumbnail" alt="Shafts">
+							Shafts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shaftcollars.html">
+							<img src="/images/categories/shaftcollars-gray.webp" class="img-thumbnail" alt="Shaft Collars">
+							Shaft Collars
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/structure.html">
+							<img src="/images/categories/structure-gray.webp" class="img-thumbnail" alt="Structure">
+							Structure
+						</a>
+					</div>
+				</div>
+				<p class="h6">Motion</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/belts.html">
+							<img src="/images/categories/belts-gray.webp" class="img-thumbnail" alt="Belts">
+							Belts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/chain.html">
+							<img src="/images/categories/chain-gray.webp" class="img-thumbnail" alt="Chain">
+							Chain
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gearboxes.html">
+							<img src="/images/categories/gearboxes-gray.webp" class="img-thumbnail" alt="Gearboxes">
+							Gearboxes
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gears.html">
+							<img src="/images/categories/gears-gray.webp" class="img-thumbnail" alt="Gears">
+							Gears
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/hubs.html">
+							<img src="/images/categories/hubs-gray.webp" class="img-thumbnail" alt="Hubs">
+							Hubs
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/linearactuators.html">
+							<img src="/images/categories/linearactuators-gray.webp" class="img-thumbnail" alt="Linear Actuators">
+							Linear Actuators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motors.html">
+							<img src="/images/categories/motors-gray.webp" class="img-thumbnail" alt="Motors">
+							Motors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pulleys.html">
+							<img src="/images/categories/pulleys-gray.webp" class="img-thumbnail" alt="Pulleys">
+							Pulleys
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/servos.html">
+							<img src="/images/categories/servos-gray.webp" class="img-thumbnail" alt="Servos">
+							Servos
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sprockets.html">
+							<img src="/images/categories/sprockets-gray.webp" class="img-thumbnail" alt="Sprockets">
+							Sprockets
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/swerve.html">
+							<img src="/images/categories/swerve-gray.webp" class="img-thumbnail" alt="Swerve">
+							Swerve
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wheels.html">
+							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div>
+				</div>
+				<p class="h6">Pneumatics</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/accumulators.html">
+							<img src="/images/categories/accumulators-gray.webp" class="img-thumbnail" alt="Accumulators">
+							Accumulators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/compressors.html">
+							<img src="/images/categories/compressors-gray.webp" class="img-thumbnail" alt="Compressors">
+							Compressors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticcomponents.html">
+							<img src="/images/categories/pneumatic-components-gray.webp" class="img-thumbnail" alt="Components">
+							Components
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticfittings.html">
+							<img src="/images/categories/pneumaticfittings-gray.webp" class="img-thumbnail" alt="Fittings">
+							Fittings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumatictubing.html">
+							<img src="/images/categories/pneumatictubing-gray.webp" class="img-thumbnail" alt="Tubing">
+							Tubing
+						</a>
+					</div>
+				</div>
+				<p class="h6">Miscellaneous</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bumperfabric.html">
+							<img src="/images/categories/bumperfabric-gray.webp" class="img-thumbnail" alt="Bumper Fabric">
+							Bumper Fabric
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/bumpernumbers.html">
+							<img src="/images/categories/bumpernumbers-gray.webp" class="img-thumbnail" alt="Bumper Numbers">
+							Bumper Numbers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/resources-programming.html">
+							<img src="/images/categories/resources-programming-gray.webp" class="img-thumbnail" alt="Programming Resources">
+							Programming Resources
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/subsystems.html">
+							<img src="/images/categories/subsystems-gray.webp" class="img-thumbnail" alt="Subsystems">
+							Subsystems
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/vendors.html">
+							<img src="/images/categories/vendors-gray.webp" class="img-thumbnail" alt="Vendors">
+							Vendors
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="/js/robotparts.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ES4R2JE4YE"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ES4R2JE4YE');
+
+		(function () {
+			const fireVendorClick = (a) => {
+				const row = a.closest('tr');
+				const params = {
+					category: document.querySelector('h1')?.textContent.trim(),
+					product: row?.querySelector('th[data-label="Product"] strong')?.textContent.trim(),
+					vendor: (a.textContent || '').trim(),
+					link_url: a.getAttribute('href')
+				};
+				if (!params.link_url || !isExternal(params.link_url)) return;
+				window.gtag && gtag('event', 'vendor_click', params);
+			};
+
+			// Left click
+			document.addEventListener('click', function (e) {
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+
+			// Middle click
+			document.addEventListener('auxclick', function (e) {
+				if (e.button !== 1) return;
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+		})();
+	</script>
+</body>
+
+</html>

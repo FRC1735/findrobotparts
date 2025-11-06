@@ -1,0 +1,270 @@
+{
+	"title": "Shafts",
+	"description": "<p>Shafts carry rotational power between motors and driven components. Common types include hex, round, and keyed shafts, each suited to different hub or bearing interfaces. Strong, precisely cut shafts ensure smooth motion and reduce drivetrain losses.</p>",
+	"filter_groups": ["Shape", "Diameter", "Keyway", "ID", "Material"],
+	"products": [
+		{
+			"name": "AM 6mm D",
+			"image": "/images/products/shafts/am-6mm-d.jpg",
+			"filters": {
+				"Shape": ["D"],
+				"Diameter": ["06mm"],
+				"Keyway": ["n/a"],
+				"ID": ["n/a"],
+				"Material": ["Steel"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/6mm-d-shaft-options" }
+			]
+		}, {
+			"name": "AM Aluminum Hex",
+			"image": "/images/products/shafts/am-hex-alum.jpg",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.375\"", "0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["n/a"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/0-5-in-7075-aluminum-hex-shaft-stock" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-8-in-7075-aluminum-hex-shaft-stock" }
+			]
+		}, {
+			"name": "AM Steel Hex",
+			"image": "/images/products/shafts/am-hex.jpg",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.375\"", "0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["n/a"],
+				"Material": ["Steel"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-steel-hex-shaft-stock" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/3-8-in-steel-hex-shaft-stock" }
+			]
+		}, {
+			"name": "Churro",
+			"image": "/images/products/shafts/churro.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.2"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shafts/products/1-2-in-churro-different-lengths" }
+			]
+		}, {
+			"name": "MAXSpline Shaft",
+			"image": "/images/products/shafts/maxspline.webp",
+			"filters": {
+				"Shape": ["MAXSpline"],
+				"Diameter": ["1.375\""],
+				"Keyway": ["n/a"],
+				"ID": ["1\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2520/" }
+			]
+		}, {
+			"name": "McMaster 1/2\"",
+			"image": "/images/products/shafts/mcmaster-round.png",
+			"filters": {
+				"Shape": ["Round"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["1/8\""],
+				"ID": ["n/a"],
+				"Material": ["Aluminum", "Stainless Steel", "Steel"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
+			]
+		}, {
+			"name": "McMaster 3/8\"",
+			"image": "/images/products/shafts/mcmaster-round.png",
+			"filters": {
+				"Shape": ["Round"],
+				"Diameter": ["0.375\""],
+				"Keyway": ["3/32\""],
+				"ID": ["n/a"],
+				"Material": ["Aluminum", "Stainless Steel", "Steel"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
+			]
+		}, {
+			"name": "McMaster 5/16\"",
+			"image": "/images/products/shafts/mcmaster-round.png",
+			"filters": {
+				"Shape": ["Round"],
+				"Diameter": ["5/16\""],
+				"Keyway": ["3/32\""],
+				"ID": ["n/a"],
+				"Material": ["Aluminum", "Steel"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
+			]
+		}, {
+			"name": "McMaster 5/8\"",
+			"image": "/images/products/shafts/mcmaster-round.png",
+			"filters": {
+				"Shape": ["Round"],
+				"Diameter": ["0.625\""],
+				"Keyway": ["3/16\""],
+				"ID": ["n/a"],
+				"Material": ["Aluminum", "Stainless Steel", "Steel"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/precision-shafts/rotary-shafts-2~/keyed-rotary-shafts-5/" }
+			]
+		}, {
+			"name": "McMaster Hex",
+			"image": "/images/products/shafts/mcmaster-hex.png",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.375\"", "0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["n/a"],
+				"Material": ["Aluminum", "Nylon", "Steel", "Stainless Steel", "Teflon"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/products/bars/?s=hex+bars" }
+			]
+		}, {
+			"name": "Online Metals Aluminum Hex",
+			"image": "/images/products/shafts/onlinemetals-aluminum.jpg",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.375\"", "0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["n/a"],
+				"Material": ["Aluminum", "Steel", "Stainless Steel"]
+			},
+			"links": [
+				{ "vendor": "Online Metals", "link": "https://www.onlinemetals.com/en/buy/hex-bar" }
+			]
+		}, {
+			"name": "REV 5mm Hex shaft",
+			"image": "/images/products/shafts/rev-5mmhex.jpg",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["05mm"],
+				"Keyway": ["n/a"],
+				"ID": ["n/a"],
+				"Material": ["Stainless Steel"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1349/" }
+			]
+		}, {
+			"name": "REV Rounded Hex",
+			"image": "/images/products/shafts/rev-rounded-hex-7075.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.16\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/.5in-Rounded-Hex-Shafts/" }
+			]
+		}, {
+			"name": "TTB Rounded 3/8\" Hex",
+			"image": "/images/products/shafts/ttb-rounded-375-hex.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.375\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.157\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/copy-of-qty-1-36-inch-long-1-2-rounded-hex-shaft-7075-aluminum" }
+			]
+		}, {
+			"name": "TTB Rounded Hex - Aluminum 7075",
+			"image": "/images/products/shafts/ttb-rounded-hex.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.157\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/copy-of-qty-1-36-inch-long-1-2-rounded-hex-shaft-7075-aluminum" }
+			]
+		}, {
+			"name": "TTB Rounded Hex - Aluminum 6061",
+			"image": "/images/products/shafts/ttb-rounded-hex-6061.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.157\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-1-36-inch-long-1-2-rounded-hex-shaft-6061-aluminum" }
+			]
+		}, {
+			"name": "Ultrahex Shaft",
+			"image": "/images/products/shafts/rev-ultrahex.png",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["5mm"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-41-3205/" }
+			]
+		}, {
+			"name": "WCP Hex",
+			"image": "/images/products/shafts/wcp-hex.webp",
+			"filters": {
+				"Shape": ["Hex"],
+				"Diameter": ["0.375\"", "0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["n/a"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/shaft-stock" }
+			]
+		}, {
+			"name": "WCP Rounded Hex",
+			"image": "/images/products/shafts/wcp-rounded-hex.webp",
+			"filters": {
+				"Shape": ["Rounded Hex"],
+				"Diameter": ["0.375\"", "0.5\""],
+				"Keyway": ["n/a"],
+				"ID": ["0.159\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/shaft-stock" }
+			]
+		}, {
+			"name": "WCP SplineXL",
+			"image": "/images/products/shafts/wcp-splinexs.webp",
+			"filters": {
+				"Shape": ["SplineXL"],
+				"Diameter": ["1.375\""],
+				"Keyway": ["n/a"],
+				"ID": ["1\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/shaft-stock" }
+			]
+		}
+	]
+}

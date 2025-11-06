@@ -1,0 +1,138 @@
+{
+	"title": "Pneumatic Components",
+	"description": "<p>Pneumatic components form the backbone of any robot’s air system. They regulate, measure, and protect pressure to keep actuators working reliably through long matches. From fine-tuning performance to maintaining safety, quality components make pneumatic systems consistent, efficient, and easy to service.</p>",
+	"filter_groups": ["Port", "Type"],
+	"products": [
+		{
+			"name": "ASME-Code Fast-Acting Pressure-Relief Valve",
+			"image": "/images/products/pneumaticcomponents/relief-valve.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Relief Valve"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/48435K714" }
+			]
+		}, {
+			"name": "Nason Pressure Switch",
+			"image": "/images/products/pneumaticcomponents/nason-pressure-switch.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Pressure Switch"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/nason-pressure-switch" }
+			]
+		}, {
+			"name": "NITRA PGU14",
+			"image": "/images/products/pneumaticcomponents/nitra-pgu14.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pgu14" }
+			]
+		}, {
+			"name": "NITRA PMU14A",
+			"image": "/images/products/pneumaticcomponents/nitra-pmu14a.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Indicator"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pmu14a" }
+			]
+		}, {
+			"name": "NITRA PMU14G",
+			"image": "/images/products/pneumaticcomponents/nitra-pmu14g.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Indicator"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pmu14g" }
+			]
+		}, {
+			"name": "NITRA PRU14",
+			"image": "/images/products/pneumaticcomponents/nitra-pru14.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Regulator"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/pneumatic_components/special_purpose_pneumatic_fittings/pressure_regulators_-z-_gauges_-z-_indicators/pru14" }
+			]
+		}, {
+			"name": "Norgren Regulator",
+			"image": "/images/products/pneumaticcomponents/norgren-regulator.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Female"],
+				"Type": ["Regulator"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/norgren-regulator-and-bracket" }
+			]
+		}, {
+			"name": "Pisco Inline Pressure Gauge with 1/4\" Press-In Tube Fitting",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-inline.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/inline-pressure-gauge-with-1-4-in-press-in-tube-fittings" }
+			]
+		}, {
+			"name": "Pisco Panel Mount Pressure Gauge with 1/4\" Press-In Tube Fitting",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-panel.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/panel-mount-pressure-gauge-with-1-4-in-press-in-tube-fitting" }
+			]
+		}, {
+			"name": "Pisco Pressure Gauge with 1/8\" NPT fitting",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-npt.jpg",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/pressure-gauge-with-1-8-in-npt-fitting" }
+			]
+		}, {
+			"name": "Pisco Pressure Gauge with Male 1/4\" Press-in Fitting",
+			"image": "/images/products/pneumaticcomponents/pisco-gauge-stud.jpg",
+			"filters": {
+				"Port": ["1/4\" Press-in Stud"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-4-in-press-in-tube-male-pressure-gauge" }
+			]
+		}, {
+			"name": "Pressure Gauge 0-160 psi",
+			"image": "/images/products/pneumaticcomponents/am-gauge.webp",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Gauge"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/pressure-gauge-0-160-psi" }
+			]
+		}, {
+			"name": "Pressure Relief Valve, Soft Seat Safety, 125 psi, 62 SCFM, 1/8 in. Port",
+			"image": "/images/products/pneumaticcomponents/am-relief-valve.webp",
+			"filters": {
+				"Port": ["1/8\" NPT Male"],
+				"Type": ["Relief Valve"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/pressure-relief-valve-soft-seat-safety-125-psi-62-scfm-1-8-in-port" }
+			]
+		}
+	]
+}

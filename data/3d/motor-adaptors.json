@@ -1,0 +1,85 @@
+{
+	"title": "3D Printed - Motor Adaptors",
+	"description": "<p>Motor adaptors and couplers designed for 3D printing let teams connect motors to shafts or mechanisms that don’t match standard interfaces. They’re ideal for prototyping or adapting unusual components without machining. With printable designs, it’s easy to iterate and refine fit before committing to final parts.</p>",
+	"filter_groups": ["Motor", "Output", "User"],
+	"products": [
+		{
+			"name": "FRC FIRST Window Motor Adapter",
+			"image": "/images/products/3d/motor-adaptors/190429.jpg",
+			"filters": {
+				"Motor": ["Window (6 point star)"],
+				"Output": ["1.875\" bolt circle"],
+				"User": ["robsteele"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:190429" }
+			]
+		}, {
+			"name": "FRC Window Motor 9 Spoke Hub",
+			"image": "/images/products/3d/motor-adaptors/1464800.jpg",
+			"filters": {
+				"Motor": ["Window (9 point star)"],
+				"Output": ["1.875\" bolt circle"],
+				"User": ["Fordfrystak"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1464800" }
+			]
+		}, {
+			"name": "Window Motor 2 Hub",
+			"image": "/images/products/3d/motor-adaptors/269066.jpg",
+			"filters": {
+				"Motor": ["Window (9 point star)"],
+				"Output": ["1.875\" bolt circle"],
+				"User": ["Sykoyoyo"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:269066" }
+			]
+		}, {
+			"name": "Window Motor Hub for FRC",
+			"image": "/images/products/3d/motor-adaptors/269061.jpg",
+			"filters": {
+				"Motor": ["Window (6 point star)"],
+				"Output": ["1.875\" bolt circle"],
+				"User": ["Sykoyoyo"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:269061" }
+			]
+		}, {
+			"name": "Window Motor Hub With Set Screw",
+			"image": "/images/products/3d/motor-adaptors/1156781.jpg",
+			"filters": {
+				"Motor": ["Window (6 point star)"],
+				"Output": ["1.875\" bolt circle"],
+				"User": ["MM896"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:1156781" }
+			]
+		}, {
+			"name": "Window Motor Mount and Pulley Adapter",
+			"image": "/images/products/3d/motor-adaptors/686172.jpg",
+			"filters": {
+				"Motor": ["Window (9 point star)"],
+				"Output": ["HTD Pulley"],
+				"User": ["tromano32"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:686172" }
+			]
+		}, {
+			"name": "Window Motor-Pulley adaptor",
+			"image": "/images/products/3d/motor-adaptors/47206.jpg",
+			"filters": {
+				"Motor": ["Window (6 point star)"],
+				"Output": ["GT Pulley"],
+				"User": ["FRC1073"]
+			},
+			"links": [
+				{ "vendor": "Thingiverse", "link": "http://www.thingiverse.com/thing:47206" }
+			]
+		}
+	]
+}

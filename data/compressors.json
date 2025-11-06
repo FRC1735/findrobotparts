@@ -1,0 +1,80 @@
+{
+	"title": "Compressors",
+	"description": "<p>Compressors provide the air pressure needed to power pneumatic actuators. Compact 12-volt models are widely used in FRC and other robotics systems for their reliability and output. Properly sized compressors maintain consistent pressure, improving pneumatic speed and response time.</p>",
+	"filter_groups": ["Duty Cycle @ 100psi", "Flow Rate (cfm at 0psi)"],
+	"products": [	
+		{
+			"name": "CP26",
+			"image": "/images/products/compressors/cp26.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["40%"],
+				"Flow Rate (cfm at 0psi)": ["0.92"]
+			},
+			"links": [
+				{ "vendor": "Parts to Spray", "link": "https://partstospray.com/cp26forroboticsmax092cfmmax130psi.aspx" }
+			]
+		}, {
+			"name": "Thomas 405ADC38",
+			"image": "/images/products/compressors/thomas-405adc38.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["100%"],
+				"Flow Rate (cfm at 0psi)": ["0.79"]
+			},
+			"links": [
+				{ "vendor": "Grainger", "link": "https://www.grainger.com/product/THOMAS-1-10-HP-Piston-Air-Compressor-5Z349" }
+			]
+		}, {
+			"name": "VIAIR 100C",
+			"image": "/images/products/compressors/viair-100c.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["15%"],
+				"Flow Rate (cfm at 0psi)": ["1"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-10010-100C-Air-Compressor/dp/B000FPXS0Y" }
+			]
+		}, {
+			"name": "VIAIR 250C-IG",
+			"image": "/images/products/compressors/viair-250c-ig.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["100%"],
+				"Flow Rate (cfm at 0psi)": ["0.88"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/VIAIR-Series-Compressor-Intercooler-Sealed/dp/B00BGHMOO6" }
+			]
+		}, {
+			"name": "VIAIR 330C-IG",
+			"image": "/images/products/compressors/viair-330c-ig.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["100%"],
+				"Flow Rate (cfm at 0psi)": ["1.06"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/heavy-duty-viair-330c-ig-air-compressor" }
+			]
+		}, {
+			"name": "VIAIR 90C",
+			"image": "/images/products/compressors/viair-90c.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["9%"],
+				"Flow Rate (cfm at 0psi)": ["0.73"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-90-Compressor-Kit/dp/B002A65JR6/" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/air-compressor-12-volt-0-88-cfm" }
+			]
+		}, {
+			"name": "VIAIR 98C",
+			"image": "/images/products/compressors/viair-98c.jpg",
+			"filters": {
+				"Duty Cycle @ 100psi": ["10%"],
+				"Flow Rate (cfm at 0psi)": ["1.53"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "http://www.amazon.com/Viair-98-Compressor-Kit/dp/B002A6RIRA" },
+				{ "vendor": "Walmart", "link": "http://www.walmart.com/ip/98C-Compressor/36932031" }
+			]
+		}
+	]
+}

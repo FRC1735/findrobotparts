@@ -1,0 +1,106 @@
+{
+	"title": "Belts",
+	"description": "<p>Belts transfer rotational power quietly and efficiently between pulleys. Timing belts are especially popular for drivetrains, elevators, and indexing systems due to their smooth motion and easy tensioning. They’re lighter than chains, require less maintenance, and allow compact designs in tight spaces.</p>",
+	"filter_groups": ["Type", "Material", "Pitch (mm)", "Width (mm)", "Teeth", "Length (mm)"],
+	"products": [
+		{
+			"name": "AndyMark Belts, 9mm Width",
+			"image": "/images/products/belts/am-9mm-htd.webp",
+			"filters": {
+				"Type": ["HTD"],
+				"Material": ["Kevlar reinforced"],
+				"Pitch (mm)": ["5"],
+				"Width (mm)": ["9"],
+				"Teeth": ["30", "35", "40", "45", "50", "55", "60", "64", "65", "70", "75", "80", "85", "90", "91", "93", "95", "100", "105", "106", "110", "115", "120", "121", "125", "130", "135", "136", "140", "145", "150", "152", "160", "167", "170", "180", "190", "200", "225", "250"],
+				"Length (mm)": ["150", "175", "200", "225", "250", "275", "300", "320", "325", "350", "375", "400", "425", "450", "455", "465", "475", "500", "525", "530", "550", "575", "600", "605", "625", "650", "675", "680", "700", "725", "750", "760", "800", "835", "850", "900", "950", "1000", "1125", "1250"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/belts/products/9-mm-wide-5-mm-pitch-htd-timing-belts" }
+			]
+		}, {
+			"name": "AndyMark Belts, 15mm Width",
+			"image": "/images/products/belts/am-15mm-htd.webp",
+			"filters": {
+				"Type": ["HTD"],
+				"Material": ["Kevlar reinforced"],
+				"Pitch (mm)": ["5"],
+				"Width (mm)": ["15"],
+				"Teeth": ["30", "35", "40", "45", "50", "55", "60", "64", "65", "70", "75", "80", "85", "90", "95", "100", "105", "107", "110", "115", "117", "120", "125", "130", "131", "135", "140", "145", "150", "151", "160", "170", "180", "190", "200", "225", "250"],
+				"Length (mm)": ["150", "175", "200", "225", "250", "275", "300", "320", "325", "350", "375", "400", "425", "450", "475", "500", "525", "535", "550", "575", "585", "600", "625", "650", "655", "675", "700", "725", "750", "755", "800", "850", "900", "950", "1000", "1125", "1250"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "hhttps://andymark.com/collections/belts/products/15-mm-wide-5-mm-pitch-htd-timing-belts" }
+			]
+		}, {
+			"name": "Gates Timing Belts, 15mm Width",
+			"image": "/images/products/belts/gates-15.jpg",
+			"filters": {
+				"Type": ["HTD"],
+				"Material": ["Kevlar reinforced"],
+				"Pitch (mm)": ["5"],
+				"Width (mm)": ["15"],
+				"Teeth": ["85", "104", "107", "117", "120", "131", "151", "160", "170"],
+				"Length (mm)": ["425", "520", "535", "585", "600", "655", "755", "800", "850"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "hhttps://andymark.com/collections/belts/products/15-mm-wide-5-mm-pitch-htd-timing-belts" }
+			]
+		}, {
+			"name": "Gates Timing Belts, 9mm Width",
+			"image": "/images/products/belts/gates-9.jpg",
+			"filters": {
+				"Type": ["HTD"],
+				"Material": ["Kevlar reinforced"],
+				"Pitch (mm)": ["5"],
+				"Width (mm)": ["9"],
+				"Teeth": ["48"],
+				"Length (mm)": ["224"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/belts/products/9-mm-wide-5-mm-pitch-htd-timing-belts" }
+			]
+		}, {
+			"name": "GT2 Timing Belts",
+			"image": "/images/products/belts/gt2.jpg",
+			"filters": {
+				"Type": ["GT2"],
+				"Material": ["Neoprene coated fiberglass tensile cord"],
+				"Pitch (mm)": ["3"],
+				"Width (mm)": ["9"],
+				"Teeth": ["45", "50", "55", "60", "70", "85", "90", "100", "105", "110", "120"],
+				"Length (mm)": ["135", "150", "165", "180", "210", "240", "255", "300", "315", "330", "360"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/gt2-timing-pulleys-belts" }
+			]
+		}, {
+			"name": "REV RT25",
+			"image": "/images/products/belts/rt25.webp",
+			"filters": {
+				"Type": ["RT25"],
+				"Material": ["Neoprene coated fiberglass tensile cord"],
+				"Pitch (mm)": ["6.35"],
+				"Width (mm)": ["12.7"],
+				"Teeth": ["32", "40", "48", "56", "64", "72", "80", "88", "96", "104", "112", "120", "128", "136", "144", "152", "160", "168", "176", "184", "192", "200", "208", "216"],
+				"Length (mm)": ["203", "254", "304", "355", "406", "457", "508", "558", "609", "660", "711", "762", "812", "863", "914", "965", "1016", "1066", "1117", "1168", "1219", "1219", "1270", "1320", "1371"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/RT25-Belts-1/2in-Width/" }
+			]
+		}, {
+			"name": "Rhino Track Timing Belt",
+			"image": "/images/products/belts/rhino.jpg",
+			"filters": {
+				"Type": ["HV"],
+				"Material": ["Carbox Nitrile", "Steel Cord Reinforced"],
+				"Pitch (mm)": ["12.7"],
+				"Width (mm)": ["51"],
+				"Teeth": ["131"],
+				"Length (mm)": ["1664"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rhino-track-timing-belt" }
+			]
+		}
+	]
+}

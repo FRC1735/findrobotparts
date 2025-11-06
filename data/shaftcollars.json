@@ -1,0 +1,229 @@
+{
+	"title": "Shaft Collars",
+	"description": "<p>Shaft collars secure components along a shaft, keeping bearings, gears, and pulleys properly spaced. Set-screw and clamping styles prevent unwanted movement and simplify adjustments. They’re inexpensive, versatile parts that help maintain mechanical alignment and reduce wear.</p>",
+	"filter_groups": ["Bore", "OD", "Type", "Width", "Material"],
+	"products": [
+		{
+			"name": "1/2\" Hex 2 Piece Clamp Collar",
+			"image": "/images/products/shaftcollars/tb-500-hex.jpg",
+			"filters": {
+				"Bore": ["0.5\" Hex"],
+				"OD": ["1.125\""],
+				"Type": ["Two-Piece"],
+				"Width": ["0.4\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-5-aluminum-1-2-inch-hex-bore-split-clamping-collar" }
+			]
+		}, {
+			"name": "AM 1/2\"",
+			"image": "/images/products/shaftcollars/am-500.jpg",
+			"filters": {
+				"Bore": ["0.5\""],
+				"OD": ["1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-2-in-round-collar-clamps" }
+			]
+		}, {
+			"name": "AM 1/2\" Hex",
+			"image": "/images/products/shaftcollars/am-500-hex.jpg",
+			"filters": {
+				"Bore": ["0.5\" Hex"],
+				"OD": ["1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shaft-collars/products/1-2-in-hex-collar-clamps" }
+			]
+		}, {
+			"name": "AM 3/8\"",
+			"image": "/images/products/shaftcollars/am-375.jpg",
+			"filters": {
+				"Bore": ["0.375\""],
+				"OD": ["0.875\"", "1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shaft-collars/products/3-8-in-round-collar-clamps" }
+			]
+		}, {
+			"name": "AM 3/8\" Hex",
+			"image": "/images/products/shaftcollars/am-375-hex.jpg",
+			"filters": {
+				"Bore": ["0.375\" Hex"],
+				"OD": ["0.875\"", "1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.5\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/shaft-collars/products/3-8-in-hex-collar-clamps" }
+			]
+		}, {
+			"name": "AM 8mm",
+			"image": "/images/products/shaftcollars/am-8mm.jpg",
+			"filters": {
+				"Bore": ["8mm"],
+				"OD": ["0.688\""],
+				"Type": ["One-Piece"],
+				"Width": ["0.313\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/collar-clamp-5-16-in-bore-aluminum" }
+			]
+		}, {
+			"name": "McMaster Round",
+			"image": "/images/products/shaftcollars/mcmaster-round.png",
+			"filters": {
+				"Bore": ["0.375\"", "0.5\" Hex"],
+				"OD": ["1.125\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.406\""],
+				"Material": ["Aluminum", "Black-Oxide Steel", "Stainless Steel", "Zinc Plated Steel"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/shaft-collars/shaft-type~round/shaft-collars-1~/" }
+			]
+		}, {
+			"name": "McMaster Hex",
+			"image": "/images/products/shaftcollars/mcmaster-hex.png",
+			"filters": {
+				"Bore": ["0.375\"", "0.5\" Hex"],
+				"OD": ["1.25\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.375\""],
+				"Material": ["Black-Oxide Steel", "Stainless Steel"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/shaft-collars/shaft-type~hex/" }
+			]
+		}, {
+			"name": "REV Glass Nylon",
+			"image": "/images/products/shaftcollars/rev-glass-nylon.webp",
+			"filters": {
+				"Bore": ["0.5\" Hex"],
+				"OD": ["1.38\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.5\""],
+				"Material": ["Glass Filled Nylon"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/Shaft-Collars-0.5in-Hex-Bore/" }
+			]
+		}, {
+			"name": "REV MAXSpline",
+			"image": "/images/products/shaftcollars/rev-maxspline.webp",
+			"filters": {
+				"Bore": ["MAXSpline"],
+				"OD": ["2.65\""],
+				"Type": ["Two-Piece"],
+				"Width": ["0.5\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2581/" }
+			]
+		}, {
+			"name": "REV Narrow",
+			"image": "/images/products/shaftcollars/rev-narrow.jpg",
+			"filters": {
+				"Bore": ["0.5\" Hex"],
+				"OD": ["1.1\""],
+				"Type": ["One-Piece"],
+				"Width": ["0.25\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/Shaft-Collars-0.5in-Hex-Bore/" }
+			]
+		}, {
+			"name": "Ruland Round",
+			"image": "/images/products/shaftcollars/ruland-500.jpg",
+			"filters": {
+				"Bore": ["0.375\"", "0.5\""],
+				"OD": ["0.875\"", "1.125\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.343\"", "0.406\""],
+				"Material": ["Aluminum", "Plastic", "Stainless Steel", "Steel", "Zinc Plated Steel"]
+			},
+			"links": [
+				{ "vendor": "Ruland", "link": "https://www.ruland.com/shaft-collars.html?bore_b1=3733%2C3738&bore_style=14891%2C14892" }
+			]
+		}, {
+			"name": "Ruland Hex",
+			"image": "/images/products/shaftcollars/ruland-500-hex.jpg",
+			"filters": {
+				"Bore": ["0.375\" Hex", "0.5\" Hex"],
+				"OD": ["0.875\"", "1.125\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.343\"", "0.406\""],
+				"Material": ["Aluminum", "Stainless Steel", "Steel"]
+			},
+			"links": [
+				{ "vendor": "Ruland", "link": "https://www.ruland.com/shaft-collars/hex-and-d-bore-shaft-collar.html?bore_b1=3733%2C3738&product_list_limit=24" }
+			]
+		}, {
+			"name": "Swyft 1/2\"",
+			"image": "/images/products/shaftcollars/swyft-500-hex.jpg",
+			"filters": {
+				"Bore": ["0.5\"", "0.5\" Hex", "0.375\" Hex"],
+				"OD": ["1.125\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.4\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/shaft-collars" }
+			]
+		}, {
+			"name": "WCP 1/2\" Hex",
+			"image": "/images/products/shaftcollars/wcp-500-hex.webp",
+			"filters": {
+				"Bore": ["0.5\" Hex"],
+				"OD": ["1\"", "1.125\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\"", "0.375\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "WCP", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
+			]
+		}, {
+			"name": "WCP 3/8\" Hex",
+			"image": "/images/products/shaftcollars/wcp-375-hex.webp",
+			"filters": {
+				"Bore": ["0.375\" Hex"],
+				"OD": ["0.875\""],
+				"Type": ["One-Piece"],
+				"Width": ["0.25\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "WCP", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
+			]
+		}, {
+			"name": "WCP Round",
+			"image": "/images/products/shaftcollars/wcp-round.webp",
+			"filters": {
+				"Bore": ["0.375\"", "0.5\"", "8mm"],
+				"OD": ["0.708\"", "0.875\"", "1\""],
+				"Type": ["One-Piece", "Two-Piece"],
+				"Width": ["0.25\""],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "WCP", "link": "https://wcproducts.com/products/clamping-shaft-collars" }
+			]
+		}
+	]
+}

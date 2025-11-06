@@ -1,0 +1,85 @@
+{
+	"title": "Battery Chargers",
+	"description": "<p>Battery chargers keep your power supplies ready for every match. Smart chargers with automatic shutoff, balancing, and monitoring features help maintain peak battery health and safety. Investing in quality chargers ensures consistent voltage and reduces downtime during events and practice.</p>",
+	"filter_groups": ["Banks", "Amps per Bank"],
+	"products": [
+		{
+			"name": "Battery Tender 10 Bank Charger",
+			"image": "/images/products/battery-chargers/battery-tender.jpg",
+			"filters": {
+				"Banks": ["10"],
+				"Amps per Bank": ["2"]
+			},
+			"links": [
+				{ "vendor": "Grainger", "link": "https://www.grainger.com/product/10W831" },
+				{ "vendor": "Battery Tender", "link": "https://www.batterymart.com/p-battery-tender-12v-2a-battery-charger-10b.html" }
+			]
+		}, {
+			"name": "BUSPRO-660",
+			"image": "/images/products/battery-chargers/buspro-660.jpg",
+			"filters": {
+				"Banks": ["6"],
+				"Amps per Bank": ["5"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Auto-Meter-BUSPRO660-Optimized-Charging/dp/B003JZPGM0/" },
+				{ "vendor": "Auto Meter", "link": "http://www.autometer.com/buspro-660-agm-optimized-smart-battery-charger-6-channel-120v-5-amp.html" }
+			]
+		}, {
+			"name": "CHARGE IT! 4506",
+			"image": "/images/products/battery-chargers/charge-it-4506.jpg",
+			"filters": {
+				"Banks": ["1"],
+				"Amps per Bank": ["2", "6"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/CHARGE-4506-12V-Smart-Charger/dp/B004RTJOH0" }
+			]
+		}, {
+			"name": "Dual Pro RS1",
+			"image": "/images/products/battery-chargers/dual-pro-rs1.jpg",
+			"filters": {
+				"Banks": ["1"],
+				"Amps per Bank": ["6"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Dual-Pro-Recreational-Battery-Charger/dp/B001RMV67Q" },
+				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Dual-Pro-Recreation-Series-Single-Output-Charger-1-Bank-6-amp-RS1/20753299" }
+			]
+		}, {
+			"name": "Dual Pro RS3",
+			"image": "/images/products/battery-chargers/dual-pro-rs3.jpg",
+			"filters": {
+				"Banks": ["3"],
+				"Amps per Bank": ["6"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Dual-Recreation-Triple-Output-Charger/dp/B001RN4AXC" },
+				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Dual-Pro-Recreation-Series-Triple-Output-Charger-3-Bank-6-amp-RS3/20753296" }
+			]
+		}, {
+			"name": "GENIUS2X4  6V/12V 4-Bank",
+			"image": "/images/products/battery-chargers/noco-genius.jpg",
+			"filters": {
+				"Banks": ["4"],
+				"Amps per Bank": ["2"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/dp/B08FYS6CL8/" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/batteries-chargers/products/frc-battery-charger?variant=44493438058668" },
+				{ "vendor": "NOCO", "link": "https://no.co/genius2x4" }
+			]
+		}, {
+			"name": "Viking 4 Amp Battery Charger/Maintainer",
+			"image": "/images/products/battery-chargers/viking.jpg",
+			"filters": {
+				"Banks": ["1"],
+				"Amps per Bank": ["4"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/d/Household-Batteries-Chargers-Accessories/automatic-microprocessor-controlled-battery-maintainer/B076FTZ33S/" },
+				{ "vendor": "Harbor Freight", "link": "https://www.harborfreight.com/4-amp-fully-automatic-microprocessor-controlled-battery-chargermaintainer-63350.html" }
+			]
+		}
+	]
+}

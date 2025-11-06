@@ -1,0 +1,321 @@
+{
+	"title": "Wire Connectors",
+	"description": "<p>Wire connectors simplify building and maintaining a robot’s electrical system. Options like crimp, quick-disconnect, and screw terminals ensure secure, serviceable connections. Good connector choices reduce electrical faults and make debugging faster during events.</p>",
+	"filter_groups": ["Type", "Gender", "Insulated", "Color", "Wire Size"],
+	"products": [
+		{
+			"name": "775 Connect",
+			"image": "/images/products/wireconnectors/775trsinline.jpg",
+			"filters": {
+				"Type": ["Powerpole"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Black", "Red"],
+				"Wire Size": ["10 AWG", "12 AWG"]
+			},
+			"links": [
+				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/217-6457.html" }
+			]
+		}, {
+			"name": "Butt Connector",
+			"image": "/images/products/wireconnectors/butt.jpg",
+			"filters": {
+				"Type": ["Butt"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Blue", "Red", "Yellow"],
+				"Wire Size": ["10 AWG", "12 AWG", "14 AWG", "16 AWG", "18 AWG", "20 AWG", "22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s/ref=sr_nr_n_0?fst=as%3Aoff&rh=n%3A16310091%2Cn%3A%2116310161%2Cn%3A306506011%2Cn%3A306629011%2Cn%3A306719011%2Cn%3A306720011&bbn=306719011&ie=UTF8&qid=1468928334&rnid=306719011" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?q=butt+connector&button=search" },
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/wire_end_connectors/butt_connectors#" },
+				{ "vendor": "Home Depot", "link": "http://www.homedepot.com/b/Search/N-5yc1vZbmco/Ntk-Extended/Ntt-butt%2Bconnectors?Ntx=mode+matchpartialmax&NCNI-5" },
+				{ "vendor": "Lowe's", "link": "http://www.lowes.com/pl/Terminal-wire-connectors-Cable-wire-connectors-Electrical/4294722552?refinement=4294819257" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#butt-connectors/=8wz615zly1iqscb1cg" },
+				{ "vendor": "Mouser", "link": "https://www.mouser.com/c/connectors/terminals/?type=Butt" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/butt-splices" },
+				{ "vendor": "Walmart", "link": "http://www.walmart.com/search/?query=butt%20connector&cat_id=3944" }
+			]
+		}, {
+			"name": "Compression Lug Connector, 6 gauge, 1/4 stud hole",
+			"image": "/images/products/wireconnectors/compression-lug.jpg",
+			"filters": {
+				"Type": ["Lug"],
+				"Gender": ["N/A"],
+				"Insulated": ["No"],
+				"Color": ["Gray"],
+				"Wire Size": ["6 AWG"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/compression-lug-connector-6-gauge-1-4-stud-hole-burndy-yazv6ctc14fx" },
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/6926K75/" }
+			]
+		}, {
+			"name": "Copper Set Screw Lug Terminal",
+			"image": "/images/products/wireconnectors/copper-screw-lug.png",
+			"filters": {
+				"Type": ["Lug"],
+				"Gender": ["N/A"],
+				"Insulated": ["No"],
+				"Color": ["Copper"],
+				"Wire Size": ["6 AWG", "8 AWG", "10 AWG", "12 AWG", "14 AWG"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/6923K31/" }
+			]
+		}, {
+			"name": "Flag",
+			"image": "/images/products/wireconnectors/flag.jpg",
+			"filters": {
+				"Type": ["Flag"],
+				"Gender": ["Female"],
+				"Insulated": ["No"],
+				"Color": ["Yellow"],
+				"Wire Size": ["10 AWG", "12 AWG"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/connector-flag-non-insulated-12-10-awg-tab-032-in-x-250-in-qty-10" }
+			]
+		}, {
+			"name": "Grasshopper Nut",
+			"image": "/images/products/wireconnectors/ttb-grasshopper-nuts.webp",
+			"filters": {
+				"Type": ["Battery Terminal"],
+				"Gender": ["N/A"],
+				"Insulated": ["No"],
+				"Color": ["Gray"],
+				"Wire Size": ["N/A"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/grasshopper-nut/" }
+			]
+		}, {
+			"name": "Powerpole PP45",
+			"image": "/images/products/wireconnectors/pp45.jpg",
+			"filters": {
+				"Type": ["Powerpole"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Black", "Red"],
+				"Wire Size": ["10 AWG", "12 AWG"]
+			},
+			"links": [
+				{ "vendor": "Anderson Power Products", "link": "https://www.andersonpower.com/shop/wire-to-wire/powerpole.html" },
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/powerpole-contacts" },
+				{ "vendor": "Powerwerx", "link": "https://powerwerx.com/anderson-powerpole-connectors-45amp-unassembled" }
+			]
+		}, {
+			"name": "PWM Female Connector",
+			"image": "/images/products/wireconnectors/pwm-female.jpg",
+			"filters": {
+				"Type": ["PWM"],
+				"Gender": ["Female"],
+				"Insulated": ["Yes"],
+				"Color": ["Black"],
+				"Wire Size": ["22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Allied Electronics", "link": "https://us.rs-online.com/product/molex-incorporated/16-02-0102/70190662/" },
+				{ "vendor": "Digi-Key", "link": "https://www.digikey.com/en/products/detail/molex/0016020102/115053" },
+				{ "vendor": "Mouser", "link": "http://www.mouser.com/ProductDetail/Molex/16-02-0102/?qs=%2fha2pyFadujQMyheT8JmgjMy6x9qcFV6oNRBslqt0l0%3d" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/molex/16-02-0102/contact-female-24-22awg-crimp/dp/55H2482" },
+				{ "vendor": "Pololu", "link": "https://www.pololu.com/product/1930" }
+			]
+		}, {
+			"name": "PWM Housing - 2 Pin",
+			"image": "/images/products/wireconnectors/pwm-housing-2.jpg",
+			"filters": {
+				"Type": ["PWM"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Black"],
+				"Wire Size": ["22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Allied Electronics", "link": "https://us.rs-online.com/product/molex-incorporated/50-57-9002/70190611/" },
+				{ "vendor": "Digi-Key", "link": "http://www.digikey.com/product-detail/en/molex-llc/0050579002/WM2800-ND/115002" },
+				{ "vendor": "Mouser", "link": "http://www.mouser.com/ProductDetail/Molex/50-57-9002/?qs=sGAEpiMZZMs%252bGHln7q6pm%252bS0pk2Wo0XxQmnKy8SJefo%3d" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/molex/50-57-9002/plug-socket-housing-receptacle/dp/77C5436" },
+				{ "vendor": "Pololu", "link": "https://www.pololu.com/product/1902" }
+			]
+		}, {
+			"name": "PWM Housing - 3 Pin",
+			"image": "/images/products/wireconnectors/pwm-housing.jpg",
+			"filters": {
+				"Type": ["PWM"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Black"],
+				"Wire Size": ["22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Allied Electronics", "link": "https://us.rs-online.com/product/molex-incorporated/50-57-9003/70190579/" },
+				{ "vendor": "Digi-Key", "link": "http://www.digikey.com/product-detail/en/molex-llc/0050579003/WM2801-ND/115005" },
+				{ "vendor": "Mouser", "link": "http://www.mouser.com/ProductDetail/Molex/50-57-9003/?qs=%2fha2pyFadugQXtaFqb17%252bjlBA7qb%252bJcQjjDHdY9sU7Q%3d" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/molex/50-57-9003/connector-housing-receptacle-3/dp/57H1819" },
+				{ "vendor": "Pololu", "link": "https://www.pololu.com/product/1902" }
+			]
+		}, {
+			"name": "PWM Male Connector",
+			"image": "/images/products/wireconnectors/pwm-male.jpg",
+			"filters": {
+				"Type": ["PWM"],
+				"Gender": ["Male"],
+				"Insulated": ["Yes"],
+				"Color": ["Black"],
+				"Wire Size": ["22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Allied Electronics", "link": "https://us.rs-online.com/product/molex-incorporated/16-02-0115/70190631/" },
+				{ "vendor": "Digi-Key", "link": "https://www.digikey.com/en/products/detail/molex/0016020115/171959" },
+				{ "vendor": "Mouser", "link": "http://www.mouser.com/ProductDetail/Molex/16-02-0115/?qs=sGAEpiMZZMtVoztFdqDXO%2fG%252b4AQBcEsW" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/molex/16-02-0115/contact-male-24-22awg-crimp/dp/55H2492" },
+				{ "vendor": "Pololu", "link": "https://www.pololu.com/product/1931" }
+			]
+		}, {
+			"name": "Quick Disconnect Terminal",
+			"image": "/images/products/wireconnectors/quick-disconnect.jpg",
+			"filters": {
+				"Type": ["Quick Disconnect"],
+				"Gender": ["Female", "Male"],
+				"Insulated": ["No", "Yes"],
+				"Color": ["Blue", "Red", "Yellow"],
+				"Wire Size": ["10 AWG", "12 AWG", "14 AWG", "16 AWG", "18 AWG", "20 AWG", "22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s/ref=sr_nr_n_1?fst=as%3Aoff&rh=n%3A16310091%2Cn%3A%2116310161%2Cn%3A306506011%2Cn%3A306629011%2Cn%3A306719011%2Cn%3A306723011&bbn=306719011&ie=UTF8&qid=1468928334&rnid=306719011" },
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/wire_end_connectors/disconnect_terminals#Type_of_Insulation_ms=%22Completely%20PVC%22&start=0" },
+				{ "vendor": "Home Depot", "link": "https://www.homedepot.com/s/quick%20disconnect%20terminal" },
+				{ "vendor": "Lowe's", "link": "http://www.lowes.com/pl/Terminal-wire-connectors-Cable-wire-connectors-Electrical/4294722552?refinement=4294819234" },
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/standard-electrical-wire-terminals/terminal-type~quick-disconnect-1/insulation~fully-insulated/" },
+				{ "vendor": "Mouser", "link": "https://www.mouser.com/c/connectors/terminals/?type=Quick%20Disconnect" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/quick-disconnect-crimp-terminals" }
+			]
+		}, {
+			"name": "Quick Splice",
+			"image": "/images/products/wireconnectors/quick-splice.jpg",
+			"filters": {
+				"Type": ["Quick Splice"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Yellow"],
+				"Wire Size": ["10 AWG", "12 AWG"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/connector-quick-splice-12-10-awg-yellow-qty-10" }
+			]
+		}, {
+			"name": "ReFire Quick Connect 775",
+			"image": "/images/products/wireconnectors/refireconnect.jpg",
+			"filters": {
+				"Type": ["Powerpole", "XT60"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Black", "Red", "Yellow"],
+				"Wire Size": ["10 AWG", "12 AWG"]
+			},
+			"links": [
+				{ "vendor": "ReFire Solutions", "link": "https://refiresolutions.com/all-products/" }
+			]
+		}, {
+			"name": "ReFire Quick Connect Kraken X60",
+			"image": "/images/products/wireconnectors/refirekraken.jpg",
+			"filters": {
+				"Type": ["Powerpole", "PWM"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Black", "Red"],
+				"Wire Size": ["10 AWG", "12 AWG"]
+			},
+			"links": [
+				{ "vendor": "ReFire Solutions", "link": "https://refiresolutions.com/refire-quick-connect-for-brushless-motor/" }
+			]
+		}, {
+			"name": "Ring Terminal",
+			"image": "/images/products/wireconnectors/ring.jpg",
+			"filters": {
+				"Type": ["Ring"],
+				"Gender": ["N/A"],
+				"Insulated": ["No"],
+				"Color": ["Blue", "Red", "Yellow"],
+				"Wire Size": ["M3", "M5", "10 AWG", "12 AWG", "14 AWG", "16 AWG", "18 AWG", "20 AWG", "22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=ring+terminal" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?q=ring+terminal" },
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/wire_end_connectors/ring_terminals" },
+				{ "vendor": "Home Depot", "link": "http://www.homedepot.com/b/Search/N-5yc1vZbmco/Ntk-Extended/Ntt-ring%2Bterminal?Ntx=mode+matchpartialmax&NCNI-5" },
+				{ "vendor": "Lowe's", "link": "http://www.lowes.com/pl/Terminal-wire-connectors-Cable-wire-connectors-Electrical/4294722552?refinement=4294819250" },
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/standard-electrical-wire-terminals/ring-terminals~~/" },
+				{ "vendor": "Mouser", "link": "https://www.mouser.com/c/connectors/terminals/?type=Ring%20Terminal" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/ring-crimp-terminals" },
+				{ "vendor": "TE Connectivity", "link": "https://www.te.com/en/search.html?q=ring%20terminal&n=819844" },
+				{ "vendor": "Walmart", "link": "http://www.walmart.com/search/?query=ring%20terminal&cat_id=3944&typeahead=ring%20terminal" }
+			]
+		}, {
+			"name": "Sauro Female Connector",
+			"image": "/images/products/wireconnectors/sauro.jpg",
+			"filters": {
+				"Type": ["Cage Clamp"],
+				"Gender": ["Female"],
+				"Insulated": ["Yes"],
+				"Color": ["Green"],
+				"Wire Size": ["12 AWG", "14 AWG", "16 AWG", "18 AWG", "20 AWG", "22 AWG"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/roborio-power-phoenix-push-in-spring-connector" }
+			]
+		}, {
+			"name": "SB-50A",
+			"image": "/images/products/wireconnectors/sb-50a.jpg",
+			"filters": {
+				"Type": ["Multipole"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Red"],
+				"Wire Size": ["6 AWG"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s/ref=nb_sb_noss?url=srs%3D6686461011%26search-alias%3Dspecialty-aps&field-keywords=SB-50" },
+				{ "vendor": "Anderson Power Products", "link": "https://www.andersonpower.com/shop/wire-to-wire/sb.html?cat=59" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/sb-50a-app-connector-with-contacts" },
+				{ "vendor": "Powerwerx", "link": "https://powerwerx.com/anderson-sb-connectors-sb50-50amp" }
+			]
+		}, {
+			"name": "Spade Terminal",
+			"image": "/images/products/wireconnectors/spade.jpg",
+			"filters": {
+				"Type": ["Spade"],
+				"Gender": ["N/A"],
+				"Insulated": ["No"],
+				"Color": ["Blue", "Red", "Yellow"],
+				"Wire Size": ["10 AWG", "12 AWG", "14 AWG", "16 AWG", "18 AWG", "20 AWG", "22 AWG"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s/ref=sr_nr_n_9?fst=as%3Aoff&rh=n%3A16310091%2Cn%3A%2116310161%2Cn%3A306506011%2Cn%3A306629011%2Cn%3A306719011%2Cn%3A306733011&bbn=306719011&ie=UTF8&qid=1468928434&rnid=306719011" },
+				{ "vendor": "Automation Direct", "link": "https://www.automationdirect.com/adc/search/search?fctype=adc.falcon.search.SearchFormCtrl&TxnNumber=-1&cmd=Search&categoryId=2097131&searchquery=spade+terminals&start=0" },
+				{ "vendor": "Home Depot", "link": "https://www.homedepot.com/s/spade%20wire%20terminals?NCNI-5" },
+				{ "vendor": "Lowe's", "link": "http://www.lowes.com/pl/Terminal-wire-connectors-Cable-wire-connectors-Electrical/4294722552?refinement=4294778967" },
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/standard-electrical-wire-terminals/terminal-type~spade-1/" },
+				{ "vendor": "Mouser", "link": "https://www.mouser.com/c/connectors/terminals/?type=Spade" },
+				{ "vendor": "Newark", "link": "http://www.newark.com/spade-crimp-terminals" },
+				{ "vendor": "TE Connectivity", "link": "https://www.te.com/en/plp/spade-terminals/Y44G2.html" },
+				{ "vendor": "Walmart", "link": "http://www.walmart.com/search/?query=spade%20terminal&cat_id=3944" }
+			]
+		}, {
+			"name": "T-Tap",
+			"image": "/images/products/wireconnectors/ttap.jpg",
+			"filters": {
+				"Type": ["T-Tap"],
+				"Gender": ["N/A"],
+				"Insulated": ["Yes"],
+				"Color": ["Blue", "Red", "Yellow"],
+				"Wire Size": ["10 AWG", "12 AWG", "14 AWG", "16 AWG", "18 AWG", "20 AWG", "22 AWG"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/search?q=t-tap" }
+			]
+		}
+	]
+}

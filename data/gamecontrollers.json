@@ -1,0 +1,156 @@
+{
+	"title": "Game Controllers",
+	"description": "<p>Game controllers allow human operators to drive and control robots during competition. USB-based models with dual sticks, triggers, and customizable buttons provide a familiar and precise interface. Reliable, responsive controllers help improve driver performance and reaction time.</p>",
+	"filter_groups": ["Type", "Buttons", "Analog Joysticks", "D-Pad", "Throttle Control"],
+	"products": [
+		{
+			"name": "8BitDo - Ultimate Wired",
+			"image": "/images/products/gamecontrollers/8bitdo-ultimate.webp",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["12"],
+				"Analog Joysticks": ["2"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "amazon.com/dp/B0B9B2ZFGZ" },
+				{ "vendor": "BestBuy", "link": "https://www.bestbuy.com/product/8bitdo-ultimate-wired-controller-for-pc-black/CZY3JSJXYR/sku/6521144" }
+			]
+		}, {
+			"name": "Button Board Deluxe",
+			"image": "/images/products/gamecontrollers/buttonboarddeluxe.webp",
+			"filters": {
+				"Type": ["Button Board"],
+				"Buttons": ["15"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/joysticks-buttons/products/button-board-deluxe" }
+			]
+		}, {
+			"name": "Dualshock 4 Wireless Playstation",
+			"image": "/images/products/gamecontrollers/dualshock4.webp",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["10"],
+				"Analog Joysticks": ["2"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/joysticks-buttons/products/dualshock-4-wireless-playstation-controller" },
+				{ "vendor": "Best Buy", "link": "https://www.bestbuy.com/product/dualshock-4-wireless-controller-for-sony-playstation-4-jet-black/JXHQ3JF84Q" },
+				{ "vendor": "Game Stop", "link": "https://www.gamestop.com/gaming-accessories/controllers/playstation-4/products/sony-dualshock-4-wireless-controller-for-playstation-4---black/131267.html" },
+				{ "vendor": "PlayStation", "link": "https://www.playstation.com/en-us/accessories/dualshock-4-wireless-controller/" }
+			]
+		}, {
+			"name": "GameSir-G7 SE Xbox Style Wired",
+			"image": "/images/products/gamecontrollers/gamesir-g7.webp",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["13"],
+				"Analog Joysticks": ["2"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/joysticks-buttons/products/gamesir-g7-se-xbox-style-wired-controller" },
+				{ "vendor": "Best Buy", "link": "https://www.bestbuy.com/product/gamesir-g7-se-wired-controller-for-xbox-series-xsone-windows-10-11-plug-play-with-hall-effect-joysticks-trigger-3-5mm-white/CZS9HRX2CJ" },
+				{ "vendor": "GameSir", "link": "https://gamesir.com/products/gamesir-g7-se" },
+				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/GameSir-G7-SE-Wired-Controller-Xbox-Series-X-S-Xbox-One-Windows-10-11-Plug-Play-Gaming-Gamepad-Hall-Effect-Joysticks-Hall-Trigger-3-5mm-Audio-Jack/3639085772" }
+			]
+		}, {
+			"name": "Logitech Gamepad F310",
+			"image": "/images/products/gamecontrollers/logitechgamepad.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["10"],
+				"Analog Joysticks": ["2"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/dp/B003VAHYQY" },
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/logitech-gamepad-f310" },
+				{ "vendor": "Best Buy", "link": "http://www.bestbuy.com/site/logitech-f310-gaming-pad-blue-black/1260591.p?skuId=1260591" },
+				{ "vendor": "Newegg", "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16826104402" },
+				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Logitech-F310-Gaming-Pad/16419686" }
+			]
+		}, {
+			"name": "Razer Wolverine V3 Pro",
+			"image": "/images/products/gamecontrollers/logitechgamepad.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["12"],
+				"Analog Joysticks": ["2"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Razer-Wolverine-Wireless-Gaming-Controller-Console/dp/B0DB6S6R89?th=1" },
+				{ "vendor": "Best Buy", "link": "https://www.bestbuy.com/product/razer-wolverine-v3-pro-wireless-gaming-controller-with-6-remappable-buttons-fast-triggers-designed-for-xbox-series-xs-pc-black/J39HWFHG4T" },
+				{ "vendor": "Razer", "link": "https://www.razer.com/console-controllers/razer-wolverine-v3-pro" }
+			]
+		}, {
+			"name": "SNES Retro USB Controller",
+			"image": "/images/products/gamecontrollers/snes2.jpg",
+			"filters": {
+				"Type": ["Gamepad"],
+				"Buttons": ["6"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["1"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/gp/product/B0034ZOAO0" }
+			]
+		}, {
+			"name": "X-Keys XK-24 USB Keypad",
+			"image": "/images/products/gamecontrollers/xk-24.jpg",
+			"filters": {
+				"Type": ["Button Board"],
+				"Buttons": ["24"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["0"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/XK-24-USB-Programmable-Keypad-Windows/dp/B003MB780E/" },
+				{ "vendor": "B&H", "link": "https://www.bhphotovideo.com/c/product/1032471-REG/x_keys_xk_24_usb_r_xk_24_usb_keypad_with.html" },
+				{ "vendor": "CDW", "link": "https://www.cdw.com/product/p.i.-engineering-x-keys-xk-24-programmable-keypad/2120650" }
+			]
+		}, {
+			"name": "X-Keys XK-80 USB Keyboard",
+			"image": "/images/products/gamecontrollers/xk-80.jpg",
+			"filters": {
+				"Type": ["Button Board"],
+				"Buttons": ["80"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["0"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/XK-24-USB-Programmable-Keypad-Windows/dp/B0092SJ8YU/" },
+				{ "vendor": "B&H", "link": "https://www.bhphotovideo.com/c/product/1032473-REG/x_keys_xk_0980_ubk80_r_xk_80_usb_keyboard.html" },
+				{ "vendor": "CDW", "link": "https://www.cdw.com/product/p.i.-engineering-x-keys-xk-80-programmable-keyboard/3175069" }
+			]
+		}, {
+			"name": "X-Keys XK-128 USB Keyboard",
+			"image": "/images/products/gamecontrollers/xk-128.jpg",
+			"filters": {
+				"Type": ["Button Board"],
+				"Buttons": ["80"],
+				"Analog Joysticks": ["0"],
+				"D-Pad": ["0"],
+				"Throttle Control": ["No"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/XK-24-USB-Programmable-Keypad-Windows/dp/B00LV019RG/" },
+				{ "vendor": "B&H", "link": "https://www.bhphotovideo.com/c/product/1029152-REG/x_keys_xk_1225_ufk128_r_xk_128_usb_keyboard.html" }
+			]
+		}
+	]
+}

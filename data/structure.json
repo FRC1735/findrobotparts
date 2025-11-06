@@ -1,0 +1,361 @@
+{
+	"title": "Structure",
+	"description": "<p>Structural components form the backbone of a robot. Extrusions and tubing make it easy to design strong, modular frames that can be adapted over time. Good structural planning improves serviceability, rigidity, and overall performance on the field.</p>",
+	"filter_groups": ["Type", "Width", "Length", "Thickness", "Pattern", "Material"],
+	"products": [
+		{
+			"name": "1\" x 1\" Aluminum Box",
+			"image": "/images/products/structure/am-1x1.webp",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["1\""],
+				"Length": ["12\"", "24\"", "36\"", "72\""],
+				"Thickness": ["0.063\""],
+				"Pattern": ["Solid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/box-tube-extrusion" }
+			]
+		}, {
+			"name": "1.5\" x 1.5\" Aluminum Box",
+			"image": "/images/products/structure/am-15x15.webp",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["1.5\""],
+				"Length": ["12\"", "24\"", "36\"", "72\""],
+				"Thickness": ["0.063\""],
+				"Pattern": ["Solid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/box-tube-extrusion" }
+			]
+		}, {
+			"name": "2\" x 1\" Aluminum Box",
+			"image": "/images/products/structure/am-2x1.jpg",
+			"filters": {
+				"Type": ["Rectangle Tube"],
+				"Width": ["1\"", "2\""],
+				"Length": ["12\"", "24\"", "36\"", "72\""],
+				"Thickness": ["0.063\"", "0.125\""],
+				"Pattern": ["Solid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/box-tube-extrusion" }
+			]
+		}, {
+			"name": "2\" x 2\" Aluminum Box",
+			"image": "/images/products/structure/am-2x2.webp",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["2\""],
+				"Length": ["12\"", "24\"", "36\"", "72\""],
+				"Thickness": ["0.063\""],
+				"Pattern": ["Solid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/box-tube-extrusion" }
+			]
+		}, {
+			"name": "80/20",
+			"image": "/images/products/structure/8020.jpg",
+			"filters": {
+				"Type": ["T-Slot"],
+				"Width": ["1\"", "1.5\"", "20mm", "30mm", "40mm", "45mm"],
+				"Length": ["12\"", "24\"", "36\"", "48\"", "60\"", "72\"", "96\"", "120\""],
+				"Thickness": ["n/a"],
+				"Pattern": ["T-Slot"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "80/20 Inc.", "link": "https://8020.net/framing-options/t-slotted-profiles/fractional/10series100basedprofiles.html" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/s/ref=sr_nr_n_14?fst=as%3Aoff&rh=n%3A16310091%2Ck%3A80%2F20&keywords=80%2F20&ie=UTF8&qid=1469121709&rnid=2941120011" },
+				{ "vendor": "McMaster", "link": "http://www.mcmaster.com/#80-20-compatible-t-slotted-framing/=8wz615zly1iqwkxa3j" },
+				{ "vendor": "MSC", "link": "http://www.mscdirect.com/browse/tn/Material-Handling-Storage/Storage-Furniture-Systems/Racks-Framing-Stanchions/Framing-Beams-Uprights/Framing?navid=12105595#navid=12105595+4294865980" }
+			]
+		}, {
+			"name": "AM Pre-Drilled Box 1\" x 1\"",
+			"image": "/images/products/structure/am-grid-1x1.webp",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["1\""],
+				"Length": ["47\""],
+				"Thickness": ["0.0625\"", "0.125\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/extrusion-structure/products/pre-drilled-box-tube-extrusion" }
+			]
+		}, {
+			"name": "AM Pre-Drilled Box 2\" x 1\"",
+			"image": "/images/products/structure/am-grid-2x1.webp",
+			"filters": {
+				"Type": ["Rectangle Tube"],
+				"Width": ["1\"", "2\""],
+				"Length": ["47\""],
+				"Thickness": ["0.0625\"", "0.125\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/extrusion-structure/products/pre-drilled-box-tube-extrusion" }
+			]
+		}, {
+			"name": "Churro",
+			"image": "/images/products/structure/churro.jpg",
+			"filters": {
+				"Type": ["Churro"],
+				"Width": ["0.5\""],
+				"Length": ["3.375\"", "3.875\"", "12\"", "19.25\"", "24.25\"", "24.75\"", "26.875\"", "36\"", "72\""],
+				"Thickness": ["0.15\""],
+				"Pattern": ["Groove"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/1-2-in-churro-different-length" }
+			]
+		}, {
+			"name": "Churro Lite",
+			"image": "/images/products/structure/churro-lite.jpg",
+			"filters": {
+				"Type": ["Churro"],
+				"Width": ["0.375\""],
+				"Length": ["12\"", "36\"", "72\""],
+				"Thickness": ["0.2\""],
+				"Pattern": ["Groove"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/3-8-in-churro-lite-different-lengths-options" }
+			]
+		}, {
+			"name": "MAX Pattern Plates",
+			"image": "/images/products/structure/rev-max-pattern-plates.webp",
+			"filters": {
+				"Type": ["Plate"],
+				"Width": ["0.12\"", "2\""],
+				"Length": ["2.5\"", "4.5\"", "6.5\"", "14.5\"", "22.5\"", "30.5\""],
+				"Thickness": ["0.12\""],
+				"Pattern": ["MAXSpline"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAX-Pattern-Plates/" }
+			]
+		}, {
+			"name": "MAXTube 0.5\" x 0.5\"",
+			"image": "/images/products/structure/maxtube-05x05.png",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["0.5\""],
+				"Length": ["47\""],
+				"Thickness": ["0.06\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXTube-0.5x0.5/" }
+			]
+		}, {
+			"name": "MAXTube 1\" x 1\"",
+			"image": "/images/products/structure/maxtube-1x1.png",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["1\""],
+				"Length": ["47\""],
+				"Thickness": ["0.04\"", "0.0625\"", "0.125\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXTube-1x1/" }
+			]
+		}, {
+			"name": "MAXTube 2\" x 1\"",
+			"image": "/images/products/structure/maxtube.webp",
+			"filters": {
+				"Type": ["Rectangle Tube"],
+				"Width": ["1\"", "2\""],
+				"Length": ["3\"", "5\"", "7\"", "15\"", "23\"", "31\"", "47\""],
+				"Thickness": ["0.04\"", "0.0625\"", "0.125\"", "0.188\""],
+				"Pattern": ["Grid", "MAXSpline"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXTube-2x1/" }
+			]
+		}, {
+			"name": "MAXTube 2\" x 2\"",
+			"image": "/images/products/structure/maxtube-2x2.png",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["2\""],
+				"Length": ["47\""],
+				"Thickness": ["0.125\""],
+				"Pattern": ["Grid", "MAXSpline"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXTube-2x2/" }
+			]
+		}, {
+			"name": "MAXTube Angle",
+			"image": "/images/products/structure/maxtube-angle.png",
+			"filters": {
+				"Type": ["Angle"],
+				"Width": ["0.75\""],
+				"Length": ["47\""],
+				"Thickness": ["0.125\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-3207/" }
+			]
+		}, {
+			"name": "Peanut Extrusion",
+			"image": "/images/products/structure/peanut.jpg",
+			"filters": {
+				"Type": ["Peanut"],
+				"Width": ["1\""],
+				"Length": ["36\"", "72\""],
+				"Thickness": ["0.05\""],
+				"Pattern": ["Custom"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/1-x-1-peanut-extrusion-different-lengths" }
+			]
+		}, {
+			"name": "Punch Tube",
+			"image": "/images/products/structure/punchtube.png",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["15mm"],
+				"Length": ["1m"],
+				"Thickness": ["0.089\""],
+				"Pattern": ["Groove"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/rev-41-1453/" }
+			]
+		}, {
+			"name": "REV 1\" Extrusion",
+			"image": "/images/products/structure/rev-1.jpg",
+			"filters": {
+				"Type": ["REV Extrusion"],
+				"Width": ["1\""],
+				"Length": ["48\""],
+				"Thickness": ["n/a"],
+				"Pattern": ["T-Slot"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/1in-extrusion/" }
+			]
+		}, {
+			"name": "REV 15mm Extrusion",
+			"image": "/images/products/structure/rev-15mm.jpg",
+			"filters": {
+				"Type": ["REV Extrusion"],
+				"Width": ["15mm"],
+				"Length": ["1m"],
+				"Thickness": ["n/a"],
+				"Pattern": ["T-Slot"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/15mm-extrusions/" }
+			]
+		}, {
+			"name": "Swyft 2\" x 1\"",
+			"image": "/images/products/structure/ttb-2x1.webp",
+			"filters": {
+				"Type": ["Rectangle Tube"],
+				"Width": ["1\"", "2\""],
+				"Length": ["47\""],
+				"Thickness": ["0.035\"", "0.0625\"", "0.125\""],
+				"Pattern": ["Grid", "Solid", "Bearing"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-box-extrusion" }
+			]
+		}, {
+			"name": "TTB 2\" x 1\"",
+			"image": "/images/products/structure/ttb-2x1.webp",
+			"filters": {
+				"Type": ["Rectangle Tube"],
+				"Width": ["1\"", "2\""],
+				"Length": ["47\""],
+				"Thickness": ["0.08\"", "0.125\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-box-extrusion" }
+			]
+		}, {
+			"name": "Walnut Extrusion",
+			"image": "/images/products/structure/walnut.jpg",
+			"filters": {
+				"Type": ["Walnut"],
+				"Width": ["1\"", "2\""],
+				"Length": ["36\"", "72\""],
+				"Thickness": ["0.063\""],
+				"Pattern": ["Custom"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/2-x-1-walnut-extrusion-different-lengths" }
+			]
+		}, {
+			"name": "WCP 1\" x 1\"",
+			"image": "/images/products/structure/wcp-1x1.webp",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["1\""],
+				"Length": ["47\""],
+				"Thickness": ["0.063\"", "0.093\"", "0.125\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/viewall/products/punched-tubing" }
+			]
+		}, {
+			"name": "WCP 2\" x 1\"",
+			"image": "/images/products/structure/wcp-2x1.webp",
+			"filters": {
+				"Type": ["Rectangle Tube"],
+				"Width": ["1\"", "2\""],
+				"Length": ["47\""],
+				"Thickness": ["0.063\"", "0.093\"", "0.125\""],
+				"Pattern": ["Grid", "Solid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/viewall/products/punched-tubing" }
+			]
+		}, {
+			"name": "WCP 2\" x 2\"",
+			"image": "/images/products/structure/wcp-2x2.webp",
+			"filters": {
+				"Type": ["Square Tube"],
+				"Width": ["2\""],
+				"Length": ["47\""],
+				"Thickness": ["0.063\"", "0.093\""],
+				"Pattern": ["Grid"],
+				"Material": ["Aluminum"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/viewall/products/punched-tubing" }
+			]
+		}
+	]
+}

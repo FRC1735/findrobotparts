@@ -1,0 +1,288 @@
+{
+	"title": "Subsystems",
+	"description": "<p>Subsystems combine structure, motion, and control into complete, ready-to-use robot mechanisms. Whether it’s a drivetrain, shooter, or elevator, these systems give teams a strong foundation to build on and customize. Starting with proven subsystems helps students focus on design strategy, programming, and refinement instead of basic construction.</p>",
+	"filter_groups": ["Type"],
+	"products": [
+		{
+			"name": "AndyMark Bumper Kit",
+			"image": "/images/products/subsystems/am-bumperkit.webp",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/2025-generic-bumper-kits" }
+			]
+		}, {
+			"name": "AM14U6 Frame",
+			"image": "/images/products/subsystems/am14u6.webp",
+			"filters": {
+				"Type": ["Chassis"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/am14u6-6-wheel-drop-center-robot-drive-base-2025-frc-kit-of-parts-drive-base" }
+			]
+		}, {
+			"name": "Bed Lift Block",
+			"image": "/images/products/subsystems/bed-lift-block.jpg",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "Wattos", "link": "https://wattos.com.tr/urun/blok-asansor-yatagi/" }
+			]
+		}, {
+			"name": "Bumper Kit",
+			"image": "/images/products/subsystems/rp-bumperkit.jpg",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2012.htm" }
+			]
+		}, {
+			"name": "Bumper Kit for Rhino Track Drive Module",
+			"image": "/images/products/subsystems/rhinobumpers.jpg",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "http://www.andymark.com/product-p/am-0331.htm" }
+			]
+		}, {
+			"name": "C Base Kit",
+			"image": "/images/products/subsystems/cbase.jpg",
+			"filters": {
+				"Type": ["Chassis"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/30-in-c-base-chassis-kit-frame-only" }
+			]
+		}, {
+			"name": "Climber in a Box",
+			"image": "/images/products/subsystems/climberinabox.jpg",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/climber-in-a-box" }
+			]
+		}, {
+			"name": "Corner Bumper Kit",
+			"image": "/images/products/subsystems/rp-cornerbumper.jpg",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/product_p/rp-2009.htm" }
+			]
+		}, {
+			"name": "Custom Built Bumpers",
+			"image": "/images/products/subsystems/swyft-custom-bumpers.webp",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/swyft-bumpers" }
+			]
+		}, {
+			"name": "Differential Drivetrain Bumper Bracket Kit",
+			"image": "/images/products/subsystems/differential-bumpers.webp",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-25-3062/" }
+			]
+		}, {
+			"name": "Drive Rails",
+			"image": "/images/products/subsystems/driverail.jpg",
+			"filters": {
+				"Type": ["Chassis", "Driveline"]
+			},
+			"links": [
+				{ "vendor": "Plummer Industries", "link": "http://plummerindustries.com/robotics/shop#!/Drive-Rails/c/32076753/offset=0&sort=normal" }
+			]
+		}, {
+			"name": "Eccentric Vectored Intake Wheel",
+			"image": "/images/products/subsystems/armabot-eccentric-intake.webp",
+			"filters": {
+				"Type": ["Rollers"]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/eccentric-vectored-intake-wheel" }
+			]
+		}, {
+			"name": "Greyt Roller Claw",
+			"image": "/images/products/subsystems/greytclaw.jpg",
+			"filters": {
+				"Type": ["Claw"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-roller-claw-v2" }
+			]
+		}, {
+			"name": "Greyt Shooter (7\")",
+			"image": "/images/products/subsystems/greytshooter.jpg",
+			"filters": {
+				"Type": ["Shooter"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-shooter-7" }
+			]
+		}, {
+			"name": "GreyT Shooter (9\")",
+			"image": "/images/products/subsystems/wcp-greyt-shooter-95.webp",
+			"filters": {
+				"Type": ["Shooter"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-shooter-9-5" }
+			]
+		}, {
+			"name": "Greyt Telecope",
+			"image": "/images/products/subsystems/greyt-telescope.png",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-telescope" }
+			]
+		}, {
+			"name": "GreyT Turret (11\" ID)",
+			"image": "/images/products/subsystems/wcp-greyt-turret-11.webp",
+			"filters": {
+				"Type": ["Turret"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-turret-11-id" }
+			]
+		}, {
+			"name": "Greyt Turret (7\" ID)",
+			"image": "/images/products/subsystems/greytturret.jpg",
+			"filters": {
+				"Type": ["Turret"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/collections/systems-structure/products/greyt-turret-5-7" }
+			]
+		}, {
+			"name": "Intake System",
+			"image": "/images/products/subsystems/rollerintake.jpg",
+			"filters": {
+				"Type": ["Rollers"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/roller-intake-system-kit" }
+			]
+		}, {
+			"name": "Plummer Industries Bumper Mounts",
+			"image": "/images/products/subsystems/pi-bumper-mounts.png",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "Plummer Industries", "link": "https://plummerindustries.com/robotics/shop.html#!/Bumper-Mounting/c/139191066" }
+			]
+		}, {
+			"name": "Raptor Drive",
+			"image": "/images/products/subsystems/raptortrack.jpg",
+			"filters": {
+				"Type": ["Driveline", "Tread"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/raptor-track-drive" }
+			]
+		}, {
+			"name": "Rhino Track Module",
+			"image": "/images/products/subsystems/rhinotrack.jpg",
+			"filters": {
+				"Type": ["Driveline", "Tread"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/rhino-track-drive-module" }
+			]
+		}, {
+			"name": "SDS Billet Elevator Bearing Block",
+			"image": "/images/products/subsystems/sds-billet.webp",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/sds-billet-elevator-bearing-block-kits" },
+				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/products/billet-elevator-bearing-block" }
+			]
+		}, {
+			"name": "SimpleTube Chassis",
+			"image": "/images/products/subsystems/simpletube.png",
+			"filters": {
+				"Type": ["Chassis", "Driveline"]
+			},
+			"links": [
+				{ "vendor": "Team221", "link": "http://www.team221.com/order.php?cat=15" }
+			]
+		}, {
+			"name": "Super Light Chassis",
+			"image": "/images/products/subsystems/superlight.jpg",
+			"filters": {
+				"Type": ["Chassis", "Driveline"]
+			},
+			"links": [
+				{ "vendor": "Team221", "link": "http://www.team221.com/order.php?cat=18" }
+			]
+		}, {
+			"name": "Swyft Ascend",
+			"image": "/images/products/subsystems/swyft-ascend.webp",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/swyft-ascend-frc-ftc-telescoping-elevator" }
+			]
+		}, {
+			"name": "Telescoping Tube Kit",
+			"image": "/images/products/subsystems/telescoping-tube-kit.jpg",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-telescoping-tube-kit" }
+			]
+		}, {
+			"name": "Thrifty Elevator",
+			"image": "/images/products/subsystems/ttb-elevator.webp",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-elevator-stage-kit" }
+			]
+		}, {
+			"name": "Turret",
+			"image": "/images/products/subsystems/turret240.png",
+			"filters": {
+				"Type": ["Turret"]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://www.armabot.com/collections/frontpage/products/turret240" }
+			]
+		}, {
+			"name": "Wattos Bumpers",
+			"image": "/images/products/subsystems/wattos-bumpers.jpg",
+			"filters": {
+				"Type": ["Bumpers"]
+			},
+			"links": [
+				{ "vendor": "Wattos", "link": "https://wattos.com.tr/urun/bumper/" }
+			]
+		}, {
+			"name": "WCP Elevator",
+			"image": "/images/products/subsystems/wcp-elevator.webp",
+			"filters": {
+				"Type": ["Linear Motion"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/elevator-components" }
+			]
+		}
+	]
+}

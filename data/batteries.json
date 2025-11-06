@@ -1,0 +1,135 @@
+{
+	"title": "Batteries",
+	"description": "<p>Robot batteries supply all the electrical power needed for motors, controllers, and electronics. High-discharge 12-volt batteries are standard in FRC and must deliver stable performance under heavy loads. Proper maintenance, storage, and testing help maximize both lifespan and match-to-match reliability.</p>",
+	"filter_groups": ["Weight (lbs)", "Capacity (Ah)", "Height", "Width", "Depth"],
+	"products": [
+		{
+			"name": "Battery Mart SLA-12V18",
+			"image": "/images/products/batteries/battery-mart-sla-12v18.jpg",
+			"filters": {
+				"Weight (lbs)": ["Unknown"],
+				"Capacity (Ah)": ["18"],
+				"Height": ["6.57"],
+				"Width": ["3.01"],
+				"Depth": ["7.13"]
+			},
+			"links": [
+				{ "vendor": "Battery Mart", "link": "http://www.batterymart.com/p-12v-18ah-sealed-lead-acid-battery-1.html" }
+			]
+		}, {
+			"name": "Duracell Ultra DURA12-18NB",
+			"image": "/images/products/batteries/duracell-ultra-dura12-18nb.jpg",
+			"filters": {
+				"Weight (lbs)": ["11.9"],
+				"Capacity (Ah)": ["18"],
+				"Height": ["6.57"],
+				"Width": ["3.03"],
+				"Depth": ["7.13"]
+			},
+			"links": [
+				{ "vendor": "Batteries Plus", "link": "https://www.batteriesplus.com/battery/sla-sealed-lead-acid/duracell-ultra/12/slaa12=18nb" }
+			]
+		}, {
+			"name": "ENERSYS NP18-12B",
+			"image": "/images/products/batteries/enersys-np18-12b.jpg",
+			"filters": {
+				"Weight (lbs)": ["13.6"],
+				"Capacity (Ah)": ["17.2"],
+				"Height": ["6.57"],
+				"Width": ["2.99"],
+				"Depth": ["7.12"]
+			},
+			"links": [
+				{ "vendor": "Allied", "link": "https://us.rs-online.com/product/enersys/np18-12b/70111506/" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/EnerSys-Genesis-NP18-12B-Nut-Bolt-Connector/dp/B00KXFKGHO" },
+				{ "vendor": "Newark", "link": "https://www.newark.com/enersys/np18-12b/lead-acid-battery-12v-17-2ah/dp/91B9919" }
+			]
+		}, {
+			"name": "ENERSYS NP18-12BFR",
+			"image": "/images/products/batteries/enersys-cp18-12bfr.jpg",
+			"filters": {
+				"Weight (lbs)": ["13.6"],
+				"Capacity (Ah)": ["17.2"],
+				"Height": ["6.57"],
+				"Width": ["2.99"],
+				"Depth": ["7.12"]
+			},
+			"links": [
+				{ "vendor": "Allied", "link": "https://us.rs-online.com/product/enersys/np18-12bfr/70111495/" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/EnerSys-Genesis-NP18-12BFR-Connector-Retardant/dp/B0002ZR68M" },
+				{ "vendor": "Newark", "link": "https://www.newark.com/enersys/np18-12bfr/lead-acid-battery-12v-17-2ah/dp/93B3225" }
+			]
+		}, {
+			"name": "MK ES17-12 12V SLA",
+			"image": "/images/products/batteries/mk-es17-12.webp",
+			"filters": {
+				"Weight (lbs)": ["12.89"],
+				"Capacity (Ah)": ["17.1"],
+				"Height": ["6.57"],
+				"Width": ["2.99"],
+				"Depth": ["7.13"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/products/mk-es17-12-12v-sla-battery-set-of-2" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/MK-Battery-Maintenance-Free-Rechargeable-Lead-Acid/dp/B00E4Q63H0/" },
+				{ "vendor": "Battery Sharks", "link": "https://batterysharks.com/mk-battery-es17-12-battery-replacement.html" },
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-19-2487/" }
+			]
+		}, {
+			"name": "Power Sonic PS-12180NB",
+			"image": "/images/products/batteries/power-sonic-ps-12180nb.jpg",
+			"filters": {
+				"Weight (lbs)": ["12.6"],
+				"Capacity (Ah)": ["18"],
+				"Height": ["6.59"],
+				"Width": ["3"],
+				"Depth": ["7.13"]
+			},
+			"links": [
+				{ "vendor": "Allied Electronics", "link": "https://us.rs-online.com/product/power-sonic/ps-12180nb/70115636/" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Power-Sonic-Genuine-PS-12180NB-Rechargeable-Battery/dp/B00BMUEN9Q/" }
+			]
+		}, {
+			"name": "Sigma SP12-18",
+			"image": "/images/products/batteries/sigma-sp12-18.jpg",
+			"filters": {
+				"Weight (lbs)": ["12.65"],
+				"Capacity (Ah)": ["18"],
+				"Height": ["6.59"],
+				"Width": ["3"],
+				"Depth": ["7.13"]
+			},
+			"links": [
+				{ "vendor": "Battery Sharks", "link": "http://www.batterysharks.com/SigmasTek-SP12-18-NB-p/sp12-18_b12-18.htm" }
+			]
+		}, {
+			"name": "Universal Battery UB12180",
+			"image": "/images/products/batteries/universal-battery-ub12180.jpg",
+			"filters": {
+				"Weight (lbs)": ["11.7"],
+				"Capacity (Ah)": ["18"],
+				"Height": ["6.6"],
+				"Width": ["2.9"],
+				"Depth": ["7.1"]
+			},
+			"links": [
+				{ "vendor": "1000 Bulbs", "link": "https://www.1000bulbs.com/product/56371/BAT-UB12180T4.html" },
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/Universal-Power-Group-Generator-Rechargeable/dp/B00CAY4U0U/" }
+			]
+		}, {
+			"name": "Yuasa NP18-12B",
+			"image": "/images/products/batteries/yuasa-np18-12b.jpg",
+			"filters": {
+				"Weight (lbs)": ["13.4"],
+				"Capacity (Ah)": ["17.2"],
+				"Height": ["6.54"],
+				"Width": ["3"],
+				"Depth": ["7.13"]
+			},
+			"links": [
+				{ "vendor": "Tesco", "link": "https://www.tessco.com/product/12-volt-17-2-ah-battery-572480" },
+				{ "vendor": "The Battery Shop", "link": "http://www.thebatteryshop.co.uk/np18-12b-yuasa-12v-172ah-lead-acid-battery-406-p.asp" }
+			]
+		}
+	]
+}

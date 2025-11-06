@@ -1,0 +1,116 @@
+{
+	"title": "Hubs",
+	"description": "<p>Hubs connect wheels, sprockets, and pulleys to shafts for efficient torque transfer. Clamping and keyed hubs prevent slipping under load while allowing quick part swaps. Reliable hub selection ensures smooth power delivery and easy maintenance throughout the season.</p>",
+	"filter_groups": ["Attachment Type", "Bore", "Material", "OD"],
+	"products": [
+		{
+			"name": "AM Hubs",
+			"image": "/images/products/hubs/am-hubs.jpg",
+			"filters": {
+				"Attachment Type": ["1.875\" Bolt Circle"],
+				"Bore": ["0.375\" hex", "0.375\" w/ key", "0.5\" hex", "8mm w/ key", "bearing", "blank"],
+				"Material": ["Aluminum"],
+				"OD": ["0.96\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/hubs/products/andymark-hubs" }
+			]
+		}, {
+			"name": "Colson Dead Hub",
+			"image": "/images/products/hubs/colson-dead-hub.jpg",
+			"filters": {
+				"Attachment Type": ["Press Fit", "VersaKey", "1.875\" Bolt Circle"],
+				"Bore": ["0.875\""],
+				"Material": ["Aluminum"],
+				"OD": ["1.2\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/colson-wheels" }
+			]
+		}, {
+			"name": "Colson Live Hub",
+			"image": "/images/products/hubs/colson-live-hub.jpg",
+			"filters": {
+				"Attachment Type": ["Press Fit"],
+				"Bore": ["0.5\" hex"],
+				"Material": ["Aluminum"],
+				"OD": ["1.2\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/colson-wheels" }
+			]
+		}, {
+			"name": "FTC Wheel Conversion Plate",
+			"image": "/images/products/hubs/ftc-wheel-conversion-plate.jpg",
+			"filters": {
+				"Attachment Type": ["1.875\" Bolt Circle", "16mm Bolt Circle"],
+				"Bore": ["8.1mm"],
+				"Material": ["Aluminum"],
+				"OD": ["1.95\""]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/wheel-conversion-plate" }
+			]
+		}, {
+			"name": "MAXHub Aluminum",
+			"image": "/images/products/hubs/rev-maxhub-aluminum.webp",
+			"filters": {
+				"Attachment Type": ["MAXSpline"],
+				"Bore": ["0.2\"", "0.5\" hex", "1\""],
+				"Material": ["Aluminum"],
+				"OD": ["1.37\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXHubs/" }
+			]
+		}, {
+			"name": "MAXHub Plastic",
+			"image": "/images/products/hubs/rev-maxhub-plastic.webp",
+			"filters": {
+				"Attachment Type": ["MAXSpline"],
+				"Bore": ["0.5\" hex", "5mm hex"],
+				"Material": ["Plastic"],
+				"OD": ["1.37\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/MAXHubs/" }
+			]
+		}, {
+			"name": "MAXSpline Shaft Endcap",
+			"image": "/images/products/hubs/rev-maxspline-endcap.webp",
+			"filters": {
+				"Attachment Type": ["MAXSpline"],
+				"Bore": ["0.5\" hex"],
+				"Material": ["Aluminum", "Plastic"],
+				"OD": ["1.37\""]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/rev-21-2393/" }
+			]
+		}, {
+			"name": "MotionX",
+			"image": "/images/products/hubs/motionx.webp",
+			"filters": {
+				"Attachment Type": ["1.875\" Bolt Circle", "2\" Bolt Circle"],
+				"Bore": ["0.5\" hex"],
+				"Material": ["Aluminum"],
+				"OD": ["1.125\""]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/motionx-hubs" }
+			]
+		}, {
+			"name": "TTB Hub",
+			"image": "/images/products/hubs/thriftyhub.jpg",
+			"filters": {
+				"Attachment Type": ["1.875\" Bolt Circle"],
+				"Bore": ["0.375\" hex", "0.5\" hex"],
+				"Material": ["Aluminum"],
+				"OD": ["1.125\""]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/no-10-hole-pattern-hex-hubs" }
+			]
+		}
+	]
+}

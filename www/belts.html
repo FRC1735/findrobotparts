@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class.png" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="/images/logo/magnifying-class-white.png" media="(prefers-color-scheme:dark)">
+
+	<title>Belts - Find Robot Parts</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/burncoat.css" rel="stylesheet">
+	<link href="/css/robotparts.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar align-middle sticky-top navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand py-0" href="/">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-sm-none" width="230" height="34"
+					alt="Find Robot Parts">
+				<img src="/images/logo/find-robot-parts-color-reverse.svg" class="d-none d-sm-block" width="443"
+					height="65" alt="Find Robot Parts">
+			</a>
+			<ul class="nav">
+				<li class="d-block d-sm-none">
+					<a href="#sidebar" class="nav-link text-white px-2 py-1" data-bs-toggle="collapse"
+						data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false"
+						aria-label="Toggle Filter">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+						</svg>
+						Filter
+					</a>
+				</li>
+				<li>
+					<a href="#offcanvas" class="nav-link text-white px-2 py-1" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false"
+						aria-label="Toggle Menu">
+						<svg class="bi d-block mx-auto mb-1" width="24" height="24" fill="currentColor"
+							viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						Categories
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col overflow-auto order-2">
+				<main class="p-4">
+					<div class="row mb-2">
+	<div class="col-4 col-lg-2">
+		<img src="/images/categories/belts-gray.webp" alt="Belts" class="img-thumbnail" style="width:100%" id="category-image">
+	</div>
+	<div class="col-8 col-lg-10">
+		<a class="btn btn-green float-end" href="https://github.com/FRC1735/findrobotparts" target="_blank" rel="noopener">Add or Update Parts</a>
+		<h1 class="mb-0" id="category-title">Belts</h1>
+		<div id="category-description"><p>Belts transfer rotational power quietly and efficiently between pulleys. Timing belts are especially popular for drivetrains, elevators, and indexing systems due to their smooth motion and easy tensioning. They’re lighter than chains, require less maintenance, and allow compact designs in tight spaces.</p></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col">
+		<p class="fw-light fst-italic mb-0">Showing <span id="numShown"></span> of <span id="numTotal"></span></p>
+	</div>
+	<div class="col text-end">
+		<a href="#" id="showall" class="btn btn-outline-green btn-sm">Show All</a>
+	</div>
+</div>
+<table id="productdata" class="table table-striped table-collapse">
+	<thead><tr>
+	<th scope="col">Product</th>
+	<th scope="col">Type</th><th scope="col">Material</th><th scope="col">Pitch (mm)</th><th scope="col">Width (mm)</th><th scope="col">Teeth</th><th scope="col">Length (mm)</th>
+	<th scope="col">Vendors</th>
+</tr></thead>
+	<tbody><tr data-tags="-type-htd,-material-kevlar-reinforced,-pitch--mm--5,-width--mm--15,-teeth-30,-teeth-35,-teeth-40,-teeth-45,-teeth-50,-teeth-55,-teeth-60,-teeth-64,-teeth-65,-teeth-70,-teeth-75,-teeth-80,-teeth-85,-teeth-90,-teeth-95,-teeth-100,-teeth-105,-teeth-107,-teeth-110,-teeth-115,-teeth-117,-teeth-120,-teeth-125,-teeth-130,-teeth-131,-teeth-135,-teeth-140,-teeth-145,-teeth-150,-teeth-151,-teeth-160,-teeth-170,-teeth-180,-teeth-190,-teeth-200,-teeth-225,-teeth-250,-length--mm--150,-length--mm--175,-length--mm--200,-length--mm--225,-length--mm--250,-length--mm--275,-length--mm--300,-length--mm--320,-length--mm--325,-length--mm--350,-length--mm--375,-length--mm--400,-length--mm--425,-length--mm--450,-length--mm--475,-length--mm--500,-length--mm--525,-length--mm--535,-length--mm--550,-length--mm--575,-length--mm--585,-length--mm--600,-length--mm--625,-length--mm--650,-length--mm--655,-length--mm--675,-length--mm--700,-length--mm--725,-length--mm--750,-length--mm--755,-length--mm--800,-length--mm--850,-length--mm--900,-length--mm--950,-length--mm--1000,-length--mm--1125,-length--mm--1250,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>AndyMark Belts, 15mm Width</strong><br>
+		<img src="/images/products/belts/am-15mm-htd.webp" class="img-thumbnail" alt="AndyMark Belts, 15mm Width">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseandymark-belts--15mm-width-0">
+		HTD
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--15mm-width-0" aria-expanded="false" aria-controls="collapseandymark-belts--15mm-width-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapseandymark-belts--15mm-width-1">
+		Kevlar reinforced
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--15mm-width-1" aria-expanded="false" aria-controls="collapseandymark-belts--15mm-width-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Pitch (mm)">
+	<div class="tags collapse" id="collapseandymark-belts--15mm-width-2">
+		5
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--15mm-width-2" aria-expanded="false" aria-controls="collapseandymark-belts--15mm-width-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width (mm)">
+	<div class="tags collapse" id="collapseandymark-belts--15mm-width-3">
+		15
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--15mm-width-3" aria-expanded="false" aria-controls="collapseandymark-belts--15mm-width-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Teeth">
+	<div class="tags collapse" id="collapseandymark-belts--15mm-width-4">
+		30<br>35<br>40<br>45<br>50<br>55<br>60<br>64<br>65<br>70<br>75<br>80<br>85<br>90<br>95<br>100<br>105<br>107<br>110<br>115<br>117<br>120<br>125<br>130<br>131<br>135<br>140<br>145<br>150<br>151<br>160<br>170<br>180<br>190<br>200<br>225<br>250
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--15mm-width-4" aria-expanded="false" aria-controls="collapseandymark-belts--15mm-width-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Length (mm)">
+	<div class="tags collapse" id="collapseandymark-belts--15mm-width-5">
+		150<br>175<br>200<br>225<br>250<br>275<br>300<br>320<br>325<br>350<br>375<br>400<br>425<br>450<br>475<br>500<br>525<br>535<br>550<br>575<br>585<br>600<br>625<br>650<br>655<br>675<br>700<br>725<br>750<br>755<br>800<br>850<br>900<br>950<br>1000<br>1125<br>1250
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--15mm-width-5" aria-expanded="false" aria-controls="collapseandymark-belts--15mm-width-5">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="hhttps://andymark.com/collections/belts/products/15-mm-wide-5-mm-pitch-htd-timing-belts" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-htd,-material-kevlar-reinforced,-pitch--mm--5,-width--mm--9,-teeth-30,-teeth-35,-teeth-40,-teeth-45,-teeth-50,-teeth-55,-teeth-60,-teeth-64,-teeth-65,-teeth-70,-teeth-75,-teeth-80,-teeth-85,-teeth-90,-teeth-91,-teeth-93,-teeth-95,-teeth-100,-teeth-105,-teeth-106,-teeth-110,-teeth-115,-teeth-120,-teeth-121,-teeth-125,-teeth-130,-teeth-135,-teeth-136,-teeth-140,-teeth-145,-teeth-150,-teeth-152,-teeth-160,-teeth-167,-teeth-170,-teeth-180,-teeth-190,-teeth-200,-teeth-225,-teeth-250,-length--mm--150,-length--mm--175,-length--mm--200,-length--mm--225,-length--mm--250,-length--mm--275,-length--mm--300,-length--mm--320,-length--mm--325,-length--mm--350,-length--mm--375,-length--mm--400,-length--mm--425,-length--mm--450,-length--mm--455,-length--mm--465,-length--mm--475,-length--mm--500,-length--mm--525,-length--mm--530,-length--mm--550,-length--mm--575,-length--mm--600,-length--mm--605,-length--mm--625,-length--mm--650,-length--mm--675,-length--mm--680,-length--mm--700,-length--mm--725,-length--mm--750,-length--mm--760,-length--mm--800,-length--mm--835,-length--mm--850,-length--mm--900,-length--mm--950,-length--mm--1000,-length--mm--1125,-length--mm--1250,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>AndyMark Belts, 9mm Width</strong><br>
+		<img src="/images/products/belts/am-9mm-htd.webp" class="img-thumbnail" alt="AndyMark Belts, 9mm Width">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapseandymark-belts--9mm-width-0">
+		HTD
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--9mm-width-0" aria-expanded="false" aria-controls="collapseandymark-belts--9mm-width-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapseandymark-belts--9mm-width-1">
+		Kevlar reinforced
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--9mm-width-1" aria-expanded="false" aria-controls="collapseandymark-belts--9mm-width-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Pitch (mm)">
+	<div class="tags collapse" id="collapseandymark-belts--9mm-width-2">
+		5
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--9mm-width-2" aria-expanded="false" aria-controls="collapseandymark-belts--9mm-width-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width (mm)">
+	<div class="tags collapse" id="collapseandymark-belts--9mm-width-3">
+		9
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--9mm-width-3" aria-expanded="false" aria-controls="collapseandymark-belts--9mm-width-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Teeth">
+	<div class="tags collapse" id="collapseandymark-belts--9mm-width-4">
+		30<br>35<br>40<br>45<br>50<br>55<br>60<br>64<br>65<br>70<br>75<br>80<br>85<br>90<br>91<br>93<br>95<br>100<br>105<br>106<br>110<br>115<br>120<br>121<br>125<br>130<br>135<br>136<br>140<br>145<br>150<br>152<br>160<br>167<br>170<br>180<br>190<br>200<br>225<br>250
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--9mm-width-4" aria-expanded="false" aria-controls="collapseandymark-belts--9mm-width-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Length (mm)">
+	<div class="tags collapse" id="collapseandymark-belts--9mm-width-5">
+		150<br>175<br>200<br>225<br>250<br>275<br>300<br>320<br>325<br>350<br>375<br>400<br>425<br>450<br>455<br>465<br>475<br>500<br>525<br>530<br>550<br>575<br>600<br>605<br>625<br>650<br>675<br>680<br>700<br>725<br>750<br>760<br>800<br>835<br>850<br>900<br>950<br>1000<br>1125<br>1250
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapseandymark-belts--9mm-width-5" aria-expanded="false" aria-controls="collapseandymark-belts--9mm-width-5">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://andymark.com/collections/belts/products/9-mm-wide-5-mm-pitch-htd-timing-belts" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-htd,-material-kevlar-reinforced,-pitch--mm--5,-width--mm--15,-teeth-85,-teeth-104,-teeth-107,-teeth-117,-teeth-120,-teeth-131,-teeth-151,-teeth-160,-teeth-170,-length--mm--425,-length--mm--520,-length--mm--535,-length--mm--585,-length--mm--600,-length--mm--655,-length--mm--755,-length--mm--800,-length--mm--850,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Gates Timing Belts, 15mm Width</strong><br>
+		<img src="/images/products/belts/gates-15.webp" class="img-thumbnail" alt="Gates Timing Belts, 15mm Width">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegates-timing-belts--15mm-width-0">
+		HTD
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--15mm-width-0" aria-expanded="false" aria-controls="collapsegates-timing-belts--15mm-width-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsegates-timing-belts--15mm-width-1">
+		Kevlar reinforced
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--15mm-width-1" aria-expanded="false" aria-controls="collapsegates-timing-belts--15mm-width-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Pitch (mm)">
+	<div class="tags collapse" id="collapsegates-timing-belts--15mm-width-2">
+		5
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--15mm-width-2" aria-expanded="false" aria-controls="collapsegates-timing-belts--15mm-width-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width (mm)">
+	<div class="tags collapse" id="collapsegates-timing-belts--15mm-width-3">
+		15
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--15mm-width-3" aria-expanded="false" aria-controls="collapsegates-timing-belts--15mm-width-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Teeth">
+	<div class="tags collapse" id="collapsegates-timing-belts--15mm-width-4">
+		85<br>104<br>107<br>117<br>120<br>131<br>151<br>160<br>170
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--15mm-width-4" aria-expanded="false" aria-controls="collapsegates-timing-belts--15mm-width-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Length (mm)">
+	<div class="tags collapse" id="collapsegates-timing-belts--15mm-width-5">
+		425<br>520<br>535<br>585<br>600<br>655<br>755<br>800<br>850
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--15mm-width-5" aria-expanded="false" aria-controls="collapsegates-timing-belts--15mm-width-5">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="hhttps://andymark.com/collections/belts/products/15-mm-wide-5-mm-pitch-htd-timing-belts" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-htd,-material-kevlar-reinforced,-pitch--mm--5,-width--mm--9,-teeth-48,-length--mm--224,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Gates Timing Belts, 9mm Width</strong><br>
+		<img src="/images/products/belts/gates-9.webp" class="img-thumbnail" alt="Gates Timing Belts, 9mm Width">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegates-timing-belts--9mm-width-0">
+		HTD
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--9mm-width-0" aria-expanded="false" aria-controls="collapsegates-timing-belts--9mm-width-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsegates-timing-belts--9mm-width-1">
+		Kevlar reinforced
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--9mm-width-1" aria-expanded="false" aria-controls="collapsegates-timing-belts--9mm-width-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Pitch (mm)">
+	<div class="tags collapse" id="collapsegates-timing-belts--9mm-width-2">
+		5
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--9mm-width-2" aria-expanded="false" aria-controls="collapsegates-timing-belts--9mm-width-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width (mm)">
+	<div class="tags collapse" id="collapsegates-timing-belts--9mm-width-3">
+		9
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--9mm-width-3" aria-expanded="false" aria-controls="collapsegates-timing-belts--9mm-width-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Teeth">
+	<div class="tags collapse" id="collapsegates-timing-belts--9mm-width-4">
+		48
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--9mm-width-4" aria-expanded="false" aria-controls="collapsegates-timing-belts--9mm-width-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Length (mm)">
+	<div class="tags collapse" id="collapsegates-timing-belts--9mm-width-5">
+		224
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegates-timing-belts--9mm-width-5" aria-expanded="false" aria-controls="collapsegates-timing-belts--9mm-width-5">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://andymark.com/collections/belts/products/9-mm-wide-5-mm-pitch-htd-timing-belts" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-gt2,-material-neoprene-coated-fiberglass-tensile-cord,-pitch--mm--3,-width--mm--9,-teeth-45,-teeth-50,-teeth-55,-teeth-60,-teeth-70,-teeth-85,-teeth-90,-teeth-100,-teeth-105,-teeth-110,-teeth-120,-length--mm--135,-length--mm--150,-length--mm--165,-length--mm--180,-length--mm--210,-length--mm--240,-length--mm--255,-length--mm--300,-length--mm--315,-length--mm--330,-length--mm--360,-vendor-west-coast-products">
+	<th scope="row" data-label="Product">
+		<strong>GT2 Timing Belts</strong><br>
+		<img src="/images/products/belts/gt2.webp" class="img-thumbnail" alt="GT2 Timing Belts">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapsegt2-timing-belts-0">
+		GT2
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegt2-timing-belts-0" aria-expanded="false" aria-controls="collapsegt2-timing-belts-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapsegt2-timing-belts-1">
+		Neoprene coated fiberglass tensile cord
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegt2-timing-belts-1" aria-expanded="false" aria-controls="collapsegt2-timing-belts-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Pitch (mm)">
+	<div class="tags collapse" id="collapsegt2-timing-belts-2">
+		3
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegt2-timing-belts-2" aria-expanded="false" aria-controls="collapsegt2-timing-belts-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width (mm)">
+	<div class="tags collapse" id="collapsegt2-timing-belts-3">
+		9
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegt2-timing-belts-3" aria-expanded="false" aria-controls="collapsegt2-timing-belts-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Teeth">
+	<div class="tags collapse" id="collapsegt2-timing-belts-4">
+		45<br>50<br>55<br>60<br>70<br>85<br>90<br>100<br>105<br>110<br>120
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegt2-timing-belts-4" aria-expanded="false" aria-controls="collapsegt2-timing-belts-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Length (mm)">
+	<div class="tags collapse" id="collapsegt2-timing-belts-5">
+		135<br>150<br>165<br>180<br>210<br>240<br>255<br>300<br>315<br>330<br>360
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapsegt2-timing-belts-5" aria-expanded="false" aria-controls="collapsegt2-timing-belts-5">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://wcproducts.com/products/gt2-timing-pulleys-belts" class="list-group-item list-group-item-action list-group-item-green" target="_blank">West Coast Products</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-rt25,-material-neoprene-coated-fiberglass-tensile-cord,-pitch--mm--6-35,-width--mm--12-7,-teeth-32,-teeth-40,-teeth-48,-teeth-56,-teeth-64,-teeth-72,-teeth-80,-teeth-88,-teeth-96,-teeth-104,-teeth-112,-teeth-120,-teeth-128,-teeth-136,-teeth-144,-teeth-152,-teeth-160,-teeth-168,-teeth-176,-teeth-184,-teeth-192,-teeth-200,-teeth-208,-teeth-216,-length--mm--203,-length--mm--254,-length--mm--304,-length--mm--355,-length--mm--406,-length--mm--457,-length--mm--508,-length--mm--558,-length--mm--609,-length--mm--660,-length--mm--711,-length--mm--762,-length--mm--812,-length--mm--863,-length--mm--914,-length--mm--965,-length--mm--1016,-length--mm--1066,-length--mm--1117,-length--mm--1168,-length--mm--1219,-length--mm--1219,-length--mm--1270,-length--mm--1320,-length--mm--1371,-vendor-rev-robotics">
+	<th scope="row" data-label="Product">
+		<strong>REV RT25</strong><br>
+		<img src="/images/products/belts/rt25.webp" class="img-thumbnail" alt="REV RT25">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapserev-rt25-0">
+		RT25
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserev-rt25-0" aria-expanded="false" aria-controls="collapserev-rt25-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapserev-rt25-1">
+		Neoprene coated fiberglass tensile cord
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserev-rt25-1" aria-expanded="false" aria-controls="collapserev-rt25-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Pitch (mm)">
+	<div class="tags collapse" id="collapserev-rt25-2">
+		6.35
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserev-rt25-2" aria-expanded="false" aria-controls="collapserev-rt25-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width (mm)">
+	<div class="tags collapse" id="collapserev-rt25-3">
+		12.7
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserev-rt25-3" aria-expanded="false" aria-controls="collapserev-rt25-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Teeth">
+	<div class="tags collapse" id="collapserev-rt25-4">
+		32<br>40<br>48<br>56<br>64<br>72<br>80<br>88<br>96<br>104<br>112<br>120<br>128<br>136<br>144<br>152<br>160<br>168<br>176<br>184<br>192<br>200<br>208<br>216
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserev-rt25-4" aria-expanded="false" aria-controls="collapserev-rt25-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Length (mm)">
+	<div class="tags collapse" id="collapserev-rt25-5">
+		203<br>254<br>304<br>355<br>406<br>457<br>508<br>558<br>609<br>660<br>711<br>762<br>812<br>863<br>914<br>965<br>1016<br>1066<br>1117<br>1168<br>1219<br>1219<br>1270<br>1320<br>1371
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserev-rt25-5" aria-expanded="false" aria-controls="collapserev-rt25-5">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.revrobotics.com/RT25-Belts-1/2in-Width/" class="list-group-item list-group-item-action list-group-item-green" target="_blank">REV Robotics</a>
+		</div>
+	</td>
+</tr><tr data-tags="-type-hv,-material-carbox-nitrile,-material-steel-cord-reinforced,-pitch--mm--12-7,-width--mm--51,-teeth-131,-length--mm--1664,-vendor-andymark">
+	<th scope="row" data-label="Product">
+		<strong>Rhino Track Timing Belt</strong><br>
+		<img src="/images/products/belts/rhino.webp" class="img-thumbnail" alt="Rhino Track Timing Belt">
+	</th>
+	<td data-label="Type">
+	<div class="tags collapse" id="collapserhino-track-timing-belt-0">
+		HV
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserhino-track-timing-belt-0" aria-expanded="false" aria-controls="collapserhino-track-timing-belt-0">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Material">
+	<div class="tags collapse" id="collapserhino-track-timing-belt-1">
+		Carbox Nitrile<br>Steel Cord Reinforced
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserhino-track-timing-belt-1" aria-expanded="false" aria-controls="collapserhino-track-timing-belt-1">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Pitch (mm)">
+	<div class="tags collapse" id="collapserhino-track-timing-belt-2">
+		12.7
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserhino-track-timing-belt-2" aria-expanded="false" aria-controls="collapserhino-track-timing-belt-2">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Width (mm)">
+	<div class="tags collapse" id="collapserhino-track-timing-belt-3">
+		51
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserhino-track-timing-belt-3" aria-expanded="false" aria-controls="collapserhino-track-timing-belt-3">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Teeth">
+	<div class="tags collapse" id="collapserhino-track-timing-belt-4">
+		131
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserhino-track-timing-belt-4" aria-expanded="false" aria-controls="collapserhino-track-timing-belt-4">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td><td data-label="Length (mm)">
+	<div class="tags collapse" id="collapserhino-track-timing-belt-5">
+		1664
+	</div>
+	<a class="showmore collapsed d-none" data-bs-toggle="collapse" href="#collapserhino-track-timing-belt-5" aria-expanded="false" aria-controls="collapserhino-track-timing-belt-5">
+		Show <span class="more">more</span> <span class="less">less</span>
+	</a>
+</td>
+	<td data-label="Vendors">
+		<div class="list-group">
+			<a href="https://www.andymark.com/products/rhino-track-timing-belt" class="list-group-item list-group-item-action list-group-item-green" target="_blank">AndyMark</a>
+		</div>
+	</td>
+</tr></tbody>
+</table>
+				</main>
+				<footer class="row p-4 gx-5 justify-content-center">
+					<div class="col-12 col-md-3">
+						<p>Brought to you by:</p>
+						<a href="https://burncoatrobotics.org/" class="d-block" style="max-width:300px">
+							<img src="/images/logo/burncoat-robotics-white.svg" width="100%" alt="Burncoat Robotics">
+						</a>
+					</div>
+					<div class="col-12 col-md-7">
+						<p class="text-md-end">© 2016 - 2025 Burncoat Robotics</p>
+						<p class="text-md-end">
+						   Contribute to the project on <a href="https://github.com/FRC1735/findrobotparts" target="_blank" rel="noopener">GitHub</a>.<br>
+						   <a href="/about.html">About Find Robot Parts.</a>
+						</p>
+					</div>
+				</footer>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 bg-light py-4 body d-sm-block collapse order-1" id="sidebar">
+				<div class="row">
+					<div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Type</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Type options">
+			<input type="checkbox" class="btn-check" name="type" id="tag-type-gt2" value="-type-gt2" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-gt2">GT2</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-htd" value="-type-htd" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-htd">HTD</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-hv" value="-type-hv" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-hv">HV</label>	<input type="checkbox" class="btn-check" name="type" id="tag-type-rt25" value="-type-rt25" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-type-rt25">RT25</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Material</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Material options">
+			<input type="checkbox" class="btn-check" name="material" id="tag-material-carbox-nitrile" value="-material-carbox-nitrile" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-material-carbox-nitrile">Carbox Nitrile</label>	<input type="checkbox" class="btn-check" name="material" id="tag-material-kevlar-reinforced" value="-material-kevlar-reinforced" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-material-kevlar-reinforced">Kevlar reinforced</label>	<input type="checkbox" class="btn-check" name="material" id="tag-material-neoprene-coated-fiberglass-tensile-cord" value="-material-neoprene-coated-fiberglass-tensile-cord" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-material-neoprene-coated-fiberglass-tensile-cord">Neoprene coated fiberglass tensile cord</label>	<input type="checkbox" class="btn-check" name="material" id="tag-material-steel-cord-reinforced" value="-material-steel-cord-reinforced" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-material-steel-cord-reinforced">Steel Cord Reinforced</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Pitch (mm)</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Pitch (mm) options">
+			<input type="checkbox" class="btn-check" name="pitch--mm-" id="tag-pitch--mm--3" value="-pitch--mm--3" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-pitch--mm--3">3</label>	<input type="checkbox" class="btn-check" name="pitch--mm-" id="tag-pitch--mm--5" value="-pitch--mm--5" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-pitch--mm--5">5</label>	<input type="checkbox" class="btn-check" name="pitch--mm-" id="tag-pitch--mm--6-35" value="-pitch--mm--6-35" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-pitch--mm--6-35">6.35</label>	<input type="checkbox" class="btn-check" name="pitch--mm-" id="tag-pitch--mm--12-7" value="-pitch--mm--12-7" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-pitch--mm--12-7">12.7</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Width (mm)</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Width (mm) options">
+			<input type="checkbox" class="btn-check" name="width--mm-" id="tag-width--mm--9" value="-width--mm--9" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width--mm--9">9</label>	<input type="checkbox" class="btn-check" name="width--mm-" id="tag-width--mm--12-7" value="-width--mm--12-7" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width--mm--12-7">12.7</label>	<input type="checkbox" class="btn-check" name="width--mm-" id="tag-width--mm--15" value="-width--mm--15" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width--mm--15">15</label>	<input type="checkbox" class="btn-check" name="width--mm-" id="tag-width--mm--51" value="-width--mm--51" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-width--mm--51">51</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Teeth</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Teeth options">
+			<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-30" value="-teeth-30" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-30">30</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-32" value="-teeth-32" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-32">32</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-35" value="-teeth-35" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-35">35</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-40" value="-teeth-40" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-40">40</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-45" value="-teeth-45" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-45">45</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-48" value="-teeth-48" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-48">48</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-50" value="-teeth-50" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-50">50</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-55" value="-teeth-55" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-55">55</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-56" value="-teeth-56" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-56">56</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-60" value="-teeth-60" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-60">60</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-64" value="-teeth-64" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-64">64</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-65" value="-teeth-65" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-65">65</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-70" value="-teeth-70" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-70">70</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-72" value="-teeth-72" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-72">72</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-75" value="-teeth-75" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-75">75</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-80" value="-teeth-80" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-80">80</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-85" value="-teeth-85" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-85">85</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-88" value="-teeth-88" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-88">88</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-90" value="-teeth-90" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-90">90</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-91" value="-teeth-91" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-91">91</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-93" value="-teeth-93" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-93">93</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-95" value="-teeth-95" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-95">95</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-96" value="-teeth-96" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-96">96</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-100" value="-teeth-100" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-100">100</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-104" value="-teeth-104" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-104">104</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-105" value="-teeth-105" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-105">105</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-106" value="-teeth-106" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-106">106</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-107" value="-teeth-107" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-107">107</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-110" value="-teeth-110" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-110">110</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-112" value="-teeth-112" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-112">112</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-115" value="-teeth-115" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-115">115</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-117" value="-teeth-117" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-117">117</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-120" value="-teeth-120" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-120">120</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-121" value="-teeth-121" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-121">121</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-125" value="-teeth-125" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-125">125</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-128" value="-teeth-128" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-128">128</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-130" value="-teeth-130" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-130">130</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-131" value="-teeth-131" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-131">131</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-135" value="-teeth-135" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-135">135</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-136" value="-teeth-136" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-136">136</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-140" value="-teeth-140" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-140">140</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-144" value="-teeth-144" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-144">144</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-145" value="-teeth-145" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-145">145</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-150" value="-teeth-150" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-150">150</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-151" value="-teeth-151" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-151">151</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-152" value="-teeth-152" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-152">152</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-160" value="-teeth-160" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-160">160</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-167" value="-teeth-167" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-167">167</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-168" value="-teeth-168" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-168">168</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-170" value="-teeth-170" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-170">170</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-176" value="-teeth-176" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-176">176</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-180" value="-teeth-180" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-180">180</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-184" value="-teeth-184" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-184">184</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-190" value="-teeth-190" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-190">190</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-192" value="-teeth-192" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-192">192</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-200" value="-teeth-200" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-200">200</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-208" value="-teeth-208" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-208">208</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-216" value="-teeth-216" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-216">216</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-225" value="-teeth-225" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-225">225</label>	<input type="checkbox" class="btn-check" name="teeth" id="tag-teeth-250" value="-teeth-250" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-teeth-250">250</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Length (mm)</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Length (mm) options">
+			<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--135" value="-length--mm--135" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--135">135</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--150" value="-length--mm--150" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--150">150</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--165" value="-length--mm--165" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--165">165</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--175" value="-length--mm--175" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--175">175</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--180" value="-length--mm--180" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--180">180</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--200" value="-length--mm--200" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--200">200</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--203" value="-length--mm--203" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--203">203</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--210" value="-length--mm--210" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--210">210</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--224" value="-length--mm--224" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--224">224</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--225" value="-length--mm--225" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--225">225</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--240" value="-length--mm--240" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--240">240</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--250" value="-length--mm--250" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--250">250</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--254" value="-length--mm--254" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--254">254</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--255" value="-length--mm--255" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--255">255</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--275" value="-length--mm--275" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--275">275</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--300" value="-length--mm--300" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--300">300</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--304" value="-length--mm--304" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--304">304</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--315" value="-length--mm--315" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--315">315</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--320" value="-length--mm--320" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--320">320</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--325" value="-length--mm--325" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--325">325</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--330" value="-length--mm--330" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--330">330</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--350" value="-length--mm--350" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--350">350</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--355" value="-length--mm--355" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--355">355</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--360" value="-length--mm--360" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--360">360</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--375" value="-length--mm--375" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--375">375</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--400" value="-length--mm--400" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--400">400</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--406" value="-length--mm--406" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--406">406</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--425" value="-length--mm--425" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--425">425</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--450" value="-length--mm--450" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--450">450</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--455" value="-length--mm--455" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--455">455</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--457" value="-length--mm--457" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--457">457</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--465" value="-length--mm--465" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--465">465</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--475" value="-length--mm--475" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--475">475</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--500" value="-length--mm--500" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--500">500</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--508" value="-length--mm--508" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--508">508</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--520" value="-length--mm--520" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--520">520</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--525" value="-length--mm--525" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--525">525</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--530" value="-length--mm--530" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--530">530</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--535" value="-length--mm--535" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--535">535</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--550" value="-length--mm--550" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--550">550</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--558" value="-length--mm--558" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--558">558</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--575" value="-length--mm--575" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--575">575</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--585" value="-length--mm--585" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--585">585</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--600" value="-length--mm--600" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--600">600</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--605" value="-length--mm--605" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--605">605</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--609" value="-length--mm--609" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--609">609</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--625" value="-length--mm--625" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--625">625</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--650" value="-length--mm--650" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--650">650</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--655" value="-length--mm--655" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--655">655</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--660" value="-length--mm--660" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--660">660</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--675" value="-length--mm--675" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--675">675</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--680" value="-length--mm--680" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--680">680</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--700" value="-length--mm--700" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--700">700</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--711" value="-length--mm--711" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--711">711</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--725" value="-length--mm--725" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--725">725</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--750" value="-length--mm--750" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--750">750</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--755" value="-length--mm--755" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--755">755</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--760" value="-length--mm--760" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--760">760</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--762" value="-length--mm--762" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--762">762</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--800" value="-length--mm--800" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--800">800</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--812" value="-length--mm--812" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--812">812</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--835" value="-length--mm--835" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--835">835</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--850" value="-length--mm--850" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--850">850</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--863" value="-length--mm--863" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--863">863</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--900" value="-length--mm--900" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--900">900</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--914" value="-length--mm--914" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--914">914</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--950" value="-length--mm--950" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--950">950</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--965" value="-length--mm--965" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--965">965</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1000" value="-length--mm--1000" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1000">1000</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1016" value="-length--mm--1016" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1016">1016</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1066" value="-length--mm--1066" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1066">1066</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1117" value="-length--mm--1117" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1117">1117</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1125" value="-length--mm--1125" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1125">1125</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1168" value="-length--mm--1168" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1168">1168</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1219" value="-length--mm--1219" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1219">1219</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1250" value="-length--mm--1250" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1250">1250</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1270" value="-length--mm--1270" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1270">1270</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1320" value="-length--mm--1320" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1320">1320</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1371" value="-length--mm--1371" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1371">1371</label>	<input type="checkbox" class="btn-check" name="length--mm-" id="tag-length--mm--1664" value="-length--mm--1664" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-length--mm--1664">1664</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div><div class="col-6 col-sm-12">
+	<p class="h6 mt-4">Vendors</p>
+	<div class="btn-group-vertical btn-group-sm full-width" role="group" aria-label="Vendors options">
+			<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-andymark" value="-vendor-andymark" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-andymark">AndyMark</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-rev-robotics" value="-vendor-rev-robotics" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-rev-robotics">REV Robotics</label>	<input type="checkbox" class="btn-check" name="vendors" id="tag-vendor-west-coast-products" value="-vendor-west-coast-products" autocomplete="off">
+	<label class="btn btn-outline-green" for="tag-vendor-west-coast-products">West Coast Products</label>
+		<button type="button" class="btn btn-outline-green">Show <span class="all">All</span><span class="less">Less</span></button>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+			<div class="offcanvas-header">
+				<p class="h5 offcanvas-title" id="offcanvasLabel">Menu</p>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<p class="h6">3D Printed Models</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/battery-accessories.html">
+							<img src="/images/categories/3d/battery-accessories-gray.webp" class="img-thumbnail" alt="Battery Accessories">
+							Battery Accessories
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/motor-adaptors.html">
+							<img src="/images/categories/3d/motor-adaptors-gray.webp" class="img-thumbnail" alt="Motor Adaptors">
+							Motor Adaptors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/mounts.html">
+							<img src="/images/categories/3d/mounts-gray.webp" class="img-thumbnail" alt="Mounts">
+							Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/3d/wheels.html">
+							<img src="/images/categories/3d/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div>
+				</div>
+				<p class="h6">Electrical</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/batteries.html">
+							<img src="/images/categories/batteries-gray.webp" class="img-thumbnail" alt="Batteries">
+							Batteries
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/battery-chargers.html">
+							<img src="/images/categories/battery-chargers-gray.webp" class="img-thumbnail" alt="Battery Chargers">
+							Battery Chargers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gamecontrollers.html">
+							<img src="/images/categories/gamecontrollers-gray.webp" class="img-thumbnail" alt="Game Controller">
+							Game Controller
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/lights.html">
+							<img src="/images/categories/lights-gray.webp" class="img-thumbnail" alt="Lights">
+							Lights
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motor-controllers.html">
+							<img src="/images/categories/motor-controllers-gray.webp" class="img-thumbnail" alt="Motor Controllers">
+							Motor Controllers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sensors.html">
+							<img src="/images/categories/sensors-gray.webp" class="img-thumbnail" alt="Sensors">
+							Sensors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wireconnectors.html">
+							<img src="/images/categories/wireconnectors-gray.webp" class="img-thumbnail" alt="Wire Connectors">
+							Wire Connectors
+						</a>
+					</div>
+				</div>
+				<p class="h6">Hardware</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bearings.html">
+							<img src="/images/categories/bearings-gray.webp" class="img-thumbnail" alt="Bearings">
+							Bearings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gussets.html">
+							<img src="/images/categories/gussets-gray.webp" class="img-thumbnail" alt="Gussets and Mounts">
+							Gussets and Mounts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shafts.html">
+							<img src="/images/categories/shafts-gray.webp" class="img-thumbnail" alt="Shafts">
+							Shafts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/shaftcollars.html">
+							<img src="/images/categories/shaftcollars-gray.webp" class="img-thumbnail" alt="Shaft Collars">
+							Shaft Collars
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/structure.html">
+							<img src="/images/categories/structure-gray.webp" class="img-thumbnail" alt="Structure">
+							Structure
+						</a>
+					</div>
+				</div>
+				<p class="h6">Motion</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/belts.html">
+							<img src="/images/categories/belts-gray.webp" class="img-thumbnail" alt="Belts">
+							Belts
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/chain.html">
+							<img src="/images/categories/chain-gray.webp" class="img-thumbnail" alt="Chain">
+							Chain
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gearboxes.html">
+							<img src="/images/categories/gearboxes-gray.webp" class="img-thumbnail" alt="Gearboxes">
+							Gearboxes
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/gears.html">
+							<img src="/images/categories/gears-gray.webp" class="img-thumbnail" alt="Gears">
+							Gears
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/hubs.html">
+							<img src="/images/categories/hubs-gray.webp" class="img-thumbnail" alt="Hubs">
+							Hubs
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/linearactuators.html">
+							<img src="/images/categories/linearactuators-gray.webp" class="img-thumbnail" alt="Linear Actuators">
+							Linear Actuators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/motors.html">
+							<img src="/images/categories/motors-gray.webp" class="img-thumbnail" alt="Motors">
+							Motors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pulleys.html">
+							<img src="/images/categories/pulleys-gray.webp" class="img-thumbnail" alt="Pulleys">
+							Pulleys
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/servos.html">
+							<img src="/images/categories/servos-gray.webp" class="img-thumbnail" alt="Servos">
+							Servos
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/sprockets.html">
+							<img src="/images/categories/sprockets-gray.webp" class="img-thumbnail" alt="Sprockets">
+							Sprockets
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/swerve.html">
+							<img src="/images/categories/swerve-gray.webp" class="img-thumbnail" alt="Swerve">
+							Swerve
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/wheels.html">
+							<img src="/images/categories/wheels-gray.webp" class="img-thumbnail" alt="Wheels">
+							Wheels
+						</a>
+					</div>
+				</div>
+				<p class="h6">Pneumatics</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/accumulators.html">
+							<img src="/images/categories/accumulators-gray.webp" class="img-thumbnail" alt="Accumulators">
+							Accumulators
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/compressors.html">
+							<img src="/images/categories/compressors-gray.webp" class="img-thumbnail" alt="Compressors">
+							Compressors
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticcomponents.html">
+							<img src="/images/categories/pneumatic-components-gray.webp" class="img-thumbnail" alt="Components">
+							Components
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumaticfittings.html">
+							<img src="/images/categories/pneumaticfittings-gray.webp" class="img-thumbnail" alt="Fittings">
+							Fittings
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/pneumatictubing.html">
+							<img src="/images/categories/pneumatictubing-gray.webp" class="img-thumbnail" alt="Tubing">
+							Tubing
+						</a>
+					</div>
+				</div>
+				<p class="h6">Miscellaneous</p>
+				<div class="row">
+					<div class="col-4 text-center mb-3">
+						<a href="/bumperfabric.html">
+							<img src="/images/categories/bumperfabric-gray.webp" class="img-thumbnail" alt="Bumper Fabric">
+							Bumper Fabric
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/bumpernumbers.html">
+							<img src="/images/categories/bumpernumbers-gray.webp" class="img-thumbnail" alt="Bumper Numbers">
+							Bumper Numbers
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/resources-programming.html">
+							<img src="/images/categories/resources-programming-gray.webp" class="img-thumbnail" alt="Programming Resources">
+							Programming Resources
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/subsystems.html">
+							<img src="/images/categories/subsystems-gray.webp" class="img-thumbnail" alt="Subsystems">
+							Subsystems
+						</a>
+					</div>
+					<div class="col-4 text-center mb-3">
+						<a href="/vendors.html">
+							<img src="/images/categories/vendors-gray.webp" class="img-thumbnail" alt="Vendors">
+							Vendors
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="/js/robotparts.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ES4R2JE4YE"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ES4R2JE4YE');
+
+		(function () {
+			const fireVendorClick = (a) => {
+				const row = a.closest('tr');
+				const params = {
+					category: document.querySelector('h1')?.textContent.trim(),
+					product: row?.querySelector('th[data-label="Product"] strong')?.textContent.trim(),
+					vendor: (a.textContent || '').trim(),
+					link_url: a.getAttribute('href')
+				};
+				if (!params.link_url || !isExternal(params.link_url)) return;
+				window.gtag && gtag('event', 'vendor_click', params);
+			};
+
+			// Left click
+			document.addEventListener('click', function (e) {
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+
+			// Middle click
+			document.addEventListener('auxclick', function (e) {
+				if (e.button !== 1) return;
+				const a = e.target.closest('td[data-label="Vendors"] a[href]');
+				if (!a) return;
+				fireVendorClick(a);
+			}, true);
+		})();
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+{
+	"title": "Servos",
+	"description": "<p>Servos provide compact, precise control for lightweight mechanisms like cameras, locks, or gates. They’re easy to program and connect via PWM, making them beginner-friendly yet powerful tools. Adjustable torque and travel settings allow fine-tuned motion in small spaces.</p>",
+	"filter_groups": ["Stall Torque (oz in)", "Max Rotation", "Output", "Analog/Digital", "Supply Voltage (V)", "No load Speed"],
+	"products": [
+		{
+			"name": "2 Wire Motor 393",
+			"image": "/images/products/servos/vex-393.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["236.16"],
+				"Max Rotation": ["Continuous"],
+				"Output": ["1/4\" Square Shaft"],
+				"Analog/Digital": ["Digital"],
+				"Supply Voltage (V)": ["7.2"],
+				"No load Speed": ["100 rpm"]
+			},
+			"links": [
+				{ "vendor": "VEX", "link": "https://www.vexrobotics.com/393-motors.html" }
+			]
+		}, {
+			"name": "3 Wire Servo",
+			"image": "/images/products/servos/vex-3-wire.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["104.00"],
+				"Max Rotation": ["100 Degrees"],
+				"Output": ["1/4\" Square Shaft"],
+				"Analog/Digital": ["Digital"],
+				"Supply Voltage (V)": ["7.2"],
+				"No load Speed": ["0.1sec/60"]
+			},
+			"links": [
+				{ "vendor": "VEX", "link": "https://www.vexrobotics.com/393-motors.html" }
+			]
+		}, {
+			"name": "AndyMark Programmable",
+			"image": "/images/products/servos/am-programable.webp",
+			"filters": {
+				"Stall Torque (oz in)": ["96", "300"],
+				"Max Rotation": ["280 Degrees", "300 Degrees", "1800 Degrees"],
+				"Output": ["5mm Hex"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.2 sec/60", "0.05 sec/60", "50 rpm", "200 rpm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/servos/products/programmable-servos" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HS-75BB",
+			"image": "/images/products/servos/hs-75bb.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["114"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.34 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hs-75bb" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HS-805BB",
+			"image": "/images/products/servos/hs-805bb.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["343"],
+				"Max Rotation": ["90 Degrees"],
+				"Output": ["D1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.14 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-hi-tec-hs-805bb" }
+			]
+		}, {
+			"name": "Hi-Tec Servo, model HSR-1425CR",
+			"image": "/images/products/servos/hsr-1425cr.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["46.8"],
+				"Max Rotation": ["Continuous"],
+				"Output": ["C1 Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["52 rpm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hsr-1425cr" }
+			]
+		}, {
+			"name": "Micro Servo SG90",
+			"image": "/images/products/servos/micro-sg90.webp",
+			"filters": {
+				"Stall Torque (oz in)": ["17.5"],
+				"Max Rotation": ["180 Degrees"],
+				"Output": ["21T Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.09 sec/60"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/hi-tec-servo-model-hsr-1425cr" }
+			]
+		}, {
+			"name": "REV Smart Robot Servo",
+			"image": "/images/products/servos/rev.jpg",
+			"filters": {
+				"Stall Torque (oz in)": ["187.8"],
+				"Max Rotation": ["Continuous", "300 Degrees"],
+				"Output": ["25T Spline"],
+				"Analog/Digital": ["Digital"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.13sec/60", "46 rpm"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/smart-robot-servo/" }
+			]
+		}, {
+			"name": "SpringRC Continuous Rotation",
+			"image": "/images/products/servos/springrc.webp",
+			"filters": {
+				"Stall Torque (oz in)": ["71"],
+				"Max Rotation": ["Continuous"],
+				"Output": ["25T Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["54 rpm"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/servos/products/springrc-continuous-rotation-servo" }
+			]
+		}, {
+			"name": "Swyft Servo",
+			"image": "/images/products/servos/swyft.webp",
+			"filters": {
+				"Stall Torque (oz in)": ["465", "379", "263", "194", "141"],
+				"Max Rotation": ["Continuous", "320 Degrees"],
+				"Output": ["25T Spline"],
+				"Analog/Digital": ["Analog"],
+				"Supply Voltage (V)": ["6"],
+				"No load Speed": ["0.112sec/60", "0.092sec/60", "0.062sec/60", "0.075sec/60", "0.110sec/60"]
+			},
+			"links": [
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/products/swyft-servos" }
+			]
+		}
+	]
+}

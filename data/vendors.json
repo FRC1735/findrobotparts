@@ -1,0 +1,738 @@
+{
+	"title": "Vendors",
+	"description": "<p>The vendor directory connects teams with suppliers offering reliable robot parts and tools. Comparing prices, lead times, and shipping options helps teams stretch their budgets effectively. Trusted vendors keep essential components available throughout the build and competition season.</p>",
+	"filter_groups": ["Product Category", "Location"],
+	"products": [
+		{
+			"name": "221 Robotics Systems",
+			"image": "/images/products/vendors/221-robotics-systems.png",
+			"filters": {
+				"Product Category": ["Gearboxes", "Pre-made Driveline Assemblies", "Sprockets"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "221 Robotics Systems", "link": "http://www.team221.com/" }
+			]
+		}, {
+			"name": "80/20 Inc.",
+			"image": "/images/products/vendors/8020.jpg",
+			"filters": {
+				"Product Category": ["Raw Materials"],
+				"Location": ["Indiana", "United States"]
+			},
+			"links": [
+				{ "vendor": "80/20 Inc.", "link": "http://8020.net" }
+			]
+		}, {
+			"name": "Air Inc.",
+			"image": "/images/products/vendors/air.png",
+			"filters": {
+				"Product Category": ["Pneumatics"],
+				"Location": ["Massachusetts", "United States"]
+			},
+			"links": [
+				{ "vendor": "Air Inc.", "link": "http://www.airinc.net" }
+			]
+		}, {
+			"name": "Altium",
+			"image": "/images/products/vendors/altium.png",
+			"filters": {
+				"Product Category": ["Software"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "Altium", "link": "http://www.altium.com/" }
+			]
+		}, {
+			"name": "American Button Machines",
+			"image": "/images/products/vendors/american-button-machines.jpg",
+			"filters": {
+				"Product Category": ["Buttons/Pins"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "American Button Machines", "link": "http://www.americanbuttonmachines.com/" }
+			]
+		}, {
+			"name": "Anderson Power Products",
+			"image": "/images/products/vendors/anderson-power-products.jpg",
+			"filters": {
+				"Product Category": ["Electrical"],
+				"Location": ["Massachusetts", "United States"]
+			},
+			"links": [
+				{ "vendor": "Anderson Power Products", "link": "http://www.andersonpower.com/" }
+			]
+		}, {
+			"name": "AndyMark",
+			"image": "/images/products/vendors/andymark.gif",
+			"filters": {
+				"Product Category": ["Batteries and Accessories", "Bumper Accessories", "Control System", "Electrical", "Gearboxes", "Gears", "Hardware", "Motor Controllers", "Motors/Servos", "Pneumatics", "Pre-made Driveline Assemblies", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Tools", "Wheels"],
+				"Location": ["Indiana", "United States"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "http://www.andymark.com/" }
+			]
+		}, {
+			"name": "Armabot",
+			"image": "/images/products/vendors/armabot.png",
+			"filters": {
+				"Product Category": ["Gearboxes", "Gears", "Sensors"],
+				"Location": ["California", "United States"]
+			},
+			"links": [
+				{ "vendor": "Armabot", "link": "https://armabot.com" }
+			]
+		}, {
+			"name": "AutoDesk",
+			"image": "/images/products/vendors/autodesk.png",
+			"filters": {
+				"Product Category": ["Software"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "AutoDesk", "link": "http://www.autodesk.com/" }
+			]
+		}, {
+			"name": "Automation Direct",
+			"image": "/images/products/vendors/automation-direct.png",
+			"filters": {
+				"Product Category": ["Electrical", "Pneumatics", "Pulleys", "Sensors"],
+				"Location": ["Georgia", "United States"]
+			},
+			"links": [
+				{ "vendor": "Automation Direct", "link": "http://www.automationdirect.com/" }
+			]
+		}, {
+			"name": "Badge-A-Minit",
+			"image": "/images/products/vendors/badge-a-minit.jpg",
+			"filters": {
+				"Product Category": ["Buttons/Pins"],
+				"Location": ["Illinois", "United States"]
+			},
+			"links": [
+				{ "vendor": "Badge-A-Minit", "link": "http://www.badge-a-minit.com/" }
+			]
+		}, {
+			"name": "BaneBots",
+			"image": "/images/products/vendors/banebots.png",
+			"filters": {
+				"Product Category": ["Gearboxes", "Hardware", "Motors/Servos", "Wheels"],
+				"Location": ["Colorado", "United States"]
+			},
+			"links": [
+				{ "vendor": "BaneBots", "link": "http://www.banebots.com/" }
+			]
+		}, {
+			"name": "Bimba",
+			"image": "/images/products/vendors/bimba.png",
+			"filters": {
+				"Product Category": ["Pneumatics"],
+				"Location": ["Illinois", "United States"]
+			},
+			"links": [
+				{ "vendor": "Bimba", "link": "http://www.bimba.com/" }
+			]
+		}, {
+			"name": "Bolt Depot",
+			"image": "/images/products/vendors/boltdepot.gif",
+			"filters": {
+				"Product Category": ["Hardware"],
+				"Location": ["Massachusetts", "United States"]
+			},
+			"links": [
+				{ "vendor": "Bolt Depot", "link": "https://www.boltdepot.com/" }
+			]
+		}, {
+			"name": "Clippard",
+			"image": "/images/products/vendors/clippard.gif",
+			"filters": {
+				"Product Category": ["Pneumatics"],
+				"Location": ["Ohio", "United States"]
+			},
+			"links": [
+				{ "vendor": "Clippard", "link": "http://www.clippard.com/" }
+			]
+		}, {
+			"name": "Coast Pneumatics",
+			"image": "/images/products/vendors/coast-pneumatics.png",
+			"filters": {
+				"Product Category": ["Pneumatics"],
+				"Location": ["California", "United States"]
+			},
+			"links": [
+				{ "vendor": "Coast Pneumatics", "link": "http://www.coastpneumatics.com/" }
+			]
+		}, {
+			"name": "Copperforge",
+			"image": "/images/products/vendors/copperforge.png",
+			"filters": {
+				"Product Category": ["Sensors"],
+				"Location": ["Massachusetts", "United States"]
+			},
+			"links": [
+				{ "vendor": "Copperforge", "link": "https://copperforge.cc/" }
+			]
+		}, {
+			"name": "Cross the Road Electronics",
+			"image": "/images/products/vendors/cross-the-road-electronics.png",
+			"filters": {
+				"Product Category": ["Batteries and Accessories", "Control System", "Electrical", "Motor Controllers", "Sensors", "Tools"],
+				"Location": ["Michigan", "United States"]
+			},
+			"links": [
+				{ "vendor": "CTR Electronics", "link": "http://www.ctr-electronics.com/" }
+			]
+		}, {
+			"name": "Del City",
+			"image": "/images/products/vendors/del-city.jpg",
+			"filters": {
+				"Product Category": ["Electrical"],
+				"Location": ["United States", "Wisconsin"]
+			},
+			"links": [
+				{ "vendor": "Del City", "link": "http://www.delcity.net/" }
+			]
+		}, {
+			"name": "DigiKey",
+			"image": "/images/products/vendors/digikey.png",
+			"filters": {
+				"Product Category": ["Motor Controllers", "Sensors"],
+				"Location": ["Minnesota"]
+			},
+			"links": [
+				{ "vendor": "DigiKey", "link": "http://www.digikey.com/" }
+			]
+		}, {
+			"name": "EtherParts",
+			"image": "/images/products/vendors/etherparts.webp",
+			"filters": {
+				"Product Category": ["Sensors"],
+				"Location": ["California", "United States"]
+			},
+			"links": [
+				{ "vendor": "EtherParts", "link": "https://etherparts.store/" }
+			]
+		}, {
+			"name": "Festo",
+			"image": "/images/products/vendors/festo.svg",
+			"filters": {
+				"Product Category": ["Pneumatics"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "Festo", "link": "http://www.festo.com/" }
+			]
+		}, {
+			"name": "Freelin-Wade",
+			"image": "/images/products/vendors/freelin-wade.jpg",
+			"filters": {
+				"Product Category": ["Pneumatics"],
+				"Location": ["Oregon", "United States"]
+			},
+			"links": [
+				{ "vendor": "Freelin-Wade", "link": "http://www.freelin-wade.com/" }
+			]
+		}, {
+			"name": "Gates Corporation",
+			"image": "/images/products/vendors/gates-corporation.png",
+			"filters": {
+				"Product Category": ["Pulleys"],
+				"Location": ["Canada", "Mexico", "United States"]
+			},
+			"links": [
+				{ "vendor": "Gates Corporation", "link": "http://www.gates.com/" }
+			]
+		}, {
+			"name": "Home Depot",
+			"image": "/images/products/vendors/home-depot.png",
+			"filters": {
+				"Product Category": ["Electrical", "Hardware", "Raw Materials", "Tools"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "Home Depot", "link": "http://www.homedepot.com/" }
+			]
+		}, {
+			"name": "iDESIGN Solutions",
+			"image": "/images/products/vendors/idesignsolutions.png",
+			"filters": {
+				"Product Category": ["Control System", "Gearboxes", "Gears", "Hardware", "Motor Controllers", "Motors/Servos", "Pneumatics", "Pre-made Driveline Assemblies", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Wheels"],
+				"Location": ["Canada", "New York", "Oregon", "United States"]
+			},
+			"links": [
+				{ "vendor": "iDESIGN Solutions", "link": "https://www.idesignsol.com/vex-pro" }
+			]
+		}, {
+			"name": "igus",
+			"image": "/images/products/vendors/igus.jpg",
+			"filters": {
+				"Product Category": ["Hardware", "Raw Materials"],
+				"Location": ["Rhode Island", "United States"]
+			},
+			"links": [
+				{ "vendor": "igus", "link": "http://www.igus.com/" }
+			]
+		}, {
+			"name": "Inventables",
+			"image": "/images/products/vendors/inventables.png",
+			"filters": {
+				"Product Category": ["Electrical", "Raw Materials", "Tools"],
+				"Location": ["Illinois", "United States"]
+			},
+			"links": [
+				{ "vendor": "Inventables", "link": "http://www.inventables.com/" }
+			]
+		}, {
+			"name": "Kauai Labs",
+			"image": "/images/products/vendors/kauailabs.png",
+			"filters": {
+				"Product Category": ["Sensors", "Software"],
+				"Location": ["Hawaii", "United States"]
+			},
+			"links": [
+				{ "vendor": "Kauai Labs", "link": "http://www.kauailabs.com" }
+			]
+		}, {
+			"name": "Limelight",
+			"image": "/images/products/vendors/limelight.png",
+			"filters": {
+				"Product Category": ["Sensors"],
+				"Location": ["Nevada", "United States"]
+			},
+			"links": [
+				{ "vendor": "Limelight", "link": "https://limelightvision.io/" }
+			]
+		}, {
+			"name": "Lowe's",
+			"image": "/images/products/vendors/lowes.png",
+			"filters": {
+				"Product Category": ["Electrical", "Hardware", "Raw Materials", "Tools"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "Lowe's", "link": "http://www.lowes.com/" }
+			]
+		}, {
+			"name": "MaxBotix",
+			"image": "/images/products/vendors/maxbotix.gif",
+			"filters": {
+				"Product Category": ["Sensors"],
+				"Location": ["Minnesota", "United States"]
+			},
+			"links": [
+				{ "vendor": "MaxBotics", "link": "http://www.maxbotix.com/" }
+			]
+		}, {
+			"name": "McMaster-Carr",
+			"image": "/images/products/vendors/mcmaster-carr.jpg",
+			"filters": {
+				"Product Category": ["Batteries and Accessories", "Electrical", "Gears", "Hardware", "Pneumatics", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Tools", "Wheels"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "McMaster-Carr", "link": "http://www.mcmaster.com/" }
+			]
+		}, {
+			"name": "Mouser",
+			"image": "/images/products/vendors/mouser.gif",
+			"filters": {
+				"Product Category": ["Electrical", "Sensors"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "Mouser", "link": "http://www.mouser.com/" }
+			]
+		}, {
+			"name": "MSC",
+			"image": "/images/products/vendors/msc.png",
+			"filters": {
+				"Product Category": ["Electrical", "Gears", "Hardware", "Pneumatics", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Tools"],
+				"Location": ["New York", "United States"]
+			},
+			"links": [
+				{ "vendor": "MSC", "link": "http://www.mscdirect.com/" }
+			]
+		}, {
+			"name": "Newark",
+			"image": "/images/products/vendors/newark.png",
+			"filters": {
+				"Product Category": ["Electrical"],
+				"Location": ["Illinois", "United States"]
+			},
+			"links": [
+				{ "vendor": "Newark", "link": "http://www.newark.com" }
+			]
+		}, {
+			"name": "nextGen Robots",
+			"image": "/images/products/vendors/nextgen-robotics.png",
+			"filters": {
+				"Product Category": ["Motors/Servos"],
+				"Location": ["Ohio", "United States"]
+			},
+			"links": [
+				{ "vendor": "nextGen Robots", "link": "http://www.nextgenrobots.com/" }
+			]
+		}, {
+			"name": "Online Metals",
+			"image": "/images/products/vendors/online-metals.png",
+			"filters": {
+				"Product Category": ["Raw Materials"],
+				"Location": ["California", "Connecticut", "Georgia", "Ohio", "Texas", "United States", "Washington"]
+			},
+			"links": [
+				{ "vendor": "Online Metals", "link": "http://www.onlinemetals.com/" }
+			]
+		}, {
+			"name": "Playing With Fusion, Inc",
+			"image": "/images/products/vendors/playingwithfusion.gif",
+			"filters": {
+				"Product Category": ["Electrical", "Sensors"],
+				"Location": ["Illinois", "United States"]
+			},
+			"links": [
+				{ "vendor": "Playing With Fusion, Inc", "link": "http://www.playingwithfusion.com" }
+			]
+		}, {
+			"name": "Plummer Industries",
+			"image": "/images/products/vendors/plummerindustries.png",
+			"filters": {
+				"Product Category": ["Gearboxes", "Gears", "Hardware", "Motors/Servos", "Pre-made Driveline Assemblies", "Pulleys", "Sprockets"],
+				"Location": ["Maryland", "United States"]
+			},
+			"links": [
+				{ "vendor": "Plummer Industries", "link": "http://plummerindustries.com/robotics" }
+			]
+		}, {
+			"name": "Pololu",
+			"image": "/images/products/vendors/pololu.png",
+			"filters": {
+				"Product Category": ["Electrical", "Motors/Servos", "Sensors", "Tools"],
+				"Location": ["Nevada", "United States"]
+			},
+			"links": [
+				{ "vendor": "Pololu", "link": "http://www.pololu.com/" }
+			]
+		}, {
+			"name": "Powerwerx",
+			"image": "/images/products/vendors/powerwerx.png",
+			"filters": {
+				"Product Category": ["Batteries and Accessories", "Electrical", "Tools"],
+				"Location": ["California", "United States"]
+			},
+			"links": [
+				{ "vendor": "Powerwerx", "link": "https://powerwerx.com/" }
+			]
+		}, {
+			"name": "Practical Parts",
+			"image": "/images/products/vendors/practicalparts.png",
+			"filters": {
+				"Product Category": ["Gearboxes", "Pre-made Driveline Assemblies", "Tools"],
+				"Location": ["Minnesota", "United States"]
+			},
+			"links": [
+				{ "vendor": "Practical Parts", "link": "https://practical-parts.com/" }
+			]
+		}, {
+			"name": "PTC",
+			"image": "/images/products/vendors/ptc.jpg",
+			"filters": {
+				"Product Category": ["Software"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "PTC", "link": "http://www.ptc.com/" }
+			]
+		}, {
+			"name": "Pure Buttons",
+			"image": "/images/products/vendors/pure-buttons.jpg",
+			"filters": {
+				"Product Category": ["Buttons/Pins"],
+				"Location": ["Ohio", "United States"]
+			},
+			"links": [
+				{ "vendor": "Pure Buttons", "link": "http://www.purebuttons.com/" }
+			]
+		}, {
+			"name": "Refire Solutikons",
+			"image": "/images/products/vendors/refiresolutions.webp",
+			"filters": {
+				"Product Category": ["Electrical"],
+				"Location": ["Illinois", "United States"]
+			},
+			"links": [
+				{ "vendor": "Refire Solutikons", "link": "https://refiresolutions.com/" }
+			]
+		}, {
+			"name": "REV Robotics",
+			"image": "/images/products/vendors/rev-robotics.png",
+			"filters": {
+				"Product Category": ["Control System", "Electrical", "Gears", "Hardware", "Motor Controllers", "Motors/Servos", "Raw Materials", "Sensors", "Sprockets", "Tools", "Wheels"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "http://www.revrobotics.com/" }
+			]
+		}, {
+			"name": "RoboPromo",
+			"image": "/images/products/vendors/robopromo.jpg",
+			"filters": {
+				"Product Category": ["Batteries and Accessories", "Bumper Accessories"],
+				"Location": ["Michigan", "United States"]
+			},
+			"links": [
+				{ "vendor": "RoboPromo", "link": "http://www.robopromo.com/" }
+			]
+		}, {
+			"name": "RoboRealm",
+			"image": "/images/products/vendors/roborealm.gif",
+			"filters": {
+				"Product Category": ["Software"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "RoboRealm", "link": "http://www.roborealm.com/" }
+			]
+		}, {
+			"name": "Robot Marketplace",
+			"image": "/images/products/vendors/robot-marketplace.gif",
+			"filters": {
+				"Product Category": ["Gearboxes", "Gears", "Pneumatics", "Pulleys", "Sensors", "Sprockets", "Tools", "Wheels"],
+				"Location": ["Florida", "United States"]
+			},
+			"links": [
+				{ "vendor": "Robot Marketplace", "link": "http://www.robotmarketplace.com/" }
+			]
+		}, {
+			"name": "RobotShop",
+			"image": "/images/products/vendors/robotshop.jpg",
+			"filters": {
+				"Product Category": ["Gearboxes", "Gears", "Pulleys", "Sensors", "Sprockets", "Tools", "Wheels"],
+				"Location": ["Canada", "France", "United Kingdom", "United States"]
+			},
+			"links": [
+				{ "vendor": "RobotShop", "link": "http://www.robotshop.com/" }
+			]
+		}, {
+			"name": "RollerChain4Less",
+			"image": "/images/products/vendors/rollerchain4less.png",
+			"filters": {
+				"Product Category": ["Sprockets"],
+				"Location": ["United States", "Wisconsin"]
+			},
+			"links": [
+				{ "vendor": "RollerChain4Less", "link": "https://www.rollerchain4less.com/" }
+			]
+		}, {
+			"name": "Ruland",
+			"image": "/images/products/vendors/ruland.gif",
+			"filters": {
+				"Product Category": ["Hardware"],
+				"Location": ["Massachusetts", "United States"]
+			},
+			"links": [
+				{ "vendor": "Ruland", "link": "http://www.ruland.com/" }
+			]
+		}, {
+			"name": "SDP/SI",
+			"image": "/images/products/vendors/sdpsi.png",
+			"filters": {
+				"Product Category": ["Gears", "Hardware", "Pulleys", "Sprockets"],
+				"Location": ["New York", "United States"]
+			},
+			"links": [
+				{ "vendor": "SDP/SI", "link": "https://shop.sdp-si.com/catalog/" }
+			]
+		}, {
+			"name": "SMC Pneumatics",
+			"image": "/images/products/vendors/smc-pneumatics.gif",
+			"filters": {
+				"Product Category": ["Pneumatics"],
+				"Location": ["California", "United States"]
+			},
+			"links": [
+				{ "vendor": "SMC Pneumatics", "link": "http://www.smcpneumatics.com/" }
+			]
+		}, {
+			"name": "Snap Action",
+			"image": "/images/products/vendors/snap-action.gif",
+			"filters": {
+				"Product Category": ["Electrical"],
+				"Location": ["New Jersey", "United States"]
+			},
+			"links": [
+				{ "vendor": "Snap Action", "link": "http://www.snapaction.net/" }
+			]
+		}, {
+			"name": "SolidWorks",
+			"image": "/images/products/vendors/solidworks.png",
+			"filters": {
+				"Product Category": ["Software"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "SolidWorks", "link": "http://www.solidworks.com/" }
+			]
+		}, {
+			"name": "SparkFun",
+			"image": "/images/products/vendors/sparkfun.png",
+			"filters": {
+				"Product Category": ["Electrical", "Motors/Servos", "Sensors", "Tools"],
+				"Location": ["Colorado", "United States"]
+			},
+			"links": [
+				{ "vendor": "SparkFun", "link": "http://www.sparkfun.com/" }
+			]
+		}, {
+			"name": "Studica",
+			"image": "/images/products/vendors/studica.png",
+			"filters": {
+				"Product Category": ["Batteries and Accessories", "Bumper Accessories", "Electrical", "Gearboxes", "Gears", "Hardware", "Motor Controllers", "Motors/Servos", "Pneumatics", "Pre-made Driveline Assemblies", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Wheels"],
+				"Location": ["Canada"]
+			},
+			"links": [
+				{ "vendor": "Studica", "link": "http://www.studica.com/" }
+			]
+		}, {
+			"name": "Super Bright LEDs",
+			"image": "/images/products/vendors/superbrightleds.png",
+			"filters": {
+				"Product Category": ["Electrical"],
+				"Location": ["Missouri", "United States"]
+			},
+			"links": [
+				{ "vendor": "Super Bright LEDs", "link": "https://www.superbrightleds.com/" }
+			]
+		}, {
+			"name": "Swerve Drive Specialties",
+			"image": "/images/products/vendors/swervedrivespecialties.webp",
+			"filters": {
+				"Product Category": ["Gearboxes", "Gears", "Hardware", "Pre-made Driveline Assemblies", "Pulleys", "Wheels"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "Swerve Drive Specialties", "link": "https://www.swervedrivespecialties.com/" }
+			]
+		}, {
+			"name": "Swyft Robotics",
+			"image": "/images/products/vendors/swyft.png",
+			"filters": {
+				"Product Category": ["Electrical", "Hardware", "Pneumatics", "Pulleys", "Sensors"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "Swyft Robotics", "link": "https://swyftrobotics.com/" }
+			]
+		}, {
+			"name": "Tableau",
+			"image": "/images/products/vendors/tableau.png",
+			"filters": {
+				"Product Category": ["Software"],
+				"Location": ["United States", "Washington"]
+			},
+			"links": [
+				{ "vendor": "Tableau", "link": "http://www.tableau.com/" }
+			]
+		}, {
+			"name": "TE Connectivity",
+			"image": "/images/products/vendors/te-connectivity.svg",
+			"filters": {
+				"Product Category": ["Electrical", "Sensors"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "TE Connectivity", "link": "http://www.te.com/" }
+			]
+		}, {
+			"name": "The Robot Space",
+			"image": "/images/products/vendors/the-robot-space.png",
+			"filters": {
+				"Product Category": ["Batteries and Accessories", "Bumper Accessories", "Electrical", "Gearboxes", "Gears", "Hardware", "Motor Controllers", "Motors/Servos", "Pneumatics", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Tools", "Wheels"],
+				"Location": ["Michigan", "United States"]
+			},
+			"links": [
+				{ "vendor": "The Robot Space", "link": "http://www.therobotspace.com/" }
+			]
+		}, {
+			"name": "Thrifty Bot",
+			"image": "/images/products/vendors/thriftybot.png",
+			"filters": {
+				"Product Category": ["Hardware", "Wheels"],
+				"Location": ["Indiana", "United States"]
+			},
+			"links": [
+				{ "vendor": "Thrifty Bot", "link": "https://www.thethriftybot.com/" }
+			]
+		}, {
+			"name": "Triangle Manufacturing",
+			"image": "/images/products/vendors/triangle-manufacturing.gif",
+			"filters": {
+				"Product Category": ["Hardware"],
+				"Location": ["United States", "Wisconsin"]
+			},
+			"links": [
+				{ "vendor": "Triangle Manufacturing", "link": "http://www.triangleoshkosh.com/" }
+			]
+		}, {
+			"name": "US Digital",
+			"image": "/images/products/vendors/us-digital.gif",
+			"filters": {
+				"Product Category": ["Sensors"],
+				"Location": ["United States", "Washington"]
+			},
+			"links": [
+				{ "vendor": "US Digital", "link": "http://www.usdigital.com/" }
+			]
+		}, {
+			"name": "VEX Robotics",
+			"image": "/images/products/vendors/vex-robotics.png",
+			"filters": {
+				"Product Category": ["Control System", "Gearboxes", "Gears", "Hardware", "Motor Controllers", "Motors/Servos", "Pneumatics", "Pre-made Driveline Assemblies", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Wheels"],
+				"Location": ["Texas", "United States"]
+			},
+			"links": [
+				{ "vendor": "VEX Robotics", "link": "http://www.vexrobotics.com/" }
+			]
+		}, {
+			"name": "Vivid Hosting",
+			"image": "/images/products/vendors/vividhosting.png",
+			"filters": {
+				"Product Category": ["Control System"],
+				"Location": ["United States"]
+			},
+			"links": [
+				{ "vendor": "Vivid Hosting", "link": "https://vivid-hosting.net/" }
+			]
+		}, {
+			"name": "Vulcan Spring",
+			"image": "/images/products/vendors/vulcan-spring.jpg",
+			"filters": {
+				"Product Category": ["Hardware"],
+				"Location": ["Pennsylvania", "United States"]
+			},
+			"links": [
+				{ "vendor": "Vulcan Spring", "link": "http://www.vulcanspring.com/" }
+			]
+		}, {
+			"name": "Wattos",
+			"image": "/images/products/vendors/wattos.png",
+			"filters": {
+				"Product Category": ["Bumper Accessories", "Wheels"],
+				"Location": ["Turkey"]
+			},
+			"links": [
+				{ "vendor": "Wattos", "link": "https://wattos.com.tr/" }
+			]
+		}, {
+			"name": "West Coast Products",
+			"image": "/images/products/vendors/west-coast-products.gif",
+			"filters": {
+				"Product Category": ["Gearboxes", "Gears", "Hardware", "Motor Controllers", "Motors/Servos", "Pneumatics", "Pre-made Driveline Assemblies", "Pulleys", "Raw Materials", "Sensors", "Sprockets", "Wheels"],
+				"Location": ["California", "United States"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "http://www.wcproducts.net/" }
+			]
+		}
+	]
+}

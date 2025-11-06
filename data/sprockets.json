@@ -1,0 +1,476 @@
+{
+	"title": "Sprockets",
+	"description": "<p>Sprockets drive and guide chain systems in robotics mechanisms. They’re available in multiple pitches, tooth counts, and bore types to suit various torque needs. Proper alignment and chain tension help prevent slippage and extend drivetrain life.</p>",
+	"filter_groups": ["Bore", "Chain Pitch", "Material", "Style", "Teeth"],
+	"products": [
+		{
+			"name": "AndyMark #25 Plate",
+			"image": "/images/products/sprockets/am-25-plate.webp",
+			"filters": {
+				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Plate"],
+				"Teeth": ["32", "38", "44", "50", "56", "62", "68", "74"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/sprockets/products/25-series-bearing-bore-plate-sprockets" }
+			]
+		}, {
+			"name": "AndyMark #25 Symmetrical 8mm Hub",
+			"image": "/images/products/sprockets/am-25-8mm-hub.webp",
+			"filters": {
+				"Bore": ["8mm"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["10"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/sprockets/products/25-series-symmetrical-hub-sprockets" }
+			]
+		}, {
+			"name": "AndyMark #25 Symmetrical Hex Hub",
+			"image": "/images/products/sprockets/am-25-hex-hub.webp",
+			"filters": {
+				"Bore": ["0.375\" hex", "0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["14", "18", "22", "26"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/sprockets/products/25-series-symmetrical-hub-sprockets" }
+			]
+		}, {
+			"name": "AndyMark #35 Plate",
+			"image": "/images/products/sprockets/am-35-plate.webp",
+			"filters": {
+				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Plate"],
+				"Teeth": ["22", "28", "34", "40", "46", "52", "58", "64"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/sprockets/products/35-series-bearing-bore-plate-sprockets" }
+			]
+		}, {
+			"name": "AndyMark #35 Symmetrical Hex Hub",
+			"image": "/images/products/sprockets/am-35-hex-hub.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["10", "14", "18"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/sprockets/products/35-series-symmetrical-hub-sprockets" }
+			]
+		}, {
+			"name": "Double Sprocket",
+			"image": "/images/products/sprockets/am-25-double.jpg",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["7075 Aluminum"],
+				"Style": ["Double Sprocket"],
+				"Teeth": ["17"]
+			},
+			"links": [
+				{ "vendor": "AndyMark", "link": "https://www.andymark.com/products/sprocket-17t-25-chain-double-sprocket-for-wcd" }
+			]
+		}, {
+			"name": "McMaster #25 Hub Sprocket 1/2\" bore",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
+			"filters": {
+				"Bore": ["0.5\" w/ set screw"],
+				"Chain Pitch": ["25"],
+				"Material": ["Steel"],
+				"Style": ["Hub"],
+				"Teeth": ["14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "28", "30", "32", "36", "40", "45", "54", "60", "70", "72"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/roller-chain-sprockets/roller-chain-trade-number~25/id~1-2-2/" }
+			]
+		}, {
+			"name": "McMaster #25 Hub Sprocket 3/8\" bore",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
+			"filters": {
+				"Bore": ["0.375\" w/ set screw"],
+				"Chain Pitch": ["25"],
+				"Material": ["Steel"],
+				"Style": ["Hub"],
+				"Teeth": ["12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "28", "30", "32", "36"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/roller-chain-sprockets/roller-chain-trade-number~25/id~3-8-2/" }
+			]
+		}, {
+			"name": "McMaster #35 Hub Sprocket 1/2\" bore",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
+			"filters": {
+				"Bore": ["0.5\" w/ set screw", "0.5\" w/ 1/8\" keyway"],
+				"Chain Pitch": ["35"],
+				"Material": ["Steel"],
+				"Style": ["Hub"],
+				"Teeth": ["10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "28", "30"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/roller-chain-sprockets/roller-chain-trade-number~35/id~1-2-2/" }
+			]
+		}, {
+			"name": "McMaster #35 Hub Sprocket 3/8\" bore",
+			"image": "/images/products/sprockets/mcmaster-hub.png",
+			"filters": {
+				"Bore": ["0.375\" w/ set screw", "0.375\" w/ 3/32\" keyway"],
+				"Chain Pitch": ["35"],
+				"Material": ["Steel"],
+				"Style": ["Hub"],
+				"Teeth": ["9", "10", "11"]
+			},
+			"links": [
+				{ "vendor": "McMaster", "link": "https://www.mcmaster.com/roller-chain-sprockets/roller-chain-trade-number~35/id~3-8-2/" }
+			]
+		}, {
+			"name": "REV #25 Billet",
+			"image": "/images/products/sprockets/rev-25-billet.webp",
+			"filters": {
+				"Bore": ["MAXSpline"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Billet"],
+				"Teeth": ["40", "48", "56", "64", "72"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-25-Sprockets/" }
+			]
+		}, {
+			"name": "REV #25 Double Hub",
+			"image": "/images/products/sprockets/rev25.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Double Sprocket"],
+				"Teeth": ["16"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/25-sprockets/" }
+			]
+		}, {
+			"name": "REV #25 Hex",
+			"image": "/images/products/sprockets/rev25.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["12", "16", "24", "32"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/25-sprockets/" }
+			]
+		}, {
+			"name": "REV #25 MAXSpline",
+			"image": "/images/products/sprockets/rev25.webp",
+			"filters": {
+				"Bore": ["MAXSpline"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Plate"],
+				"Teeth": ["24", "32", "48", "64"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/25-sprockets/" }
+			]
+		}, {
+			"name": "REV #35 Billet",
+			"image": "/images/products/sprockets/rev-35-billet.webp",
+			"filters": {
+				"Bore": ["MAXSpline"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Billet"],
+				"Teeth": ["28", "32", "36", "40", "44", "48", "52", "56", "60", "64", "68", "72", "76", "80"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-35-Sprockets/" }
+			]
+		}, {
+			"name": "REV #35 Hex",
+			"image": "/images/products/sprockets/rev-35-hex.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["9", "10", "11", "12", "16", "18", "20", "24"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-35-Sprockets/" }
+			]
+		}, {
+			"name": "REV #35 Plate",
+			"image": "/images/products/sprockets/rev-35-plate.webp",
+			"filters": {
+				"Bore": ["MAXSpline"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["16", "18", "20", "24"]
+			},
+			"links": [
+				{ "vendor": "REV Robotics", "link": "https://www.revrobotics.com/ION-35-Sprockets/" }
+			]
+		}, {
+			"name": "TTB #25 1/2\" hex 22T",
+			"image": "/images/products/sprockets/ttb-25.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["22"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/qty-2-half-inch-hex-22-tooth-25-sprocket" }
+			]
+		}, {
+			"name": "TTB #25 Billet",
+			"image": "/images/products/sprockets/ttb-25-billet.webp",
+			"filters": {
+				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Billet"],
+				"Teeth": ["36", "60", "84"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/25-chain-billet-sprockets" }
+			]
+		}, {
+			"name": "TTB #25 1/2\" Hex",
+			"image": "/images/products/sprockets/ttb-25-hex.webp",
+			"filters": {
+				"Bore": ["0.5 hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["14", "17"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/25-small-drive-sprockets" }
+			]
+		}, {
+			"name": "TTB #25 3/8\" Hex",
+			"image": "/images/products/sprockets/ttb-25-hex.webp",
+			"filters": {
+				"Bore": ["0.375 hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["9", "12"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/25-small-drive-sprockets" }
+			]
+		}, {
+			"name": "TTB #25 Plate",
+			"image": "/images/products/sprockets/ttb-25-plate.webp",
+			"filters": {
+				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Plate"],
+				"Teeth": ["36", "48", "60", "72", "84"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/25-flat-plate-sprockets" }
+			]
+		}, {
+			"name": "TTB #35 Billet",
+			"image": "/images/products/sprockets/ttb-35-billet.webp",
+			"filters": {
+				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Billet"],
+				"Teeth": ["36", "60", "84"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/35-chain-billet-sprockets" }
+			]
+		}, {
+			"name": "TTB #35 Plate",
+			"image": "/images/products/sprockets/ttb-35-plate.webp",
+			"filters": {
+				"Bore": ["1.125\"", "1.875\" Bolt Circle", "2\" Bolt Circle"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Plate"],
+				"Teeth": ["24", "36", "48", "60", "72", "84"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/35-flat-plate-sprockets" }
+			]
+		}, {
+			"name": "TTB #35 3/8\" Hex",
+			"image": "/images/products/sprockets/ttb-35-375-hex.webp",
+			"filters": {
+				"Bore": ["0.375\" hex"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["7"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/35-small-sprockets" }
+			]
+		}, {
+			"name": "TTB #35 1/2\" Hex",
+			"image": "/images/products/sprockets/ttb-35-500-hex.webp",
+			"filters": {
+				"Bore": ["0.500\" hex"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["10"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/35-small-sprockets" }
+			]
+		}, {
+			"name": "TTB #35 1/2\" Double Hex",
+			"image": "/images/products/sprockets/ttb-35-500-dobule-hex.webp",
+			"filters": {
+				"Bore": ["0.500\" hex"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Double Sprocket"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/35-small-sprockets" }
+			]
+		}, {
+			"name": "TTB #35 8mm",
+			"image": "/images/products/sprockets/ttb-35-8mm.webp",
+			"filters": {
+				"Bore": ["8mm w/ keyway"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["12"]
+			},
+			"links": [
+				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/35-small-sprockets" }
+			]
+		}, {
+			"name": "WCP #25 Double Hex",
+			"image": "/images/products/sprockets/wcp-25-double-hex.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Double Sprocket"],
+				"Teeth": ["16", "17", "18"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/25-sprockets" }
+			]
+		}, {
+			"name": "WCP #25 Aluminum Hex",
+			"image": "/images/products/sprockets/wcp-25-hex.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Double Sprocket"],
+				"Teeth": ["16", "17", "18", "20", "22", "24", "26", "28", "30", "32", "34", "36"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/25-sprockets" }
+			]
+		}, {
+			"name": "WCP #25 Steel Hex",
+			"image": "/images/products/sprockets/wcp-25-steel-hex.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["25"],
+				"Material": ["Steel"],
+				"Style": ["Hub"],
+				"Teeth": ["12", "14", "16"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/25-sprockets" }
+			]
+		}, {
+			"name": "WCP #25 SplineXL",
+			"image": "/images/products/sprockets/wcp-25-splinexl.webp",
+			"filters": {
+				"Bore": ["SplineXL"],
+				"Chain Pitch": ["25"],
+				"Material": ["Aluminum"],
+				"Style": ["Plate"],
+				"Teeth": ["24", "30", "36", "42", "48", "54", "60", "66", "72", "84"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/25-sprockets" }
+			]
+		}, {
+			"name": "WCP #25 SplineXS",
+			"image": "/images/products/sprockets/wcp-splinexs.webp",
+			"filters": {
+				"Bore": ["SplineXS"],
+				"Chain Pitch": ["25"],
+				"Material": ["Steel"],
+				"Style": ["Hub"],
+				"Teeth": ["10", "12"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/25-sprockets" }
+			]
+		}, {
+			"name": "WCP #35 Aluminum Hex",
+			"image": "/images/products/sprockets/wcp-35-hex.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Hub"],
+				"Teeth": ["12", "15", "18"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/35-sprockets" }
+			]
+		}, {
+			"name": "WCP #35 Steel Hex",
+			"image": "/images/products/sprockets/wcp-35-steel-hex.webp",
+			"filters": {
+				"Bore": ["0.5\" hex"],
+				"Chain Pitch": ["35"],
+				"Material": ["Steel"],
+				"Style": ["Hub"],
+				"Teeth": ["9", "12", "15", "18"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/35-sprockets" }
+			]
+		}, {
+			"name": "WCP #35 SplineXL",
+			"image": "/images/products/sprockets/wcp-35-steel-hex.webp",
+			"filters": {
+				"Bore": ["SplineXL"],
+				"Chain Pitch": ["35"],
+				"Material": ["Aluminum"],
+				"Style": ["Plate"],
+				"Teeth": ["18", "24", "30", "36", "42", "48", "54", "60", "66", "72", "84"]
+			},
+			"links": [
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/35-sprockets" }
+			]
+		}
+	]
+}

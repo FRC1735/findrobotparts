@@ -1,5 +1,0 @@
-
-sqlh = ""
-sqlu = ""
-sqld = ""
-sqlp = ""
