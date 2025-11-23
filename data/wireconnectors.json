@@ -4,19 +4,6 @@
 	"filter_groups": ["Type", "Gender", "Insulated", "Color", "Wire Size"],
 	"products": [
 		{
-			"name": "775 Connect",
-			"image": "/images/products/wireconnectors/775trsinline.jpg",
-			"filters": {
-				"Type": ["Powerpole"],
-				"Gender": ["N/A"],
-				"Insulated": ["Yes"],
-				"Color": ["Black", "Red"],
-				"Wire Size": ["10 AWG", "12 AWG"]
-			},
-			"links": [
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/217-6457.html" }
-			]
-		}, {
 			"name": "Butt Connector",
 			"image": "/images/products/wireconnectors/butt.jpg",
 			"filters": {
