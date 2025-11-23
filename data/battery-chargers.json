@@ -58,7 +58,7 @@
 				{ "vendor": "Walmart", "link": "https://www.walmart.com/ip/Dual-Pro-Recreation-Series-Triple-Output-Charger-3-Bank-6-amp-RS3/20753296" }
 			]
 		}, {
-			"name": "GENIUS2X4  6V/12V 4-Bank",
+			"name": "NOCO GENIUS 2X4 6V/12V 4-Bank",
 			"image": "/images/products/battery-chargers/noco-genius.jpg",
 			"filters": {
 				"Banks": ["4"],
@@ -66,8 +66,32 @@
 			},
 			"links": [
 				{ "vendor": "Amazon", "link": "https://www.amazon.com/dp/B08FYS6CL8/" },
-				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/batteries-chargers/products/frc-battery-charger?variant=44493438058668" },
 				{ "vendor": "NOCO", "link": "https://no.co/genius2x4" }
+			]
+		}, {
+			"name": "NOCO GENIUS 5X1 6V/12V 1-Bank",
+			"image": "/images/products/battery-chargers/noco-genius-5x1.jpg",
+			"filters": {
+				"Banks": ["1"],
+				"Amps per Bank": ["5"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/NOCO-GENIUS5-Fully-Automatic-Temperature-Compensation/dp/B07W8KJH44/ref=sr_1_1_sspa"},
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/batteries-chargers/products/frc-battery-charger?variant=44493438025900" },
+				{ "vendor": "NOCO", "link": "https://no.co/genius5" }
+			]
+		}, {
+			"name": "NOCO GENIUS 5X3 6V/12V 3-Bank",
+			"image": "/images/products/battery-chargers/noco-genius-5x3.jpg",
+			"filters": {
+				"Banks": ["3"],
+				"Amps per Bank": ["5"]
+			},
+			"links": [
+				{ "vendor": "Amazon", "link": "https://www.amazon.com/NOCO-GEN5X3-Fully-Automatic-Temperature-Compensation/dp/B08G3F4RN8/ref=sr_1_1"},
+				{ "vendor": "AndyMark", "link": "https://andymark.com/collections/batteries-chargers/products/frc-battery-charger?variant=44493438058668" },
+				{ "vendor": "NOCO", "link": "https://no.co/gen5x3" },
+				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/batteries-accessories" }
 			]
 		}, {
 			"name": "Viking 4 Amp Battery Charger/Maintainer",
