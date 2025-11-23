@@ -324,30 +324,6 @@
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/hand-tools" }
 			]
 		}, {
-			"name": "VEX EDR Chain",
-			"image": "/images/products/chain/vexedr.jpg",
-			"filters": {
-				"ANSI Chain Size": ["N/A"],
-				"Pitch": ["0.1475\""],
-				"Type": ["Roller Chain"],
-				"Material": ["Plastic"]
-			},
-			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/sprockets-and-chain.html" }
-			]
-		}, {
-			"name": "VEX EDR High Strength Chain",
-			"image": "/images/products/chain/vexedrhs.jpg",
-			"filters": {
-				"ANSI Chain Size": ["#35"],
-				"Pitch": ["0.375\""],
-				"Type": ["Roller Chain"],
-				"Material": ["Plastic"]
-			},
-			"links": [
-				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/hs-sprockets-and-chain.html" }
-			]
-		}, {
 			"name": "WCP #25 Chain Breaker",
 			"image": "/images/products/chain/wcp-25-tensioner.webp",
 			"filters": {

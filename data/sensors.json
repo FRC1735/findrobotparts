@@ -88,18 +88,6 @@
 				{ "vendor": "Analog Devices", "link": "http://www.analog.com/en/products/mems/mems-gyroscopes/adxrs450.html" }
 			]
 		}, {
-			"name": "Analog Accelerometer",
-			"image": "/images/products/sensors/analog-accelerometer.jpg",
-			"filters": {
-				"Type": ["Accelerometer"],
-				"Measures": ["Acceleration", "Orientation"],
-				"Output": ["Analog"],
-				"Voltage": ["5.5"]
-			},
-			"links": [
-				{ "vendor": "VEX EDR", "link": "https://www.vexrobotics.com/276-2332.html" }
-			]
-		}, {
 			"name": "Analog Pressure Sensor",
 			"image": "/images/products/sensors/analog-pressure-sensor.jpg",
 			"filters": {
@@ -356,18 +344,6 @@
 			},
 			"links": [
 				{ "vendor": "VEX EDR", "link": "http://www.vexrobotics.com/vexedr/products/view-all/276-2174.html" }
-			]
-		}, {
-			"name": "Limit switch, side rotary adjustable lever",
-			"image": "/images/products/sensors/rotarypot.jpg",
-			"filters": {
-				"Type": ["Limit Switch"],
-				"Measures": ["Touch"],
-				"Output": ["Digital"],
-				"Voltage": ["0", "5.5", "12"]
-			},
-			"links": [
-				{ "vendor": "Automation Direct", "link": "https://www.vexrobotics.com/276-2174.html" }
 			]
 		}, {
 			"name": "Line Tracker",

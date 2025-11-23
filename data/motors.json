@@ -27,7 +27,6 @@
 				"Integrated Controller": ["No"]
 			},
 			"links": [
-				{ "vendor": "VEXpro", "link": "https://www.vexrobotics.com/775pro.html" },
 				{ "vendor": "West Coast Products", "link": "https://wcproducts.com/products/brushed-motors" }
 			]
 		}, {

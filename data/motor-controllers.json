@@ -71,17 +71,6 @@
 			"links": [
 				{ "vendor": "The Thrifty Bot", "link": "https://www.thethriftybot.com/products/thrifty-nova" }
 			]
-		}, {
-			"name": "Victor SPX",
-			"image": "/images/products/motor-controllers/victor-spx.jpg",
-			"filters": {
-				"Input Type": ["CAN", "PWM"],
-				"Sensor Inputs": ["N/A"],
-				"Embedded Permanant Wires": ["Yes"]
-			},
-			"links": [
-				{ "vendor": "VEX", "link": "https://www.vexrobotics.com/217-9191.html" }
-			]
 		}
 	]
 }
