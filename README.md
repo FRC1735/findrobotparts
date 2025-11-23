@@ -90,7 +90,6 @@ Link to the product page when possible. Search pages are acceptable if it allows
 When a product is no longer available it needs to be removed from the system. To do this do the following steps:
 1. Remove the product from the JSON file in `/data/`
 2. Delete the image from `/images/products/`
-3. Delete the image from `/www/images/products/`
 
 ## How to Contribute
 We welcome community contributions!

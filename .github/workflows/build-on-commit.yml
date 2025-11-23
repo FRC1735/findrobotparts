@@ -1,4 +1,4 @@
-name: Convert new/modified images to 400px webp
+name: Build site (images + HTML)
 
 permissions:
   contents: write
@@ -7,19 +7,31 @@ on:
   push:
     paths:
       - 'images/**'
+      - 'data/*.json'
+      - 'data/**/*.json'
+      - 'templates/*.hbs'
+      - 'templates/**/*.hbs'
   pull_request:
     paths:
       - 'images/**'
+      - 'data/*.json'
+      - 'data/**/*.json'
+      - 'templates/*.hbs'
+      - 'templates/**/*.hbs'
 
 jobs:
-  convert:
+  build:
     runs-on: ubuntu-latest
 
     steps:
+      # --- CHECKOUT ---
+
       - name: Checkout full history (needed for git diff)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # --- DIFF RANGE ---
 
       - name: Work out diff range
         id: diff
@@ -38,6 +50,52 @@ jobs:
             echo "head=${{ github.sha }}" >> "$GITHUB_OUTPUT"
           fi
 
+      # --- FIND DELETED / RENAMED IMAGES (to delete their webp) ---
+
+      - name: List deleted/renamed images under /images
+        id: removed_images
+        shell: bash
+        run: |
+          set -eo pipefail
+          # Use name-status so we can see D and R with old paths
+          CHANGED=$(
+            git diff --name-status -M \
+              "${{ steps.diff.outputs.base }}" "${{ steps.diff.outputs.head }}" -- \
+              'images/**/*.*' \
+            | grep -Ei '\.(jpe?g|png|gif|tiff?|bmp|webp|avif|svg)$' || true
+          )
+
+          # Extract old paths for:
+          # - D (deleted):  D   images/foo.jpg
+          # - R (renamed): R100 images/old.jpg  images/new.jpg
+          REMOVED=$(
+            printf '%s\n' "$CHANGED" | awk '
+              $1 == "D" { print $2 }
+              $1 ~ /^R[0-9]+$/ { print $2 }
+            ' || true
+          )
+
+          {
+            echo "list<<EOF"
+            echo "$REMOVED"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Delete corresponding .webp files in /www/images
+        if: ${{ steps.removed_images.outputs.list != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r src; do
+            [[ -z "$src" ]] && continue
+            rel="${src#images/}"
+            dest="www/images/${rel%.*}.webp"
+            echo "Deleting derivative for removed image: $dest"
+            rm -f "$dest" || true
+          done <<< "${{ steps.removed_images.outputs.list }}"
+
+      # --- FIND ADDED / MODIFIED IMAGES (to regenerate webp) ---
+
       - name: List added/modified images under /images
         id: files
         shell: bash
@@ -54,6 +112,8 @@ jobs:
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
+      # --- IMAGE CONVERSION ---
+
       - name: Install ImageMagick
         shell: bash
         run: |
@@ -61,7 +121,6 @@ jobs:
             sudo apt-get update
             sudo apt-get install -y imagemagick
           fi
-          # Print version for debugging
           (magick -version || convert -version) || true
 
       - name: Convert to 400px-wide .webp in /www/images (overwrite if exists)
@@ -85,7 +144,6 @@ jobs:
             echo "Wrote: $dest"
           }
 
-          # Process each changed file (added/modified/renamed/copied) and always overwrite the derivative
           while IFS= read -r f; do
             [[ -z "$f" ]] && continue
             convert_one "$f"
@@ -101,10 +159,33 @@ jobs:
           echo
           echo "Git status:"
           git status --porcelain
-          
-      - name: Commit generated files back to the branch
-        # On forked PRs this step may not have permission; then it will no-op.
+
+      # --- HTML BUILD ---
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate HTML
+        run: npm run build
+
+      - name: Upload HTML preview (PRs)
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-html
+          path: 'www'
+
+      # --- AUTO-COMMIT GENERATED OUTPUT (push only) ---
+
+      - name: Commit generated output (push)
+        if: ${{ github.event_name == 'push' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore(images): update 400px webp derivatives for changed images'
-          file_pattern: 'www/images'
+          commit_message: "chore: rebuild HTML & 400px webp images [skip ci]"
+          file_pattern: |
+            www
