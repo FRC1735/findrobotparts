@@ -1,0 +1,25 @@
+name: Deploy www via SFTP
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy www folder via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USER }}
+          port: 22
+          password: ${{ secrets.SFTP_PASS }}
+          local_path: './www/*'
+          remote_path: './'
+          sftp_only: true
+          rsyncArgs: '--exclude=.git --exclude=.github --exclude=node_modules'
